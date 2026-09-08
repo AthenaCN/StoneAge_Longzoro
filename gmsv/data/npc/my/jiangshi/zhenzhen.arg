@@ -1,0 +1,13 @@
+#身上有灵魂
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>1&ITEM=30908&NOWEV=232
+NomalWindowMsg:什么？？小倩死了？？\n\n那倩妈一定很伤心，其实小倩她人不坏的……
+EventEnd
+
+#### 未接任务对话 ####
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0
+NomalWindowMsg:我是珍珍，是嘉嘉的女儿。\n我妈老催我嫁出去\n不是还没遇到心爱的嘛，真搞不懂，我那么漂亮还怕我嫁不出去。\n楼上新搬来一对父子，我蛮喜欢的他们的，据说他们是警察！
+EventEnd

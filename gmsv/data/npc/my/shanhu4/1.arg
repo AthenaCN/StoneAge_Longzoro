@@ -1,0 +1,47 @@
+#### 精炼师「石」 ####
+
+START_MSG:你想精炼等级11以上的「石」吗？\n提炼一次十万元喔。\n需要2个相同等级的素材才能精练出更高级的。\n爱雪石器欢迎你
+
+MenuHead:选择要精炼的素材
+NeedHead:需要的素材
+
+
+####  12级石 ####
+{
+CHANGEITEM:3006
+NeedItem:13074,13074
+FREE:ENDEV=184&ITEM=13074*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:13074*2
+GetRandItem:13074,3006
+}
+
+####  13级石 ####
+{
+CHANGEITEM:3007
+NeedItem:3006,3006
+FREE:ENDEV=184&ITEM=3006*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:3006*2
+GetRandItem:3006,3007
+}
+
+####  14级石 ####
+{
+CHANGEITEM:3008
+NeedItem:3007,3007
+FREE:ENDEV=184&ITEM=3007*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:3007*2
+GetRandItem:3007,3008
+}
+
+####  15级石 ####
+{
+CHANGEITEM:3009
+NeedItem:3008,3008
+FREE:ENDEV=184&ITEM=3008*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:3008*2
+GetRandItem:3008,3009
+}

@@ -1,0 +1,12 @@
+NPCCREATE
+
+{
+name=百变大师
+floorid=2000
+borncenter=69,60
+dir=6
+createnum=1
+ignoreinvincible=1
+enemy=npcgen_warpman|file:my/bbi/bbi.arg
+graphicname=104613
+}

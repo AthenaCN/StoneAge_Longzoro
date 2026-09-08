@@ -1,0 +1,15 @@
+###########################################
+
+NomalMainMsg:你也以猜谜大师为目标吧！
+
+
+EventNo:47
+TYPE:ACCEPT
+EVENT:ENDEV=44&NOWEV=47
+AcceptMsg:\n\n从今天开始\n不用做蓝暴任务拉\n那么，我们赶快把这箱子打开吧！
+ThanksMsg:\n锵～～\n想不到谜之箱中竟然是左迪洛斯？？\n你可要好好的细心养育它唷～
+PetFullMsg:\n\n因为宠物太多而无法交给你喔。\n能否把宠物的数量减少之后再来呢？
+GetPet:351
+EndSetFlg:47
+EventEnd
+

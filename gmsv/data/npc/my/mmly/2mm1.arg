@@ -1,0 +1,9 @@
+###1mm1.arg的内容###
+START_MSG:HI，我是集市的传送师~\n
+MenuHead:选择目的地：
+
+{
+MenuStr:≮爱雪石器≯ 市集
+FREE:LV>0
+WARPPOINT:1090,25,25
+}

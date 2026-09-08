@@ -1,0 +1,235 @@
+START_MSG:这里是点卷兑换店哦~\n\n那请你先熟读下列规则：\n兑换点卷的同时将扣除相应的会员点！点数不够请与管理员联系冲值哦。
+END_MSG:你是否确定够买这个物品？？？
+
+
+
+{
+MenuStr:至尊-红魔王       会员点 1000
+VipItem:33209,1000
+}
+{
+MenuStr:至尊-影暴         会员点 1000
+VipItem:33210,1000
+}
+{
+MenuStr:至尊-白虎         会员点 1000
+VipItem:33211,1000
+}
+{
+MenuStr:至尊-蓝蓝         会员点 1000
+VipItem:33212,1000
+}
+{
+MenuStr:至尊-影豹         会员点 1000
+VipItem:33213,1000
+}
+
+{
+MenuStr:至尊-加雷         会员点 1000
+VipItem:33214,1000
+}
+{
+MenuStr:至尊-骨龙         会员点 1000
+VipItem:33215,1000
+}
+
+{
+MenuStr:至尊-黑马         会员点 1000
+VipItem:33216,1000
+}
+
+{
+MenuStr:至尊-白暴         会员点 1000
+VipItem:33217,1000
+}
+{
+MenuStr:黑恶魔            会员点 1000
+VipItem:33219,1000
+}
+
+{
+MenuStr:机械鸟            会员点 1000
+VipItem:33220,1000
+}
+{
+MenuStr:红鸟              会员点 1000
+VipItem:33221,1000
+}
+
+{
+MenuStr:白班虎            会员点 1000
+VipItem:33237,1000
+}
+{
+MenuStr:蓝虎              会员点 1000
+VipItem:33238,1000
+}
+
+{
+MenuStr:伊姆              会员点 1000
+VipItem:33240,1000
+}
+
+
+{
+MenuStr:蓝剑              会员点 1000
+VipItem:33241,1000
+}
+{
+MenuStr:黄剑              会员点 1000
+VipItem:33242,1000
+}
+{
+MenuStr:黑虎              会员点 1000
+VipItem:40007,1000
+}
+{
+MenuStr:黄牛              会员点 1000
+VipItem:33244,1000
+}
+{
+MenuStr:暗暴              会员点 1000
+VipItem:33245,1000
+}
+
+{
+MenuStr:2D机暴            会员点 1000
+VipItem:33246,1000
+}
+
+{
+MenuStr:金暴              会员点 1000
+VipItem:33247,1000
+}
+
+{
+MenuStr:黑暴              会员点 1000
+VipItem:21334,1000
+}
+
+{
+MenuStr:暗炎              会员点 1000
+VipItem:33249,1000
+}
+{
+MenuStr:冰炎              会员点 1000
+VipItem:33250,1000
+}
+{
+MenuStr:圣蛇              会员点 1000
+VipItem:33251,1000
+}
+{
+MenuStr:风兽              会员点 1000
+VipItem:33252,1000
+}
+
+{
+MenuStr:火兽              会员点 1000
+VipItem:33253,1000
+}
+
+{
+MenuStr:水兽              会员点 1000
+VipItem:33254,1000
+}
+
+{
+MenuStr:地兽              会员点 1000
+VipItem:33259,1000
+}
+
+
+{
+MenuStr:闪虎              会员点 1000
+VipItem:40025,1000
+}
+
+{
+MenuStr:黑麒麟            会员点 1000
+VipItem:33257,1000
+}
+{
+MenuStr:蓝狗              会员点 1000
+VipItem:33258,1000
+}
+{
+MenuStr:蓝鸟              会员点 1000
+VipItem:33261,1000
+}
+{
+MenuStr:橙虎              会员点 1000
+VipItem:33248,1000
+}
+{
+MenuStr:黑虎              会员点 1000
+VipItem:40007,1000
+}
+{
+MenuStr:老鹰              会员点 1000
+VipItem:40009,1000
+}
+{
+MenuStr:雷哥而顿          会员点 1000
+VipItem:33243,1000
+}
+{
+MenuStr:艾斯机尔          会员点 1000
+VipItem:33256,1000
+}
+{
+MenuStr:玄武              会员点 1000
+VipItem:33257,1000
+}
+
+{
+MenuStr:ex                会员点 1000
+VipItem:21323,1000
+}
+
+{
+MenuStr:毕儿维斯          会员点 1000
+VipItem:50054,1000
+}
+{
+MenuStr:炎儿维斯           会员点 1000
+VipItem:50055,1000
+}
+{
+MenuStr:圡儿维斯           会员点 1000
+VipItem:50056,1000
+}
+{
+MenuStr:风儿维斯           会员点 1000
+VipItem:50057,1000
+}
+
+{
+MenuStr:黑机虎             会员点 1000
+VipItem:50058,1000
+}
+
+{
+MenuStr:奇宝                会员点 1000
+VipItem:20813,1000
+}
+
+{
+MenuStr:霍尔克                会员点 1000
+VipItem:20814,1000
+}
+
+{
+MenuStr:瑞里西尔               会员点 1000
+VipItem:20815,1000
+}
+
+{
+MenuStr:佩露夏                会员点 1000
+VipItem:21047,1000
+}
+
+{
+MenuStr:帕格萨卡斯                会员点 1000
+VipItem:21324,1000
+}

@@ -1,0 +1,11 @@
+NPCCREATE
+{
+floorid=2000
+borncenter=73,85
+time=0
+createnum=1
+graphicname=104559
+name=PK系统管理员
+dir=6
+enemy=autopk|file:my/autopk/autopk.arg
+}

@@ -1,0 +1,47 @@
+#### 精炼师「贝壳」 ####
+
+START_MSG:你想精炼等级11以上的「贝壳」吗？\n提炼一次十万元喔。\n需要2个相同等级的素材才能精练出更高级的。\n爱雪石器欢迎你
+
+MenuHead:选择要精炼的素材
+NeedHead:需要的素材
+
+
+####  12级贝壳 ####
+{
+CHANGEITEM:3072
+NeedItem:13080,13080
+FREE:ENDEV=184&ITEM=13080*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:13080*2
+GetRandItem:13080,3072
+}
+
+####  13级贝壳 ####
+{
+CHANGEITEM:3073
+NeedItem:3072,3072
+FREE:ENDEV=184&ITEM=3072*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:3072*2
+GetRandItem:3072,3073
+}
+
+####  14级贝壳 ####
+{
+CHANGEITEM:3074
+NeedItem:3073,3073
+FREE:ENDEV=184&ITEM=3073*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:3073*2
+GetRandItem:3073,3074
+}
+
+####  15级贝壳 ####
+{
+CHANGEITEM:3075
+NeedItem:3074,3074
+FREE:ENDEV=184&ITEM=3074*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:3074*2
+GetRandItem:3074,3075
+}

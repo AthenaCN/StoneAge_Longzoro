@@ -1,0 +1,47 @@
+#### 精炼师「皮」 ####
+
+START_MSG:你想精炼等级11以上的「皮」吗？\n提炼一次十万元喔。\n需要2个相同等级的素材才能精练出更高级的。\n爱雪石器欢迎你
+
+MenuHead:选择要精炼的素材
+NeedHead:需要的素材
+
+
+####  12级皮 ####
+{
+CHANGEITEM:3048
+NeedItem:13078,13078
+FREE:ENDEV=184&ITEM=13078*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:13078*2
+GetRandItem:13078,3048
+}
+
+####  13级皮 ####
+{
+CHANGEITEM:3049
+NeedItem:3048,3048
+FREE:ENDEV=184&ITEM=3048*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:3048*2
+GetRandItem:3048,3049
+}
+
+####  14级皮 ####
+{
+CHANGEITEM:3050
+NeedItem:3049,3049
+FREE:ENDEV=184&ITEM=3049*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:3049*2
+GetRandItem:3049,3050
+}
+
+####  15级皮 ####
+{
+CHANGEITEM:3051
+NeedItem:3050,3050
+FREE:ENDEV=184&ITEM=3050*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:3050*2
+GetRandItem:3050,3051
+}

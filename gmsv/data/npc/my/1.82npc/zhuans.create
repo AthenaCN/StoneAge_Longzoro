@@ -1,0 +1,14 @@
+NPCCREATE
+
+{
+floorid=2000
+borncenter=62,50
+time=0
+createnum=1
+#graphicname=16204
+graphicname=100780
+name=1.82хннЯ
+dir=4
+enemy=changeevent|file:my/1.82npc/zhuans1.arg
+}
+

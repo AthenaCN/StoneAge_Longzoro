@@ -1,0 +1,26 @@
+NEWNPCENEMY
+
+entype:2
+askbattlemsg1:今年我当政！我想做啥就做啥！打完找绿老鼠49 139
+startmsg:想死？
+dieact:1
+warpfl:0
+warpx:0
+warpy:0
+enemyno:10218,10218,10218,10218,10218
+onebattle:1
+
+OVER
+
+NEWEVENT1:
+FREE:ITEM=22793
+WARP:0,0,0
+GetRandItem:22794,22798,22798
+endmsg:老大！
+OVER
+
+NEWEVENT2:
+FREE:ITEM!=22793
+WARP:0,0,0
+endmsg:你就喜欢虐鼠？
+OVER

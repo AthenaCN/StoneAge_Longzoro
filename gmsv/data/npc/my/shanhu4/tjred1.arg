@@ -1,0 +1,57 @@
+#### 洛炎腰带 ####
+
+START_MSG:你想升级腰带成洛炎系列？\n升级一次十万元喔。\n需要1件腰带及相同等级的「搜魂水晶」才能升级更高级的。\nLv4以前都是100%的成功率噢！但是LV4开始就说不清楚了！嘿嘿\n你考虑好了么！请选择吧！！\n爱雪石器欢迎你
+
+MenuHead:选择洛炎腰带等级
+NeedHead:需要的道具
+
+
+####  洛炎腰带LV1 ####
+{
+CHANGEITEM:21268
+NeedItem:21203,21218
+FREE:ITEM=21203*1&ITEM=21218*1&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:21203*1,21218*1
+GetRandItem:21268
+}
+
+####  洛炎腰带LV2 ####
+{
+CHANGEITEM:21269
+NeedItem:21268,21219
+FREE:ITEM=21268*1&ITEM=21219*1&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:21268*1,21219*1
+GetRandItem:21269
+}
+
+####  洛炎腰带LV3 ####
+{
+CHANGEITEM:21270
+NeedItem:21269,21220
+FREE:ITEM=21269*1&ITEM=21220*1&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:21269*1,21220*1
+GetRandItem:21270
+}
+
+####  洛炎腰带LV4 ####
+{
+CHANGEITEM:21271
+NeedItem:21270,21221,21221
+FREE:ITEM=21270*1&ITEM=21221*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:21270*1,21221*2
+GetRandItem:21270,21270,21271,21270,21270
+}
+
+####  洛炎腰带LV5 ####
+{
+CHANGEITEM:21272
+NeedItem:21271,21222,21222
+FREE:ITEM=21271*1&ITEM=21222*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:21271*1,21222*2
+GetRandItem:21308,21308,21308,21308,21308,21272,21308,21308,21308,21308,21308
+}

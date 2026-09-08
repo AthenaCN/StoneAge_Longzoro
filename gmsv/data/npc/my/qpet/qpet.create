@@ -1,0 +1,25 @@
+NPCCREATE
+
+{
+name=Q³è¶Ò»»Ô±
+floorid=104
+borncenter=49,33
+dir=4
+ignoreinvincible=1
+createnum=1
+graphicname=101156
+enemy=changeevent|file:my/qpet/qpet.arg
+}
+
+#### ¿á±È¶Ò»»Ô± ####
+{
+name=¿á±È
+floorid=2000
+borncorner=43,65,43,65
+time=0
+dir=4
+ignoreinvincible=1
+createnum=1
+graphicname=101179
+enemy=changeevent|file:my/qpet/coolbi.arg
+}

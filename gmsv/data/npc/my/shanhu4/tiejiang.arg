@@ -1,0 +1,51 @@
+########　神奇的铁匠　########
+
+NomalMainMsg:有搜魂水晶才能找我升级！！！！
+
+###褐那腰带LV1　###
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=21203&21208
+AcceptMsg1:封印的腰带想要去除封印，必须有搜魂石！用绿色搜魂石LV1可以去除封印，得到褐那腰带LV1！并且成功率是100%
+ThanksMsg1:成功了！请拿好！希望能好好利用
+GetRandItem:21228
+DelItem:21203*1,21208*1
+ItemFullMsg:满了吧你身上！？？
+EventEnd
+
+###褐那之靴LV1　###
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=21204&21208
+AcceptMsg1:封印的靴子想要去除封印，必须有搜魂石！用绿色搜魂石LV1可以去除封印，得到褐那之靴LV1！并且成功率是100%
+ThanksMsg1:成功了！请拿好！希望能好好利用
+GetRandItem:21233
+DelItem:21204*1,21208*1
+ItemFullMsg:满了吧你身上！？？
+EventEnd
+
+###褐那手套LV1  ###
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=21205&21208
+AcceptMsg1:封印的手套想要去除封印，必须有搜魂石！用绿色搜魂石LV1可以去除封印，得到褐那手套LV1！并且成功率是100%
+ThanksMsg1:成功了！请拿好！希望能好好利用
+GetRandItem:21238
+DelItem:21205*1,21208*1
+ItemFullMsg:满了吧你身上！？？
+EventEnd
+
+###褐那之盾LV1  ###
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=21206&21208
+AcceptMsg1:封印的盾牌想要去除封印，必须有搜魂石！用绿色搜魂石LV1可以去除封印，得到褐那之盾LV1！并且成功率是100%
+ThanksMsg1:成功了！请拿好！希望能好好利用
+GetRandItem:21243
+DelItem:21206*1,21208*1
+ItemFullMsg:满了吧你身上！？？
+EventEnd
+
+
+
+

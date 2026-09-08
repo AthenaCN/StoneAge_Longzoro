@@ -1,0 +1,17 @@
+NEWWARPMAN
+
+NOFREE
+FREE:LV>0
+NomalMsg:（这是什么箱子？好象被锁住了吧！！）
+PartyMsg:（这是什么箱子？好象被锁住了吧！！）
+OVER
+
+TALKEVENT1
+WARP:0,0,0
+FREE:NOWEV=90&ITEM=21101&ITEM!=21102
+ItemFullMsg:你道具已经满了，我的东西不能给你...
+GetRandItem:1514,1514,1514,1514,21102
+DelItem:21101*1
+FreeMsg:（咦~！宝箱不见了~~）
+NPCPOINT:7461,12,10;7459,14,12;7460,5,12;7462,8,8;7461,4,15;7463,4,8;7457,4,2;7458,4,9;7456,4,8
+OVER

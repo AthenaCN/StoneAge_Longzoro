@@ -1,0 +1,14 @@
+NPCCREATE
+
+#魔域前哨营地记录点
+{
+floorid=61001
+borncorner=302,121,302,121
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16918
+name=悦克那
+enemy=npcgen_savepoint|file:my/sa85/sp.arg
+}

@@ -1,0 +1,14 @@
+NPCCREATE
+
+#### 醒龙之魂 ####
+{
+name=罐头制作
+floorid=1998
+borncorner=9,4,9,4
+time=0
+dir=4
+ignoreinvincible=1
+createnum=1
+graphicname=16447
+enemy=changeevent|file:my/guantou/1.arg
+}

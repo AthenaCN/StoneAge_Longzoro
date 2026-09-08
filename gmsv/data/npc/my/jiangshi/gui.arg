@@ -1,0 +1,6 @@
+#### 未接任务对话 ####
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0
+NomalWindowMsg:哈哈，好久没出来了~~我喜欢三破日~~哈哈~~~。\n\n你们多烧点汽车什么的~~我们喜欢~~？？
+EventEnd

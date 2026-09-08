@@ -1,0 +1,47 @@
+#### 精炼师「线」 ####
+
+START_MSG:你想精炼等级11以上的「线」吗？\n提炼一次十万元喔。\n需要2个相同等级的素材才能精练出更高级的。\n爱雪石器欢迎你
+
+MenuHead:选择要精炼的素材
+NeedHead:需要的素材
+
+
+####  12级线 ####
+{
+CHANGEITEM:3096
+NeedItem:13082,13082
+FREE:ENDEV=184&ITEM=13082*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:13082*2
+GetRandItem:13082,3096
+}
+
+####  13级线 ####
+{
+CHANGEITEM:3097
+NeedItem:3096,3096
+FREE:ENDEV=184&ITEM=3096*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:3096*2
+GetRandItem:3096,3097
+}
+
+####  14级线 ####
+{
+CHANGEITEM:3098
+NeedItem:3097,3097
+FREE:ENDEV=184&ITEM=3097*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:3097*2
+GetRandItem:3097,3098
+}
+
+####  15级线 ####
+{
+CHANGEITEM:3099
+NeedItem:3098,3098
+FREE:ENDEV=184&ITEM=3098*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:3098*2
+GetRandItem:3098,3099
+}

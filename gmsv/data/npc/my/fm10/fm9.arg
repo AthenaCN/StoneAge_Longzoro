@@ -1,0 +1,14 @@
+entype:2
+askbattlemsg1:保护庄园是我的使命！
+startmsg:战斗吧！
+dieact:0
+#warpfl:100
+#warpx:472
+#warpy:293
+end msg:
+enemyno:5139,5139
+deniedmsg:有什么事吗？
+alreadymsg:想混水摸鱼？！
+onebattle:1
+time=1800
+

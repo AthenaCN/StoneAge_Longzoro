@@ -1,0 +1,47 @@
+#### 精炼师「牙」 ####
+
+START_MSG:你想精炼等级11以上的「牙」吗？\n提炼一次十万元喔。\n需要2个相同等级的素材才能精练出更高级的。\n爱雪石器欢迎你
+
+MenuHead:选择要精炼的素材
+NeedHead:需要的素材
+
+
+####  12级牙 ####
+{
+CHANGEITEM:3039
+NeedItem:13077,13077
+FREE:ENDEV=184&ITEM=13077*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:13077*2
+GetRandItem:13077,3039
+}
+
+####  13级牙 ####
+{
+CHANGEITEM:3040
+NeedItem:3039,3039
+FREE:ENDEV=184&ITEM=3039*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:3039*2
+GetRandItem:3039,3040
+}
+
+####  14级牙 ####
+{
+CHANGEITEM:3041
+NeedItem:3040,3040
+FREE:ENDEV=184&ITEM=3040*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:3040*2
+GetRandItem:3040,3041
+}
+
+####  15级牙 ####
+{
+CHANGEITEM:3042
+NeedItem:3041,3041
+FREE:ENDEV=184&ITEM=3041*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:3041*2
+GetRandItem:3041,3042
+}

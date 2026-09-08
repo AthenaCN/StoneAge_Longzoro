@@ -1,0 +1,57 @@
+#### 岚黄腰带 ####
+
+START_MSG:你想升级腰带成岚黄系列？\n升级一次十万元喔。\n需要1件腰带及相同等级的「升级水晶」才能升级更高级的。\nLv4以前都是100%的成功率噢！\nLv4之后就说不清楚了，嘿嘿！\n你考虑好了么！请选择吧！！\n脚本制作-一起玩石器&QQ：122158
+
+MenuHead:选择岚黄腰带等级
+NeedHead:需要的道具
+
+
+####  岚黄腰带LV1 ####
+{
+CHANGEITEM:24288
+NeedItem:23203,23223
+FREE:ITEM=23203*1&ITEM=23223*1&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:23203*1,23223*1
+GetRandItem:24288
+}
+
+####  岚黄腰带LV2 ####
+{
+CHANGEITEM:24289
+NeedItem:24288,23224
+FREE:ITEM=24288*1&ITEM=23224*1&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:24288*1,23224*1
+GetRandItem:24289
+}
+
+####  岚黄腰带LV3 ####
+{
+CHANGEITEM:24290
+NeedItem:24289,23225
+FREE:ITEM=24289*1&ITEM=23225*1&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:24289*1,23225*1
+GetRandItem:24290
+}
+
+####  岚黄腰带LV4 ####
+{
+CHANGEITEM:24291
+NeedItem:24290,23226,23226
+FREE:ITEM=24290*1&ITEM=23226*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:24290*1,23226*2
+GetRandItem:24291,24290,24290
+}
+
+####  岚黄腰带LV5 ####
+{
+CHANGEITEM:24292
+NeedItem:24291,23227,23227
+FREE:ITEM=24291*1&ITEM=23227*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:24291*1,23227*2
+GetRandItem:24308,24292,24308
+}

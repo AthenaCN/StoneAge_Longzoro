@@ -1,0 +1,6 @@
+#### 未接任务对话 ####
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0
+NomalWindowMsg:法事快开始了。\n\n好害怕！！！！
+EventEnd

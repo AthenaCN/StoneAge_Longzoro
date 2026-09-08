@@ -1,0 +1,17 @@
+NEWNPCENEMY
+
+entype:2
+startmsg:爱雪石器 融合客体抓捕专用NPC!
+dieact:1
+warpfl:0
+warpx:0
+warpy:0
+enemyno:2418,1660,1802,2138,2119
+onebattle:0
+OVER
+
+NEWEVENT1:
+FREE:LV>0
+WARP:1997,15,25;1999,15,15;2006,24,14;2000,70,55
+endmsg:感谢支持爱雪石器！PS:杜绝挂机,随机传送开始..........
+OVER

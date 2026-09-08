@@ -1,0 +1,57 @@
+#### 碧华手套 ####
+
+START_MSG:你想升级手套成碧华系列？\n升级一次十万元喔。\n需要1件手套及相同等级的「搜魂水晶」才能升级更高级的。\nLv4以前都是100%的成功率噢！但是LV4开始就说不清楚了！嘿嘿\n你考虑好了么！请选择吧！！\n爱雪石器欢迎你
+
+MenuHead:选择碧华手套等级
+NeedHead:需要的道具
+
+
+####  碧华手套LV1 ####
+{
+CHANGEITEM:21258
+NeedItem:21205,21213
+FREE:ITEM=21205*1&ITEM=21213*1&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:21205*1,21213*1
+GetRandItem:21258
+}
+
+####  碧华手套LV2 ####
+{
+CHANGEITEM:21259
+NeedItem:21258,21214
+FREE:ITEM=21258*1&ITEM=21214*1&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:21258*1,21214*1
+GetRandItem:21259
+}
+
+####  碧华手套LV3 ####
+{
+CHANGEITEM:21260
+NeedItem:21259,21215
+FREE:ITEM=21259*1&ITEM=21215*1&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:21259*1,21215*1
+GetRandItem:21260
+}
+
+####  碧华手套LV4 ####
+{
+CHANGEITEM:21261
+NeedItem:21260,21216,21216
+FREE:ITEM=21260*1&ITEM=21216*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:21260*1,21216*2
+GetRandItem:21260,21260,21261,21260,21260
+}
+
+####  碧华手套LV5 ####
+{
+CHANGEITEM:21262
+NeedItem:21261,21217,21217
+FREE:ITEM=21261*1&ITEM=21217*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:21261*1,21217*2
+GetRandItem:21308,21308,21308,21308,21308,21262,21308,21308,21308,21308,21308
+}

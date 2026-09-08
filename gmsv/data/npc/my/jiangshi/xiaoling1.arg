@@ -1,0 +1,26 @@
+#给玩家提示
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=232
+NomalWindowMsg:非常感谢你~~~~不过不知道罗开平回魂也会怎么来报仇！！
+EventEnd
+
+#获得胜利
+EventNo:-1
+TYPE:REQUEST
+EVENT:LV>1&ITEM=30945&ITEM=30910&ITEM=30909&ITEM=30944&ITEM=30943&NOWEV=232
+RequestMsg1:这么快你就控制了局面的啊！！！真厉害~~~~
+RequestMsg2:拿着这个，这个是你有权利拥有马家神枪的证明~~你拿着它去找神龙拿马家神枪吧！\n\n\n（顺便就在这里把名片还给他们，他们会给你奖励的哦！！千万别离开~~出了这个门他们可不认帐了！）
+ThanksMsg1:我马上就到！~~~~
+DelItem:30943,30945
+GetItem:30946
+ItemFullMsg:请你将你身上的东西减少一些好吗？
+EndSetFlg:232
+EventEnd
+
+#### 未接任务对话 ####
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0
+NomalWindowMsg:我要开始作法控制局面，中间的那些大小鬼就交给你们了！！
+EventEnd

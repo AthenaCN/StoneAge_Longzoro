@@ -1,0 +1,13 @@
+NPCCREATE
+{
+floorid=2000
+borncenter=71,64
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16345
+name=·¢Ç®Ô±
+enemy=changeevent|file:my/money/money.arg
+}
+

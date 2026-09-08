@@ -1,0 +1,11 @@
+NPCCREATE
+{
+floorid=8256
+borncenter=76,12
+time=0
+createnum=1
+graphicname=105006
+name=尼克斯城男性居民
+dir=4
+enemy=newvipshop|file:giiru/event/sink/sink032.arg
+}

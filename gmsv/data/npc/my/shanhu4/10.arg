@@ -1,0 +1,47 @@
+#### 精炼师「花」 ####
+
+START_MSG:你想精炼等级11以上的「花」吗？\n提炼一次十万元喔。\n需要2个相同等级的素材才能精练出更高级的。\n爱雪石器欢迎你
+
+MenuHead:选择要精炼的素材
+NeedHead:需要的素材
+
+
+####  12级花 ####
+{
+CHANGEITEM:3105
+NeedItem:13083,13083
+FREE:ENDEV=184&ITEM=13083*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:13083*2
+GetRandItem:13083,3105
+}
+
+####  13级花 ####
+{
+CHANGEITEM:3106
+NeedItem:3105,3105
+FREE:ENDEV=184&ITEM=3105*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:3105*2
+GetRandItem:3105,3106
+}
+
+####  14级花 ####
+{
+CHANGEITEM:3107
+NeedItem:3106,3106
+FREE:ENDEV=184&ITEM=3106*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:3106*2
+GetRandItem:3106,3107
+}
+
+####  15级花 ####
+{
+CHANGEITEM:3108
+NeedItem:3107,3107
+FREE:ENDEV=184&ITEM=3107*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:3107*2
+GetRandItem:3107,3108
+}

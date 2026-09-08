@@ -1,0 +1,27 @@
+NPCCREATE
+
+###### 小俞 ######
+{
+floorid=2000
+borncenter=54,71
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=17060
+name=小俞
+enemy=changeevent|file:my/yu/yu.arg
+}
+
+###### 小俞的父亲 ######
+{
+floorid=7200
+borncenter=50,103
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16946
+name=小俞的父亲
+enemy=changeevent|file:my/yu/fuqin.arg
+}

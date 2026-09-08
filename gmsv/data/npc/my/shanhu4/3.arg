@@ -1,0 +1,47 @@
+#### 精炼师「骨」 ####
+
+START_MSG:你想精炼等级11以上的「骨」吗？\n提炼一次十万元喔。\n需要2个相同等级的素材才能精练出更高级的。\n爱雪石器欢迎你
+
+MenuHead:选择要精炼的素材
+NeedHead:需要的素材
+
+
+####  12级骨 ####
+{
+CHANGEITEM:3024
+NeedItem:13076,13076
+FREE:ENDEV=184&ITEM=13076*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:13076*2
+GetRandItem:13076,3024
+}
+
+####  13级骨 ####
+{
+CHANGEITEM:3025
+NeedItem:3024,3024
+FREE:ENDEV=184&ITEM=3024*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:3024*2
+GetRandItem:3024,3025
+}
+
+####  14级骨 ####
+{
+CHANGEITEM:3026
+NeedItem:3025,3025
+FREE:ENDEV=184&ITEM=3025*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:3025*2
+GetRandItem:3025,3026
+}
+
+####  15级骨 ####
+{
+CHANGEITEM:3027
+NeedItem:3026,3026
+FREE:ENDEV=184&ITEM=3026*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:3026*2
+GetRandItem:3026,3027
+}

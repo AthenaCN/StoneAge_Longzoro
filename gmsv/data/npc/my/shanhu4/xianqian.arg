@@ -1,0 +1,236 @@
+########　熔炉　########
+
+NomalMainMsg:想从我这偷偷把钻孔的技能学走么？休想你！！！！
+
+###褐那之斧1 随即钻空成功　###
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ENDEV=4&ENDEV=184&ITEM=20905
+AcceptMsg1:你确定你要来钻孔吗？我只会强化金属装备等级一系列的钻孔噢？！\n等级一的强化金属装备钻孔是100%成功的！放心吧！
+ThanksMsg1:这...看看！钻好了么！？
+GetRandItem:20925
+DelItem:20905*1
+ItemFullMsg:满了吧你身上！？？
+EventEnd
+
+###褐那之枪1 随即钻空成功　###
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ENDEV=4&ENDEV=184&ITEM=20906
+AcceptMsg1:你确定你要来钻孔吗？我只会强化金属装备等级一系列的钻孔噢？！\n等级一的强化金属装备钻孔是100%成功的！放心吧！
+ThanksMsg1:这...看看！钻好了么！？
+GetRandItem:20926
+DelItem:20906*1
+ItemFullMsg:满了吧你身上！？？
+EventEnd
+
+###褐那之棍1 随即钻空成功　###
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ENDEV=4&ENDEV=184&ITEM=20907
+AcceptMsg1:你确定你要来钻孔吗？我只会强化金属装备等级一系列的钻孔噢？！\n等级一的强化金属装备钻孔是100%成功的！放心吧！
+ThanksMsg1:这...看看！钻好了么！？
+GetRandItem:20927
+DelItem:20907*1
+ItemFullMsg:满了吧你身上！？？
+EventEnd
+
+###褐那之兜1 随即钻空成功　###
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ENDEV=4&ENDEV=184&ITEM=20908
+AcceptMsg1:你确定你要来钻孔吗？我只会强化金属装备等级一系列的钻孔噢？！\n等级一的强化金属装备钻孔是100%成功的！放心吧！
+ThanksMsg1:这...看看！钻好了么！？
+GetRandItem:20928
+DelItem:20908*1
+ItemFullMsg:满了吧你身上！？？
+EventEnd
+
+###褐那之铠1 随即钻空成功　###
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ENDEV=4&ENDEV=184&ITEM=20909
+AcceptMsg1:你确定你要来钻孔吗？我只会强化金属装备等级一系列的钻孔噢？！\n等级一的强化金属装备钻孔是100%成功的！放心吧！
+ThanksMsg1:这...看看！钻好了么！？
+GetRandItem:20929
+DelItem:20909*1
+ItemFullMsg:满了吧你身上！？？
+EventEnd
+
+###碧华之斧1 随即钻空成功　###
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ENDEV=4&ENDEV=184&ITEM=20910
+AcceptMsg1:你确定你要来钻孔吗？我只会强化金属装备等级一系列的钻孔噢？！\n等级一的强化金属装备钻孔是100%成功的！放心吧！
+ThanksMsg1:这...看看！钻好了么！？
+GetRandItem:20930
+DelItem:20910*1
+ItemFullMsg:满了吧你身上！？？
+EventEnd
+
+###碧华之枪1 随即钻空成功　###
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ENDEV=4&ENDEV=184&ITEM=20911
+AcceptMsg1:你确定你要来钻孔吗？我只会强化金属装备等级一系列的钻孔噢？！\n等级一的强化金属装备钻孔是100%成功的！放心吧！
+ThanksMsg1:这...看看！钻好了么！？
+GetRandItem:20931
+DelItem:20911*1
+ItemFullMsg:满了吧你身上！？？
+EventEnd
+
+###碧华之棍1 随即钻空成功　###
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ENDEV=4&ENDEV=184&ITEM=20912
+AcceptMsg1:你确定你要来钻孔吗？我只会强化金属装备等级一系列的钻孔噢？！\n等级一的强化金属装备钻孔是100%成功的！放心吧！
+ThanksMsg1:这...看看！钻好了么！？
+GetRandItem:20932
+DelItem:20912*1
+ItemFullMsg:满了吧你身上！？？
+EventEnd
+
+###碧华之兜1 随即钻空成功　###
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ENDEV=4&ENDEV=184&ITEM=20913
+AcceptMsg1:你确定你要来钻孔吗？我只会强化金属装备等级一系列的钻孔噢？！\n等级一的强化金属装备钻孔是100%成功的！放心吧！
+ThanksMsg1:这...看看！钻好了么！？
+GetRandItem:20933
+DelItem:20913*1
+ItemFullMsg:满了吧你身上！？？
+EventEnd
+
+###碧华之铠1 随即钻空成功　###
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ENDEV=4&ENDEV=184&ITEM=20914
+AcceptMsg1:你确定你要来钻孔吗？我只会强化金属装备等级一系列的钻孔噢？！\n等级一的强化金属装备钻孔是100%成功的！放心吧！
+ThanksMsg1:这...看看！钻好了么！？
+GetRandItem:20934
+DelItem:20914*1
+ItemFullMsg:满了吧你身上！？？
+EventEnd
+
+###洛炎之斧1 随即钻空成功　###
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ENDEV=4&ENDEV=184&ITEM=20915
+AcceptMsg1:你确定你要来钻孔吗？我只会强化金属装备等级一系列的钻孔噢？！\n等级一的强化金属装备钻孔是100%成功的！放心吧！
+ThanksMsg1:这...看看！钻好了么！？
+GetRandItem:20935
+DelItem:20915*1
+ItemFullMsg:满了吧你身上！？？
+EventEnd
+
+###洛炎之枪1 随即钻空成功　###
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ENDEV=4&ENDEV=184&ITEM=20916
+AcceptMsg1:你确定你要来钻孔吗？我只会强化金属装备等级一系列的钻孔噢？！\n等级一的强化金属装备钻孔是100%成功的！放心吧！
+ThanksMsg1:这...看看！钻好了么！？
+GetRandItem:20936
+DelItem:20916*1
+ItemFullMsg:满了吧你身上！？？
+EventEnd
+
+###洛炎之棍1 随即钻空成功　###
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ENDEV=4&ENDEV=184&ITEM=20917
+AcceptMsg1:你确定你要来钻孔吗？我只会强化金属装备等级一系列的钻孔噢？！\n等级一的强化金属装备钻孔是100%成功的！放心吧！
+ThanksMsg1:这...看看！钻好了么！？
+GetRandItem:20937
+DelItem:20917*1
+ItemFullMsg:满了吧你身上！？？
+EventEnd
+
+###洛炎之兜1 随即钻空成功　###
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ENDEV=4&ENDEV=184&ITEM=20918
+AcceptMsg1:你确定你要来钻孔吗？我只会强化金属装备等级一系列的钻孔噢？！\n等级一的强化金属装备钻孔是100%成功的！放心吧！
+ThanksMsg1:这...看看！钻好了么！？
+GetRandItem:20938
+DelItem:20918*1
+ItemFullMsg:满了吧你身上！？？
+EventEnd
+
+###洛炎之铠1 随即钻空成功　###
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ENDEV=4&ENDEV=184&ITEM=20919
+AcceptMsg1:你确定你要来钻孔吗？我只会强化金属装备等级一系列的钻孔噢？！\n等级一的强化金属装备钻孔是100%成功的！放心吧！
+ThanksMsg1:这...看看！钻好了么！？
+GetRandItem:20939
+DelItem:20919*1
+ItemFullMsg:满了吧你身上！？？
+EventEnd
+
+###温特之斧1 随即钻空成功　###
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ENDEV=4&ENDEV=184&ITEM=20920
+AcceptMsg1:你确定你要来钻孔吗？我只会强化金属装备等级一系列的钻孔噢？！\n等级一的强化金属装备钻孔是100%成功的！放心吧！
+ThanksMsg1:这...看看！钻好了么！？
+GetRandItem:20940
+DelItem:20920*1
+ItemFullMsg:满了吧你身上！？？
+EventEnd
+
+###温特之枪1 随即钻空成功　###
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ENDEV=4&ENDEV=184&ITEM=20921
+AcceptMsg1:你确定你要来钻孔吗？我只会强化金属装备等级一系列的钻孔噢？！\n等级一的强化金属装备钻孔是100%成功的！放心吧！
+ThanksMsg1:这...看看！钻好了么！？
+GetRandItem:20941
+DelItem:20921*1
+ItemFullMsg:满了吧你身上！？？
+EventEnd
+
+###温特之棍1 随即钻空成功　###
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ENDEV=4&ENDEV=184&ITEM=20922
+AcceptMsg1:你确定你要来钻孔吗？我只会强化金属装备等级一系列的钻孔噢？！\n等级一的强化金属装备钻孔是100%成功的！放心吧！
+ThanksMsg1:这...看看！钻好了么！？
+GetRandItem:20942
+DelItem:20922*1
+ItemFullMsg:满了吧你身上！？？
+EventEnd
+
+###温特之兜1 随即钻空成功　###
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ENDEV=4&ENDEV=184&ITEM=20923
+AcceptMsg1:你确定你要来钻孔吗？我只会强化金属装备等级一系列的钻孔噢？！\n等级一的强化金属装备钻孔是100%成功的！放心吧！
+ThanksMsg1:这...看看！钻好了么！？
+GetRandItem:20943
+DelItem:20923*1
+ItemFullMsg:满了吧你身上！？？
+EventEnd
+
+###温特之铠1 随即钻空成功　###
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ENDEV=4&ENDEV=184&ITEM=20924
+AcceptMsg1:你确定你要来钻孔吗？我只会强化金属装备等级一系列的钻孔噢？！\n等级一的强化金属装备钻孔是100%成功的！放心吧！
+ThanksMsg1:这...看看！钻好了么！？
+GetRandItem:20944
+DelItem:20924*1
+ItemFullMsg:满了吧你身上！？？
+EventEnd
+
+
+###　不符合条件　###
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0
+NomalWindowMsg:你想干嘛？想从我这偷偷把钻孔的技能学走么？休想！！！！
+EventEnd
+
+
+
+
+

@@ -1,0 +1,11 @@
+NEWNPCENEMY
+
+entype:2
+startmsg:想练魔法抗性快点吗？找我就对了!
+dieact:1
+warpfl:0
+warpx:0
+warpy:0
+enemyno:1690,1690
+onebattle:0
+OVER

@@ -1,0 +1,46 @@
+#### 黄色升级水晶合成师 ####
+
+START_MSG:你想合成更高级的「升级水晶」？\n不过这是个很复杂的工作，手续费90万。\n需要2个同等级的「升级水晶」合成到下一级\n不过事先要说好了，合成是可是有成功率的\n大约也就50%，lv5的就说不清楚啦，看RP吧\nlv2和lv3合成失败不消失！\nlv4和lv5合成失败会消失！\n你准备好了吗
+
+MenuHead:选择要合成的「升级水晶」等级
+NeedHead:需要的东西
+
+####  Lv2 ####
+{
+CHANGEITEM:23224
+NeedItem:23223,23223
+FREE:ITEM=23223*2&GOLD>=900000&reITEM>=1
+DelGold:900000
+DelItem:23223*2
+GetRandItem:23223,23224
+}
+
+####  Lv3 ####
+{
+CHANGEITEM:23225
+NeedItem:23224,23224
+FREE:ITEM=23224*2&GOLD>=900000&reITEM>=1
+DelGold:900000
+DelItem:23224*2
+GetRandItem:23224,23225
+}
+
+####  Lv4 ####
+{
+CHANGEITEM:23226
+NeedItem:23225,23225
+FREE:ITEM=23225*2&GOLD>=900000&reITEM>=1
+DelGold:900000
+DelItem:23225*2
+GetRandItem:23207,23226
+}
+
+####  Lv5 ####
+{
+CHANGEITEM:23227
+NeedItem:23226,23226
+FREE:ITEM=23226*2&GOLD>=900000&reITEM>=1
+DelGold:900000
+DelItem:23226*2
+GetRandItem:23207,23227,23207
+}

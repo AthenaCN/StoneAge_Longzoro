@@ -1,0 +1,7 @@
+WARP:777,15,20
+FREE:VIP=1
+MONEY:-1
+FreeMsg1:你是会员噢！那就进去吧！
+PayMsg:只有会员才能进去噢！\n你不是会员吗？赶紧去办吧！
+PartyMsg:这里无法组队通过
+MoneyMsg:.....

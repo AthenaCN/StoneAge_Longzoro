@@ -1,0 +1,236 @@
+########　熔炉　########
+
+NomalMainMsg:想从我这偷偷把钻孔的技能学走么？休想你！！！！
+
+###褐那之斧2 随即钻空成功　###
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ENDEV=4&ENDEV=184&ITEM=20945
+AcceptMsg1:你确定你要来钻孔吗？我只会强化金属装备等级二系列的钻孔噢？！\n先声明噢！只有35%的成功率噢！
+ThanksMsg1:这...看看！钻好了么！？
+GetRandItem:19063,19064,20965
+DelItem:20945*1
+ItemFullMsg:满了吧你身上！？？
+EventEnd
+
+###褐那之枪2 随即钻空成功　###
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ENDEV=4&ENDEV=184&ITEM=20946
+AcceptMsg1:你确定你要来钻孔吗？我只会强化金属装备等级二系列的钻孔噢？！\n先声明噢！只有35%的成功率噢！
+ThanksMsg1:这...看看！钻好了么！？
+GetRandItem:19063,19064,20966
+DelItem:20946*1
+ItemFullMsg:满了吧你身上！？？
+EventEnd
+
+###褐那之棍2 随即钻空成功　###
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ENDEV=4&ENDEV=184&ITEM=20947
+AcceptMsg1:你确定你要来钻孔吗？我只会强化金属装备等级二系列的钻孔噢？！\n先声明噢！只有35%的成功率噢！
+ThanksMsg1:这...看看！钻好了么！？
+GetRandItem:19063,19064,20967
+DelItem:20947*1
+ItemFullMsg:满了吧你身上！？？
+EventEnd
+
+###褐那之兜2 随即钻空成功　###
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ENDEV=4&ENDEV=184&ITEM=20948
+AcceptMsg1:你确定你要来钻孔吗？我只会强化金属装备等级二系列的钻孔噢？！\n先声明噢！只有35%的成功率噢！
+ThanksMsg1:这...看看！钻好了么！？
+GetRandItem:19063,19064,20968
+DelItem:20948*1
+ItemFullMsg:满了吧你身上！？？
+EventEnd
+
+###褐那之铠2 随即钻空成功　###
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ENDEV=4&ENDEV=184&ITEM=20949
+AcceptMsg1:你确定你要来钻孔吗？我只会强化金属装备等级二系列的钻孔噢？！\n先声明噢！只有35%的成功率噢！
+ThanksMsg1:这...看看！钻好了么！？
+GetRandItem:19063,19064,20969
+DelItem:20949*1
+ItemFullMsg:满了吧你身上！？？
+EventEnd
+
+###碧华之斧2 随即钻空成功　###
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ENDEV=4&ENDEV=184&ITEM=20950
+AcceptMsg1:你确定你要来钻孔吗？我只会强化金属装备等级二系列的钻孔噢？！\n先声明噢！只有35%的成功率噢！
+ThanksMsg1:这...看看！钻好了么！？
+GetRandItem:19063,19064,20970
+DelItem:20950*1
+ItemFullMsg:满了吧你身上！？？
+EventEnd
+
+###碧华之枪2 随即钻空成功　###
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ENDEV=4&ENDEV=184&ITEM=20951
+AcceptMsg1:你确定你要来钻孔吗？我只会强化金属装备等级二系列的钻孔噢？！\n先声明噢！只有35%的成功率噢！
+ThanksMsg1:这...看看！钻好了么！？
+GetRandItem:19063,19064,20971
+DelItem:20951*1
+ItemFullMsg:满了吧你身上！？？
+EventEnd
+
+###碧华之棍2 随即钻空成功　###
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ENDEV=4&ENDEV=184&ITEM=20952
+AcceptMsg1:你确定你要来钻孔吗？我只会强化金属装备等级二系列的钻孔噢？！\n先声明噢！只有35%的成功率噢！
+ThanksMsg1:这...看看！钻好了么！？
+GetRandItem:19063,19064,20972
+DelItem:20952*1
+ItemFullMsg:满了吧你身上！？？
+EventEnd
+
+###碧华之兜2 随即钻空成功　###
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ENDEV=4&ENDEV=184&ITEM=20953
+AcceptMsg1:你确定你要来钻孔吗？我只会强化金属装备等级二系列的钻孔噢？！\n先声明噢！只有35%的成功率噢！
+ThanksMsg1:这...看看！钻好了么！？
+GetRandItem:19063,19064,20973
+DelItem:20953*1
+ItemFullMsg:满了吧你身上！？？
+EventEnd
+
+###碧华之铠2 随即钻空成功　###
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ENDEV=4&ENDEV=184&ITEM=20954
+AcceptMsg1:你确定你要来钻孔吗？我只会强化金属装备等级二系列的钻孔噢？！\n先声明噢！只有35%的成功率噢！
+ThanksMsg1:这...看看！钻好了么！？
+GetRandItem:19063,19064,20974
+DelItem:20954*1
+ItemFullMsg:满了吧你身上！？？
+EventEnd
+
+###洛炎之斧2 随即钻空成功　###
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ENDEV=4&ENDEV=184&ITEM=20955
+AcceptMsg1:你确定你要来钻孔吗？我只会强化金属装备等级二系列的钻孔噢？！\n先声明噢！只有35%的成功率噢！
+ThanksMsg1:这...看看！钻好了么！？
+GetRandItem:19063,19064,20975
+DelItem:20955*1
+ItemFullMsg:满了吧你身上！？？
+EventEnd
+
+###洛炎之枪2 随即钻空成功　###
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ENDEV=4&ENDEV=184&ITEM=20956
+AcceptMsg1:你确定你要来钻孔吗？我只会强化金属装备等级二系列的钻孔噢？！\n先声明噢！只有35%的成功率噢！
+ThanksMsg1:这...看看！钻好了么！？
+GetRandItem:19063,19064,20976
+DelItem:20956*1
+ItemFullMsg:满了吧你身上！？？
+EventEnd
+
+###洛炎之棍2 随即钻空成功　###
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ENDEV=4&ENDEV=184&ITEM=20957
+AcceptMsg1:你确定你要来钻孔吗？我只会强化金属装备等级二系列的钻孔噢？！\n先声明噢！只有35%的成功率噢！
+ThanksMsg1:这...看看！钻好了么！？
+GetRandItem:19063,19064,20977
+DelItem:20957*1
+ItemFullMsg:满了吧你身上！？？
+EventEnd
+
+###洛炎之兜2 随即钻空成功　###
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ENDEV=4&ENDEV=184&ITEM=20958
+AcceptMsg1:你确定你要来钻孔吗？我只会强化金属装备等级二系列的钻孔噢？！\n先声明噢！只有35%的成功率噢！
+ThanksMsg1:这...看看！钻好了么！？
+GetRandItem:19063,19064,20978
+DelItem:20958*1
+ItemFullMsg:满了吧你身上！？？
+EventEnd
+
+###洛炎之铠2 随即钻空成功　###
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ENDEV=4&ENDEV=184&ITEM=20959
+AcceptMsg1:你确定你要来钻孔吗？我只会强化金属装备等级二系列的钻孔噢？！\n先声明噢！只有35%的成功率噢！
+ThanksMsg1:这...看看！钻好了么！？
+GetRandItem:19063,19064,20979
+DelItem:20959*1
+ItemFullMsg:满了吧你身上！？？
+EventEnd
+
+###温特之斧2 随即钻空成功　###
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ENDEV=4&ENDEV=184&ITEM=20960
+AcceptMsg1:你确定你要来钻孔吗？我只会强化金属装备等级二系列的钻孔噢？！\n先声明噢！只有35%的成功率噢！
+ThanksMsg1:这...看看！钻好了么！？
+GetRandItem:19063,19064,20980
+DelItem:20960*1
+ItemFullMsg:满了吧你身上！？？
+EventEnd
+
+###温特之枪2 随即钻空成功　###
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ENDEV=4&ENDEV=184&ITEM=20961
+AcceptMsg1:你确定你要来钻孔吗？我只会强化金属装备等级二系列的钻孔噢？！\n先声明噢！只有35%的成功率噢！
+ThanksMsg1:这...看看！钻好了么！？
+GetRandItem:19063,19064,20981
+DelItem:20961*1
+ItemFullMsg:满了吧你身上！？？
+EventEnd
+
+###温特之棍2 随即钻空成功　###
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ENDEV=4&ENDEV=184&ITEM=20962
+AcceptMsg1:你确定你要来钻孔吗？我只会强化金属装备等级二系列的钻孔噢？！\n先声明噢！只有35%的成功率噢！
+ThanksMsg1:这...看看！钻好了么！？
+GetRandItem:19063,19064,20982
+DelItem:20962*1
+ItemFullMsg:满了吧你身上！？？
+EventEnd
+
+###温特之兜2 随即钻空成功　###
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ENDEV=4&ENDEV=184&ITEM=20963
+AcceptMsg1:你确定你要来钻孔吗？我只会强化金属装备等级二系列的钻孔噢？！\n先声明噢！只有35%的成功率噢！
+ThanksMsg1:这...看看！钻好了么！？
+GetRandItem:19063,19064,20983
+DelItem:20963*1
+ItemFullMsg:满了吧你身上！？？
+EventEnd
+
+###温特之铠2 随即钻空成功　###
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ENDEV=4&ENDEV=184&ITEM=20964
+AcceptMsg1:你确定你要来钻孔吗？我只会强化金属装备等级二系列的钻孔噢？！\n先声明噢！只有35%的成功率噢！
+ThanksMsg1:这...看看！钻好了么！？
+GetRandItem:19063,19064,20984
+DelItem:20964*1
+ItemFullMsg:满了吧你身上！？？
+EventEnd
+
+
+###　不符合条件　###
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0
+NomalWindowMsg:你想干嘛？想从我这偷偷把钻孔的技能学走么？休想！！！！
+EventEnd
+
+
+
+
+

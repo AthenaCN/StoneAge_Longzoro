@@ -1,0 +1,19 @@
+### 圣兽王判断##
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=31087&ITEM=31088&ITEM=31089&ITEM=31090
+AcceptMsg1:4张通行证都拿到了，了不起！
+ThanksMsg1:送你进去吧，一起玩石器万岁！
+DelItem:31087,31088,31089,31090
+GetItem:31094
+ItemFullMsg:你不准备要这个了么，身上装那么多东西？
+EventEnd
+
+####身上有委托####
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0
+NomalWindowMsg:什么都没有，还想进去，想都别想！
+EventEnd
+
+

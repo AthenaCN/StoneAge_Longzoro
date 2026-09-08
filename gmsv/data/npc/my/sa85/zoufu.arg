@@ -1,0 +1,31 @@
+NomalMainMsg:补给品还没到吗。。。。！真是糟糕！
+
+####任务93完成 身上有包裹####
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>79&TRANS>5&ENDEV=90&ENDEV=91&ENDEV=92&ENDEV=93&ITEM=21110
+AcceptMsg:虽然你带来了补给品，但是现在正缺人手的情况下我还是没办法将部分的补给送到哨站去，你可以帮个忙吗？
+ThanksMsg:真的是很感谢你噢！
+ItemFullMsg:身上道具太多了喔！
+DelItem:21110
+GetItem:21111*15
+EventEnd
+
+###完成任务（关标93）###
+EventNo:93
+TYPE:ACCEPT
+EVENT:LV>79&TRANS>5&ENDEV=90&ENDEV=91&ENDEV=92&ENDEV=186&NOWEV=93&ITEM=21125*10
+AcceptMsg1:这是要给我的吗？？？
+ThanksMsg1:感谢你将补给品送到了这里，我可是急得象热锅上的蚂蚁啊！
+ItemFullMsg:你道具已经满了，我的东西不能给你...
+DelItem:21125
+GetItem:21110*1
+EndSetFlg:93
+EventEnd
+
+####任务93中####
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>79&TRANS>5&ENDEV=90&ENDEV=91&ENDEV=92&NOWEV=93
+NomalWindowMsg:是不是路上恶魔把急救物资都抢走了？哎 ！在回去拿一次可以吗！真的麻烦你了！
+EventEnd

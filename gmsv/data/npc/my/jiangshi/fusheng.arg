@@ -1,0 +1,13 @@
+#身上有灵魂
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>1&ITEM=30908&NOWEV=232
+NomalWindowMsg:小倩姐姐死了？？\n\n有什么事情你告诉我爸，他在傍边，他会帮你处理的！
+EventEnd
+
+#### 未接任务对话 ####
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0
+NomalWindowMsg:我是况复生，我爸老叫我老人精，你千万别这么叫我哦……不然……嘿嘿`后果自负！！
+EventEnd

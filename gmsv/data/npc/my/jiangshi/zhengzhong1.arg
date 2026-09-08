@@ -1,0 +1,23 @@
+#给玩家奖品
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=232&ITEM=30910&ITEM=30944
+NomalWindowMsg:非常感谢你~~~~这个是你应该得到的（国宝哦！）！！
+DelItem:30910,30944
+GetPet:2395,2396,2397,2398
+PetFullMsg:请你将你身上的宠物减少一些好吗？
+EventEnd
+
+#致谢
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=232
+NomalWindowMsg:非常感谢你解决了这次平妈事件~~~~
+EventEnd
+
+#### 未接任务对话 ####
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0
+NomalWindowMsg:\n\n（心想：怎么鬼越来越多了`这个是怎么回师？）
+EventEnd

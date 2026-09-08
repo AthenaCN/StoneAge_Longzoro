@@ -1,0 +1,47 @@
+#### 精炼师「爪」 ####
+
+START_MSG:你想精炼等级11以上的「爪」吗？\n提炼一次十万元喔。\n需要2个相同等级的素材才能精练出更高级的。\n爱雪石器欢迎你
+
+MenuHead:选择要精炼的素材
+NeedHead:需要的素材
+
+
+####  12级爪 ####
+{
+CHANGEITEM:3057
+NeedItem:13079,13079
+FREE:ENDEV=184&ITEM=13079*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:13079*2
+GetRandItem:13079,3057
+}
+
+####  13级爪 ####
+{
+CHANGEITEM:3058
+NeedItem:3057,3057
+FREE:ENDEV=184&ITEM=3057*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:3057*2
+GetRandItem:3057,3058
+}
+
+####  14级爪 ####
+{
+CHANGEITEM:3059
+NeedItem:3058,3058
+FREE:ENDEV=184&ITEM=3058*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:3058*2
+GetRandItem:3058,3059
+}
+
+####  15级爪 ####
+{
+CHANGEITEM:3066
+NeedItem:3059,3059
+FREE:ENDEV=184&ITEM=3059*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:3059*2
+GetRandItem:3059,3066
+}

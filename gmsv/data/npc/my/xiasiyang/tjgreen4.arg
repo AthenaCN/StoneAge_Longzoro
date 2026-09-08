@@ -1,0 +1,57 @@
+#### 苍绿盾牌 ####
+
+START_MSG:你想升级盾牌成苍绿系列？\n升级一次十万元喔。\n需要1件盾牌及相同等级的「升级水晶」才能升级更高级的。\nLv4以前都是100%的成功率噢！\nLv4之后就说不清楚了，嘿嘿！\n你考虑好了么！请选择吧！！\n脚本制作-一起玩石器&QQ：122158
+
+MenuHead:选择苍绿盾牌等级
+NeedHead:需要的道具
+
+
+####  苍绿盾牌LV1 ####
+{
+CHANGEITEM:24243
+NeedItem:23206,23208
+FREE:ITEM=23206*1&ITEM=23208*1&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:23206*1,23208*1
+GetRandItem:24243
+}
+
+####  苍绿盾牌LV2 ####
+{
+CHANGEITEM:24244
+NeedItem:24243,23209
+FREE:ITEM=24243*1&ITEM=23209*1&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:24243*1,23209*1
+GetRandItem:24244
+}
+
+####  苍绿盾牌LV3 ####
+{
+CHANGEITEM:24245
+NeedItem:24244,23210
+FREE:ITEM=24244*1&ITEM=23210*1&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:24244*1,23210*1
+GetRandItem:24245
+}
+
+####  苍绿盾牌LV4 ####
+{
+CHANGEITEM:24246
+NeedItem:24245,23211,23211
+FREE:ITEM=24245*1&ITEM=23211*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:24245*1,23211*2
+GetRandItem:24246,24245,24245
+}
+
+####  苍绿盾牌LV5 ####
+{
+CHANGEITEM:24247
+NeedItem:24246,23212,23212
+FREE:ITEM=24246*1&ITEM=23212*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:24246*1,23212*2
+GetRandItem:24308,24247,24308
+}

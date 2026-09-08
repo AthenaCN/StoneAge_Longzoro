@@ -1,0 +1,46 @@
+#### 红色搜魂水晶合成师 ####
+
+START_MSG:你想合成更高级的「搜魂水晶」？\n不过这是个很复杂的工作，所以能必须交纳90万元的制作费用喔。\n需要2个相同等级的「搜魂水晶」才能合成出下一级的。\n不过事先要说好了，合成成功率都是50%，失败了是不会消失的！但是LV4及Lv5合成失败可是会消失的噢！！你准备好了吗？！？\n爱雪石器欢迎你
+
+MenuHead:选择要合成的「搜魂水晶」等级
+NeedHead:需要的东西
+
+####  Lv2 ####
+{
+CHANGEITEM:21219
+NeedItem:21218,21218
+FREE:ITEM=21218*2&GOLD>=900000&reITEM>=1
+DelGold:900000
+DelItem:21218*2
+GetRandItem:21218,21219
+}
+
+####  Lv3 ####
+{
+CHANGEITEM:21220
+NeedItem:21219,21219
+FREE:ITEM=21219*2&GOLD>=900000&reITEM>=1
+DelGold:900000
+DelItem:21219*2
+GetRandItem:21219,21220
+}
+
+####  Lv4 ####
+{
+CHANGEITEM:21221
+NeedItem:21220,21220
+FREE:ITEM=21220*2&GOLD>=900000&reITEM>=1
+DelGold:900000
+DelItem:21220*2
+GetRandItem:21207,21221
+}
+
+####  Lv5 ####
+{
+CHANGEITEM:21222
+NeedItem:21221,21221
+FREE:ITEM=21221*2&GOLD>=900000&reITEM>=1
+DelGold:900000
+DelItem:21221*2
+GetRandItem:21207,21222
+}

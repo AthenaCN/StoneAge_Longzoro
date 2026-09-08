@@ -1,0 +1,47 @@
+#### 精炼师「叶」 ####
+
+START_MSG:你想精炼等级11以上的「叶」吗？\n提炼一次十万元喔。\n需要2个相同等级的素材才能精练出更高级的。\n爱雪石器欢迎你
+
+MenuHead:选择要精炼的素材
+NeedHead:需要的素材
+
+
+####  12级叶 ####
+{
+CHANGEITEM:3138
+NeedItem:13086,13086
+FREE:ENDEV=184&ITEM=13086*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:13086*2
+GetRandItem:13086,3138
+}
+
+####  13级叶 ####
+{
+CHANGEITEM:3139
+NeedItem:3138,3138
+FREE:ENDEV=184&ITEM=3138*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:3138*2
+GetRandItem:3138,3139
+}
+
+####  14级叶 ####
+{
+CHANGEITEM:3140
+NeedItem:3139,3139
+FREE:ENDEV=184&ITEM=3139*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:3139*2
+GetRandItem:3139,3140
+}
+
+####  15级叶 ####
+{
+CHANGEITEM:3141
+NeedItem:3140,3140
+FREE:ENDEV=184&ITEM=3140*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:3140*2
+GetRandItem:3140,3141
+}

@@ -1,0 +1,15 @@
+NEWWARPMAN
+
+#### 标全不正确，不理 ####
+NOFREE
+FREE:LV>0
+NomalMsg:天外有天人外有人，我一直以为我的力量是无人可敌。
+PartyMsg:天外有天人外有人，我一直以为我的力量是无人可敌。今天才知道，原来你才是真正的英雄。
+OVER
+
+####　传送人　####
+TALKEVENT1
+WARP:8211,12,10
+FREE:LV>0&ENDEV=154
+FreeMsg:接下来是黄金12宫，你做好挑战的准备了么？？！！！
+OVER

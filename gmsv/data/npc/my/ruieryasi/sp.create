@@ -1,0 +1,14 @@
+NPCCREATE
+
+#瑞尔亚斯都城记录点
+{
+floorid=7500
+borncorner=48,52,48,52
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=10048
+name=瑞尔亚斯的记录点
+enemy=npcgen_savepoint|file:my/ruieryasi/sp.arg
+}

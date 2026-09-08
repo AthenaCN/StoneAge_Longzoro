@@ -1,0 +1,66 @@
+#### 蓝色升级水晶合成师 ####
+
+START_MSG:你想合成更高级螺丝装备？\n不过这是个很复杂的工作，所以能必须交纳90万元的制作费用喔。\n需要对应的精练石和对应的装备。\n不过事先要说好了，合成成功率都是50%，失败了是不会消失的！\n脚本制作-一起玩石器&QQ：122158
+
+MenuHead:选择要合成的「螺丝装备」
+NeedHead:需要的东西
+
+####  螺丝 ####
+{
+CHANGEITEM:23098
+NeedItem:23051,21098
+FREE:ITEM=23051&ITEM=21098&GOLD>=900000&reITEM>=1
+DelGold:900000
+DelItem:23051*1,21098*1
+GetRandItem:23098,21098
+}
+
+####  螺丝 ####
+{
+CHANGEITEM:23099
+NeedItem:23051,21099
+FREE:ITEM=23051&ITEM=21099&GOLD>=900000&reITEM>=1
+DelGold:900000
+DelItem:23051*1,21099*1
+GetRandItem:23099,21099
+}
+
+####  螺丝 ####
+{
+CHANGEITEM:23100
+NeedItem:23051,21100
+FREE:ITEM=23051&ITEM=21100&GOLD>=900000&reITEM>=1
+DelGold:900000
+DelItem:23051*1,21100*1
+GetRandItem:23100,21100
+}
+
+####  螺丝 ####
+{
+CHANGEITEM:23101
+NeedItem:23051,21101
+FREE:ITEM=23051&ITEM=21101&GOLD>=900000&reITEM>=1
+DelGold:900000
+DelItem:23051*1,21101*1
+GetRandItem:23101,21101
+}
+
+####  螺丝 ####
+{
+CHANGEITEM:23102
+NeedItem:23051,21102
+FREE:ITEM=23051&ITEM=21102&GOLD>=900000&reITEM>=1
+DelGold:900000
+DelItem:23051*1,21102*1
+GetRandItem:23102,21102
+}
+
+####  螺丝 ####
+{
+CHANGEITEM:23103
+NeedItem:23051,21103
+FREE:ITEM=23051&ITEM=21103&GOLD>=900000&reITEM>=1
+DelGold:900000
+DelItem:23051*1,21103*1
+GetRandItem:23103,21103
+}

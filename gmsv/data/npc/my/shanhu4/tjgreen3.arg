@@ -1,0 +1,57 @@
+#### 褐那手套 ####
+
+START_MSG:你想升级手套成褐那系列？\n升级一次十万元喔。\n需要1件手套及相同等级的「搜魂水晶」才能升级更高级的。\nLv4以前都是100%的成功率噢！但是LV4开始就说不清楚了！嘿嘿\n你考虑好了么！请选择吧！！\n爱雪石器欢迎你
+
+MenuHead:选择褐那手套等级
+NeedHead:需要的道具
+
+
+####  褐那手套LV1 ####
+{
+CHANGEITEM:21238
+NeedItem:21205,21208
+FREE:ITEM=21205*1&ITEM=21208*1&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:21205*1,21208*1
+GetRandItem:21238
+}
+
+####  褐那手套LV2 ####
+{
+CHANGEITEM:21239
+NeedItem:21238,21209
+FREE:ITEM=21238*1&ITEM=21209*1&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:21238*1,21209*1
+GetRandItem:21239
+}
+
+####  褐那手套LV3 ####
+{
+CHANGEITEM:21240
+NeedItem:21239,21210
+FREE:ITEM=21239*1&ITEM=21210*1&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:21239*1,21210*1
+GetRandItem:21240
+}
+
+####  褐那手套LV4 ####
+{
+CHANGEITEM:21241
+NeedItem:21240,21211,21211
+FREE:ITEM=21240*1&ITEM=21211*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:21240*1,21211*2
+GetRandItem:21240,21240,21241,21240,21240
+}
+
+####  褐那手套LV5 ####
+{
+CHANGEITEM:21242
+NeedItem:21241,21212,21212
+FREE:ITEM=21241*1&ITEM=21212*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:21241*1,21212*2
+GetRandItem:21308,21308,21308,21308,21308,21242,21308,21308,21308,21308,21308
+}

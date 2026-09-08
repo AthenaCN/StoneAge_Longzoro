@@ -1,0 +1,57 @@
+NPCCREATE
+
+###### 精炼师「褐那」 ######
+{
+name=精炼师「褐那」
+floorid=1998
+borncenter=11,14
+dir=6
+time=0
+action=11
+createnum=1
+ignoreinvincible=1
+graphicname=100805
+enemy=ITEMCHANGE|file:my/shangshen4/hena.arg
+}
+
+###### 精炼师「碧华」 ######
+{
+name=精炼师「碧华」
+floorid=1998
+borncenter=11,16
+dir=6
+time=0
+action=11
+createnum=1
+ignoreinvincible=1
+graphicname=100805
+enemy=ITEMCHANGE|file:my/shangshen4/bihua.arg
+}
+
+###### 精炼师「洛炎」 ######
+{
+name=精炼师「洛炎」
+floorid=1998
+borncenter=5,14
+dir=11
+time=0
+action=11
+createnum=1
+ignoreinvincible=1
+graphicname=100805
+enemy=ITEMCHANGE|file:my/shangshen4/luoyan.arg
+}
+
+###### 精炼师「温特」 ######
+{
+name=精炼师「温特」
+floorid=1998
+borncenter=5,16
+dir=11
+time=0
+action=11
+createnum=1
+ignoreinvincible=1
+graphicname=100805
+enemy=ITEMCHANGE|file:my/shangshen4/wente.arg
+}

@@ -1,0 +1,123 @@
+START_MSG:嗨！这可是会员宠物商店哦~\n\n那请你先熟读下列规则：\n购买宠物需要相应的会员点数哦！点数不够请与管理员联系冲值哦。
+END_MSG:你是否确定够买这个宠物？？？
+
+#巴朵兰恩
+{
+MenuStr:VIP巴朵兰恩         会员点 400
+VipPet:20010,400
+}
+#左迪洛斯
+{
+MenuStr:VIP左迪洛斯         会员点 400
+VipPet:20011,400
+}
+#贝鲁卡
+{
+MenuStr:VIP贝鲁卡           会员点 200
+VipPet:20000,200
+}
+#贝鲁伊卡
+{
+MenuStr:VIP贝鲁伊卡         会员点 200
+VipPet:20001,200
+}
+#格鲁西斯
+{
+MenuStr:VIP格鲁西斯         会员点 200
+VipPet:20002,200
+}
+#金格萨贝鲁
+{
+MenuStr:VIP金格萨贝鲁       会员点 200
+VipPet:20003,200
+}
+#布洛多斯
+{
+MenuStr:VIP布洛多斯         会员点 200
+VipPet:20005,200
+}
+#布林帖斯
+{
+MenuStr:VIP布林帖斯         会员点 200
+VipPet:20006,200
+}
+#布拉奇多斯
+{
+MenuStr:VIP布拉奇多斯       会员点 200
+VipPet:20007,200
+}
+#斯天多斯
+{
+MenuStr:VIP斯天多斯         会员点 200
+VipPet:20008,200
+}
+#邦恩多斯
+{
+MenuStr:VIP邦恩多斯         会员点 200
+VipPet:20009,200
+}
+#格尔格
+{
+MenuStr:VIP格尔格           会员点 200
+VipPet:20012,200
+}
+#玛恩摩洛斯
+{
+MenuStr:VIP玛恩摩洛斯       会员点 200
+VipPet:20013,200
+}
+#拉奇鲁哥
+{
+MenuStr:VIP拉奇鲁哥         会员点 200
+VipPet:20014,200
+}
+#卡达鲁卡斯
+{
+MenuStr:VIP卡达鲁卡斯       会员点 200
+VipPet:20015,200
+}
+#扬奇洛斯
+{
+MenuStr:VIP扬奇洛斯         会员点 200
+VipPet:20016,200
+}
+#卡卡金宝
+{
+MenuStr:VIP卡卡金宝         会员点 200
+VipPet:20017,200
+}
+#朵拉比斯
+{
+MenuStr:VIP朵拉比斯         会员点 200
+VipPet:20018,200
+}
+#帖拉所伊朵
+{
+MenuStr:VIP帖拉所伊朵       会员点 400
+VipPet:20004,400
+}
+#史卡鲁
+{
+MenuStr:VIP史卡鲁           会员点 400
+VipPet:20022,400
+}
+#罗多克雷
+{
+MenuStr:VIP罗多克雷         会员点 600
+VipPet:20023,600
+}
+#霍尔克
+{
+MenuStr:VIP霍尔克           会员点 400
+VipPet:20019,400
+}
+#奇宝
+{
+MenuStr:VIP奇宝             会员点 400
+VipPet:20020,400
+}
+#瑞里西尔
+{
+MenuStr:VIP瑞里西尔         会员点 800
+VipPet:20021,800
+}

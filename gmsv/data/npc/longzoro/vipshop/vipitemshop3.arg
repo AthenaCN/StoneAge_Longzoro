@@ -1,0 +1,104 @@
+START_MSG:嗨！这可是VIP道具商店哦~\n\n那请你先熟读下列规则：\n购买宠物需要相应的会员点数哦！点数不够请与管理员联系冲值哦。
+END_MSG:你是否确定够买这个物品？？？
+
+#会员证明书
+{
+MenuStr:会员证明书          会员点 3000
+VipItem:20818,3000
+}
+{
+MenuStr:褐那LV5套装         会员点 3000
+VipItem:23362,3000
+}
+{
+MenuStr:碧华LV5套装         会员点 3000
+VipItem:23363,3000
+}
+{
+MenuStr:洛炎LV5套装         会员点 3000
+VipItem:23364,3000
+}
+{
+MenuStr:温特LV5套装         会员点 3000
+VipItem:23365,3000
+}
+{
+MenuStr:等级突破的盒子      会员点 3000
+VipItem:33286,3000
+}
+{
+MenuStr:7转极品人的道具     会员点 3000
+VipItem:33239,3000
+}
+{
+MenuStr:6转极品人的道具     会员点 2000
+VipItem:50061,2000
+}
+
+{
+MenuStr:苍绿5包             会员点 500
+VipItem:50023,500
+}
+{
+MenuStr:岚黄5包             会员点 500
+VipItem:50024,500
+}
+{
+MenuStr:湛蓝5包             会员点 500
+VipItem:50025,500
+}
+{
+MenuStr:焰红5包             会员点 500
+VipItem:50026,500
+}
+{
+MenuStr:风追电包            会员点 500
+VipItem:33300,500
+}
+{
+MenuStr:蓝色妖姬包          会员点 500
+VipItem:33301,500
+}
+{
+MenuStr:燃烧烈焰包         会员点 500
+VipItem:33302,500
+}
+{
+MenuStr:地灵恶魔包         会员点 500
+VipItem:33303,500
+}
+{
+MenuStr:宠物极品装备盒子10 会员点 500
+VipItem:33295,500
+}
+{
+MenuStr:宠物祝福盒子       会员点 5000
+VipItem:33304,5000
+}
+
+#VIP祈福戒指
+{
+MenuStr:VIP祈福戒指        会员点 200
+VipItem:21180,200
+}
+
+#恩泽之心-地
+{
+MenuStr:恩泽之心-地        会员点 1000
+VipItem:21176,1000
+}
+#恩泽之心-水
+{
+MenuStr:恩泽之心-水        会员点 1000
+VipItem:21177,1000
+}
+#恩泽之心-火
+{
+MenuStr:恩泽之心-火        会员点 1000
+VipItem:21178,1000
+}
+#恩泽之心-风
+{
+MenuStr:恩泽之心-风        会员点 1000
+VipItem:21179,1000
+}

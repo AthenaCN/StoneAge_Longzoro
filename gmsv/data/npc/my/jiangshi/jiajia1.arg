@@ -1,0 +1,6 @@
+#### 未接任务对话 ####
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0
+NomalWindowMsg:法师开始了，怎么出现那么多鬼？？\n\n到底怎么回事呢？？我们可是出钱消灾的~别出什么岔子！！
+EventEnd

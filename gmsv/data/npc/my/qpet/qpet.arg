@@ -1,0 +1,58 @@
+NomalMainMsg:请收集齐10件Q宠公仔再来找我兑换相应的Q宠吧！
+
+###### 奶牛 ######
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=21193*10
+AcceptMsg:让我点点看，你的奶牛公仔是不是收集满了！
+ThanksMsg:OK!~\n您已经收集满了10件公仔！让我给你兑换吧！\n不过兑换是有运气成分的噢，兑换的Q宠成长好坏就看您运气了！！！
+DelItem:21193*10
+GetPet:8030,8031,8032,8033,8034
+PetFullMsg:你的宠物已满!
+EventEnd
+
+
+
+###### 绅士猪 ######
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=21201*10
+AcceptMsg:让我点点看，你的绅士猪公仔是不是收集满了！
+ThanksMsg:OK!~\n您已经收集满了10件公仔！让我给你兑换吧！\n不过兑换是有运气成分的噢，兑换的Q宠成长好坏就看您运气了！！！
+DelItem:21201*10
+GetPet:8040,8041,8042,8043,8044
+PetFullMsg:你的宠物已满!
+EventEnd
+
+###### Q雷尔 ######
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=21185*10
+AcceptMsg:让我点点看，你的Q雷公仔是不是收集满了！
+ThanksMsg:OK!~\n您已经收集满了10件公仔！让我给你兑换吧！\n不过兑换是有运气成分的噢，兑换的Q宠成长好坏就看您运气了！！！
+DelItem:21185*10
+GetPet:8000,8001,8002,8003,8004
+PetFullMsg:你的宠物已满!
+EventEnd
+
+###### 海盗 ######
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=21189*10
+AcceptMsg:让我点点看，你的海盗公仔是不是收集满了！
+ThanksMsg:OK!~\n您已经收集满了10件公仔！让我给你兑换吧！\n不过兑换是有运气成分的噢，兑换的Q宠成长好坏就看您运气了！！！
+DelItem:21189*10
+GetPet:8010,8011,8012,8013,8014
+PetFullMsg:你的宠物已满!
+EventEnd
+
+###### 忍者 ######
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=21197*10
+AcceptMsg:让我点点看，你的忍者公仔是不是收集满了！
+ThanksMsg:OK!~\n您已经收集满了10件公仔！让我给你兑换吧！\n不过兑换是有运气成分的噢，兑换的Q宠成长好坏就看您运气了！！！
+DelItem:21197*10
+GetPet:8020,8021,8022,8023,8024
+PetFullMsg:你的宠物已满!
+EventEnd

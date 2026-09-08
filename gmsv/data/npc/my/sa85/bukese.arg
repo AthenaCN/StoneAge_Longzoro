@@ -1,0 +1,12 @@
+NomalMainMsg:补给品还没到吗？？魔军马上又要来了！~~~~
+
+####任务93完成 身上有包裹####
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>79&TRANS>5&ENDEV=90&ENDEV=91&ENDEV=92&ENDEV=93&ITEM=21111*15
+AcceptMsg:你是谁？这里很危险不要在这里逗留！~~~~~
+ThanksMsg:原来是奏敷请你送来了补给，少了这些物品这里的战士可是无法支撑太久！你看！战士们又有非常充沛的力量了！
+ItemFullMsg:身上道具太多了喔！
+DelItem:21111
+GetRandItem:21130,21131,21132,21133,21134,21135,21136,21137,21138,21139,21140,21141
+EventEnd

@@ -1,0 +1,10 @@
+NomalMainMsg:看你穷得都走不动道儿了，来，小子，可怜可怜你，施舍点钱给你吧。钱可不是白给的，你可要为全石器做出贡献的哦！
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0
+AcceptMsg:要钱吗?
+ThanksMsg:好，就送给你吧。
+StoneFullMsg:对不起,你的钱太多了,丢掉点吧.
+GetStone:500000
+EventEnd

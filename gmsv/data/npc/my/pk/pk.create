@@ -1,0 +1,75 @@
+NPCCREATE
+
+#line 1
+{
+floorid=2000
+borncorner=68,80,68,80
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=17054
+name=玛丽娜丝pk区的道具屋
+enemy=npcgen_shop|file:my/pk/daoju.arg
+}
+#line 2
+{
+floorid=2000
+borncorner=59,87,59,87
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16422
+name=玛丽娜丝pk区护士
+enemy=npcgen_healer|1
+}
+#line 3
+{
+floorid=2000
+borncorner=68,85,68,85
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=17038
+name=玛丽娜丝pk区的的药剂师
+enemy=npcgen_shop|file:my/pk/yao.arg
+}
+#line 4
+{
+floorid=2000
+borncorner=68,90,68,90
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=41016
+name=玛丽娜丝pk区的宠物店
+enemy=npcgen_petshop|file:my/pk/pet.arg
+}
+#line 5
+{
+floorid=2000
+borncorner=68,95,68,95
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=41014
+name=玛丽娜丝pk区的寄放店
+enemy=npcgen_poolitemshop|file:my/pk/jifang.arg
+}
+
+#line 2
+{
+floorid=2005
+borncorner=34,17,34,17
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16422
+name=护士
+enemy=npcgen_healer|1
+}

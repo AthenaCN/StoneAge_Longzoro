@@ -1,0 +1,57 @@
+#### 温特靴子 ####
+
+START_MSG:你想升级靴子成温特系列？\n升级一次十万元喔。\n需要1件靴子及相同等级的「搜魂水晶」才能升级更高级的。\nLv4以前都是100%的成功率噢！但是LV4开始就说不清楚了！嘿嘿\n你考虑好了么！请选择吧！！\n爱雪石器欢迎你
+
+MenuHead:选择温特靴子等级
+NeedHead:需要的道具
+
+
+####  温特靴子LV1 ####
+{
+CHANGEITEM:21293
+NeedItem:21204,21223
+FREE:ITEM=21204*1&ITEM=21223*1&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:21204*1,21223*1
+GetRandItem:21293
+}
+
+####  温特靴子LV2 ####
+{
+CHANGEITEM:21294
+NeedItem:21293,21224
+FREE:ITEM=21293*1&ITEM=21224*1&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:21293*1,21224*1
+GetRandItem:21294
+}
+
+####  温特靴子LV3 ####
+{
+CHANGEITEM:21295
+NeedItem:21294,21225
+FREE:ITEM=21294*1&ITEM=21225*1&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:21294*1,21225*1
+GetRandItem:21295
+}
+
+####  温特靴子LV4 ####
+{
+CHANGEITEM:21296
+NeedItem:21295,21226,21226
+FREE:ITEM=21295*1&ITEM=21226*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:21295*1,21226*2
+GetRandItem:21295,21295,21296,21295,21295
+}
+
+####  温特靴子LV5 ####
+{
+CHANGEITEM:21297
+NeedItem:21296,21227,21227
+FREE:ITEM=21296*1&ITEM=21227*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:21296*1,21227*2
+GetRandItem:21308,21308,21308,21308,21308,21297,21308,21308,21308,21308,21308
+}

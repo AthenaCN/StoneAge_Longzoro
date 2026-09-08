@@ -1,0 +1,8 @@
+NomalMainMsg:
+
+####任务92完成####
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0
+NomalWindowMsg:（结界水晶已经被破坏！）
+EventEnd

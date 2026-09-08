@@ -1,0 +1,47 @@
+#### 珠宝商人 ####
+
+START_MSG:你想来我们这里换取名贵珠宝？\n我的手艺天下无双,只收十万元手续费喔。\n10个精炼一次的,想要好的就要付出代价！\n精美的是100%的成功率噢！但是更高级的就说不清楚了！嘿嘿\n你考虑好了么！请选择吧！！\n脚本制作-一起玩石器&QQ：122158
+
+MenuHead:选择需要的珠宝等级
+NeedHead:需要的道具
+
+
+####  精美的钻石 ####
+{
+CHANGEITEM:23054
+NeedItem:20236
+FREE:ITEM=20236*10&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:20236*10
+GetRandItem:23054
+}
+
+####  精美的珍珠 ####
+{
+CHANGEITEM:23056
+NeedItem:20241
+FREE:ITEM=20241*10&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:20241*10
+GetRandItem:23056
+}
+
+####  硕大的钻石 ####
+{
+CHANGEITEM:23055
+NeedItem:23054
+FREE:ITEM=23054*10&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:23054*10
+GetRandItem:23055,23054
+}
+
+####  硕大的珍珠 ####
+{
+CHANGEITEM:23057
+NeedItem:23056
+FREE:ITEM=23056*10&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:23056*10
+GetRandItem:23057,23056
+}

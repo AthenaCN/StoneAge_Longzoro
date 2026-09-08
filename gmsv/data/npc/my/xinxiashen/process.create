@@ -1,0 +1,14 @@
+NPCCREATE
+
+###### 新下身合成 ######
+{
+name=铁匠的徒弟
+floorid=2046
+borncenter=26,8
+dir=4
+time=0
+createnum=1
+ignoreinvincible=1
+graphicname=16440
+enemy=ITEMUP|file:my/xinxiashen/hecheng.arg
+}

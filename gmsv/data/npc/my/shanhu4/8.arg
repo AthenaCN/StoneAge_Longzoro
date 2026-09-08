@@ -1,0 +1,47 @@
+#### 精炼师「壳」 ####
+
+START_MSG:你想精炼等级11以上的「壳」吗？\n提炼一次十万元喔。\n需要2个相同等级的素材才能精练出更高级的。\n爱雪石器欢迎你
+
+MenuHead:选择要精炼的素材
+NeedHead:需要的素材
+
+
+####  12级壳 ####
+{
+CHANGEITEM:3081
+NeedItem:13081,13081
+FREE:ENDEV=184&ITEM=13081*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:13081*2
+GetRandItem:13081,3081
+}
+
+####  13级壳 ####
+{
+CHANGEITEM:3082
+NeedItem:3081,3081
+FREE:ENDEV=184&ITEM=3081*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:3081*2
+GetRandItem:3081,3082
+}
+
+####  14级壳 ####
+{
+CHANGEITEM:3083
+NeedItem:3082,3082
+FREE:ENDEV=184&ITEM=3082*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:3082*2
+GetRandItem:3082,3083
+}
+
+####  15级壳 ####
+{
+CHANGEITEM:3084
+NeedItem:3083,3083
+FREE:ENDEV=184&ITEM=3083*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:3083*2
+GetRandItem:3083,3084
+}

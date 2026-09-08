@@ -1,0 +1,287 @@
+START_MSG:嗨！这可是会员宠物商店哦~\n\n那请你先熟读下列规则：\n购买宠物需要相应的会员点数哦！点数不够请与管理员联系冲值哦。
+END_MSG:你是否确定够买这个宠物？？？
+
+
+
+{
+MenuStr:DIY地pig         会员点 500
+VipPet:24018,500
+}
+
+{
+MenuStr:DIY炎pig         会员点 500
+VipPet:24019,500
+}
+
+{
+MenuStr:DIY炎龙          会员点 500
+VipPet:24020,500
+}
+{
+MenuStr:DIY炎魔          会员点 500
+VipPet:24021,500
+}
+{
+MenuStr:DIY进化兔拉拉    会员点 500
+VipPet:24022,500
+}
+{
+MenuStr:DIY进化黑拉拉    会员点 500
+VipPet:24023,500
+}
+{
+MenuStr:DIYQ炎魔皇       会员点 500
+VipPet:24024,500
+}
+{
+MenuStr:DIY禄暴          会员点 500
+VipPet:24025,500
+}
+{
+MenuStr:DIYQ水龙         会员点 500
+VipPet:24026,500
+}
+{
+MenuStr:DIYQ炎龙         会员点 500
+VipPet:24027,500
+}
+{
+MenuStr:DIYQ风龙         会员点 500
+VipPet:24028,500
+}
+{
+MenuStr:DIY彩凤凰        会员点 500
+VipPet:24029,500
+}
+{
+MenuStr:DIY地暴龙        会员点 500
+VipPet:24030,500
+}
+{
+MenuStr:DIY冰暴龙        会员点 500
+VipPet:24031,500
+}
+{
+MenuStr:DIY炎暴龙         会员点 500
+VipPet:24032,500
+}
+{
+MenuStr:DIY风暴龙         会员点 500
+VipPet:24033,500
+}
+{
+MenuStr:DIY冰龙           会员点 500
+VipPet:24034,500
+}
+{
+MenuStr:DIY地蝎           会员点 500
+VipPet:24035,500
+}
+{
+MenuStr:DIY炎蝎           会员点 500
+VipPet:24036,500
+}
+{
+MenuStr:DIYQ水九尾        会员点 500
+VipPet:24037,500
+}
+{
+MenuStr:DIYQ炎九尾        会员点 500
+VipPet:24038,500
+}
+{
+MenuStr:DIY狂暴龙         会员点 500
+VipPet:24039,500
+}
+{
+MenuStr:班尼奥斯          会员点 500
+VipPet:24068,500
+}
+{
+MenuStr:蓝蜥蜴            会员点 500
+VipPet:24069,500
+}
+{
+MenuStr:贝尔斯            会员点 500
+VipPet:24070,500
+}
+{
+MenuStr:维尔斯            会员点 500
+VipPet:24071,500
+}
+{
+MenuStr:风尔斯            会员点 500
+VipPet:24072,500
+}
+{
+MenuStr:炎尔斯            会员点 500
+VipPet:24073,500
+}
+{
+MenuStr:冰贝               会员点 500
+VipPet:24074,500
+}
+{
+MenuStr:云贝               会员点 500
+VipPet:24075,500
+}
+{
+MenuStr:炎贝               会员点 500
+VipPet:24076,500
+}
+{
+MenuStr:DIY玄武            会员点 500
+VipPet:24000,500
+}
+{
+MenuStr:DIY白虎            会员点 500
+VipPet:24001,500
+}
+{
+MenuStr:DIY朱雀            会员点 500
+VipPet:24002,500
+}
+{
+MenuStr:DIYQ恶魔           会员点 500
+VipPet:24003,500
+}
+{
+MenuStr:DIY烈焰驹          会员点 500
+VipPet:24004,500
+}
+{
+MenuStr:DIY烈焰鲨          会员点 500
+VipPet:24005,500
+}
+{
+MenuStr:DIY风犀牛          会员点 500
+VipPet:24006,500
+}
+{
+MenuStr:DIYQ地龙           会员点 500
+VipPet:24007,500
+}
+{
+MenuStr:DIYQ冰龙           会员点 500
+VipPet:24008,500
+}
+{
+MenuStr:DIYQ炎龙           会员点 500
+VipPet:24009,500
+}
+{
+MenuStr:DIYQ风龙           会员点 500
+VipPet:24010,500
+}
+{
+MenuStr:DIY地豚           会员点 500
+VipPet:24011,500
+}
+{
+MenuStr:DIY冰豚           会员点 500
+VipPet:24012,0
+}
+{
+MenuStr:DIY炎豚           会员点 500
+VipPet:24013,500
+}
+{
+MenuStr:DIY风豚           会员点 500
+VipPet:24014,500
+}
+{
+MenuStr:DIY机械龙         会员点 500
+VipPet:24015,0
+}
+{
+MenuStr:DIY机械虎         会员点 500
+VipPet:24016,500
+}
+{
+MenuStr:DIY炎魔皇         会员点 500
+VipPet:24017,500
+}
+{
+MenuStr:炎将             会员点 500
+VipPet:24077,500
+}
+{
+MenuStr:冰将             会员点 500
+VipPet:24078,500
+}
+{
+MenuStr:云将             会员点 500
+VipPet:24079,500
+}
+{
+MenuStr:气将             会员点 500
+VipPet:24080,500
+}
+{
+MenuStr:狂暗狼           会员点 500
+VipPet:24081,500
+}
+{
+MenuStr:狂风狼           会员点 500
+VipPet:24082,500
+}
+{
+MenuStr:狂炎狼           会员点 500
+VipPet:24083,500
+}
+{
+MenuStr:狂地狼           会员点 500
+VipPet:204084,500
+}
+{
+MenuStr:傲世             会员点 500
+VipPet:24085,500
+}
+{
+MenuStr:傲龙             会员点 500
+VipPet:24086,500
+}
+{
+MenuStr:草泥马风         会员点 500
+VipPet:24087,500
+}
+{
+MenuStr:草泥马水         会员点 500
+VipPet:24088,500
+}
+{
+MenuStr:草泥马火         会员点 500
+VipPet:24089,500
+}
+{
+MenuStr:草泥马地         会员点 500
+VipPet:24090,500
+}
+{
+MenuStr:土豪暴(骑宠)         会员点 500
+VipPet:24134,500
+}
+{
+MenuStr:土豪龙(骑宠)         会员点 500
+VipPet:24135,500
+}
+{
+MenuStr:银龙(骑宠)           会员点 500
+VipPet:24136,500
+}
+{
+MenuStr:土豪闪龙(骑宠)       会员点 500
+VipPet:24137,500
+}
+{
+MenuStr:闪银龙(骑宠)         会员点 500
+VipPet:24138,500
+}
+{
+MenuStr:暗闪龙(骑宠)         会员点 500
+VipPet:24139,500
+}
+{
+MenuStr:闪龙(骑宠)           会员点 500
+VipPet:24140,500
+}

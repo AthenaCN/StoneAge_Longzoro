@@ -1,0 +1,23 @@
+#给玩家奖品
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=232&ITEM=30909
+NomalWindowMsg:非常感谢你~~~~这个是你应该得到的（转宠必备的武器哦！）！！
+DelItem:30909
+GetItem:20805*2
+ItemFullMsg:请你将你身上的东西减少一些好吗？
+EventEnd
+
+#致谢
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=232
+NomalWindowMsg:非常感谢你解决了这次平妈事件~~~~
+EventEnd
+
+#### 未接任务对话 ####
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0
+NomalWindowMsg:看来形式越来越严重了！！小兄弟你想到对策了吗？？
+EventEnd

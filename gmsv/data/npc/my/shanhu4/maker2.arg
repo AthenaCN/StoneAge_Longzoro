@@ -1,0 +1,47 @@
+#### Éºº÷ÌáÁ¶Ê¦ ####
+
+START_MSG:ÄãÏëÌáÁ¶Éºº÷¿ó·ÛÂð£¿£¿ÌáÁ¶Ò»´Î1000Ôªà¸¡£¶øÇÒ¡­Èý¸öÉºº÷Ô­Òº²ÅÄÜÌáÁ¶³öÒ»·ÝÉºº÷¾«Á¶¿ó·Û¡£\n°®Ñ©Ê¯Æ÷»¶Ó­Äã
+
+MenuHead:Ñ¡ÔñÒªÌáÁ¶µÄÉºº÷¾«Á¶¿ó·Û
+NeedHead:ÐèÒªµÄÉºº÷Ô­Òº
+
+
+####  ºìÉºº÷¾«Á·¿ó·ÛÌáÁ¶ ####
+{
+CHANGEITEM:19059
+NeedItem:19055,19055,19055,19055,19055
+FREE:ENDEV=4&ENDEV=81&ITEM=19055*5&GOLD>=1000&reITEM>=1
+DelGold:1000
+DelItem:19055*5
+AddItem:19059
+}
+
+####  À¶Éºº÷¾«Á·¿ó·ÛÌáÁ¶ ####
+{
+CHANGEITEM:19061
+NeedItem:19057,19057,19057,19057,19057
+FREE:ENDEV=4&ENDEV=81&ITEM=19057*5&GOLD>=1000&reITEM>=1
+DelGold:1000
+DelItem:19057*5
+AddItem:19061
+}
+
+####  ÂÌÉºº÷¾«Á·¿ó·ÛÌáÁ¶ ####
+{
+CHANGEITEM:19060
+NeedItem:19056,19056,19056,19056,19056
+FREE:ENDEV=4&ENDEV=81&ITEM=19056*5&GOLD>=1000&reITEM>=1
+DelGold:1000
+DelItem:19056*5
+AddItem:19060
+}
+
+####  »ÆÉºº÷¾«Á·¿ó·ÛÌáÁ¶ ####
+{
+CHANGEITEM:19062
+NeedItem:19058,19058,19058,19058,19058
+FREE:ENDEV=4&ENDEV=81&ITEM=19058*5&GOLD>=1000&reITEM>=1
+DelGold:1000
+DelItem:19058*5
+AddItem:19062
+}

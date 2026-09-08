@@ -1,0 +1,12 @@
+NomalMainMsg:~~~~~~~~~~~
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>79&TRANS>5&PET=145-910&PET=155-965
+AcceptMsg:·#￥·#￥——……（%#·￥￥#·
+ThanksMsg:合体完毕！请拿好噢！
+GetPet:8045,8046,8047
+DelPet:PET=145-910*1,PET=155-965*1
+PetFullMsg:你身上宠物太多了！
+EventEnd

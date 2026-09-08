@@ -1,0 +1,26 @@
+NomalMainMsg:我是嫦娥，我漂亮吗？
+
+####身上有委托####
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ITEM=31079
+NomalWindowMsg:快去吧，别让我们等得太久。
+EventEnd
+
+
+###接好任务##
+EventNo:-1
+TYPE:MESSAGE
+EVENT:NOWEV=243
+NomalWindowMsg:想知道具体情况，去问老萨吧！
+EventEnd
+
+
+###接任务##
+EventNo:243
+TYPE:REQUEST
+EVENT:TRANS>4&LV>139
+RequestMsg1:很久以前有个远古之神带领着他的圣兽, 守护着人们。
+RequestMsg2:后来因为人类的贪婪, 想把圣兽居为己有, 不断的捕捉圣兽们 ,使远古之神愤怒了.之后就带领着圣兽们离开了, 不知去象。
+ThanksMsg1:我只知道那么多了，其他的你去英雄岛问老萨吧！
+EventEnd

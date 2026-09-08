@@ -1,0 +1,27 @@
+NPCCREATE
+
+###### 精灵王--练魔抗 ######
+{
+floorid=2000
+borncenter=70,69
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=100444
+name=精灵王的舅舅
+enemy=sb_dou|file:my/lx/lx.arg
+}
+
+###### 精灵王--2练魔抗 ######
+{
+floorid=2000
+borncenter=70,71
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=100444
+name=精灵王的叔叔
+enemy=sb_dou|file:my/lx/lx1.arg
+}

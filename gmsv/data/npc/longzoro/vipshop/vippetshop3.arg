@@ -1,0 +1,189 @@
+START_MSG:嗨！这可是会员宠物商店哦~\n\n那请你先熟读下列规则：\n购买宠物需要相应的会员点数哦！点数不够请与管理员联系冲值哦。
+END_MSG:你是否确定够买这个宠物？？？
+
+#地狼人
+{
+MenuStr:地狼人             会员点400
+VipPet:1975,400
+}
+#水狼人
+{
+MenuStr:水狼人             会员点400
+VipPet:1976,400
+}
+#火狼人
+{
+MenuStr:火狼人             会员点400
+VipPet:1977,400
+}
+#风狼人
+{
+MenuStr:风狼人             会员点400
+VipPet:1978,400
+}
+#VIP乌力王
+{
+MenuStr:VIP乌力王          会员点100
+VipPet:20024,100
+}
+#VIP黑乌力王
+{
+MenuStr:VIP黑乌力王        会员点100
+VipPet:20025,100
+}
+#VIP华雷斯
+{
+MenuStr:VIP华雷斯          会员点100
+VipPet:20026,100
+}
+#VIP华可洛
+{
+MenuStr:VIP华可洛          会员点100
+VipPet:20027,100
+}
+#VIP特雷克洛
+{
+MenuStr:VIP特雷克洛        会员点300
+VipPet:20028,300
+}
+#VIP特雷吉洛
+{
+MenuStr:VIP特雷吉洛        会员点300
+VipPet:20029,300
+}
+
+#VIP风猫   
+{
+MenuStr:VIP风猫            会员点400
+VipPet:20032,400
+}
+#VIP水猫  
+{
+MenuStr:VIP水猫            会员点400
+VipPet:20033,400
+}
+#VIP埃及猫  
+{
+MenuStr:VIP地猫            会员点400
+VipPet:20034,400
+}
+#VIP地颚鱼  
+{
+MenuStr:VIP地颚鱼          会员点200
+VipPet:20035,200
+}
+#VIP火颚鱼   
+{
+MenuStr:VIP火颚鱼          会员点200
+VipPet:20036,200
+}
+#VIP地鸡年  
+{
+MenuStr:VIP地鸡年          会员点400
+VipPet:20037,400
+}
+#VIP水鸡年  
+{
+MenuStr:VIP水鸡年          会员点400
+VipPet:20038,400
+}
+#VIP火鸡年  
+{
+MenuStr:VIP火鸡年          会员点400
+VipPet:20039,400
+}
+#VIP风鸡年  
+{
+MenuStr:VIP风鸡年          会员点400
+VipPet:20040,400
+}
+
+#2D邦浦洛斯
+{
+MenuStr:2D邦浦洛斯         会员点200
+VipPet:2573,200
+}
+#2D利则诺顿
+{
+MenuStr:2D利则诺顿         会员点200
+VipPet:2574,200
+}
+#2D扬奇洛斯
+{
+MenuStr:2D扬奇洛斯         会员点200
+VipPet:2575,200
+}
+#2D邦奇诺
+{
+MenuStr:2D邦奇诺           会员点200
+VipPet:2576,200
+}
+#2D布鲁顿
+{
+MenuStr:2D布鲁顿           会员点200
+VipPet:2577,200
+}
+#VIP帖伊诺斯
+{
+MenuStr:VIP帖伊诺斯        会员点400
+VipPet:2657,400
+}
+
+#白虎
+{
+MenuStr:潘多拉魔盒-白虎    会员点400
+VipPet:2663,400
+}
+#玄武
+{
+MenuStr:潘多拉魔盒-玄武    会员点400
+VipPet:2664,400
+}
+#青龙
+{
+MenuStr:潘多拉魔盒-青龙    会员点400
+VipPet:2665,400
+}
+#朱雀
+{
+MenuStr:潘多拉魔盒-朱雀    会员点400
+VipPet:2666,400
+}
+
+#巴雅蝴蝶
+{
+MenuStr:巴雅蝴蝶           会员点100
+VipPet:2561,100
+}
+#巴特蝴蝶
+{
+MenuStr:巴特蝴蝶           会员点100
+VipPet:2562,100
+}
+
+#S3奥卡洛斯
+{
+MenuStr:S3奥卡洛斯         会员点400
+VipPet:2678,400
+}
+#朵巴奈特
+{
+MenuStr:S3朵巴奈特         会员点400
+VipPet:2679,400
+}
+#斑尼迪克
+{
+MenuStr:S3斑尼迪克         会员点400
+VipPet:2680,400
+}
+#阿米朵
+{
+MenuStr:S3阿米朵           会员点400
+VipPet:2681,400
+}
+#邦司凉朵
+{
+MenuStr:S3邦司凉朵        会员点400
+VipPet:2682,400
+}
+

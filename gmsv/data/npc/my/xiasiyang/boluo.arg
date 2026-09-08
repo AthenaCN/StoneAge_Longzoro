@@ -1,0 +1,66 @@
+#### 蓝色升级水晶合成师 ####
+
+START_MSG:你想合成更高级菠箩装备？\n不过这是个很复杂的工作，所以能必须交纳90万元的制作费用喔。\n需要对应的精练石和对应的装备。\n不过事先要说好了，合成成功率都是50%，失败了是不会消失的！\n脚本制作-一起玩石器&QQ：122158
+
+MenuHead:选择要合成的「菠萝装备」
+NeedHead:需要的东西
+
+####  菠箩 ####
+{
+CHANGEITEM:23104
+NeedItem:23051,21104
+FREE:ITEM=23051&ITEM=21104&GOLD>=900000&reITEM>=1
+DelGold:900000
+DelItem:23051*1,21104*1
+GetRandItem:23104,21104
+}
+
+####  菠箩 ####
+{
+CHANGEITEM:23105
+NeedItem:23051,21105
+FREE:ITEM=23051&ITEM=21105&GOLD>=900000&reITEM>=1
+DelGold:900000
+DelItem:23051*1,21105*1
+GetRandItem:23105,21105
+}
+
+####  菠箩 ####
+{
+CHANGEITEM:23106
+NeedItem:23051,21106
+FREE:ITEM=23051&ITEM=21106&GOLD>=900000&reITEM>=1
+DelGold:900000
+DelItem:23051*1,21106*1
+GetRandItem:23106,21106
+}
+
+####  菠箩 ####
+{
+CHANGEITEM:23107
+NeedItem:23051,21107
+FREE:ITEM=23051&ITEM=21107&GOLD>=900000&reITEM>=1
+DelGold:900000
+DelItem:23051*1,21107*1
+GetRandItem:23107,21107
+}
+
+####  菠箩 ####
+{
+CHANGEITEM:23108
+NeedItem:23051,21108
+FREE:ITEM=23051&ITEM=21108&GOLD>=900000&reITEM>=1
+DelGold:900000
+DelItem:23051*1,21108*1
+GetRandItem:23108,21108
+}
+
+####  菠箩 ####
+{
+CHANGEITEM:23109
+NeedItem:23051,21109
+FREE:ITEM=23051&ITEM=21109&GOLD>=900000&reITEM>=1
+DelGold:900000
+DelItem:23051*1,21097*1
+GetRandItem:23109,21109
+}

@@ -1,0 +1,66 @@
+#### 蓝色升级水晶合成师 ####
+
+START_MSG:你想合成更高级牛牛装备？\n不过这是个很复杂的工作，所以能必须交纳90万元的制作费用喔。\n需要对应的精练石和对应的装备。\n不过事先要说好了，合成成功率都是50%，失败了是不会消失的！\n脚本制作-一起玩石器&QQ：122158
+
+MenuHead:选择要合成的「牛牛装备」
+NeedHead:需要的东西
+
+####  牛牛 ####
+{
+CHANGEITEM:23092
+NeedItem:23051,21092
+FREE:ITEM=23051&ITEM=21092&GOLD>=900000&reITEM>=1
+DelGold:900000
+DelItem:23051*1,21092*1
+GetRandItem:23092,21092
+}
+
+####  牛牛 ####
+{
+CHANGEITEM:23093
+NeedItem:23051,21093
+FREE:ITEM=23051&ITEM=21093&GOLD>=900000&reITEM>=1
+DelGold:900000
+DelItem:23051*1,21093*1
+GetRandItem:23093,21093
+}
+
+####  牛牛 ####
+{
+CHANGEITEM:23094
+NeedItem:23051,21094
+FREE:ITEM=23051&ITEM=21094&GOLD>=900000&reITEM>=1
+DelGold:900000
+DelItem:23051*1,21094*1
+GetRandItem:23094,21094
+}
+
+####  牛牛 ####
+{
+CHANGEITEM:23095
+NeedItem:23051,21095
+FREE:ITEM=23051&ITEM=21095&GOLD>=900000&reITEM>=1
+DelGold:900000
+DelItem:23051*1,21095*1
+GetRandItem:23095,21095
+}
+
+####  牛牛 ####
+{
+CHANGEITEM:23096
+NeedItem:23051,21096
+FREE:ITEM=23051&ITEM=21096&GOLD>=900000&reITEM>=1
+DelGold:900000
+DelItem:23051*1,21096*1
+GetRandItem:23096,21096
+}
+
+####  牛牛 ####
+{
+CHANGEITEM:23097
+NeedItem:23051,21097
+FREE:ITEM=23051&ITEM=21097&GOLD>=900000&reITEM>=1
+DelGold:900000
+DelItem:23051*1,21097*1
+GetRandItem:23097,21097
+}

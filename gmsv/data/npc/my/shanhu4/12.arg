@@ -1,0 +1,47 @@
+#### 精炼师「鳞」 ####
+
+START_MSG:你想精炼等级11以上的「鳞」吗？\n提炼一次十万元喔。\n需要2个相同等级的素材才能精练出更高级的。\n爱雪石器欢迎你
+
+MenuHead:选择要精炼的素材
+NeedHead:需要的素材
+
+
+####  12级鳞 ####
+{
+CHANGEITEM:3129
+NeedItem:13085,13085
+FREE:ENDEV=184&ITEM=13085*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:13085*2
+GetRandItem:13085,3129
+}
+
+####  13级鳞 ####
+{
+CHANGEITEM:3130
+NeedItem:3129,3129
+FREE:ENDEV=184&ITEM=3129*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:3129*2
+GetRandItem:3129,3130
+}
+
+####  14级鳞 ####
+{
+CHANGEITEM:3131
+NeedItem:3130,3130
+FREE:ENDEV=184&ITEM=3130*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:3130*2
+GetRandItem:3130,3131
+}
+
+####  15级叶 ####
+{
+CHANGEITEM:3132
+NeedItem:3131,3131
+FREE:ENDEV=184&ITEM=3131*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:3131*2
+GetRandItem:3131,3132
+}

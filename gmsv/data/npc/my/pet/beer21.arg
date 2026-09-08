@@ -1,0 +1,60 @@
+NomalMainMsg:这里是宠物DIY工作室！
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ENDEV=70&ENDEV=180&PET>0-401&PET>0-718&reITEM>1
+AcceptMsg:这里是爱雪石器宠物DIY工作室！我负责研究新宠「希库玛」的饲育DIY研究工作噢！\n\n想领取一只「希库玛」宝宝回去饲养吗？\n必须完成一代及二代玛蕾菲雅的任务噢！然后一代及二代分别带一只来，换取一只「希库玛」宝宝！！
+ThanksMsg:恩！玛蕾菲雅我就收下了！「希库玛」交给你了噢！\n我会先送你1份「希库玛的饲料」，记得每3级喂一次噢！否则它会停止成长的！其他的就要你自己去料理拉！
+DelPet:PET>0-401*1,PET>0-718*1
+GetPet:5760
+PetFullMsg:你的宠物已满!
+ItemFullMsg:身上道具太多了喔！
+EventEnd
+
+###### 地 ######
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ENDEV=70&ENDEV=180&PET=79-2660&ITEM=21168
+AcceptMsg:「希库玛」宝宝已经79级拉？
+ThanksMsg:按你的要求~交给你 地属性的希库玛噢！请拿好！
+DelItem:21168*1
+DelPet:PET=79-2660*1
+GetPet:5765,5764,5763,5762,5761
+PetFullMsg:你的宠物已满!
+EventEnd
+
+###### 水 ######
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ENDEV=70&ENDEV=180&PET=79-2660&ITEM=21169
+AcceptMsg:「希库玛」宝宝已经79级拉？
+ThanksMsg:按你的要求~交给你 水属性的希库玛噢！请拿好！
+DelItem:21169*1
+DelPet:PET=79-2660*1
+GetPet:5770,5769,5768,5767,5766
+PetFullMsg:你的宠物已满!
+EventEnd
+
+###### 火 ######
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ENDEV=70&ENDEV=180&PET=79-2660&ITEM=21170
+AcceptMsg:「希库玛」宝宝已经79级拉？
+ThanksMsg:按你的要求~交给你 火属性的希库玛噢！请拿好！
+DelItem:21170*1
+DelPet:PET=79-2660*1
+GetPet:5775,5774,5773,5772,5771
+PetFullMsg:你的宠物已满!
+EventEnd
+
+###### 风 ######
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ENDEV=70&ENDEV=180&PET=79-2660&ITEM=21171
+AcceptMsg:「希库玛」宝宝已经79级拉？
+ThanksMsg:按你的要求~交给你 风属性的希库玛噢！请拿好！
+DelItem:21171*1
+DelPet:PET=79-2660*1
+GetPet:5780,5779,5778,5777,5776
+PetFullMsg:你的宠物已满!
+EventEnd

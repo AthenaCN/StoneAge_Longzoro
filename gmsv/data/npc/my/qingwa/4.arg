@@ -1,0 +1,16 @@
+NEWWARPMAN
+
+NOFREE
+FREE:LV>0
+NomalMsg:。。。这青蛙真丑！
+PartyMsg:。。。这青蛙真丑！
+OVER
+
+TALKEVENT1
+WARP:0,0,0
+FREE:LV>140&TRANS>5&ENDEV=184&ENDEV=185&NOWEV=59&ITEM!=21150
+ItemFullMsg:你道具已经满了，我的东西不能给你...
+AddItem:21150
+FreeMsg:太好了，非常的感谢，我能不能改变原有的生命形态，全靠你了。这是我这次的蜕变物，希望你能尽快到其他女神那里，我先去那边等你了。
+NPCPOINT:11208,20,51;11208,51,9;11210,5,34;11210,20,4;11212,6,20;11212,4,7;11214,4,40
+OVER

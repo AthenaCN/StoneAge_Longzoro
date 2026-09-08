@@ -1,0 +1,47 @@
+#### 精炼师「水晶」 ####
+
+START_MSG:你想精炼等级11以上的「水晶」吗？\n提炼一次十万元喔。\n需要2个相同等级的素材才能精练出更高级的。\n爱雪石器欢迎你
+
+MenuHead:选择要精炼的素材
+NeedHead:需要的素材
+
+
+####  12级水晶 ####
+{
+CHANGEITEM:3147
+NeedItem:13087,13087
+FREE:ENDEV=184&ITEM=13087*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:13087*2
+GetRandItem:13087,3147
+}
+
+####  13级水晶 ####
+{
+CHANGEITEM:3148
+NeedItem:3147,3147
+FREE:ENDEV=184&ITEM=3147*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:3147*2
+GetRandItem:3147,3148
+}
+
+####  14级水晶 ####
+{
+CHANGEITEM:3149
+NeedItem:3148,3148
+FREE:ENDEV=184&ITEM=3148*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:3148*2
+GetRandItem:3148,3149
+}
+
+####  15级水晶 ####
+{
+CHANGEITEM:3156
+NeedItem:3149,3149
+FREE:ENDEV=184&ITEM=3149*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:3149*2
+GetRandItem:3149,3156
+}

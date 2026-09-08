@@ -1,0 +1,36 @@
+#### 精炼石水晶合成师 ####
+
+START_MSG:你想合成更高级的「精炼石」？\n不过这是个很复杂的工作！\n所以能必须交纳90万元的制作费用喔。\n需3个同等级的「精炼石」才能合出更高级的\n不过事先要说好了，合成成功率可不都是100%\n失败了会返回上一级！你准备好了吗？！？\n脚本制作-一起玩石器&QQ：122158
+
+MenuHead:选择要合成的「精炼石」等级
+NeedHead:需要的东西
+
+####  Lv2 ####
+{
+CHANGEITEM:23052
+NeedItem:23051,23051,23051
+FREE:ITEM=23051*3&GOLD>=900000&reITEM>=1
+DelGold:900000
+DelItem:23051*3
+GetRandItem:23052
+}
+
+####  Lv3 ####
+{
+CHANGEITEM:23053
+NeedItem:23052,23052,23052
+FREE:ITEM=23052*3&GOLD>=900000&reITEM>=1
+DelGold:900000
+DelItem:23052*3
+GetRandItem:23052,23053,23053
+}
+
+####  Lv4 ####
+{
+CHANGEITEM:23049
+NeedItem:23053,23053,23053
+FREE:ITEM=23053*3&GOLD>=900000&reITEM>=1
+DelGold:900000
+DelItem:23053*3
+GetRandItem:23053,23049
+}

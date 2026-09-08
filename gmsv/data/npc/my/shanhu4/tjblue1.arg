@@ -1,0 +1,57 @@
+#### 碧华腰带 ####
+
+START_MSG:你想升级腰带成碧华系列？\n升级一次十万元喔。\n需要1件腰带及相同等级的「搜魂水晶」才能升级更高级的。\nLv4以前都是100%的成功率噢！但是LV4开始就说不清楚了！嘿嘿\n你考虑好了么！请选择吧！！\n爱雪石器欢迎你
+
+MenuHead:选择碧华腰带等级
+NeedHead:需要的道具
+
+
+####  碧华腰带LV1 ####
+{
+CHANGEITEM:21248
+NeedItem:21203,21213
+FREE:ITEM=21203*1&ITEM=21213*1&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:21203*1,21213*1
+GetRandItem:21248
+}
+
+####  碧华腰带LV2 ####
+{
+CHANGEITEM:21249
+NeedItem:21248,21214
+FREE:ITEM=21248*1&ITEM=21214*1&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:21248*1,21214*1
+GetRandItem:21249
+}
+
+####  碧华腰带LV3 ####
+{
+CHANGEITEM:21250
+NeedItem:21249,21215
+FREE:ITEM=21249*1&ITEM=21215*1&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:21249*1,21215*1
+GetRandItem:21250
+}
+
+####  碧华腰带LV4 ####
+{
+CHANGEITEM:21251
+NeedItem:21250,21216,21216
+FREE:ITEM=21250*1&ITEM=21216*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:21250*1,21216*2
+GetRandItem:21250,21250,21251,21250,21250
+}
+
+####  碧华腰带LV5 ####
+{
+CHANGEITEM:21252
+NeedItem:21251,21217,21217
+FREE:ITEM=21251*1&ITEM=21217*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:21251*1,21217*2
+GetRandItem:21308,21308,21308,21308,21308,21252,21308,21308,21308,21308,21308
+}

@@ -1,0 +1,19 @@
+NomalMainMsg:补给品的材料还没到吗？？？急死我拉
+
+####任务93完成####
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>79&TRANS>5&ENDEV=90&ENDEV=91&ENDEV=92&ENDEV=93
+NomalWindowMsg:辛苦你拉~没有你的帮助~急救物资不可能那么快就送到前哨营地去的！
+EventEnd
+
+####任务93中 身上有10个材料包 就给15个物资包####
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>79&TRANS>5&ENDEV=90&ENDEV=91&ENDEV=92&NOWEV=93&ITEM=21109*10
+AcceptMsg:虽然你带来了补给品，但是现在正缺人手的情况下我还是没办法将部分的补给送到哨站去，你可以帮个忙吗？
+ThanksMsg:真的是很感谢你噢！
+ItemFullMsg:身上道具太多了喔！
+DelItem:21109
+GetItem:21125*15
+EventEnd

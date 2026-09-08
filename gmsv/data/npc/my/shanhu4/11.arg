@@ -1,0 +1,47 @@
+#### 精炼师「黏土」 ####
+
+START_MSG:你想精炼等级11以上的「黏土」吗？\n提炼一次十万元喔。\n需要2个相同等级的素材才能精练出更高级的。\n爱雪石器欢迎你
+
+MenuHead:选择要精炼的素材
+NeedHead:需要的素材
+
+
+####  12级黏土 ####
+{
+CHANGEITEM:3114
+NeedItem:13084,13084
+FREE:ENDEV=184&ITEM=13084*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:13084*2
+GetRandItem:13084,3114
+}
+
+####  13级黏土 ####
+{
+CHANGEITEM:3115
+NeedItem:3114,3114
+FREE:ENDEV=184&ITEM=3114*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:3114*2
+GetRandItem:3114,3115
+}
+
+####  14级黏土 ####
+{
+CHANGEITEM:3116
+NeedItem:3115,3115
+FREE:ENDEV=184&ITEM=3115*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:3115*2
+GetRandItem:3115,3116
+}
+
+####  15级黏土 ####
+{
+CHANGEITEM:3117
+NeedItem:3116,3116
+FREE:ENDEV=184&ITEM=3116*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:3116*2
+GetRandItem:3116,3117
+}

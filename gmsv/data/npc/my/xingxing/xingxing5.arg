@@ -1,0 +1,15 @@
+entype:2
+askbattlemsg1:我是腾龙的天神星!保护宝物是我的使命！
+startmsg:战斗吧！
+dieact:0
+#warpfl:100
+#warpx:472
+#warpy:293
+end msg:
+enemyno:14032,14032,14032,14032,14032
+deniedmsg:有什么事吗？
+alreadymsg:闪开!没见我在战斗么？！
+onebattle:1
+time=3600
+
+

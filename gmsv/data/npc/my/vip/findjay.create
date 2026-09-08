@@ -1,0 +1,27 @@
+NPCCREATE
+
+###### 会员颁发人 ######
+{
+floorid=2000
+borncenter=61,78
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=104518
+name=会员颁发人
+enemy=changeevent|file:my/vip/ayako.arg
+}
+
+###### 会员审核人 ######
+{
+floorid=147
+borncenter=21,7
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=104516
+name=会员审核人
+enemy=changeevent|file:my/vip/jay.arg
+}

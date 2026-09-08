@@ -1,0 +1,26 @@
+NEWNPCENEMY
+
+entype:2
+askbattlemsg:想进入魔界？除非你能通过这一关
+startmsg:想进入魔界？除非你能通过这一关
+dieact:1
+warpfl:0
+warpx:0
+warpy:0
+enemyno:6004,6004,6004,6004,6004,6006,6005,6005,6005,6005
+deniedmsg:....
+alreadymsg:想进去也要一个一个来！
+onebattle:1
+OVER
+
+NEWEVENT1:
+FREE:ENDEV=90
+WARP:60088,15,15;60088,15,15;60088,15,15;61008,41,15
+endmsg:既然打败了我们~也只好让你通过了
+OVER
+
+NEWEVENT2:
+FREE:LV>0
+WARP:60088,15,15
+endmsg:既然打败了我们~也只好让你通过了！（友情提示：未完成战斗号角任务 无法通过）
+OVER

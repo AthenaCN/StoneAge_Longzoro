@@ -1,0 +1,57 @@
+#### 碧华靴子 ####
+
+START_MSG:你想升级靴子成碧华系列？\n升级一次十万元喔。\n需要1件靴子及相同等级的「搜魂水晶」才能升级更高级的。\nLv4以前都是100%的成功率噢！但是LV4开始就说不清楚了！嘿嘿\n你考虑好了么！请选择吧！！\n爱雪石器欢迎你
+
+MenuHead:选择碧华靴子等级
+NeedHead:需要的道具
+
+
+####  碧华靴子LV1 ####
+{
+CHANGEITEM:21253
+NeedItem:21204,21213
+FREE:ITEM=21204*1&ITEM=21213*1&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:21204*1,21213*1
+GetRandItem:21253
+}
+
+####  碧华靴子LV2 ####
+{
+CHANGEITEM:21254
+NeedItem:21253,21214
+FREE:ITEM=21253*1&ITEM=21214*1&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:21253*1,21214*1
+GetRandItem:21254
+}
+
+####  碧华靴子LV3 ####
+{
+CHANGEITEM:21255
+NeedItem:21254,21215
+FREE:ITEM=21254*1&ITEM=21215*1&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:21254*1,21215*1
+GetRandItem:21255
+}
+
+####  碧华靴子LV4 ####
+{
+CHANGEITEM:21256
+NeedItem:21255,21216,21216
+FREE:ITEM=21255*1&ITEM=21216*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:21255*1,21216*2
+GetRandItem:21255,21255,21256,21255,21255
+}
+
+####  碧华靴子LV5 ####
+{
+CHANGEITEM:21257
+NeedItem:21256,21217,21217
+FREE:ITEM=21256*1&ITEM=21217*2&GOLD>=100000&reITEM>=1
+DelGold:100000
+DelItem:21256*1,21217*2
+GetRandItem:21308,21308,21308,21308,21308,21257,21308,21308,21308,21308,21308
+}

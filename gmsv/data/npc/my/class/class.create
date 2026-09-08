@@ -1,0 +1,14 @@
+NPCCREATE
+
+
+{
+name=≥Â÷µNPC
+floorid=1090
+borncenter=21,20
+dir=4
+ignoreinvincible=1
+createnum=1
+graphicname=16666
+enemy=npcgen_warpman|file:my/class/bailang
+}
+

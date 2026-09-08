@@ -1,0 +1,14 @@
+NEWWARPMAN
+
+NOFREE
+FREE:LV>0
+NomalMsg:.......
+PartyMsg:.......
+OVER
+
+TALKEVENT1
+WARP:2000,48,67
+FREE:LV>0
+FreeMsg:要从市集出去是吗？\n那送你出去吧！！！
+OVER
+

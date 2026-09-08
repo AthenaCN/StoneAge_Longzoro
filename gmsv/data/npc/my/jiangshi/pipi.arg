@@ -1,0 +1,6 @@
+#### 未接任务对话 ####
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0
+NomalWindowMsg:我叫PiPi，在酒点做公关。\n\n哎，可是就在昨天，我惨遭杀害，我也不知道是谁杀了我，你帮我查查好吗？？
+EventEnd
