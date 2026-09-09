@@ -1,7 +1,7 @@
 NPCCREATE
 
 
-###### °¬¶ûË¹######
+###### è‰¾å°”æ–¯######
 
 {
 name=°¬¶ûË¹
@@ -15,7 +15,7 @@ graphicname=16353
 enemy=changeevent|file:sa80/gloves/gloves_1
 }
 
-###### °¬¶ûµÇ######
+###### è‰¾å°”ç™»######
 {
 name=°¬¶ûµÇ
 floorid=200

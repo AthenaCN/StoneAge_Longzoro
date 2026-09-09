@@ -6,6 +6,7 @@
 #include "npcutil.h"
 #include "lssproto_serv.h"
 #include "readmap.h"
+#include "autil.h"
 // Arminius 8.4 manor
 #include "family.h"
 
@@ -55,6 +56,14 @@ static void NPC_SignBoard_Window(int meindex, int toindex, int num, int select) 
 	if (NPC_Util_GetArgStr(meindex, npcarg, sizeof(npcarg)) == NULL) {
 		print("GetArgStrErr");
 		return;
+	}
+
+	// 将 GBK 数据文件内容转为 UTF-8，与源码 UTF-8 字面量（"＜看板＞"等）混拼后
+	// 整串为合法 UTF-8，util_mkstring 发送时会统一转回 GBK，客户端显示不乱码
+	{
+		char utf8arg[NPC_UTIL_GETARGSTR_BUFSIZE * 2];
+		str_gbk_to_utf8(utf8arg, sizeof(utf8arg), npcarg);
+		strcpy(npcarg, utf8arg);
 	}
 
 	// Arminius: manor

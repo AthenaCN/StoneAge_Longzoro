@@ -284,6 +284,8 @@ int lssproto_ServerDispatchMessage(int fd, char *encoded)
 		checksum += util_deint(4, &haveitemindex);
 		checksum += util_deint(5, &toindex);
 		util_deint(6, &checksumrecv);
+		print("[ID-RECV] x=%d y=%d haveitem=%d toindex=%d checksum=%d recv=%d\n",
+			  x, y, haveitemindex, toindex, checksum, checksumrecv);
 		if (checksum != checksumrecv) /* Tokyo-sa: restored real checksum */ {
 			util_DiscardMessage();
 			logHack(fd, HACK_CHECKSUMERROR);

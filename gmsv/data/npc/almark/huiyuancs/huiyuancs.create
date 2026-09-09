@@ -1,6 +1,6 @@
 NPCCREATE
 
-#ÃÅÎÀ×ó
+#é—¨å«å·¦
 {
 floorid=2000
 borncenter=54,50
@@ -13,7 +13,7 @@ ignoreinvincible=1
 enemy=changeevent|file:almark/huiyuancs/transfer7.arg
 }
 
-#ÃÅÎÀÓÒ
+#é—¨å«å³
 {
 floorid=2000
 borncenter=59,50
@@ -26,7 +26,7 @@ ignoreinvincible=1
 enemy=changeevent|file:almark/huiyuancs/transfer7.arg
 }
 
-#VIP»áÔ±´«ËÍÔ±
+#VIPä¼šå‘˜ä¼ é€å‘˜
 {
 floorid=2000
 borncenter=46,20

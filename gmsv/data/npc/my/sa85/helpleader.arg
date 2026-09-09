@@ -1,13 +1,13 @@
 NomalMainMsg:Ç°ÏßµÄÕ½¶·¿ÉÕæ¼¤ÁÒ°¡~~~~
 
-####ÈÎÎñ94Íê³É####
+####ä»»åŠ¡94å®Œæˆ####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:ENDEV=94
 NomalWindowMsg:ÕæµÄÊÇÂé·³ÄãÁË£¡
 EventEnd
 
-###Íê³ÉÈÎÎñ£¨¹Ø±ê94£©###
+###å®Œæˆä»»åŠ¡ï¼ˆå…³æ ‡94ï¼‰###
 EventNo:94
 TYPE:ACCEPT
 EVENT:LV>140&TRANS>5&ENDEV=90&NOWEV=94&ITEM=21126*8
@@ -19,7 +19,7 @@ GetItem:21041*1
 EndSetFlg:94
 EventEnd
 
-####ÈÎÎñ94ÖÐ####
+####ä»»åŠ¡94ä¸­####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>140&TRANS>5&ENDEV=90&NOWEV=94&PET>0-14024
@@ -30,14 +30,14 @@ DelPet:PET>0-14024*1
 GetItem:21126*1
 EventEnd
 
-####ÈÎÎñ94ÖÐ####
+####ä»»åŠ¡94ä¸­####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:NOWEV=94
 NomalWindowMsg:ÊÇ²»ÊÇÂ·ÉÏºÜÎ£ÏÕÄØ£¿Ò»¸öÉË±ø¶¼ÕÒ²»µ½Âð£¿£¿£¿
 EventEnd
 
-####½ÓÈÎÎñ¸ø±ê94##
+####æŽ¥ä»»åŠ¡ç»™æ ‡94##
 EventNo:94
 TYPE:REQUEST
 EVENT:LV>140&TRANS>5&ENDEV=90

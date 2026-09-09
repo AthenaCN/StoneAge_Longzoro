@@ -1,13 +1,13 @@
 NomalMainMsg:ÎÒºÃÏëÄîÎÒµÄ¸ç¸çÑÇÂüËþÑ½£¡²»ÖªµÀËûÏÖÔÚ»¹ºÃÃ´£¿
 
-####185ÈÎÎñ½áÊø####
+####185ä»»åŠ¡ç»“æŸ####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>79&TRANS>=5&ENDEV=184&ENDEV=185
 NomalWindowMsg:Ð»Ð»Äã°ïÎÒÕÒµ½ÎÒ¸ç¸çÑÇÂüËþàÞ£¡²»ÖªµÀ¸ç¸çÏÖÔÚ»¹ºÃÃ´¡«¡«¡«
 EventEnd
 
-###½á±ê185 ÓÐ¼ÒÊéÓÐÑÐ¾¿Êé¸øÄñ###
+###ç»“æ ‡185 æœ‰å®¶ä¹¦æœ‰ç ”ç©¶ä¹¦ç»™é¸Ÿ###
 EventNo:185
 TYPE:ACCEPT
 EVENT:LV>79&TRANS>=5&ENDEV=184&NOWEV=185&ITEM=21166&ITEM=21167
@@ -19,7 +19,7 @@ ThanksMsg:×÷Îª±¨´ðÕâÖ»Ð¡ÄñËÍ¸øÄã°É£¡ºÃºÃÕÕ¹ËËüàÞ£¡
 EndSetFlg:185
 EventEnd
 
-###½á±ê185ÓÐ¼ÒÊéÎÞÑÐ¾¿Êé¸øÑÐ¾¿Êé###
+###ç»“æ ‡185æœ‰å®¶ä¹¦æ— ç ”ç©¶ä¹¦ç»™ç ”ç©¶ä¹¦###
 EventNo:185
 TYPE:ACCEPT
 EVENT:LV>79&TRANS>=5&ENDEV=184&NOWEV=185&ITEM=21167
@@ -31,14 +31,14 @@ ThanksMsg:×÷Îª±¨´ðÕâ±¾ÑÐ¾¿±¨¸æ¸øÄã°É£¡
 EndSetFlg:185
 EventEnd
 
-####185½øÐÐÖÐÉíÉÏÓÐÐÅ####
+####185è¿›è¡Œä¸­èº«ä¸Šæœ‰ä¿¡####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>79&TRANS>=5&ENDEV=184&NOWEV=185&ITEM=21169
 NomalWindowMsg:ÆÚ´ýÄãÄÜÕÒµ½ÎÒ¸ç¸çÑÇÂüËþ£¡
 EventEnd
 
-####185½øÐÐÖÐ¸øÐÅ####
+####185è¿›è¡Œä¸­ç»™ä¿¡####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>79&TRANS>=5&ENDEV=184&NOWEV=185&ITEM!=21169

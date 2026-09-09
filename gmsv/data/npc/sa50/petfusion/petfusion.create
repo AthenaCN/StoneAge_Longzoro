@@ -1,6 +1,6 @@
 NPCCREATE
 
-#### Âê´åÈÚºÏÊ¦ ####
+#### ç›æ‘èåˆå¸ˆ ####
 {
 floorid=2000
 borncenter=85,86
@@ -25,7 +25,7 @@ name=²©Ê¿µÜ×Ó
 enemy=changeevent|file:sa50/petfusion/petfusion
 }
 
-#### ¿¨´åÈÚºÏÊ¦ ####
+#### å¡æ‘èåˆå¸ˆ ####
 {
 floorid=4000
 borncenter=67,72
@@ -50,7 +50,7 @@ name=²©Ê¿µÜ×Ó
 enemy=changeevent|file:sa50/petfusion/petfusion
 }
 
-#### ÒÁµéÈÚºÏÊ¦ ####
+#### ä¼Šç”¸èåˆå¸ˆ ####
 {
 floorid=7000
 borncenter=78,119

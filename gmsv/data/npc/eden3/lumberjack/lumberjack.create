@@ -1,6 +1,6 @@
 NPCCREATE
 
-###### ÁÖÎñ¾ÖÍâ´«ËÍµã ######
+###### æ—åŠ¡å±€å¤–ä¼ é€ç‚¹ ######
 {
 floorid=7000
 borncenter=27,161
@@ -9,7 +9,7 @@ ignoreinvincible=1
 enemy=npcgen_warp|file:eden3/lumberjack/warppoint1.arg
 }
 
-###### ÁÖÎñ¾ÖÍâ´«ËÍµã ######
+###### æ—åŠ¡å±€å¤–ä¼ é€ç‚¹ ######
 {
 floorid=7000
 borncenter=20,160
@@ -18,7 +18,7 @@ ignoreinvincible=1
 enemy=npcgen_warp|file:eden3/lumberjack/warppoint2.arg
 }
 
-###### ÁÖÎñ¾Ö³¤¿Â±ÈÂŞ¶û ######
+###### æ—åŠ¡å±€é•¿æŸ¯æ¯”ç½—å°” ######
 {
 name=¿Â±ÈÂŞ¶û
 floorid=7015
@@ -30,7 +30,7 @@ enemy=changeevent|file:eden3/lumberjack/kobe
 graphicname=100102
 }
 
-###### ÃØÊé²¼Â³ÎÚÆë ######
+###### ç§˜ä¹¦å¸ƒé²ä¹Œé½ ######
 {
 name=²¼Â³ÎÚÆë
 floorid=7015
@@ -42,7 +42,7 @@ enemy=changeevent|file:eden3/lumberjack/bluewuchi
 graphicname=16730
 }
 
-###### Ä¾²ÄÉÌÈË´ï±È ######
+###### æœ¨æå•†äººè¾¾æ¯” ######
 {
 name=´ï±È
 floorid=7015
@@ -55,7 +55,7 @@ enemy=npcgen_limitshop|file:eden3/lumberjack/dabe
 graphicname=16019
 }
 
-###### ¹¤Í··¿¼äÍâ´«ËÍµã ######
+###### å·¥å¤´æˆ¿é—´å¤–ä¼ é€ç‚¹ ######
 {
 floorid=703
 borncenter=334,182
@@ -64,7 +64,7 @@ ignoreinvincible=1
 enemy=npcgen_warp|file:eden3/lumberjack/warppoint3.arg
 }
 
-###### ¹¤Í·²¼Â³Ë¹×³ ######
+###### å·¥å¤´å¸ƒé²æ–¯å£® ######
 {
 name=²¼Â³Ë¹×³
 floorid=7453
@@ -77,7 +77,7 @@ enemy=changeevent|file:eden3/lumberjack/bluestrong
 graphicname=100439
 }
 
-###### ²¼Â³Ë¹×³Õ½¶·ĞÍ ######
+###### å¸ƒé²æ–¯å£®æˆ˜æ–—å‹ ######
 {
 name=²¼Â³Ë¹×³
 floorid=7454
@@ -89,7 +89,7 @@ enemy=bluestrong|file:eden3/lumberjack/bluestrong.arg
 graphicname=100439
 }
 
-###### ·çÉ­ÁÖÍâ´«ËÍµã ######
+###### é£æ£®æ—å¤–ä¼ é€ç‚¹ ######
 {
 floorid=703
 borncenter=147,146
@@ -98,7 +98,7 @@ ignoreinvincible=1
 enemy=npcgen_warp|file:eden3/lumberjack/warppoint4.arg
 }
 
-###### ·ç¾«Áé¸¥Ë¹ÎÂµÙ ######
+###### é£ç²¾çµå¼—æ–¯æ¸©è’‚ ######
 {
 name=¸¥Ë¹ÎÂµÙ
 floorid=7449
@@ -110,7 +110,7 @@ enemy=changeevent|file:eden3/lumberjack/windy
 graphicname=16950
 }
 
-###### ÁÖÎñ¾Ö³¤¿Â±ÈÂŞ¶ûÕ½¶·ĞÍ ######
+###### æ—åŠ¡å±€é•¿æŸ¯æ¯”ç½—å°”æˆ˜æ–—å‹ ######
 {
 name=¿Â±ÈÂŞ¶û
 floorid=7024
@@ -122,7 +122,7 @@ enemy=koberoll|file:eden3/lumberjack/koberoll.arg
 graphicname=100102
 }
 
-###### ·¥Ä¾¹¤ÈËa ######
+###### ä¼æœ¨å·¥äººa ######
 {
 name=·¥Ä¾¹¤ÈË
 floorid=703
@@ -134,7 +134,7 @@ enemy=changeevent|file:eden3/lumberjack/worker1
 graphicname=16925
 }
 
-###### ·¥Ä¾¹¤ÈËb ######
+###### ä¼æœ¨å·¥äººb ######
 {
 name=·¥Ä¾¹¤ÈË
 floorid=703

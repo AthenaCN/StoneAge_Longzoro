@@ -1,6 +1,6 @@
 NPCCREATE
 
-######³ÈÀÏÊó##########
+######æ©™è€é¼ ##########
 {
 floorid=7000
 borncenter=113,70,1,1
@@ -10,7 +10,7 @@ graphicname=104467
 name=³ÈÀÏÊó
 enemy=sb_dou|file:shunian/cheng.arg
 }
-######ÂÌÀÏÊó##########
+######ç»¿è€é¼ ##########
 {
 floorid=7000
 borncenter=49,139,1,1
@@ -20,7 +20,7 @@ graphicname=104467
 name=ÂÌÀÏÊó
 enemy=sb_dou|file:shunian/lv.arg
 }
-######À¶ÀÏÊó##########
+######è“è€é¼ ##########
 {
 floorid=7000
 borncenter=167,169,1,1
@@ -30,7 +30,7 @@ graphicname=104467
 name=À¶ÀÏÊó
 enemy=sb_dou|file:shunian/lan.arg
 }
-######»ÆÀÏÊó##########
+######é»„è€é¼ ##########
 {
 floorid=7000
 borncenter=184,71,1,1
@@ -40,7 +40,7 @@ graphicname=104467
 name=»ÆÀÏÊó
 enemy=sb_dou|file:shunian/huang.arg
 }
-######ÊóÀÏ´ó##########
+######é¼ è€å¤§##########
 {
 floorid=8208
 borncenter=136,11,1,1
@@ -50,7 +50,7 @@ graphicname=104467
 name=ÊóÀÏ´ó
 enemy=sb_dou|file:shunian/laoda.arg
 }
-######´ó¶Ó³¤##########
+######å¤§é˜Ÿé•¿##########
 {
 floorid=7000
 borncenter=120,98,1,1
@@ -60,7 +60,7 @@ graphicname=104463
 name=´ó¶Ó³¤
 enemy=sb_dou|file:shunian/duizhang.arg
 }
-######´åÃñ##########
+######æ‘æ°‘##########
 {
 floorid=2000
 borncenter=70,111

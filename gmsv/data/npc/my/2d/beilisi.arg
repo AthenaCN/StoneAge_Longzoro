@@ -1,20 +1,20 @@
 NomalMainMsg:ÓÐÊ²Ã´ÊÂÂð£¿£¿£¿
 
-#Íê³ÉÈÎÎñºó
+#å®Œæˆä»»åŠ¡åŽ
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>79&TRANS>4&ENDEV=184&ENDEV=189
 NomalWindowMsg:¹§Ï²³É¹¦Ê¹ÈËÁú½â³ý·âÓ¡£¡£¡
 EventEnd
 
-#Íê³ÉÈÎÎñºó
+#å®Œæˆä»»åŠ¡åŽ
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>79&TRANS>4&ENDEV=184&NOWEV=189&ITEM=19427
 NomalWindowMsg:¿ìÈ¥¼ªÂ³µº°É£¡
 EventEnd
 
-#####ÉíÉÏÓÐÎå¸öÆ¬¶ÎËµ»° ¸øÑÐ¾¿±¨¸æ
+#####èº«ä¸Šæœ‰äº”ä¸ªç‰‡æ®µè¯´è¯ ç»™ç ”ç©¶æŠ¥å‘Š
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>79&TRANS>4&ENDEV=184&NOWEV=189&ITEM=19421&ITEM=19422&ITEM=19423&ITEM=19424&ITEM=19425&ITEM=19426
@@ -26,14 +26,14 @@ GetItem:19427
 ItemFullMsg:ÎïÆ·Ì«¶àÁË¡£¡£¡£
 EventEnd
 
-#½ÐÍæ¼ÒÈ¥´òÆ¬¶Î
+#å«çŽ©å®¶åŽ»æ‰“ç‰‡æ®µ
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>79&TRANS>4&ENDEV=184&NOWEV=189&ITEM=19421
 NomalWindowMsg:Ä§ÊÞ¾ÍÔÚÉ³Ä·µº£¬¸Ï¿ìÈ¥°É¡£¡£¡£
 EventEnd
 
-#####·­ÒëÐÑÁú°ÂÒåµÄÆ¬¶Î
+#####ç¿»è¯‘é†’é¾™å¥¥ä¹‰çš„ç‰‡æ®µ
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>79&TRANS>4&ENDEV=184&NOWEV=189&ITEM=19420

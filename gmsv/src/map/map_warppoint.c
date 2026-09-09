@@ -12,7 +12,7 @@
 #include "map_warppoint.h"
 
 #ifdef _MAP_WARPPOINT
-#define MAP_MAXWARPPOINT 5000
+#define MAP_MAXWARPPOINT 6000   // 9.0数据5986个传送点(原5000被截断丢弃986个)
 
 typedef struct _tagMAPwarpPoints {
 	int use;

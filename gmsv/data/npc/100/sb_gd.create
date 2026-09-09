@@ -1,5 +1,5 @@
 NPCCREATE
-#######¥´¥¦##########
+#######ã‚´ã‚¦##########
 {
 floorid=11107
 borncenter=22,41,1,1
@@ -11,7 +11,7 @@ graphicname=100439
 name=®©
 enemy=sb_go|file:100/sb_go.arg
 }
-#########¥À¥ó########
+#########ãƒ€ãƒ³########
 {
 floorid=11107
 borncenter=23,41,1,1

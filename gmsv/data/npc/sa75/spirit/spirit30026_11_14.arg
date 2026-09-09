@@ -2,7 +2,7 @@
 NomalMainMsg:ÎÒ¸ºÔðÊØ»¤Ë®¾§ÖùÒÔ·À¼ªÂ³µºµÄÖ§ÖùÔâÊÜÆÆ»µ£¬·²ÊÇÃ»ÓÐ»ñµÃÈÏ¿ÉµÄÈËÊÇÎÞ·¨µ½´ïÕâÀï¡£
 
 
-#ÓÐÆì±ê177¸ú»ðÊØ»¤µÀ¾ß
+#æœ‰æ——æ ‡177è·Ÿç«å®ˆæŠ¤é“å…·
 EventNo:178
 TYPE:ACCEPT
 EVENT:LV>79&ENDEV=177&NOWEV=178&ENDEV!=178&ITEM=19292&ITEM!=3900
@@ -15,14 +15,14 @@ CleanFlg:177
 DelItem:19304
 EventEnd
 
-#ÓµÓÐÁË178Æì±ê
+#æ‹¥æœ‰äº†178æ——æ ‡
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>79&ENDEV!=177&ENDEV=178&ITEM=19292&ITEM!=3900
 NomalWindowMsg:\nÂÌçêÊ¯´æÔÚÓÚÁðÁ§¶´¿ß£¬Ò²ÐíÑ¯ÎÊÅ®ÉñµÙÑÇÌØ»áÓÐ´ð°¸¡£\n\nÈç¹ûÓÐÁËÂÌçêÊ¯£¬ÒªÁíÍâ½«ËÄÖÖÍêÕûµÄË®¾§´ø»ØÀ´¡£
 EventEnd
 
-#ÓÐÆì±êÃ»ÊØ»¤
+#æœ‰æ——æ ‡æ²¡å®ˆæŠ¤
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>79&ITEM!=19292
@@ -30,7 +30,7 @@ NomalWindowMsg:\n\nÎÒ¸ºÔðÊØ»¤Ë®¾§ÖùÒÔ·À¼ªÂ³µºµÄÖ§ÖùÔâÊÜÆÆ»µ£¬·²ÊÇÃ»ÓÐ»ñµÃÈÏ¿ÉµÄÈ
 EventEnd
 
 
-#ÓÐÆì±ê178¸ú»ðÊØ»¤µÀ¾ß
+#æœ‰æ——æ ‡178è·Ÿç«å®ˆæŠ¤é“å…·
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>79&ENDEV!=177&ENDEV=178&ITEM=19292&ITEM=3900&ITEM=19305&ITEM=19306&ITEM=19307&ITEM=19308
@@ -45,7 +45,7 @@ GetPet:2547
 EventEnd
 
 
-#ÓÐÆì±êÓëµØ±¦Ê¯Ã»Ë®¾§
+#æœ‰æ——æ ‡ä¸Žåœ°å®çŸ³æ²¡æ°´æ™¶
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>79&ENDEV=178&ITEM=19292&ITEM=3900

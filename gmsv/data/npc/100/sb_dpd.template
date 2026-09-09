@@ -1,5 +1,5 @@
 NPCTEMPLATE
-#######¥À¥¤¥¹##########
+#######ãƒ€ã‚¤ã‚¹##########
 {
 templatename=sb_dice
 makeatnobody=1
@@ -11,7 +11,7 @@ mp=100
 str=1
 tough=1
 }
-#######¥İ¡¼¥«¡¼##########
+#######ãƒãƒ¼ã‚«ãƒ¼##########
 {
 templatename=sb_por
 makeatnobody=1
@@ -23,7 +23,7 @@ mp=100
 str=1
 tough=1
 }
-#######¥À¡¼¥Ä##########
+#######ãƒ€ãƒ¼ãƒ„##########
 {
 templatename=sb_dar
 makeatnobody=1

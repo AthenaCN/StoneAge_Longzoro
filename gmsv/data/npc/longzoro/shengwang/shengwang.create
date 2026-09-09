@@ -1,6 +1,6 @@
 NPCCREATE
 
-#ÉùÍû¶Ò»»µê1
+#å£°æœ›å…‘æ¢åº—1
 {
 floorid=1999
 borncorner=16,16,16,16
@@ -13,7 +13,7 @@ name=¾«ÁéÊ¹Õß
 enemy=npcgen_shop|file:longzoro/shengwang/switem1.arg
 }
 
-#ÉùÍû¶Ò»»µê1
+#å£°æœ›å…‘æ¢åº—1
 {
 floorid=1090
 borncorner=19,25,19,25
@@ -26,7 +26,7 @@ name=ÉùÍû¶Ò»»
 enemy=npcgen_shop|file:longzoro/shengwang/switem5.arg
 }
 
-#ÉùÍû¶Ò»»µê2
+#å£°æœ›å…‘æ¢åº—2
 {
 floorid=1090
 borncorner=25,31,25,31
@@ -39,7 +39,7 @@ name=ÉùÍû¶Ò»»µê
 enemy=npcgen_shop|file:longzoro/shengwang/switem2.arg
 }
 
-#ÉùÍû¶Ò»»µê4
+#å£°æœ›å…‘æ¢åº—4
 {
 floorid=7502
 borncorner=12,12,12,12

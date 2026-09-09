@@ -1,6 +1,6 @@
 NPCCREATE
 
-######¡¾ºÜ¿ÉÒÉµÄÈËÎï¡¿##########
+######ã€å¾ˆå¯ç–‘çš„äººç‰©ã€‘##########
 {
 floorid=7000
 borncenter=100,153,1,1
@@ -10,7 +10,7 @@ graphicname=101530
 name=¡¾ºÜ¿ÉÒÉµÄÈËÎï¡¿
 enemy=sb_dou|file:shuijing/keyiren.arg
 }
-######¡¾ÂİË¿¹ÜÀíÔ±¡¿##########
+######ã€èºä¸ç®¡ç†å‘˜ã€‘##########
 {
 floorid=2000
 borncenter=76,116
@@ -20,7 +20,7 @@ graphicname=100700
 name=¡¾Ò»ÆğÍæ¹ÜÀíÔ±¡¿	
 enemy=changeevent|file:shuijing/luosi.arg
 }
-######¡¾ÌìÒôÊ¥Å®¡¿##########
+######ã€å¤©éŸ³åœ£å¥³ã€‘##########
 {
 floorid=7217
 borncenter=17,12
@@ -30,7 +30,7 @@ graphicname=104049
 name=¡¾ÌìÒôÊ¥Å®¡¿
 enemy=changeevent|file:shuijing/tianyin.arg
 }
-######Ä§Á¦ÍÃ×Ó¼×##########
+######é­”åŠ›å…”å­ç”²##########
 {
 floorid=7200
 borncenter=18,108,1,1
@@ -40,7 +40,7 @@ graphicname=102001
 name=Ä§Á¦ÍÃ×Ó¼×
 enemy=sb_dou|file:shuijing/tujia.arg
 }
-######Ä§Á¦ÍÃ×ÓÒÒ##########
+######é­”åŠ›å…”å­ä¹™##########
 {
 floorid=7200
 borncenter=101,99,1,1
@@ -50,7 +50,7 @@ graphicname=102001
 name=Ä§Á¦ÍÃ×ÓÒÒ
 enemy=sb_dou|file:shuijing/tuyi.arg
 }
-######Ä§Á¦ÍÃ×Ó±û##########
+######é­”åŠ›å…”å­ä¸™##########
 {
 floorid=7200
 borncenter=105,23,1,1
@@ -60,7 +60,7 @@ graphicname=102002
 name=Ä§Á¦ÍÃ×Ó±û
 enemy=sb_dou|file:shuijing/tubing.arg
 }
-######Ä§Á¦ÍÃ×Ó¶¡##########
+######é­”åŠ›å…”å­ä¸##########
 {
 floorid=7200
 borncenter=39,13,1,1
@@ -70,7 +70,7 @@ graphicname=102002
 name=Ä§Á¦ÍÃ×Ó¶¡
 enemy=sb_dou|file:shuijing/tuding.arg
 }
-######¡¾ºÜ¿ÉÒÉµÄĞ¡Íµ¡¿##########
+######ã€å¾ˆå¯ç–‘çš„å°å·ã€‘##########
 {
 floorid=1000
 borncenter=40,49,1,1
@@ -80,7 +80,7 @@ graphicname=101530
 name=¡¾ºÜ¿ÉÒÉµÄĞ¡Íµ¡¿
 enemy=sb_dou|file:shuijing/keyixiaotou.arg
 }
-######±©Áú##########
+######æš´é¾™##########
 {
 floorid=30016
 borncenter=23,44,1,1
@@ -90,7 +90,7 @@ graphicname=100373
 name=±©Áú
 enemy=sb_dou|file:shuijing/baolong1.arg
 }
-######±©Áú##########
+######æš´é¾™##########
 {
 floorid=21215
 borncenter=23,44,1,1
@@ -100,7 +100,7 @@ graphicname=100372
 name=±©Áú
 enemy=sb_dou|file:shuijing/baolong2.arg
 }
-######±©Áú##########
+######æš´é¾™##########
 {
 floorid=21014
 borncenter=17,16,1,1
@@ -110,7 +110,7 @@ graphicname=100371
 name=±©Áú
 enemy=sb_dou|file:shuijing/baolong3.arg
 }
-######±©Áú##########
+######æš´é¾™##########
 {
 floorid=11214
 borncenter=38,38,1,1
@@ -120,7 +120,7 @@ graphicname=100907
 name=±©Áú
 enemy=sb_dou|file:shuijing/baolong4.arg
 }
-######¡¾·è¿ñµÄÄÂ¶ûÂê¡¿##########
+######ã€ç–¯ç‹‚çš„ç©†å°”ç›ã€‘##########
 {
 floorid=32021
 borncenter=31,22,1,1

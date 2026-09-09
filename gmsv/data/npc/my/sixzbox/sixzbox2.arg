@@ -1,6 +1,6 @@
 NomalMainMsg:5×ªÒÔÉÏµÄÈË²ÅÄÜµ½ÎÒÕâÁìÈ¡Ò»Ì×³èÎïÊÔÓÃ×°àÞ
 
-####6×ªÁì¹ýºó#####
+####6è½¬é¢†è¿‡åŽ#####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>0&TRANS=6&ENDEV=183
@@ -9,7 +9,7 @@ EventEnd
 
 
 
-###£¶×ª½á±ê¸ø2¼þ###
+###ï¼–è½¬ç»“æ ‡ç»™2ä»¶###
 EventNo:183
 TYPE:ACCEPT
 EVENT:LV>0&TRANS=6&NOWEV=183
@@ -21,7 +21,7 @@ EndSetFlg:183
 EventEnd
 
 
-####£¶×ª½Ó±ê##
+####ï¼–è½¬æŽ¥æ ‡##
 EventNo:183
 TYPE:REQUEST
 EVENT:LV>0&TRANS=6
@@ -29,14 +29,14 @@ RequestMsg1:Ö»ÓÐ£¶×ªµÄÈË²ÅÄÜ´ÓÎÒÕâÁì×ßÕâÌ×ºÜ²»´íµÄ³è×°£¡
 ThanksMsg1:Äã£¶×ªÁËÂð£¿£¿£¿
 EventEnd
 
-####5×ªÁì¹ýºó#####
+####5è½¬é¢†è¿‡åŽ#####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>0&TRANS=5&ENDEV=182
 NomalWindowMsg:³è×°ÓÃµÃ»¹ºÃÃ´¡«6×ªÁË²»ÒªÍü¼ÇÔÙÀ´ÄÃ¸üºÃµÄ³è×°àÞ£¡ºÇºÇ£¡
 EventEnd
 
-###5×ª½á±ê¸ø2¼þ###
+###5è½¬ç»“æ ‡ç»™2ä»¶###
 EventNo:182
 TYPE:ACCEPT
 EVENT:LV>0&TRANS=5&NOWEV=182
@@ -48,7 +48,7 @@ EndSetFlg:182
 EventEnd
 
 
-####5×ª½Ó±ê##
+####5è½¬æŽ¥æ ‡##
 EventNo:182
 TYPE:REQUEST
 EVENT:LV>0&TRANS=5

@@ -1,7 +1,7 @@
 NPCCREATE
 
-########¡¡éœÁé·¨Ê¦¡¡#########
-##### ¹«»áµ¼Ê¦ ######
+########ã€€é—‡çµæ³•å¸ˆã€€#########
+##### å…¬ä¼šå¯¼å¸ˆ ######
 {
 name=Èø¹ş¿Ë
 floorid=8218
@@ -24,9 +24,9 @@ graphicname=16170
 enemy=npcgen_warpman|file:sa70/class/mag2
 }
 
-##### ¹«»á½âËµÔ± ######
+##### å…¬ä¼šè§£è¯´å‘˜ ######
 #{
-#name=¹«»á½âËµÔ±
+#name=å…¬ä¼šè§£è¯´å‘˜
 #floorid=8218
 #borncenter=17,30
 #dir=4
@@ -36,7 +36,7 @@ enemy=npcgen_warpman|file:sa70/class/mag2
 #enemy=changeevent|file:sa70/class/mag3
 #}
 
-##### ÊÔÁ·ÕßÒ» ######
+##### è¯•ç»ƒè€…ä¸€ ######
 {
 name=éœÁéÊÔÁ¶Õß
 floorid=8221
@@ -48,7 +48,7 @@ graphicname=16167
 enemy=npcgen_warpman|file:sa70/class/mquest1
 }
 
-##### ÊÔÁ·Õß¶ş ######
+##### è¯•ç»ƒè€…äºŒ ######
 {
 name=éœÁéÊÔÁ¶Õß
 floorid=8221
@@ -60,7 +60,7 @@ graphicname=16167
 enemy=npcgen_warpman|file:sa70/class/mquest2
 }
 
-##### ÊÔÁ·ÕßÈı ######
+##### è¯•ç»ƒè€…ä¸‰ ######
 {
 name=éœÁéÊÔÁ¶Õß
 floorid=8221
@@ -72,7 +72,7 @@ graphicname=16167
 enemy=npcgen_warpman|file:sa70/class/mquest3
 }
 
-##### ÊÔÁ·ÕßËÄ ######
+##### è¯•ç»ƒè€…å›› ######
 {
 name=éœÁéÊÔÁ¶Õß
 floorid=8221

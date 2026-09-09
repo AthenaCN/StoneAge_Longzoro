@@ -1,15 +1,15 @@
-#####Ëþ¿ÉµÇ#####
+#####å¡”å¯ç™»#####
 
 NomalMainMsg:×î½ü³öÏÖÁËÒ»ÅúµÁÔô£¬¿Í»§ÒªÔËËÍµÄ»õÎï¶¼±»ÇÀ×ßÁË£¬°¦£¡ÉúÒâÔ½À´Ô½ÄÑ×ö¡£
 
-####ÈÎÎñ½áÊø¶Ô»°####
+####ä»»åŠ¡ç»“æŸå¯¹è¯####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>29&ENDEV=4&ENDEV=137
 NomalWindowMsg:ÄãÕæÊÇÎÒÃÇµÄÓ¢ÐÛ°¡£¡
 EventEnd
 
-###Íê³ÉÈÎÎñÊÕ»Ú¹ýÊé£¨¹Ø±ê£±£³£·£©###
+###å®Œæˆä»»åŠ¡æ”¶æ‚”è¿‡ä¹¦ï¼ˆå…³æ ‡ï¼‘ï¼“ï¼—ï¼‰###
 EventNo:137
 TYPE:ACCEPT
 EVENT:LV>29&ENDEV=4&NOWEV=137&ITEM=1694
@@ -20,14 +20,14 @@ DelItem:1694*1,1693*1
 EndSetFlg:137
 EventEnd
 
-####ÈÎÎñ½áÊø¶Ô»°####
+####ä»»åŠ¡ç»“æŸå¯¹è¯####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>29&ENDEV=4&ITEM=1693&NOWEV=137
 NomalWindowMsg:Â·ÉÏÇëÐ¡ÐÄ£¬ÄÇÐ©µÁÔô¿ÉÊÇºÜÐ×º·µÄ¡£
 EventEnd
 
-###»õÎïÖØÄÃ##
+###è´§ç‰©é‡æ‹¿##
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>29&ENDEV=4&NOWEV=137&ITEM!=1693
@@ -37,7 +37,7 @@ GetItem:1693*1
 ItemFullMsg:ÇëÄã½«ÉíÉÏµÄ¶«Î÷¼õÉÙÒ»Ð©ºÃÂð£¿
 EventEnd
 
-###½ÓÈÎÎñ¸ø¼ÙµÄ»õÎï##
+###æŽ¥ä»»åŠ¡ç»™å‡çš„è´§ç‰©##
 EventNo:137
 TYPE:REQUEST
 EVENT:LV>29&ENDEV=4
@@ -48,7 +48,7 @@ GetItem:1693*1
 ItemFullMsg:ÇëÄã½«ÄãÉíÉÏµÄ¶«Î÷¼õÉÙÒ»Ð©ºÃÂð£¿
 EventEnd
 
-#### Î´½ÓÈÎÎñ¶Ô»° ####
+#### æœªæŽ¥ä»»åŠ¡å¯¹è¯ ####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>0

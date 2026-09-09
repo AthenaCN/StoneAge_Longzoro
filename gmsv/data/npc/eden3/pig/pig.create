@@ -1,7 +1,7 @@
 NPCCREATE
 
 
-###### Ğ¡ÄĞº¢Å·µÜ ######
+###### å°ç”·å­©æ¬§å¼Ÿ ######
 {
 name=Å·µÜ
 floorid=7404
@@ -14,7 +14,7 @@ enemy=changeevent|file:eden3/pig/oody
 graphicname=16706
 }
 
-###### ÄĞº¢¸¸Ç×¿­¸ñ ######
+###### ç”·å­©çˆ¶äº²å‡¯æ ¼ ######
 {
 name=¿­¸ñ
 floorid=7404
@@ -27,7 +27,7 @@ enemy=changeevent|file:eden3/pig/kaigur
 graphicname=16717
 }
 
-###### ÄĞº¢Ä¸Ç×ÄÈ¼ª ######
+###### ç”·å­©æ¯äº²å¨œå‰ ######
 {
 name=ÄÈ¼ª
 floorid=7404
@@ -40,7 +40,7 @@ enemy=changeevent|file:eden3/pig/narge
 graphicname=16022
 }
 
-###### ÁÔÈË¿­ÎÚ ######
+###### çŒäººå‡¯ä¹Œ ######
 {
 name=¿­ÎÚ
 floorid=7400
@@ -53,7 +53,7 @@ enemy=changeevent|file:eden3/pig/kaiwu
 graphicname=16934
 }
 
-###### Ğ¡ÖíÀ³µÂ ######
+###### å°çŒªè±å¾· ######
 {
 name=À³µÂ
 floorid=7404
@@ -66,7 +66,7 @@ enemy=changeevent|file:eden3/pig/raio
 graphicname=100821
 }
 
-#´«ËÍĞ¡Öí
+#ä¼ é€å°çŒª
 {
 name=¿Ï¶û
 floorid=703
@@ -79,7 +79,7 @@ enemy=npcgen_warpman|file:eden3/pig/ken
 graphicname=100821
 }
 
-###### Ğ¡Öí¸¸Ç×À³¶à ######
+###### å°çŒªçˆ¶äº²è±å¤š ######
 {
 name=À³¶à
 floorid=7452
@@ -92,7 +92,7 @@ enemy=changeevent|file:eden3/pig/raido
 graphicname=100821
 }
 
-###### Ğ¡ÖíÄ¸Ç×±ÈË¿ ######
+###### å°çŒªæ¯äº²æ¯”ä¸ ######
 {
 name=±ÈË¿
 floorid=7452

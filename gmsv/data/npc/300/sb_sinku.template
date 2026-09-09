@@ -1,5 +1,5 @@
 NPCTEMPLATE
-#######�Фμ��áʥХ󥮡��Ρ�##########
+#######火の守護獣（バンギーノ）##########
 {
 templatename=sb_hba
 makeatnobody=1
@@ -11,7 +11,7 @@ mp=100
 str=1
 tough=1
 }
-#######�Фμ��áʥѥɥ���##########
+#######火の守護獣（パドラン）##########
 {
 templatename=sb_hpa
 makeatnobody=1

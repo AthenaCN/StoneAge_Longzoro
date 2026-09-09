@@ -2,7 +2,7 @@ NPCCREATE
 
 
 
-######¡¡¹¤×÷ÑéÊÕ¡¡######
+######ã€€å·¥ä½œéªŒæ”¶ã€€######
 {
 name=³¤Ã«Ïó¿ìµÝÀÏ°å
 floorid=1014
@@ -15,7 +15,7 @@ enemy=npcgen_warpman|file:sa60/newbie/worksell.conf
 }
 
 
-######¡¡¹¤×÷ÑéÊÕ¡¡######
+######ã€€å·¥ä½œéªŒæ”¶ã€€######
 {
 name=³¤Ã«Ïó¿ìµÝÀÏ°å
 floorid=2014
@@ -27,7 +27,7 @@ graphicname=16092
 enemy=npcgen_warpman|file:sa60/newbie/worksell.conf
 }
 
-######¡¡¹¤×÷ÑéÊÕ¡¡######
+######ã€€å·¥ä½œéªŒæ”¶ã€€######
 {
 name=³¤Ã«Ïó¿ìµÝÀÏ°å
 floorid=3014
@@ -39,7 +39,7 @@ graphicname=16092
 enemy=npcgen_warpman|file:sa60/newbie/worksell.conf
 }
 
-######¡¡¹¤×÷ÑéÊÕ¡¡######
+######ã€€å·¥ä½œéªŒæ”¶ã€€######
 {
 name=³¤Ã«Ïó¿ìµÝÀÏ°å
 floorid=4014

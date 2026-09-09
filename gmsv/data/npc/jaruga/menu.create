@@ -1,5 +1,5 @@
 NPCCREATE
-#ÂêÀöÄÈË¹µÄÖ÷³ø
+#ç›ä¸½å¨œæ–¯çš„ä¸»å¨
 {
 floorid=2009
 borncenter=25,41,1,1
@@ -12,7 +12,7 @@ name=Ö÷³ø
 enemy=windowman|conff:jaruga/menu01.conf
 }
 
-#¼Ó¼ÓµÄÖ÷³ø
+#åŠ åŠ çš„ä¸»å¨
 {
 floorid=3009
 borncenter=25,43,1,1
@@ -29,7 +29,7 @@ enemy=windowman|conff:jaruga/menu02.conf
 
 
 
-#ÄşÔÀÆËÒàÓÀÃó©jÈÓØ©Ó×»ï©k
+#å®å²³æ‰‘äº¦æ°¸çš¿ï¹‹æ‰”ä¸å¹¼ä¼™ï¹Œ
 {
 floorid=1009
 borncenter=25,30,1,1
@@ -42,7 +42,7 @@ name=¼Ó¹¤µÄÀÏÊ¦
 enemy=windowman|conff:jaruga/gousei.conf
 }
 
-#ÄşÔÀÆËÒàÓÀÃó©jÊĞ»ïÕı¡õ¹Ï©k
+#å®å²³æ‰‘äº¦æ°¸çš¿ï¹‹å¸‚ä¼™æ­£â–¡ç“œï¹Œ
 {
 floorid=4009
 borncenter=25,30,1,1

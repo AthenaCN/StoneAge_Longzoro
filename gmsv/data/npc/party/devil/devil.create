@@ -1,6 +1,6 @@
 NPCCREATE
 
-### Ä§ÍõÌôÕ½ÃÅÆ± ###
+### é­”ç‹æŒ‘æˆ˜é—¨ç¥¨ ###
 
 {
 floorid=1000
@@ -14,7 +14,7 @@ ignoreinvincible=1
 enemy=npcgen_warpman|file:party/devil/devil1.arg
 }
 
-### »ØÈø´åÊ¹Õß ###
+### å›è¨æ‘ä½¿è€… ###
 
 {
 floorid=147
@@ -28,7 +28,7 @@ ignoreinvincible=1
 enemy=npcgen_warpman|file:party/devil/devil2.arg
 }
 
-### »ØÈø´åÊ¹Õß ###
+### å›è¨æ‘ä½¿è€… ###
 
 {
 floorid=154
@@ -42,7 +42,7 @@ ignoreinvincible=1
 enemy=npcgen_warpman|file:party/devil/devil2.arg
 }
 
-### »ØÈø´åÊ¹Õß ###
+### å›è¨æ‘ä½¿è€… ###
 
 {
 floorid=155
@@ -56,7 +56,7 @@ ignoreinvincible=1
 enemy=npcgen_warpman|file:party/devil/devil2.arg
 }
 
-### »ØÈø´åÊ¹Õß ###
+### å›è¨æ‘ä½¿è€… ###
 
 {
 floorid=156
@@ -70,7 +70,7 @@ ignoreinvincible=1
 enemy=npcgen_warpman|file:party/devil/devil2.arg
 }
 
-### »ØÈø´åÊ¹Õß ###
+### å›è¨æ‘ä½¿è€… ###
 
 {
 floorid=157
@@ -84,7 +84,7 @@ ignoreinvincible=1
 enemy=npcgen_warpman|file:party/devil/devil2.arg
 }
 
-###### Ä§ÍõÌôÕ½°üµÄÄ§Íõ ######
+###### é­”ç‹æŒ‘æˆ˜åŒ…çš„é­”ç‹ ######
 {
 floorid=147
 borncenter=14,5,1,1
@@ -98,7 +98,7 @@ name=Ñ×Áú´óÄ§Íõ
 enemy=devilpk|file:party/devil/devilpk.arg
 }
 
-######Áì½±Npc Ä§½çÊ¹Õß#######
+######é¢†å¥–Npc é­”ç•Œä½¿è€…#######
 {
 floorid=148
 borncenter=9,5,1,1
@@ -111,7 +111,7 @@ name=Ä§½çÊ¹Õß
 enemy=changeevent|file:party/devil/devil3.arg
 }
 
-###### Ä§ÍõÌôÕ½°üµÄÄ§ÍõÎåÔÂ13ÈÕµÚÒ»¹Ø ######
+###### é­”ç‹æŒ‘æˆ˜åŒ…çš„é­”ç‹äº”æœˆ13æ—¥ç¬¬ä¸€å…³ ######
 {
 floorid=154
 borncenter=14,5,1,1
@@ -125,7 +125,7 @@ name=Ñ×Áú´óÄ§Íõ
 enemy=sb_dou|file:party/devil/devilpk1.arg
 }
 
-###### Ä§ÍõÌôÕ½°üµÄÄ§ÍõÎåÔÂ13ÈÕµÚ¶ş¹Ø ######
+###### é­”ç‹æŒ‘æˆ˜åŒ…çš„é­”ç‹äº”æœˆ13æ—¥ç¬¬äºŒå…³ ######
 {
 floorid=155
 borncenter=14,5,1,1
@@ -139,7 +139,7 @@ name=Ñ×Áú´óÄ§Íõ
 enemy=sb_dou|file:party/devil/devilpk2.arg
 }
 
-###### Ä§ÍõÌôÕ½°üµÄÄ§ÍõÎåÔÂ13ÈÕµÚÈı¹Ø ######
+###### é­”ç‹æŒ‘æˆ˜åŒ…çš„é­”ç‹äº”æœˆ13æ—¥ç¬¬ä¸‰å…³ ######
 {
 floorid=156
 borncenter=14,5,1,1
@@ -153,7 +153,7 @@ name=Ñ×Áú´óÄ§Íõ
 enemy=sb_dou|file:party/devil/devilpk3.arg
 }
 
-######Áì½±Npc#######
+######é¢†å¥–Npc#######
 {
 floorid=155
 borncenter=8,8,1,1
@@ -166,7 +166,7 @@ name=Ä§½çÊ¹Õß
 enemy=changeevent|file:party/devil/devil5.arg
 }
 
-######Áì½±Npc Ä§½çÊ¹Õß#######
+######é¢†å¥–Npc é­”ç•Œä½¿è€…#######
 {
 floorid=156
 borncenter=8,8,1,1
@@ -179,7 +179,7 @@ name=Ä§½çÊ¹Õß
 enemy=changeevent|file:party/devil/devil6.arg
 }
 
-######Áì½±Npc Ä§½çÊ¹Õß#######
+######é¢†å¥–Npc é­”ç•Œä½¿è€…#######
 {
 floorid=157
 borncenter=14,2,1,1

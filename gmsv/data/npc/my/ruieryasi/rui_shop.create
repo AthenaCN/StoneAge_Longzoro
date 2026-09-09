@@ -590,7 +590,7 @@ ignoreinvincible=1
 enemy=npcgen_man|file:my/ruieryasi/goldpet1.arg
 }
 
-#line45ÌØÊâÌøÔ¾µã7600
+#line45ç‰¹æ®Šè·³è·ƒç‚¹7600
 {
 floorid=7600
 borncenter=36,98
@@ -598,7 +598,7 @@ ignoreinvincible=1
 createnum=1
 enemy=npcgen_warp|file:my/ruieryasi/warp0.arg
 }
-#line46ÌØÊâÌøÔ¾µã7500
+#line46ç‰¹æ®Šè·³è·ƒç‚¹7500
 {
 floorid=7500
 borncenter=21,38

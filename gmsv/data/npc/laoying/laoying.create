@@ -1,6 +1,6 @@
 NPCCREATE
 
-######¶ñ°Ô##########
+######æ¶éœ¸##########
 {
 floorid=7300
 borncenter=105,14,1,1
@@ -10,7 +10,7 @@ graphicname=104104
 name=¶ñ°Ô
 enemy=sb_dou|file:laoying/eba.arg
 }
-######·³ÄÕµÄ´åÃñ##########
+######çƒ¦æ¼çš„æ‘æ°‘##########
 {
 floorid=7111
 borncenter=31,14
@@ -20,7 +20,7 @@ graphicname=16064
 name=·³ÄÕµÄ´åÃñ
 enemy=changeevent|file:laoying/cunmin.arg
 }
-######ÀÏÓ¥ÈûË¹À³¿Ë##########
+######è€é¹°å¡æ–¯è±å…‹##########
 {
 floorid=7400
 borncenter=96,114

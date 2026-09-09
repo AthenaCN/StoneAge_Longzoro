@@ -1,5 +1,5 @@
 NPCCREATE
-###Ğ¡Ôó###
+###å°æ³½###
 {
 name=Ğ¡Ôó
 floorid=3100
@@ -10,7 +10,7 @@ createnum=1
 graphicname=16082
 enemy=changeevent|file:sa70/apple/apple1.arg
 }
-###°®³ÔÆ»¹ûµÄÅ®º¢###
+###çˆ±åƒè‹¹æœçš„å¥³å­©###
 {
 name=°®³ÔÆ»¹ûµÄÅ®º¢
 floorid=200

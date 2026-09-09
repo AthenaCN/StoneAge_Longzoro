@@ -1,13 +1,13 @@
 NomalMainMsg:...ÎÒ...ÎÒÊÜÉËÁË...
 
-####ÈÎÎñ90ÖÐ####
+####ä»»åŠ¡90ä¸­####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:ENDEV=91
 NomalWindowMsg:ÕæµÄÊÇÂé·³ÄãÁË£¡µÈÎÒÉËÍêÈ«»Ö¸´ÁËÁ¢¿Ì¸ÏÀ´Ö§Ô®ÄãÃÇ£¡¡«
 EventEnd
 
-####ÈÎÎñ90Íê³É ÉíÉÏÃ»ÓÐÇé±¨####
+####ä»»åŠ¡90å®Œæˆ èº«ä¸Šæ²¡æœ‰æƒ…æŠ¥####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>79&TRANS>4&ENDEV=4&ENDEV=81&ENDEV=90&ITEM!=21103
@@ -17,14 +17,14 @@ AcceptMsg:ÔõÃ´£¿Çé±¨¶ªÊ§ÁËÂð£¿Ã»ÊÂ¡«ÎÒÔÙ¸øÄãÒ»·Ý£¡
 ThanksMsg:Õâ´ÎÒª·ÅºÃÁËàÞ£¡¡«±ðÔÙ¶ªÁË¡«£¡
 EventEnd
 
-####ÈÎÎñ90Íê³É####
+####ä»»åŠ¡90å®Œæˆ####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>79&TRANS>4&ENDEV=4&ENDEV=81&ENDEV=90&ITEM=21103
 NomalWindowMsg:ÕæµÄÊÇÂé·³ÄãÁË£¡µÈÎÒÉËÍêÈ«»Ö¸´ÁËÁ¢¿Ì¸ÏÀ´Ö§Ô®ÄãÃÇ£¡¡«
 EventEnd
 
-###Íê³ÉÈÎÎñ£¨¹Ø±ê90£©###
+###å®Œæˆä»»åŠ¡ï¼ˆå…³æ ‡90ï¼‰###
 EventNo:90
 TYPE:ACCEPT
 EVENT:LV>79&TRANS>4&ENDEV=4&ENDEV=81&NOWEV=90&ITEM=21102
@@ -36,14 +36,14 @@ GetItem:21103
 EndSetFlg:90
 EventEnd
 
-####ÈÎÎñ90ÖÐ####
+####ä»»åŠ¡90ä¸­####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>79&TRANS>4&ENDEV=4&ENDEV=81&NOWEV=90
 NomalWindowMsg:....Ò»¶¨...Ò»¶¨Òª°ïÎÒ°Ñ°ü¹ü...ÕÒ»ØÀ´Ñ½~°ÝÍÐÄã¿©....¿È..¿È..........
 EventEnd
 
-####½ÓÈÎÎñ¸ø±ê90##
+####æŽ¥ä»»åŠ¡ç»™æ ‡90##
 EventNo:90
 TYPE:REQUEST
 EVENT:LV>79&TRANS>4&ENDEV=4&ENDEV=81

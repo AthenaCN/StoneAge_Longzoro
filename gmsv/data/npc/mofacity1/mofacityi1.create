@@ -1,6 +1,6 @@
 NPCCREATE
 
-#±È¶ûµÄµÜµÜ
+#æ¯”å°”çš„å¼Ÿå¼Ÿ
 {
 floorid=3000
 borncorner=89,85,89,85
@@ -12,7 +12,7 @@ graphicname=17057
 Name=±È¶ûµÄµÜµÜ
 enemy=changeevent|file:mofacity1/bierbother.arg
 }
-#ÌìËş´«ËÍÔ±
+#å¤©å¡”ä¼ é€å‘˜
 {
 floorid=100
 borncorner=589,134,589,134
@@ -24,7 +24,7 @@ graphicname=16002
 Name=ÌìËş´«ËÍÔ±
 enemy=npcgen_warpman|file:mofacity1/warp
 }
-#À§ÔÚÍ¨ÌìËşµÄÈË1
+#å›°åœ¨é€šå¤©å¡”çš„äºº1
 {
 floorid=8268
 borncorner=41,5,41,5
@@ -36,7 +36,7 @@ graphicname=17049
 Name=ÂŞ¿¨¶ûÌØ
 enemy=npcgen_man|file:mofacity1/man1
 }
-#Í¨ÌìÊØÎÀ
+#é€šå¤©å®ˆå«
 {
 floorid=8268
 borncorner=5,3,5,3
@@ -48,7 +48,7 @@ graphicname=17047
 Name=Í¨ÌìÊØÎÀ
 enemy=npcgen_warpman|file:mofacity1/warp1
 }
-#×ÔÈ»µÄÁ¦Á¿
+#è‡ªç„¶çš„åŠ›é‡
 {
 floorid=8269
 borncorner=26,22,26,22
@@ -60,7 +60,7 @@ graphicname=101406
 Name=×ÔÈ»µÄÁ¦Á¿
 enemy=npcgen_man|file:mofacity1/liliang
 }
-#µØµÄÁ¦Á¿
+#åœ°çš„åŠ›é‡
 {
 floorid=8269
 borncorner=30,21,30,21
@@ -72,7 +72,7 @@ graphicname=101408
 Name=µØµÄÁ¦Á¿
 enemy=npcgen_man|file:mofacity1/liliang
 }
-#Ë®µÄÁ¦Á¿
+#æ°´çš„åŠ›é‡
 {
 floorid=8269
 borncorner=29,25,29,25
@@ -84,7 +84,7 @@ graphicname=101409
 Name=Ë®µÄÁ¦Á¿
 enemy=npcgen_man|file:mofacity1/liliang
 }
-#»ğµÄÁ¦Á¿
+#ç«çš„åŠ›é‡
 {
 floorid=8269
 borncorner=25,26,25,26
@@ -96,7 +96,7 @@ graphicname=101407
 Name=»ğµÄÁ¦Á¿
 enemy=npcgen_man|file:mofacity1/liliang
 }
-#·çµÄÁ¦Á¿
+#é£çš„åŠ›é‡
 {
 floorid=8269
 borncorner=22,23,22,23
@@ -108,7 +108,7 @@ graphicname=101410
 Name=·çµÄÁ¦Á¿
 enemy=npcgen_man|file:mofacity1/liliang
 }
-#·ûÖä
+#ç¬¦å’’
 {
 floorid=8269
 borncorner=23,19,23,19
@@ -120,7 +120,7 @@ graphicname=101411
 Name=·ûÖä
 enemy=npcgen_man|file:mofacity1/liliang
 }
-#·ûÖä
+#ç¬¦å’’
 {
 floorid=8269
 borncorner=27,18,27,18
@@ -132,7 +132,7 @@ graphicname=101411
 Name=·ûÖä
 enemy=npcgen_man|file:mofacity1/liliang
 }
-#¹âÃ÷¾«ÁéÍõ
+#å…‰æ˜ç²¾çµç‹
 {
 floorid=8269
 borncorner=27,19,27,19
@@ -144,7 +144,7 @@ graphicname=100445
 Name=¹âÃ÷¾«ÁéÍõ
 enemy=changeevent|file:mofacity1/jinglingwang.arg
 }
-#ºÚ°µ¾«ÁéÍõ
+#é»‘æš—ç²¾çµç‹
 {
 floorid=8269
 borncorner=24,20,24,20
@@ -157,7 +157,7 @@ action=10
 Name=ºÚ°µ¾«ÁéÍõ
 enemy=npcgen_man|file:mofacity1/heianjinglingwang
 }
-#µØ¾«Áé
+#åœ°ç²¾çµ
 {
 floorid=8269
 borncorner=23,23,23,23
@@ -169,7 +169,7 @@ graphicname=100454
 Name=µØ¾«Áé
 enemy=npcgen_man|file:mofacity1/dijingling
 }
-#Ë®¾«Áé
+#æ°´ç²¾çµ
 {
 floorid=8269
 borncorner=25,25,25,25
@@ -181,7 +181,7 @@ graphicname=100459
 Name=Ë®¾«Áé
 enemy=npcgen_man|file:mofacity1/shuijingling
 }
-#»ğ¾«Áé
+#ç«ç²¾çµ
 {
 floorid=8269
 borncorner=28,24,28,24
@@ -193,7 +193,7 @@ graphicname=101160
 Name=»ğ¾«Áé
 enemy=npcgen_man|file:mofacity1/huojingling
 }
-#·ç¾«Áé
+#é£ç²¾çµ
 {
 floorid=8269
 borncorner=28,22,28,22
@@ -205,7 +205,7 @@ graphicname=101170
 Name=·ç¾«Áé
 enemy=npcgen_man|file:mofacity1/huojingling
 }
-#º£ÁúÍõ
+#æµ·é¾™ç‹
 {
 floorid=817
 borncorner=192,402,192,402
@@ -217,7 +217,7 @@ graphicname=102024
 Name=º£ÁúÍõ
 enemy=changeevent|file:mofacity1/longwang.arg
 }
-#º£ÁúÍõÊØÎÀ
+#æµ·é¾™ç‹å®ˆå«
 {
 floorid=817
 borncorner=194,402,194,402
@@ -229,7 +229,7 @@ graphicname=101866
 Name=º£ÁúÍõÊØÎÀ
 enemy=npcgen_man|file:mofacity1/shouwei1
 }
-#º£ÁúÍõÊØÎÀ
+#æµ·é¾™ç‹å®ˆå«
 {
 floorid=817
 borncorner=192,400,192,400
@@ -241,7 +241,7 @@ graphicname=101866
 Name=º£ÁúÍõÊØÎÀ
 enemy=npcgen_man|file:mofacity1/shouwei2
 }
-#¶ñ°Ô
+#æ¶éœ¸
 {
 floorid=200
 borncorner=154,873,154,873
@@ -253,7 +253,7 @@ graphicname=100756
 Name=¶ñ°Ô ÄáË¹ÌØ
 enemy=sb_dou|file:mofacity1/eba1.arg
 }
-#¶ñ°Ô
+#æ¶éœ¸
 {
 floorid=200
 borncorner=75,1157,75,1157
@@ -265,7 +265,7 @@ graphicname=100757
 Name=¶ñ°Ô Äá¹ÅË¹
 enemy=sb_dou|file:mofacity1/eba2.arg
 }
-#¶ñ°Ô
+#æ¶éœ¸
 {
 floorid=200
 borncorner=115,993,115,993
@@ -277,7 +277,7 @@ graphicname=100758
 Name=¶ñ°Ô Ë¹¶ûÌ¹
 enemy=sb_dou|file:mofacity1/eba3.arg
 }
-#À§ÔÚÍ¨ÌìËşµÄÈË2
+#å›°åœ¨é€šå¤©å¡”çš„äºº2
 {
 floorid=8268
 borncorner=21,23,21,23
@@ -289,7 +289,7 @@ graphicname=17062
 Name=Ê·±È¶÷×È
 enemy=npcgen_man|file:mofacity1/man2
 }
-#À§ÔÚÍ¨ÌìËşµÄÈË3
+#å›°åœ¨é€šå¤©å¡”çš„äºº3
 {
 floorid=8268
 borncorner=44,34,44,34
@@ -301,7 +301,7 @@ graphicname=17054
 Name=ÄÈÄÈ±ÈË¹
 enemy=npcgen_man|file:mofacity1/man3
 }
-#À§ÔÚÍ¨ÌìËşµÄÈË4
+#å›°åœ¨é€šå¤©å¡”çš„äºº4
 {
 floorid=8268
 borncorner=14,12,14,12
@@ -313,7 +313,7 @@ graphicname=17051
 Name=Ä§·¨Ê¦Ê·¶ûÀ­¿Ë
 enemy=npcgen_man|file:mofacity1/man4
 }
-#¶ñ°ÔÀÏ´ó
+#æ¶éœ¸è€å¤§
 {
 floorid=7015
 borncorner=4,12,4,12

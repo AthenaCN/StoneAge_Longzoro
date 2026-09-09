@@ -2,7 +2,7 @@ NPCCREATE
 
 
 
-###### ÈøÄ·¼ª¶û ######
+###### è¨å§†å‰å°” ######
 {
 name=ÈøÄ·¼ª¶û
 floorid=777
@@ -13,7 +13,7 @@ enemy=changeevent|file:poru/samugiru
 graphicname=100036
 }
 
-###### ³¬¼úÍÃ ######
+###### è¶…è´±å…” ######
 {
 name=ÀïÀ­À­
 floorid=777

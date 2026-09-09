@@ -669,6 +669,61 @@ static size_t str_utf8_to_gbk_mixed(char *out, size_t outlen, const char *in)
 }
 
 // -------------------------------------------------------------------
+// Tokyo-sa: convert a single data-file string from GBK to UTF-8 so it
+// can be safely concatenated with UTF-8 source-tree literals (e.g.
+// "拾获 %s" in char_item.c).  The concatenated whole string is then a
+// valid UTF-8 string and str_utf8_to_gbk_mixed() will convert it back
+// to GBK at send time, keeping the client display clean.  Invalid GBK
+// bytes are passed through one by one instead of aborting.
+size_t str_gbk_to_utf8(char *out, size_t outlen, const char *in)
+{
+	static iconv_t cd = (iconv_t)-1;
+	char *src = (char *)in;
+	char *dst = out;
+	size_t srclen = strlen(in);
+	size_t dstlen = outlen - 1;
+
+	if (str_is_valid_utf8(in)) {
+		/* already valid UTF-8: copy verbatim */
+		size_t l = srclen;
+		if (l >= outlen)
+			l = outlen - 1;
+		memcpy(out, in, l);
+		out[l] = 0;
+		return l;
+	}
+	if (cd == (iconv_t)-1)
+		cd = iconv_open("UTF-8", "GBK");
+	if (cd == (iconv_t)-1) {
+		/* iconv unavailable: copy verbatim */
+		while (srclen > 0 && dstlen > 0) {
+			*dst++ = *src++;
+			srclen--;
+			dstlen--;
+		}
+		*dst = 0;
+		return (size_t)(dst - out);
+	}
+	iconv(cd, NULL, NULL, NULL, NULL); /* reset state */
+	while (srclen > 0 && dstlen > 0) {
+		size_t r = iconv(cd, &src, &srclen, &dst, &dstlen);
+		if (r == (size_t)-1) {
+			if (errno == EILSEQ && srclen > 0 && dstlen > 0) {
+				/* invalid GBK byte: pass it through and resync */
+				*dst++ = *src++;
+				srclen--;
+				dstlen--;
+				iconv(cd, NULL, NULL, NULL, NULL);
+				continue;
+			}
+			break;
+		}
+	}
+	*dst = 0;
+	return (size_t)(dst - out);
+}
+
+// -------------------------------------------------------------------
 // Convert a string into buffer (a string).  Return a checksum.
 //
 // arg: buffer=output   value=data to pack

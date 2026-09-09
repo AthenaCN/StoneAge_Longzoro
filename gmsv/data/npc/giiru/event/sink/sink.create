@@ -151,7 +151,7 @@ enemy=changeevent|file:giiru/event/sink/sink055a
 #dir=4
 #ignoreinvincible=1
 #graphicname=16024
-#name=°ÍÄÇÄ·ºşµÄÀÏÈË
+#name=å·´é‚£å§†æ¹–çš„è€äºº
 #enemy=changeevent|file:giiru/event/sink/sink03
 #}
 
@@ -163,11 +163,11 @@ enemy=changeevent|file:giiru/event/sink/sink055a
 #dir=4
 #ignoreinvincible=1
 #graphicname=100190
-#name=»ğµÄÊ¹Õß
+#name=ç«çš„ä½¿è€…
 #enemy=changeevent|file:giiru/event/sink/sink06
 #}
 
-#Õæºì
+#çœŸçº¢
 {
 floorid=5106
 borncorner=26,15,26,15

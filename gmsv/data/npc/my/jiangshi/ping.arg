@@ -1,11 +1,11 @@
-#Í¬Òâ³ö×Ê
+#åŒæ„å‡ºèµ„
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>1&ITEM=30910&ITEM=30909&ITEM=30914&ITEM=30918&NOWEV=232
 NomalWindowMsg:°ïÎÒ°²Î¿ÏÂÙ»Âè£¡£¡
 EventEnd
 
-#Í¬Òâ³ö×Ê
+#åŒæ„å‡ºèµ„
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>1&ITEM=30910&ITEM=30909&ITEM=30914&NOWEV=232
@@ -14,14 +14,14 @@ GetItem:30918
 ItemFullMsg:ÄãÉíÉÏ¶«Î÷Ì«¶àÁË¡«¡« 
 EventEnd
 
-#ÉíÉÏÓÐÁé»ê
+#èº«ä¸Šæœ‰çµé­‚
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>1&ITEM=30908&NOWEV=232
 NomalWindowMsg:Ê²Ã´£¿£¿Ð¡Ù»ËÀÁË£¿£¿\n\nÔõÃ´ËµËÀ¾ÍËÀÁË£¬ºÃ¿ÉÁ¯µÄÅ®º¢~~
 EventEnd
 
-#### Î´½ÓÈÎÎñ¶Ô»° ####
+#### æœªæŽ¥ä»»åŠ¡å¯¹è¯ ####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>0

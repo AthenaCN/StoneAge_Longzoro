@@ -1,6 +1,6 @@
 NPCCREATE
 
-#µØ³ÇÉ³¶ûÌØµÄÖúÊÖ
+#åœ°åŸæ²™å°”ç‰¹çš„åŠ©æ‰‹
 {
 floorid=7107
 borncorner=12,13,12,13
@@ -13,7 +13,7 @@ name=É³¶ûÌØµÄÖúÊÖ
 enemy=changeevent|file:eden3/earth/earth7107_12_13
 }
 
-#ÉñÃØ¾ŞÊ¯Ïñ
+#ç¥ç§˜å·¨çŸ³åƒ
 {
 name=ÉñÃØ¾ŞÊ¯Ïñ
 floorid=708
@@ -26,7 +26,7 @@ ignoreinvincible=1
 enemy=npcgen_warpman|file:eden3/earth/earth708_229_253
 }
 
-#»ú¹Ø±¦Ê¯¾ŞÊ¯Ïñ¾Å
+#æœºå…³å®çŸ³å·¨çŸ³åƒä¹
 {
 name=ÉñÃØ¾ŞÊ¯Ïñ
 floorid=60101
@@ -40,7 +40,7 @@ enemy=changeevent|file:eden3/earth/earth60101_10_25
 }
 
 
-#»ú¹Ø±¦Ê¯¾ŞÊ¯Ïñ°Ë
+#æœºå…³å®çŸ³å·¨çŸ³åƒå…«
 {
 name=ÉñÃØ¾ŞÊ¯Ïñ
 floorid=60101
@@ -54,7 +54,7 @@ enemy=changeevent|file:eden3/earth/earth60101_10_27
 }
 
 
-#»ú¹Ø±¦Ê¯¾ŞÊ¯ÏñÆß
+#æœºå…³å®çŸ³å·¨çŸ³åƒä¸ƒ
 {
 name=ÉñÃØ¾ŞÊ¯Ïñ
 floorid=60101
@@ -68,7 +68,7 @@ enemy=changeevent|file:eden3/earth/earth60101_10_29
 }
 
 
-#»ú¹Ø±¦Ê¯¾ŞÊ¯ÏñÁù
+#æœºå…³å®çŸ³å·¨çŸ³åƒå…­
 {
 name=ÉñÃØ¾ŞÊ¯Ïñ
 floorid=60101
@@ -82,7 +82,7 @@ enemy=changeevent|file:eden3/earth/earth60101_10_31
 }
 
 
-#»ú¹Ø±¦Ê¯¾ŞÊ¯ÏñÎå
+#æœºå…³å®çŸ³å·¨çŸ³åƒäº”
 {
 name=ÉñÃØ¾ŞÊ¯Ïñ
 floorid=60101
@@ -96,7 +96,7 @@ enemy=changeevent|file:eden3/earth/earth60101_10_33
 }
 
 
-#»ú¹Ø±¦Ê¯¾ŞÊ¯ÏñËÄ
+#æœºå…³å®çŸ³å·¨çŸ³åƒå››
 {
 name=ÉñÃØ¾ŞÊ¯Ïñ
 floorid=60101
@@ -110,7 +110,7 @@ enemy=changeevent|file:eden3/earth/earth60101_10_35
 }
 
 
-#»ú¹Ø±¦Ê¯¾ŞÊ¯ÏñÈı
+#æœºå…³å®çŸ³å·¨çŸ³åƒä¸‰
 {
 name=ÉñÃØ¾ŞÊ¯Ïñ
 floorid=60101
@@ -124,7 +124,7 @@ enemy=changeevent|file:eden3/earth/earth60101_10_37
 }
 
 
-#»ú¹Ø±¦Ê¯¾ŞÊ¯Ïñ¶ş
+#æœºå…³å®çŸ³å·¨çŸ³åƒäºŒ
 {
 name=ÉñÃØ¾ŞÊ¯Ïñ
 floorid=60101
@@ -138,7 +138,7 @@ enemy=changeevent|file:eden3/earth/earth60101_10_39
 }
 
 
-#»ú¹Ø±¦Ê¯¾ŞÊ¯ÏñÒ»
+#æœºå…³å®çŸ³å·¨çŸ³åƒä¸€
 {
 name=ÉñÃØ¾ŞÊ¯Ïñ
 floorid=60101
@@ -152,7 +152,7 @@ enemy=changeevent|file:eden3/earth/earth60101_10_41
 }
 
 
-#´«ËÍ»ú¹Ø
+#ä¼ é€æœºå…³
 {
 name=´«ËÍ»ú¹Ø
 floorid=60101
@@ -166,7 +166,7 @@ enemy=npcgen_warpman|file:eden3/earth/earth60101_22_5
 }
 
 
-#´«ËÍ»ú¹Ø
+#ä¼ é€æœºå…³
 {
 name=´«ËÍ»ú¹Ø
 floorid=60101
@@ -180,7 +180,7 @@ enemy=npcgen_warpman|file:eden3/earth/earth60101_36_55
 }
 
 
-#¸æÊ¾°æ
+#å‘Šç¤ºç‰ˆ
 
 {
 floorid=703
@@ -195,7 +195,7 @@ enemy=npcgen_signboard|file:eden3/earth/earth703_30_299
 }
 
 
-#µØ¾«Áé
+#åœ°ç²¾çµ
 
 {
 floorid=60101

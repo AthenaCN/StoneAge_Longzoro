@@ -1,6 +1,6 @@
 NPCCREATE
 
-#######»ÆÈª¹íÍõ##########
+#######é»„æ³‰é¬¼ç‹##########
 {
 floorid=8123
 borncenter=86,3,1,1
@@ -12,7 +12,7 @@ name=»ÆÈª´ó¹í
 enemy=sb_dou|file:my/huangquan/guiwang.arg
 }
 
-#######»ÆÈª´ó¹í1##########
+#######é»„æ³‰å¤§é¬¼1##########
 {
 floorid=8122
 borncenter=11,14,1,1
@@ -24,7 +24,7 @@ name=»ÆÈª´ó¹í
 enemy=sb_dou|file:my/huangquan/dagui1.arg
 }
 
-#######»ÆÈª´ó¹í2##########
+#######é»„æ³‰å¤§é¬¼2##########
 {
 floorid=8122
 borncenter=36,16,1,1
@@ -36,7 +36,7 @@ name=»ÆÈª´ó¹í
 enemy=sb_dou|file:my/huangquan/dagui2.arg
 }
 
-#######»ÆÈª´ó¹í3##########
+#######é»„æ³‰å¤§é¬¼3##########
 {
 floorid=8122
 borncenter=68,13,1,1
@@ -48,7 +48,7 @@ name=»ÆÈª´ó¹í
 enemy=sb_dou|file:my/huangquan/dagui3.arg
 }
 
-#######»ÆÈª´ó¹í4##########
+#######é»„æ³‰å¤§é¬¼4##########
 {
 floorid=8122
 borncenter=86,14,1,1
@@ -60,7 +60,7 @@ name=»ÆÈª´ó¹í
 enemy=sb_dou|file:my/huangquan/dagui4.arg
 }
 
-#Èë¿ÚµÜ×Ó
+#å…¥å£å¼Ÿå­
 {
 floorid=8121
 borncorner=20,27,20,27
@@ -74,7 +74,7 @@ enemy=npcgen_warpman|file:my/huangquan/warp.arg
 }
 
 
-###### ÑÇÂüËş ######
+###### äºšæ›¼å¡” ######
 {
 name=ÑÇÂüËş
 floorid=8128
@@ -84,7 +84,7 @@ createnum=1
 enemy=changeevent|file:my/huangquan/yamanta.arg
 graphicname=17050
 }
-###### »ÆÈª¹íÍõµÄà¶ÂŞ######
+###### é»„æ³‰é¬¼ç‹çš„å–½ç½—######
 {
 floorid=8123
 borncorner=84,6,84,6
@@ -96,7 +96,7 @@ graphicname=101729
 name=¹íÍõµÄà¶ÂŞ
 enemy=npcgen_man|file:my/huangquan/louluo1.arg
 }
-###### »ÆÈª¹íÍõµÄà¶ÂŞ######
+###### é»„æ³‰é¬¼ç‹çš„å–½ç½—######
 {
 floorid=8123
 borncorner=83,7,83,7
@@ -108,7 +108,7 @@ graphicname=101729
 name=¹íÍõµÄà¶ÂŞ
 enemy=npcgen_man|file:my/huangquan/louluo1.arg
 }
-###### »ÆÈª¹íÍõµÄà¶ÂŞ######
+###### é»„æ³‰é¬¼ç‹çš„å–½ç½—######
 {
 floorid=8123
 borncorner=82,8,82,8
@@ -120,7 +120,7 @@ graphicname=101729
 name=¹íÍõµÄà¶ÂŞ
 enemy=npcgen_man|file:my/huangquan/louluo1.arg
 }
-###### »ÆÈª¹íÍõµÄà¶ÂŞ######
+###### é»„æ³‰é¬¼ç‹çš„å–½ç½—######
 {
 floorid=8123
 borncorner=88,6,88,6
@@ -133,7 +133,7 @@ name=¹íÍõµÄà¶ÂŞ
 enemy=npcgen_man|file:my/huangquan/louluo1.arg
 }
 
-###### »ÆÈª¹íÍõµÄà¶ÂŞ######
+###### é»„æ³‰é¬¼ç‹çš„å–½ç½—######
 {
 floorid=8123
 borncorner=89,7,89,7
@@ -145,7 +145,7 @@ graphicname=101729
 name=¹íÍõµÄà¶ÂŞ
 enemy=npcgen_man|file:my/huangquan/louluo1.arg
 }
-###### »ÆÈª¹íÍõµÄà¶ÂŞ######
+###### é»„æ³‰é¬¼ç‹çš„å–½ç½—######
 {
 floorid=8123
 borncorner=90,8,90,8
@@ -157,7 +157,7 @@ graphicname=101729
 name=¹íÍõµÄà¶ÂŞ
 enemy=npcgen_man|file:my/huangquan/louluo1.arg
 }
-###### Êé ######
+###### ä¹¦ ######
 {
 name=ÆÆ¾ÉµÄÊé
 floorid=8127
@@ -168,7 +168,7 @@ enemy=changeevent|file:my/huangquan/book.arg
 graphicname=24363
 }
 
-###### »ÆÈª¹íÍõµÄà¶ÂŞ######
+###### é»„æ³‰é¬¼ç‹çš„å–½ç½—######
 {
 floorid=8127
 borncorner=84,6,84,6
@@ -181,7 +181,7 @@ action=5
 name=¹íÍõµÄà¶ÂŞ
 enemy=npcgen_man|file:my/huangquan/louluo2.arg
 }
-###### »ÆÈª¹íÍõµÄà¶ÂŞ######
+###### é»„æ³‰é¬¼ç‹çš„å–½ç½—######
 {
 floorid=8127
 borncorner=83,7,83,7
@@ -194,7 +194,7 @@ action=5
 name=¹íÍõµÄà¶ÂŞ
 enemy=npcgen_man|file:my/huangquan/louluo2.arg
 }
-###### »ÆÈª¹íÍõµÄà¶ÂŞ######
+###### é»„æ³‰é¬¼ç‹çš„å–½ç½—######
 {
 floorid=8127
 borncorner=82,8,82,8
@@ -207,7 +207,7 @@ action=5
 name=¹íÍõµÄà¶ÂŞ
 enemy=npcgen_man|file:my/huangquan/louluo2.arg
 }
-###### »ÆÈª¹íÍõµÄà¶ÂŞ######
+###### é»„æ³‰é¬¼ç‹çš„å–½ç½—######
 {
 floorid=8127
 borncorner=88,6,88,6
@@ -221,7 +221,7 @@ name=¹íÍõµÄà¶ÂŞ
 enemy=npcgen_man|file:my/huangquan/louluo2.arg
 }
 
-###### »ÆÈª¹íÍõµÄà¶ÂŞ######
+###### é»„æ³‰é¬¼ç‹çš„å–½ç½—######
 {
 floorid=8127
 borncorner=89,7,89,7
@@ -234,7 +234,7 @@ action=5
 name=¹íÍõµÄà¶ÂŞ
 enemy=npcgen_man|file:my/huangquan/louluo2.arg
 }
-###### »ÆÈª¹íÍõµÄà¶ÂŞ######
+###### é»„æ³‰é¬¼ç‹çš„å–½ç½—######
 {
 floorid=8127
 borncorner=90,8,90,8

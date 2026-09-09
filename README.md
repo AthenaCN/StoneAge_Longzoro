@@ -326,7 +326,7 @@ sleep 20
 ss -tln | grep -E '9066|9200|9400'
 ```
 
-> Windows 侧代理（抓包模式）启动：`powershell -ExecutionPolicy Bypass -File C:\Users\Administrator\Downloads\start_proxy.ps1`（代理会莫名自退，连不上 9065 时先检查代理）。
+> Windows 侧代理（抓包模式）启动：`powershell -ExecutionPolicy Bypass -File C:\Users\<你的用户名>\Downloads\start_proxy.ps1`（代理会莫名自退，连不上 9065 时先检查代理）。
 
 ---
 

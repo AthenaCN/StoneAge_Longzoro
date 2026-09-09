@@ -1,6 +1,6 @@
 NPCCREATE
 
-#Íæ¼ÒA£¨ÄáË¹ÄĞĞÔÍæ¼ÒÔìĞÍ£»Ç¿£©
+#ç©å®¶Aï¼ˆå°¼æ–¯ç”·æ€§ç©å®¶é€ å‹ï¼›å¼ºï¼‰
 {
 floorid=7005
 borncorner=24,15,26,17
@@ -13,7 +13,7 @@ name=Ä©Î÷ÄÇË¹¡¡Lv:104
 enemy=changeevent|file:eden1/zoo1/turfman00_01
 }
 
-#Íæ¼ÒB£¨ÄáË¹Å®ĞÔÍæ¼ÒÔìĞÍ£©
+#ç©å®¶Bï¼ˆå°¼æ–¯å¥³æ€§ç©å®¶é€ å‹ï¼‰
 {
 floorid=7005
 borncorner=9,38,11,40
@@ -26,7 +26,7 @@ name=°Â·ÆÀòÑÇ¡¡Lv:114
 enemy=changeevent|file:eden1/zoo1/turfman00_02
 }
 
-#Íæ¼ÒC£¨ÄáË¹ÄĞĞÔÍæ¼ÒÔìĞÍ£©
+#ç©å®¶Cï¼ˆå°¼æ–¯ç”·æ€§ç©å®¶é€ å‹ï¼‰
 {
 floorid=7005
 borncorner=9,5,11,7
@@ -39,7 +39,7 @@ name=Ã¯ÄÇË¹¡¡Lv:91
 enemy=changeevent|file:eden1/zoo1/turfman00_03
 }
 
-#Íæ¼ÒD£¨ÄáË¹Å®ĞÔÍæ¼ÒÔìĞÍ£©
+#ç©å®¶Dï¼ˆå°¼æ–¯å¥³æ€§ç©å®¶é€ å‹ï¼‰
 {
 floorid=7005
 borncorner=31,3,33,5
@@ -52,7 +52,7 @@ name=Ë¿²¨Çí¡¡Lv:131
 enemy=changeevent|file:eden1/zoo1/turfman00_04
 }
 
-#Íæ¼ÒE£¨ÄáË¹ÄĞĞÔÍæ¼ÒÔìĞÍ£©
+#ç©å®¶Eï¼ˆå°¼æ–¯ç”·æ€§ç©å®¶é€ å‹ï¼‰
 {
 floorid=7005
 borncorner=26,37,28,39
@@ -65,7 +65,7 @@ name=µ«¶÷¡¡Lv:111
 enemy=changeevent|file:eden1/zoo1/turfman00_05
 }
 
-#Íæ¼ÒF£¨ÄáË¹ÄĞĞÔÍæ¼ÒÔìĞÍ£©
+#ç©å®¶Fï¼ˆå°¼æ–¯ç”·æ€§ç©å®¶é€ å‹ï¼‰
 {
 floorid=7005
 borncorner=39,18,40,32
@@ -78,7 +78,7 @@ name=Å·À¼¶à¡¡Lv:100
 enemy=changeevent|file:eden1/zoo1/turfman00_06
 }
 
-#Íæ¼ÒG£¨ÄáË¹ÄĞĞÔÍæ¼ÒÔìĞÍ£©
+#ç©å®¶Gï¼ˆå°¼æ–¯ç”·æ€§ç©å®¶é€ å‹ï¼‰
 {
 floorid=7005
 borncorner=19,13,21,15
@@ -92,7 +92,7 @@ enemy=changeevent|file:eden1/zoo1/turfman00_07
 action=13
 }
 
-#Íæ¼ÒH£¨ÄáË¹Å®ĞÔÍæ¼ÒÔìĞÍ£©
+#ç©å®¶Hï¼ˆå°¼æ–¯å¥³æ€§ç©å®¶é€ å‹ï¼‰
 {
 floorid=7005
 borncorner=1,4,3,6
@@ -105,7 +105,7 @@ name=ÕêµÂ¡¡Lv:135
 enemy=changeevent|file:eden1/zoo1/turfman00_08
 }
 
-#Íæ¼ÒI£¨ÄáË¹Å®ĞÔÍæ¼ÒÔìĞÍ£»Ïé£©
+#ç©å®¶Iï¼ˆå°¼æ–¯å¥³æ€§ç©å®¶é€ å‹ï¼›ç¥¥ï¼‰
 {
 floorid=7005
 borncorner=1,44,3,46
@@ -119,7 +119,7 @@ enemy=changeevent|file:eden1/zoo1/turfman00_09
 action=14
 }
 
-#Íæ¼ÒJ£¨ÄáË¹ÄĞĞÔÍæ¼ÒÔìĞÍ£©
+#ç©å®¶Jï¼ˆå°¼æ–¯ç”·æ€§ç©å®¶é€ å‹ï¼‰
 {
 floorid=7005
 borncorner=15,35,17,37
@@ -132,7 +132,7 @@ name=°ÂÀû·ğ¡¡Lv:100
 enemy=changeevent|file:eden1/zoo1/turfman00_10
 }
 
-#Íæ¼ÒK£¨ÄáË¹ÄĞĞÔÍæ¼ÒÔìĞÍ£©
+#ç©å®¶Kï¼ˆå°¼æ–¯ç”·æ€§ç©å®¶é€ å‹ï¼‰
 {
 floorid=7005
 borncorner=41,6,43,8
@@ -145,7 +145,7 @@ name=¸¥À×¡¡Lv:125
 enemy=changeevent|file:eden1/zoo1/turfman00_11
 }
 
-#Íæ¼ÒL£¨ÄáË¹Å®ĞÔÍæ¼ÒÔìĞÍ£©
+#ç©å®¶Lï¼ˆå°¼æ–¯å¥³æ€§ç©å®¶é€ å‹ï¼‰
 {
 floorid=7005
 borncorner=42,14,43,15

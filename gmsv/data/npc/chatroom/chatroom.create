@@ -1,6 +1,6 @@
 NPCCREATE
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-#¥Á¥±¥Ã¥ÈÈÎÇä¡Ê¥µ¥à¥®¥ë¡Ë
+#ãƒã‚±ãƒƒãƒˆè²©å£²ï¼ˆã‚µãƒ ã‚®ãƒ«ï¼‰
 {
 floorid=1012
 borncorner=18,16,18,16
@@ -13,7 +13,7 @@ name=ÃÅÆ±··ÂôÔ±
 enemy=changeevent|file:chatroom/ticket1012
 }
 
-#ÀâÌÀ·¸¥µ¥à¥®¥ë
+#èª¬æ˜ä¿‚ã‚µãƒ ã‚®ãƒ«
 {
 floorid=1012
 borncenter=13,16,1,1
@@ -26,7 +26,7 @@ name=½âËµÔ±
 enemy=windowman|conff:chatroom/chatroom.conf
 }
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-#¥Á¥±¥Ã¥ÈÈÎÇä¡Ê¥Ş¥ê¥Ê¥¹¡Ë
+#ãƒã‚±ãƒƒãƒˆè²©å£²ï¼ˆãƒãƒªãƒŠã‚¹ï¼‰
 {
 floorid=2012
 borncorner=18,16,18,16
@@ -38,7 +38,7 @@ graphicname=16065
 name=ÃÅÆ±··ÂôÔ±
 enemy=changeevent|file:chatroom/ticket2012
 }
-#½âËµÔ±¥Ş¥ê¥Ê¥¹
+#ç›¾å‚åŸ€ãƒãƒªãƒŠã‚¹
 
 {
 floorid=2012
@@ -52,7 +52,7 @@ name=½âËµÔ±
 enemy=windowman|conff:chatroom/chatroom.conf
 }
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-#¥Á¥±¥Ã¥ÈÈÎÇä¡Ê¥¸¥ã¥¸¥ã¡Ë
+#ãƒã‚±ãƒƒãƒˆè²©å£²ï¼ˆã‚¸ãƒ£ã‚¸ãƒ£ï¼‰
 {
 floorid=3012
 borncorner=18,16,18,16
@@ -65,7 +65,7 @@ name=ÃÅÆ±··ÂôÔ±
 enemy=changeevent|file:chatroom/ticket3012
 }
 
-#½âËµÔ±¥¸¥ã¥¸¥ã
+#ç›¾å‚åŸ€ã‚¸ãƒ£ã‚¸ãƒ£
 {
 floorid=3012
 borncenter=13,16,1,1
@@ -78,7 +78,7 @@ name=½âËµÔ±
 enemy=windowman|conff:chatroom/chatroom.conf
 }
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-#¥Á¥±¥Ã¥ÈÈÎÇä¡Ê¥«¥ë¥¿¡¼¥Ê¡Ë
+#ãƒã‚±ãƒƒãƒˆè²©å£²ï¼ˆã‚«ãƒ«ã‚¿ãƒ¼ãƒŠï¼‰
 {
 floorid=4012
 borncorner=18,16,18,16
@@ -91,7 +91,7 @@ name=ÃÅÆ±··ÂôÔ±
 enemy=changeevent|file:chatroom/ticket4012
 }
 
-#½âËµÔ±¥«¥ë¥¿¡¼¥Ê
+#ç›¾å‚åŸ€ã‚«ãƒ«ã‚¿ãƒ¼ãƒŠ
 {
 floorid=4012
 borncenter=13,16,1,1
@@ -104,7 +104,7 @@ name=½âËµÔ±
 enemy=windowman|conff:chatroom/chatroom.conf
 }
 
-#Æ®µ»¾ì¥Á¥±¥Ã¥ÈÇä¤ê
+#é—˜æŠ€å ´ãƒã‚±ãƒƒãƒˆå£²ã‚Š
 
 {
 floorid=130
@@ -121,9 +121,9 @@ enemy=changeevent|file:chatroom/ticket130
 
 
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-#Æ®µ»¾ì
+#é£˜ç¥·çœ·
 
-#¥µ¥à¥®¥ë¥Á¥±¥Ã¥ÈÇä¤ê
+#ã‚µãƒ ã‚®ãƒ«ãƒã‚±ãƒƒãƒˆå£²ã‚Š
 
 {
 floorid=1000
@@ -137,7 +137,7 @@ name=ÃÅÆ±··ÂôÔ±
 enemy=changeevent|file:chatroom/ticket1000
 }
 
-#¥Ş¥ê¥Ê¥¹¥Á¥±¥Ã¥ÈÇä¤ê
+#ãƒãƒªãƒŠã‚¹ãƒã‚±ãƒƒãƒˆå£²ã‚Š
 
 {
 floorid=2000
@@ -151,7 +151,7 @@ name=ÃÅÆ±··ÂôÔ±
 enemy=changeevent|file:chatroom/ticket2000
 }
 
-#¥¸¥ã¥¸¥ã¥Á¥±¥Ã¥ÈÇä¤ê
+#ã‚¸ãƒ£ã‚¸ãƒ£ãƒã‚±ãƒƒãƒˆå£²ã‚Š
 
 {
 floorid=3000
@@ -165,7 +165,7 @@ name=ÃÅÆ±··ÂôÔ±
 enemy=changeevent|file:chatroom/ticket3000
 }
 
-#¥«¥ë¥¿¡¼¥Ê¥Á¥±¥Ã¥ÈÇä¤ê
+#ã‚«ãƒ«ã‚¿ãƒ¼ãƒŠãƒã‚±ãƒƒãƒˆå£²ã‚Š
 
 {
 floorid=4000
@@ -179,7 +179,7 @@ name=ÃÅÆ±··ÂôÔ±
 enemy=changeevent|file:chatroom/ticket4000
 }
 
-#¥Á¥ã¥Ã¥È¥ë¡¼¥à¥Á¥±¥Ã¥ÈÇä¤ê
+#ãƒãƒ£ãƒƒãƒˆãƒ«ãƒ¼ãƒ ãƒã‚±ãƒƒãƒˆå£²ã‚Š
 
 {
 floorid=110

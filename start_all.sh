@@ -7,6 +7,9 @@
 #   bash start_all.sh stop   # 全部停止
 # ============================================
 
+# 脚本所在目录自动定位（支持 ~/StoneAge 或 /mnt/d/StoneAge 任意位置运行）
+BASE="$(cd "$(dirname "$0")" && pwd)"
+
 case "$1" in
   stop)
     echo "停止全部服务..."
@@ -19,7 +22,7 @@ case "$1" in
     ;;
 esac
 
-cd ~/StoneAge
+cd "$BASE"
 touch gmsv/lockip.txt
 
 echo "[1/4] 停止旧进程..."
@@ -29,17 +32,17 @@ pkill -x saac 2>/dev/null || true
 sleep 2
 
 echo "[2/4] 启动 saac (9200)..."
-cd ~/StoneAge/saac && nohup ./saac > /tmp/saac.log 2>&1 & disown
+cd "$BASE/saac" && nohup ./saac > /tmp/saac.log 2>&1 & disown
 while ! ss -tln | grep -q ':9200'; do sleep 1; done
 echo "      saac 就绪 (9200)"
 
 echo "[3/4] 启动 acwk worker (必须, 否则角色列表报 server load too high)..."
-cd ~/StoneAge/saac/wk && nohup ./acwk > /tmp/acwk.log 2>&1 & disown
+cd "$BASE/saac/wk" && nohup ./acwk > /tmp/acwk.log 2>&1 & disown
 sleep 2
 echo "      acwk 已启动 (连 SAAC 9200 注册 worker)"
 
 echo "[4/4] 启动 gmsv (9066)..."
-cd ~/StoneAge/gmsv
+cd "$BASE/gmsv"
 if [ "$1" = "-f" ]; then
   # 前台调试模式: Ctrl+C 停止, 不影响 saac/acwk
   ./gmsv 2>&1 | tee /tmp/gmsv.log

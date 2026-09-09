@@ -1,4 +1,4 @@
-#²Î¼Ó·¨ÊÂ
+#å‚åŠ æ³•äº‹
 EventNo:-1
 TYPE:REQUEST
 EVENT:LV>1&ITEM=30919&ITEM=30910&ITEM=30909&ITEM=30941&ITEM=30943&NOWEV=232
@@ -10,14 +10,14 @@ GetItem:30944
 ItemFullMsg:ÇëÄã½«ÄãÉíÉÏµÄ¶«Î÷¼õÉÙÒ»Ð©ºÃÂð£¿
 EventEnd
 
-#ÂíÉÏ¿ªÊ¼ÁË
+#é©¬ä¸Šå¼€å§‹äº†
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>1&ITEM=30909&ITEM=30910&ITEM=30919&ITEM=30941&ITEM=30940&NOWEV=232
 NomalWindowMsg:ÂíÉÏ¾ÍÒª¿ªÊ¼ÁË£¡£¡ÎÒ²»ÊÇ»¹ÒªÈ¥ÕÒ¿öÏÈÉúÂð£¿\n\nÎÒÈ¥Í¨ÖªÆäËûÈË×¼±¸¿ªÊ¼×ö·¨Ê¦£¬µÈÏÂÕâÀï¼û£¡
 EventEnd
 
-#¾Ü¾ø
+#æ‹’ç»
 EventNo:-1
 TYPE:REQUEST
 EVENT:LV>1&ITEM=30909&ITEM=30910&ITEM=30919&ITEM=30921&NOWEV=232
@@ -29,7 +29,7 @@ GetItem:30923
 ItemFullMsg:ÇëÄã½«ÄãÉíÉÏµÄ¶«Î÷¼õÉÙÒ»Ð©ºÃÂð£¿
 EventEnd
 
-#ÉíÉÏÓÐÇ®ÓÐÃûÆ¬
+#èº«ä¸Šæœ‰é’±æœ‰åç‰‡
 EventNo:-1
 TYPE:REQUEST
 EVENT:LV>1&ITEM=30914&ITEM=30915&ITEM=30916&ITEM=30917&ITEM=30918&ITEM=30910&ITEM=30909&NOWEV=232
@@ -42,7 +42,7 @@ GetItem:30919
 ItemFullMsg:ÇëÄã½«ÄãÉíÉÏµÄ¶«Î÷¼õÉÙÒ»Ð©ºÃÂð£¿
 EventEnd
 
-#ÉíÉÏÓÐÇ®ÓÐÃûÆ¬ÄÃÍ¬ÒâÊé
+#èº«ä¸Šæœ‰é’±æœ‰åç‰‡æ‹¿åŒæ„ä¹¦
 EventNo:-1
 TYPE:REQUEST
 EVENT:LV>1&ITEM=30913&ITEM=30910&ITEM=30909&NOWEV=232
@@ -55,7 +55,7 @@ GetItem:30914
 ItemFullMsg:ÇëÄã½«ÄãÉíÉÏµÄ¶«Î÷¼õÉÙÒ»Ð©ºÃÂð£¿
 EventEnd
 
-#ÉíÉÏÓÐÁé»êÓÐÃûÆ¬
+#èº«ä¸Šæœ‰çµé­‚æœ‰åç‰‡
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>1&ITEM=30908&ITEM=30909&NOWEV=232
@@ -65,14 +65,14 @@ GetItem:30910
 ItemFullMsg:ÇëÄã½«ÄãÉíÉÏµÄ¶«Î÷¼õÉÙÒ»Ð©ºÃÂð£¿
 EventEnd
 
-#ÉíÉÏÓÐÁé»ê
+#èº«ä¸Šæœ‰çµé­‚
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>1&ITEM=30908&NOWEV=232
 NomalWindowMsg:Ð¡Ù»ËÀÁË£¿£¿\n\n\nÄãÏÈÈ¥ÕÒÂ¥ÉÏµÄ¿öÏÈÉú±¨¾¯ºóÔÚÀ´ÕÒÎÒ£¡¡­¡­
 EventEnd
 
-#### Î´½ÓÈÎÎñ¶Ô»° ####
+#### æœªæŽ¥ä»»åŠ¡å¯¹è¯ ####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>0

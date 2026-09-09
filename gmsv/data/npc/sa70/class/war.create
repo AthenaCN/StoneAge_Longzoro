@@ -1,7 +1,7 @@
 NPCCREATE
 
-########¡¡°×ÀÇÓÂÊ¿¡¡#########
-##### ¹«»áµ¼Ê¦ ######
+########ã€€ç™½ç‹¼å‹‡å£«ã€€#########
+##### å…¬ä¼šå¯¼å¸ˆ ######
 {
 name=À­ì³¶û
 floorid=8216
@@ -24,7 +24,7 @@ graphicname=16182
 enemy=npcgen_warpman|file:sa70/class/war2
 }
 
-##### ¹«»á½âËµÔ± ######
+##### å…¬ä¼šè§£è¯´å‘˜ ######
 {
 name=¹«»á½âËµÔ±
 floorid=8216
@@ -36,7 +36,7 @@ graphicname=16183
 enemy=changeevent|file:sa70/class/war3
 }
 
-##### ÓÂÊ¿ÈÎÎñÇå³ı ######
+##### å‹‡å£«ä»»åŠ¡æ¸…é™¤ ######
 {
 name=Âí¶û
 floorid=8216
@@ -48,7 +48,7 @@ graphicname=16339
 enemy=changeevent|file:sa70/class/clean
 }
 
-##### ·¨Ê¦ÈÎÎñÇå³ı ######
+##### æ³•å¸ˆä»»åŠ¡æ¸…é™¤ ######
 {
 name=Âí¶û
 floorid=8218
@@ -60,7 +60,7 @@ graphicname=16339
 enemy=changeevent|file:sa70/class/clean
 }
 
-##### ÁÔÈËÈÎÎñÇå³ı ######
+##### çŒäººä»»åŠ¡æ¸…é™¤ ######
 {
 name=Âí¶û
 floorid=8217
@@ -72,7 +72,7 @@ graphicname=16339
 enemy=changeevent|file:sa70/class/clean
 }
 
-##### ÊÔÁ·ÕßÒ» ######
+##### è¯•ç»ƒè€…ä¸€ ######
 {
 name=ÓÂÊ¿ÊÔÁ¶Õß
 floorid=8219
@@ -84,7 +84,7 @@ graphicname=16184
 enemy=npcgen_warpman|file:sa70/class/wquest1
 }
 
-##### ÊÔÁ·Õß¶ş ######
+##### è¯•ç»ƒè€…äºŒ ######
 {
 name=ÓÂÊ¿ÊÔÁ¶Õß
 floorid=8219
@@ -96,7 +96,7 @@ graphicname=16179
 enemy=npcgen_warpman|file:sa70/class/wquest2
 }
 
-##### ÊÔÁ·ÕßÈı ######
+##### è¯•ç»ƒè€…ä¸‰ ######
 {
 name=ÓÂÊ¿ÊÔÁ¶Õß
 floorid=8219
@@ -108,7 +108,7 @@ graphicname=16184
 enemy=npcgen_warpman|file:sa70/class/wquest3
 }
 
-##### ÊÔÁ·ÕßËÄ ######
+##### è¯•ç»ƒè€…å›› ######
 {
 name=ÓÂÊ¿ÊÔÁ¶Õß
 floorid=8219
@@ -120,7 +120,7 @@ graphicname=16179
 enemy=npcgen_warpman|file:sa70/class/wquest4
 }
 
-##### ÈÛÂ¯ ######
+##### ç†”ç‚‰ ######
 {
 name=ÈÛÂ¯
 floorid=8219
@@ -132,7 +132,7 @@ graphicname=12838
 enemy=changeevent|file:sa70/class/wquest5
 }
 
-##### ÊÔÁ·ÕßÎå ######
+##### è¯•ç»ƒè€…äº” ######
 {
 name=ÓÂÊ¿ÊÔÁ¶Õß
 floorid=8219

@@ -1,7 +1,7 @@
 NomalMainMsg:Ëþ¶úËþ³ÇµÄÕ½Ê¿ÍÅ×Ô´ÓÍÅ³¤²»ÔÚÁËÔÚÑµÁ·ÉÏ¾Íµ¡¶èÁËºÜ¶à£¬ÕæÊÇ½ÐÈËµ£ÐÄÄÄ¡£
 
 
-#µÚ¶þ¶ÎÈÎÎñ¿ªÊ¼
+#ç¬¬äºŒæ®µä»»åŠ¡å¼€å§‹
 EventNo:171
 TYPE:ACCEPT
 EVENT:LV>90&ENDEV=81&ENDEV=86&ENDEV=87&ENDEV=105&NOWEV=171&PET>81-264*1
@@ -10,7 +10,7 @@ ThanksMsg:\nÕâÒ»¸öÃØÃÜÒ»Ö±ÒÔÀ´¶¼Ö»ÓÐÊØ»¤µØ¾«ÁéµÄÆïÊ¿ÍÅ³ÉÔ±²ÅÖªµÀ¡£
 EndSetFlg:171
 EventEnd
 
-#ÈÎÎñ¿ªÊ¼£¬Íæ¼ÒÃ»Ö¤Ã»³èÎï
+#ä»»åŠ¡å¼€å§‹ï¼ŒçŽ©å®¶æ²¡è¯æ²¡å® ç‰©
 EventNo:171
 TYPE:REQUEST
 EVENT:LV>90&ENDEV=81&ENDEV=86&ENDEV=87&ENDEV=105&ENDEV!=171
@@ -21,7 +21,7 @@ EndStopMsg:\n\nµ±Äã·½±ãµÄ»°ÔÙÀ´°ïÃ¦ÎÒºÃÂð£¿
 NoStopMsg:\nÄÇ¾ÍÂé·³ÄãÁË£¬ÎÒÒª°×É«Lv82ÒÔÉÏµÄ´óÏó£¡ÎÒ¼ÇµÃºÃÏñ½ÐÂê¶÷...Ê²Ã´µÄ¡£
 EventEnd
 
-#ÓÐÆô¶¯Ê¯
+#æœ‰å¯åŠ¨çŸ³
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>90&ENDEV=81&ENDEV=86&ENDEV=87&ENDEV=105&ENDEV=171

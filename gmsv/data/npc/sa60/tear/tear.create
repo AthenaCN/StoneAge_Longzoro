@@ -1,7 +1,7 @@
 NPCCREATE
-##############ÀáÖ®º£###############
+##############æ³ªä¹‹æµ·###############
 
-########ÃÎ¼§#########
+########æ¢¦å§¬#########
 {
 name=Ï¦¼§
 floorid=200
@@ -14,7 +14,7 @@ enemy=changeevent|file:sa60/tear/tear.arg
 graphicname=16664
 }
 
-######ÂåÁÖ########
+######æ´›æ—########
 {
 name=ÂåÁÖ
 floorid=8027
@@ -26,7 +26,7 @@ createnum=1
 enemy=changeevent|file:sa60/tear/tear1.arg
 graphicname=16665
 }
-######ÂåÁÖ(´«ËÍÍæ¼ÒÖÁÓĞ¹ÖµØÍ¼)########
+######æ´›æ—(ä¼ é€ç©å®¶è‡³æœ‰æ€ªåœ°å›¾)########
 {
 name=ÂåÁÖ
 floorid=8028
@@ -39,7 +39,7 @@ enemy=npcgen_warpman|file:sa60/tear/tear6.arg
 graphicname=16665
 }
 
-###Õ½¶·£Î£Ğ£Ã(µ²ÃÅ)###
+###æˆ˜æ–—ï¼®ï¼°ï¼£(æŒ¡é—¨)###
 {
 name=½Ü·ò
 floorid=8029
@@ -51,7 +51,7 @@ createnum=1
 enemy=sb_dou|file:sa60/tear/tear2.arg
 graphicname=101543
 }
-###½äÖ¸###
+###æˆ’æŒ‡###
 {
 name=ÆÆÃ±×Ó
 floorid=8015
@@ -63,7 +63,7 @@ createnum=1
 enemy=changeevent|file:sa60/tear/tear3.arg
 graphicname=22344
 }
-###ÂåÁÖÅÔ±ßµÄ¹ÖÎï###
+###æ´›æ—æ—è¾¹çš„æ€ªç‰©###
 {
 name=½ÜÊ¿
 floorid=8029
@@ -75,7 +75,7 @@ createnum=1
 enemy=changeevent|file:sa60/tear/tear4.arg
 graphicname=101533
 }
-###ÂåÁÖÅÔÓĞ¹Ö###
+###æ´›æ—æ—æœ‰æ€ª###
 {
 name=ÂåÁÖ
 floorid=8029
@@ -87,7 +87,7 @@ createnum=1
 enemy=changeevent|file:sa60/tear/tear5.arg
 graphicname=16665
 }
-####Ë®ÊÀ½çÌØÊâÌøÔ¾µãÒ»£¨£©####
+####æ°´ä¸–ç•Œç‰¹æ®Šè·³è·ƒç‚¹ä¸€ï¼ˆï¼‰####
 {
 floorid=817
 borncenter=189,513
@@ -95,7 +95,7 @@ ignoreinvincible=1
 createnum=1
 enemy=npcgen_warp|file:sa60/tear/warptear.arg
 }
-###Ææ¿¦¿¦´åÌá°µÈÎÎñ£Î£Ğ£Ã###
+###å¥‡å–€å–€æ‘ææš—ä»»åŠ¡ï¼®ï¼°ï¼£###
 {
 name=´åÃñ
 floorid=3400	

@@ -7,14 +7,14 @@ NomalMsg:ÌýËµ°¬°ÍµÇÄ§¾üÓÖÒª¾íÍÁÖØÀ´ÁË~£¡£¡
 PartyMsg:ÇëÒ»¸öÒ»¸öÀ´ºÙ£¡£¡
 OVER
 
-####ÈÎÎñ91Íê³É##
+####ä»»åŠ¡91å®Œæˆ##
 TALKEVENT1
 WARP:0,0,0
 FREE:LV>79&TRANS>4&ENDEV=90&ENDEV=91&CLASS=1
 FreeMsg:ÈÃÎÒÃÇ²¢¼ç×÷Õ½°É£¡~
 OVER
 
-####ÈÎÎñ91½øÐÐÖÐ##
+####ä»»åŠ¡91è¿›è¡Œä¸­##
 TALKEVENT2
 WARP:0,0,0
 FREE:LV>79&TRANS>4&ENDEV=90&NOWEV=91&CLASS=1&ITEM!=21104
@@ -22,14 +22,14 @@ FreeMsg:¿ìÇ°ÍùÒÁµéÔ°µÄÆ¶ÃñÇø°É£¬ÎÒÃÇÒÑ¾­×öºÃÕ½¶·µÄ×¼±¸ÁË£¡~~
 AddItem:21104
 OVER
 
-####ÈÎÎñ91½øÐÐÖÐ##
+####ä»»åŠ¡91è¿›è¡Œä¸­##
 TALKEVENT3
 WARP:0,0,0
 FREE:LV>79&TRANS>4&ENDEV=90&NOWEV=91&CLASS=1
 FreeMsg:¿ìÇ°ÍùÒÁµéÔ°µÄÆ¶ÃñÇø°É£¬ÎÒÃÇÒÑ¾­×öºÃÕ½¶·µÄ×¼±¸ÁË£¡~~
 OVER
 
-####½ÓÈÎÎñ¸ø±ê91##
+####æŽ¥ä»»åŠ¡ç»™æ ‡91##
 TALKEVENT4
 WARP:0,0,0
 FREE:LV>79&TRANS>4&ENDEV=90&CLASS=1&ITEM=21103

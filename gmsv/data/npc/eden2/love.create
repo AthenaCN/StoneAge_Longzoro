@@ -1,7 +1,7 @@
 NPCCREATE
 
 
-###### ¿¨ÃÛ¶ù ######
+###### å¡èœœå„¿ ######
 {
 name=¿¨ÃÛ¶ù
 floorid=7210
@@ -12,7 +12,7 @@ enemy=changeevent|file:eden2/love/love-carmeier
 graphicname=16540
 }
 
-###### ÀòÄÈ ######
+###### è‰å¨œ ######
 {
 name=ÀòÄÈ
 floorid=7200
@@ -23,7 +23,7 @@ enemy=changeevent|file:eden2/love/love-lina
 graphicname=16543
 }
 
-###### ¿¦¶ûË¹ ######
+###### å–€å°”æ–¯ ######
 {
 name=¿¦¶ûË¹
 floorid=7200
@@ -34,7 +34,7 @@ enemy=changeevent|file:eden2/love/love-kurs
 graphicname=16537
 }
 
-###### ÂóÌØ ######
+###### éº¦ç‰¹ ######
 {
 name=ÂóÌØ
 floorid=7207
@@ -45,7 +45,7 @@ enemy=changeevent|file:eden2/love/love-matt
 graphicname=16547
 }
 
-###### ĞÅ ######
+###### ä¿¡ ######
 {
 name=ĞÅ
 floorid=7213
@@ -56,7 +56,7 @@ enemy=changeevent|file:eden2/love/love-letter
 graphicname=24365
 }
 
-###### ÂóÌØ¼ÒµÄ´«Ëµµã ######
+###### éº¦ç‰¹å®¶çš„ä¼ è¯´ç‚¹ ######
 {
 floorid=7200
 borncenter=60,85,1,1
@@ -66,7 +66,7 @@ createnum=1
 enemy=npcgen_warp|file:eden2/matthome.arg
 }
 
-###### ¿¨ÃÛ¶ù¼ÒµÄ´«Ëµµã ######
+###### å¡èœœå„¿å®¶çš„ä¼ è¯´ç‚¹ ######
 {
 floorid=7200
 borncenter=16,104,1,1

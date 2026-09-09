@@ -1,5 +1,5 @@
 NPCCREATE
-#ÈøÄ·¼ª¶ûµÄÌØ¼¼Í¨
+#è¨å§†å‰å°”çš„ç‰¹æŠ€é€š
 {
 floorid=1003
 borncenter=19,17,1,1
@@ -12,7 +12,7 @@ name=´å×ÓÀïµÄÍòÊÂÍ¨
 enemy=windowman|conff:sainasu/wazaya01.conf
 }
 
-#ÂêÀöÄÇË¹µÄÌØ¼¼Í¨
+#ç›ä¸½é‚£æ–¯çš„ç‰¹æŠ€é€š
 {
 floorid=2003
 borncenter=15,12,1,1
@@ -25,7 +25,7 @@ name=´å×ÓÀïµÄÍòÊÂÍ¨
 enemy=windowman|conff:sainasu/wazaya01.conf
 }
 
-#¼Ó¼ÓµÄÌØ¼¼Í¨
+#åŠ åŠ çš„ç‰¹æŠ€é€š
 {
 floorid=3003
 borncenter=16,17,1,1
@@ -37,7 +37,7 @@ graphicname=16209
 name=´å×ÓÀïµÄÍòÊÂÍ¨
 enemy=windowman|conff:sainasu/wazaya01.conf
 }
-#¿¨Â³ËüÄÇµÄÌØ¼¼Í¨
+#å¡é²å®ƒé‚£çš„ç‰¹æŠ€é€š
 {
 floorid=4003
 borncenter=14,20,1,1
@@ -50,7 +50,7 @@ name=´å×ÓÀïµÄÍòÊÂÍ¨
 enemy=windowman|conff:sainasu/wazaya01.conf
 }
 
-#¿¨Â³ËüÄÇµÄÌØ¼¼Í¨
+#å¡é²å®ƒé‚£çš„ç‰¹æŠ€é€š
 {
 floorid=10920
 borncenter=39,53,1,1

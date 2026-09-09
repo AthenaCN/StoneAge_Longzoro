@@ -1,22 +1,22 @@
-########¡¡²¼ÂåÎÚÎÚ¡¡########
+########ã€€å¸ƒæ´›ä¹Œä¹Œã€€########
 
 NomalMainMsg:ºðºð£¡
 
-####¡¡ÈÎÎñÍê³É¶Ô»°¡¡####
+####ã€€ä»»åŠ¡å®Œæˆå¯¹è¯ã€€####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>89&ENDEV=4&ENDEV=81&ENDEV=125&ITEM=2414
 NomalWindowMsg:¸ÐÐ»¡­¸ÐÐ»¡­Ì«¸ÐÐ»ÁË¡£
 EventEnd
 
-####¡¡´ø»Ø²¼Âå¶à¶àÈÎÎñ¶Ô»°¡¡####
+####ã€€å¸¦å›žå¸ƒæ´›å¤šå¤šä»»åŠ¡å¯¹è¯ã€€####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>89&ENDEV=4&ENDEV=81&NOWEV=125&ITEM=2414&PET>0-1042
 NomalWindowMsg:ÍÛ¡­Ì«¸ÐÐ»ÄãÁË£¬Ð»Ð»Äã¾ÈÁËÎÒµÜµÜ¡£
 EventEnd
 
-########¡¡½ÓÈÎÎñ¶Ô»°¡¡#####
+########ã€€æŽ¥ä»»åŠ¡å¯¹è¯ã€€#####
 EventNo:-1
 TYPE:REQUEST
 EVENT:LV>89&ENDEV=4&ENDEV=81&NOWEV=125&ITEM=2414
@@ -26,14 +26,14 @@ RequestMsg3:ÎÒÃÇÒ²²»¸ÊÊ¾Èõ£¬ÄÃ×ßËûÃÇ·ÉÁúµ°£¬ÒªËû·ÅÁË²¼Âå¶à¶à³öÀ´£¬¿ÉÊÇÄÇÀÏÍ·¾ÍÊÇ
 ThanksMsg1:Ò»ÇÐ¾ÍÇëÄã°ïÃ¦ÁË¡£
 EventEnd
 
-####¡¡Î´½ÓÈÎÎñ¶Ô»°(ÉíÉÏÎÞ±´¿Ç)¡¡####
+####ã€€æœªæŽ¥ä»»åŠ¡å¯¹è¯(èº«ä¸Šæ— è´å£³)ã€€####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>89&ENDEV=4&ENDEV=81&NOWEV=125
 NomalWindowMsg:ºð£¡
 EventEnd
 
-####¡¡Î´½ÓÈÎÎñ¶Ô»°¡¡####
+####ã€€æœªæŽ¥ä»»åŠ¡å¯¹è¯ã€€####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>0

@@ -1,6 +1,6 @@
 NomalMainMsg:²¹¸øÆ·»¹Ã»µ½Âð¡£¡£¡£¡££¡ÕæÊÇÔã¸â£¡
 
-####ÈÎÎñ93Íê³É ÉíÉÏÓÐ°ü¹ü####
+####ä»»åŠ¡93å®Œæˆ èº«ä¸Šæœ‰åŒ…è£¹####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>79&TRANS>5&ENDEV=90&ENDEV=91&ENDEV=92&ENDEV=93&ITEM=21110
@@ -11,7 +11,7 @@ DelItem:21110
 GetItem:21111*15
 EventEnd
 
-###Íê³ÉÈÎÎñ£¨¹Ø±ê93£©###
+###å®Œæˆä»»åŠ¡ï¼ˆå…³æ ‡93ï¼‰###
 EventNo:93
 TYPE:ACCEPT
 EVENT:LV>79&TRANS>5&ENDEV=90&ENDEV=91&ENDEV=92&ENDEV=186&NOWEV=93&ITEM=21125*10
@@ -23,7 +23,7 @@ GetItem:21110*1
 EndSetFlg:93
 EventEnd
 
-####ÈÎÎñ93ÖÐ####
+####ä»»åŠ¡93ä¸­####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>79&TRANS>5&ENDEV=90&ENDEV=91&ENDEV=92&NOWEV=93

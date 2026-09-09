@@ -1,26 +1,26 @@
 NomalMainMsg:...........
 
-##мЙЁихннЯ#
+##Е╝▄Ф┬░Д╩╩Е┼║#
 EventNo:-1
 TYPE:MESSAGE
 EVENT:ENDEV=215&ENDEV=216&ENDEV=202
 NomalWindowMsg:вэкЦ╫АйЬак║ёпа©Юак║ё
 EventEnd
 
-##спа╕а©#
+##Ф°┴Е┼⌡И┤▐#
 EventNo:-1
 TYPE:MESSAGE
 EVENT:NOWEV=215&ENDEV=216&NOWEV=202&ITEM=22709
 NomalWindowMsg:©Лх╔╟иё║х╔ур╬╚аИмУё║кШцгс╕╦ц╨э╪╠акё║
 EventEnd
 
-##╫сак202 ц╩╠╢©г#
+##Ф▌╔Д╨├202 Ф╡║Х╢²ЕёЁ#
 EventNo:-1
 TYPE:MESSAGE
 EVENT:NOWEV=215&ENDEV=216&ITEM!=2414&NOWEV=202&ITEM=1683*5
 NomalWindowMsg:.............
 EventEnd
-##╫сак202 ╦Ьа╕а©#
+##Ф▌╔Д╨├202 Г╩≥Е┼⌡И┤▐#
 EventNo:-1
 TYPE:ACCEPT
 EVENT:NOWEV=215&ENDEV=216&ITEM=2414&NOWEV=202&ITEM=1683*5
@@ -30,7 +30,7 @@ GetItem:22709
 ItemFullMsg:дЦ╣днОф╥бЗбЗ╣дак║ё
 EventEnd
 
-##мЙЁиг╟╤н ц╩╠╢©г#
+##Е╝▄Ф┬░Е┴█Ф╝╣ Ф╡║Х╢²ЕёЁ#
 EventNo:-1
 TYPE:MESSAGE
 EVENT:NOWEV=215&ENDEV=216
@@ -39,13 +39,13 @@ EventEnd
 
 
 
-##╫╩юо╢С╩з╧ЩйИ ц╩╠╢©г#
+##Д╨╓Х─│Е╓╖Ф┌■Х©┤Д╧╕ Ф╡║Х╢²ЕёЁ#
 EventNo:-1
 TYPE:MESSAGE
 EVENT:NOWEV=215&NOWEV=216&ITEM!=2414&ITEM=22705&ITEM=22706
 NomalWindowMsg:.......
 EventEnd
-##╫╩юо╢С╩з╧ЩйИ мЙЁи216#
+##Д╨╓Х─│Е╓╖Ф┌■Х©┤Д╧╕ Е╝▄Ф┬░216#
 EventNo:216
 TYPE:ACCEPT
 EVENT:NOWEV=215&NOWEV=216&ITEM=2414&ITEM=22705&ITEM=22706
@@ -57,19 +57,19 @@ PetFullMsg:дЦ╣дЁХнОю╦бЗбЗ╣дё╛╡╩дэты╥еЁХнОакЮ╦║ё
 EndSetFlg:216
 EventEnd
 
-##╢Рюо╢С#
+##Ф┴⌠Х─│Е╓╖#
 EventNo:-1
 TYPE:MESSAGE
 EVENT:NOWEV=215&NOWEV=216&ITEM=22705
 NomalWindowMsg:уБ╦Жюо╢Сс╕╦ц╫пвЖ╤Ю╣оё╛лЩнр╣дйжобк╣ё╛кШвН╫Эспр╩вз╨мажнЯ╬жЁ╓╣д╫╩рвё╛ожтзкШс╕╦цтзра╣Ит╟╣дажнЯ╬ж║ёбИ╥ЁдЦтыеэр╩лкак║ё
 EventEnd
-##╫╩╩з╧ЩйИ ц╩╠╢©г#
+##Д╨╓Ф┌■Х©┤Д╧╕ Ф╡║Х╢²ЕёЁ#
 EventNo:-1
 TYPE:MESSAGE
 EVENT:NOWEV=215&NOWEV=216&ITEM!=2414&ITEM=22701&ITEM=22702&ITEM=22703&ITEM=22704
 NomalWindowMsg:.......
 EventEnd
-##╫╩╩з╧ЩйИ ╢Рюо╢С#
+##Д╨╓Ф┌■Х©┤Д╧╕ Ф┴⌠Х─│Е╓╖#
 EventNo:-1
 TYPE:ACCEPT
 EVENT:NOWEV=215&NOWEV=216&ITEM=2414&ITEM=22701&ITEM=22702&ITEM=22703&ITEM=22704
@@ -79,27 +79,27 @@ GetItem:22705
 DelItem:22701,22702,22703,22704
 EventEnd
 
-##нч╠╢©гспм╛рБйИ#
+##Ф≈═Х╢²ЕёЁФ°┴Е░▄Ф└▐Д╧╕#
 EventNo:-1
 TYPE:MESSAGE
 EVENT:NOWEV=215&NOWEV=216&ITEM!=2414&ITEM=22701
 NomalWindowMsg:.........
 EventEnd
-##сп╠╢©гспм╛рБйИ#
+##Ф°┴Х╢²ЕёЁФ°┴Е░▄Ф└▐Д╧╕#
 EventNo:-1
 TYPE:MESSAGE
 EVENT:NOWEV=215&NOWEV=216&ITEM=2414&ITEM=22701
 NomalWindowMsg:йб╡╩ркЁыак.
 EventEnd
 
-##ц╩сп╠╢©гсп╩ьпе#
+##Ф╡║Ф°┴Х╢²ЕёЁФ°┴Е⌡·Д©║#
 EventNo:-1
 TYPE:MESSAGE
 EVENT:NOWEV=215&NOWEV=216&ITEM!=2414&ITEM=22693&ITEM=22694&ITEM=22695&ITEM=22696&ITEM=22697&ITEM=22698&ITEM=22699&ITEM=22700
 NomalWindowMsg:..........
 EventEnd
 
-##╫╩╩ьпе дцм╛рБйИ#
+##Д╨╓Е⌡·Д©║ Ф▀©Е░▄Ф└▐Д╧╕#
 EventNo:-1
 TYPE:ACCEPT
 EVENT:NOWEV=215&NOWEV=216&ITEM=2414&ITEM=22693&ITEM=22694&ITEM=22695&ITEM=22696&ITEM=22697&ITEM=22698&ITEM=22699&ITEM=22700
@@ -111,21 +111,21 @@ DelItem:22693,22694,22695,22696,22697,22698,22699,22700
 ItemFullMsg:дЦ╣днОф╥бЗак.
 EventEnd
 
-##ц╩сп╠╢©г#
+##Ф╡║Ф°┴Х╢²ЕёЁ#
 EventNo:-1
 TYPE:MESSAGE
 EVENT:NOWEV=215&NOWEV=216&ITEM!=2414
 NomalWindowMsg:..........
 EventEnd
 
-##дцакпе#
+##Ф▀©Д╨├Д©║#
 EventNo:-1
 TYPE:MESSAGE
 EVENT:NOWEV=215&NOWEV=216&ITEM=22692
 NomalWindowMsg:ж╩р╙╟япе╤╪╥╒╣╫кШцгйжжп,ж╩р╙кШцгмёж╧╤т╨ёяС╣дншх╬,╬м©иртй╧нра╕а©╫╔╫╔╣ц╣╫╩ь╦╢,╡╒гр╟ОжЗ╬╚аИмУкШцгак.©Лх╔╟и.
 EventEnd
 
-##╫схннЯ215#
+##Ф▌╔Д╩╩Е┼║215#
 EventNo:-1
 TYPE:ACCEPT
 EVENT:NOWEV=215&NOWEV=216&ITEM=2414

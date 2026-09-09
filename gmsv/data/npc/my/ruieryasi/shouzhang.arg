@@ -1,21 +1,21 @@
 NomalMainMsg:»¶Ó­Äã£¡À´×ÔÔ¶·½µÄÓÂÊ¿£¡Èð¶ûÑÇË¹³Ç¾ÍÏ²»¶ÏóÄãÕâÑùµÄ~¼ÓÈëÎÒÃÇ°É£¡
 
 
-###184ÈÎÎñÍê³É###
+###184ä»»åŠ¡å®Œæˆ###
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>79&ENDEV=4&ENDEV=81&ENDEV=126&ENDEV=133&ENDEV=184
 NomalWindowMsg:±´¿ËËû»¹ºÃÃ´£¡ÎÒÃÇ¶¼ºÜÆÚ´ýËû»ØÀ´¡£¡£
 EventEnd
 
-###184ÈÎÎñ½øÐÐÖÐ¡¡ÉíÉÏÓÐ³Í½äÁî###
+###184ä»»åŠ¡è¿›è¡Œä¸­ã€€èº«ä¸Šæœ‰æƒ©æˆ’ä»¤###
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>79&ENDEV=4&ENDEV=81&ENDEV=126&ENDEV=133&NOWEV=184&ITEM=20829
 NomalWindowMsg:Âé·³ÄúÁË~Ò»Â·Ð¡ÐÄ£¡
 EventEnd
 
-###ÊÕÑÐ¾¿ÊéµÚ¶þÕÂ½»³Í½äÁî###
+###æ”¶ç ”ç©¶ä¹¦ç¬¬äºŒç« äº¤æƒ©æˆ’ä»¤###
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>79&ENDEV=4&ENDEV=81&ENDEV=126&ENDEV=133&NOWEV=184&ITEM=20828

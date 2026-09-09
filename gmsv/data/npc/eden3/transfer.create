@@ -1,6 +1,6 @@
 NPCCREATE
 
-# Ëş¶úËş
+# å¡”è€³å¡”
 {
 floorid=7112
 borncenter=18,5
@@ -13,7 +13,7 @@ ignoreinvincible=1
 enemy=transman|file:eden3/transfer.arg
 }
 
-# Äá¿ËË¹
+# å°¼å…‹æ–¯
 {
 floorid=7200
 borncenter=37,32
@@ -26,7 +26,7 @@ ignoreinvincible=1
 enemy=transman|file:eden3/transfer.arg
 }
 
-# ¸¥ÁÒ¶Ù
+# å¼—çƒˆé¡¿
 {
 floorid=7300
 borncenter=88,101
@@ -39,7 +39,7 @@ ignoreinvincible=1
 enemy=transman|file:eden3/transfer.arg
 }
 
-# ÑÇÒÁÅ·
+# äºšä¼Šæ¬§
 {
 floorid=7400
 borncenter=100,90
@@ -52,7 +52,7 @@ ignoreinvincible=1
 enemy=transman|file:eden3/transfer.arg
 }
 
-#ÒÁµéÔ°
+#ä¼Šç”¸å›­
 {
 floorid=7000
 borncenter=35,127
@@ -65,7 +65,7 @@ ignoreinvincible=1
 enemy=transman|file:eden3/transfer.arg
 }
 
-#ÈøÄ·¼ª¶û´å
+#è¨å§†å‰å°”æ‘
 {
 floorid=1000
 borncenter=94,102
@@ -78,7 +78,7 @@ ignoreinvincible=1
 enemy=transman|file:eden3/transfer.arg
 }
 
-#Óæ´å
+#æ¸”æ‘
 {
 floorid=2000
 borncenter=69,66
@@ -91,7 +91,7 @@ ignoreinvincible=1
 enemy=transman|file:eden3/transfer.arg
 }
 
-#Óæ´å
+#æ¸”æ‘
 {
 floorid=2000
 borncenter=89,48
@@ -104,7 +104,7 @@ ignoreinvincible=1
 enemy=transman|file:eden3/transfer.arg
 }
 
-#¼Ó¼Ó´å
+#åŠ åŠ æ‘
 {
 floorid=3000
 borncenter=93,94
@@ -117,7 +117,7 @@ ignoreinvincible=1
 enemy=transman|file:eden3/transfer.arg
 }
 
-#¿¨Â³ËûÄÇ´å
+#å¡é²ä»–é‚£æ‘
 {
 floorid=4000
 borncenter=69,57
@@ -130,7 +130,7 @@ ignoreinvincible=1
 enemy=transman|file:eden3/transfer.arg
 }
 
-#Ã×À¼´ï»ú³¡
+#ç±³å…°è¾¾æœºåœº
 {
 floorid=5543
 borncenter=26,21

@@ -1,6 +1,6 @@
 NPCCREATE
 
-###¾«Áé»»½±Æ·###
+###ç²¾çµæ¢å¥–å“###
 {
 floorid=1000
 borncenter=73,72,1,1
@@ -14,7 +14,7 @@ name=Á÷ÀËÂÃÈË
 enemy=changeevent|file:sa75/angel/angelitem
 }
 
-###µØÁúòáÕ½¶·###
+###åœ°é¾™èœ¥æˆ˜æ–—###
 {
 floorid=158
 borncenter=7,6,1,1
@@ -28,7 +28,7 @@ name=Ä§ÊŞÌûÄá²¼Í·Ä¿
 enemy=angelfire|file:sa75/angel/earth.arg
 }
 
-###µØÁúòá¶Ô»°###
+###åœ°é¾™èœ¥å¯¹è¯###
 {
 floorid=159
 borncenter=7,6,1,1
@@ -42,7 +42,7 @@ name=Ä§ÊŞÌûÄá²¼Í·Ä¿
 enemy=changeevent|file:sa75/angel/earth_1.arg
 }
 
-###µØÁúòá¹ÅË¹ÌØ¶Ô»°###
+###åœ°é¾™èœ¥å¤æ–¯ç‰¹å¯¹è¯###
 {
 floorid=150
 borncenter=10,6,1,1
@@ -56,7 +56,7 @@ name=¹ÅË¹ÌØ
 enemy=npcgen_warpman|file:sa75/angel/earth_10_6.arg
 }
 
-###Ë®ÁúòáÕ½¶·###
+###æ°´é¾™èœ¥æˆ˜æ–—###
 {
 floorid=160
 borncenter=15,13,1,1
@@ -70,7 +70,7 @@ name=Ä§ÊŞÌûÄá±´Í·Ä¿
 enemy=angelfire|file:sa75/angel/water.arg
 }
 
-###Ë®Áúòá¶Ô»°###
+###æ°´é¾™èœ¥å¯¹è¯###
 {
 floorid=161
 borncenter=15,13,1,1
@@ -84,7 +84,7 @@ name=Ä§ÊŞÌûÄá±´Í·Ä¿
 enemy=changeevent|file:sa75/angel/water_1.arg
 }
 
-###Ë®Áúòá¹ÅË¹ÌØ###
+###æ°´é¾™èœ¥å¤æ–¯ç‰¹###
 {
 floorid=151
 borncenter=12,11,1,1
@@ -98,7 +98,7 @@ name=¹ÅË¹ÌØ
 enemy=npcgen_warpman|file:sa75/angel/water_12_11.arg
 }
 
-###»ğÁúòáÕ½¶·###
+###ç«é¾™èœ¥æˆ˜æ–—###
 {
 floorid=162
 borncenter=6,5,1,1
@@ -112,7 +112,7 @@ name=Ä§ÊŞÌûÄá¶÷Í·Ä¿
 enemy=angelfire|file:sa75/angel/fire.arg
 }
 
-###»ğÁúòá¶Ô»°###
+###ç«é¾™èœ¥å¯¹è¯###
 {
 floorid=163
 borncenter=6,5,1,1
@@ -126,7 +126,7 @@ name=Ä§ÊŞÌûÄá¶÷Í·Ä¿
 enemy=changeevent|file:sa75/angel/fire_1.arg
 }
 
-###»ğÁúòá¹ÅË¹ÌØ###
+###ç«é¾™èœ¥å¤æ–¯ç‰¹###
 {
 floorid=152
 borncenter=30,6,1,1
@@ -140,7 +140,7 @@ name=¹ÅË¹ÌØ
 enemy=npcgen_warpman|file:sa75/angel/fire_30_6.arg
 }
 
-###·çÁúòáÕ½¶·###
+###é£é¾™èœ¥æˆ˜æ–—###
 {
 floorid=164
 borncenter=13,12,1,1
@@ -154,7 +154,7 @@ name=Ä§ÊŞÌûÄáË¹Í·Ä¿
 enemy=angelfire|file:sa75/angel/wind.arg
 }
 
-###·çÁúòá¶Ô»°###
+###é£é¾™èœ¥å¯¹è¯###
 {
 floorid=165
 borncenter=13,12,1,1
@@ -168,7 +168,7 @@ name=Ä§ÊŞÌûÄáË¹Í·Ä¿
 enemy=changeevent|file:sa75/angel/wind_1.arg
 }
 
-###·çÁúòá¹ÅË¹ÌØ###
+###é£é¾™èœ¥å¤æ–¯ç‰¹###
 {
 floorid=153
 borncenter=26,24,1,1

@@ -13,6 +13,9 @@ extern int SliceCount; // count slices in MesgSlice
 extern char PersonalKey[4096];
 extern char TokyoKey[256];
 
+/* Tokyo-sa: GBK(数据文件串) -> UTF-8, 便于与源码 UTF-8 字面量拼接 */
+size_t str_gbk_to_utf8(char *out, size_t outlen, const char *in);
+
 #define DEFAULTTABLE \
 	"0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz{}"
 #define DEFAULTFUNCBEGIN "&"

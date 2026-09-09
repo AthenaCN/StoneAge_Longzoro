@@ -1,5 +1,5 @@
 NPCCREATE
-###ÁÔ³èÕß###
+###çŒå® è€…###
 {
 name=ÁÔ³èÕß
 floorid=1200
@@ -10,7 +10,7 @@ createnum=1
 graphicname=16105
 enemy=changeevent|file:sa70/sleep/sleep1.arg
 }
-###ÉæÁÔÕß###
+###æ¶‰çŒè€…###
 {
 name=ÉæÁÔÕß
 floorid=1200

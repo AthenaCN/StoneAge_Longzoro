@@ -1,5 +1,5 @@
 NPCCREATE
-# ÈøÄ·¼ª¶ûµÄÆï³ËÑµÁ·Ê¦
+# è¨å§†å‰å°”çš„éª‘ä¹˜è®­ç»ƒå¸ˆ
 {
 floorid=1040
 borncenter=61,45,1,1
@@ -13,7 +13,7 @@ name=Æï³ËÑµÁ·Ê¦
 enemy=riderman|conff:family/riderman.conf
 }
 
-# ÂêÀöÄÈË¿µÄÆï³ËÑµÁ·Ê¦
+# ç›ä¸½å¨œä¸çš„éª‘ä¹˜è®­ç»ƒå¸ˆ
 {
 floorid=2030
 borncenter=55,16,1,1
@@ -27,7 +27,7 @@ name=Æï³ËÑµÁ·Ê¦
 enemy=riderman|conff:family/riderman.conf
 }
 
-# ¼Ó¼ÓµÄÆï³ËÑµÁ·Ê¦
+# åŠ åŠ çš„éª‘ä¹˜è®­ç»ƒå¸ˆ
 {
 floorid=3030
 borncenter=50,21,1,1
@@ -41,7 +41,7 @@ name=Æï³ËÑµÁ·Ê¦
 enemy=riderman|conff:family/riderman.conf
 }
 
-# ¿¨Â³ËüÄÇµÄÆï³ËÑµÁ·Ê¦
+# å¡é²å®ƒé‚£çš„éª‘ä¹˜è®­ç»ƒå¸ˆ
 {
 floorid=4030
 borncenter=16,35,1,1
@@ -55,7 +55,7 @@ name=Æï³ËÑµÁ·Ê¦
 enemy=riderman|conff:family/riderman.conf
 }
 
-# ÌØ¼¶Æï³ËÑµÁ·Ê¦
+# ç‰¹çº§éª‘ä¹˜è®­ç»ƒå¸ˆ
 #{
 #floorid=1006
 #borncenter=13,15,1,1
@@ -65,6 +65,6 @@ enemy=riderman|conff:family/riderman.conf
 #dir=6
 #family=0
 #graphicname=16061
-#name=ÌØ¼¶Æï³ËÑµÁ·Ê¦
+#name=ç‰¹çº§éª‘ä¹˜è®­ç»ƒå¸ˆ
 #enemy=riderman|conff:family/riderman2.conf
 #}

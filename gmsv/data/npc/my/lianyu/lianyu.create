@@ -1,6 +1,6 @@
 NPCCREATE
 
-###### 魔王No1 ######
+###### 榄旂帇No1 ######
 {
 floorid=2090
 borncenter=16,21
@@ -13,7 +13,7 @@ name=炼狱一层
 enemy=sb_dou|file:my/lianyu/lianyu1.arg
 }
 
-###### 魔王No2 ######
+###### 榄旂帇No2 ######
 {
 floorid=2091
 borncenter=16,21
@@ -26,7 +26,7 @@ name=炼狱二层
 enemy=sb_dou|file:my/lianyu/lianyu2.arg
 }
 
-###### 魔王No3 ######
+###### 榄旂帇No3 ######
 {
 floorid=2089
 borncenter=11,24

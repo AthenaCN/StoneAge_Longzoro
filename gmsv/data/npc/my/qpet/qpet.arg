@@ -1,6 +1,6 @@
 NomalMainMsg:ÇëÊÕ¼¯Æë10¼şQ³è¹«×ĞÔÙÀ´ÕÒÎÒ¶Ò»»ÏàÓ¦µÄQ³è°É£¡
 
-###### ÄÌÅ£ ######
+###### å¥¶ç‰› ######
 EventNo:-1
 TYPE:ACCEPT
 EVENT:ITEM=21193*10
@@ -13,7 +13,7 @@ EventEnd
 
 
 
-###### ÉğÊ¿Öí ######
+###### ç»…å£«çŒª ######
 EventNo:-1
 TYPE:ACCEPT
 EVENT:ITEM=21201*10
@@ -24,7 +24,7 @@ GetPet:8040,8041,8042,8043,8044
 PetFullMsg:ÄãµÄ³èÎïÒÑÂú!
 EventEnd
 
-###### QÀ×¶û ######
+###### Qé›·å°” ######
 EventNo:-1
 TYPE:ACCEPT
 EVENT:ITEM=21185*10
@@ -35,7 +35,7 @@ GetPet:8000,8001,8002,8003,8004
 PetFullMsg:ÄãµÄ³èÎïÒÑÂú!
 EventEnd
 
-###### º£µÁ ######
+###### æµ·ç›— ######
 EventNo:-1
 TYPE:ACCEPT
 EVENT:ITEM=21189*10
@@ -46,7 +46,7 @@ GetPet:8010,8011,8012,8013,8014
 PetFullMsg:ÄãµÄ³èÎïÒÑÂú!
 EventEnd
 
-###### ÈÌÕß ######
+###### å¿è€… ######
 EventNo:-1
 TYPE:ACCEPT
 EVENT:ITEM=21197*10

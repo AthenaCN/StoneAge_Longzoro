@@ -1,8 +1,8 @@
-####  ¦h¦Nº¸  ####
+####  ¦h¦Nç„Š  ####
 
 NomalMainMsg:¦n·Q©À§Úªº¤kªB¤Í°Ú¡K¡C
 
-####  ®³¦^±s¶º¹Îµ²§ô¥ô°È  ####
+####  ®è‚ ^çœ˜é€—åˆ®æŒ¡§ç±èˆ­È  ####
 EventNo:139
 TYPE:ACCEPT
 EVENT:LV>0&NOWEV=139&ITEM=1755&ITEM=12744
@@ -14,7 +14,7 @@ DelItem:12744*1,1755*1
 EndSetFlg:139
 EventEnd
 
-####  ¥ìªÜÄR±µ¥ô°È©e°U°e¨Ó¦X¶º¹Î  ####
+####  ãƒ¬ªè‹£Ré’¡ãƒ´å­ã€†ç™ ç™³ã„“¦Xé€—åˆ®  ####
 EventNo:139
 TYPE:REQUEST
 EVENT:LV>0&ITEM=12744&ITEM=1755
@@ -25,21 +25,21 @@ GetItem:1754
 DelItem:12744*1,1755*1
 EventEnd
 
-#### ¥ìªÜÄR±µ¥ô°È¤§¹ï¸Ü¡]¨­¤W¥¼±a¶º¹Î¡^ ####
+#### ãƒ¬ªè‹£Ré’¡ãƒ´å­ã‡ç™¸æ ¡]Å¤Wã‚¼ç›¿é€—åˆ®¡^ ####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>0&ITEM=1755
 NomalWindowMsg:¶â¶â¡AÁÂÁÂ§A¡K¦ý¬O¥ìªÜÄR«H¤W¦³´£¨ìÃö©ó¶º¹Îªº¨Æ¡A§A¨S±a¹L¨Ó¶Ü¡H¡H
 EventEnd
 
-#### ±µ¥ô°È«á¹ï¸Ü¡]¨­¤WµLª««~¡^ ####
+#### é’¡ãƒ´å­«å³é””å ‹]Å¤Wç¤šª«ç‡¡^ ####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>0&ITEM=1754
 NomalWindowMsg:¤@¤Á´N«ô°U§A¤F¡K¡C
 EventEnd
 
-####  ¤wµ²§ô¥ô°È²M¼Ð  ####
+####  ¤wæŒ¡§ç±èˆ­ç‚”Må¤¹  ####
 EventNo:-1
 TYPE:CLEAN
 EVENT:ENDEV=139
@@ -48,7 +48,7 @@ CleanMainMsg:§Ú¸ò¥ìªÜÄR´N§Ö­nµ²±B¤F¡A§Æ±æ§A¯à¨Ó°Ñ¥[§Ú­Ìªº±BÂ§¡A¤é¤l¤£»·¤F©O¡K¡C
 CleanFlgMsg:¤À¹j¨â¦aªº¬ÛÅÊ¯u¬O¨¯­W¡K¡K¡K¡C
 EventEnd
 
-####  §â«H¥á±¼²M¼Ð  ####
+####  Ñ€çºãƒ¡å¥”ç²å¤¹  ####
 EventNo:-1
 TYPE:CLEAN
 EVENT:LV>0&NOWEV=139
@@ -57,7 +57,7 @@ CleanMainMsg:«ô°U§Aªº¨Æ¤w¸g§¹¦¨¤F¶Ü¡H¥ìªÜÄR¨S°U§A±aªF¦è¦^¨Ó¶Ü¡H¡H
 CleanFlgMsg:¦n§a¡K¬JµM§A¨S¦³®É¶¡À°¦£ªº¸Ü¡K§Ú¤]¤£·|©Ç§Aªº¡K¡C
 EventEnd
 
-####  ¨­¤WµL¥ô¦óª««~¡A¶}©l±µ¥ô°È  ####
+####  Å¤Wç¤šãƒ´¦èžµ«ç‡¡Aç§¨ï¹é’¡ãƒ´å­  ####
 EventNo:-1
 TYPE:REQUEST
 EVENT:LV>0

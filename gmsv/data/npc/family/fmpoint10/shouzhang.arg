@@ -1,21 +1,21 @@
 NomalMainMsg:»¶Ó­Äã£¡À´×ÔÔ¶·½µÄÓÂÊ¿£¡Èð¶ûÑÇË¹³Ç¾ÍÏ²»¶ÏóÄãÕâÑùµÄ~¼ÓÈëÎÒÃÇ°É£¡
 
 
-###184ÈÎÎñÍê³É¡¡µ«ÊÇ³Í½äÁîÈ´Ã»ÁË###
+###184ä»»åŠ¡å®Œæˆã€€ä½†æ˜¯æƒ©æˆ’ä»¤å´æ²¡äº†###
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>79&ENDEV=4&ENDEV=81&ENDEV=126&ENDEV=133&ENDEV=184
 NomalWindowMsg:±´¿ËËû»¹ºÃÃ´£¡ÎÒÃÇ¶¼ºÜÆÚ´ýËû»ØÀ´¡£¡£
 EventEnd
 
-###184ÈÎÎñ½øÐÐÖÐ¡¡ÉíÉÏÓÐ³Í½äÁî###
+###184ä»»åŠ¡è¿›è¡Œä¸­ã€€èº«ä¸Šæœ‰æƒ©æˆ’ä»¤###
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>79&ENDEV=4&ENDEV=81&ENDEV=126&ENDEV=133&NOWEV=184&ITEM=21123
 NomalWindowMsg:Âé·³ÄúÁË~Ò»Â·Ð¡ÐÄ£¡
 EventEnd
 
-###ÊÕ°ÂÒå½»³Í½äÁî###
+###æ”¶å¥¥ä¹‰äº¤æƒ©æˆ’ä»¤###
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>79&ENDEV=4&ENDEV=81&ENDEV=126&ENDEV=133&NOWEV=184&ITEM=20918
@@ -27,7 +27,7 @@ GetItem:21123*1
 DelItem:20918
 EventEnd
 
-###184ÈÎÎñ½øÐÐÖÐ¡¡µ«ÊÇ³Í½äÁîÈ´Ã»ÁË###
+###184ä»»åŠ¡è¿›è¡Œä¸­ã€€ä½†æ˜¯æƒ©æˆ’ä»¤å´æ²¡äº†###
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>79&ENDEV=4&ENDEV=81&ENDEV=126&ENDEV=133&NOWEV=184&ITEM!=21123

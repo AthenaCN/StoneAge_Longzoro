@@ -1,4 +1,4 @@
-###дцй╔йчж╝╦╚##
+###Ф▀©Е°ёЕ┘╫Д╧▀Ф√╖##
 EventNo:-1
 TYPE:ACCEPT
 EVENT:NOWEV=243&ITEM=31079&ITEM=31084&ITEM=31085
@@ -10,7 +10,7 @@ ItemFullMsg:дЦ╡╩в╪╠╦р╙уБ╦Жакц╢ё╛иМиов╟дгц╢╤Ю╤╚нВё©
 EventEnd
 
 
-###дцй╞м╥##
+###Ф▀©Г÷ЁЕ╓╢##
 EventNo:-1
 TYPE:ACCEPT
 EVENT:NOWEV=244&ITEM=31080&ITEM=31081&ITEM=31082&ITEM=31083
@@ -22,14 +22,14 @@ ItemFullMsg:дЦ╡╩в╪╠╦р╙уБ╦Жакц╢ё╛иМиов╟дгц╢╤Ю╤╚нВё©
 EndSetFlg:244
 EventEnd
 
-####иМиоспн╞мп####
+####Х╨╚Д╦┼Ф°┴Е╖■Ф┴≤####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:NOWEV=244
 NomalWindowMsg:©Лх╔╟иё╛╠Пхцнрцг╣х╣цл╚╬ц║ё
 EventEnd
 
-###╫схннЯ##
+###Ф▌╔Д╩╩Е┼║##
 EventNo:244
 TYPE:REQUEST
 EVENT:NOWEV=243&ITEM=31079

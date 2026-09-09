@@ -11,7 +11,7 @@ PetFullMsg:ÄãµÄ³èÎïÒÑÂú!
 ItemFullMsg:ÉíÉÏµÀ¾ßÌ«¶àÁËà¸£¡
 EventEnd
 
-###### µØ ######
+###### åœ° ######
 EventNo:-1
 TYPE:ACCEPT
 EVENT:ENDEV=70&ENDEV=180&PET=79-2660&ITEM=21168
@@ -23,7 +23,7 @@ GetPet:5765,5764,5763,5762,5761
 PetFullMsg:ÄãµÄ³èÎïÒÑÂú!
 EventEnd
 
-###### Ë® ######
+###### æ°´ ######
 EventNo:-1
 TYPE:ACCEPT
 EVENT:ENDEV=70&ENDEV=180&PET=79-2660&ITEM=21169
@@ -35,7 +35,7 @@ GetPet:5770,5769,5768,5767,5766
 PetFullMsg:ÄãµÄ³èÎïÒÑÂú!
 EventEnd
 
-###### »ğ ######
+###### ç« ######
 EventNo:-1
 TYPE:ACCEPT
 EVENT:ENDEV=70&ENDEV=180&PET=79-2660&ITEM=21170
@@ -47,7 +47,7 @@ GetPet:5775,5774,5773,5772,5771
 PetFullMsg:ÄãµÄ³èÎïÒÑÂú!
 EventEnd
 
-###### ·ç ######
+###### é£ ######
 EventNo:-1
 TYPE:ACCEPT
 EVENT:ENDEV=70&ENDEV=180&PET=79-2660&ITEM=21171

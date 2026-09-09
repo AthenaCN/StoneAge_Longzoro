@@ -1,7 +1,7 @@
 NPCCREATE
 
 
-#»¢µÄÑµÁ·Ê¦
+#è™Žçš„è®­ç»ƒå¸ˆ
 {
 name=»¢µÄÑµÁ·Ê¦
 floorid=1040
@@ -14,7 +14,7 @@ enemy=npcgen_warpman|file:sa60/newbie/m_tiger
 graphicname=16354
 }
 
-#»¢µÄÑµÁ·Ê¦
+#è™Žçš„è®­ç»ƒå¸ˆ
 {
 name=»¢µÄÑµÁ·Ê¦
 floorid=2030
@@ -27,7 +27,7 @@ enemy=npcgen_warpman|file:sa60/newbie/m_tiger
 graphicname=16354
 }
 
-#»¢µÄÑµÁ·Ê¦
+#è™Žçš„è®­ç»ƒå¸ˆ
 {
 name=»¢µÄÑµÁ·Ê¦
 floorid=3030
@@ -40,7 +40,7 @@ enemy=npcgen_warpman|file:sa60/newbie/m_tiger
 graphicname=16354
 }
 
-#»¢µÄÑµÁ·Ê¦
+#è™Žçš„è®­ç»ƒå¸ˆ
 {
 name=»¢µÄÑµÁ·Ê¦
 floorid=4030

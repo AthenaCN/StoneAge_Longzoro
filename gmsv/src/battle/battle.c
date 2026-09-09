@@ -2,6 +2,7 @@
 #include <string.h>
 #include <stdlib.h>
 #include <time.h>
+#include "autil.h"
 #include "buf.h"
 #include "object.h"
 #include "char.h"
@@ -3371,9 +3372,12 @@ int BATTLE_GetExpGold(
 			}
 			if (ItemGet == TRUE) {
 				if (getBattleDebugMsg() != 0) {
+					char aname[128];
+					str_gbk_to_utf8(aname, sizeof(aname),
+									ITEM_getAppropriateName(itemindex));
 					snprintf(szBuffer, sizeof(szBuffer),
 							 "拾获(%s)",
-							 ITEM_getAppropriateName(itemindex));
+							 aname);
 					BATTLE_talkToCli(charaindex, szBuffer, CHAR_COLORYELLOW);
 				}
 

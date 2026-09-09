@@ -1,6 +1,6 @@
 NPCCREATE
 
-#ÂÃ¿ÍA£¨ÂÃ¹İÄÚµÄÄáË¹ÄĞĞÔÂÃ¿Í£©
+#æ—…å®¢Aï¼ˆæ—…é¦†å†…çš„å°¼æ–¯ç”·æ€§æ—…å®¢ï¼‰
 {
 floorid=7012
 borncorner=2,12,4,14
@@ -13,7 +13,7 @@ name=ÑÇµ¤¡¡Lv:92
 enemy=changeevent|file:eden1/zoo1/traveller00_01
 }
 
-#ÂÃ¿ÍB£¨ÂÃ¹İÄÚµÄÄáË¹ÄĞĞÔÂÃ¿Í£©
+#æ—…å®¢Bï¼ˆæ—…é¦†å†…çš„å°¼æ–¯ç”·æ€§æ—…å®¢ï¼‰
 {
 floorid=7012
 borncorner=2,20,4,22
@@ -26,7 +26,7 @@ name=ÑÇÃ×¶÷Ë¹¡¡Lv:98
 enemy=changeevent|file:eden1/zoo1/traveller00_02
 }
 
-#ÂÃ¿ÍC£¨ÂÃ¹İÄÚµÄÄáË¹ÄĞĞÔÂÃ¿Í£©
+#æ—…å®¢Cï¼ˆæ—…é¦†å†…çš„å°¼æ–¯ç”·æ€§æ—…å®¢ï¼‰
 {
 floorid=7012
 borncorner=24,18,26,20
@@ -40,7 +40,7 @@ enemy=changeevent|file:eden1/zoo1/traveller00_03
 action=15
 }
 
-#ÂÃ¿ÍD£¨ÂÃ¹İÄÚµÄÄáË¹ÄĞĞÔÂÃ¿Í£©
+#æ—…å®¢Dï¼ˆæ—…é¦†å†…çš„å°¼æ–¯ç”·æ€§æ—…å®¢ï¼‰
 {
 floorid=7012
 borncorner=9,14,11,16
@@ -53,7 +53,7 @@ name=ÂŞ±öºº¡¡Lv:91
 enemy=changeevent|file:eden1/zoo1/traveller00_04
 }
 
-#ÂÃ¹İÊÌÕßA£¨ÂÃ¹İÄÚµÄÒÁµéÊÌÕß£©
+#æ—…é¦†ä¾è€…Aï¼ˆæ—…é¦†å†…çš„ä¼Šç”¸ä¾è€…ï¼‰
 {
 floorid=7012
 borncorner=17,13,19,15
@@ -66,7 +66,7 @@ name=ÂÃ¹İÔ±¹¤
 enemy=changeevent|file:eden1/zoo1/waiter00_01
 }
 
-#ÂÃ¹İ³øÊ¦B£¨ÂÃ¹İÄÚµÄÒÁµé³øÊ¦£©
+#æ—…é¦†å¨å¸ˆBï¼ˆæ—…é¦†å†…çš„ä¼Šç”¸å¨å¸ˆï¼‰
 {
 floorid=7012
 borncorner=3,2,4,4
@@ -79,7 +79,7 @@ name=ÂÃ¹İ³øÊ¦
 enemy=changeevent|file:eden1/zoo1/waiter00_02
 }
 
-#ÂÃ¿ÍE£¨³èÎïµêµÄÄáË¹ÄĞĞÔÂÃ¿Í£©
+#æ—…å®¢Eï¼ˆå® ç‰©åº—çš„å°¼æ–¯ç”·æ€§æ—…å®¢ï¼‰
 {
 floorid=7009
 borncorner=2,8,4,10
@@ -92,7 +92,7 @@ name=¿¼ÁÖ¡¡Lv:105
 enemy=changeevent|file:eden1/zoo1/traveller00_05
 }
 
-#ÂÃ¿ÍF£¨³èÎïµêµÄÄáË¹ÄĞĞÔÂÃ¿Í£©
+#æ—…å®¢Fï¼ˆå® ç‰©åº—çš„å°¼æ–¯ç”·æ€§æ—…å®¢ï¼‰
 {
 floorid=7009
 borncorner=11,11,13,13
@@ -105,7 +105,7 @@ name=¿­Ò×Ë¹¡¡Lv:99
 enemy=changeevent|file:eden1/zoo1/traveller00_06
 }
 
-#ÂÃ¿ÍG£¨³èÎïµêµÄÄáË¹ÄĞĞÔÂÃ¿Í£©
+#æ—…å®¢Gï¼ˆå® ç‰©åº—çš„å°¼æ–¯ç”·æ€§æ—…å®¢ï¼‰
 {
 floorid=7009
 borncorner=8,8,10,10
@@ -118,7 +118,7 @@ name=ÂŞ±ÈÍşÁ®¡¡Lv:105
 enemy=changeevent|file:eden1/zoo1/traveller00_07
 }
 
-#¾ÓÃñW£¨ÈâµêµÄÒÁµéÈË£©
+#å±…æ°‘Wï¼ˆè‚‰åº—çš„ä¼Šç”¸äººï¼‰
 {
 floorid=7011
 borncorner=7,5,9,7
@@ -131,7 +131,7 @@ name=¾ÓÃñ
 enemy=changeevent|file:eden1/zoo1/customer00_01
 }
 
-#ÂÃ¿ÍH£¨ÈâµêµÄÄáË¹Å®ĞÔÂÃ¿Í£©
+#æ—…å®¢Hï¼ˆè‚‰åº—çš„å°¼æ–¯å¥³æ€§æ—…å®¢ï¼‰
 {
 floorid=7011
 borncorner=3,6,5,8
@@ -144,7 +144,7 @@ name=¿¨²¨ÄáÑÇ¡¡Lv:112
 enemy=changeevent|file:eden1/zoo1/traveller00_08
 }
 
-#ÂÃ¿ÍI£¨ÈâµêµÄÄáË¹Å®ĞÔÂÃ¿Í£©
+#æ—…å®¢Iï¼ˆè‚‰åº—çš„å°¼æ–¯å¥³æ€§æ—…å®¢ï¼‰
 {
 floorid=7011
 borncorner=3,9,5,11
@@ -157,7 +157,7 @@ name=°®ÀûÅµ¡¡Lv:98
 enemy=changeevent|file:eden1/zoo1/traveller00_09
 }
 
-#ÂÃ¿ÍJ£¨Ò½ÔºµÄÄáË¹Å®ĞÔÂÃ¿Í£©
+#æ—…å®¢Jï¼ˆåŒ»é™¢çš„å°¼æ–¯å¥³æ€§æ—…å®¢ï¼‰
 {
 floorid=7010
 borncorner=3,8,5,10
@@ -171,7 +171,7 @@ enemy=changeevent|file:eden1/zoo1/traveller00_10
 action=13
 }
 
-#¾ÓÃñX£¨Ò½ÔºµÄÒÁµéÈË£©
+#å±…æ°‘Xï¼ˆåŒ»é™¢çš„ä¼Šç”¸äººï¼‰
 {
 floorid=7010
 borncorner=8,9,10,11
@@ -184,7 +184,7 @@ name=¾ÓÃñ
 enemy=changeevent|file:eden1/zoo1/customer00_02
 }
 
-#ÂÃ¿ÍK£¨Ò½ÔºµÄÄáË¹Å®ĞÔÂÃ¿Í£©
+#æ—…å®¢Kï¼ˆåŒ»é™¢çš„å°¼æ–¯å¥³æ€§æ—…å®¢ï¼‰
 {
 floorid=7010
 borncorner=6,4,8,6
@@ -198,7 +198,7 @@ enemy=changeevent|file:eden1/zoo1/traveller00_11
 action=5
 }
 
-#ÂÃ¿ÍL£¨Ò½ÔºµÄÄáË¹Å®ĞÔÂÃ¿Í£©
+#æ—…å®¢Lï¼ˆåŒ»é™¢çš„å°¼æ–¯å¥³æ€§æ—…å®¢ï¼‰
 {
 floorid=7010
 borncorner=0,12,2,14
@@ -211,7 +211,7 @@ name=¸ÕÄËç²¡¡Lv:88
 enemy=changeevent|file:eden1/zoo1/traveller00_12
 }
 
-#ÂÃ¿ÍM£¨Ò½ÔºµÄÄáË¹Å®ĞÔÂÃ¿Í£©
+#æ—…å®¢Mï¼ˆåŒ»é™¢çš„å°¼æ–¯å¥³æ€§æ—…å®¢ï¼‰
 {
 floorid=7010
 borncorner=13,14,15,16
@@ -224,7 +224,7 @@ name=Èğ¸Ê¡¡Lv:92
 enemy=changeevent|file:eden1/zoo1/traveller00_13
 }
 
-#ÂÃ¿ÍN£¨Ò½ÔºµÄÒÁµé»¤Ê¿£©
+#æ—…å®¢Nï¼ˆåŒ»é™¢çš„ä¼Šç”¸æŠ¤å£«ï¼‰
 {
 floorid=7010
 borncorner=14,5,16,7

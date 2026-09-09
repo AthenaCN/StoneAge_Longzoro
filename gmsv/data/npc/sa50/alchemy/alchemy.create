@@ -1,6 +1,6 @@
 NPCCREATE
 
-###### Ò©·ÛÌáÁ¶Ê¦£¨¼ÓÑª£© ######
+###### è¯ç²‰æç‚¼å¸ˆï¼ˆåŠ è¡€ï¼‰ ######
 {
 name=Ò©·ÛÌáÁ¶Ê¦
 floorid=2000
@@ -13,7 +13,7 @@ graphicname=16095
 enemy=ITEMCHANGE|file:sa50/alchemy/alchemyhp
 }
 
-###### Ò©ÍèÌáÁ¶Ê¦£¨¼Ó·À£© ######
+###### è¯ä¸¸æç‚¼å¸ˆï¼ˆåŠ é˜²ï¼‰ ######
 {
 name=Ò©ÍèÌáÁ¶Ê¦
 floorid=7105
@@ -26,7 +26,7 @@ graphicname=16095
 enemy=ITEMCHANGE|file:sa50/alchemy/alchemyac
 }
 
-###### Ò©ÌÀÌáÁ¶Ê¦£¨¼Ó¹¥£© ######
+###### è¯æ±¤æç‚¼å¸ˆï¼ˆåŠ æ”»ï¼‰ ######
 {
 name=Ò©ÌÀÌáÁ¶Ê¦
 floorid=7000
@@ -39,7 +39,7 @@ graphicname=16095
 enemy=ITEMCHANGE|file:sa50/alchemy/alchemystr
 }
 
-###### Ò©µ¤ÌáÁ¶Ê¦£¨¼ÓÃô£© ######
+###### è¯ä¸¹æç‚¼å¸ˆï¼ˆåŠ æ•ï¼‰ ######
 {
 name=Ò©µ¤ÌáÁ¶Ê¦
 floorid=4000

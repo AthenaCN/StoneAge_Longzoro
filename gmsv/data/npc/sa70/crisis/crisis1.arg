@@ -1,15 +1,15 @@
-########贝丝安娜########
+########璐濅笣瀹夊########
 
 NomalMainMsg:我好喜欢养宠物喔！
 
-#### 完成任务对话 ####
+#### 瀹屾垚浠诲姟瀵硅瘽 ####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>0&ITEM=1821
 NomalWindowMsg:邦洛洛克斯它很乖喔，又很听话，我真很好喜欢它喔！
 EventEnd
 
-###身上有邦洛洛克斯###
+###韬笂鏈夐偊娲涙礇鍏嬫柉###
 EventNo:-1 
 TYPE:ACCEPT
 EVENT:LV>0&PET<2-331*1
@@ -20,7 +20,7 @@ DelPet:PET<2-331*1
 ItemFullMsg:你身上东西都满了，那我给你的东西你要装在那里啊！
 EventEnd
 
-#### 未接任务对话 ####
+#### 鏈帴浠诲姟瀵硅瘽 ####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>0

@@ -1,4 +1,4 @@
-#¸øÍæ¼Ò½±Æ·
+#ç»™çŽ©å®¶å¥–å“
 EventNo:-1
 TYPE:MESSAGE
 EVENT:ENDEV=232&ITEM=30909
@@ -8,14 +8,14 @@ GetItem:20805*2
 ItemFullMsg:ÇëÄã½«ÄãÉíÉÏµÄ¶«Î÷¼õÉÙÒ»Ð©ºÃÂð£¿
 EventEnd
 
-#ÖÂÐ»
+#è‡´è°¢
 EventNo:-1
 TYPE:MESSAGE
 EVENT:ENDEV=232
 NomalWindowMsg:·Ç³£¸ÐÐ»Äã½â¾öÁËÕâ´ÎÆ½ÂèÊÂ¼þ~~~~
 EventEnd
 
-#### Î´½ÓÈÎÎñ¶Ô»° ####
+#### æœªæŽ¥ä»»åŠ¡å¯¹è¯ ####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>0

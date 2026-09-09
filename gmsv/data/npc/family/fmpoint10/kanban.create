@@ -65,7 +65,7 @@ enemy=npcgen_man|file:family/fmpoint10/msg
 }
 
 
-#ĞÂÊÖ×ó
+#æ–°æ‰‹å·¦
 {
 floorid=104
 borncorner=67,57,67,57
@@ -79,7 +79,7 @@ enemy=npcgen_man|file:family/fmpoint10/msg
 
 }
 
-#ĞÂÊÖÓÒ
+#æ–°æ‰‹å³
 {
 floorid=104
 borncorner=67,59,67,59
@@ -94,7 +94,7 @@ enemy=npcgen_man|file:family/fmpoint10/msg
 }
 
 
-#ÁúÍ·
+#é¾™å¤´
 {
 floorid=104
 borncorner=15,22,15,22
@@ -108,7 +108,7 @@ enemy=npcgen_man|file:family/fmpoint10/msg
 
 }
 
-#ÁúÍ·Öé
+#é¾™å¤´ç 
 {
 floorid=104
 borncorner=16,25,16,25
@@ -123,7 +123,7 @@ enemy=npcgen_man|file:family/fmpoint10/msg
 }
 
 
-#Á÷Ë®
+#æµæ°´
 {
 floorid=104
 borncorner=77,47,77,47
@@ -137,7 +137,7 @@ enemy=npcgen_man|file:family/fmpoint10/msg
 
 }
 
-#Á÷Ë®2
+#æµæ°´2
 {
 floorid=104
 borncorner=48,71,48,71

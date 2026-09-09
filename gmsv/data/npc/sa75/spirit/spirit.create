@@ -1,6 +1,6 @@
 NPCCREATE
 
-#ÀÏÑ§Õß
+#è€å­¦è€…
 {
 floorid=31201
 borncorner=41,6,41,6
@@ -13,7 +13,7 @@ ignoreinvincible=1
 enemy=changeevent|file:sa75/spirit/spirit31201_41_6.arg
 }
 
-#¿ó¹¤ÎÖ·òÒÁ
+#çŸ¿å·¥æ²ƒå¤«ä¼Š
 {
 floorid=5100
 borncorner=25,31,25,31
@@ -27,7 +27,7 @@ enemy=changeevent|file:sa75/spirit/spirit5100_25_31.arg
 action=11
 }
 
-#Éîºìµ×²ãºìÑÒÊ¯
+#æ·±çº¢åº•å±‚çº¢å²©çŸ³
 {
 floorid=30008
 borncorner=38,38,38,38
@@ -40,7 +40,7 @@ ignoreinvincible=1
 enemy=npcgen_warpman|file:sa75/spirit/spirit30008_38_38.arg
 }
 
-#ÂäÊ¯
+#è½çŸ³
 {
 name=»ğÉ½ÂäÊ¯
 floorid=30017
@@ -54,7 +54,7 @@ graphicname=10812
 }
 
 
-#»ğµÄÊ¹Õß
+#ç«çš„ä½¿è€…
 {
 floorid=30026
 borncorner=11,14,11,14

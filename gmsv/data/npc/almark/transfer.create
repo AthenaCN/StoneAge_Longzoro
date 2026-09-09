@@ -1,6 +1,6 @@
 NPCCREATE
 
-#Óæ´å
+#æ¸”æ‘
 {
 floorid=2000
 borncenter=65,63
@@ -60,7 +60,7 @@ ignoreinvincible=1
 enemy=transman|file:almark/transfer5.arg
 }
 
-#»áÔ±Çø
+#ä¼šå‘˜åŒº
 {
 floorid=777
 borncenter=28,28

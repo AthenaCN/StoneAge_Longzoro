@@ -1,4 +1,4 @@
-### Ê¥ÊÞÍõÅÐ¶Ï##
+### åœ£å…½çŽ‹åˆ¤æ–­##
 EventNo:-1
 TYPE:ACCEPT
 EVENT:ITEM=31087&ITEM=31088&ITEM=31089&ITEM=31090
@@ -9,7 +9,7 @@ GetItem:31094
 ItemFullMsg:Äã²»×¼±¸ÒªÕâ¸öÁËÃ´£¬ÉíÉÏ×°ÄÇÃ´¶à¶«Î÷£¿
 EventEnd
 
-####ÉíÉÏÓÐÎ¯ÍÐ####
+####èº«ä¸Šæœ‰å§”æ‰˜####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>0

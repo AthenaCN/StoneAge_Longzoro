@@ -18,7 +18,7 @@ alreadymsg:我现在正在处理非常严重的事情，请再等一下就好……
 onebattle:1
 OVER
 
-#第一路线
+#绗竴璺嚎
 NEWEVENT1:
 FREE:LV>90&ENDEV=81&ENDEV=88
 WARP:60210,7,12

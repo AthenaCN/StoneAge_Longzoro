@@ -1,5 +1,5 @@
 NPCCREATE
-#Æ®µ»¾ìÆâ
+#é£˜ç¥·çœ·æŸ’
 {
 floorid=130
 borncenter=40,13,1,1
@@ -11,7 +11,7 @@ graphicname=10070
 name=Ç¿Õß±í
 enemy=duelranking|
 }
-#Æ®µ»¾ìÆâ
+#é£˜ç¥·çœ·æŸ’
 {
 floorid=130
 borncenter=22,58,1,1
@@ -23,7 +23,7 @@ graphicname=10069
 name=Ç¿Õß±í
 enemy=duelranking|
 }
-#¥µ¥à¥®¥ë¡ÊÆ®µ»¾ìÁ°¡Ë
+#ã‚µãƒ ã‚®ãƒ«ï¼ˆé—˜æŠ€å ´å‰ï¼‰
 {
 floorid=1000
 borncenter=60,61,1,1
@@ -35,7 +35,7 @@ graphicname=10070
 name=Ç¿Õß±í
 enemy=duelranking|
 }
-#¥µ¥à¥®¥ë¡ÊÆ»¾ìÁ°¡Ë
+#ã‚µãƒ ã‚®ãƒ«ï¼ˆé“å ´å‰ï¼‰
 {
 floorid=1000
 borncenter=88,105,1,1
@@ -47,7 +47,7 @@ graphicname=10069
 name=Ç¿Õß±í
 enemy=duelranking|
 }
-#¥Ş¥ê¥Ê¥¹¡ÊÆ»¾ìÁ°¡Ë
+#ãƒãƒªãƒŠã‚¹ï¼ˆé“å ´å‰ï¼‰
 {
 floorid=2000
 borncenter=70,60,1,1
@@ -60,7 +60,7 @@ name=Ç¿Õß±í
 enemy=duelranking|
 }
 
-#¥Ş¥ê¥Ê¥¹¡ÊÆ®µ»¾ìÁ°¡Ë
+#ãƒãƒªãƒŠã‚¹ï¼ˆé—˜æŠ€å ´å‰ï¼‰
 {
 floorid=2000
 borncenter=81,78,1,1
@@ -72,7 +72,7 @@ graphicname=10070
 name=Ç¿Õß±í
 enemy=duelranking|
 }
-#¥¸¥ã¥¸¥ã¡ÊÆ»¾ì¡¦Æ®µ»¾ìÁ°¡Ë
+#ã‚¸ãƒ£ã‚¸ãƒ£ï¼ˆé“å ´ãƒ»é—˜æŠ€å ´å‰ï¼‰
 {
 floorid=3000
 borncenter=108,84,1,1
@@ -85,7 +85,7 @@ name=Ç¿Õß±í
 enemy=duelranking|
 }
 
-#¥«¥ë¥¿¡¼¥Ê¡ÊÆ®µ»¾ìÁ°¡Ë
+#ã‚«ãƒ«ã‚¿ãƒ¼ãƒŠï¼ˆé—˜æŠ€å ´å‰ï¼‰
 {
 floorid=4000
 borncenter=83,59,1,1

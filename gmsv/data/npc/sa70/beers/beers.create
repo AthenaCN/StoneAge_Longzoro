@@ -1,7 +1,7 @@
 NPCCREATE
-############Äğ¾ÆÈÎÎñ#################
+############é…¿é…’ä»»åŠ¡#################
 
-########°¢À®¼ª#########
+########é˜¿å–‡å‰#########
 {
 name=°¢À®¼ª
 floorid=1000
@@ -14,7 +14,7 @@ enemy=changeevent|file:sa70/beers/beers1.arg
 graphicname=16090
 }
 
-######²¼Â³Ë¹########
+######å¸ƒé²æ–¯########
 {
 name=²¼Â³Ë¹
 floorid=3100
@@ -26,7 +26,7 @@ createnum=1
 enemy=changeevent|file:sa70/beers/beers2.arg
 graphicname=16093
 }
-######¾¯ÎÀ########
+######è­¦å«########
 {
 name=¾¯ÎÀ
 floorid=8231
@@ -39,7 +39,7 @@ enemy=npcgen_warpman|file:sa70/beers/beers3.arg
 graphicname=16123
 }
 
-######¸ç´ï#######
+######å“¥è¾¾#######
 {
 name=¸ç´ï
 floorid=8233
@@ -52,7 +52,7 @@ enemy=changeevent|file:sa70/beers/beers4.arg
 graphicname=100431
 }
 
-###Õ½¶·£Î£Ğ£Ã###
+###æˆ˜æ–—ï¼®ï¼°ï¼£###
 {
 name=¸ç´ï
 floorid=8232

@@ -1,4 +1,4 @@
-#进货
+#杩涜揣
 EventNo:-1
 TYPE:REQUEST
 EVENT:LV>1&ITEM=30909&ITEM=30910&ITEM=30919&ITEM=30924&ITEM=30925&ITEM=30926&ITEM=30927&ITEM=30928&NOWEV=232
@@ -10,7 +10,7 @@ GetItem:30929
 ItemFullMsg:你身上东西太多了～～
 EventEnd
 
-#缺货
+#缂鸿揣
 EventNo:-1
 TYPE:REQUEST
 EVENT:LV>1&ITEM=30919&ITEM=30910&ITEM=30909&ITEM=30922&NOWEV=232
@@ -22,7 +22,7 @@ GetItem:30924
 ItemFullMsg:你身上东西太多了～～
 EventEnd
 
-#### 未接任务对话 ####
+#### 鏈帴浠诲姟瀵硅瘽 ####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>0

@@ -1,6 +1,6 @@
 NPCCREATE
 
-#6转送潘多拉魔盒
+#6杞�佹綐澶氭媺榄旂洅
 {
 floorid=2000
 borncenter=44,59
@@ -13,7 +13,7 @@ ignoreinvincible=1
 enemy=changeevent|file:my/sixzbox/sixzbox.arg
 }
 
-#盒子
+#鐩掑瓙
 {
 floorid=157
 borncenter=14,15

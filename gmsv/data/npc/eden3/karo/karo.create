@@ -1,7 +1,7 @@
 NPCCREATE
 
 
-###### éÔ·òÂíË¹ ######
+###### æ¨µå¤«é©¬æ–¯ ######
 {
 name=ÂíË¹
 floorid=7350
@@ -13,7 +13,7 @@ enemy=changeevent|file:eden3/karo/mars
 graphicname=16649
 }
 
-###### ÃÉ´ï´å³¤²®¶÷ ######
+###### è’™è¾¾æ‘é•¿ä¼¯æ© ######
 {
 name=²®¶÷
 floorid=7353
@@ -25,7 +25,7 @@ enemy=changeevent|file:eden3/karo/burn
 graphicname=16622
 }
 
-###### ²éÀ­ ######
+###### æŸ¥æ‹‰ ######
 {
 name=²éÀ­
 floorid=60303
@@ -37,7 +37,7 @@ enemy=npcgen_warpman|file:eden3/karo/chara
 graphicname=100873
 }
 
-###### ²éÀ­²»ÔÚÖ®´«ËÍµã ######
+###### æŸ¥æ‹‰ä¸åœ¨ä¹‹ä¼ é€ç‚¹ ######
 {
 floorid=60303
 borncenter=6,24
@@ -46,7 +46,7 @@ ignoreinvincible=1
 enemy=npcgen_warp|file:eden3/karo/warppoint1.arg
 }
 
-###### °×ÌìÒ»°ãµÄİÚÄÈ (É½¶´)######
+###### ç™½å¤©ä¸€èˆ¬çš„è‘³å¨œ (å±±æ´)######
 {
 name=İÚÄÈ
 floorid=60302 
@@ -58,7 +58,7 @@ enemy=changeevent|file:eden3/karo/weinan
 graphicname=16607
 }
 
-###### Ò¹ÍíÊŞ»¯µÄİÚÄÈ (É½¶´)######
+###### å¤œæ™šå…½åŒ–çš„è‘³å¨œ (å±±æ´)######
 {
 name=İÚÄÈ
 floorid=60305 
@@ -70,7 +70,7 @@ enemy=changeevent|file:eden3/karo/weina
 graphicname=100849
 }
 
-###### Íõ×Ó¼ªµÂ(ÒÁËş¹¤×÷ÊÒ) ######
+###### ç‹å­å‰å¾·(ä¼Šå¡”å·¥ä½œå®¤) ######
 {
 name=¼ªµÂ
 floorid=60306
@@ -83,7 +83,7 @@ graphicname=100025
 action=5
 }
 
-###### ÈøµÇ(ÒÁËş¹¤×÷ÊÒ) ######
+###### è¨ç™»(ä¼Šå¡”å·¥ä½œå®¤) ######
 {
 floorid=60306
 borncenter=22,21
@@ -96,7 +96,7 @@ name=ÈøµÇ
 enemy=sb_dou|file:eden3/karo/sardon.arg
 }
 
-###### ¿¨ÂŞ(ÒÁËş¹¤×÷ÊÒ) ######
+###### å¡ç½—(ä¼Šå¡”å·¥ä½œå®¤) ######
 {
 name=¿¨ÂŞ
 floorid=60306
@@ -108,7 +108,7 @@ graphicname=100720
 action=5
 }
 
-###### ¿¨ÂŞ(¾«ÉñÁìÓò) ######
+###### å¡ç½—(ç²¾ç¥é¢†åŸŸ) ######
 {
 name=¿¨ÂŞ
 floorid=60307
@@ -120,7 +120,7 @@ enemy=changeevent|file:eden3/karo/karo2
 graphicname=100720
 }
 
-###### ÒÁËş ######
+###### ä¼Šå¡” ######
 {
 name=ÒÁËş
 floorid=60343
@@ -132,7 +132,7 @@ enemy=npcgen_warpman|file:eden3/karo/etar
 graphicname=16634
 }
 
-###### Ê®¶şÄêÇ°µÄİÚÄÈ ######
+###### åäºŒå¹´å‰çš„è‘³å¨œ ######
 {
 name=İÚÄÈ
 floorid=7351
@@ -145,7 +145,7 @@ graphicname=16607
 }
 
 
-###### Ê®¶şÄêÇ°µÄİÚÄÈ¡­ÊÔÁ¶¶´¿ß ######
+###### åäºŒå¹´å‰çš„è‘³å¨œâ€¦è¯•ç‚¼æ´çªŸ ######
 {
 name=İÚÄÈ
 floorid=60308
@@ -157,7 +157,7 @@ enemy=changeevent|file:eden3/karo/weinah
 graphicname=16606
 }
 
-###### ÈøµÇ(Õ½¶·ĞÍ) ######
+###### è¨ç™»(æˆ˜æ–—å‹) ######
 {
 floorid=60312
 borncenter=22,21
@@ -170,7 +170,7 @@ name=ÈøµÇ
 enemy=sb_dou|file:eden3/karo/sardonf.arg
 }
 
-###### ¿¨ÂŞ(ÒÁËş¹¤×÷ÊÒ) ######
+###### å¡ç½—(ä¼Šå¡”å·¥ä½œå®¤) ######
 {
 name=¿¨ÂŞ
 floorid=60312
@@ -183,7 +183,7 @@ action=5
 }
 
 
-###### Íõ×Ó¼ªµÂ(ÒÁËş¹¤×÷ÊÒ) ######
+###### ç‹å­å‰å¾·(ä¼Šå¡”å·¥ä½œå®¤) ######
 {
 name=¼ªµÂ
 floorid=60312
@@ -196,7 +196,7 @@ graphicname=100025
 action=5
 }
 
-###### ¿¨ÂŞ(´ò°ÜÈøµÇºó³öÏÖ) ######
+###### å¡ç½—(æ‰“è´¥è¨ç™»åå‡ºç°) ######
 {
 name=¿¨ÂŞ
 floorid=60343
@@ -208,7 +208,7 @@ enemy=changeevent|file:eden3/karo/karo3
 graphicname=100720
 }
 
-###### ¼ªµÂ(´ò°ÜÈøµÇºó³öÏÖ) ######
+###### å‰å¾·(æ‰“è´¥è¨ç™»åå‡ºç°) ######
 {
 name=¼ªµÂ
 floorid=60343
@@ -220,7 +220,7 @@ enemy=changeevent|file:eden3/karo/kidd
 graphicname=100025
 }
 
-###### ¾«ÉñÁìÓò´«ËÍµã ######
+###### ç²¾ç¥é¢†åŸŸä¼ é€ç‚¹ ######
 {
 floorid=60307
 borncenter=15,14
@@ -229,7 +229,7 @@ ignoreinvincible=1
 enemy=npcgen_warp|file:eden3/karo/warppoint.arg
 }
 
-###### ÒÁËş¹¤×÷ÊÒÍâ´«ËÍµã ######
+###### ä¼Šå¡”å·¥ä½œå®¤å¤–ä¼ é€ç‚¹ ######
 {
 floorid=7352
 borncenter=86,36

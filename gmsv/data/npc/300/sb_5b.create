@@ -1,5 +1,5 @@
 NPCCREATE
-######¥ê¥Î¥ó###########
+######ãƒªãƒŽãƒ³###########
 {
 floorid=31706
 borncenter=44,60,1,1
@@ -11,7 +11,7 @@ graphicname=100287
 name=ÀïÙ¯
 enemy=sb_5b1|file:300/sb_5b1.arg
 }
-########¥®¥í¥¹#########
+########ã‚®ãƒ­ã‚¹#########
 {
 floorid=31706
 borncenter=5,63,1,1
@@ -23,7 +23,7 @@ graphicname=100288
 name=»ùÂåË¹
 enemy=sb_5b2|file:300/sb_5b2.arg
 }
-##########¥Ü¥í¥¹#######
+##########ãƒœãƒ­ã‚¹#######
 {
 floorid=31706
 borncenter=35,63,1,1
@@ -35,7 +35,7 @@ graphicname=100289
 name=²®ÂåË¹
 enemy=sb_5b3|file:300/sb_5b3.arg
 }
-##########¥®¡¼¥Î#######
+##########ã‚®ãƒ¼ãƒŽ#######
 {
 floorid=31706
 borncenter=25,63,1,1
@@ -47,7 +47,7 @@ graphicname=100290
 name=»ùÅµ
 enemy=sb_5b4|file:300/sb_5b4.arg
 }
-##########¥Ö¥ë¥É#######
+##########ãƒ–ãƒ«ãƒ‰#######
 {
 floorid=31706
 borncenter=15,63,1,1

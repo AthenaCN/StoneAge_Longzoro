@@ -1,6 +1,6 @@
 NPCCREATE
 
-#### Ğû´«µ¥ ####
+#### å®£ä¼ å• ####
 {
 name=ĞÑÁúĞû´«Ô±
 floorid=40
@@ -12,7 +12,7 @@ graphicname=16975
 enemy=changeevent|file:my/2d/xuanchuan.arg
 }
 
-#### ÑĞ¾¿Ô± ####
+#### ç ”ç©¶å‘˜ ####
 {
 name=ÑĞ¾¿Ô±
 floorid=1209
@@ -24,7 +24,7 @@ graphicname=16974
 enemy=changeevent|file:my/2d/yanjiu.arg
 }
 
-#### ËşÂ³°ÍÂ³ ####
+#### å¡”é²å·´é² ####
 {
 name=ËşÂ³°ÍÂ³
 floorid=1209
@@ -36,7 +36,7 @@ graphicname=16988
 enemy=changeevent|file:my/2d/talubalu.arg
 }
 
-#### ›ÖÀòË¿ ####
+#### æµ¿è‰ä¸ ####
 {
 name=›ÖÀòË¿
 floorid=1209
@@ -48,7 +48,7 @@ graphicname=17004
 enemy=changeevent|file:my/2d/beilisi.arg
 }
 
-#´«ËÍÈË
+#ä¼ é€äºº
 {
 name=ÆÕÍØ¶´Ñ¨ÊØÃÅÈË
 floorid=300
@@ -59,7 +59,7 @@ enemy=npcgen_warpman|file:my/2d/warpman.arg
 graphicname=16342
 }
 
-#### ĞÑÁúÖ®»ê ####
+#### é†’é¾™ä¹‹é­‚ ####
 {
 name=ĞÑÁúÊØ»¤ÈË
 floorid=1215

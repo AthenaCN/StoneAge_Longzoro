@@ -2,7 +2,7 @@
 NomalMainMsg:Ææ¹ÖÁË¡«ÔõÃ´»áÊ§×ÙÁË£¬µ½µ×µ½ÄÄÈ¥ÁË£¿£¿£¡£¡
 
 
-#½ÓÁËÈÎÎñ
+#æŽ¥äº†ä»»åŠ¡
 EventNo:-1
 TYPE:MESSAGE
 EVENT:NOWEV=177&ENDEV=72&ENDEV!=180,NOWEV=177&ENDEV=72&ENDEV=180
@@ -10,7 +10,7 @@ NomalWindowMsg:\n\nÏëÒªÖªµÀÍ¨ÍùË®¾§¶´¿ßµÄÂ·±ØÐëÒªÕÒÀÏ¾­ÑéµÄ¿ó¹¤£¬ÎÒ²¢²»ÖªµÀ°¡£¬Î
 EventEnd
 
 
-#½øÐÐÖÐ
+#è¿›è¡Œä¸­
 EventNo:-1
 TYPE:MESSAGE
 EVENT:ENDEV=72&ENDEV=178
@@ -18,14 +18,14 @@ NomalWindowMsg:\n\nÄêÇáÈËÐ»Ð»Äã¸æËßÎÒÕâ¸öÑ¶Ï¢¡£
 EventEnd
 
 
-#½øÐÐÖÐ
+#è¿›è¡Œä¸­
 EventNo:-1
 TYPE:MESSAGE
 EVENT:ENDEV=72&NOWEV=178
 NomalWindowMsg:\n\nÄêÇáÈËÐ»Ð»Äã¸æËßÎÒÕâ¸öÑ¶Ï¢¡£
 EventEnd
 
-#ÓÐ¶þ×ªÂêÀÙÁË
+#æœ‰äºŒè½¬çŽ›è•¾äº†
 EventNo:177
 TYPE:REQUEST
 EVENT:LV>79&ENDEV=72&ENDEV=180&NOWEV!=177
@@ -33,7 +33,7 @@ RequestMsg:\nß×£¿Ô­À´ÄãÕÒµ½ÂêÀÙ·ÆÑÅÆäËûµÄÁéÌåÁË£¬²»¹ýÊÇ²»ÊÇ»¹ÓÐÆäËûµÄÓÎµ´ÔÚÍâÄØ£
 ThanksMsg:\n¼ÇµÃÔÙÈ¥´ïÄÇ´åÕÒÄÇÒ»¸ö¿ó¹¤£¬ÒòÎªÎÒÏàÐÅÄãÒÑ¾­Íü¼Ç¸ÃÔõÃ´È¥Ë®¾§¶´¿ßÁË¡£\n\n¿È¿È¡«¡«ÕâÐ©ÂêÀÙ·ÆÑÅ¿ÉÕæÊÇÒ»¸öÄ£Ñù°¡£¡
 EventEnd
 
-#ÓÐÑ©ÉX»¨
+#æœ‰é›ªè’ŸèŠ±
 EventNo:177
 TYPE:REQUEST
 EVENT:LV>79&ITEM=19293&ENDEV=72&ENDEV!=178
@@ -48,7 +48,7 @@ DelItem:19293
 EventEnd
 
 
-#ÓÐÂêÀÙÏ²»¶µÄ»¨
+#æœ‰çŽ›è•¾å–œæ¬¢çš„èŠ±
 EventNo:177
 TYPE:REQUEST
 EVENT:LV>79&ITEM=19688&ENDEV=72&ENDEV!=178
@@ -64,7 +64,7 @@ EventEnd
 
 
 
-#Ã»ÓÐ»¨
+#æ²¡æœ‰èŠ±
 EventNo:-1
 TYPE:MESSAGE
 EVENT:ENDEV=72&ITEM!=19688&NOWEV!=177&ENDEV!=178&ITEM!=19293

@@ -1,6 +1,6 @@
 NEWWARPMAN
 
-#######°®³Ô¿ÏµÂ»ùµÄ´óÊå########
+#######çˆ±åƒè‚¯å¾·åŸºçš„å¤§å”########
 
 NomalMainMsg:
 
@@ -12,7 +12,7 @@ WARP:0,0,0
 OVER
 
 
-####½ÓÈÎÎñ####
+####æŽ¥ä»»åŠ¡####
 TALKEVENT1
 WARP:0,0,0
 FREE:LV>0&TRANS>0&LV>80&ENDEV=200&ENDEV!=202&ITEM!=20786
@@ -21,7 +21,7 @@ AddItem:20786
 OVER
 
 
-####½áÈÎÎñ####
+####ç»“ä»»åŠ¡####
 TALKEVENT2
 WARP:0,0,0
 FREE:LV>0&TRANS>0&LV>80&ITEM=20787&ITEM=20788&ITEM=20789&ITEM=20786&ENDEV=200
@@ -31,7 +31,7 @@ DelItem:20786*1,20787*1,20788*1,20789*1
 Event_End:202
 OVER
 
-#### ½â¹ý ####
+#### è§£è¿‡ ####
 TALKEVENT3
 WARP:0,0,0
 FREE:LV>0&ENDEV=202

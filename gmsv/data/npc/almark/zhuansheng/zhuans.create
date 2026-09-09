@@ -45,7 +45,7 @@ dir=4
 enemy=changeevent|file:almark/zhuansheng/zhuans4.arg
 }
 
-#»áÔ±¾«ÁéÍõ
+#ä¼šå‘˜ç²¾çµç‹
 {
 floorid=777
 borncenter=27,23
@@ -59,7 +59,7 @@ enemy=npc_transmigration|file:almark/zhuansheng/ten.arg
 }
 
 
-#»áÔ±×ªÉúÌìÊ¹
+#ä¼šå‘˜è½¬ç”Ÿå¤©ä½¿
 {
 floorid=777
 borncenter=19,23

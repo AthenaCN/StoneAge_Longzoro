@@ -1,6 +1,6 @@
 NEWWARPMAN
 
-#### 标全不正确，不理 ####
+#### 鏍囧叏涓嶆纭紝涓嶇悊 ####
 NOFREE
 WARP:0,0,0
 FREE:LV>0
@@ -8,7 +8,7 @@ NomalMsg:我心爱的暴龙被阿谷拔给抓走了，谁可以帮我找回来我重重有赏。
 PartyMsg:
 OVER
 
-###库沙达之传送人###
+###搴撴矙杈句箣浼犻�佷汉###
 TALKEVENT1
 WARP:60076,54,78
 FREE:LV>89&ENDEV=4&ENDEV=81&NOWEV=125&ITEM=1481&ITEM=2414

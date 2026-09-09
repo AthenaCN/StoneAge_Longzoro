@@ -1,13 +1,13 @@
 NomalMainMsg:Õ¦¿´µÄÀáÖ®º£±äµÃÎÛ×ÇÁË¡£
 
-##½ÓÁË#
+##æŽ¥äº†#
 EventNo:-1
 TYPE:MESSAGE
 EVENT:NOWEV=202
 NomalWindowMsg:º£ÁúÍõÔÚÄÄ²»ÖªµÀ£¿Äã×ö¹ýÇ°¶ÎÃ»ÓÐ£¿
 EventEnd
 
-##½ÓÈÎÎñ202#
+##æŽ¥ä»»åŠ¡202#
 EventNo:202
 TYPE:REQUEST
 EVENT:TRANS>5&LV>99&ENDEV=4&NOWEV=215&ENDEV=216&ITEM=1683*5
@@ -16,7 +16,7 @@ RequestMsg2:·Ï»°ÉÙËµ£¬½øÈëÕýÌâ¡£º£ÁúÍõÈÃÎÒÀ´¸æËßÄã£¬ÒòÎªÄãµÄ°ïÖú£¬ÀáÖ®º£º£Ë®ÓÐ±ä
 ThanksMsg:º£Ë®ÎÒ¾Í²»ÊÕÁË£¬ÕâÁË¶àµÄºÜà¸£¡È¥ÕÒº£ÁúÍõ°É¡£
 EventEnd
 
-##Íê³É216#
+##å®Œæˆ216#
 EventNo:-1
 TYPE:MESSAGE
 EVENT:ENDEV=216

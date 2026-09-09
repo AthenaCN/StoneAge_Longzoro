@@ -1,7 +1,7 @@
 NPCCREATE
 
-########¡¡×·ÁÔÕß¡¡#########
-##### ¹«»áµ¼Ê¦ ######
+########ã€€è¿½çŒŽè€…ã€€#########
+##### å…¬ä¼šå¯¼å¸ˆ ######
 {
 name=ÄÎ¶ûÇï
 floorid=8217
@@ -24,7 +24,7 @@ graphicname=16186
 enemy=npcgen_warpman|file:sa70/class/arch2
 }
 
-##### ¹«»á½âËµÔ± ######
+##### å…¬ä¼šè§£è¯´å‘˜ ######
 {
 name=¹«»á½âËµÔ±
 floorid=8217
@@ -36,7 +36,7 @@ graphicname=16189
 enemy=changeevent|file:sa70/class/arch3
 }
 
-##### ÊÔÁ·ÕßÒ» ######
+##### è¯•ç»ƒè€…ä¸€ ######
 {
 name=ÊÔÁ¶Õß
 floorid=8220
@@ -48,7 +48,7 @@ graphicname=16193
 enemy=npcgen_warpman|file:sa70/class/aquest1
 }
 
-##### ÊÔÁ·Õß¶þ ######
+##### è¯•ç»ƒè€…äºŒ ######
 {
 name=ÊÔÁ¶Õß
 floorid=8220
@@ -60,7 +60,7 @@ graphicname=16188
 enemy=npcgen_warpman|file:sa70/class/aquest2
 }
 
-##### ÊÔÁ·ÕßÈý ######
+##### è¯•ç»ƒè€…ä¸‰ ######
 {
 name=ÊÔÁ¶Õß
 floorid=8220

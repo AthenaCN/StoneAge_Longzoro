@@ -1,13 +1,13 @@
 NomalMainMsg:你是谁！？快出去！别想偷窥我的最新研究成果！！！！！！！！
 
-####任务结束对话####
+####浠诲姟缁撴潫瀵硅瘽####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>79&TRANS>=5&ENDEV=184&ENDEV=185
 NomalWindowMsg:呵呵！你还真有本事！这么轻松就把研究书拿回来了！
 EventEnd
 
-####任务结束对话####
+####浠诲姟缁撴潫瀵硅瘽####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>79&TRANS>=5&ENDEV=184&NOWEV=185

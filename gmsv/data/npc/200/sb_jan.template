@@ -1,5 +1,5 @@
 NPCTEMPLATE
-#######¥Þ¥¸¥ç¡¼¥é##########
+#######ãƒžã‚¸ãƒ§ãƒ¼ãƒ©##########
 {
 templatename=sb_jan1
 makeatnobody=1
@@ -11,7 +11,7 @@ mp=100
 str=1
 tough=1
 }
-#######¥¬¥ë¡¼¥É##########
+#######ã‚¬ãƒ«ãƒ¼ãƒ‰##########
 {
 templatename=sb_jan2
 makeatnobody=1
@@ -23,7 +23,7 @@ mp=100
 str=1
 tough=1
 }
-#######¥Ü¡¼¥ó##########
+#######ãƒœãƒ¼ãƒ³##########
 {
 templatename=sb_jan3
 makeatnobody=1

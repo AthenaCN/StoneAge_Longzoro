@@ -1,8 +1,8 @@
-########¡¡ÈÛÂ¯¡¡########
+########ã€€ç†”ç‚‰ã€€########
 
 NomalMainMsg:Ïë´ÓÎÒÕâÍµÍµ°Ñ×ê¿×µÄ¼¼ÄÜÑ§×ßÃ´£¿ÐÝÏëÄã£¡£¡£¡£¡
 
-###ºÖÄÇÖ®¸«1 Ëæ¼´×ê¿Õ³É¹¦¡¡###
+###è¤é‚£ä¹‹æ–§1 éšå³é’»ç©ºæˆåŠŸã€€###
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>0&ENDEV=4&ENDEV=184&ITEM=20905
@@ -13,7 +13,7 @@ DelItem:20905*1
 ItemFullMsg:ÂúÁË°ÉÄãÉíÉÏ£¡£¿£¿
 EventEnd
 
-###ºÖÄÇÖ®Ç¹1 Ëæ¼´×ê¿Õ³É¹¦¡¡###
+###è¤é‚£ä¹‹æžª1 éšå³é’»ç©ºæˆåŠŸã€€###
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>0&ENDEV=4&ENDEV=184&ITEM=20906
@@ -24,7 +24,7 @@ DelItem:20906*1
 ItemFullMsg:ÂúÁË°ÉÄãÉíÉÏ£¡£¿£¿
 EventEnd
 
-###ºÖÄÇÖ®¹÷1 Ëæ¼´×ê¿Õ³É¹¦¡¡###
+###è¤é‚£ä¹‹æ£1 éšå³é’»ç©ºæˆåŠŸã€€###
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>0&ENDEV=4&ENDEV=184&ITEM=20907
@@ -35,7 +35,7 @@ DelItem:20907*1
 ItemFullMsg:ÂúÁË°ÉÄãÉíÉÏ£¡£¿£¿
 EventEnd
 
-###ºÖÄÇÖ®¶µ1 Ëæ¼´×ê¿Õ³É¹¦¡¡###
+###è¤é‚£ä¹‹å…œ1 éšå³é’»ç©ºæˆåŠŸã€€###
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>0&ENDEV=4&ENDEV=184&ITEM=20908
@@ -46,7 +46,7 @@ DelItem:20908*1
 ItemFullMsg:ÂúÁË°ÉÄãÉíÉÏ£¡£¿£¿
 EventEnd
 
-###ºÖÄÇÖ®îø1 Ëæ¼´×ê¿Õ³É¹¦¡¡###
+###è¤é‚£ä¹‹é“ 1 éšå³é’»ç©ºæˆåŠŸã€€###
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>0&ENDEV=4&ENDEV=184&ITEM=20909
@@ -57,7 +57,7 @@ DelItem:20909*1
 ItemFullMsg:ÂúÁË°ÉÄãÉíÉÏ£¡£¿£¿
 EventEnd
 
-###±Ì»ªÖ®¸«1 Ëæ¼´×ê¿Õ³É¹¦¡¡###
+###ç¢§åŽä¹‹æ–§1 éšå³é’»ç©ºæˆåŠŸã€€###
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>0&ENDEV=4&ENDEV=184&ITEM=20910
@@ -68,7 +68,7 @@ DelItem:20910*1
 ItemFullMsg:ÂúÁË°ÉÄãÉíÉÏ£¡£¿£¿
 EventEnd
 
-###±Ì»ªÖ®Ç¹1 Ëæ¼´×ê¿Õ³É¹¦¡¡###
+###ç¢§åŽä¹‹æžª1 éšå³é’»ç©ºæˆåŠŸã€€###
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>0&ENDEV=4&ENDEV=184&ITEM=20911
@@ -79,7 +79,7 @@ DelItem:20911*1
 ItemFullMsg:ÂúÁË°ÉÄãÉíÉÏ£¡£¿£¿
 EventEnd
 
-###±Ì»ªÖ®¹÷1 Ëæ¼´×ê¿Õ³É¹¦¡¡###
+###ç¢§åŽä¹‹æ£1 éšå³é’»ç©ºæˆåŠŸã€€###
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>0&ENDEV=4&ENDEV=184&ITEM=20912
@@ -90,7 +90,7 @@ DelItem:20912*1
 ItemFullMsg:ÂúÁË°ÉÄãÉíÉÏ£¡£¿£¿
 EventEnd
 
-###±Ì»ªÖ®¶µ1 Ëæ¼´×ê¿Õ³É¹¦¡¡###
+###ç¢§åŽä¹‹å…œ1 éšå³é’»ç©ºæˆåŠŸã€€###
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>0&ENDEV=4&ENDEV=184&ITEM=20913
@@ -101,7 +101,7 @@ DelItem:20913*1
 ItemFullMsg:ÂúÁË°ÉÄãÉíÉÏ£¡£¿£¿
 EventEnd
 
-###±Ì»ªÖ®îø1 Ëæ¼´×ê¿Õ³É¹¦¡¡###
+###ç¢§åŽä¹‹é“ 1 éšå³é’»ç©ºæˆåŠŸã€€###
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>0&ENDEV=4&ENDEV=184&ITEM=20914
@@ -112,7 +112,7 @@ DelItem:20914*1
 ItemFullMsg:ÂúÁË°ÉÄãÉíÉÏ£¡£¿£¿
 EventEnd
 
-###ÂåÑ×Ö®¸«1 Ëæ¼´×ê¿Õ³É¹¦¡¡###
+###æ´›ç‚Žä¹‹æ–§1 éšå³é’»ç©ºæˆåŠŸã€€###
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>0&ENDEV=4&ENDEV=184&ITEM=20915
@@ -123,7 +123,7 @@ DelItem:20915*1
 ItemFullMsg:ÂúÁË°ÉÄãÉíÉÏ£¡£¿£¿
 EventEnd
 
-###ÂåÑ×Ö®Ç¹1 Ëæ¼´×ê¿Õ³É¹¦¡¡###
+###æ´›ç‚Žä¹‹æžª1 éšå³é’»ç©ºæˆåŠŸã€€###
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>0&ENDEV=4&ENDEV=184&ITEM=20916
@@ -134,7 +134,7 @@ DelItem:20916*1
 ItemFullMsg:ÂúÁË°ÉÄãÉíÉÏ£¡£¿£¿
 EventEnd
 
-###ÂåÑ×Ö®¹÷1 Ëæ¼´×ê¿Õ³É¹¦¡¡###
+###æ´›ç‚Žä¹‹æ£1 éšå³é’»ç©ºæˆåŠŸã€€###
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>0&ENDEV=4&ENDEV=184&ITEM=20917
@@ -145,7 +145,7 @@ DelItem:20917*1
 ItemFullMsg:ÂúÁË°ÉÄãÉíÉÏ£¡£¿£¿
 EventEnd
 
-###ÂåÑ×Ö®¶µ1 Ëæ¼´×ê¿Õ³É¹¦¡¡###
+###æ´›ç‚Žä¹‹å…œ1 éšå³é’»ç©ºæˆåŠŸã€€###
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>0&ENDEV=4&ENDEV=184&ITEM=20918
@@ -156,7 +156,7 @@ DelItem:20918*1
 ItemFullMsg:ÂúÁË°ÉÄãÉíÉÏ£¡£¿£¿
 EventEnd
 
-###ÂåÑ×Ö®îø1 Ëæ¼´×ê¿Õ³É¹¦¡¡###
+###æ´›ç‚Žä¹‹é“ 1 éšå³é’»ç©ºæˆåŠŸã€€###
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>0&ENDEV=4&ENDEV=184&ITEM=20919
@@ -167,7 +167,7 @@ DelItem:20919*1
 ItemFullMsg:ÂúÁË°ÉÄãÉíÉÏ£¡£¿£¿
 EventEnd
 
-###ÎÂÌØÖ®¸«1 Ëæ¼´×ê¿Õ³É¹¦¡¡###
+###æ¸©ç‰¹ä¹‹æ–§1 éšå³é’»ç©ºæˆåŠŸã€€###
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>0&ENDEV=4&ENDEV=184&ITEM=20920
@@ -178,7 +178,7 @@ DelItem:20920*1
 ItemFullMsg:ÂúÁË°ÉÄãÉíÉÏ£¡£¿£¿
 EventEnd
 
-###ÎÂÌØÖ®Ç¹1 Ëæ¼´×ê¿Õ³É¹¦¡¡###
+###æ¸©ç‰¹ä¹‹æžª1 éšå³é’»ç©ºæˆåŠŸã€€###
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>0&ENDEV=4&ENDEV=184&ITEM=20921
@@ -189,7 +189,7 @@ DelItem:20921*1
 ItemFullMsg:ÂúÁË°ÉÄãÉíÉÏ£¡£¿£¿
 EventEnd
 
-###ÎÂÌØÖ®¹÷1 Ëæ¼´×ê¿Õ³É¹¦¡¡###
+###æ¸©ç‰¹ä¹‹æ£1 éšå³é’»ç©ºæˆåŠŸã€€###
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>0&ENDEV=4&ENDEV=184&ITEM=20922
@@ -200,7 +200,7 @@ DelItem:20922*1
 ItemFullMsg:ÂúÁË°ÉÄãÉíÉÏ£¡£¿£¿
 EventEnd
 
-###ÎÂÌØÖ®¶µ1 Ëæ¼´×ê¿Õ³É¹¦¡¡###
+###æ¸©ç‰¹ä¹‹å…œ1 éšå³é’»ç©ºæˆåŠŸã€€###
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>0&ENDEV=4&ENDEV=184&ITEM=20923
@@ -211,7 +211,7 @@ DelItem:20923*1
 ItemFullMsg:ÂúÁË°ÉÄãÉíÉÏ£¡£¿£¿
 EventEnd
 
-###ÎÂÌØÖ®îø1 Ëæ¼´×ê¿Õ³É¹¦¡¡###
+###æ¸©ç‰¹ä¹‹é“ 1 éšå³é’»ç©ºæˆåŠŸã€€###
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>0&ENDEV=4&ENDEV=184&ITEM=20924
@@ -223,7 +223,7 @@ ItemFullMsg:ÂúÁË°ÉÄãÉíÉÏ£¡£¿£¿
 EventEnd
 
 
-###¡¡²»·ûºÏÌõ¼þ¡¡###
+###ã€€ä¸ç¬¦åˆæ¡ä»¶ã€€###
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>0

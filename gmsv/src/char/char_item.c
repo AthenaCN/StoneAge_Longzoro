@@ -1,5 +1,6 @@
 #include "version.h"
 #include <stdio.h>
+#include "autil.h"
 
 #include "readmap.h"
 #include "map_deal.h"
@@ -212,8 +213,13 @@ BOOL CHAR_sendItemData(int charaindex, int *itemgroup, int num) {
 
 static void CHAR_sendItemDetachEvent(int charaindex, int itemid) {
 	char mesg[256];
+	char nameutf8[256];
 
-	snprintf(mesg, sizeof(mesg), "卸下%s ", ITEM_getAppropriateName(itemid));
+	/* 物品名(itemset6)为 GBK，源码字面量为 UTF-8：先把名字转 UTF-8 再拼，
+	 * 使整条消息为合法 UTF-8，发送时 util_mkstring 会统一转回 GBK，避免
+	 * 客户端把 UTF-8 字节当 GBK 显示成乱码（如「装备」「卸下」前缀） */
+	str_gbk_to_utf8(nameutf8, sizeof(nameutf8), ITEM_getAppropriateName(itemid));
+	snprintf(mesg, sizeof(mesg), "卸下%s ", nameutf8);
 	CHAR_talkToCli(charaindex, -1, mesg, CHAR_COLORWHITE);
 #ifdef _ITEM_METAMO
 	if (ITEM_getEquipPlace(charaindex, itemid) == CHAR_BODY && CHAR_getWorkInt(charaindex, CHAR_WORKITEMMETAMO) != 0) {
@@ -237,8 +243,9 @@ static void CHAR_sendItemDetachEvent(int charaindex, int itemid) {
 
 static void CHAR_sendItemAttachEvent(int charaindex, int itemid) {
 	char mesg[256];
-	snprintf(mesg, sizeof(mesg), "装备%s ",
-			 ITEM_getAppropriateName(itemid));
+	char nameutf8[256];
+	str_gbk_to_utf8(nameutf8, sizeof(nameutf8), ITEM_getAppropriateName(itemid));
+	snprintf(mesg, sizeof(mesg), "装备%s ", nameutf8);
 	CHAR_talkToCli(charaindex, -1, mesg, CHAR_COLORWHITE);
 	{
 		typedef void (*ATTACHFUNC)(int, int);
@@ -701,8 +708,15 @@ void CHAR_ItemUse(int charaindex, int to_charaindex, int haveitemindex) {
 			}
 		}
 	}
-	// 不等於料理 和 其他
-	if (ITEM_getInt(itemindex, ITEM_TYPE) != ITEM_OTHER &&
+	// 有使用功能(USEFUNC)的物品优先走使用逻辑（9.0 版 CHAR_ItemUse 直接调用 USEFUNC）
+	usefunc = (void (*)(int, int, int))
+		ITEM_getFunctionPointer(itemindex, ITEM_USEFUNC);
+	print("[ITEMUSE] char=%d to=%d have=%d type=%d usefunc=%p\n",
+		  charaindex, to_charaindex, haveitemindex,
+		  ITEM_getInt(itemindex, ITEM_TYPE), (void *)usefunc);
+	// 不等於料理 和 其他（无使用功能的才按装备处理）
+	if (usefunc == NULL &&
+		ITEM_getInt(itemindex, ITEM_TYPE) != ITEM_OTHER &&
 		ITEM_getInt(itemindex, ITEM_TYPE) != ITEM_DISH) {
 		CHAR_EquipPlace ep;
 
@@ -742,8 +756,6 @@ void CHAR_ItemUse(int charaindex, int to_charaindex, int haveitemindex) {
 		return;
 	}
 
-	usefunc = (void (*)(int, int, int))
-		ITEM_getFunctionPointer(itemindex, ITEM_USEFUNC);
 	if (usefunc) {
 		{
 			LogItem(
@@ -1670,13 +1682,20 @@ void CHAR_PickUpItem(int charaindex, int dir) {
 						}
 					}
 				}
-				if (ITEM_getInt(contents, ITEM_ID) == CASINOTOKENID && dropflag == 1)
-					snprintf(mesg, sizeof(mesg), "拾回%s，已将下注取消！",
-							 ITEM_getAppropriateName(contents));
+				if (ITEM_getInt(contents, ITEM_ID) == CASINOTOKENID && dropflag == 1) {
+					char aname[128];
+					str_gbk_to_utf8(aname, sizeof(aname),
+									ITEM_getAppropriateName(contents));
+					snprintf(mesg, sizeof(mesg), "拾回%s，已将下注取消！", aname);
+				}
 				else
 #endif
-					snprintf(mesg, sizeof(mesg), "拾获 %s",
-							 ITEM_getAppropriateName(contents));
+				{
+					char aname[128];
+					str_gbk_to_utf8(aname, sizeof(aname),
+									ITEM_getAppropriateName(contents));
+					snprintf(mesg, sizeof(mesg), "拾获 %s", aname);
+				}
 				CHAR_talkToCli(charaindex, -1, mesg, CHAR_COLORWHITE);
 			}
 
@@ -1736,13 +1755,15 @@ void CHAR_PickUpItem(int charaindex, int dir) {
 			CHAR_setWorkInt(contents, CHAR_WORKOBJINDEX, -1);
 			{
 				char mesg[256];
+				char pconv[128];
 				char *p = NULL;
 				p = CHAR_getChar(contents, CHAR_USERPETNAME);
 				if (strlen(p) == 0) {
 					p = CHAR_getChar(contents, CHAR_NAME);
 				}
+				str_gbk_to_utf8(pconv, sizeof(pconv), p);
 
-				snprintf(mesg, sizeof(mesg), "拾获 %s", p);
+				snprintf(mesg, sizeof(mesg), "拾获 %s", pconv);
 				CHAR_talkToCli(charaindex, -1, mesg, CHAR_COLORWHITE);
 			}
 			// ペット登録ログ  (宠物登记日志)

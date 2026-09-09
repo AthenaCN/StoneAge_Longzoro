@@ -15,6 +15,8 @@
 
 extern void CHAR_sendAngelMark(int objindex, int flag);
 
+#include "autil.h"
+
 #ifdef _PROFESSION_SKILL // WON ADD 人物职业技能
 #include "profession_skill.h"
 #endif
@@ -1037,6 +1039,9 @@ BOOL ITEM_readItemConfFile(char *filename) {
 	}
 #ifdef _ITEMSET2_ITEM
 
+/* Tokyo-sa fix: 恢复官方原版列序（IDA 字段表 [16]=id、[17]=imagenumber）。
+ * 客户端(Tokyo-sa)物品图标按图档号 ID 体系显示，故 id 必须读图档号列([16])，
+ * imagenumber 读 [17]（真 ID 24008 等，仅用于下发图档）。 */
 #define ITEM_ID_TOKEN_INDEX 17
 
 #else
@@ -1373,6 +1378,14 @@ char *ITEM_makeItemStatusString(int haveitemindex, int itemindex) {
 	{
 		makeEscapeString(ITEM_getChar(itemindex, ITEM_SECRETNAME),
 						 escapename, sizeof(escapename));
+		/* itemset6 数据为 GBK，与下方源码 UTF-8 字面量（"不会损坏"等）混拼成一条
+		 * 消息后整串非合法 UTF-8 会被 str_utf8_to_gbk_mixed 全部透传，导致客户端
+		 * 按 GBK 显示 UTF-8 字节乱码。这里先把 GBK 字段转 UTF-8，发送时统一转回 */
+		{
+			char u[512];
+			str_gbk_to_utf8(u, sizeof(u), escapename);
+			strcpy(escapename, u);
+		}
 		/*if( leaklevel >= 2  )
 		{
 			static struct Showparamint{
@@ -1433,6 +1446,12 @@ char *ITEM_makeItemStatusString(int haveitemindex, int itemindex) {
 	makeEscapeString(ITEM_getChar(itemindex, ITEM_EFFECTSTRING),
 					 escapeeffectstring,
 					 sizeof(escapeeffectstring));
+	/* 同上：EFFECTSTRING 为 GBK 数据，先转 UTF-8 再与 UTF-8 字面量混拼 */
+	{
+		char u[512];
+		str_gbk_to_utf8(u, sizeof(u), escapeeffectstring);
+		strcpy(escapeeffectstring, u);
+	}
 	itemcolor = CHAR_COLORWHITE;
 	if (strlen(ITEM_getChar(itemindex, ITEM_CDKEY)) != 0) {
 		itemcolor = CHAR_COLORGREEN;
@@ -1495,10 +1514,13 @@ char *ITEM_makeItemStatusString(int haveitemindex, int itemindex) {
 #ifdef _ALCHEMIST
 				 "%s|%s|%d|%s|%d|%d|%d|%d|%d|%s|%d|%s",
 #else
-				 "%s|%s|%d|%s|%d|%d|%d|%d|%d|%s|%d",
+				 /* Tokyo-sa fix: 9.0 客户端物品槽固定 13 字段（win 版 gmsv.exe
+				  * 0x62F98C 格式串），多出的 %s(INGNAME0) 与 %d 用 "杂"/0 填充，
+				  * 否则 11 字段导致客户端解析错位、道具栏物品不显示 */
+				 "%s|%s|%d|%s|%d|%d|%d|%d|%d|%s|%d|%s|%d|",
 #endif
 #else
-				 "%s|%s|%d|%s|%d|%d|%d|%d|%d|%s",
+				 "%s|%s|%d|%s|%d|%d|%d|%d|%d|%s|",
 #endif
 				 escapename, paramshow,
 				 itemcolor, escapeeffectstring,
@@ -1514,6 +1536,10 @@ char *ITEM_makeItemStatusString(int haveitemindex, int itemindex) {
 #ifdef _ALCHEMIST
 					 ,
 				 INGNAME0 //,ITEM_getInt( itemindex, ITEM_ALCHEMIST)
+#else
+				 ,
+				 "杂",
+				 ITEM_getInt(itemindex, ITEM_TYPE)
 #endif
 #endif
 		);
@@ -1599,19 +1625,19 @@ char *ITEM_makeItemFalseString(void) {
 			   sizeof(ITEM_itemStatusStringBuffer),
 #ifdef _ITEM_PILENUMS
 #ifdef _ALCHEMIST
-			   "|||||||||||"
+			   "||||||||||||"
 #else
-			   "||||||||||"
+			   "|||||||||||||"
 #endif
 #else
-			   "|||||||||"
+			   "||||||||||"
 #endif
 	);
 
 #else
 	strcpysafe(ITEM_itemStatusStringBuffer,
 			   sizeof(ITEM_itemStatusStringBuffer),
-			   "||||||||");
+			   "|||||||||");
 #endif
 	return ITEM_itemStatusStringBuffer;
 }
@@ -1624,7 +1650,7 @@ char *ITEM_makeItemFalseStringWithNum(int haveitemindex) {
 #ifdef _ALCHEMIST
 			 "%d||||||||||||",
 #else
-			 "%d|||||||||||",
+			 "%d||||||||||||",
 #endif
 #else
 			 "%d||||||||||",

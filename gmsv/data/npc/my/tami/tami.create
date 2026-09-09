@@ -1,6 +1,6 @@
 NPCCREATE
 
-#ÎŞÏ¢Ö®¾³ Á÷±ù»ØÀÈµÄÈë¿Ú
+#æ— æ¯ä¹‹å¢ƒ æµå†°å›å»Šçš„å…¥å£
 {
 floorid=7600
 borncorner=163,149,163,149
@@ -13,7 +13,7 @@ name=¡¡
 enemy=npcgen_warpman|file:my/tami/warp.arg
 }
 
-#####½½¹à ######
+#####æµ‡çŒ ######
 {
 name=ÃÔÖ®ÈËÓã
 floorid=84
@@ -26,7 +26,7 @@ enemy=changeevent|file:my/tami/water.arg
 }
 
 
-######°¬Ë¹×¿¶÷ÊØ»¤ÊŞ######
+######è‰¾æ–¯å“æ©å®ˆæŠ¤å…½######
 {
 name=°¬Ë¹×¿¶÷ÊØ»¤ÊŞ
 floorid=99
@@ -40,7 +40,7 @@ graphicname=101283
 }
 
 
-###### °¬Ë¹×¿¶÷ ######
+###### è‰¾æ–¯å“æ© ######
 {
 floorid=99
 borncenter=21,6

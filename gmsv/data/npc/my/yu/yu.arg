@@ -1,13 +1,13 @@
 NomalMainMsg:ÎÞÁÄËÀÀÕ¡«¡«¡«
 
-#Íê³ÉÈÎÎñ¶Ô»°
+#å®Œæˆä»»åŠ¡å¯¹è¯
 #EventNo:-1
 TYPE:MESSAGE
 EVENT:ENDEV=4&ENDEV=253
 NomalWindowMsg:ÒÔºóÎÒ»áÑÐ¾¿¼ÌÐøÑÐ¾¿ÓãµÄ¡£\n\n×£ÄãÔÚ°®Ñ©Ê¯Æ÷ÍæµÄ¿ªÐÄ¡£
 EventEnd
 
-#ÉíÉÏÓÐ°î¶÷¼ªºÍÃ·Â³É¯
+#èº«ä¸Šæœ‰é‚¦æ©å‰å’Œæ¢…é²èŽŽ
 EventNo:253
 TYPE:ACCEPT
 EVENT:ENDEV=4&NOWEV=253&PET=88-22103&PET=88-22107
@@ -19,7 +19,7 @@ GetPet:22110
 EndSetFlg:253
 EventEnd
 
-#ÉíÉÏÓÐ¼Ó¿ËÀ­ºÍÉ°öè
+#èº«ä¸Šæœ‰åŠ å…‹æ‹‰å’Œç ‚é²¨
 EventNo:253
 TYPE:ACCEPT
 EVENT:ENDEV=4&NOWEV=253&PET=88-22101&PET=88-22105
@@ -31,7 +31,7 @@ GetPet:22111
 EndSetFlg:253
 EventEnd
 
-#ÉíÉÏÓÐ¼Ó¸ñºÍµÏ¼Ó
+#èº«ä¸Šæœ‰åŠ æ ¼å’Œè¿ªåŠ 
 EventNo:253
 TYPE:ACCEPT
 EVENT:ENDEV=4&NOWEV=253&PET=88-22102&PET=88-22104
@@ -43,7 +43,7 @@ GetPet:22112
 EndSetFlg:253
 EventEnd
 
-#ÉíÉÏÓÐ¿Ë°î¿­Ë¹ºÍ²¨²¨¶Ù
+#èº«ä¸Šæœ‰å…‹é‚¦å‡¯æ–¯å’Œæ³¢æ³¢é¡¿
 EventNo:253
 TYPE:ACCEPT
 EVENT:ENDEV=4&NOWEV=253&PET=88-22100&PET=88-22106
@@ -55,70 +55,70 @@ GetPet:22113
 EndSetFlg:253
 EventEnd
 
-#ÉíÉÏÖ»ÓÐÓã£±-£¸£¸¼¶
+#èº«ä¸Šåªæœ‰é±¼ï¼‘-ï¼˜ï¼˜çº§
 EventNo:-1
 TYPE:MESSAGE
 EVENT:ENDEV=4&NOWEV=253&PET=88-22100
 NomalWindowMsg:Ö»ÓÐÒ»ÌõÊÇ£¸£¸¼¶²»¹»µÄ£¬²»ÄÜ·±Ö³¡£¡£¡£
 EventEnd
 
-#ÉíÉÏÖ»ÓÐÓã£²-£¸£¸¼¶
+#èº«ä¸Šåªæœ‰é±¼ï¼’-ï¼˜ï¼˜çº§
 EventNo:-1
 TYPE:MESSAGE
 EVENT:ENDEV=4&NOWEV=253&PET=88-22101
 NomalWindowMsg:Ö»ÓÐÒ»ÌõÊÇ£¸£¸¼¶²»¹»µÄ£¬²»ÄÜ·±Ö³¡£¡£¡£
 EventEnd
 
-#ÉíÉÏÖ»ÓÐÓã£³-£¸£¸¼¶
+#èº«ä¸Šåªæœ‰é±¼ï¼“-ï¼˜ï¼˜çº§
 EventNo:-1
 TYPE:MESSAGE
 EVENT:ENDEV=4&NOWEV=253&PET=88-22102
 NomalWindowMsg:Ö»ÓÐÒ»ÌõÊÇ£¸£¸¼¶²»¹»µÄ£¬²»ÄÜ·±Ö³¡£¡£¡£
 EventEnd
 
-#ÉíÉÏÖ»ÓÐÓã£´-£¸£¸¼¶
+#èº«ä¸Šåªæœ‰é±¼ï¼”-ï¼˜ï¼˜çº§
 EventNo:-1
 TYPE:MESSAGE
 EVENT:ENDEV=4&NOWEV=253&PET=88-22103
 NomalWindowMsg:Ö»ÓÐÒ»ÌõÊÇ£¸£¸¼¶²»¹»µÄ£¬²»ÄÜ·±Ö³¡£¡£¡£
 EventEnd
 
-#ÉíÉÏÖ»ÓÐÓã£µ-£¸£¸¼¶
+#èº«ä¸Šåªæœ‰é±¼ï¼•-ï¼˜ï¼˜çº§
 EventNo:-1
 TYPE:MESSAGE
 EVENT:ENDEV=4&NOWEV=253&PET=88-22104
 NomalWindowMsg:Ö»ÓÐÒ»ÌõÊÇ£¸£¸¼¶²»¹»µÄ£¬²»ÄÜ·±Ö³¡£¡£¡£
 EventEnd
 
-#ÉíÉÏÖ»ÓÐÓã£¶-£¸£¸¼¶
+#èº«ä¸Šåªæœ‰é±¼ï¼–-ï¼˜ï¼˜çº§
 EventNo:-1
 TYPE:MESSAGE
 EVENT:ENDEV=4&NOWEV=253&PET=88-22105
 NomalWindowMsg:Ö»ÓÐÒ»ÌõÊÇ£¸£¸¼¶²»¹»µÄ£¬²»ÄÜ·±Ö³¡£¡£¡£
 EventEnd
 
-#ÉíÉÏÖ»ÓÐÓã£·-£¸£¸¼¶
+#èº«ä¸Šåªæœ‰é±¼ï¼—-ï¼˜ï¼˜çº§
 EventNo:-1
 TYPE:MESSAGE
 EVENT:ENDEV=4&NOWEV=253&PET=88-22106
 NomalWindowMsg:Ö»ÓÐÒ»ÌõÊÇ£¸£¸¼¶²»¹»µÄ£¬²»ÄÜ·±Ö³¡£¡£¡£
 EventEnd
 
-#ÉíÉÏÖ»ÓÐÓã£¸-£¸£¸¼¶
+#èº«ä¸Šåªæœ‰é±¼ï¼˜-ï¼˜ï¼˜çº§
 EventNo:-1
 TYPE:MESSAGE
 EVENT:ENDEV=4&NOWEV=253&PET=88-22107
 NomalWindowMsg:Ö»ÓÐÒ»ÌõÊÇ£¸£¸¼¶²»¹»µÄ£¬²»ÄÜ·±Ö³¡£¡£¡£
 EventEnd
 
-#ÓÐÓã¸Ë ÌáÊ¾Íæ¼Ò
+#æœ‰é±¼æ† æç¤ºçŽ©å®¶
 EventNo:-1
 TYPE:MESSAGE
 EVENT:ENDEV=4&NOWEV=253
 NomalWindowMsg:¿ìÈ¥°É£¬ÎÒ¸¸Ç×¾ÍÔÚË®³Ç¡£\n\nÅä¶Ô£º¿Ë°î¿­Ë¹Åä²¨²¨¶Ù\n      ¼Ó¸ñÅäµÏ¼Ó\n      ¼Ó¿ËÀ­ÅäÉ°öè\n      °î¶÷¼ªÅäÃ·Â³É¯\n\nÃ¿Ö»£¸£¸¼¶²ÅÄÜÉú³öÐÂÆ·ÖÖµÄ¡£¡£¡£
 EventEnd
 
-#½ÓÈÎÎñ
+#æŽ¥ä»»åŠ¡
 EventNo:253
 TYPE:REQUEST
 EVENT:ENDEV=4

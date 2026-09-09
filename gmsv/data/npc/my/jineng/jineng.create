@@ -1,6 +1,6 @@
 NPCCREATE
 
-#Q宠技能学习师
+#Q瀹犳妧鑳藉涔犲笀
 {
 name=Q宠训练师
 floorid=147
@@ -12,7 +12,7 @@ ignoreinvincible=1
 enemy=FreePetSkill|file:my/jineng/jineng.arg
 }
 
-#特殊技能学习师
+#鐗规畩鎶�鑳藉涔犲笀
 {
 name=特殊训练师
 floorid=155

@@ -168,7 +168,7 @@ name=ÂíĞ¡Áá
 enemy=changeevent|file:my/jiangshi/xiaoling.arg
 }
 
-#Äá¿ËË¹³ÇÄĞĞÔ¾ÓÃñ£¨ÏĞÁÄ£©
+#å°¼å…‹æ–¯åŸç”·æ€§å±…æ°‘ï¼ˆé—²èŠï¼‰
 {
 name=ÄĞĞÔ
 floorid=7200
@@ -182,7 +182,7 @@ graphicname=16561
 }
 
 
-### »ğ³Ç¹úÍõ
+### ç«åŸå›½ç‹
 {
 name=ºÕ¿ÏºÀ
 floorid=7300
@@ -193,7 +193,7 @@ enemy=changeevent|file:my/jiangshi/npc_20
 graphicname=16938
 }
 
-###### ÄĞº¢¸¸Ç×¿­¸ñ ######
+###### ç”·å­©çˆ¶äº²å‡¯æ ¼ ######
 {
 name=¿­¸ñ
 floorid=7404
@@ -206,7 +206,7 @@ enemy=changeevent|file:my/jiangshi/kaigur
 graphicname=16717
 }
 
-#Ëş¶úËş³ÇÅ®ĞÔ¾ÓÃñ£¨ÏĞÁÄ£©
+#å¡”è€³å¡”åŸå¥³æ€§å±…æ°‘ï¼ˆé—²èŠï¼‰
 {
 name=Å®ĞÔ
 floorid=7125

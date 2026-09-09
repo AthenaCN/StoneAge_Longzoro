@@ -1,22 +1,22 @@
-#######µØ³ÇÍõ×Ó£¨µØÀÎÄÚ£©########
+#######åœ°åŸŽçŽ‹å­ï¼ˆåœ°ç‰¢å†…ï¼‰########
 
 NomalMainMsg:ÄãÊÇË­£¬ÔõÃ´Ò²»á±»¹Ø½øÀ´ÁËÄØ£¿
 
-###µÈ´ýÀÏÊó###
+###ç­‰å¾…è€é¼ ###
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>90&ENDEV=4&ENDEV=81&ENDEV=174&ENDEV=116&ENDEV=111&ENDEV=115&NOWEV=175&NOWEV=176&ITEM=20611
 NomalWindowMsg:¿ìÇëÅóÓÑÀ´¸ÏÀÏÊó°É£¡
 EventEnd
 
-###ÓÐÔ¿³×###
+###æœ‰é’¥åŒ™###
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>90&ENDEV=4&ENDEV=81&ENDEV=174&ENDEV=116&ENDEV=111&ENDEV=115&NOWEV=175&NOWEV=176&ITEM=20609
 NomalWindowMsg:Äã¿ìµãÄÃÔ¿³×¿ªÃÅ³öÈ¥°É£¡¿ìÈ¥ÕÒËÄ´ó¾«ÁéÏòËûÃÇ¸æÖªÕâ¼þÊÂÇé£¬ÎÒÒªÏÈ»ØµØ³ÇÕÒÎÒ¸¸Ç×£¬²»È»Ëû»áºÜµ£ÐÄÎÒµÄ¡£
 EventEnd
 
-####ÓÐ176±êÃ»´ó¸£####
+####æœ‰176æ ‡æ²¡å¤§ç¦####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>90&ENDEV=4&ENDEV=81&ENDEV=174&ENDEV=116&ENDEV=111&ENDEV=115&NOWEV=175&NOWEV=176&ITEM!=20611
@@ -26,7 +26,7 @@ ItemFullMsg:ÄãÉíÉÏµÄ¶«Î÷ÂúÁËÀ²£¡¿ìµã¿ÕÒ»¸öÎ»×Ó¡£
 GetItem:20611
 EventEnd
 
-###¸øÌáÊ¾¸ÏÀÏÊó¸ø±ê£±£·£¶###
+###ç»™æç¤ºèµ¶è€é¼ ç»™æ ‡ï¼‘ï¼—ï¼–###
 EventNo:176
 TYPE:REQUEST
 EVENT:LV>90&ENDEV=4&ENDEV=81&ENDEV=174&ENDEV=116&ENDEV=111&ENDEV=115&NOWEV=175
@@ -39,7 +39,7 @@ ItemFullMsg:ÄãÉíÉÏµÄ¶«Î÷ÂúÁËÀ²£¡¿ìµã¿ÕÒ»¸öÎ»×Ó¡£
 GetItem:20611
 EventEnd
 
-#### Î´½ÓÈÎÎñ¶Ô»° ####
+#### æœªæŽ¥ä»»åŠ¡å¯¹è¯ ####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>0

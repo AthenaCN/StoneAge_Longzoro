@@ -2,7 +2,7 @@ NomalMainMsg:ËþÃÛÌáÑÅ±»¶³½©ÁË£¡¡«ÎØ¡«ÎØ¡«ÔõÃ´°ì²ÅºÃÄØ£¡
 
 
 
-####231ÖÐ####
+####231ä¸­####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>79&TRANS=6&ENDEV=184&ENDEV=185&ENDEV=187&NOWEV=231
@@ -10,7 +10,7 @@ NomalWindowMsg:Â·ÉÏÒªÐ¡ÐÄµãàÞ£¡Á÷±ù»ØÀÈ¿ÉÊÇºÜÈÝÒ×¾ÍÃÔÊ§·½ÏòµÄ£¡¡¡
 EventEnd
 
 
-###ÊÕÏÂËþÃÛ ¸ø·âÓ¡¾íÖá###
+###æ”¶ä¸‹å¡”èœœ ç»™å°å°å·è½´###
 EventNo:231
 TYPE:REQUEST
 EVENT:LV>79&TRANS=6&ENDEV=184&ENDEV=185&ENDEV=187&PET=79-1192*1
@@ -23,14 +23,14 @@ ItemFullMsg:ÉíÉÏµÀ¾ßÌ«¶àÁËà¸£¡
 PetFullMsg:ÉíÉÏ³èÎïÌ«¶àÁËÅ¶£¡
 EventEnd
 
-####ÈÎÎñ187Íê³É####
+####ä»»åŠ¡187å®Œæˆ####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>79&TRANS=6&ENDEV=184&ENDEV=185&ENDEV=187
 NomalWindowMsg:ËþÃÛÌáÑÅ½ñºó»áÐÒ¸£µÄ£¿ºÇºÇ£¡£¡£¡
 EventEnd
 
-###½á±ê187¡¡½»³ö»¨Åè²¢µÃµ½ËþÃÛ###
+###ç»“æ ‡187ã€€äº¤å‡ºèŠ±ç›†å¹¶å¾—åˆ°å¡”èœœ###
 EventNo:187
 TYPE:ACCEPT
 EVENT:LV>79&TRANS=6&ENDEV=184&ENDEV=185&NOWEV=187&ITEM=20850
@@ -44,14 +44,14 @@ ThanksMsg:ÎÒ°ÑËþÃÛÌáÑÅ½»¸øÄãÁË£¡ÄãÒªºÃºÃ¶Ô´ýËýàÞ£¡
 EndSetFlg:187
 EventEnd
 
-####ÈÎÎñ187ÖÐ####
+####ä»»åŠ¡187ä¸­####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>79&TRANS=6&ENDEV=184&ENDEV=185&NOWEV=187
 NomalWindowMsg:ÕÒµ½°¬ÃÖÆÅÆÅÁËÂï£¿¡«¡«¡«¡«
 EventEnd
 
-####½ÓÈÎÎñ¸ø±ê187##
+####æŽ¥ä»»åŠ¡ç»™æ ‡187##
 EventNo:187
 TYPE:REQUEST
 EVENT:LV>79&TRANS=6&ENDEV=184&ENDEV=185

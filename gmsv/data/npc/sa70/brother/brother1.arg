@@ -1,15 +1,15 @@
-########ÎÄÉ­########
+########æ–‡æ£®########
 
 NomalMainMsg:×î½üº£µ×Í¨Â·Àï³öÏÖÁË»áÀ¹Â·´ò½ÙµÄ¶ñ°Ô£¬Áî¹ýÍùµÄÂÃ¿Í¶¼·Ç³£µÄ·³ÄÕÄØ£¡
 
-###ÈÎÎñÍê³É###
+###ä»»åŠ¡å®Œæˆ###
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>29&ENDEV=145
 NomalWindowMsg:ÒÔºóÈ¥º£µ×Í¨Â·²»ÅÂÔÙ±»´ò½ÙÁË£¬Ð»Ð»ÄãµÄ°ïÃ¦¡£
 EventEnd
 
-###ÉíÉÏÓÐ¶ñ°ÔÌÓ×ßµÄ×ã¼£###
+###èº«ä¸Šæœ‰æ¶éœ¸é€ƒèµ°çš„è¶³è¿¹###
 EventNo:145
 TYPE:ACCEPT
 EVENT:LV>29&ITEM=1988&NOWEV=145
@@ -21,14 +21,14 @@ GetItem:1989
 EndSetFlg:145
 EventEnd
 
-###ÉíÉÏÓÐ±ê###
+###èº«ä¸Šæœ‰æ ‡###
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>29&NOWEV=145&ENDEV=4&ITEM=1986
 NomalWindowMsg:ÄÇÐ©¶ñ°ÔÈËÈËµÃ¶øÖïÖ®¡«¡«¡«¡«
 EventEnd
 
-###ÉíÉÏÓÐ±êÃ»µÀ¾ß##
+###èº«ä¸Šæœ‰æ ‡æ²¡é“å…·##
 EventNo:-1 
 TYPE:ACCEPT
 EVENT:LV>29&NOWEV=145&ENDEV=4&ITEM!=1986
@@ -38,7 +38,7 @@ ItemFullMsg:ÄãÉíÉÏµÄ¶«Î÷¿ÉÒÔ¼õÉÙÒ»µãÂð¡£
 GetItem:1986
 EventEnd
 
-###½ÓÈÎÎñ¸ø±ê###
+###æŽ¥ä»»åŠ¡ç»™æ ‡###
 EventNo:145
 TYPE:REQUEST
 EVENT:LV>29&ENDEV=4
@@ -48,7 +48,7 @@ ItemFullMsg:ÄãÉíÉÏµÄ¶«Î÷¿ÉÒÔ¼õÉÙÒ»µãÂð¡£
 GetItem:1986
 EventEnd
 
-#### Î´½ÓÈÎÎñ¶Ô»° ####
+#### æœªæŽ¥ä»»åŠ¡å¯¹è¯ ####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>0

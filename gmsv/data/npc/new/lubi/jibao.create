@@ -1,7 +1,7 @@
 NPCCREATE
 
 
-########封印迷宫#########
+########灏佸嵃杩峰#########
 {
 name=好心的医生
 floorid=32021
@@ -14,7 +14,7 @@ enemy=npcgen_warpman|file:new/lubi/fengyin.arg
 graphicname=16347
 }
 
-########碧青#########
+########纰ч潚#########
 {
 name=苗族赤脚医生
 floorid=850
@@ -28,7 +28,7 @@ graphicname=16342
 }
 
 
-########琉璃#########
+########鐞夌拑#########
 {
 name=龙洞的冒险者
 floorid=5511

@@ -321,5 +321,5 @@ char *genver=
 "_GM_METAMO_RIDE // GM人物骑所有宠\n"
 "_GM_RIDE		// GM命令设置骑宠权限\n"
 "_LOCK_IP		// 锁定IP\n"
-"<<Generated at Tue Sep 8 09:49:31 PM CST 2026>>"
+"<<Generated at Wed Sep 9 11:40:50 PM CST 2026>>"
 "by : 龙zoro工作室";

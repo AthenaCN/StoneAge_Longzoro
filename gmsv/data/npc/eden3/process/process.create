@@ -1,7 +1,7 @@
 NPCCREATE
 
 
-###### ±¦Ê¯ÌáÁ¶Ê¦ ######
+###### å®çŸ³æç‚¼å¸ˆ ######
 {
 name=±¦Ê¯ÌáÁ¶Ê¦
 floorid=7111
@@ -14,7 +14,7 @@ graphicname=16090
 enemy=ITEMCHANGE|file:eden3/process/maker1.arg
 }
 
-###### ½ğÊôÌáÁ¶Ê¦ ######
+###### é‡‘å±æç‚¼å¸ˆ ######
 {
 name=½ğÊôÌáÁ¶Ê¦
 floorid=7300
@@ -27,7 +27,7 @@ graphicname=16090
 enemy=ITEMCHANGE|file:eden3/process/maker2.arg
 }
 
-###### µØ×ê½ä¼Ó¹¤Ê¦ ######
+###### åœ°é’»æˆ’åŠ å·¥å¸ˆ ######
 {
 name=µØÄ§·¨×ê½ä¾«¹¤Ê¦
 floorid=7108
@@ -39,7 +39,7 @@ graphicname=16093
 enemy=ITEMCHANGE|file:eden3/process/blacksmith1.arg
 }
 
-###### Ë®×ê½ä¼Ó¹¤Ê¦ ######
+###### æ°´é’»æˆ’åŠ å·¥å¸ˆ ######
 {
 name=Ë®Ä§·¨×ê½ä¾«¹¤Ê¦
 floorid=7203
@@ -51,7 +51,7 @@ graphicname=16093
 enemy=ITEMCHANGE|file:eden3/process/blacksmith2.arg
 }
 
-###### »ğ×ê½ä¼Ó¹¤Ê¦ ######
+###### ç«é’»æˆ’åŠ å·¥å¸ˆ ######
 {
 name=»ğÄ§·¨×ê½ä¾«¹¤Ê¦
 floorid=7300
@@ -63,7 +63,7 @@ graphicname=16093
 enemy=ITEMCHANGE|file:eden3/process/blacksmith3.arg
 }
 
-###### ·ç×ê½ä¼Ó¹¤Ê¦ ######
+###### é£é’»æˆ’åŠ å·¥å¸ˆ ######
 {
 name=·çÄ§·¨×ê½ä¾«¹¤Ê¦
 floorid=7400
@@ -75,7 +75,7 @@ graphicname=16093
 enemy=ITEMCHANGE|file:eden3/process/blacksmith4.arg
 }
 
-###### ×îÖÕ×ê½ä¼Ó¹¤Ê¦ ######
+###### æœ€ç»ˆé’»æˆ’åŠ å·¥å¸ˆ ######
 {
 name=Ä§·¨×ê½ä¾«¹¤Ê¦
 floorid=7000
@@ -87,7 +87,7 @@ graphicname=16093
 enemy=ITEMCHANGE|file:eden3/process/blacksmith5.arg
 }
 
-###### ½ğÊô·À¾ß¼Ó¹¤Ê¦ ######
+###### é‡‘å±é˜²å…·åŠ å·¥å¸ˆ ######
 {
 name=½ğÊô·À¾ß¾«¹¤Ê¦
 floorid=7107
@@ -99,7 +99,7 @@ graphicname=16092
 enemy=ITEMCHANGE|file:eden3/process/blacksmith6.arg
 }
 
-###### ½ğÊôÎäÆ÷¼Ó¹¤Ê¦ ######
+###### é‡‘å±æ­¦å™¨åŠ å·¥å¸ˆ ######
 {
 name=½ğÊôÎäÆ÷¼Ó¹¤Ê¦
 floorid=7300
@@ -111,7 +111,7 @@ createnum=1
 enemy=ITEMCHANGE|file:eden3/process/blacksmith7.arg
 }
 
-###### ½ğÊôÎäÆ÷¼Ó¹¤Ê¦ ######
+###### é‡‘å±æ­¦å™¨åŠ å·¥å¸ˆ ######
 {
 name=½ğÊôÎäÆ÷¾«¹¤Ê¦
 floorid=7400

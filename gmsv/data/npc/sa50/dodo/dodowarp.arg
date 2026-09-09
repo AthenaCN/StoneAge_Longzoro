@@ -1,13 +1,13 @@
 NEWWARPMAN
 
-#### 迷官老人标全不正确，不理 ####
+#### 杩峰畼鑰佷汉鏍囧叏涓嶆纭紝涓嶇悊 ####
 NOFREE
 FREE:LV>0
 NomalMsg:飞龙蛋呢？！
 PartyMsg:....................
 OVER
 
-####传送老人有旗标１２５（身上有蛋）####
+####浼犻�佽�佷汉鏈夋棗鏍囷紤锛掞紩锛堣韩涓婃湁铔嬶級####
 TALKEVENT1
 WARP:60067,121,8
 FREE:LV>89&ENDEV=4&ENDEV=81&NOWEV=125&ITEM=1482&ITEM=2414

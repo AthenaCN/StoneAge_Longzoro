@@ -1,6 +1,6 @@
 NPCCREATE
 
-#µÚ1¸öĞıÎĞ
+#ç¬¬1ä¸ªæ—‹æ¶¡
 {
 floorid=8113
 borncorner=62,53,62,53
@@ -13,7 +13,7 @@ name=ĞıÎĞ
 enemy=npcgen_warpman|file:my/beike/xuanwo1.arg
 }
 
-#µÚ2¸öĞıÎĞ
+#ç¬¬2ä¸ªæ—‹æ¶¡
 {
 floorid=8113
 borncorner=63,50,63,50
@@ -26,7 +26,7 @@ name=ĞıÎĞ
 enemy=npcgen_warpman|file:my/beike/xuanwo2.arg
 }
 
-#µÚ3¸öĞıÎĞ
+#ç¬¬3ä¸ªæ—‹æ¶¡
 {
 floorid=8113
 borncorner=63,46,63,46
@@ -39,7 +39,7 @@ name=ĞıÎĞ
 enemy=npcgen_warpman|file:my/beike/xuanwo3.arg
 }
 
-#µÚ4¸öĞıÎĞ
+#ç¬¬4ä¸ªæ—‹æ¶¡
 {
 floorid=8113
 borncorner=63,42,63,42
@@ -52,7 +52,7 @@ name=ĞıÎĞ
 enemy=npcgen_warpman|file:my/beike/xuanwo4.arg
 }
 
-#µÚ5¸öĞıÎĞ
+#ç¬¬5ä¸ªæ—‹æ¶¡
 {
 floorid=8113
 borncorner=63,38,63,38
@@ -65,7 +65,7 @@ name=ĞıÎĞ
 enemy=npcgen_warpman|file:my/beike/xuanwo5.arg
 }
 
-#ĞıÎĞÍ¨µÀµØÉÏµÄÏÅ
+#æ—‹æ¶¡é€šé“åœ°ä¸Šçš„å“
 {
 floorid=8113
 borncorner=66,15,66,15
@@ -77,7 +77,7 @@ graphicname=24268
 name=Ô¶¹ÅÏºµÄ»¯Ê¯
 enemy=changeevent|file:my/beike/xia.arg
 }
-#ÌØÊâÌøÔ¾µã
+#ç‰¹æ®Šè·³è·ƒç‚¹
 {
 floorid=817
 borncenter=13,117
@@ -85,7 +85,7 @@ ignoreinvincible=1
 createnum=1
 enemy=npcgen_warp|file:my/beike/warp.arg
 }
-#ÌØÊâÌøÔ¾µã
+#ç‰¹æ®Šè·³è·ƒç‚¹
 {
 floorid=8102
 borncenter=34,42

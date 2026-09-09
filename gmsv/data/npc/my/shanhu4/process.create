@@ -1,6 +1,6 @@
 NPCCREATE
 
-###### ±¦Ê¯¾«Á¶Ê¦ ######
+###### å®çŸ³ç²¾ç‚¼å¸ˆ ######
 {
 name=±¦Ê¯¾«Á¶Ê¦
 floorid=7530
@@ -13,7 +13,7 @@ graphicname=17069
 enemy=ITEMCHANGE|file:my/shanhu4/maker1.arg
 }
 
-###### Éºº÷¿ó·ÛÌáÁ¶Ê¦ ######
+###### çŠç‘šçŸ¿ç²‰æç‚¼å¸ˆ ######
 {
 name=Éºº÷¿ó·ÛÌáÁ¶Ê¦
 floorid=2000
@@ -26,7 +26,7 @@ graphicname=16743
 enemy=ITEMCHANGE|file:my/shanhu4/maker2.arg
 }
 
-########¡¡ÂåÑ×µÈ¼¶Ò»×°±¸¾«¹¤Ê¦ Éîºì¶´µØÏÂ¾ÅÂ¥¡¡#########
+########ã€€æ´›ç‚ç­‰çº§ä¸€è£…å¤‡ç²¾å·¥å¸ˆ æ·±çº¢æ´åœ°ä¸‹ä¹æ¥¼ã€€#########
 {
 name=±´¿ËµÄµÜ×Ó
 floorid=30016
@@ -39,7 +39,7 @@ graphicname=16616
 enemy=ITEMCHANGE|file:my/shanhu4/eqmaker1.arg
 }
 
-########¡¡ºÖÄÇµÈ¼¶Ò»×°±¸¾«¹¤Ê¦ ÁğÁ§¶´Ê®ÎåÂ¥¡¡#########
+########ã€€è¤é‚£ç­‰çº§ä¸€è£…å¤‡ç²¾å·¥å¸ˆ ç‰ç’ƒæ´åäº”æ¥¼ã€€#########
 {
 name=±´¿ËµÄµÜ×Ó
 floorid=21015
@@ -52,7 +52,7 @@ graphicname=16460
 enemy=ITEMCHANGE|file:my/shanhu4/eqmaker2.arg
 }
 
-########¡¡±Ì»ªµÈ¼¶Ò»×°±¸¾«¹¤Ê¦ ±ÌÇà¶´µØÏÂÊ®ÎåÂ¥¡¡#########
+########ã€€ç¢§åç­‰çº§ä¸€è£…å¤‡ç²¾å·¥å¸ˆ ç¢§é’æ´åœ°ä¸‹åäº”æ¥¼ã€€#########
 {
 name=±´¿ËµÄµÜ×Ó
 floorid=21215
@@ -65,7 +65,7 @@ graphicname=16562
 enemy=ITEMCHANGE|file:my/shanhu4/eqmaker3.arg
 }
 
-########¡¡ÎÂÌØµÈ¼¶Ò»×°±¸¾«¹¤Ê¦ Ğş»Æ¶´Ê®ÎåÂ¥¡¡#########
+########ã€€æ¸©ç‰¹ç­‰çº§ä¸€è£…å¤‡ç²¾å·¥å¸ˆ ç„é»„æ´åäº”æ¥¼ã€€#########
 {
 name=±´¿ËµÄµÜ×Ó
 floorid=11215
@@ -78,7 +78,7 @@ graphicname=16730
 enemy=ITEMCHANGE|file:my/shanhu4/eqmaker4.arg
 }
 
-########¡¡ÂåÑ×µÈ¼¶¶ş×°±¸¾«¹¤Ê¦ ¸¥ÁÒ¶Ù³ÇÇø¡¡#########
+########ã€€æ´›ç‚ç­‰çº§äºŒè£…å¤‡ç²¾å·¥å¸ˆ å¼—çƒˆé¡¿åŸåŒºã€€#########
 {
 name=±´¿ËµÄµÜ×Ó
 floorid=706
@@ -91,7 +91,7 @@ graphicname=16649
 enemy=ITEMCHANGE|file:my/shanhu4/eqmaker11.arg
 }
 
-########¡¡ºÖÄÇµÈ¼¶¶ş×°±¸¾«¹¤Ê¦ Ëş¶ûËş³ÇÇø¡¡#########
+########ã€€è¤é‚£ç­‰çº§äºŒè£…å¤‡ç²¾å·¥å¸ˆ å¡”å°”å¡”åŸåŒºã€€#########
 {
 name=±´¿ËµÄµÜ×Ó
 floorid=708
@@ -104,7 +104,7 @@ graphicname=16495
 enemy=ITEMCHANGE|file:my/shanhu4/eqmaker12.arg
 }
 
-########¡¡±Ì»ªµÈ¼¶¶ş×°±¸¾«¹¤Ê¦ Äá¿ËË¹³ÇÇø¡¡#########
+########ã€€ç¢§åç­‰çº§äºŒè£…å¤‡ç²¾å·¥å¸ˆ å°¼å…‹æ–¯åŸåŒºã€€#########
 {
 name=±´¿ËµÄµÜ×Ó
 floorid=702
@@ -117,7 +117,7 @@ graphicname=16547
 enemy=ITEMCHANGE|file:my/shanhu4/eqmaker13.arg
 }
 
-########¡¡ÎÂÌØµÈ¼¶¶ş×°±¸¾«¹¤Ê¦ ÑÇÒÁÅ·³ÇÇø¡¡#########
+########ã€€æ¸©ç‰¹ç­‰çº§äºŒè£…å¤‡ç²¾å·¥å¸ˆ äºšä¼Šæ¬§åŸåŒºã€€#########
 {
 name=±´¿ËµÄµÜ×Ó
 floorid=704
@@ -130,7 +130,7 @@ graphicname=16748
 enemy=ITEMCHANGE|file:my/shanhu4/eqmaker14.arg
 }
 
-########¡¡ÂåÑ×µÈ¼¶Èı×°±¸¾«¹¤Ê¦ ¡¡#########
+########ã€€æ´›ç‚ç­‰çº§ä¸‰è£…å¤‡ç²¾å·¥å¸ˆ ã€€#########
 {
 name=±´¿ËµÄµÜ×Ó
 floorid=1998
@@ -143,7 +143,7 @@ graphicname=16615
 enemy=ITEMCHANGE|file:my/shanhu4/eqmaker21.arg
 }
 
-########¡¡ºÖÄÇµÈ¼¶¶ş×°±¸¾«¹¤Ê¦ ¡¡#########
+########ã€€è¤é‚£ç­‰çº§äºŒè£…å¤‡ç²¾å·¥å¸ˆ ã€€#########
 {
 name=±´¿ËµÄµÜ×Ó
 floorid=1998
@@ -156,7 +156,7 @@ graphicname=16498
 enemy=ITEMCHANGE|file:my/shanhu4/eqmaker22.arg
 }
 
-########¡¡±Ì»ªµÈ¼¶¶ş×°±¸¾«¹¤Ê¦ ¡¡#########
+########ã€€ç¢§åç­‰çº§äºŒè£…å¤‡ç²¾å·¥å¸ˆ ã€€#########
 {
 name=±´¿ËµÄµÜ×Ó
 floorid=1998
@@ -169,7 +169,7 @@ graphicname=16524
 enemy=ITEMCHANGE|file:my/shanhu4/eqmaker23.arg
 }
 
-########¡¡ÎÂÌØµÈ¼¶¶ş×°±¸¾«¹¤Ê¦ ¡¡#########
+########ã€€æ¸©ç‰¹ç­‰çº§äºŒè£…å¤‡ç²¾å·¥å¸ˆ ã€€#########
 {
 name=±´¿ËµÄµÜ×Ó
 floorid=1998
@@ -182,7 +182,7 @@ graphicname=16731
 enemy=ITEMCHANGE|file:my/shanhu4/eqmaker24.arg
 }
 
-##### ÏâÇ¶ÑĞ¾¿Ê¦1######
+##### é•¶åµŒç ”ç©¶å¸ˆ1######
 {
 name=Ò»¼¶×ê¿×Ê¦
 floorid=7520
@@ -194,7 +194,7 @@ graphicname=16459
 enemy=changeevent|file:my/shanhu4/xianqian.arg
 }
 
-##### ÏâÇ¶ÑĞ¾¿Ê¦2######
+##### é•¶åµŒç ”ç©¶å¸ˆ2######
 {
 name=¶ş¼¶×ê¿×Ê¦
 floorid=7520
@@ -206,7 +206,7 @@ graphicname=16932
 enemy=changeevent|file:my/shanhu4/xianqian1.arg
 }
 
-##### ÏâÇ¶ÑĞ¾¿Ê¦3######
+##### é•¶åµŒç ”ç©¶å¸ˆ3######
 {
 name=Èı¼¶×ê¿×Ê¦
 floorid=7520
@@ -218,7 +218,7 @@ graphicname=16713
 enemy=changeevent|file:my/shanhu4/xianqian2.arg
 }
 
-###### ¾«Á¶Ê¦¡¸Ê¯¡¹ ######
+###### ç²¾ç‚¼å¸ˆã€ŒçŸ³ã€ ######
 {
 name=¾«Á¶Ê¦¡¸Ê¯¡¹
 floorid=1090
@@ -232,7 +232,7 @@ graphicname=41047
 enemy=ITEMCHANGE|file:my/shanhu4/1.arg
 }
 
-###### ¾«Á¶Ê¦¡¸Ä¾¡¹ ######
+###### ç²¾ç‚¼å¸ˆã€Œæœ¨ã€ ######
 {
 name=¾«Á¶Ê¦¡¸Ä¾¡¹
 floorid=1090
@@ -246,7 +246,7 @@ graphicname=41047
 enemy=ITEMCHANGE|file:my/shanhu4/2.arg
 }
 
-###### ¾«Á¶Ê¦¡¸¹Ç¡¹ ######
+###### ç²¾ç‚¼å¸ˆã€Œéª¨ã€ ######
 {
 name=¾«Á¶Ê¦¡¸¹Ç¡¹
 floorid=1090
@@ -260,7 +260,7 @@ graphicname=41047
 enemy=ITEMCHANGE|file:my/shanhu4/3.arg
 }
 
-###### ¾«Á¶Ê¦¡¸ÑÀ¡¹ ######
+###### ç²¾ç‚¼å¸ˆã€Œç‰™ã€ ######
 {
 name=¾«Á¶Ê¦¡¸ÑÀ¡¹
 floorid=1090
@@ -274,7 +274,7 @@ graphicname=41047
 enemy=ITEMCHANGE|file:my/shanhu4/4.arg
 }
 
-###### ¾«Á¶Ê¦¡¸Æ¤¡¹ ######
+###### ç²¾ç‚¼å¸ˆã€Œçš®ã€ ######
 {
 name=¾«Á¶Ê¦¡¸Æ¤¡¹
 floorid=1090
@@ -288,7 +288,7 @@ graphicname=41047
 enemy=ITEMCHANGE|file:my/shanhu4/5.arg
 }
 
-###### ¾«Á¶Ê¦¡¸×¦¡¹ ######
+###### ç²¾ç‚¼å¸ˆã€Œçˆªã€ ######
 {
 name=¾«Á¶Ê¦¡¸×¦¡¹
 floorid=1090
@@ -302,7 +302,7 @@ graphicname=41047
 enemy=ITEMCHANGE|file:my/shanhu4/6.arg
 }
 
-###### ¾«Á¶Ê¦¡¸±´¿Ç¡¹ ######
+###### ç²¾ç‚¼å¸ˆã€Œè´å£³ã€ ######
 {
 name=¾«Á¶Ê¦¡¸±´¿Ç¡¹
 floorid=1090
@@ -316,7 +316,7 @@ graphicname=41047
 enemy=ITEMCHANGE|file:my/shanhu4/7.arg
 }
 
-###### ¾«Á¶Ê¦¡¸¿Ç¡¹ ######
+###### ç²¾ç‚¼å¸ˆã€Œå£³ã€ ######
 {
 name=¾«Á¶Ê¦¡¸¿Ç¡¹
 floorid=1090
@@ -330,7 +330,7 @@ graphicname=41047
 enemy=ITEMCHANGE|file:my/shanhu4/8.arg
 }
 
-###### ¾«Á¶Ê¦¡¸Ïß¡¹ ######
+###### ç²¾ç‚¼å¸ˆã€Œçº¿ã€ ######
 {
 name=¾«Á¶Ê¦¡¸Ïß¡¹
 floorid=1090
@@ -344,7 +344,7 @@ graphicname=41047
 enemy=ITEMCHANGE|file:my/shanhu4/9.arg
 }
 
-###### ¾«Á¶Ê¦¡¸»¨¡¹ ######
+###### ç²¾ç‚¼å¸ˆã€ŒèŠ±ã€ ######
 {
 name=¾«Á¶Ê¦¡¸»¨¡¹
 floorid=1090
@@ -358,7 +358,7 @@ graphicname=41047
 enemy=ITEMCHANGE|file:my/shanhu4/10.arg
 }
 
-###### ¾«Á¶Ê¦¡¸ğ¤ÍÁ¡¹ ######
+###### ç²¾ç‚¼å¸ˆã€Œé»åœŸã€ ######
 {
 name=¾«Á¶Ê¦¡¸ğ¤ÍÁ¡¹
 floorid=1090
@@ -372,7 +372,7 @@ graphicname=41047
 enemy=ITEMCHANGE|file:my/shanhu4/11.arg
 }
 
-###### ¾«Á¶Ê¦¡¸ÁÛ¡¹ ######
+###### ç²¾ç‚¼å¸ˆã€Œé³ã€ ######
 {
 name=¾«Á¶Ê¦¡¸ÁÛ¡¹
 floorid=1090
@@ -386,7 +386,7 @@ graphicname=41047
 enemy=ITEMCHANGE|file:my/shanhu4/12.arg
 }
 
-###### ¾«Á¶Ê¦¡¸Ò¶¡¹ ######
+###### ç²¾ç‚¼å¸ˆã€Œå¶ã€ ######
 {
 name=¾«Á¶Ê¦¡¸Ò¶¡¹
 floorid=1090
@@ -400,7 +400,7 @@ graphicname=41047
 enemy=ITEMCHANGE|file:my/shanhu4/13.arg
 }
 
-###### ¾«Á¶Ê¦¡¸Ë®¾§¡¹ ######
+###### ç²¾ç‚¼å¸ˆã€Œæ°´æ™¶ã€ ######
 {
 name=¾«Á¶Ê¦¡¸Ë®¾§¡¹
 floorid=1090
@@ -415,7 +415,7 @@ enemy=ITEMCHANGE|file:my/shanhu4/14.arg
 }
 
 
-###### ÂÌÉ«ËÑ»êË®¾§ºÏ³ÉÊ¦ ######
+###### ç»¿è‰²æœé­‚æ°´æ™¶åˆæˆå¸ˆ ######
 {
 name=Ìú½³µÄÍ½µÜ
 floorid=61011
@@ -428,7 +428,7 @@ graphicname=16413
 enemy=ITEMCHANGE|file:my/shanhu4/greenstone.arg
 }
 
-###### À¶É«ËÑ»êË®¾§ºÏ³ÉÊ¦ ######
+###### è“è‰²æœé­‚æ°´æ™¶åˆæˆå¸ˆ ######
 {
 name=Ìú½³µÄÍ½µÜ
 floorid=61011
@@ -441,7 +441,7 @@ graphicname=16510
 enemy=ITEMCHANGE|file:my/shanhu4/bluestone.arg
 }
 
-###### ºìÉ«ËÑ»êË®¾§ºÏ³ÉÊ¦ ######
+###### çº¢è‰²æœé­‚æ°´æ™¶åˆæˆå¸ˆ ######
 {
 name=Ìú½³µÄÍ½µÜ
 floorid=61011
@@ -454,7 +454,7 @@ graphicname=16623
 enemy=ITEMCHANGE|file:my/shanhu4/redstone.arg
 }
 
-###### »ÆÉ«ËÑ»êË®¾§ºÏ³ÉÊ¦ ######
+###### é»„è‰²æœé­‚æ°´æ™¶åˆæˆå¸ˆ ######
 {
 name=Ìú½³µÄÍ½µÜ
 floorid=61011
@@ -467,7 +467,7 @@ graphicname=16740
 enemy=ITEMCHANGE|file:my/shanhu4/yellowstone.arg
 }
 
-##### ºÖÄÇµÄÌú½³-Ñü´ø######
+##### è¤é‚£çš„é“åŒ -è…°å¸¦######
 {
 name=Ìú½³°¢¿ËËş
 floorid=1400
@@ -480,7 +480,7 @@ graphicname=16409
 enemy=ITEMCHANGE|file:my/shanhu4/tjgreen1.arg
 }
 
-##### ºÖÄÇµÄÌú½³-Ñ¥×Ó######
+##### è¤é‚£çš„é“åŒ -é´å­######
 {
 name=Ìú½³°¢¿Ë²¼
 floorid=1400
@@ -493,7 +493,7 @@ graphicname=16412
 enemy=ITEMCHANGE|file:my/shanhu4/tjgreen2.arg
 }
 
-##### ºÖÄÇµÄÌú½³-ÊÖÌ×######
+##### è¤é‚£çš„é“åŒ -æ‰‹å¥—######
 {
 name=Ìú½³°¢¿ËÎ÷
 floorid=1400
@@ -506,7 +506,7 @@ graphicname=16423
 enemy=ITEMCHANGE|file:my/shanhu4/tjgreen3.arg
 }
 
-##### ºÖÄÇµÄÌú½³-¶ÜÅÆ######
+##### è¤é‚£çš„é“åŒ -ç›¾ç‰Œ######
 {
 name=Ìú½³°¢¿ËÄÇ
 floorid=1400
@@ -519,7 +519,7 @@ graphicname=16429
 enemy=ITEMCHANGE|file:my/shanhu4/tjgreen4.arg
 }
 
-##### ±Ì»ªµÄÌú½³-Ñü´ø######
+##### ç¢§åçš„é“åŒ -è…°å¸¦######
 {
 name=Ìú½³»ªÎ÷
 floorid=7500
@@ -532,7 +532,7 @@ graphicname=16506
 enemy=ITEMCHANGE|file:my/shanhu4/tjblue1.arg
 }
 
-##### ±Ì»ªµÄÌú½³-Ñ¥×Ó######
+##### ç¢§åçš„é“åŒ -é´å­######
 {
 name=Ìú½³»ªÄÇ
 floorid=7500
@@ -545,7 +545,7 @@ graphicname=16508
 enemy=ITEMCHANGE|file:my/shanhu4/tjblue2.arg
 }
 
-##### ±Ì»ªµÄÌú½³-ÊÖÌ×######
+##### ç¢§åçš„é“åŒ -æ‰‹å¥—######
 {
 name=Ìú½³»ª¿Ë
 floorid=7500
@@ -558,7 +558,7 @@ graphicname=16515
 enemy=ITEMCHANGE|file:my/shanhu4/tjblue3.arg
 }
 
-##### ±Ì»ªµÄÌú½³-¶ÜÅÆ######
+##### ç¢§åçš„é“åŒ -ç›¾ç‰Œ######
 {
 name=Ìú½³»ª»ù
 floorid=7500
@@ -571,7 +571,7 @@ graphicname=16525
 enemy=ITEMCHANGE|file:my/shanhu4/tjblue4.arg
 }
 
-##### ÂåÑ×µÄÌú½³-Ñü´ø######
+##### æ´›ç‚çš„é“åŒ -è…°å¸¦######
 {
 name=Ìú½³Âå¿ËÎ÷
 floorid=61001
@@ -584,7 +584,7 @@ graphicname=16616
 enemy=ITEMCHANGE|file:my/shanhu4/tjred1.arg
 }
 
-##### ÂåÑ×µÄÌú½³-Ñ¥×Ó######
+##### æ´›ç‚çš„é“åŒ -é´å­######
 {
 name=Ìú½³Âå¿Ë»ª
 floorid=61001
@@ -597,7 +597,7 @@ graphicname=16618
 enemy=ITEMCHANGE|file:my/shanhu4/tjred2.arg
 }
 
-##### ÂåÑ×µÄÌú½³-ÊÖÌ×######
+##### æ´›ç‚çš„é“åŒ -æ‰‹å¥—######
 {
 name=Ìú½³Âå¿Ë¶à
 floorid=61001
@@ -610,7 +610,7 @@ graphicname=16632
 enemy=ITEMCHANGE|file:my/shanhu4/tjred3.arg
 }
 
-##### ÂåÑ×µÄÌú½³-¶ÜÅÆ######
+##### æ´›ç‚çš„é“åŒ -ç›¾ç‰Œ######
 {
 name=Ìú½³Âå¿ËÄÇ
 floorid=61001
@@ -623,7 +623,7 @@ graphicname=16610
 enemy=ITEMCHANGE|file:my/shanhu4/tjred4.arg
 }
 
-##### ÎÂÌØµÄÌú½³-Ñü´ø######
+##### æ¸©ç‰¹çš„é“åŒ -è…°å¸¦######
 {
 name=Ìú½³ÎÂÔ¼
 floorid=8257
@@ -636,7 +636,7 @@ graphicname=16616
 enemy=ITEMCHANGE|file:my/shanhu4/tjyellow1.arg
 }
 
-##### ÎÂÌØµÄÌú½³-Ñ¥×Ó######
+##### æ¸©ç‰¹çš„é“åŒ -é´å­######
 {
 name=Ìú½³ÎÂÏ£
 floorid=8257
@@ -649,7 +649,7 @@ graphicname=16618
 enemy=ITEMCHANGE|file:my/shanhu4/tjyellow2.arg
 }
 
-##### ÎÂÌØµÄÌú½³-ÊÖÌ×######
+##### æ¸©ç‰¹çš„é“åŒ -æ‰‹å¥—######
 {
 name=Ìú½³ÎÂ¶à
 floorid=8257
@@ -662,7 +662,7 @@ graphicname=16632
 enemy=ITEMCHANGE|file:my/shanhu4/tjyellow3.arg
 }
 
-##### ÎÂÌØµÄÌú½³-¶ÜÅÆ######
+##### æ¸©ç‰¹çš„é“åŒ -ç›¾ç‰Œ######
 {
 name=Ìú½³ÎÂÄÇ
 floorid=8257

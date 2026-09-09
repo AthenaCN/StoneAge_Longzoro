@@ -1,25 +1,25 @@
-#Í¬Òâ³ö×Ê
+#åŒæ„å‡ºèµ„
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>1&ITEM=30910&ITEM=30909&ITEM=30944&NOWEV=232
 NomalWindowMsg:¿ìÈ¥×¼±¸²Î¼Ó·¨Ê¦°É£¡£¡
 EventEnd
 
-#Í¬Òâ³ö×Ê
+#åŒæ„å‡ºèµ„
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>1&ITEM=30910&ITEM=30909&ITEM=30919&NOWEV=232
 NomalWindowMsg:Ð¡Ù»£¬ÄãÎªÊ²Ã´¶¼²»¶®ÂèÂèÑ½£¬\n\nÂèÒ²ÊÇÎªÁËÄãºÃ£¬±ðÀÏÔÚÍâÃæ»ì£¬ÍâÃæÎ£ÏÕ£¬Ôçµã»Ø¼Ò°É£¡
 EventEnd
 
-#Í¬Òâ³ö×Ê
+#åŒæ„å‡ºèµ„
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>1&ITEM=30910&ITEM=30909&ITEM=30914&ITEM=30916&NOWEV=232
 NomalWindowMsg:°ïÎÒÅ®¶ùºÃºÃ³¬¶È°É~~~
 EventEnd
 
-#Í¬Òâ³ö×Ê
+#åŒæ„å‡ºèµ„
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>1&ITEM=30910&ITEM=30909&ITEM=30914&NOWEV=232
@@ -28,14 +28,14 @@ GetItem:30916
 ItemFullMsg:ÄãÉíÉÏ¶«Î÷Ì«¶àÁË¡«¡« 
 EventEnd
 
-#ÁÏÀí×öÍê
+#æ–™ç†åšå®Œ
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>1&ITEM=30913&NOWEV=232
 NomalWindowMsg:Ð»Ð»ÄãÁË~~~ÐþÎäÍ¯×ÓÕýÔÚÕÒÄãÄØ~ÄãÈ¥¿´¿´Ëû£¡
 EventEnd
 
-#È«²¿¶¼ÓÐ
+#å…¨éƒ¨éƒ½æœ‰
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>1&ITEM=30910&ITEM=30909&ITEM=12686&ITEM=12656&ITEM=30912&ITEM=30911&NOWEV=232
@@ -45,14 +45,14 @@ GetItem:30913
 ItemFullMsg:ÄãÉíÉÏ¶«Î÷Ì«¶àÁË¡«¡« 
 EventEnd
 
-#È«²¿¶¼ÓÐ
+#å…¨éƒ¨éƒ½æœ‰
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>1&ITEM=30910&ITEM=30909&ITEM=30912&ITEM=30911&NOWEV=232
 NomalWindowMsg:¿ìÈ¥°ïÎÒ×öÏÂ£¬×öºÃÁËÂé·³¿ìµãÄÃÉÏÀ´£¬Ð»Ð»`
 EventEnd
 
-#ÖØÐÂÄÃÅä·½2
+#é‡æ–°æ‹¿é…æ–¹2
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>1&ITEM=30910&ITEM=30909&ITEM=30912&ITEM!=30911&NOWEV=232
@@ -61,7 +61,7 @@ GetItem:30911
 ItemFullMsg:ÄãÉíÉÏ¶«Î÷Ì«¶àÁË¡«¡« 
 EventEnd
 
-#ÖØÐÂÄÃÅä·½1
+#é‡æ–°æ‹¿é…æ–¹1
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>1&ITEM=30910&ITEM=30909&ITEM=30911&ITEM!=30912&NOWEV=232
@@ -70,7 +70,7 @@ GetItem:30912
 ItemFullMsg:ÄãÉíÉÏ¶«Î÷Ì«¶àÁË¡«¡« 
 EventEnd
 
-#ÉíÉÏÓÐ2ÃûÆ¬ÄÃÅä·½
+#èº«ä¸Šæœ‰2åç‰‡æ‹¿é…æ–¹
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>1&ITEM=30910&ITEM=30909&NOWEV=232
@@ -79,14 +79,14 @@ GetItem:30911,30912
 ItemFullMsg:ÄãÉíÉÏ¶«Î÷Ì«¶àÁË¡«¡« 
 EventEnd
 
-#ÉíÉÏÓÐÁé»ê
+#èº«ä¸Šæœ‰çµé­‚
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>1&ITEM=30908&NOWEV=232
 NomalWindowMsg:ÎÒµÄÅ®¶ù°¡£¿£¿\n\nÄãÔõÃ´ÄÜ¶ªÏÂÎÒ¾ÍÕâÃ´×ßÁË°¡~~~£¿£¿
 EventEnd
 
-#### Î´½ÓÈÎÎñ¶Ô»° ####
+#### æœªæŽ¥ä»»åŠ¡å¯¹è¯ ####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>0

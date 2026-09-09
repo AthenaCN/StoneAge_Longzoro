@@ -31,6 +31,24 @@ int MAGIC_Use(int charaindex, int haveitemindex, int toindex) {
 	itemindex = CHAR_getItemIndex(charaindex, haveitemindex);
 	if (!ITEM_CHECKINDEX(itemindex))
 		return FALSE;
+
+	/* Tokyo-sa fix: 物品声明了 USEFUNC（食物/罐头/骑乘学习等，itemset6 共 1417 种）
+	 * 时优先走 USEFUNC 分发，对齐 9.0 原版（原版 itemset6 无有效 magicid 列，
+	 * 食物类靠 USEFUNC=ITEM_useRecovery 生效并消耗物品）。否则小块肉(24008)等
+	 * 会被误判成 magicid=0 走"治愈的精灵"魔法分支，不消耗物品、目标错误。 */
+	{
+		const char *us = ITEM_getChar(itemindex, ITEM_USEFUNC);
+		if (us != NULL && us[0] != '\0' && strcmp(us, "ITEM_DeleteTimeWatched") != 0) {
+			void (*usefunc)(int, int, int);
+			usefunc = (void (*)(int, int, int))
+				ITEM_getFunctionPointer(itemindex, ITEM_USEFUNC);
+			if (usefunc) {
+				usefunc(charaindex, toindex, haveitemindex);
+				return TRUE;
+			}
+		}
+	}
+
 	magicid = ITEM_getInt(itemindex, ITEM_MAGICID);
 	marray = MAGIC_getMagicArray(magicid);
 	if (marray == -1)

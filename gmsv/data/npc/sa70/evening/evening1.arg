@@ -1,15 +1,15 @@
-########¹þ¶ûÀû########
+########å“ˆå°”åˆ©########
 
 NomalMainMsg:Ìì¨Ú£¡Ë¯²»×ÅÕæÊÇÁîÈËÍ´¿à¨Ú£¡
 
-###ÉíÉÏÓÐÒ©###
+###èº«ä¸Šæœ‰è¯###
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>0&ITEM=1985
 NomalWindowMsg:£Ú£Ú£Ú¡«¡«¡«£Ú£Ú£Ú¡«¡«¡«
 EventEnd
 
-###ÉíÉÏÓÐÒ©###
+###èº«ä¸Šæœ‰è¯###
 EventNo:-1 
 TYPE:ACCEPT
 EVENT:LV>0&ITEM=1982&ITEM=1984
@@ -20,14 +20,14 @@ GetItem:1985
 DelItem:1982*1,1984*1
 EventEnd
 
-###ÉíÉÏÓÐÊé###
+###èº«ä¸Šæœ‰ä¹¦###
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>0&ITEM=1982
 NomalWindowMsg:±ðËµÁË£¬¿ì³ö·¢°É£¡
 EventEnd
 
-###¸øÎ¯ÍÐÊé###
+###ç»™å§”æ‰˜ä¹¦###
 EventNo:-1 
 TYPE:ACCEPT
 EVENT:LV>0

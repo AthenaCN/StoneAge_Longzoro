@@ -1,5 +1,5 @@
 NPCCREATE
-#ÈøÄ·¼ª¶ûµÄÍòÊÂÍ¨
+#è¨å§†å‰å°”çš„ä¸‡äº‹é€š
 {
 floorid=1006
 borncenter=18,26,1,1
@@ -12,7 +12,7 @@ name=´å×ÓÀïµÄÍòÊÂÍ¨
 enemy=windowman|conff:sainasu/manual.conf
 }
 
-#ÂêÀöÄÇË¹µÄÍòÊÂÍ¨
+#ç›ä¸½é‚£æ–¯çš„ä¸‡äº‹é€š
 {
 floorid=2006
 borncenter=14,18,1,1
@@ -24,7 +24,7 @@ graphicname=16002
 name=´å×ÓÀïµÄÍòÊÂÍ¨
 enemy=windowman|conff:sainasu/manual.conf
 }
-#ÂêÀöÄÇË¹µÄÍòÊÂÍ¨
+#ç›ä¸½é‚£æ–¯çš„ä¸‡äº‹é€š
 {
 floorid=2006
 borncenter=18,14,1,1
@@ -37,7 +37,7 @@ name=°®Ñ©Ê¯Æ÷¿Í·şĞ¡½ã
 enemy=windowman|conff:sainasu/new.conf
 }
 
-#¼Ó¼ÓµÄÍòÊÂÍ¨
+#åŠ åŠ çš„ä¸‡äº‹é€š
 {
 floorid=3006
 borncenter=27,15,1,1
@@ -50,7 +50,7 @@ name=´å×ÓÀïµÄÍòÊÂÍ¨
 enemy=windowman|conff:sainasu/manual.conf
 }
 
-#¿¨Â³ËüÄÇµÄÍòÊÂÍ¨
+#å¡é²å®ƒé‚£çš„ä¸‡äº‹é€š
 {
 floorid=4006
 borncenter=13,15,1,1

@@ -1,6 +1,6 @@
 NPCCREATE
-####º£µ×Ñ°±¦#####
-########¿­À­Ë¹#########
+####æµ·åº•å¯»å®#####
+########å‡¯æ‹‰æ–¯#########
 {
 name=¿­À­Ë¹
 floorid=1000
@@ -12,7 +12,7 @@ graphicname=16102
 enemy=changeevent|file:sa70/treasure/treasure1.arg
 }
 
-#####±¦Ïä####
+#####å®ç®±####
 {
 name=±¦Ïä
 floorid=817
@@ -25,7 +25,7 @@ enemy=npcgen_warpman|file:sa70/treasure/treasure2.arg
 graphicname=16962
 }
 
-#####±¦Ïä####
+#####å®ç®±####
 {
 name=±¦Ïä
 floorid=817
@@ -38,7 +38,7 @@ enemy=npcgen_warpman|file:sa70/treasure/treasure3.arg
 graphicname=16962
 }
 
-#####±¦Ïä####
+#####å®ç®±####
 {
 name=±¦Ïä
 floorid=817
@@ -51,7 +51,7 @@ enemy=npcgen_warpman|file:sa70/treasure/treasure4.arg
 graphicname=16962
 }
 
-#####±¦Ïä####
+#####å®ç®±####
 {
 name=±¦Ïä
 floorid=817
@@ -64,7 +64,7 @@ enemy=npcgen_warpman|file:sa70/treasure/treasure5.arg
 graphicname=16962
 }
 
-#####±¦Ïä####
+#####å®ç®±####
 {
 name=±¦Ïä
 floorid=817

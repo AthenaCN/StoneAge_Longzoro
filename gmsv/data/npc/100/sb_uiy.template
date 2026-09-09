@@ -1,6 +1,6 @@
 NPCTEMPLATE
-#######¥¶¥Ï¥ó·»Äï##########
-##¥¦¥ë¥Õ
+#######ã‚¶ãƒãƒ³å…„å¼Ÿ##########
+##ã‚¦ãƒ«ãƒ•
 {
 templatename=sb_uiy1
 makeatnobody=1
@@ -12,7 +12,7 @@ mp=100
 str=1
 tough=1
 }
-##¥®¥ë
+##ã‚®ãƒ«
 {
 templatename=sb_uiy2
 makeatnobody=1
@@ -24,7 +24,7 @@ mp=100
 str=1
 tough=1
 }
-##¥ë¥É
+##ãƒ«ãƒ‰
 {
 templatename=sb_uiy3
 makeatnobody=1

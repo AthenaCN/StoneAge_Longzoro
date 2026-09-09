@@ -1,13 +1,13 @@
 NomalMainMsg:...ÕâÀïÉË²¡Ô±¿ÉÕæ¶àÑ½£¡£¡...
 
-####ÈÎÎñ97ÖÐ####
+####ä»»åŠ¡97ä¸­####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:ENDEV=97
 NomalWindowMsg:ÓÃ¿ÌÓ¡Ê¯¾Í¿ÉÒÔÔÚÔÃ¿ËÄÇ´¦ÆÆ³ý½á½ç£¡ÔÚÕâÀï¼ÇÂ¼ÁË£¡
 EventEnd
 
-###Íê³ÉÈÎÎñ£¨¹Ø±ê97£©###
+###å®Œæˆä»»åŠ¡ï¼ˆå…³æ ‡97ï¼‰###
 EventNo:97
 TYPE:ACCEPT
 EVENT:LV>79&TRANS>4&ENDEV=90&NOWEV=97&ITEM=21151&ITEM=21152&ITEM=21153&ITEM=21154&ITEM=21155&ITEM=21156
@@ -19,14 +19,14 @@ GetItem:21100*1,21128*1
 EndSetFlg:97
 EventEnd
 
-####ÈÎÎñ97ÖÐ####
+####ä»»åŠ¡97ä¸­####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:NOWEV=97
 NomalWindowMsg:ÊÇ²»ÊÇºÜÄÑÅªÄÇ6ÖÖÈâÄØ£¿
 EventEnd
 
-####½ÓÈÎÎñ¸ø±ê97##
+####æŽ¥ä»»åŠ¡ç»™æ ‡97##
 EventNo:97
 TYPE:REQUEST
 EVENT:LV>79&TRANS>4&ENDEV=90

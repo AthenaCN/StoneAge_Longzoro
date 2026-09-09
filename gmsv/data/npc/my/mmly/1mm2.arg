@@ -1,50 +1,50 @@
-###1mm2.argµÄÄÚÈÝ###
+###1mm2.argçš„å†…å®¹###
 START_MSG:HI£¬ÎÒÊÇMM¾°µã´«ËÍÊ¦~\n±¾MMÖ»´«50-79¼¶µÎÒ»×ªMMÅ¶£¬±ðÑ¡´íÁË
 MenuHead:Ñ¡ÔñÄ¿µÄµØ£º
 
-#50¼¶
+#50çº§
 {
 MenuStr:50¼¶
 FREE:LV>0
 WARPPOINT:20105,11,21
 }
 
-#55¼¶
+#55çº§
 {
 MenuStr:55¼¶
 FREE:LV>0
 WARPPOINT:6000,32,76
 }
 
-#60¼¶
+#60çº§
 {
 MenuStr:60¼¶
 FREE:LV>0
 WARPPOINT:31901,8,43
 }
 
-#65¼¶
+#65çº§
 {
 MenuStr:65¼¶
 FREE:LV>0
 WARPPOINT:30703,40,33
 }
 
-#70¼¶
+#70çº§
 {
 MenuStr:70¼¶
 FREE:LV>0
 WARPPOINT:31201,23,40
 }
 
-#75¼¶
+#75çº§
 {
 MenuStr:75¼¶
 FREE:LV>0
 WARPPOINT:40,9,4
 }
 
-#79¼¶[¹ý»ú±©]
+#79çº§[è¿‡æœºæš´]
 {
 MenuStr:79¼¶[¹ý»ú±©]
 FREE:LV>0

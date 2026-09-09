@@ -1,6 +1,6 @@
 NomalMainMsg:╨ц©иеб╣да╕а©║ёр╙йгсп╦Э╪сг©╢С╣да╕а©╟ОжЗнрцг╬м╨цак║ё
 
-##спх╚кИф╛╦Ьй╞6#
+##Ф°┴Е┘╗Г╒▌Г┴┤Г╩≥Г÷Ё6#
 EventNo:-1
 TYPE:ACCEPT
 EVENT:ENDEV=215&ITEM=22720&ITEM=22721
@@ -8,7 +8,7 @@ AcceptMsg:дЦр╙╫А╫Гй╞бПё©
 ThanksMsg:ты╦ЬдЦ╟и║ёур╤Ю╣Цм╛╟Ир╩фПх╔╟и║ё
 GetItem:22715
 EventEnd
-##сп╥ГкИф╛╦Ьй╞5#
+##Ф°┴Иё▌Г╒▌Г┴┤Г╩≥Г÷Ё5#
 EventNo:-1
 TYPE:ACCEPT
 EVENT:ENDEV=215&ITEM=22719&ITEM=22721
@@ -16,7 +16,7 @@ AcceptMsg:дЦр╙╫А╫Гй╞бПё©
 ThanksMsg:ты╦ЬдЦ╟и║ёур╤Ю╣Цм╛╟Ир╩фПх╔╟и║ё
 GetItem:22714
 EventEnd
-##сп╩ПкИф╛╦Ьй╞4#
+##Ф°┴Г│╚Г╒▌Г┴┤Г╩≥Г÷Ё4#
 EventNo:-1
 TYPE:ACCEPT
 EVENT:ENDEV=215&ITEM=22718&ITEM=22721
@@ -24,7 +24,7 @@ AcceptMsg:дЦр╙╫А╫Гй╞бПё©
 ThanksMsg:ты╦ЬдЦ╟и║ёур╤Ю╣Цм╛╟Ир╩фПх╔╟и║ё
 GetItem:22713
 EventEnd
-##спк╝кИф╛╦Ьй╞3#
+##Ф°┴Ф╟╢Г╒▌Г┴┤Г╩≥Г÷Ё3#
 EventNo:-1
 TYPE:ACCEPT
 EVENT:ENDEV=215&ITEM=22717&ITEM=22721
@@ -32,7 +32,7 @@ AcceptMsg:дЦр╙╫А╫Гй╞бПё©
 ThanksMsg:ты╦ЬдЦ╟и║ёур╤Ю╣Цм╛╟Ир╩фПх╔╟и║ё
 GetItem:22712
 EventEnd
-##сп╣ькИф╛╦Ьй╞2#
+##Ф°┴Е°╟Г╒▌Г┴┤Г╩≥Г÷Ё2#
 EventNo:-1
 TYPE:ACCEPT
 EVENT:ENDEV=215&ITEM=22716&ITEM=22721
@@ -40,13 +40,13 @@ AcceptMsg:дЦр╙╫А╫Гй╞бПё©
 ThanksMsg:ты╦ЬдЦ╟и║ёур╤Ю╣Цм╛╟Ир╩фПх╔╟и║ё
 GetItem:22711
 EventEnd
-#сп╫А╫Га╕а©#
+#Ф°┴Г╩⌠Г∙▄Е┼⌡И┤▐#
 EventNo:-1
 TYPE:MESSAGE
 EVENT:ENDEV=215&ENDEV=216&ITEM=22721
 NomalWindowMsg:©Л╣Цх╔╟и║ё╪ссмак║ё
 EventEnd
-##╫сак202 спа╕а©#
+##Ф▌╔Д╨├202 Ф°┴Е┼⌡И┤▐#
 EventNo:215
 TYPE:ACCEPT
 EVENT:NOWEV=202&ITEM=22709
@@ -59,14 +59,14 @@ DelItem:22709
 EndSetFlg:215
 EventEnd
 
-##дцакц╚#
+##Ф▀©Д╨├Ф╞⌡#
 EventNo:-1
 TYPE:MESSAGE
 EVENT:NOWEV=215&NOWEV=216
 NomalWindowMsg:юАж╝╨ё©идэл╚╢Сак.кШ╧ю╪ф╬мтзх╔╨ё╣в╤╢©ъ╣дб╥ио.дЦурур©╢╟и.
 EventEnd
 
-##╫схннЯ215#
+##Ф▌╔Д╩╩Е┼║215#
 EventNo:216
 TYPE:REQUEST
 EVENT:NOWEV=215&ITEM=22691

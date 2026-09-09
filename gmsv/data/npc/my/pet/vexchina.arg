@@ -1,6 +1,6 @@
 NomalMainMsg:ÎÒÊÇÑ×Áú³¬¼¶´óÄ§Íõ¿É¿ÉÎ÷Àï£¡ÄãÏëºÏ³É³è¼¼¹ÞÍ·Âð£¿£¿¼Ó¹¤Ò»´ÎÒªÎåÖ»ÌØ¶¨µÄ³èÎï¡¢14¸ö³è¼¼¹ÞÍ·Ô­ÁÏ¡£
 
-#### ËºÁÑÉË¿Ú¼¼ÄÜ¹ÞÍ· ####
+#### æ’•è£‚ä¼¤å£æŠ€èƒ½ç½å¤´ ####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>119&TRANS>5&PET=160-8122*5&ITEM=21022*14&reITEM>=1
@@ -12,7 +12,7 @@ GetRandItem:19885,19885,19885,19885,19886
 ItemFullMsg:ÉíÉÏµÀ¾ßÌ«¶àÁËà¸£¡
 EventEnd
 
-#### ËºÁÑÉË¿Ú¼¼ÄÜ¹ÞÍ· ####
+#### æ’•è£‚ä¼¤å£æŠ€èƒ½ç½å¤´ ####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>119&TRANS>5&PET=160-814*5&ITEM=21022*14&reITEM>=1
@@ -24,7 +24,7 @@ GetRandItem:19885,19885,19885,19885,19886
 ItemFullMsg:ÉíÉÏµÀ¾ßÌ«¶àÁËà¸£¡
 EventEnd
 
-#### MP¹¥»÷2 ####
+#### MPæ”»å‡»2 ####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>119&TRANS>5&PET=160-918*5&ITEM=21022*14&reITEM>=1
@@ -36,7 +36,7 @@ GetItem:19887
 ItemFullMsg:ÉíÉÏµÀ¾ßÌ«¶àÁËà¸£¡
 EventEnd
 
-#### Í­Ç½ ####
+#### é“œå¢™ ####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>119&TRANS>5&PET=160-4008&PET=160-4009&PET=160-4010&PET=160-4011&ITEM=21022*14&reITEM>=1
@@ -48,7 +48,7 @@ GetItem:19901
 ItemFullMsg:ÉíÉÏµÀ¾ßÌ«¶àÁËà¸£¡
 EventEnd
 
-#### Ìú±Ú ####
+#### é“å£ ####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>119&TRANS>5&PET=160-1140*5&ITEM=21022*14&reITEM>=1
@@ -60,7 +60,7 @@ GetItem:19900
 ItemFullMsg:ÉíÉÏµÀ¾ßÌ«¶àÁËà¸£¡
 EventEnd
 
-#### È«ÌåÄæ×ª ####
+#### å…¨ä½“é€†è½¬ ####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>119&TRANS>5&PET=160-812&PET=160-168&PET=160-165&PET=160-166&PET=160-167&ITEM=21022*14&reITEM>=1
@@ -72,7 +72,7 @@ GetRandItem:19889,19890
 ItemFullMsg:ÉíÉÏµÀ¾ßÌ«¶àÁËà¸£¡
 EventEnd
 
-#### Tº¶¼×Ò»»÷ ####
+#### Tæ†¾ç”²ä¸€å‡» ####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>119&TRANS>5&PET=160-5104&PET=160-5105&PET=160-5106&PET=160-5107&PET=160-1196&ITEM=21022*14&reITEM>=1
@@ -84,7 +84,7 @@ GetItem:19891
 ItemFullMsg:ÉíÉÏµÀ¾ßÌ«¶àÁËà¸£¡
 EventEnd
 
-#### TË®Áé×ÌÈó ####
+#### Tæ°´çµæ»‹æ¶¦ ####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>119&TRANS>5&PET=160-20039*1&ITEM=21022*13&ITEM=21023*1&reITEM>=1
@@ -96,7 +96,7 @@ GetItem:19892
 ItemFullMsg:ÉíÉÏµÀ¾ßÌ«¶àÁËà¸£¡
 EventEnd
 
-#### TË®Áé×ÌÈó ####
+#### Tæ°´çµæ»‹æ¶¦ ####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>119&TRANS>5&PET=160-20040&ITEM=21022*14&reITEM>=1
@@ -108,7 +108,7 @@ GetItem:19892
 ItemFullMsg:ÉíÉÏµÀ¾ßÌ«¶àÁËà¸£¡
 EventEnd
 
-#### µØÊôÐÔ¼ÓÇ¿ ####
+#### åœ°å±žæ€§åŠ å¼º ####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>119&TRANS>5&PET=160-1255&ITEM=21022*14&reITEM>=1
@@ -120,7 +120,7 @@ GetItem:19893
 ItemFullMsg:ÉíÉÏµÀ¾ßÌ«¶àÁËà¸£¡
 EventEnd
 
-#### Ë®ÊôÐÔ¼ÓÇ¿ ####
+#### æ°´å±žæ€§åŠ å¼º ####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>119&TRANS>5&PET=160-1256&ITEM=21022*14&reITEM>=1
@@ -132,7 +132,7 @@ GetItem:19894
 ItemFullMsg:ÉíÉÏµÀ¾ßÌ«¶àÁËà¸£¡
 EventEnd
 
-#### »ðÊôÐÔ¼ÓÇ¿ ####
+#### ç«å±žæ€§åŠ å¼º ####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>119&TRANS>5&PET=160-1257&ITEM=21022*14&reITEM>=1
@@ -144,7 +144,7 @@ GetItem:19895
 ItemFullMsg:ÉíÉÏµÀ¾ßÌ«¶àÁËà¸£¡
 EventEnd
 
-#### ·çÊôÐÔ¼ÓÇ¿ ####
+#### é£Žå±žæ€§åŠ å¼º ####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>119&TRANS>5&PET=160-1258&ITEM=21022*14&reITEM>=1
@@ -156,7 +156,7 @@ GetItem:19896
 ItemFullMsg:ÉíÉÏµÀ¾ßÌ«¶àÁËà¸£¡
 EventEnd
 
-#### ÇÓÕ½ ####
+#### æ€¯æˆ˜ ####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>119&TRANS>5&PET=160-1052&PET=160-1053&PET=160-1054&PET=160-1055&ITEM=21022*14&reITEM>=1
@@ -168,19 +168,19 @@ GetItem:19897
 ItemFullMsg:ÉíÉÏµÀ¾ßÌ«¶àÁËà¸£¡
 EventEnd
 
-#### T·ßÅ­ ####
+#### Tæ„¤æ€’ ####
 #EventNo:-1
 #TYPE:ACCEPT
 #EVENT:LV>119&TRANS>5&PET=160-2061&PET=160-2062&PET=160-2063&PET=160-2064&PET=160-2065&ITEM=21022*14&reITEM>=1
-#AcceptMsg:ÄãÏëºÏ³ÉT·ßÅ­¼¼ÄÜ¹ÞÍ·Âð£¿ÐèÒª2×ª160¼¶ÎåÉ«3DÈËÁúºÍ14¸ö³è¼¼¹ÞÍ·Ô­ÁÏÅ¶£¡
-#ThanksMsg:ºÏ³É³É¹¦£¡
+#AcceptMsg:ä½ æƒ³åˆæˆTæ„¤æ€’æŠ€èƒ½ç½å¤´å—ï¼Ÿéœ€è¦2è½¬160çº§äº”è‰²3Däººé¾™å’Œ14ä¸ªå® æŠ€ç½å¤´åŽŸæ–™å“¦ï¼
+#ThanksMsg:åˆæˆæˆåŠŸï¼
 #DelPet:Pet=160-2061*1,Pet=160-2062*1,Pet=160-2063*1,Pet=160-2064*1,Pet=160-2065*1
 #DelItem:21022*14
 #GetItem:19898
-#ItemFullMsg:ÉíÉÏµÀ¾ßÌ«¶àÁËà¸£¡
+#ItemFullMsg:èº«ä¸Šé“å…·å¤ªå¤šäº†å–”ï¼
 #EventEnd
 
-#### T¿ñ±© ####
+#### Tç‹‚æš´ ####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>119&TRANS>5&PET=160-1404&PET=160-1405&PET=160-1406&PET=160-1407&PET=160-1408&ITEM=21022*14&reITEM>=1
@@ -193,7 +193,7 @@ ItemFullMsg:ÉíÉÏµÀ¾ßÌ«¶àÁËà¸£¡
 EventEnd
 
 
-#### µ÷ºÍ ####
+#### è°ƒå’Œ ####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>119&TRANS>5&PET=160-901&PET=160-902&PET=160-903&PET=160-904&PET=160-1545&ITEM=21022*14&reITEM>=1

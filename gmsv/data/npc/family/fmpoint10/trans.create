@@ -1,6 +1,6 @@
 NPCCREATE
 
-#新手村传送员
+#鏂版墜鏉戜紶閫佸憳
 {
 floorid=104
 borncenter=66,58
@@ -13,7 +13,7 @@ ignoreinvincible=1
 enemy=npcgen_warpman|file:family/fmpoint10/transxinshou.arg
 }
 
-#新手村传送员
+#鏂版墜鏉戜紶閫佸憳
 {
 floorid=147
 borncenter=153,105
@@ -26,7 +26,7 @@ ignoreinvincible=1
 enemy=npcgen_warpman|file:family/fmpoint10/transxinshou1.arg
 }
 
-#航空站传送员
+#鑸┖绔欎紶閫佸憳
 {
 floorid=7500
 borncenter=48,55

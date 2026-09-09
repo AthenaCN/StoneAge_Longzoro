@@ -1,6 +1,6 @@
 NPCCREATE
 
-# Ëþ¶úËþ
+# å¡”è€³å¡”
 {
 floorid=7112
 borncenter=18,5
@@ -13,7 +13,7 @@ ignoreinvincible=1
 enemy=transman|file:eden3/transfer.arg
 }
 
-# Äá¿ËË¹
+# å°¼å…‹æ–¯
 {
 floorid=7200
 borncenter=37,32
@@ -26,7 +26,7 @@ ignoreinvincible=1
 enemy=transman|file:eden3/transfer1.arg
 }
 
-# ¸¥ÁÒ¶Ù
+# å¼—çƒˆé¡¿
 {
 floorid=7300
 borncenter=88,101
@@ -39,7 +39,7 @@ ignoreinvincible=1
 enemy=transman|file:eden3/transfer2.arg
 }
 
-# ÑÇÒÁÅ·
+# äºšä¼Šæ¬§
 {
 floorid=7400
 borncenter=100,90
@@ -52,7 +52,7 @@ ignoreinvincible=1
 enemy=transman|file:eden3/transfer3.arg
 }
 
-#ÒÁµéÔ°
+#ä¼Šç”¸å›­
 {
 floorid=7000
 borncenter=35,127

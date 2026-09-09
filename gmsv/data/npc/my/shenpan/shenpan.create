@@ -1,6 +1,6 @@
 NPCCREATE
 
-###### ±´ÌØºº ######
+###### è´ç‰¹æ±‰ ######
 {
 name=ÇÔÔô±´ÌØºº
 floorid=8119
@@ -11,7 +11,7 @@ graphicname=101530
 enemy=changeevent|file:my/shenpan/beitehan0.arg
 }
 
-###### ±´ÌØºº ######
+###### è´ç‰¹æ±‰ ######
 {
 name=ÇÔÔô±´ÌØºº
 floorid=8120
@@ -22,7 +22,7 @@ graphicname=101530
 enemy=npcgen_warpman|file:my/shenpan/beitehan1.arg
 }
 
-####³ÁË¯¶´¿ß£­¶«¡¡ÌØÊâÌøÔ¾µã#####
+####æ²‰ç¡æ´çªŸï¼ä¸œã€€ç‰¹æ®Šè·³è·ƒç‚¹#####
 {
 floorid=8116
 borncenter=94,48
@@ -31,7 +31,7 @@ createnum=1
 enemy=npcgen_warp|file:my/shenpan/warp1.arg
 }
 
-####³ÁË¯¶´¿ß£­±±¡¡ÌØÊâÌøÔ¾µã#####
+####æ²‰ç¡æ´çªŸï¼åŒ—ã€€ç‰¹æ®Šè·³è·ƒç‚¹#####
 {
 floorid=8117
 borncenter=52,10
@@ -40,7 +40,7 @@ createnum=1
 enemy=npcgen_warp|file:my/shenpan/warp2.arg
 }
 
-####³ÁË¯¶´¿ß£­ÄÏ¡¡ÌØÊâÌøÔ¾µã#####
+####æ²‰ç¡æ´çªŸï¼å—ã€€ç‰¹æ®Šè·³è·ƒç‚¹#####
 {
 floorid=8118
 borncenter=4,80
@@ -49,7 +49,7 @@ createnum=1
 enemy=npcgen_warp|file:my/shenpan/warp3.arg
 }
 
-####³ÁË¯¶´¿ß£­Î÷¡¡ÌØÊâÌøÔ¾µã#####
+####æ²‰ç¡æ´çªŸï¼è¥¿ã€€ç‰¹æ®Šè·³è·ƒç‚¹#####
 {
 floorid=8119
 borncenter=16,36

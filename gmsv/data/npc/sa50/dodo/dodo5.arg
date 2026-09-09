@@ -1,15 +1,15 @@
-########假的老人########
+########鍋囩殑鑰佷汉########
 
 NomalMainMsg:要好好养那支暴喔！
 
-#### 遇到假的老人 ####
+#### 閬囧埌鍋囩殑鑰佷汉 ####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>89&ENDEV=4&ENDEV=81&NOWEV=125&ITEM=1482&ITEM=2414
 NomalWindowMsg:年轻人，再接再励吧，成功的脚步离你越来越近了。
 EventEnd
 
-#### 未接任务对话 ####
+#### 鏈帴浠诲姟瀵硅瘽 ####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>0
