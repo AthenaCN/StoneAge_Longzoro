@@ -1,5 +1,5 @@
 NPCTEMPLATE
-#######ＳＢＣ砍汉镑##########
+#######�ӣ£Ì��ˆT##########
 {
 templatename=sb_sbc
 makeatnobody=1
@@ -11,7 +11,7 @@ mp=100
 str=1
 tough=1
 }
-#######ＪＢＡ砍汉镑##########
+#######�ʣ£����ˆT##########
 {
 templatename=sb_jba
 makeatnobody=1
@@ -23,4 +23,5 @@ mp=100
 str=1
 tough=1
 }
+
 

@@ -1,7 +1,7 @@
 NPCCREATE
 
 
-###### æ¸”æ‘æ¬¢ä¹æ´¾æ´¾é€é­”ç‹No1 ######
+###### Óæ´å»¶ÀÖÅÉÅÉËÍÄ§ÍõNo1 ######
 {
 floorid=2000
 borncenter=47,23
@@ -14,7 +14,7 @@ name=åĞÒ£µÀ¾ß´óÄ§Íõ
 enemy=sb_dou|file:my/mowang2/mowang1.arg
 }
 
-###### æ¬¢ä¹æ´¾æ´¾é€é­”ç‹ç«æŠ€åœº1F ######
+###### »¶ÀÖÅÉÅÉËÍÄ§Íõ¾º¼¼³¡1F ######
 {
 floorid=203
 borncenter=14,5
@@ -28,7 +28,7 @@ enemy=sb_dou|file:my/mowang2/mowang2.arg
 }
 
 
-###### æ¬¢ä¹æ´¾æ´¾é€é­”ç‹ç«æŠ€åœº2F ######
+###### »¶ÀÖÅÉÅÉËÍÄ§Íõ¾º¼¼³¡2F ######
 {
 floorid=204
 borncenter=14,5
@@ -42,7 +42,7 @@ enemy=sb_dou|file:my/mowang2/mowang3.arg
 }
 
 
-###### æ¬¢ä¹æ´¾æ´¾é€é­”ç‹ç«æŠ€åœº3F ######
+###### »¶ÀÖÅÉÅÉËÍÄ§Íõ¾º¼¼³¡3F ######
 {
 floorid=205
 borncenter=14,5
@@ -56,7 +56,7 @@ enemy=sb_dou|file:my/mowang2/mowang4.arg
 }
 
 
-###### æ¬¢ä¹æ´¾æ´¾é€é­”ç‹ç«æŠ€åœº4F ######
+###### »¶ÀÖÅÉÅÉËÍÄ§Íõ¾º¼¼³¡4F ######
 {
 floorid=206
 borncenter=14,5
@@ -69,7 +69,7 @@ name=ÎåÂ¥Ä§Íõ
 enemy=sb_dou|file:my/mowang2/mowang5.arg
 }
 
-###### æ¬¢ä¹æ´¾æ´¾é€é­”ç‹ç«æŠ€åœº5F ######
+###### »¶ÀÖÅÉÅÉËÍÄ§Íõ¾º¼¼³¡5F ######
 {
 floorid=207
 borncenter=14,5
@@ -83,7 +83,7 @@ enemy=sb_dou|file:my/mowang2/mowang6.arg
 }
 
 
-######é¢†å¥–Npc#######
+######Áì½±Npc#######
 {
 floorid=2000
 borncenter=35,23
@@ -97,7 +97,7 @@ enemy=changeevent|file:my/mowang2/jiang.arg
 }
 
 
-### é­”ç‹1å±‚ä¼ é€Npc ###
+### Ä§Íõ1²ã´«ËÍNpc ###
 
 {
 floorid=203
@@ -111,7 +111,7 @@ ignoreinvincible=1
 enemy=npcgen_warpman|file:my/mowang2/chuansong.arg
 }
 
-### é­”ç‹2å±‚ä¼ é€Npc ###
+### Ä§Íõ2²ã´«ËÍNpc ###
 
 {
 floorid=204
@@ -125,7 +125,7 @@ ignoreinvincible=1
 enemy=npcgen_warpman|file:my/mowang2/chuansong.arg
 }
 
-### é­”ç‹3å±‚ä¼ é€Npc ###
+### Ä§Íõ3²ã´«ËÍNpc ###
 
 {
 floorid=205
@@ -139,7 +139,7 @@ ignoreinvincible=1
 enemy=npcgen_warpman|file:my/mowang2/chuansong.arg
 }
 
-### é­”ç‹4å±‚ä¼ é€Npc ###
+### Ä§Íõ4²ã´«ËÍNpc ###
 
 {
 floorid=206
@@ -153,7 +153,7 @@ ignoreinvincible=1
 enemy=npcgen_warpman|file:my/mowang2/chuansong.arg
 }
 
-### é­”ç‹5å±‚ä¼ é€Npc ###
+### Ä§Íõ5²ã´«ËÍNpc ###
 
 {
 floorid=207
@@ -167,7 +167,7 @@ ignoreinvincible=1
 enemy=npcgen_warpman|file:my/mowang2/chuansong.arg
 }
 
-########1å±‚å°æŠ¤å£«#########
+########1²ãĞ¡»¤Ê¿#########
 {
 name=Ğ¡»¤Ê¿
 floorid=203
@@ -180,7 +180,7 @@ enemy=npcgen_healer|1
 }
 
 
-########2å±‚å°æŠ¤å£«#########
+########2²ãĞ¡»¤Ê¿#########
 {
 name=Ğ¡»¤Ê¿
 floorid=204
@@ -193,7 +193,7 @@ enemy=npcgen_healer|1
 }
 
 
-########3å±‚å°æŠ¤å£«#########
+########3²ãĞ¡»¤Ê¿#########
 {
 name=Ğ¡»¤Ê¿
 floorid=205
@@ -206,7 +206,7 @@ enemy=npcgen_healer|1
 }
 
 
-########4å±‚å°æŠ¤å£«#########
+########4²ãĞ¡»¤Ê¿#########
 {
 name=Ğ¡»¤Ê¿
 floorid=206
@@ -219,7 +219,7 @@ enemy=npcgen_healer|1
 }
 
 
-########5å±‚å°æŠ¤å£«#########
+########5²ãĞ¡»¤Ê¿#########
 {
 name=Ğ¡»¤Ê¿
 floorid=207

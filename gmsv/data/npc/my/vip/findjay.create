@@ -1,6 +1,6 @@
 NPCCREATE
 
-###### ä¼šå‘˜é¢å‘äºº ######
+###### »áÔ±°ä·¢ÈË ######
 {
 floorid=2000
 borncenter=61,78
@@ -13,7 +13,7 @@ name=»áÔ±°ä·¢ÈË
 enemy=changeevent|file:my/vip/ayako.arg
 }
 
-###### ä¼šå‘˜å®¡æ ¸äºº ######
+###### »áÔ±ÉóºËÈË ######
 {
 floorid=147
 borncenter=21,7

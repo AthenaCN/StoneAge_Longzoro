@@ -1,23 +1,23 @@
-########å²æ¯”########
+########Ê·±È########
 
 NomalMainMsg:ÎÒÊÇÒ»¸öÏ²°®ÊÕ¼¯¸÷Ê½¸÷ÑùÎäÆ÷µÄ¹¤½³£¬ÎÒÒ²»á×Ô¼º¸ÄÔìÎäÆ÷¡£
 
-###èº«ä¸Šæœ‰å¼“###
+###ÉíÉÏÓÐ¹­###
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>0&ITEM=2005
 NomalWindowMsg:ÂÒÉä¹­µÄÍþÁ¦ºÜÇ¿à¸£¡
 EventEnd
 
-###èº«ä¸Šæœ‰æžª###
+###ÉíÉÏÓÐÇ¹###
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>0&ITEM=2004
 NomalWindowMsg:Ë«¼âÇ¹µÄÍþÁ¦ºÜÇ¿à¸£¡
 EventEnd
 
-###æ”¶é›†è¿œè·ç¦»æ­¦å™¨###
-EventNo:-1 
+###ÊÕ¼¯Ô¶¾àÀëÎäÆ÷###
+EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>0&ITEM=2439&ITEM=5610&ITEM=6810&ITEM=6210&ITEM=7410
 AcceptMsg1:Äã°ïÎÒÊÕ¼¯ÍêÔ¶¾àÀëÎäÆ÷À²£¿
@@ -27,8 +27,8 @@ GetItem:2005
 DelItem:2439*1,5610*1,6810*1,6210*1,7410*1
 EventEnd
 
-###æ”¶é›†è¿‘è·ç¦»æ­¦å™¨###
-EventNo:-1 
+###ÊÕ¼¯½ü¾àÀëÎäÆ÷###
+EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>0&ITEM=2438&ITEM=3210&ITEM=4410&ITEM=3810&ITEM=5010
 AcceptMsg1:Äã°ïÎÒÊÕ¼¯Íê½ü¾àÀëÎäÆ÷À²£¿
@@ -38,8 +38,8 @@ GetItem:2004
 DelItem:2438*1,3210*1,4410*1,3810*1,5010*1
 EventEnd
 
-###å‘ŠçŸ¥ä»»åŠ¡æµç¨‹##
-EventNo:-1 
+###¸æÖªÈÎÎñÁ÷³Ì##
+EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>0
 AcceptMsg1:ÎÒÊÇÒ»¸öÏ²°®ÊÕ¼¯¸÷Ê½¸÷ÑùÎäÆ÷µÄ¹¤½³£¬ÎÒÒ²»á×Ô¼º¸ÄÔìÎäÆ÷¡£

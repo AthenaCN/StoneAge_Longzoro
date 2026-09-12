@@ -1,6 +1,6 @@
 NPCCREATE
 
-#å°¼å…‹æ–¯åŸç”·æ€§å±…æ°‘ï¼ˆæ°´æ€ªäº‹ä»¶å—å®³è€…Aï¼‰
+#Äá¿ËË¹³ÇÄĞĞÔ¾ÓÃñ£¨Ë®¹ÖÊÂ¼şÊÜº¦ÕßA£©
 {
 name=ÄĞĞÔ
 floorid=7200
@@ -13,7 +13,7 @@ enemy=changeevent|file:eden2/nyx/nyx_citizen01
 graphicname=16559
 }
 
-#å°¼å…‹æ–¯åŸç”·æ€§å±…æ°‘ï¼ˆèŠçˆ±æƒ…ä»»åŠ¡ï¼‰
+#Äá¿ËË¹³ÇÄĞĞÔ¾ÓÃñ£¨ÁÄ°®ÇéÈÎÎñ£©
 {
 name=ÄĞĞÔ
 floorid=7200
@@ -26,7 +26,7 @@ enemy=changeevent|file:eden2/nyx/nyx_citizen02
 graphicname=16562
 }
 
-#å°¼å…‹æ–¯åŸç”·æ€§å±…æ°‘ï¼ˆé—²èŠï¼‰
+#Äá¿ËË¹³ÇÄĞĞÔ¾ÓÃñ£¨ÏĞÁÄ£©
 {
 name=ÄĞĞÔ
 floorid=7200
@@ -39,7 +39,7 @@ enemy=changeevent|file:eden2/nyx/nyx_citizen03
 graphicname=16564
 }
 
-#å°¼å…‹æ–¯åŸç”·æ€§å±…æ°‘ï¼ˆé—²èŠï¼‰
+#Äá¿ËË¹³ÇÄĞĞÔ¾ÓÃñ£¨ÏĞÁÄ£©
 {
 name=ÄĞĞÔ
 floorid=7200
@@ -52,7 +52,7 @@ enemy=changeevent|file:eden2/nyx/nyx_citizen04
 graphicname=16586
 }
 
-#å°¼å…‹æ–¯åŸç”·æ€§å±…æ°‘ï¼ˆé—²èŠï¼‰
+#Äá¿ËË¹³ÇÄĞĞÔ¾ÓÃñ£¨ÏĞÁÄ£©
 {
 name=ÄĞĞÔ
 floorid=7208
@@ -66,7 +66,7 @@ graphicname=16560
 }
 
 
-#å°¼å…‹æ–¯åŸç”·æ€§å±…æ°‘ï¼ˆé—²èŠï¼‰
+#Äá¿ËË¹³ÇÄĞĞÔ¾ÓÃñ£¨ÏĞÁÄ£©
 {
 name=ÄĞĞÔ
 floorid=7200
@@ -79,7 +79,7 @@ enemy=changeevent|file:eden2/nyx/nyx_citizen07
 graphicname=16560
 }
 
-#å°¼å…‹æ–¯åŸç”·æ€§å±…æ°‘ï¼ˆé—²èŠï¼‰
+#Äá¿ËË¹³ÇÄĞĞÔ¾ÓÃñ£¨ÏĞÁÄ£©
 {
 name=ÄĞĞÔ
 floorid=7203
@@ -92,7 +92,7 @@ enemy=changeevent|file:eden2/nyx/nyx_citizen08
 graphicname=16508
 }
 
-#å°¼å…‹æ–¯åŸç”·æ€§å±…æ°‘ï¼ˆé—²èŠï¼‰
+#Äá¿ËË¹³ÇÄĞĞÔ¾ÓÃñ£¨ÏĞÁÄ£©
 {
 name=ÄĞĞÔ
 floorid=7203
@@ -105,7 +105,7 @@ enemy=changeevent|file:eden2/nyx/nyx_citizen09
 graphicname=16564
 }
 
-#å°¼å…‹æ–¯åŸç”·æ€§å±…æ°‘ï¼ˆé—²èŠï¼‰
+#Äá¿ËË¹³ÇÄĞĞÔ¾ÓÃñ£¨ÏĞÁÄ£©
 {
 name=ÄĞĞÔ
 floorid=7209
@@ -118,7 +118,7 @@ enemy=changeevent|file:eden2/nyx/nyx_citizen10
 graphicname=16560
 }
 
-#å°¼å…‹æ–¯åŸå¥³æ€§å±…æ°‘ï¼ˆæ°´æ€ªäº‹ä»¶å—å®³è€…Bï¼‰
+#Äá¿ËË¹³ÇÅ®ĞÔ¾ÓÃñ£¨Ë®¹ÖÊÂ¼şÊÜº¦ÕßB£©
 {
 name=Å®ĞÔ
 floorid=7200
@@ -131,7 +131,7 @@ enemy=changeevent|file:eden2/nyx/nyx_citizen11
 graphicname=16555
 }
 
-#å°¼å…‹æ–¯åŸå¥³æ€§å±…æ°‘ï¼ˆæ°´æ€ªäº‹ä»¶å—å®³è€…Cï¼‰
+#Äá¿ËË¹³ÇÅ®ĞÔ¾ÓÃñ£¨Ë®¹ÖÊÂ¼şÊÜº¦ÕßC£©
 {
 name=Å®ĞÔ
 floorid=7200
@@ -144,7 +144,7 @@ enemy=changeevent|file:eden2/nyx/nyx_citizen12
 graphicname=16554
 }
 
-#å°¼å…‹æ–¯åŸå¥³æ€§å±…æ°‘ï¼ˆæ°´æ€ªäº‹ä»¶å—å®³è€…Dï¼‰
+#Äá¿ËË¹³ÇÅ®ĞÔ¾ÓÃñ£¨Ë®¹ÖÊÂ¼şÊÜº¦ÕßD£©
 {
 name=Å®ĞÔ
 floorid=7200
@@ -157,7 +157,7 @@ enemy=changeevent|file:eden2/nyx/nyx_citizen13
 graphicname=16571
 }
 
-#å°¼å…‹æ–¯åŸå¥³æ€§å±…æ°‘ï¼ˆèŠçˆ±æƒ…ä»»åŠ¡ï¼‰
+#Äá¿ËË¹³ÇÅ®ĞÔ¾ÓÃñ£¨ÁÄ°®ÇéÈÎÎñ£©
 {
 name=Å®ĞÔ
 floorid=7200
@@ -170,7 +170,7 @@ enemy=changeevent|file:eden2/nyx/nyx_citizen14
 graphicname=16573
 }
 
-#å°¼å…‹æ–¯åŸå¥³æ€§å±…æ°‘ï¼ˆèŠçˆ±æƒ…ä»»åŠ¡ï¼‰
+#Äá¿ËË¹³ÇÅ®ĞÔ¾ÓÃñ£¨ÁÄ°®ÇéÈÎÎñ£©
 {
 name=Å®ĞÔ
 floorid=7200
@@ -183,7 +183,7 @@ enemy=changeevent|file:eden2/nyx/nyx_citizen15
 graphicname=16575
 }
 
-#å°¼å…‹æ–¯åŸå¥³æ€§å±…æ°‘ï¼ˆèŠçˆ±æƒ…ä»»åŠ¡ï¼‰
+#Äá¿ËË¹³ÇÅ®ĞÔ¾ÓÃñ£¨ÁÄ°®ÇéÈÎÎñ£©
 {
 name=Å®ĞÔ
 floorid=7200
@@ -196,7 +196,7 @@ enemy=changeevent|file:eden2/nyx/nyx_citizen16
 graphicname=16573
 }
 
-#å°¼å…‹æ–¯åŸå¥³æ€§å±…æ°‘ï¼ˆé—²èŠï¼‰
+#Äá¿ËË¹³ÇÅ®ĞÔ¾ÓÃñ£¨ÏĞÁÄ£©
 {
 name=Å®ĞÔ
 floorid=7209
@@ -209,7 +209,7 @@ enemy=changeevent|file:eden2/nyx/nyx_citizen17
 graphicname=16569
 }
 
-#å°¼å…‹æ–¯åŸå¥³æ€§å±…æ°‘ï¼ˆé—²èŠï¼‰
+#Äá¿ËË¹³ÇÅ®ĞÔ¾ÓÃñ£¨ÏĞÁÄ£©
 {
 name=Å®ĞÔ
 floorid=7200
@@ -222,7 +222,7 @@ enemy=changeevent|file:eden2/nyx/nyx_citizen18
 graphicname=16576
 }
 
-#å°¼å…‹æ–¯åŸå¥³æ€§å±…æ°‘ï¼ˆé—²èŠï¼‰
+#Äá¿ËË¹³ÇÅ®ĞÔ¾ÓÃñ£¨ÏĞÁÄ£©
 {
 name=Å®ĞÔ
 floorid=7200
@@ -235,7 +235,7 @@ enemy=changeevent|file:eden2/nyx/nyx_citizen19
 graphicname=16570
 }
 
-#å°¼å…‹æ–¯åŸå¥³æ€§å±…æ°‘ï¼ˆé—²èŠï¼‰
+#Äá¿ËË¹³ÇÅ®ĞÔ¾ÓÃñ£¨ÏĞÁÄ£©
 {
 name=Å®ĞÔ
 floorid=7200
@@ -248,7 +248,7 @@ enemy=changeevent|file:eden2/nyx/nyx_citizen20
 graphicname=16573
 }
 
-#å°¼å…‹æ–¯åŸå¥³æ€§å±…æ°‘ï¼ˆé—²èŠï¼‰
+#Äá¿ËË¹³ÇÅ®ĞÔ¾ÓÃñ£¨ÏĞÁÄ£©
 {
 name=Å®ĞÔ
 floorid=7203
@@ -261,7 +261,7 @@ enemy=changeevent|file:eden2/nyx/nyx_citizen21
 graphicname=16575
 }
 
-#å°¼å…‹æ–¯åŸå¥³æ€§å±…æ°‘ï¼ˆé—²èŠï¼‰
+#Äá¿ËË¹³ÇÅ®ĞÔ¾ÓÃñ£¨ÏĞÁÄ£©
 {
 name=Å®ĞÔ
 floorid=7203
@@ -274,7 +274,7 @@ enemy=changeevent|file:eden2/nyx/nyx_citizen22
 graphicname=16517
 }
 
-#å°¼å…‹æ–¯åŸå¥³æ€§å±…æ°‘ï¼ˆé—²èŠï¼‰
+#Äá¿ËË¹³ÇÅ®ĞÔ¾ÓÃñ£¨ÏĞÁÄ£©
 {
 name=Å®ĞÔ
 floorid=7211
@@ -287,7 +287,7 @@ enemy=changeevent|file:eden2/nyx/nyx_citizen23
 graphicname=16569
 }
 
-#å°¼å…‹æ–¯åŸå¥³æ€§å±…æ°‘ï¼ˆæç¤ºæµ·è´¼ç‹ä»»åŠ¡ï¼‰
+#Äá¿ËË¹³ÇÅ®ĞÔ¾ÓÃñ£¨ÌáÊ¾º£ÔôÍõÈÎÎñ£©
 {
 name=Å®ĞÔ
 floorid=7200
@@ -300,7 +300,7 @@ enemy=changeevent|file:eden2/nyx/nyx_citizen24
 graphicname=16571
 }
 
-#å°¼å…‹æ–¯åŸå¥³æ€§å±…æ°‘ï¼ˆé—²èŠï¼‰
+#Äá¿ËË¹³ÇÅ®ĞÔ¾ÓÃñ£¨ÏĞÁÄ£©
 {
 name=Å®ĞÔ
 floorid=7211
@@ -313,7 +313,7 @@ enemy=changeevent|file:eden2/nyx/nyx_citizen25
 graphicname=16569
 }
 
-#å°¼å…‹æ–¯åŸå¥³æ€§å±…æ°‘ï¼ˆé—²èŠï¼‰
+#Äá¿ËË¹³ÇÅ®ĞÔ¾ÓÃñ£¨ÏĞÁÄ£©
 {
 name=Å®ĞÔ
 floorid=7212
@@ -326,7 +326,7 @@ enemy=changeevent|file:eden2/nyx/nyx_citizen26
 graphicname=16575
 }
 
-#å°¼å…‹æ–¯åŸå¥³æ€§å±…æ°‘ï¼ˆé—²èŠï¼‰
+#Äá¿ËË¹³ÇÅ®ĞÔ¾ÓÃñ£¨ÏĞÁÄ£©
 {
 name=Å®ĞÔ
 floorid=7200
@@ -339,7 +339,7 @@ enemy=changeevent|file:eden2/nyx/nyx_citizen27
 graphicname=16570
 }
 
-#å°¼å…‹æ–¯åŸå¥³æ€§å±…æ°‘ï¼ˆé—²èŠï¼‰
+#Äá¿ËË¹³ÇÅ®ĞÔ¾ÓÃñ£¨ÏĞÁÄ£©
 {
 name=Å®ĞÔ
 floorid=7200
@@ -352,7 +352,7 @@ enemy=changeevent|file:eden2/nyx/nyx_citizen28
 graphicname=16573
 }
 
-#å°¼å…‹æ–¯åŸå¥³æ€§å±…æ°‘ï¼ˆé—²èŠï¼‰
+#Äá¿ËË¹³ÇÅ®ĞÔ¾ÓÃñ£¨ÏĞÁÄ£©
 {
 name=Å®ĞÔ
 floorid=7200
@@ -365,7 +365,7 @@ enemy=changeevent|file:eden2/nyx/nyx_citizen29
 graphicname=16569
 }
 
-#å°¼å…‹æ–¯åŸå¥³æ€§å±…æ°‘ï¼ˆé—²èŠï¼‰
+#Äá¿ËË¹³ÇÅ®ĞÔ¾ÓÃñ£¨ÏĞÁÄ£©
 {
 name=Å®ĞÔ
 floorid=7200
@@ -378,7 +378,7 @@ enemy=changeevent|file:eden2/nyx/nyx_citizen30
 graphicname=16573
 }
 
-#å°¼å…‹æ–¯åŸè€äººï¼ˆæ°´æ€ªäº‹ä»¶å—å®³è€…Eï¼‰
+#Äá¿ËË¹³ÇÀÏÈË£¨Ë®¹ÖÊÂ¼şÊÜº¦ÕßE£©
 {
 name=ÀÏÈË
 floorid=7200
@@ -391,7 +391,7 @@ enemy=changeevent|file:eden2/nyx/nyx_citizen31
 graphicname=16556
 }
 
-#å°¼å…‹æ–¯åŸè€äººï¼ˆèŠçˆ±æƒ…ä»»åŠ¡ï¼‰
+#Äá¿ËË¹³ÇÀÏÈË£¨ÁÄ°®ÇéÈÎÎñ£©
 {
 name=ÀÏÈË
 floorid=7200
@@ -404,7 +404,7 @@ enemy=changeevent|file:eden2/nyx/nyx_citizen32
 graphicname=16585
 }
 
-#å°¼å…‹æ–¯åŸè€äººï¼ˆé—²èŠï¼‰
+#Äá¿ËË¹³ÇÀÏÈË£¨ÏĞÁÄ£©
 {
 name=ÀÏÈË
 floorid=7211
@@ -417,7 +417,7 @@ enemy=changeevent|file:eden2/nyx/nyx_citizen33
 graphicname=16591
 }
 
-#å°¼å…‹æ–¯åŸè€äººï¼ˆé—²èŠï¼‰
+#Äá¿ËË¹³ÇÀÏÈË£¨ÏĞÁÄ£©
 {
 name=ÀÏÈË
 floorid=7212
@@ -430,7 +430,7 @@ enemy=changeevent|file:eden2/nyx/nyx_citizen34
 graphicname=16589
 }
 
-#å°¼å…‹æ–¯åŸè€äººï¼ˆé—²èŠï¼‰
+#Äá¿ËË¹³ÇÀÏÈË£¨ÏĞÁÄ£©
 {
 name=ÀÏÈË
 floorid=7200
@@ -443,7 +443,7 @@ enemy=changeevent|file:eden2/nyx/nyx_citizen35
 graphicname=16586
 }
 
-#å°¼å…‹æ–¯åŸå°å­©ï¼ˆæ°´æ€ªäº‹ä»¶å—å®³è€…Fï¼‰
+#Äá¿ËË¹³ÇĞ¡º¢£¨Ë®¹ÖÊÂ¼şÊÜº¦ÕßF£©
 {
 name=Ğ¡º¢
 floorid=7200
@@ -456,7 +456,7 @@ enemy=changeevent|file:eden2/nyx/nyx_citizen36
 graphicname=16582
 }
 
-#å°¼å…‹æ–¯åŸå°å­©ï¼ˆèŠçˆ±æƒ…ä»»åŠ¡ï¼‰
+#Äá¿ËË¹³ÇĞ¡º¢£¨ÁÄ°®ÇéÈÎÎñ£©
 {
 name=Ğ¡º¢
 floorid=7200
@@ -469,7 +469,7 @@ enemy=changeevent|file:eden2/nyx/nyx_citizen37
 graphicname=16584
 }
 
-#å°¼å…‹æ–¯åŸå°å­©ï¼ˆé—²èŠï¼‰
+#Äá¿ËË¹³ÇĞ¡º¢£¨ÏĞÁÄ£©
 {
 name=Ğ¡º¢
 floorid=7200
@@ -482,7 +482,7 @@ enemy=changeevent|file:eden2/nyx/nyx_citizen38
 graphicname=16579
 }
 
-#å°¼å…‹æ–¯åŸå°å­©ï¼ˆé—²èŠï¼‰
+#Äá¿ËË¹³ÇĞ¡º¢£¨ÏĞÁÄ£©
 {
 name=Ğ¡º¢
 floorid=7200
@@ -495,7 +495,7 @@ enemy=changeevent|file:eden2/nyx/nyx_citizen39
 graphicname=16583
 }
 
-#å°¼å…‹æ–¯åŸå°å­©ï¼ˆé—²èŠï¼‰
+#Äá¿ËË¹³ÇĞ¡º¢£¨ÏĞÁÄ£©
 {
 name=Ğ¡º¢
 floorid=7200

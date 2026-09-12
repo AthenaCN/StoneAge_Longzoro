@@ -1,13 +1,13 @@
 NomalMainMsg:ÕâÀïÍ¦ºÃÍæµÄàÞ£¡¾ÍÊÇÌ«»ÄÁ¹ÁËµã£¡ÓÖºÚÓÖ°µµÎ£¡~~~~~
 
-####ä»»åŠ¡ç»“æŸå¯¹è¯####
+####ÈÎÎñ½áÊø¶Ô»°####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>140&TRANS>5&ENDEV=184&ENDEV=185&ENDEV=59
 NomalWindowMsg:Ð»Ð»Äã°ïÖúÇàÍÜ¹úÍõ×Ó£¡ÄãÕæÊÇ¸öºÃÈËàÞ£¡
 EventEnd
 
-###èº«ä¸Šæœ‰4è‰²èœ•å˜ç‰© å’Œçœ¼æ³ª ç»“59æ ‡ ç»™å® ###
+###ÉíÉÏÓÐ4É«ÍÉ±äÎï ºÍÑÛÀá ½á59±ê ¸ø³è###
 EventNo:59
 TYPE:ACCEPT
 EVENT:LV>140&TRANS>5&ENDEV=184&ENDEV=185&ENDEV=58&NOWEV=59&ITEM=21146&ITEM=21147&ITEM=21148&ITEM=21149&ITEM=21150
@@ -20,14 +20,14 @@ GetPet:5545,5546
 EndSetFlg:59
 EventEnd
 
-####ä»»åŠ¡ç»“æŸå¯¹è¯####
+####ÈÎÎñ½áÊø¶Ô»°####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>140&TRANS>5&ENDEV=184&ENDEV=185&NOWEV=59
 NomalWindowMsg:¶÷~ÇàÍÜÍõ×ÓµÄÊÂ¾Í°ÝÍÐ¸øÄãÁË£¡
 EventEnd
 
-###æŽ¥ä»»åŠ¡ï¼ˆå¼€æ ‡59ï¼‰###
+###½ÓÈÎÎñ£¨¿ª±ê59£©###
 EventNo:59
 TYPE:REQUEST
 EVENT:LV>140&TRANS>5&ENDEV=184&ENDEV=185&ENDEV=58

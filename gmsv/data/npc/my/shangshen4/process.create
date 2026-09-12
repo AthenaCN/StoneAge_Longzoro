@@ -1,6 +1,6 @@
 NPCCREATE
 
-###### ç²¾ç‚¼å¸ˆã€Œè¤é‚£ã€ ######
+###### ¾«Á¶Ê¦¡¸ºÖÄÇ¡¹ ######
 {
 name=¾«Á¶Ê¦¡¸ºÖÄÇ¡¹
 floorid=1998
@@ -14,7 +14,7 @@ graphicname=100805
 enemy=ITEMCHANGE|file:my/shangshen4/hena.arg
 }
 
-###### ç²¾ç‚¼å¸ˆã€Œç¢§åã€ ######
+###### ¾«Á¶Ê¦¡¸±Ì»ª¡¹ ######
 {
 name=¾«Á¶Ê¦¡¸±Ì»ª¡¹
 floorid=1998
@@ -28,7 +28,7 @@ graphicname=100805
 enemy=ITEMCHANGE|file:my/shangshen4/bihua.arg
 }
 
-###### ç²¾ç‚¼å¸ˆã€Œæ´›ç‚ã€ ######
+###### ¾«Á¶Ê¦¡¸ÂåÑ×¡¹ ######
 {
 name=¾«Á¶Ê¦¡¸ÂåÑ×¡¹
 floorid=1998
@@ -42,7 +42,7 @@ graphicname=100805
 enemy=ITEMCHANGE|file:my/shangshen4/luoyan.arg
 }
 
-###### ç²¾ç‚¼å¸ˆã€Œæ¸©ç‰¹ã€ ######
+###### ¾«Á¶Ê¦¡¸ÎÂÌØ¡¹ ######
 {
 name=¾«Á¶Ê¦¡¸ÎÂÌØ¡¹
 floorid=1998

@@ -1,20 +1,20 @@
 NomalMainMsg:лЛлЛ╡╤сЦуФпа©Ю╟║║╚║╚║╚\n╩╤с╜ю╢╣╫╟╝я╘й╞фВ
 
-#Е╥╡Е╝▄Ф┬░Д╩╩Е┼║Е╞╧Х╞²
+#рямЙЁихннЯ╤т╩╟
 EventNo:-1
 TYPE:MESSAGE
 EVENT:ENDEV=4&ENDEV=253
 NomalWindowMsg:й╡ц╢ё©п║сА╥╒ожакпбф╥жж╣дсЦё©бТЁЖх╔╣д╩╟©идэ╨эж╣г╝║ё
 EventEnd
 
-#Ф╡║Ф°┴Д╩≥Д╨╨И╠╪Ф²├
+#ц╩споихксЦ╦к
 EventNo:-1
 TYPE:MESSAGE
 EVENT:ENDEV=4&NOWEV=253&ITEM!=2432
 NomalWindowMsg:нрц©лЛ╣д╧╓вВ╬мйг╣ЖсЦё╛х╩╨СбТЁЖх╔ё╛уУг╝╡╩хщрвбО║ё
 EventEnd
 
-#Х╨╚Д╦┼Ф°┴Д╩≥Д╨╨И╠╪Ф²├
+#иМиоспоихксЦ╦к
 EventNo:-1
 TYPE:ACCEPT
 EVENT:ENDEV=4&NOWEV=253&ITEM=2432

@@ -1,6 +1,6 @@
 NPCCREATE
 
-#æ¥ä»»åŠ¡æ½œæ°´å‘˜
+#½ÓÈÎÎñÇ±Ë®Ô±
 {
 floorid=817
 borncorner=99,88,99,88
@@ -13,7 +13,7 @@ action=2
 Name=Ç±Ë®Ô±
 enemy=changeevent|file:mofacity2/npc.arg
 }
-#ç»“ç•Œåœ°ä½¿è€…1
+#½á½çµØÊ¹Õß1
 {
 floorid=8270
 borncorner=22,23,22,23
@@ -26,7 +26,7 @@ action=2
 Name=½á½çµØÊ¹Õß
 enemy=sb_dou|file:mofacity2/di.arg
 }
-#ç»“ç•Œæ°´ä½¿è€…1
+#½á½çË®Ê¹Õß1
 {
 floorid=8270
 borncorner=25,26,25,26
@@ -39,7 +39,7 @@ action=2
 Name=½á½çË®Ê¹Õß
 enemy=npcgen_man|file:mofacity2/npc
 }
-#ç»“ç•Œç«ä½¿è€…1
+#½á½ç»ğÊ¹Õß1
 {
 floorid=8270
 borncorner=29,25,29,25
@@ -52,7 +52,7 @@ action=2
 Name=½á½ç»ğÊ¹Õß
 enemy=npcgen_man|file:mofacity2/npc
 }
-#ç»“ç•Œé£ä½¿è€…1
+#½á½ç·çÊ¹Õß1
 {
 floorid=8270
 borncorner=30,21,30,21
@@ -65,7 +65,7 @@ action=2
 Name=½á½ç·çÊ¹Õß
 enemy=npcgen_man|file:mofacity2/npc
 }
-#ç»“ç•Œå…¨ä½¿è€…1
+#½á½çÈ«Ê¹Õß1
 {
 floorid=8270
 borncorner=23,19,23,19
@@ -78,7 +78,7 @@ action=2
 Name=½á½çÈ«Ê¹Õß
 enemy=npcgen_man|file:mofacity2/npc
 }
-#ç»“ç•Œåœ°ä½¿è€…2
+#½á½çµØÊ¹Õß2
 {
 floorid=8271
 borncorner=22,23,22,23
@@ -91,7 +91,7 @@ action=10
 Name=½á½çµØÊ¹Õß
 enemy=npcgen_man|file:mofacity2/npc1
 }
-#ç»“ç•Œæ°´ä½¿è€…2
+#½á½çË®Ê¹Õß2
 {
 floorid=8271
 borncorner=25,26,25,26
@@ -104,7 +104,7 @@ action=2
 Name=½á½çË®Ê¹Õß
 enemy=sb_dou|file:mofacity2/shui.arg
 }
-#ç»“ç•Œç«ä½¿è€…2
+#½á½ç»ğÊ¹Õß2
 {
 floorid=8271
 borncorner=29,25,29,25
@@ -117,7 +117,7 @@ action=2
 Name=½á½ç»ğÊ¹Õß
 enemy=npcgen_man|file:mofacity2/npc
 }
-#ç»“ç•Œé£ä½¿è€…2
+#½á½ç·çÊ¹Õß2
 {
 floorid=8271
 borncorner=30,21,30,21
@@ -130,7 +130,7 @@ action=2
 Name=½á½ç·çÊ¹Õß
 enemy=npcgen_man|file:mofacity2/npc
 }
-#ç»“ç•Œå…¨ä½¿è€…2
+#½á½çÈ«Ê¹Õß2
 {
 floorid=8271
 borncorner=23,19,23,19
@@ -143,7 +143,7 @@ action=2
 Name=½á½çÈ«Ê¹Õß
 enemy=npcgen_man|file:mofacity2/npc
 }
-#ç»“ç•Œåœ°ä½¿è€…3
+#½á½çµØÊ¹Õß3
 {
 floorid=8272
 borncorner=22,23,22,23
@@ -156,7 +156,7 @@ action=10
 Name=½á½çµØÊ¹Õß
 enemy=npcgen_man|file:mofacity2/npc1
 }
-#ç»“ç•Œæ°´ä½¿è€…3
+#½á½çË®Ê¹Õß3
 {
 floorid=8272
 borncorner=25,26,25,26
@@ -169,7 +169,7 @@ action=10
 Name=½á½çË®Ê¹Õß
 enemy=npcgen_man|file:mofacity2/npc1
 }
-#ç»“ç•Œç«ä½¿è€…3
+#½á½ç»ğÊ¹Õß3
 {
 floorid=8272
 borncorner=29,25,29,25
@@ -182,7 +182,7 @@ action=2
 Name=½á½ç»ğÊ¹Õß
 enemy=sb_dou|file:mofacity2/huo.arg
 }
-#ç»“ç•Œé£ä½¿è€…3
+#½á½ç·çÊ¹Õß3
 {
 floorid=8272
 borncorner=30,21,30,21
@@ -195,7 +195,7 @@ action=2
 Name=½á½ç·çÊ¹Õß
 enemy=npcgen_man|file:mofacity2/npc
 }
-#ç»“ç•Œå…¨ä½¿è€…3
+#½á½çÈ«Ê¹Õß3
 {
 floorid=8272
 borncorner=23,19,23,19
@@ -208,7 +208,7 @@ action=2
 Name=½á½çÈ«Ê¹Õß
 enemy=npcgen_man|file:mofacity2/npc
 }
-#ç»“ç•Œåœ°ä½¿è€…4
+#½á½çµØÊ¹Õß4
 {
 floorid=8273
 borncorner=22,23,22,23
@@ -221,7 +221,7 @@ action=10
 Name=½á½çµØÊ¹Õß
 enemy=npcgen_man|file:mofacity2/npc1
 }
-#ç»“ç•Œæ°´ä½¿è€…4
+#½á½çË®Ê¹Õß4
 {
 floorid=8273
 borncorner=25,26,25,26
@@ -234,7 +234,7 @@ action=10
 Name=½á½çË®Ê¹Õß
 enemy=npcgen_man|file:mofacity2/npc1
 }
-#ç»“ç•Œç«ä½¿è€…4
+#½á½ç»ğÊ¹Õß4
 {
 floorid=8273
 borncorner=29,25,29,25
@@ -247,7 +247,7 @@ action=10
 Name=½á½ç»ğÊ¹Õß
 enemy=npcgen_man|file:mofacity2/npc1
 }
-#ç»“ç•Œé£ä½¿è€…4
+#½á½ç·çÊ¹Õß4
 {
 floorid=8273
 borncorner=30,21,30,21
@@ -260,7 +260,7 @@ action=2
 Name=½á½ç·çÊ¹Õß
 enemy=sb_dou|file:mofacity2/feng.arg
 }
-#ç»“ç•Œå…¨ä½¿è€…4
+#½á½çÈ«Ê¹Õß4
 {
 floorid=8273
 borncorner=23,19,23,19
@@ -273,7 +273,7 @@ action=2
 Name=½á½çÈ«Ê¹Õß
 enemy=npcgen_man|file:mofacity2/npc
 }
-#ç»“ç•Œåœ°ä½¿è€…5
+#½á½çµØÊ¹Õß5
 {
 floorid=8274
 borncorner=22,23,22,23
@@ -286,7 +286,7 @@ action=10
 Name=½á½çµØÊ¹Õß
 enemy=npcgen_man|file:mofacity2/npc1
 }
-#ç»“ç•Œæ°´ä½¿è€…5
+#½á½çË®Ê¹Õß5
 {
 floorid=8274
 borncorner=25,26,25,26
@@ -299,7 +299,7 @@ action=10
 Name=½á½çË®Ê¹Õß
 enemy=npcgen_man|file:mofacity2/npc1
 }
-#ç»“ç•Œç«ä½¿è€…5
+#½á½ç»ğÊ¹Õß5
 {
 floorid=8274
 borncorner=29,25,29,25
@@ -312,7 +312,7 @@ action=10
 Name=½á½ç»ğÊ¹Õß
 enemy=npcgen_man|file:mofacity2/npc1
 }
-#ç»“ç•Œé£ä½¿è€…5
+#½á½ç·çÊ¹Õß5
 {
 floorid=8274
 borncorner=30,21,30,21
@@ -325,7 +325,7 @@ action=10
 Name=½á½ç·çÊ¹Õß
 enemy=npcgen_man|file:mofacity2/npc1
 }
-#ç»“ç•Œå…¨ä½¿è€…5
+#½á½çÈ«Ê¹Õß5
 {
 floorid=8274
 borncorner=23,19,23,19
@@ -338,7 +338,7 @@ action=2
 Name=½á½çÈ«Ê¹Õß
 enemy=sb_dou|file:mofacity2/quan.arg
 }
-#ç»“ç•Œåœ°ä½¿è€…6
+#½á½çµØÊ¹Õß6
 {
 floorid=8275
 borncorner=22,23,22,23
@@ -351,7 +351,7 @@ action=10
 Name=½á½çµØÊ¹Õß
 enemy=npcgen_man|file:mofacity2/npc1
 }
-#ç»“ç•Œæ°´ä½¿è€…6
+#½á½çË®Ê¹Õß6
 {
 floorid=8275
 borncorner=25,26,25,26
@@ -364,7 +364,7 @@ action=10
 Name=½á½çË®Ê¹Õß
 enemy=npcgen_man|file:mofacity2/npc1
 }
-#ç»“ç•Œç«ä½¿è€…6
+#½á½ç»ğÊ¹Õß6
 {
 floorid=8275
 borncorner=29,25,29,25
@@ -377,7 +377,7 @@ action=10
 Name=½á½ç»ğÊ¹Õß
 enemy=npcgen_man|file:mofacity2/npc1
 }
-#ç»“ç•Œé£ä½¿è€…6
+#½á½ç·çÊ¹Õß6
 {
 floorid=8275
 borncorner=30,21,30,21
@@ -390,7 +390,7 @@ action=10
 Name=½á½ç·çÊ¹Õß
 enemy=npcgen_man|file:mofacity2/npc1
 }
-#ç»“ç•Œå…¨ä½¿è€…6
+#½á½çÈ«Ê¹Õß6
 {
 floorid=8275
 borncorner=23,19,23,19
@@ -403,7 +403,7 @@ action=10
 Name=½á½çÈ«Ê¹Õß
 enemy=npcgen_man|file:mofacity2/npc1
 }
-#è‰¾å·´ç™»ä¹‹å½±
+#°¬°ÍµÇÖ®Ó°
 {
 floorid=8275
 borncorner=27,18,27,18
@@ -427,7 +427,7 @@ action=10
 Name=
 enemy=npcgen_man|file:mofacity2/npc2
 }
-#ç»“ç•Œä¹‹æ™¶
+#½á½çÖ®¾§
 {
 floorid=8276
 borncorner=26,22,26,22
@@ -439,7 +439,7 @@ graphicname=15575
 Name=½á½çÖ®¾§
 enemy=sb_dou|file:mofacity2/jiejiejing.arg
 }
-#å…‰æ˜ç²¾çµç‹
+#¹âÃ÷¾«ÁéÍõ
 {
 floorid=8277
 borncorner=27,18,27,18
@@ -451,7 +451,7 @@ graphicname=100445
 Name=¹âÃ÷¾«ÁéÍõ
 enemy=changeevent|file:mofacity2/jinglingwang.arg
 }
-#é»‘æš—ç²¾çµç‹
+#ºÚ°µ¾«ÁéÍõ
 {
 floorid=8277
 borncorner=23,19,23,19
@@ -463,7 +463,7 @@ graphicname=100445
 Name=ºÚ°µ¾«ÁéÍõ
 enemy=npcgen_man|file:mofacity2/heianjinglingwang
 }
-#åœ°ç²¾çµ
+#µØ¾«Áé
 {
 floorid=8277
 borncorner=22,23,22,23
@@ -475,7 +475,7 @@ graphicname=100454
 Name=µØ¾«Áé
 enemy=npcgen_man|file:mofacity2/di
 }
-#æ°´ç²¾çµ
+#Ë®¾«Áé
 {
 floorid=8277
 borncorner=25,26,25,26
@@ -487,7 +487,7 @@ graphicname=100459
 Name=Ë®¾«Áé
 enemy=npcgen_man|file:mofacity2/shui
 }
-#ç«ç²¾çµ
+#»ğ¾«Áé
 {
 floorid=8277
 borncorner=29,25,29,25
@@ -499,7 +499,7 @@ graphicname=101160
 Name=»ğ¾«Áé
 enemy=npcgen_man|file:mofacity2/huo
 }
-#é£ç²¾çµ
+#·ç¾«Áé
 {
 floorid=8277
 borncorner=30,21,30,21

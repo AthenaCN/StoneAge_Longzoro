@@ -1,6 +1,6 @@
 NomalMainMsg:ÎÒÊÇæÏ¶ð£¬ÎÒÆ¯ÁÁÂð£¿
 
-####èº«ä¸Šæœ‰å§”æ‰˜####
+####ÉíÉÏÓÐÎ¯ÍÐ####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:ITEM=31079
@@ -8,7 +8,7 @@ NomalWindowMsg:¿ìÈ¥°É£¬±ðÈÃÎÒÃÇµÈµÃÌ«¾Ã¡£
 EventEnd
 
 
-###æŽ¥å¥½ä»»åŠ¡##
+###½ÓºÃÈÎÎñ##
 EventNo:-1
 TYPE:MESSAGE
 EVENT:NOWEV=243
@@ -16,7 +16,7 @@ NomalWindowMsg:ÏëÖªµÀ¾ßÌåÇé¿ö£¬È¥ÎÊÀÏÈø°É£¡
 EventEnd
 
 
-###æŽ¥ä»»åŠ¡##
+###½ÓÈÎÎñ##
 EventNo:243
 TYPE:REQUEST
 EVENT:TRANS>4&LV>139

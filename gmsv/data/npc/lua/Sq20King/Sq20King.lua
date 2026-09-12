@@ -27,10 +27,10 @@ function Sq20King_TalkedCallBack( _MeIndex, _TalkIndex, _Msg, _Color, _Channel)
 --面向玩家
 	local i;
 	i = Char.GetData(_TalkIndex, %对像_方向%);
-	if i >= 4 then 
+	if i >= 4 then
 		i = i - 4;
 	else
-		i = i + 4;		
+		i = i + 4;
 	end
 	Char.SetData(_MeIndex, %对像_方向%,i);
 	NLG.UpChar( _MeIndex);
@@ -49,7 +49,7 @@ function Sq20King_TalkedCallBack( _MeIndex, _TalkIndex, _Msg, _Color, _Channel)
 	local TM_BaseLevel = {140, 140, 140, 140, 140,140, 140, 140, 140, 140};
 	--local TM_SkillType = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1};
 	Sq20King_BattleIndex = NLG.CreateBattle(_TalkIndex, _MeIndex, nil, TM_EnemyIdAr, TM_BaseLevel, nil);
-	
+
 	if(Sq20King_BattleIndex < 0) then--判断是否成功创建战斗
 		return ;
 	end
@@ -57,7 +57,7 @@ function Sq20King_TalkedCallBack( _MeIndex, _TalkIndex, _Msg, _Color, _Channel)
 	Battle.SetWinEvent(nil, "Sq20King_BattleOver", Sq20King_BattleIndex);
 	Char.SetLoopEvent(nil,"Sq20King_Battle_Check",_MeIndex,2000);
 	starttime=os.time();--战斗计时开始
-	
+
 	local TM_PlayIndex = _TalkIndex;
 	    NLG.TalkToCli(TM_PlayIndex, "就凭你也想打败我吗？", %青色%, 0, _MeIndex);
 
@@ -86,7 +86,7 @@ end
 
 function Sq20King_BattleOver( _BattleIndex, _MeIndex)
 	endtime=os.time();--战斗时间计算结束
-	
+
 	local TM_PrizeList = {20566};-- 奖品列表(道具 ID)可以设置多个
 	local TM_PlayerIndex;
 	local TM_cnt = 1;
@@ -104,8 +104,8 @@ function Sq20King_BattleOver( _BattleIndex, _MeIndex)
 		return false;
 	end
 			for _,e in ipairs(TM_PrizeList) do
-			  if NLG.GiveItem(TM_PlayerIndex, e) <= 0 then 
-			  NLG.TalkToCli(TM_PlayerIndex, "道具栏位不足!", %红色%, 0, -1); 
+			  if NLG.GiveItem(TM_PlayerIndex, e) <= 0 then
+			  NLG.TalkToCli(TM_PlayerIndex, "道具栏位不足!", %红色%, 0, -1);
 			  end
 			end
 		end

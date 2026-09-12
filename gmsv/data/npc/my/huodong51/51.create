@@ -10,7 +10,7 @@ createnum=1
 dir=6
 ignoreinvincible=1
 graphicname=101428
-name=炎龙活动特派员
+name=朒韓魂雄杻巖埜
 enemy=changeevent|file:my/huodong51/tpy.arg
 }
 
@@ -21,7 +21,7 @@ borncorner=68,81,68,81
 time=0
 createnum=1
 graphicname=125009
-name=活动奖品兑换员
+name=魂雄蔣こ募遙埜
 dir=6
 ignoreinvincible=1
 enemy=ITEMCHANGE|file:my/huodong51/dhy.arg
@@ -36,6 +36,6 @@ createnum=1
 dir=6
 ignoreinvincible=1
 graphicname=17063
-name=牙刷苏
+name=挴芃劼
 enemy=changeevent|file:my/huodong51/ya.arg
 }

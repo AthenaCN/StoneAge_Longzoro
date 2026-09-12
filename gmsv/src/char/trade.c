@@ -233,7 +233,7 @@ BOOL TRADE_addSomeTradeList(int meindex, int usTi, int *num, int type) {
 
 		if (ITEM_getInt(itemindex, ITEM_VANISHATDROP) == 1) {
 			char buf[256];
-			sprintf(buf, "%s无法交易。", ITEM_getChar(itemindex, ITEM_NAME));
+			sprintf(buf, "%s\xCE\xDE\xB7\xA8\xBD\xBB\xD2\xD7\xA1\xA3", ITEM_getChar(itemindex, ITEM_NAME));
 			CHAR_talkToCli(meindex, -1, buf, CHAR_COLORYELLOW);
 			return FALSE;
 		}

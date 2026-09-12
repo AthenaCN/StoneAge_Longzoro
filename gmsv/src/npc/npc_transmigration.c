@@ -538,9 +538,9 @@ static int NPC_TransmigrationCheck(int meindex, int talker) {
 	int petindex;
 	int num;
 	//	int petid[4] = {1, 2, 3, 4}; //ペットの指定  (指定宠物)
-	int petid[4] = {693, 694, 695, 696}; // ペットの指定  (指定宠物)
+	int petid[4] = {1373, 1374, 1375, 1376}; // ペットの指定  (指定守护兽: 转生地/水/火/风)
 	//	int petidfinal[4] = {11, 12, 13, 14}; //ペットの指定  (指定宠物)
-	int petidfinal[4] = {693, 694, 695, 696}; // ペットの指定  (指定宠物)
+	int petidfinal[4] = {1373, 1374, 1375, 1376}; // ペットの指定  (5转需四系守护兽)
 
 	// Robin 2001/03/05
 	// CHAR_setWorkInt(talker,CHAR_TENSEICHECKED,FALSE);
@@ -555,9 +555,13 @@ static int NPC_TransmigrationCheck(int meindex, int talker) {
 	}
 #endif
 
-	// レベルが80以上かチェック  (检查等级是否80以上)
-	if (CHAR_getInt(talker, CHAR_LV) < 80)
-		return -1;
+	// レベル条件  (官方转生等级条件: 1转80 / 2转90 / 3转100 / 4转110 / 5转120 / 6转140)
+	{
+		int trans = CHAR_getInt(talker, CHAR_TRANSMIGRATION);
+		int needlv[6] = {80, 90, 100, 110, 120, 140};
+		if (CHAR_getInt(talker, CHAR_LV) < needlv[trans])
+			return -1;
+	}
 
 	// イベントのフラグチェック  (检查事件标志)
 #ifdef _TRANS_6
@@ -1009,7 +1013,7 @@ BOOL NPC_TransmigrationAddPet(int meindex, int talker, int petid) {
 	if (!CHAR_CHECKINDEX(petindex2))
 		return FALSE;
 
-	snprintf(msgbuf, sizeof(msgbuf), "拿到%s。",
+	snprintf(msgbuf, sizeof(msgbuf), "\xC4\xC3\xB5\xBD%s\xA1\xA3",
 			 CHAR_getChar(petindex2, CHAR_NAME));
 	CHAR_talkToCli(talker, -1, msgbuf, CHAR_COLORWHITE);
 	for (j = 0; j < CHAR_MAXPETHAVE; j++) {
@@ -1151,7 +1155,7 @@ int NPC_TransmigrationFlg_CLS(int meindex, int toindex) {
 					float fGetFame = (float)iGetFame / 100;
 					// 导师在线上
 					CHAR_setWorkInt(i, CHAR_WORK_GET_TEACHER_FAME, CHAR_getWorkInt(i, CHAR_WORK_GET_TEACHER_FAME) + iGetFame);
-					sprintf(szMsg, "获得学生 %s %.2f 点声望", CHAR_getChar(toindex, CHAR_NAME), fGetFame);
+					sprintf(szMsg, "\xBB\xF1\xB5\xC3\xD1\xA7\xC9\xFA %s %.2f \xB5\xE3\xC9\xF9\xCD\xFB", CHAR_getChar(toindex, CHAR_NAME), fGetFame);
 					CHAR_talkToCli(i, -1, szMsg, CHAR_COLORYELLOW);
 					break;
 				}
@@ -1199,7 +1203,7 @@ BOOL NPC_TransmigrationDelPetDel(int meindex, int talker, int petsel) {
 		lssproto_KS_send(fd, -1, TRUE);
 	}
 
-	snprintf(msgbuf, sizeof(msgbuf), "交出%s。",
+	snprintf(msgbuf, sizeof(msgbuf), "\xBD\xBB\xB3\xF6%s\xA1\xA3",
 			 CHAR_getChar(petindex, CHAR_NAME));
 	CHAR_talkToCli(talker, -1, msgbuf, CHAR_COLORWHITE);
 	// ペットをログ  (记录宠物日志)
@@ -1232,9 +1236,9 @@ BOOL NPC_TransmigrationDelPet(int meindex, int talker) {
 	int num;
 	int j, k;
 	//	int petid[4] = {1, 2, 3, 4}; //ペットの指定  (指定宠物)
-	int petid[4] = {693, 694, 695, 696}; // ペットの指定  (指定宠物)
+	int petid[4] = {1373, 1374, 1375, 1376}; // ペットの指定  (指定守护兽: 转生地/水/火/风)
 	//	int petidfinal[4] = {11, 12, 13, 14}; //ペットの指定  (指定宠物)
-	int petidfinal[4] = {693, 694, 695, 696}; // ペットの指定  (指定宠物)
+	int petidfinal[4] = {1373, 1374, 1375, 1376}; // ペットの指定  (5转需四系守护兽)
 	int petwork[4] = {-1, -1, -1, -1};
 
 	num = CHAR_getInt(talker, CHAR_TRANSMIGRATION);
@@ -1710,7 +1714,7 @@ BOOL NPC_PetTransManStatus(int meindex, int toindex, int petNo) {
 			vital1, str1, tgh1, dex1, total1,
 			work[0], work[1], work[2], work[3], ans, CHAR_getInt(petNo, CHAR_TRANSMIGRATION));
 	}
-	sprintf(token, "%s 接受了精灵王的祝福！", CHAR_getUseName(ret));
+	sprintf(token, "%s \xBD\xD3\xCA\xDC\xC1\xCB\xBE\xAB\xC1\xE9\xCD\xF5\xB5\xC4\xD7\xA3\xB8\xA3\xA3\xA1", CHAR_getUseName(ret));
 	CHAR_talkToCli(toindex, -1, token, CHAR_COLORWHITE);
 	sprintf(token, "K%d", i);
 	CHAR_sendStatusString(toindex, token);

@@ -1,7 +1,7 @@
 NomalMainMsg:ÎÒÊÇÑ×Áú³¬¼¶´óÄ§Íõ³ÁÄ¬µÄÎÂÈá£¡ÏëÁìÈ¡Ò»Ö»DIY³èÎï»ØÈ¥ËÇÑøÂð£¿´øÁì79¼¶À×¶û¡¢1Ö»1DMM¡¢2Ö»2DMMÒÔ¼°160¼¶µÄ"ÍþÍþ""Íþ±È""ÌûÀ­ËùÒÁ¶ä""°¬µÏÏ£Âå""ÈøµÂµÏ±È""ÈøµÂË¹¿­""¿­¶÷""·ÆÆæÑÇ""»³ÎÖ·ò""À³¶÷Âå¿Ë""À³¶÷Ææ·ò""±äÉíÀÇÍõ""Ë¾¿¨Ææ""¹þÀû¶÷Ë¹""²¼ÀïÈø¶û""ºÚÎÚÁ¦Íõ""Àï°ºÍÜ"ÈÎÒâÒ»Ö»¾Í¿ÉÒÔÀ´ÕÒÎÒÅ¶!
 
 
-#### DIYå¨å¨å®å® ####
+#### DIYÍþÍþ±¦±¦ ####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>119&TRANS>5&ENDEV=190&ENDEV=210&PET=79-6000&PET=79-401*2&PET=79-718&PET=160-32
@@ -12,7 +12,7 @@ GetPet:30001
 PetFullMsg:ÄãµÄ³èÎïÒÑÂú!
 EventEnd
 
-###### å¨å¨ ######
+###### ÍþÍþ ######
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>119&TRANS>5&ENDEV=190&ENDEV=210&PET=79-6001
@@ -23,7 +23,7 @@ GetPet:30002,30003,30004,30005
 PetFullMsg:ÄãµÄ³èÎïÒÑÂú!
 EventEnd
 
-#### DIYå¨æ¯”å®å® ####
+#### DIYÍþ±È±¦±¦ ####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>119&TRANS>5&ENDEV=190&ENDEV=210&PET=79-6000&PET=79-401*2&PET=79-718&PET=160-737
@@ -34,7 +34,7 @@ GetPet:30006
 PetFullMsg:ÄãµÄ³èÎïÒÑÂú!
 EventEnd
 
-###### å¨æ¯” ######
+###### Íþ±È ######
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>119&TRANS>5&ENDEV=190&ENDEV=210&PET=79-6006
@@ -45,7 +45,7 @@ GetPet:30007,3008,30009,30010
 PetFullMsg:ÄãµÄ³èÎïÒÑÂú!
 EventEnd
 
-#### DIYå¸–æ‹‰æ‰€ä¼Šæœµå®å® ####
+#### DIYÌûÀ­ËùÒÁ¶ä±¦±¦ ####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>119&TRANS>5&ENDEV=190&ENDEV=210&PET=79-6000&PET=79-401*2&PET=79-718&PET=160-304
@@ -56,7 +56,7 @@ GetPet:30011
 PetFullMsg:ÄãµÄ³èÎïÒÑÂú!
 EventEnd
 
-###### åœ°å¸–æ‹‰æ‰€ä¼Šæœµ ######
+###### µØÌûÀ­ËùÒÁ¶ä ######
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>119&TRANS>5&ENDEV=190&ENDEV=210&PET=79-6011&ITEM=19168
@@ -68,7 +68,7 @@ GetPet:30012,30013
 PetFullMsg:ÄãµÄ³èÎïÒÑÂú!
 EventEnd
 
-###### æ°´å¸–æ‹‰æ‰€ä¼Šæœµ ######
+###### Ë®ÌûÀ­ËùÒÁ¶ä ######
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>119&TRANS>5&ENDEV=190&ENDEV=210&PET=79-6011&ITEM=19169
@@ -80,7 +80,7 @@ GetPet:30014,30015
 PetFullMsg:ÄãµÄ³èÎïÒÑÂú!
 EventEnd
 
-###### ç«å¸–æ‹‰æ‰€ä¼Šæœµ ######
+###### »ðÌûÀ­ËùÒÁ¶ä ######
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>119&TRANS>5&ENDEV=190&ENDEV=210&PET=79-6011&ITEM=19170
@@ -92,7 +92,7 @@ GetPet:30016,30017
 PetFullMsg:ÄãµÄ³èÎïÒÑÂú!
 EventEnd
 
-###### é£Žå¸–æ‹‰æ‰€ä¼Šæœµ ######
+###### ·çÌûÀ­ËùÒÁ¶ä ######
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>119&TRANS>5&ENDEV=190&ENDEV=210&PET=79-6011&ITEM=19171
@@ -104,7 +104,7 @@ GetPet:30018,30019
 PetFullMsg:ÄãµÄ³èÎïÒÑÂú!
 EventEnd
 
-#### DIYè‰¾è¿ªå¸Œæ´›å®å® ####
+#### DIY°¬µÏÏ£Âå±¦±¦ ####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>119&TRANS>5&ENDEV=190&ENDEV=210&PET=79-6000&PET=79-401*2&PET=79-718&PET=160-968
@@ -115,7 +115,7 @@ GetPet:30020
 PetFullMsg:ÄãµÄ³èÎïÒÑÂú!
 EventEnd
 
-###### è‰¾è¿ªå¸Œæ´› ######
+###### °¬µÏÏ£Âå ######
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>119&TRANS>5&ENDEV=190&ENDEV=210&PET=79-6020
@@ -126,7 +126,7 @@ GetPet:30021,30022,30023,30024
 PetFullMsg:ÄãµÄ³èÎïÒÑÂú!
 EventEnd
 
-#### DIYè¨å¾·è¿ªæ¯”å®å® ####
+#### DIYÈøµÂµÏ±È±¦±¦ ####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>119&TRANS>5&ENDEV=190&ENDEV=210&PET=79-6000&PET=79-401*2&PET=79-718&PET=160-1450
@@ -137,7 +137,7 @@ GetPet:30025
 PetFullMsg:ÄãµÄ³èÎïÒÑÂú!
 EventEnd
 
-###### è¨å¾·è¿ªæ¯” ######
+###### ÈøµÂµÏ±È ######
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>119&TRANS>5&ENDEV=190&ENDEV=210&PET=79-6025
@@ -148,7 +148,7 @@ GetPet:30026,30027,30028,30029
 PetFullMsg:ÄãµÄ³èÎïÒÑÂú!
 EventEnd
 
-#### DIYè¨å¾·æ–¯å‡¯å®å® ####
+#### DIYÈøµÂË¹¿­±¦±¦ ####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>119&TRANS>5&ENDEV=190&ENDEV=210&PET=79-6000&PET=79-401*2&PET=79-718&PET=160-1460
@@ -159,7 +159,7 @@ GetPet:30030
 PetFullMsg:ÄãµÄ³èÎïÒÑÂú!
 EventEnd
 
-###### è¨å¾·æ–¯å‡¯ ######
+###### ÈøµÂË¹¿­ ######
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>119&TRANS>5&ENDEV=190&ENDEV=210&PET=79-6030
@@ -170,7 +170,7 @@ GetPet:30031,30032,30033,30034
 PetFullMsg:ÄãµÄ³èÎïÒÑÂú!
 EventEnd
 
-#### DIYå‡¯æ©å®å® ####
+#### DIY¿­¶÷±¦±¦ ####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>119&TRANS>5&ENDEV=190&ENDEV=210&PET=79-6000&PET=79-401*2&PET=79-718&PET=160-918
@@ -181,7 +181,7 @@ GetPet:30035
 PetFullMsg:ÄãµÄ³èÎïÒÑÂú!
 EventEnd
 
-###### å‡¯æ© ######
+###### ¿­¶÷ ######
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>119&TRANS>5&ENDEV=190&ENDEV=210&PET=79-6035
@@ -192,7 +192,7 @@ GetPet:30036,30037,30038,30039
 PetFullMsg:ÄãµÄ³èÎïÒÑÂú!
 EventEnd
 
-#### DIYè²å¥‡äºšå®å® ####
+#### DIY·ÆÆæÑÇ±¦±¦ ####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>119&TRANS>5&ENDEV=190&ENDEV=210&PET=79-6000&PET=79-401*2&PET=79-718&PET=160-933
@@ -203,7 +203,7 @@ GetPet:30040
 PetFullMsg:ÄãµÄ³èÎïÒÑÂú!
 EventEnd
 
-###### è²å¥‡äºš ######
+###### ·ÆÆæÑÇ ######
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>119&TRANS>5&ENDEV=190&ENDEV=210&PET=79-6040
@@ -214,7 +214,7 @@ GetPet:30041,30042,30043,30044
 PetFullMsg:ÄãµÄ³èÎïÒÑÂú!
 EventEnd
 
-#### DIYæ€€æ²ƒå¤«å®å® ####
+#### DIY»³ÎÖ·ò±¦±¦ ####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>119&TRANS>5&ENDEV=190&ENDEV=210&PET=79-6000&PET=79-401*2&PET=79-718&PET=160-150
@@ -225,7 +225,7 @@ GetPet:30045
 PetFullMsg:ÄãµÄ³èÎïÒÑÂú!
 EventEnd
 
-###### æ€€æ²ƒå¤« ######
+###### »³ÎÖ·ò ######
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>119&TRANS>5&ENDEV=190&ENDEV=210&PET=79-6045
@@ -236,7 +236,7 @@ GetPet:30047,30048,30049,30046
 PetFullMsg:ÄãµÄ³èÎïÒÑÂú!
 EventEnd
 
-#### DIYèŽ±æ©æ´›å…‹å®å® ####
+#### DIYÀ³¶÷Âå¿Ë±¦±¦ ####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>119&TRANS>5&ENDEV=190&ENDEV=210&PET=79-6000&PET=79-401*2&PET=79-718&PET=160-179
@@ -247,7 +247,7 @@ GetPet:30050
 PetFullMsg:ÄãµÄ³èÎïÒÑÂú!
 EventEnd
 
-###### èŽ±æ©æ´›å…‹ ######
+###### À³¶÷Âå¿Ë ######
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>119&TRANS>5&ENDEV=190&ENDEV=210&PET=79-6050
@@ -258,7 +258,7 @@ GetPet:30051,30052,30053,30054
 PetFullMsg:ÄãµÄ³èÎïÒÑÂú!
 EventEnd
 
-#### DIYèŽ±æ©å¥‡å¤«å®å® ####
+#### DIYÀ³¶÷Ææ·ò±¦±¦ ####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>119&TRANS>5&ENDEV=190&ENDEV=210&PET=79-6000&PET=79-401*2&PET=79-718&PET=160-178
@@ -269,7 +269,7 @@ GetPet:30055
 PetFullMsg:ÄãµÄ³èÎïÒÑÂú!
 EventEnd
 
-###### èŽ±æ©å¥‡å¤« ######
+###### À³¶÷Ææ·ò ######
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>119&TRANS>5&ENDEV=190&ENDEV=210&PET=79-6055
@@ -280,7 +280,7 @@ GetPet:30056,30705,30058,30059
 PetFullMsg:ÄãµÄ³èÎïÒÑÂú!
 EventEnd
 
-#### DIYå˜èº«ç‹¼çŽ‹å®å® ####
+#### DIY±äÉíÀÇÍõ±¦±¦ ####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>119&TRANS>5&ENDEV=190&ENDEV=210&PET=79-6000&PET=79-401*2&PET=79-718&PET=160-1272
@@ -291,7 +291,7 @@ GetPet:30060
 PetFullMsg:ÄãµÄ³èÎïÒÑÂú!
 EventEnd
 
-###### å˜èº«ç‹¼çŽ‹ ######
+###### ±äÉíÀÇÍõ ######
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>119&TRANS>5&ENDEV=190&ENDEV=210&PET=79-6060
@@ -302,7 +302,7 @@ GetPet:30062,30063,30061,30064
 PetFullMsg:ÄãµÄ³èÎïÒÑÂú!
 EventEnd
 
-#### DIYå¸å¡å¥‡å®å® ####
+#### DIYË¾¿¨Ææ±¦±¦ ####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>119&TRANS>5&ENDEV=190&ENDEV=210&PET=79-6000&PET=79-401*2&PET=79-718&PET=160-812
@@ -313,7 +313,7 @@ GetPet:30065
 PetFullMsg:ÄãµÄ³èÎïÒÑÂú!
 EventEnd
 
-###### å¸å¡å¥‡ ######
+###### Ë¾¿¨Ææ ######
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>119&TRANS>5&ENDEV=190&ENDEV=210&PET=79-6065
@@ -324,7 +324,7 @@ GetPet:30066,30067,30068,30069
 PetFullMsg:ÄãµÄ³èÎïÒÑÂú!
 EventEnd
 
-#### DIYå“ˆåˆ©æ©æ–¯å®å® ####
+#### DIY¹þÀû¶÷Ë¹±¦±¦ ####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>119&TRANS>5&ENDEV=190&ENDEV=210&PET=79-6000&PET=79-401*2&PET=79-718&PET=160-1164
@@ -335,7 +335,7 @@ GetPet:30070
 PetFullMsg:ÄãµÄ³èÎïÒÑÂú!
 EventEnd
 
-###### å“ˆåˆ©æ©æ–¯ ######
+###### ¹þÀû¶÷Ë¹ ######
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>119&TRANS>5&ENDEV=190&ENDEV=210&PET=79-6070
@@ -346,7 +346,7 @@ GetPet:30071,30072,30073,30074
 PetFullMsg:ÄãµÄ³èÎïÒÑÂú!
 EventEnd
 
-#### DIYå¸ƒé‡Œè¨å°”å®å® ####
+#### DIY²¼ÀïÈø¶û±¦±¦ ####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>119&TRANS>5&ENDEV=190&ENDEV=210&PET=79-6000&PET=79-401*2&PET=79-718&PET=160-1177
@@ -357,7 +357,7 @@ GetPet:30075
 PetFullMsg:ÄãµÄ³èÎïÒÑÂú!
 EventEnd
 
-###### å¸ƒé‡Œè¨å°” ######
+###### ²¼ÀïÈø¶û ######
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>119&TRANS>5&ENDEV=190&ENDEV=210&PET=79-6075
@@ -368,7 +368,7 @@ GetPet:30076,30077,30078,30079
 PetFullMsg:ÄãµÄ³èÎïÒÑÂú!
 EventEnd
 
-#### DIYé»‘ä¹ŒåŠ›çŽ‹å®å® ####
+#### DIYºÚÎÚÁ¦Íõ±¦±¦ ####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>119&TRANS>5&ENDEV=190&ENDEV=210&PET=79-6000&PET=79-401*2&PET=79-718&PET=160-1147
@@ -379,7 +379,7 @@ GetPet:30080
 PetFullMsg:ÄãµÄ³èÎïÒÑÂú!
 EventEnd
 
-###### é»‘ä¹ŒåŠ›çŽ‹ ######
+###### ºÚÎÚÁ¦Íõ ######
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>119&TRANS>5&ENDEV=190&ENDEV=210&PET=79-6080
@@ -390,7 +390,7 @@ GetPet:30082,30083,30084,30081
 PetFullMsg:ÄãµÄ³èÎïÒÑÂú!
 EventEnd
 
-#### DIYé‡Œæ˜‚è›™å®å® ####
+#### DIYÀï°ºÍÜ±¦±¦ ####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>119&TRANS>5&ENDEV=190&ENDEV=210&PET=79-6000&PET=79-401*2&PET=79-718&PET=160-791
@@ -401,7 +401,7 @@ GetPet:30085
 PetFullMsg:ÄãµÄ³èÎïÒÑÂú!
 EventEnd
 
-###### é‡Œæ˜‚è›™ ######
+###### Àï°ºÍÜ ######
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>119&TRANS>5&ENDEV=190&ENDEV=210&PET=79-6085

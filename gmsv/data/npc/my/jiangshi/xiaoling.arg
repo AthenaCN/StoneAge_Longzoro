@@ -1,11 +1,11 @@
-##瀹屾垚浠诲姟##
+##完成任务##
 EventNo:-1
 TYPE:MESSAGE
 EVENT:ENDEV=232
 NomalWindowMsg:太感谢你了..
 EventEnd
 
-#浜ゅ拻璇█
+#交咒语言
 EventNo:-1
 TYPE:REQUEST
 EVENT:LV>1&ITEM=30909&ITEM=30910&ITEM=30919&ITEM=30930&ITEM=30931&ITEM=30932&ITEM=30933&ITEM=30934&ITEM=30935&ITEM=30936&ITEM=30937&ITEM=30938&ITEM=30939&NOWEV=232
@@ -17,7 +17,7 @@ GetItem:30940,30941
 ItemFullMsg:请你将你身上的东西减少一些好吗？
 EventEnd
 
-#浜よ揣
+#交货
 EventNo:-1
 TYPE:REQUEST
 EVENT:LV>1&ITEM=30909&ITEM=30910&ITEM=30919&ITEM=30929&ITEM=30925&ITEM=30926&ITEM=30927&ITEM=30928&NOWEV=232
@@ -39,7 +39,7 @@ GetItem:30930
 ItemFullMsg:请你将你身上的东西减少一些好吗？
 EventEnd
 
-#閬埌鎷掔粷
+#遭到拒绝
 EventNo:-1
 TYPE:REQUEST
 EVENT:LV>1&ITEM=30909&ITEM=30910&ITEM=30919&ITEM=30923&NOWEV=232
@@ -50,7 +50,7 @@ DelItem:30923
 ItemFullMsg:请你将你身上的东西减少一些好吗？
 EventEnd
 
-#鍑哄北
+#出山
 EventNo:-1
 TYPE:REQUEST
 EVENT:LV>1&ITEM=30909&ITEM=30910&ITEM=30919&ITEM=30920&NOWEV=232
@@ -62,7 +62,7 @@ GetItem:30921,30922
 ItemFullMsg:请你将你身上的东西减少一些好吗？
 EventEnd
 
-#### 鏈帴浠诲姟瀵硅瘽 ####
+#### 未接任务对话 ####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>0

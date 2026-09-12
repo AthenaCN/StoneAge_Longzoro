@@ -25,14 +25,14 @@ function EquipPlus_Talked( _MeIndex, _PlayerIndex, _Msg, _Color, _Channel)
 	--這裡檢查玩家是否站在NPC面前
 	if(NLG.CheckInFront(_PlayerIndex, _MeIndex, 1) == false) then
 		return ;
-	end 
+	end
 	--面向玩家
 	local i;
 	i = Char.GetData(_PlayerIndex, %对像_方向%);
-	if i >= 4 then 
+	if i >= 4 then
 		i = i - 4;
 	else
-		i = i + 4;		
+		i = i + 4;
 	end
 	Char.SetData(_MeIndex, %对像_方向%,i);
 	NLG.UpChar( _MeIndex);
@@ -72,7 +72,7 @@ function EquipPlus_WindowTalked( _MeIndex, _TalkIndex, _Seqno, _Select, _Data)
 			 _MeIndex);
 		return;
 	end
-	
+
 	if _Seqno == 1 then
 		if _Data == "1" then
 			local pos = 0;
@@ -93,7 +93,7 @@ function EquipPlus_WindowTalked( _MeIndex, _TalkIndex, _Seqno, _Select, _Data)
 			NLG.ShowWindowTalked( _TalkIndex, 2, 0, 2, TM_Buff, _MeIndex);
 			return;
 		end
-		
+
 		if _Data == "2" then
 			--改说明时勿添行
 			local pos = 9;
@@ -154,7 +154,7 @@ end
 
 function EquipPlus_Plus( _PlayerIndex,_Page,_Sel)
 	local itemtbl = { {0,1,2,3,4,5,6,7,8} , {9,10,11,12,13,14,15,16,17} , {18,19,20,21,22,23,-1,-1,-1} };
-	
+
 	local haveitemindex = itemtbl[_Page][_Sel];
 
 	if haveitemindex >= 0 then
@@ -164,7 +164,7 @@ function EquipPlus_Plus( _PlayerIndex,_Page,_Sel)
 			if(EquipPlus_Check(itemid) > 0)then
 				EquipPlus_PPlus(_PlayerIndex,itemindex,itemid);
 				return;
-			else 
+			else
 				NLG.TalkToCli(_PlayerIndex,"该物品无法强化!",%红色%);
 				return;
 			end
@@ -184,7 +184,7 @@ function EquipPlus_Check(_ItemID)
 		end
 		i = i + 1;
 	end
-	
+
 	return 0;
 end
 
@@ -238,12 +238,12 @@ function EquipPlus_PPlus(charaindex,itemindex,itemid)
 		else
 			Item.SetData(itemindex,%道具_附攻%, Item.GetData(itemindex,%道具_附攻%) + 5);
 			--加HP
-			
+
 			--加MP
 			Item.SetData(itemindex,%道具_附气%, Item.GetData(itemindex,%道具_附气%) + 5);
 			Item.SetData(itemindex,%道具_附防%, Item.GetData(itemindex,%道具_附防%) + 5);
 			Item.SetData(itemindex,%道具_附敏%, Item.GetData(itemindex,%道具_附敏%) + 5);
-      Item.SetData(itemindex,%道具_附体%, Item.GetData(itemindex,%道具_附体%) + 5);		
+      Item.SetData(itemindex,%道具_附体%, Item.GetData(itemindex,%道具_附体%) + 5);
 		end
 		local buff = Item.GetData(itemindex,%道具_原名%).."+"..level+1;
 		Item.SetData(itemindex,%道具_名%,buff);

@@ -1,12 +1,12 @@
-#マンモスくじ１霹苞垂疥
-NomalMainMsg:这里是长毛象签1等交换所。
+#幸运宠物交换处
+NomalMainMsg:欢迎光临。这里可以用1张幸运券交换宠物。
 
 EventNo:-1
 TYPE:ACCEPT
 EVENT:ITEM=2733
-AcceptMsg:这里是长毛象签1等交换所。
-ThanksMsg:非常的恭喜你。这是1等奖的稀有宠物。
-PetFullMsg:宠物已经满了、\n请随便丢掉一只。
+AcceptMsg:欢迎光临。这里可以用1张幸运券交换宠物。
+ThanksMsg:谢谢你。这是用1张幸运券换到的稀有宠物。
+PetFullMsg:宠物已经满了！\n请先腾出一个宠物栏位再来交换。
 DelPet:PET>29-191*1
 GetPet:310,483,354,12
 EventEnd
@@ -15,5 +15,5 @@ EventEnd
 EventNo:-1
 TYPE:MESSAGE
 EVENT:ITEM!=2733
-NomalMsg:这里是长毛象签1等交换所。请加油中1等奖吧。
+NomalMsg:欢迎光临。请持有1张幸运券前来交换宠物。
 EventEnd

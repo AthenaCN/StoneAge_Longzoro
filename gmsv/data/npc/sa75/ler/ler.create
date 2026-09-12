@@ -1,5 +1,5 @@
 NPCCREATE
-########é›·å°”#########
+########À×¶û#########
 {
 name=À×¶û
 floorid=7021
@@ -10,7 +10,7 @@ createnum=1
 graphicname=101813
 enemy=changeevent|file:sa75/ler/ler1.arg
 }
-########åœ°åŸç‹å­(åœ°ç‰¢å†…)#########
+########µØ³ÇÍõ×Ó(µØÀÎÄÚ)#########
 {
 name=ÑÇ°Í
 floorid=8513
@@ -21,9 +21,9 @@ createnum=1
 graphicname=16047
 enemy=changeevent|file:sa75/ler/ler2.arg
 }
-########æœ€ç»ˆé›·å°”#########
+########×îÖÕÀ×¶û#########
 #{
-#name=é›·å°”
+#name=À×¶û
 #floorid=8520
 #borncenter=29,25,1,1
 #dir=6
@@ -32,7 +32,7 @@ enemy=changeevent|file:sa75/ler/ler2.arg
 #graphicname=101813
 #enemy=changeevent|file:sa75/ler/ler4.arg
 #}
-######æˆ˜æ–—NPCé»‘æš—ä½¿è€…ï¼ˆåœ°ï¼‰######
+######Õ½¶·NPCºÚ°µÊ¹Õß£¨µØ£©######
 {
 name=µØ¾«Áé
 floorid=8514
@@ -44,7 +44,7 @@ createnum=1
 enemy=sb_dou|file:sa75/ler/lerpk1.arg
 graphicname=16451
 }
-######æˆ˜æ–—NPCé»‘æš—ä½¿è€…ï¼ˆæ°´ï¼‰######
+######Õ½¶·NPCºÚ°µÊ¹Õß£¨Ë®£©######
 {
 name=Ë®¾«Áé
 floorid=8515
@@ -56,7 +56,7 @@ createnum=1
 enemy=sb_dou|file:sa75/ler/lerpk2.arg
 graphicname=16948
 }
-######æˆ˜æ–—NPCé»‘æš—ä½¿è€…ï¼ˆç«ï¼‰######
+######Õ½¶·NPCºÚ°µÊ¹Õß£¨»ğ£©######
 {
 name=»ğ¾«Áé
 floorid=8516
@@ -68,7 +68,7 @@ createnum=1
 enemy=sb_dou|file:sa75/ler/lerpk3.arg
 graphicname=16939
 }
-######æˆ˜æ–—NPCé»‘æš—ä½¿è€…ï¼ˆé£ï¼‰######
+######Õ½¶·NPCºÚ°µÊ¹Õß£¨·ç£©######
 {
 name=·ç¾«Áé
 floorid=8517
@@ -80,7 +80,7 @@ createnum=1
 enemy=sb_dou|file:sa75/ler/lerpk4.arg
 graphicname=16950
 }
-######æˆ˜æ–—é›·å°”######
+######Õ½¶·À×¶û######
 {
 name=À×¶û
 floorid=8519
@@ -92,7 +92,7 @@ createnum=1
 enemy=sb_dou|file:sa75/ler/lerpk5.arg
 graphicname=101813
 }
-########ä¼ é€åœ°ç‰¢é›·å°”#########
+########´«ËÍµØÀÎÀ×¶û#########
 {
 name=À×¶û
 floorid=8518
@@ -104,7 +104,7 @@ createnum=1
 enemy=npcgen_warpman|file:sa75/ler/lerwarp1.arg
 graphicname=101813
 }
-########ç‰¢é—¨#########
+########ÀÎÃÅ#########
 {
 name=ÀÎÃÅ
 floorid=8513
@@ -116,7 +116,7 @@ createnum=1
 enemy=npcgen_warpman|file:sa75/ler/lerwarp2.arg
 graphicname=15638
 }
-########è¿·å®«çš„è€é¼ #########
+########ÃÔ¹¬µÄÀÏÊó#########
 {
 name=ÀÏÊó
 floorid=8513
@@ -128,7 +128,7 @@ createnum=1
 enemy=npcgen_warpman|file:sa75/ler/lerwarp3.arg
 graphicname=101178
 }
-#ç‰¹æ®Šè·³è·ƒç‚¹ï¼ˆä¼ è¿›é›·å°”æˆ¿é—´ï¼‰
+#ÌØÊâÌøÔ¾µã£¨´«½øÀ×¶û·¿¼ä£©
 {
 floorid=7000
 borncenter=137,97
@@ -136,7 +136,7 @@ ignoreinvincible=1
 createnum=1
 enemy=npcgen_warp|file:sa75/ler/lerwarp4.arg
 }
-#ç‰¹æ®Šè·³è·ƒç‚¹ï¼ˆä¼ è¿›é›·å°”æˆ¿é—´ï¼‰
+#ÌØÊâÌøÔ¾µã£¨´«½øÀ×¶û·¿¼ä£©
 {
 floorid=7000
 borncenter=137,98
@@ -164,7 +164,7 @@ createnum=1
 graphicname=16332
 enemy=changeevent|file:sa75/ler/ler6.arg
 }
-########é­”ç•Œä¹‹é—¨#########
+########Ä§½çÖ®ÃÅ#########
 {
 name=Ä§½çÖ®ÃÅ
 floorid=8520
@@ -176,7 +176,7 @@ action=5
 graphicname=101277
 enemy=changeevent|file:sa75/ler/ler7.arg
 }
-########é›·å°”çš„æ—¥è®°#########
+########À×¶ûµÄÈÕ¼Ç#########
 {
 name=À×¶ûµÄÈÕ¼Ç
 floorid=8520

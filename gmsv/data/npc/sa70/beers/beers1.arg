@@ -1,15 +1,15 @@
-########é˜¿å–‡å‰########
+########°¢À®¼ª########
 
 NomalMainMsg:Ð¡ÐÄà¸£¡ÔÚË®ÊÀ½çÀïÓÐºÜ¶àÐýÎÐºÍÒ»Ð©Ð×ÃÍµÄöèÓã¡£
 
-###èº«ä¸Šæœ‰è‘¡è„é…’###
+###ÉíÉÏÓÐÆÏÌÑ¾Æ###
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>0&ITEM=11968
 NomalWindowMsg:´å³¤Ò»¶¨»áºÜ¸ßÐËµÄ£¡
 EventEnd
 
-###èº«ä¸Šæœ‰æµ“æµ“é…’é¦™çš„æ°´æžœ###
+###ÉíÉÏÓÐÅ¨Å¨¾ÆÏãµÄË®¹û###
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>0&ITEM=2021
@@ -21,7 +21,7 @@ GetItem:21165
 ItemFullMsg:ÄãÉíÉÏµÄ¶«Î÷ÊÇ²»ÊÇÂúÁËÄØ£¿
 EventEnd
 
-###èº«ä¸Šæœ‰é«˜çº§æ°´æžœé…’###
+###ÉíÉÏÓÐ¸ß¼¶Ë®¹û¾Æ###
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>0&ITEM=2023
@@ -33,14 +33,14 @@ DelItem:2023*1
 GetItem:11968*1
 EventEnd
 
-#### èº«ä¸Šæœ‰æ°´æžœé…’ ####
+#### ÉíÉÏÓÐË®¹û¾Æ ####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>0&ITEM=2020
 NomalWindowMsg:ÇóÇóÄã¿ìµã³ö·¢°É£¡
 EventEnd
 
-###æŽ¥ä»»åŠ¡ç»™æ°´æžœé…’###
+###½ÓÈÎÎñ¸øË®¹û¾Æ###
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>0

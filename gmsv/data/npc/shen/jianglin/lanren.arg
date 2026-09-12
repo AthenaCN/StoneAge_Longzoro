@@ -91,7 +91,7 @@ GetPet:11102
 PetFullMsg:ÄãÉíÉÏ³èÎïÌ«¶ààà
 EventEnd
 
-####éæ³•çŠ¶æ€####
+####·Ç·¨×´Ì¬####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:EQUIT=30947

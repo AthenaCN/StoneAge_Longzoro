@@ -10,7 +10,7 @@
 	TM_变量作用相关的名称(例如 用左记录某个索引的局部变量  TM_Index)
 	M_ 开头的为全局变量
 	M_脚本系列名称_变量作用相关的名称(例如 用左记录某个索引的全变量  M_Sports_Index)
-	
+
 	脚本编写规范
 	1.同一脚本系列的所有全局变量应该集中在这个脚本系列的某个文件里面，并有相应的注解。
 	2.变量和函数的声明必须遵循上面提及的命名规则并防止全局变量名和函数名重复(包括不同脚本之间的全局变量名和函数)
@@ -29,7 +29,7 @@ function Siege_Boss_Init( _MeIndex )
 	Char.SetData(_MeIndex, %对像_原形%, 100907);
 
 	local TM_RdSlPos = math.floor(math.random(1, 10));
-	
+
 	--設置NPC所在地圖
 	Char.SetData(_MeIndex, %对像_地图%, TM_Map[TM_RdSlMap]);
 
@@ -44,7 +44,7 @@ function Siege_Boss_Init( _MeIndex )
 
 	--設置NPC名稱
 	Char.SetData(_MeIndex, %对像_原名%, "怪物首领");
-	
+
 	if(Char.SetTalkedEvent(nil, "Siege_Boss_TalkedCallBack", _MeIndex) < 0) then
 		print("Siege_Boss_TalkedCallBack 注册事件失败。");
 		return false;
@@ -68,7 +68,7 @@ function Siege_Boss_TalkedCallBack( _MeIndex, _TalkIndex, _Msg, _Color, _Channel
 	end
 	Char.SetData(_MeIndex, %对像_方向%,i);
 	NLG.UpChar( _MeIndex);
-	
+
 	-- 怪物 最多设置10只
 	local TM_EnemyIdAr = {1690,1690,2535,2535,2540,2541,2542,2543,2544,2545};
 	local TM_SkillType = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
@@ -97,12 +97,12 @@ function Siege_Boss_TalkedCallBack( _MeIndex, _TalkIndex, _Msg, _Color, _Channel
 	if (TM_PlayIndex > 0) then
 		NLG.TalkToCli(TM_PlayIndex, "呼噜呼噜呼噜噜…………", %红色%, 0, _MeIndex);
 	end
-	
+
 	TM_PlayIndex = Char.GetTeamIndex(_TalkIndex, %队员_4%);
 	if (TM_PlayIndex > 0) then
 		NLG.TalkToCli(TM_PlayIndex, "呼噜呼噜呼噜噜…………", %红色%, 0, _MeIndex);
 	end
-	
+
 	return ;
 end
 
@@ -119,7 +119,7 @@ function Siege_Boss_BattleOver( _BattleIndex, _CreateIndex)
 					NLG.GiveItem(TM_PlayerIndex, e);
 				end
 				NLG.TalkToCli(-1, Char.GetData(TM_PlayerIndex, %对像_原名%) .. "成功击倒" .. Char.GetData(_CreateIndex, %对像_原名%) .. "本次攻城活动结束！未获得奖品的请等下次~~谢谢支持！", %红色%, 0, -1)
-				
+
 			end
 		end
 		--清除控制台數據

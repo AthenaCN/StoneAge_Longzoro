@@ -24,7 +24,7 @@ function SiegeCtrl2_Init( _MeIndex )
 
 	--一個全局變量-用於控制活動模式是否為激活狀態
 	SiegeCtrl2_Flg = 1;
-	
+
 	--迴圈事件用於檢查時間
 	if (Char.SetLoopEvent(nil, "SiegeCtrl2_LoopCallBack", _MeIndex, 60000) < 0) then
 		print("SiegeCtrl2_LoopCallBack 注册事件失败。");
@@ -100,7 +100,7 @@ function SiegeCtrl2_LoopCallBack( _MeIndex)
 	if(TM_Hour >= 20 and TM_Hour < 21 and TM_Minute <= 5) then
 		--如果自動活動標識為激活且無已生成怪物
 		if(SiegeCtrl2_Flg == 1 and iCounter2 == 0) then
-		
+
 			--檢查是否出錯
 			if(SiegeCtrl2_Generate(_MeIndex)==0)then
 				local TM_Buff = "[紧急事件]开启活动【血魔的逆袭】出错，请尽快联络游戏管理员，稍后将自动重试";
@@ -122,15 +122,15 @@ function SiegeCtrl2_Manual( _MeIndex, _TalkIndex, _Msg, _Color, _Channel)
 	--檢查玩家是否站在NPC面前
 	if(NLG.CheckInFront(_TalkIndex, _MeIndex, 1) == false) then
 		return ;
-	end 
+	end
 
 	--面向玩家
 	local i;
 	i = Char.GetData(_TalkIndex, %对像_方向%);
-	if i >= 4 then 
+	if i >= 4 then
 		i = i - 4;
 	else
-		i = i + 4;		
+		i = i + 4;
 	end
 	Char.SetData(_MeIndex, %对像_方向%,i);
 	NLG.UpChar( _MeIndex);

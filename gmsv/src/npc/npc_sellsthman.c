@@ -403,14 +403,14 @@ void NPC_SellsthManLoop(int meindex) {
 	CHAR_setWorkInt(meindex, NPC_WORK_CALLNUM, num);
 	if (i >= MAX_LISTNUM)
 		return;
-	sprintf(headmsg, "拍卖频道(%d页%d项)：%s (拍卖者：%s)。",
+	sprintf(headmsg, "\xC5\xC4\xC2\xF4\xC6\xB5\xB5\xC0(%d\xD2\xB3%d\xCF\xEE)\xA3\xBA%s (\xC5\xC4\xC2\xF4\xD5\xDF\xA3\xBA%s)\xA1\xA3",
 			page, num, NSellSthList[page][num].headmess,
 			CHAR_getChar(NSellSthList[page][num].sellindex, CHAR_NAME));
 	if (NSellSthList[page][num].selltype == 1) {
-		sprintf(token, "拍卖道具：%s。",
+		sprintf(token, "\xC5\xC4\xC2\xF4\xB5\xC0\xBE\xDF\xA3\xBA%s\xA1\xA3",
 				ITEM_getChar(NSellSthList[page][num].Iindex, ITEM_NAME));
 	} else {
-		sprintf( token, "拍卖宠物：%s  LV:%d %s。",
+		sprintf( token, "\xC5\xC4\xC2\xF4\xB3\xE8\xCE\xEF\xA3\xBA%s  LV:%d %s\xA1\xA3",
 			CHAR_getChar( NSellSthList[page][num].Iindex, CHAR_NAME),
 			CHAR_getInt( NSellSthList[page][num].Iindex, CHAR_LV),
 #ifdef _PET_2TRANS
@@ -597,7 +597,7 @@ BOOL NPC_setSellSth_ListString(int meindex, int toindex, int *page, int *num, ch
 				}
 				if (ITEM_getInt(itemindex, ITEM_VANISHATDROP) == 1) {
 					char buf[256];
-					sprintf(buf, "%s无法交易。", ITEM_getChar(itemindex, ITEM_NAME));
+					sprintf(buf, "%s\xCE\xDE\xB7\xA8\xBD\xBB\xD2\xD7\xA1\xA3", ITEM_getChar(itemindex, ITEM_NAME));
 					CHAR_talkToCli(toindex, meindex, buf, CHAR_COLORYELLOW);
 					return FALSE;
 				}

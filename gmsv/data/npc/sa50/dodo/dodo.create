@@ -1,6 +1,6 @@
 NPCCREATE
-##############ã€€å¸ƒæ´›å¤šå¤šã€€################
-########ã€€å¸•åŠ ï¼ˆå¼€æ ‡125ï¼‰ã€€#########
+##############¡¡²¼Âå¶à¶à¡¡################
+########¡¡ÅÁ¼Ó£¨¿ª±ê125£©¡¡#########
 {
 name=ÅÁ¼Ó
 floorid=708
@@ -13,7 +13,7 @@ enemy=changeevent|file:sa50/dodo/dodo.arg
 graphicname=16485
 }
 
-######ã€€é£é¾™å®ˆé—¨äººã€€#######
+######¡¡·ÉÁúÊØÃÅÈË¡¡#######
 {
 name=ÊØÃÅÊŞ
 floorid=60065,
@@ -26,7 +26,7 @@ enemy=npcgen_warpman|file:sa50/dodo/dodowarp3.arg
 graphicname=100900
 }
 
-###ã€€é£é¾™æˆ˜æ–—äºº1ã€€###
+###¡¡·ÉÁúÕ½¶·ÈË1¡¡###
 {
 name=²¼À¼¶÷
 floorid=60067
@@ -39,7 +39,7 @@ enemy=sb_dou|file:sa50/dodo/dodopupk1-1.arg
 graphicname=100900
 }
 
-###ã€€é£é¾™æˆ˜æ–—äºº2ã€€###
+###¡¡·ÉÁúÕ½¶·ÈË2¡¡###
 {
 name=²¼À¼¶÷
 floorid=60067
@@ -52,7 +52,7 @@ enemy=sb_dou|file:sa50/dodo/dodopupk1-2.arg
 graphicname=100900
 }
 
-###ã€€é£é¾™æˆ˜æ–—äºº3ã€€###
+###¡¡·ÉÁúÕ½¶·ÈË3¡¡###
 {
 name=²¼À¼¶÷
 floorid=60067
@@ -65,7 +65,7 @@ enemy=sb_dou|file:sa50/dodo/dodopupk1-3.arg
 graphicname=100900
 }
 
-###ã€€é£é¾™æˆ˜æ–—äºº4ã€€###
+###¡¡·ÉÁúÕ½¶·ÈË4¡¡###
 {
 name=²¼À¼¶÷
 floorid=60067
@@ -78,7 +78,7 @@ enemy=sb_dou|file:sa50/dodo/dodopupk1-4.arg
 graphicname=100900
 }
 
-###ã€€é£é¾™æˆ˜æ–—äºº5ã€€###
+###¡¡·ÉÁúÕ½¶·ÈË5¡¡###
 {
 name=²¼À¼¶÷
 floorid=60067
@@ -91,7 +91,7 @@ enemy=sb_dou|file:sa50/dodo/dodopupk1-5.arg
 graphicname=100900
 }
 
-###ã€€é£é¾™æˆ˜æ–—äºº6ã€€###
+###¡¡·ÉÁúÕ½¶·ÈË6¡¡###
 {
 name=²¼À¼¶÷
 floorid=60067
@@ -104,7 +104,7 @@ enemy=sb_dou|file:sa50/dodo/dodopupk1-6.arg
 graphicname=100900
 }
 
-###ã€€é£é¾™æˆ˜æ–—äºº7ã€€###
+###¡¡·ÉÁúÕ½¶·ÈË7¡¡###
 {
 name=²¼À¼¶÷
 floorid=60067
@@ -117,7 +117,7 @@ enemy=sb_dou|file:sa50/dodo/dodopupk1-7.arg
 graphicname=100900
 }
 
-###ã€€é£é¾™æˆ˜æ–—äºº8(ä¼ é€æ­£ç¡®)ã€€###
+###¡¡·ÉÁúÕ½¶·ÈË8(´«ËÍÕıÈ·)¡¡###
 {
 name=²¼À¼¶÷
 floorid=60067
@@ -130,7 +130,7 @@ enemy=sb_dou|file:sa50/dodo/dodopupk1-8.arg
 graphicname=100900
 }
 
-######ã€€æš´å®ˆé—¨å…½ã€€########
+######¡¡±©ÊØÃÅÊŞ¡¡########
 {
 name=²¼ÂåÉ³´ï
 floorid=60072
@@ -143,7 +143,7 @@ enemy=npcgen_warpman|file:sa50/dodo/dodowarp1.arg
 graphicname=100909
 }
 
-###ã€€åº“æ²™è¾¾å¤§é˜Ÿé•¿ã€€###
+###¡¡¿âÉ³´ï´ó¶Ó³¤¡¡###
 {
 name=¿âÉ³´ï
 floorid=60077
@@ -156,10 +156,10 @@ enemy=changeevent|file:sa50/dodo/dodo4.arg
 graphicname=16960
 }
 
-###ã€€ä¼ é€è‡³æš´é¾™GPå›¢åº“æ²™è¾¾ã€€###
+###¡¡´«ËÍÖÁ±©ÁúGPÍÅ¿âÉ³´ï¡¡###
 {
 name=¿âÉ³´ï
-floorid=60075 
+floorid=60075
 borncenter=40,40
 dir=6
 time=1
@@ -169,7 +169,7 @@ enemy=npcgen_warpman|file:sa50/dodo/dodowarp5.arg
 graphicname=16960
 }
 
-###ã€€å¸ƒæ´›çš„å“¥å“¥(å‘ŠçŸ¥ä»»åŠ¡å†…å®¹)ã€€###
+###¡¡²¼ÂåµÄ¸ç¸ç(¸æÖªÈÎÎñÄÚÈİ)¡¡###
 {
 name=²¼ÂåÎÚÎÚ
 floorid=60072
@@ -182,7 +182,7 @@ enemy=changeevent|file:sa50/dodo/dodo1.arg
 graphicname=100907
 }
 
-######ã€€ä¼ é€äººé˜¿è°·æ‹”ï¼ˆä¼ é€è‡³é£é¾™è¿·å®«ï¼‰ã€€########
+######¡¡´«ËÍÈË°¢¹È°Î£¨´«ËÍÖÁ·ÉÁúÃÔ¹¬£©¡¡########
 {
 name=°¢¹È°Î
 floorid=60069
@@ -195,7 +195,7 @@ enemy=npcgen_warpman|file:sa50/dodo/dodowarp.arg
 graphicname=16405
 }
 
-########ã€€å‡è€äººé˜¿è°·æ‹”ï¼‘ã€€###########
+########¡¡¼ÙÀÏÈË°¢¹È°Î£±¡¡###########
 {
 name=°¢¹È°Î
 floorid=60068
@@ -208,7 +208,7 @@ enemy=changeevent|file:sa50/dodo/dodo5.arg
 graphicname=16405
 }
 
-########ã€€å‡è€äººé˜¿è°·æ‹”ï¼’ã€€###########
+########¡¡¼ÙÀÏÈË°¢¹È°Î£²¡¡###########
 {
 name=°¢¹È°Î
 floorid=60068
@@ -221,7 +221,7 @@ enemy=changeevent|file:sa50/dodo/dodo5-1.arg
 graphicname=16405
 }
 
-########ã€€å‡è€äººé˜¿è°·æ‹”ï¼“ã€€###########
+########¡¡¼ÙÀÏÈË°¢¹È°Î£³¡¡###########
 {
 name=°¢¹È°Î
 floorid=60068
@@ -234,7 +234,7 @@ enemy=changeevent|file:sa50/dodo/dodo5-2.arg
 graphicname=16405
 }
 
-########ã€€å‡è€äººé˜¿è°·æ‹”ï¼”ã€€###########
+########¡¡¼ÙÀÏÈË°¢¹È°Î£´¡¡###########
 {
 name=°¢¹È°Î
 floorid=60068
@@ -247,7 +247,7 @@ enemy=changeevent|file:sa50/dodo/dodo5-3.arg
 graphicname=16406
 }
 
-########ã€€å‡è€äººé˜¿è°·æ‹”ï¼•ã€€###########
+########¡¡¼ÙÀÏÈË°¢¹È°Î£µ¡¡###########
 {
 name=°¢¹È°Î
 floorid=60068
@@ -260,7 +260,7 @@ enemy=changeevent|file:sa50/dodo/dodo5-4.arg
 graphicname=16406
 }
 
-########ã€€å‡è€äººé˜¿è°·æ‹”ï¼–ã€€###########
+########¡¡¼ÙÀÏÈË°¢¹È°Î£¶¡¡###########
 {
 name=°¢¹È°Î
 floorid=60068
@@ -273,7 +273,7 @@ enemy=changeevent|file:sa50/dodo/dodo5-5.arg
 graphicname=16405
 }
 
-########ã€€å‡è€äººé˜¿è°·æ‹”ï¼—ã€€###########
+########¡¡¼ÙÀÏÈË°¢¹È°Î£·¡¡###########
 {
 name=°¢¹È°Î
 floorid=60068
@@ -286,7 +286,7 @@ enemy=changeevent|file:sa50/dodo/dodo5-6.arg
 graphicname=16406
 }
 
-########ã€€ï¼ˆç¬¬ä¸€æ¬¡è¯´è¯ï¼‰è€äººé˜¿è°·æ‹”ç»™ç­¾åã€€###########
+########¡¡£¨µÚÒ»´ÎËµ»°£©ÀÏÈË°¢¹È°Î¸øÇ©Ãû¡¡###########
 {
 name=°¢¹È°Î
 floorid=60066
@@ -299,7 +299,7 @@ enemy=changeevent|file:sa50/dodo/dodo2.arg
 graphicname=16405
 }
 
-########ã€€è€äººé˜¿è°·æ‹”ï¼ˆä»»åŠ¡å®Œæˆç»™æš´é¾™ï¼‰ã€€###########
+########¡¡ÀÏÈË°¢¹È°Î£¨ÈÎÎñÍê³É¸ø±©Áú£©¡¡###########
 {
 name=°¢¹È°Î
 floorid=60068
@@ -312,7 +312,7 @@ enemy=changeevent|file:sa50/dodo/dodo3.arg
 graphicname=16405
 }
 
-###ã€€æš´é¾™ï¼§ï¼°å›¢ã€€###
+###¡¡±©Áú£Ç£ĞÍÅ¡¡###
 {
 name=±©Áú£Ç£ĞÍÅ
 floorid=60076
@@ -325,7 +325,7 @@ enemy=sb_dou|file:sa50/dodo/dodopk.arg
 graphicname=100908
 }
 
-###ã€€æš´é¾™ï¼§ï¼°å›¢1ã€€###
+###¡¡±©Áú£Ç£ĞÍÅ1¡¡###
 {
 name=±©Áú£Ç£ĞÍÅ
 floorid=60076
@@ -338,7 +338,7 @@ enemy=sb_dou|file:sa50/dodo/dodopk1-1.arg
 graphicname=100908
 }
 
-###ã€€æš´é¾™ï¼§ï¼°å›¢ï¼’ã€€###
+###¡¡±©Áú£Ç£ĞÍÅ£²¡¡###
 {
 name=±©Áú£Ç£ĞÍÅ
 floorid=60076
@@ -351,7 +351,7 @@ enemy=sb_dou|file:sa50/dodo/dodopk1-2.arg
 graphicname=100908
 }
 
-###ã€€æš´é¾™ï¼§ï¼°å›¢ï¼“ã€€###
+###¡¡±©Áú£Ç£ĞÍÅ£³¡¡###
 {
 name=±©Áú£Ç£ĞÍÅ
 floorid=60076
@@ -364,7 +364,7 @@ enemy=sb_dou|file:sa50/dodo/dodopk1-3.arg
 graphicname=100908
 }
 
-###ã€€æš´é¾™ï¼§ï¼°å›¢ï¼”ã€€###
+###¡¡±©Áú£Ç£ĞÍÅ£´¡¡###
 {
 name=±©Áú£Ç£ĞÍÅ
 floorid=60076
@@ -377,7 +377,7 @@ enemy=sb_dou|file:sa50/dodo/dodopk1-4.arg
 graphicname=100908
 }
 
-###ã€€æš´é¾™ï¼§ï¼°å›¢ï¼•ã€€###
+###¡¡±©Áú£Ç£ĞÍÅ£µ¡¡###
 {
 name=±©Áú£Ç£ĞÍÅ
 floorid=60076
@@ -390,7 +390,7 @@ enemy=sb_dou|file:sa50/dodo/dodopk1-5.arg
 graphicname=100908
 }
 
-###ã€€æš´é¾™ï¼§ï¼°å›¢ï¼–ã€€###
+###¡¡±©Áú£Ç£ĞÍÅ£¶¡¡###
 {
 name=±©Áú£Ç£ĞÍÅ
 floorid=60076
@@ -403,7 +403,7 @@ enemy=sb_dou|file:sa50/dodo/dodopk2-1.arg
 graphicname=100909
 }
 
-###ã€€æš´é¾™ï¼§ï¼°å›¢ï¼—ã€€###
+###¡¡±©Áú£Ç£ĞÍÅ£·¡¡###
 {
 name=±©Áú£Ç£ĞÍÅ
 floorid=60076
@@ -416,7 +416,7 @@ enemy=sb_dou|file:sa50/dodo/dodopk2-2.arg
 graphicname=100909
 }
 
-###ã€€æš´é¾™ï¼§ï¼°å›¢ï¼˜ã€€###
+###¡¡±©Áú£Ç£ĞÍÅ£¸¡¡###
 {
 name=±©Áú£Ç£ĞÍÅ
 floorid=60076
@@ -429,7 +429,7 @@ enemy=sb_dou|file:sa50/dodo/dodopk2-3.arg
 graphicname=100909
 }
 
-###ã€€æš´é¾™ï¼§ï¼°å›¢ï¼™ã€€###
+###¡¡±©Áú£Ç£ĞÍÅ£¹¡¡###
 {
 name=±©Áú£Ç£ĞÍÅ
 floorid=60076
@@ -442,7 +442,7 @@ enemy=sb_dou|file:sa50/dodo/dodopk2-4.arg
 graphicname=100909
 }
 
-###ã€€æš´é¾™ï¼§ï¼°å›¢ï¼‘ï¼ã€€###
+###¡¡±©Áú£Ç£ĞÍÅ£±£°¡¡###
 {
 name=±©Áú£Ç£ĞÍÅ
 floorid=60076
@@ -455,7 +455,7 @@ enemy=sb_dou|file:sa50/dodo/dodopk2-5.arg
 graphicname=100909
 }
 
-###ã€€æš´é¾™ï¼§ï¼°å›¢ï¼‘ï¼‘ã€€###
+###¡¡±©Áú£Ç£ĞÍÅ£±£±¡¡###
 {
 name=±©Áú£Ç£ĞÍÅ
 floorid=60076
@@ -468,7 +468,7 @@ enemy=sb_dou|file:sa50/dodo/dodopk2-6.arg
 graphicname=100909
 }
 
-###ã€€æš´é¾™ï¼§ï¼°å›¢ï¼‘ï¼’ã€€###
+###¡¡±©Áú£Ç£ĞÍÅ£±£²¡¡###
 {
 name=±©Áú£Ç£ĞÍÅ
 floorid=60076
@@ -481,7 +481,7 @@ enemy=sb_dou|file:sa50/dodo/dodopk3-1.arg
 graphicname=100907
 }
 
-###ã€€æš´é¾™ï¼§ï¼°å›¢ï¼‘ï¼“ã€€###
+###¡¡±©Áú£Ç£ĞÍÅ£±£³¡¡###
 {
 name=±©Áú£Ç£ĞÍÅ
 floorid=60076
@@ -494,7 +494,7 @@ enemy=sb_dou|file:sa50/dodo/dodopk3-2.arg
 graphicname=100907
 }
 
-###ã€€æš´é¾™ï¼§ï¼°å›¢ï¼‘ï¼”ã€€###
+###¡¡±©Áú£Ç£ĞÍÅ£±£´¡¡###
 {
 name=±©Áú£Ç£ĞÍÅ
 floorid=60076
@@ -507,7 +507,7 @@ enemy=sb_dou|file:sa50/dodo/dodopk3-3.arg
 graphicname=100907
 }
 
-###ã€€æš´é¾™ï¼§ï¼°å›¢ï¼‘ï¼•ã€€###
+###¡¡±©Áú£Ç£ĞÍÅ£±£µ¡¡###
 {
 name=±©Áú£Ç£ĞÍÅ
 floorid=60076
@@ -520,7 +520,7 @@ enemy=sb_dou|file:sa50/dodo/dodopk3-4.arg
 graphicname=100907
 }¡¡
 
-###ã€€æš´é¾™ï¼§ï¼°å›¢ï¼‘ï¼–ã€€###
+###¡¡±©Áú£Ç£ĞÍÅ£±£¶¡¡###
 {
 name=±©Áú£Ç£ĞÍÅ
 floorid=60076
@@ -533,7 +533,7 @@ enemy=sb_dou|file:sa50/dodo/dodopk3-5.arg
 graphicname=100907
 }
 
-###ã€€æš´é¾™ï¼§ï¼°å›¢ï¼‘ï¼—ã€€###
+###¡¡±©Áú£Ç£ĞÍÅ£±£·¡¡###
 {
 name=±©Áú£Ç£ĞÍÅ
 floorid=60076
@@ -546,7 +546,7 @@ enemy=sb_dou|file:sa50/dodo/dodopk3-6.arg
 graphicname=100907
 }
 
-###ã€€æš´é¾™ï¼§ï¼°å›¢ï¼‘ï¼˜ã€€###
+###¡¡±©Áú£Ç£ĞÍÅ£±£¸¡¡###
 {
 name=±©Áú£Ç£ĞÍÅ
 floorid=60076
@@ -559,7 +559,7 @@ enemy=sb_dou|file:sa50/dodo/dodopk4-1.arg
 graphicname=100906
 }
 
-###ã€€æš´é¾™ï¼§ï¼°å›¢ï¼‘ï¼™ã€€###
+###¡¡±©Áú£Ç£ĞÍÅ£±£¹¡¡###
 {
 name=±©Áú£Ç£ĞÍÅ
 floorid=60076
@@ -572,7 +572,7 @@ enemy=sb_dou|file:sa50/dodo/dodopk4-2.arg
 graphicname=100906
 }
 
-###ã€€æš´é¾™ï¼§ï¼°å›¢ï¼’ï¼ã€€###
+###¡¡±©Áú£Ç£ĞÍÅ£²£°¡¡###
 {
 name=±©Áú£Ç£ĞÍÅ
 floorid=60076
@@ -585,7 +585,7 @@ enemy=sb_dou|file:sa50/dodo/dodopk4-3.arg
 graphicname=100906
 }
 
-###ã€€æš´é¾™ï¼§ï¼°å›¢ï¼’ï¼‘ã€€###
+###¡¡±©Áú£Ç£ĞÍÅ£²£±¡¡###
 {
 name=±©Áú£Ç£ĞÍÅ
 floorid=60076
@@ -598,7 +598,7 @@ enemy=sb_dou|file:sa50/dodo/dodopk4-4.arg
 graphicname=100906
 }
 
-###ã€€æš´é¾™ï¼§ï¼°å›¢ï¼’ï¼’ã€€###
+###¡¡±©Áú£Ç£ĞÍÅ£²£²¡¡###
 {
 name=±©Áú£Ç£ĞÍÅ
 floorid=60076
@@ -611,7 +611,7 @@ enemy=sb_dou|file:sa50/dodo/dodopk4-5.arg
 graphicname=100906
 }
 
-###ã€€æš´é¾™ï¼§ï¼°å›¢ï¼’ï¼“ã€€###
+###¡¡±©Áú£Ç£ĞÍÅ£²£³¡¡###
 {
 name=±©Áú£Ç£ĞÍÅ
 floorid=60076

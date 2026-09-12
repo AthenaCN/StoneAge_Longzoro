@@ -594,7 +594,7 @@ int MAGIC_Metamo(int charaindex, int toindex, int marray, int mp) {
 
 	if (toindex != charaindex) {
 		CHAR_setWorkInt(charaindex, CHAR_WORKITEMMETAMO, NowTime.tv_sec + power);
-		sprintf(msg, "变身成%s！", CHAR_getChar(toindex, CHAR_NAME));
+		sprintf(msg, "\xB1\xE4\xC9\xED\xB3\xC9%s\xA3\xA1", CHAR_getChar(toindex, CHAR_NAME));
 	} else {
 		CHAR_setWorkInt(charaindex, CHAR_WORKITEMMETAMO, 0);
 		sprintf(msg, "变回自己！");

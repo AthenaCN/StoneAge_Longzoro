@@ -1,15 +1,15 @@
-########æ°´########
+########Ë®########
 
 NomalMainMsg:ÐÂÈËÁúµÄÁ¦Á¿ÕæµÄÄÇÃ´Ç¿Âð£¿
 
-####æœ‰æ—¥è®°####
+####ÓÐÈÕ¼Ç####
 eventNo:-1
 TYPE:MESSAGE
 EVENT:LV>0&ITEM=20779
 NomalWindowMsg:¿ì»ØÈ¥ÕÒÑ§Õß°É~
 EventEnd
 
-####ç»™æ—¥è®°####
+####¸øÈÕ¼Ç####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>0&ITEM!=20779&ITEM=20782

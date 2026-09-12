@@ -122,13 +122,13 @@ int MAGIC_OtherRecovery_Field(int charaindex, int toindex, int magicindex) {
 	}
 
 	if (charaindex != toindex) {
-		snprintf(msgbuf, sizeof(msgbuf), "%s的耐久力回复%d",
+		snprintf(msgbuf, sizeof(msgbuf), "%s\xB5\xC4\xC4\xCD\xBE\xC3\xC1\xA6\xBB\xD8\xB8\xB4%d",
 				 CHAR_getUseName(toindex),
 				 min(workhp, CHAR_getWorkInt(toindex, CHAR_WORKMAXHP)) - prevhp);
 		CHAR_talkToCli(charaindex, -1, msgbuf, CHAR_COLORWHITE);
 
 		if (CHAR_getInt(toindex, CHAR_WHICHTYPE) == CHAR_TYPEPLAYER) {
-			snprintf(msgbuf, sizeof(msgbuf), "藉由%s耐久力回复%d",
+			snprintf(msgbuf, sizeof(msgbuf), "\xBD\xE5\xD3\xC9%s\xC4\xCD\xBE\xC3\xC1\xA6\xBB\xD8\xB8\xB4%d",
 					 CHAR_getUseName(charaindex),
 					 min(workhp, CHAR_getWorkInt(toindex, CHAR_WORKMAXHP)) - prevhp);
 			CHAR_talkToCli(toindex, -1, msgbuf, CHAR_COLORWHITE);

@@ -1,5 +1,5 @@
 NPCTEMPLATE
-#######çš–ä½¬##########
+#######ÂäÊ¯##########
 {
 templatename=sb_raku
 makeatnobody=1
@@ -11,4 +11,5 @@ mp=100
 str=1
 tough=1
 }
+
 

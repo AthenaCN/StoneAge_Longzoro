@@ -12,7 +12,7 @@ function MoWangBoss_Init( _MeIndex )
 	Char.SetData(_MeIndex, %对像_形象%, TM_Base[NPC_I]);
 	Char.SetData(_MeIndex, %对像_原名%, TM_Name[NPC_I]);
 	--戰鬥索引全域變數
-	iBattle2[_MeIndex] = -1;	
+	iBattle2[_MeIndex] = -1;
 
 	--設置對話回應事件
 	if (Char.SetTalkedEvent(nil, "MoWangBoss_Talked", _MeIndex) < 0) then
@@ -33,9 +33,9 @@ function MoWangBoss_WindowTalked( _MeIndex, _TalkIndex, _Seqno, _Select, _Data)
 	if(NLG.CheckInFront(_TalkIndex, _MeIndex, 1) == false) then
 		return ;
 	end
-	
+
 	if _Seqno == 0 then
-	
+
 		if Char.GetData(_MeIndex,%对像_地图%) == 40001 then
 			if _Data == "2" then
 				_Data = "3";
@@ -47,7 +47,7 @@ function MoWangBoss_WindowTalked( _MeIndex, _TalkIndex, _Seqno, _Select, _Data)
 				_Data = "3";
 			end
 		end
-		
+
 		if _Data == "1" then
 			--計算挑戰者隊伍人數及隊伍平均等級以確定怪物強度
 			local cnt = 1;
@@ -187,7 +187,7 @@ function MoWangBoss_WindowTalked( _MeIndex, _TalkIndex, _Seqno, _Select, _Data)
 				return;
 			end
 			--保存戰鬥索引
-			iBattle2[_MeIndex] = NLG.CreateBattle( _TalkIndex, _MeIndex, nil, TM_EnemyIdAr[Tmp_Int], TM_EnemyLv[Tmp_Int], nil); 
+			iBattle2[_MeIndex] = NLG.CreateBattle( _TalkIndex, _MeIndex, nil, TM_EnemyIdAr[Tmp_Int], TM_EnemyLv[Tmp_Int], nil);
 			--print("time="..iBattleTime[_MeIndex]);
 			--設置戰鬥勝利事件
 			Battle.SetWinEvent("data/npc/lua/MoWang/MoWangBoss.lua","MoWangBoss_BattleOver",iBattle2[_MeIndex]);
@@ -201,13 +201,13 @@ function MoWangBoss_WindowTalked( _MeIndex, _TalkIndex, _Seqno, _Select, _Data)
 			NLG.UpChar(_MeIndex);
 			return;
 		end
-		
+
 		if _Data == "2" then
 			if Char.GetData(_TalkIndex,%对像_队模式%) ~= %组队_没队% then
 				NLG.TalkToCli(_TalkIndex,"组队模式中不允许领取奖励！");
 				return;
 			end
-			
+
 			local TM_ItemId = {"14031-14090,14331-14390,14631-14690,14931-14990,15231-15290,15531-15590,15831-15890,16131-16190,16431-16490,16731-16790,17051-17150,17551-17650,14091,14391,14691,14991,15291,15591,15891,16191,16491,16791,17151,17651,18001-18030,21000-21006,20810,21029",
 												 "14061-14120,14361-14420,14661-14720,14961-15020,15261-15320,15561-15620,15861-15920,16161-16220,16461-16520,16761-16820,17101-17200,17601-17700,14121,14421,14721,15021,15321,15621,15921,16221,16521,16821,17201,17701,18031-18060,21004-21008,20810,21023-21026,21032-21035,21029,21029",
 												 "14091-14150,14391-14450,14691-14750,14991-15050,15291-15350,15591-15650,15891-15950,16191-16250,16491-16550,16791-16850,17151-17250,17651-17750,14151,14451,14751,15051,15351,15651,15951,16251,16551,16851,17251,17751,18061-18075,21004-21010,20810,21023-21026,21032-21035,21029,21029",
@@ -238,7 +238,7 @@ function MoWangBoss_WindowTalked( _MeIndex, _TalkIndex, _Seqno, _Select, _Data)
 			NLG.Warp(_TalkIndex,2000,42,85);
 			return;
 		end
-		
+
 		if _Data == "3" then
 			Char.HealAll(_TalkIndex);
 			NLG.TalkToCli(_TalkIndex, "您已经完全恢复，再接再厉哦！", %黄色%, 0, _MeIndex);
@@ -275,7 +275,7 @@ function MoWangBoss_BattleOver( _BattleIndex, _CreateIndex)
 	if Tmp_Int > 10 then
 		return;
 	end
-	
+
 	--獲得戰鬥中的玩家索引
 	local TM_CengNum = {"一","二","三","四","五","六","七","八","九","十"};
 	while (count < 6) do
@@ -331,8 +331,8 @@ function MoWangBoss_Talked( _MeIndex, _PlayerIndex, _Msg, _Color, _Channel)
 	--檢查玩家是否站在NPC面前
 	if(NLG.CheckInFront(_PlayerIndex, _MeIndex, 2) == false) then
 		return ;
-	end 
-	
+	end
+
 	if(Char.GetData(_MeIndex,%对像_地图%)==40001) then
 		NLG.ShowWindowTalked(_PlayerIndex, 2, 2, 0,
 		"2\n 　　　　　　　   ☆挑战阎王☆\n"..
@@ -355,14 +355,14 @@ function MoWangBoss_Talked( _MeIndex, _PlayerIndex, _Msg, _Color, _Channel)
 	end
 	Char.SetData(_PlayerIndex,%对象_LUA%,0);
 	return ;
-	
+
 end
 
 function MoWangBoss_Talked2( _MeIndex, _PlayerIndex, _Msg, _Color, _Channel)
 	--檢查玩家是否站在NPC面前
 	if(NLG.CheckInFront(_PlayerIndex, _MeIndex, 1) == false) then
 		return ;
-	end 
+	end
 	--正在戰鬥中的對話事件
 	NLG.TalkToCli(_PlayerIndex, "呼噜噜噜～～～！", %红色%, 0, _MeIndex);
 	NLG.TalkToCli(_PlayerIndex, Char.GetData( _PlayerIndex,%对像_原名%) .. "：(似乎已经有人在和这个异界生物战斗了，我想我还是去看看有没有别只异界生物在作乱吧。)", _Color, 0);

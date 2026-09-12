@@ -1,6 +1,6 @@
 NomalMainMsg:ÎÒÊÇ·çµÄÊ¹Õß£¬ÎÒ¿ÉÒÔ°ïÖúÄã¿ìËÙÍê³ÉĞş»Æ¶´¿ßµÄÈÎÎñ£¬Ç°ÌáÊÇÄãµÄµÈ¼¶±ØĞë140¼¶£¡
 
-#1è½¬
+#1×ª
 
 EventNo:-1
 TYPE:ACCEPT
@@ -13,7 +13,7 @@ Charm:1
 EndSetFlg:46
 EventEnd
 
-#2è½¬
+#2×ª
 
 EventNo:-1
 TYPE:ACCEPT
@@ -26,7 +26,7 @@ Charm:1
 EndSetFlg:46
 EventEnd
 
-#3è½¬
+#3×ª
 
 EventNo:-1
 TYPE:ACCEPT
@@ -39,7 +39,7 @@ Charm:1
 EndSetFlg:46
 EventEnd
 
-#4è½¬
+#4×ª
 
 EventNo:-1
 TYPE:ACCEPT
@@ -52,7 +52,7 @@ Charm:1
 EndSetFlg:46
 EventEnd
 
-#5è½¬
+#5×ª
 
 EventNo:-1
 TYPE:ACCEPT
@@ -65,7 +65,7 @@ Charm:1
 EndSetFlg:46
 EventEnd
 
-#6è½¬
+#6×ª
 
 EventNo:-1
 TYPE:ACCEPT
@@ -76,7 +76,7 @@ Charm:1
 EndSetFlg:46
 EventEnd
 
-#6è½¬å
+#6×ªºó
 
 EventNo:-1
 TYPE:ACCEPT
@@ -87,7 +87,7 @@ Charm:1
 EndSetFlg:46
 EventEnd
 
-#7è½¬å
+#7×ªºó
 
 EventNo:-1
 TYPE:ACCEPT

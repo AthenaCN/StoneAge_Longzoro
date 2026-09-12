@@ -7,7 +7,7 @@ createnum=1
 dir=6
 ignoreinvincible=1
 graphicname=16171
-name=妮可
+name=猎宠比赛员
 enemy=npc_raceman|file:race2/second.arg
 }
 

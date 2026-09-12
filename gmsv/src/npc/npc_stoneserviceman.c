@@ -365,7 +365,7 @@ static void NPC_StoneServiceMan_selectWindow(int meindex, int toindex, int num, 
 								   CHAR_getInt(toindex, CHAR_FLOOR),
 								   CHAR_getInt(toindex, CHAR_X),
 								   CHAR_getInt(toindex, CHAR_Y));
-						sprintf(talk, "%s石币已经给你喽!!\n", Data[1]);
+						sprintf(talk, "%s\xCA\xAF\xB1\xD2\xD2\xD1\xBE\xAD\xB8\xF8\xC4\xE3\xE0\xB6!!\n", Data[1]);
 					}
 				}
 				// 如果是给物品
@@ -404,7 +404,7 @@ static void NPC_StoneServiceMan_selectWindow(int meindex, int toindex, int num, 
 							}
 						}
 					}
-					sprintf(talk, "%s %s个已经给你喽!!\n", ITEM_getAppropriateName(itemindex), Data[1]);
+					sprintf(talk, "%s %s\xB8\xF6\xD2\xD1\xBE\xAD\xB8\xF8\xC4\xE3\xE0\xB6!!\n", ITEM_getAppropriateName(itemindex), Data[1]);
 				}
 				// 如果是给宠物
 				else if (atoi(Data[2]) == 2) {
@@ -461,7 +461,7 @@ static void NPC_StoneServiceMan_selectWindow(int meindex, int toindex, int num, 
 							}
 						}
 					}
-					sprintf(talk, "%s %s只已经给你喽!!\n", CHAR_getChar(ret, CHAR_NAME), Data[1]);
+					sprintf(talk, "%s %s\xD6\xBB\xD2\xD1\xBE\xAD\xB8\xF8\xC4\xE3\xE0\xB6!!\n", CHAR_getChar(ret, CHAR_NAME), Data[1]);
 				}
 				// 玩家资料存档
 				CHAR_charSaveFromConnect(CHAR_getWorkInt(toindex, CHAR_WORKFD), 0);

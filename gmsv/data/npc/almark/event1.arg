@@ -1,12 +1,12 @@
 NEWNPCENEMY
 
 entype:2
-startmsg:练抗性找我就对啦！！！
+startmsg:胆敢来犯，我就出手了！！
 dieact:1
 warpfl:2000
 warpx:58
 warpy:69
-endmsg:我靠！你还真厉害！
+endmsg:我败了！你果然厉害！
 enemyno:1690
 onebattle:0
 OVER

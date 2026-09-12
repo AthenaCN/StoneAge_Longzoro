@@ -17,7 +17,7 @@ function equipenhance_Init( _MeIndex )
  	-- +1~+9 所需的材料设置 地/水/火/风
 	needitem = {23053, 23053, 23053, 23053, 23053, 23053, 23053, 23053, 23053};  --++
 	--以下设定NPC相关资讯
-	--设置NPC形象 
+	--设置NPC形象
 	Char.SetData(_MeIndex, %对像_形象%, 101767);
 	--设置NPC所在地图
 	Char.SetData(_MeIndex, %对像_地图%, 2000);
@@ -33,22 +33,22 @@ function equipenhance_Init( _MeIndex )
 	--响应说话事件，此事件如果有玩家对此NPC说话就会触发
 	if (Char.SetTalkedEvent(nil, "equipenhance_Talked", _MeIndex) < 0) then
 		print("Talked 注册事件失败。");
-		return false;	
+		return false;
 	end
 	--窗口事件
 	if (Char.SetWindowTalkedEvent(nil, "equipenhance_WindowTalked", _MeIndex) < 0) then
 		print("WindowTalked 注册事件失败。");
 		return false;
 	end
-	
-	NLG.UpChar(_MeIndex); 
-	return true; 
+
+	NLG.UpChar(_MeIndex);
+	return true;
 end
 
 function equipenhance_checkitem(_itemid) --检查道具是否可以强化
 	for i = 1,table.getn(equipment) do
 		if _itemid == equipment[i-1] then
-			return 1; 
+			return 1;
 		end
 	end
 	return 0;
@@ -76,14 +76,14 @@ function equipenhance_getlevel( _index)  --取得道具等级
 		level = 8;
 		elseif( (buf.."●MAX") == buf2)then   --+
 		level = 9;
-	
+
 	end
 	return level;
 end
 
 function equipenhance_enhance( _PlayerIndex,_Select) --检查选择道具强化条件
 
-	-- 
+	--
 	needitemnum = {1, 1, 1, 1, 1, 1, 1, 1, 1};   --++
 	if _Select >= 0 then
 
@@ -191,10 +191,10 @@ function equipenhance_Talked( _MeIndex, _PlayerIndex, _Msg, _Color, _Channel) --
 
 	local i;   --以下让NPC面对你
 	i = Char.GetData(_PlayerIndex, %对像_方向%);
-	if i >= 4 then 
+	if i >= 4 then
 		i = i - 4;
 	else
-		i = i + 4;		
+		i = i + 4;
 	end
 	Char.SetData(_MeIndex, %对像_方向%,i);
 	NLG.UpChar( _MeIndex);
@@ -218,7 +218,7 @@ function equipenhance_WindowTalked( _MeIndex, _PlayerIndex, _Seqno, _Select, _Da
 			if (pos == 17) then
 				TM_Buff = TM_Buff .. "\n" .. "　　　　　　　下一页";
 			else
-				if( itemindex > 0)then	
+				if( itemindex > 0)then
 						local buff2 = Item.GetData(itemindex,%道具_ID%);
 						if (buff2 == 21279) then
 						TM_Buff = TM_Buff.."\n".. itempos[pos - 8] .. "： " .. Item.GetData( itemindex, %道具_名%) .. "（可）";

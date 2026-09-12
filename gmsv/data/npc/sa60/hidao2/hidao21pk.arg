@@ -1,6 +1,6 @@
 NEWNPCENEMY
 
-####é²¨é±¼æˆ˜æ–—äºº####
+####öèÓãÕ½¶·ÈË####
 entype:2
 askbattlemsg1:±ðÀ´·³ÎÒ£¡²»È»±ð¹ÖÎÒ²»¿ÍÆø£¡Ë¹£¡
 startmsg:Õâ¿ÉÊÇÄã×ÔÕÒµÄ£¡£¡
@@ -32,5 +32,3 @@ FREE:LV>79&ENDEV=4&ENDEV=81&ENDEV=126&ITEM=2414
 WARP:8007,51,27
 endmsg:Ë¹£¡£¡£¡
 OVER
-
-

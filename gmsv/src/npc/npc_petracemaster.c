@@ -385,7 +385,7 @@ void NPC_PetRaceMasterLoop(int meindex) {
 			SetCasinoPayRate(meindex, PET_RACE1, payrate1);
 			SetCasinoPayRate(meindex, PET_RACE2, payrate2);
 			SetCasinoPayRate(meindex, PET_RACE3, payrate3);
-			snprintf(tmpbuf, sizeof(tmpbuf), "请大家停止下注，宠物赛跑开始罗！%s的赔率为%5.2f；%s的赔率为%5.2f；%s的赔率为%5.2f",
+			snprintf(tmpbuf, sizeof(tmpbuf), "\xC7\xEB\xB4\xF3\xBC\xD2\xCD\xA3\xD6\xB9\xCF\xC2\xD7\xA2\xA3\xAC\xB3\xE8\xCE\xEF\xC8\xFC\xC5\xDC\xBF\xAA\xCA\xBC\xC2\xDE\xA3\xA1%s\xB5\xC4\xC5\xE2\xC2\xCA\xCE\xAA%5.2f\xA3\xBB%s\xB5\xC4\xC5\xE2\xC2\xCA\xCE\xAA%5.2f\xA3\xBB%s\xB5\xC4\xC5\xE2\xC2\xCA\xCE\xAA%5.2f",
 					 CHAR_getChar(petindex1, CHAR_NAME), payrate1,
 					 CHAR_getChar(petindex2, CHAR_NAME), payrate2,
 					 CHAR_getChar(petindex3, CHAR_NAME), payrate3);

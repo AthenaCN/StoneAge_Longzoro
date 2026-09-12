@@ -1,13 +1,13 @@
 NEWWARPMAN
 
-#### 鏍囧叏涓嶆纭紝涓嶇悊 ####
+#### 标全不正确，不理 ####
 NOFREE
 FREE:LV>0
 NomalMsg:卡～卡～卡
 PartyMsg:卡～卡～卡
 OVER
 
-####銆�鏀堕挜鍖欑粰閲戠爞銆�####
+####　收钥匙给金砂　####
 TALKEVENT1
 WARP:0,0,0
 FREE:LV>0&ITEM=1852

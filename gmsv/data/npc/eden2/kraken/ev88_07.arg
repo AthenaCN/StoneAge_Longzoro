@@ -18,7 +18,7 @@ alreadymsg:我现在正在处理非常严重的事情，请再等一下就好……
 onebattle:1
 OVER
 
-#绗簩璺嚎锛岀洿鎺ヨ繃鏉ユ壘宸村厠
+#第二路线，直接过来找巴克
 NEWEVENT1:
 FREE:LV>90&ENDEV=81&NOWEV=88
 WARP:60212,7,12

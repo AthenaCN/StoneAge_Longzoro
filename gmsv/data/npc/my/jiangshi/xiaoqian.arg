@@ -1,18 +1,18 @@
-##å®Œæˆä»»åŠ¡##
+##Íê³ÉÈÎÎñ##
 EventNo:-1
 TYPE:MESSAGE
 EVENT:ENDEV=232
 NomalWindowMsg:Ì«¸ÐÐ»ÄãÁË..
 EventEnd
 
-#èº«ä¸Šæœ‰æ­£ä¸­åç‰‡
+#ÉíÉÏÓÐÕýÖÐÃûÆ¬
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>1&ITEM=30910&NOWEV=232
 NomalWindowMsg:¡­¡­\n¡­¡­¡­\n¡­¡­¡­¡­\n¡­¡­¡­¡­¡­
 EventEnd
 
-####é‡æ–°ç»™çµé­‚####
+####ÖØÐÂ¸øÁé»ê####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>1&NOWEV=232&ITEM!=30908
@@ -22,14 +22,14 @@ ItemFullMsg:ÄãÉíÉÏ¶«Î÷Ì«¶àÁË¡«¡«
 GetItem:30908
 EventEnd
 
-#ç»™çŽ©å®¶æç¤º
+#¸øÍæ¼ÒÌáÊ¾
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>1&ITEM=30908&NOWEV=232
 NomalWindowMsg:¼Î¼Î´óÏÃÔÚÄÄ£¿\n\nÔÚ¼Ó¼Ó×¯Ô°×î¸ßµÄ·¿×ÓÄÇ£¡¿¿×ó±ßÓÒ±ßÈëÃÅÅ¶~~
 EventEnd
 
-####æŽ¥ä»»åŠ¡ç»™æ ‡ç»™çµé­‚##
+####½ÓÈÎÎñ¸ø±ê¸øÁé»ê##
 EventNo:232
 TYPE:REQUEST
 EVENT:TRANS>4&LV>1&ENDEV=4&TIME=0
@@ -41,7 +41,7 @@ GetItem:30908*1
 ItemFullMsg:ÇëÄã½«ÄãÉíÉÏµÄ¶«Î÷¼õÉÙÒ»Ð©ºÃÂð£¿
 EventEnd
 
-#### æœªæŽ¥ä»»åŠ¡å¯¹è¯ ####
+#### Î´½ÓÈÎÎñ¶Ô»° ####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>0

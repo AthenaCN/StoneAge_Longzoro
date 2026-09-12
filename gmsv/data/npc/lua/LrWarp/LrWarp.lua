@@ -1,8 +1,8 @@
-function LrWarp_Init( _MeIndex ) 
+function LrWarp_Init( _MeIndex )
 
 --以下设定NPC相关内容
 
---设置NPC形象 
+--设置NPC形象
 
 Char.SetData(_MeIndex, %对像_形象%, 16130);
 
@@ -16,7 +16,7 @@ Char.SetData(_MeIndex, %对像_X%, 67);
 
 --设置Y坐标
 
-Char.SetData(_MeIndex, %对像_Y%, 50); 
+Char.SetData(_MeIndex, %对像_Y%, 50);
 
 --设置NPC方向
 
@@ -49,7 +49,7 @@ end
 --下方阵列设定传送位置 设定范例 {"位置名称", 地图编号, X, Y}
 --下方第一个-1代表等级，第二个-1是旗标
 
-lrwarppoint = { 
+lrwarppoint = {
 
 {"2 0级乌　龟", 10001,40,3,-1,-1},
 
@@ -83,9 +83,9 @@ lrwarppoint = {
 
 {"漆黑过机暴", 32021,31,31,-1,-1}};
 
-NLG.UpChar(_MeIndex); 
+NLG.UpChar(_MeIndex);
 
-return true; 
+return true;
 
 end
 
@@ -153,10 +153,10 @@ function LrWarp_WindowTalked( _MeIndex, _TalkIndex, _Seqno, _Select, _Data)
 if _Select == 0 then
 
   num = tonumber(_Data) + ( _Seqno - 1) * 6 ;
-  
+
   local TM_level = lrwarppoint[num][5];
   local TM_ev = lrwarppoint[num][6];
-  
+
   local cnt = 1;
   local TMP_Index;
   local warp_flg = 0;
@@ -181,12 +181,12 @@ if _Select == 0 then
 			TMP_Index = Char.GetTeamIndex(_TalkIndex,cnt);
 			if (TMP_Index > 0) then
 				NLG.Warp(TMP_Index,lrwarppoint[num][2],lrwarppoint[num][3],lrwarppoint[num][4]);
-				--NLG.UpChar(_MeIndex); 
+				--NLG.UpChar(_MeIndex);
 			end
 			cnt = cnt + 1;
 		end
 	end
-	
+
 	if (warp_flg==1) then
 		NLG.TalkToCli(_TalkIndex,"条件不足！");
 		return;

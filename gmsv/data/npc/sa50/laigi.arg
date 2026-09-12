@@ -1,6 +1,6 @@
 NomalMainMsg:ÓÐÊÂÂð£¿£¿
 
-#### æˆäººç¤¼ #####
+#### ³ÉÈËÀñ #####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:ENDEV=4&ITEM=1444
@@ -11,7 +11,7 @@ DelItem:1444*1
 GetItem:18548
 EventEnd
 
-#### äº”å…„å¼Ÿä¹‹è°œ #####
+#### ÎåÐÖµÜÖ®ÃÕ #####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:ENDEV=31&ITEM=1441
@@ -22,7 +22,7 @@ DelItem:1441*1
 GetItem:20288
 EventEnd
 
-#### é¾™ç©´ä¹‹è°œ #####
+#### ÁúÑ¨Ö®ÃÕ #####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:ENDEV=17&ITEM=1425
@@ -33,7 +33,7 @@ DelItem:1425*1
 GetItem:1330
 EventEnd
 
-#### æé¾™åšå£« #####
+#### ¿ÖÁú²©Ê¿ #####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:ENDEV=16&ITEM=1437
@@ -45,7 +45,7 @@ PetFullMsg:³èÎïºÃÏñ·Å²»ÏÂÁËÒ®¡­
 GetPet:1612
 EventEnd
 
-#### æ¢¦å¹»æ´žçªŸ #####
+#### ÃÎ»Ã¶´¿ß #####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:ENDEV=34&ITEM=1426
@@ -56,7 +56,7 @@ DelItem:1426*1
 GetItem:1331
 EventEnd
 
-#### ç‰ç’ƒæ´žçªŸ #####
+#### ÁðÁ§¶´¿ß #####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:ENDEV=39&ITEM=1427
@@ -67,7 +67,7 @@ DelItem:1427*1
 GetItem:1332
 EventEnd
 
-#### ç¢§é’æ´žçªŸ #####
+#### ±ÌÇà¶´¿ß #####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:ENDEV=46&ITEM=1428
@@ -78,7 +78,7 @@ DelItem:1428*1
 GetItem:1333
 EventEnd
 
-#### çŽ„é»„æ´žçªŸ #####
+#### Ðþ»Æ¶´¿ß #####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:ENDEV=41&ITEM=1429
@@ -89,7 +89,7 @@ DelItem:1429*1
 GetItem:1334
 EventEnd
 
-#### æ·±çº¢æ´žçªŸ #####
+#### Éîºì¶´¿ß #####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:ENDEV=40&ITEM=1430
@@ -100,7 +100,7 @@ DelItem:1430*1
 GetItem:1335
 EventEnd
 
-#### è½¬ç”Ÿä¸€ #####
+#### ×ªÉúÒ» #####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:ENDEV=48&ITEM=1442
@@ -111,7 +111,7 @@ DelItem:1442*1
 GetItem:20291
 EventEnd
 
-#### è½¬ç”ŸäºŒ #####
+#### ×ªÉú¶þ #####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:ENDEV=49&ITEM=1442
@@ -122,7 +122,7 @@ DelItem:1442*1
 GetItem:20291
 EventEnd
 
-#### è½¬ç”Ÿä¸‰ #####
+#### ×ªÉúÈý #####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:ENDEV=50&ITEM=1442
@@ -133,7 +133,7 @@ DelItem:1442*1
 GetItem:20291
 EventEnd
 
-#### è½¬ç”Ÿå›› #####
+#### ×ªÉúËÄ #####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:ENDEV=51&ITEM=1442
@@ -144,7 +144,7 @@ DelItem:1442*1
 GetItem:20291
 EventEnd
 
-#### è½¬ç”Ÿäº” #####
+#### ×ªÉúÎå #####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:ENDEV=52&ITEM=1442
@@ -155,7 +155,7 @@ DelItem:1442*1
 GetItem:20291
 EventEnd
 
-#### å¼ºæ© #####
+#### Ç¿¶÷ #####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:ENDEV=21&ITEM=1431
@@ -166,7 +166,7 @@ DelItem:1431*1
 GetItem:1595
 EventEnd
 
-#### è‹±é›„å²› #####
+#### Ó¢ÐÛµº #####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:ENDEV=63&ITEM=1433
@@ -177,7 +177,7 @@ DelItem:1433*1
 GetItem:1337
 EventEnd
 
-#### å››åœ£çŸ³ #####
+#### ËÄÊ¥Ê¯ #####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:ENDEV=64&ITEM=1434
@@ -188,7 +188,7 @@ DelItem:1434*1
 GetItem:20241
 EventEnd
 
-#### ç²¾çµçŽ‹ #####
+#### ¾«ÁéÍõ #####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:ENDEV=72&ITEM=1443
@@ -199,7 +199,7 @@ DelItem:1443*1
 GetItem:20287
 EventEnd
 
-#### ç²¾çµçŽ‹ #####
+#### ¾«ÁéÍõ #####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:ENDEV=71&ITEM=1443
@@ -210,7 +210,7 @@ DelItem:1443*1
 GetItem:20287
 EventEnd
 
-#### ç²¾çµçŽ‹ #####
+#### ¾«ÁéÍõ #####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:NOWEV=72&ITEM=1443
@@ -221,7 +221,7 @@ DelItem:1443*1
 GetItem:20287
 EventEnd
 
-#### ç²¾çµçŽ‹ #####
+#### ¾«ÁéÍõ #####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:NOWEV=71&ITEM=1443
@@ -232,7 +232,7 @@ DelItem:1443*1
 GetItem:20287
 EventEnd
 
-#### å¤©ç©ºä¹‹å²› #####
+#### Ìì¿ÕÖ®µº #####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:ENDEV=72&ITEM=1436
@@ -244,7 +244,7 @@ PetFullMsg:³èÎïºÃÏñ·Å²»ÏÂÁËÒ®¡­
 GetPet:477
 EventEnd
 
-#### é‡‘é£ž #####
+#### ½ð·É #####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:ENDEV=81&ITEM=1435
@@ -255,7 +255,7 @@ DelItem:1435*1
 GetItem:20593
 EventEnd
 
-#### åŠ¨ç‰©å›­ #####
+#### ¶¯ÎïÔ° #####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:ENDEV=83&ITEM=1432
@@ -266,7 +266,7 @@ DelItem:1432*1
 GetItem:1336
 EventEnd
 
-#### é»„é‡‘ç¾šç¾Š #####
+#### »Æ½ðÁçÑò #####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:ENDEV=54&ITEM=1438
@@ -278,7 +278,7 @@ PetFullMsg:³èÎïºÃÏñ·Å²»ÏÂÁËÒ®¡­
 GetPet:1649
 EventEnd
 
-#### ç”·äººæ‘å¥³äººæ‘ #####
+#### ÄÐÈË´åÅ®ÈË´å #####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:ENDEV=25&ITEM=1439
@@ -289,7 +289,7 @@ DelItem:1439*1
 GetItem:20289
 EventEnd
 
-#### ç”·äººæ‘å¥³äººæ‘ #####
+#### ÄÐÈË´åÅ®ÈË´å #####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:ENDEV=26&ITEM=1439
@@ -300,7 +300,7 @@ DelItem:1439*1
 GetItem:20289
 EventEnd
 
-#### é‡‡çŸ¿æƒ #####
+#### ²É¿óÈ¨ #####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:ENDEV=27&ITEM=1440
@@ -311,7 +311,7 @@ DelItem:1440*1
 GetItem:20290
 EventEnd
 
-####ã€€æ²¡å¾—æ‹¿ã€€####
+####¡¡Ã»µÃÄÃ¡¡####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>0

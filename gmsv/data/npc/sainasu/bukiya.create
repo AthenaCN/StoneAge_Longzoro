@@ -1,5 +1,5 @@
 NPCCREATE
-#è¨å§†å‰å°”çš„æ­¦å™¨é€š
+#ÈøÄ·¼ª¶ûµÄÎäÆ÷Í¨
 {
 floorid=1001
 borncenter=16,19,1,1
@@ -12,7 +12,7 @@ name=´å×ÓÀïµÄÍòÊÂÍ¨
 enemy=windowman|conff:sainasu/bukiya01.conf
 }
 
-#ç›ä¸½é‚£æ–¯çš„æ­¦å™¨é€š
+#ÂêÀöÄÇË¹µÄÎäÆ÷Í¨
 {
 floorid=2001
 borncenter=14,14,1,1
@@ -25,7 +25,7 @@ name=´å×ÓÀïµÄÍòÊÂÍ¨
 enemy=windowman|conff:sainasu/bukiya01.conf
 }
 
-#åŠ åŠ çš„æ­¦å™¨é€š
+#¼Ó¼ÓµÄÎäÆ÷Í¨
 {
 floorid=3001
 borncenter=13,14,1,1
@@ -37,7 +37,7 @@ graphicname=16203
 name=´å×ÓÀïµÄÍòÊÂÍ¨
 enemy=windowman|conff:sainasu/bukiya01.conf
 }
-#å¡é²å®ƒé‚£çš„æ­¦å™¨é€š
+#¿¨Â³ËüÄÇµÄÎäÆ÷Í¨
 {
 floorid=4001
 borncenter=13,14,1,1

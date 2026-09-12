@@ -1,6 +1,6 @@
 NPCCREATE
 
-#æˆ˜æ–—æŒ‡å¯¼å‘˜è¨ä¼Šé‚£æ–¯
+#Õ½¶·Ö¸µ¼Ô±ÈøÒÁÄÇË¹
 {
 floorid=1006
 borncenter=15,13,1,1
@@ -14,7 +14,7 @@ enemy=familyman|conff:newguest/familyman.conf
 }
 
 
-#æˆ˜æ–—æŒ‡å¯¼å‘˜ç›ä¸½å¨œä¸
+#Õ½¶·Ö¸µ¼Ô±ÂêÀöÄÈË¿
 {
 floorid=2006
 borncenter=13,5,1,1
@@ -28,7 +28,7 @@ enemy=familyman|conff:newguest/familyman.conf
 }
 
 
-#æˆ˜æ–—æŒ‡å¯¼å‘˜åŠ åŠ 
+#Õ½¶·Ö¸µ¼Ô±¼Ó¼Ó
 {
 floorid=3006
 borncenter=14,13,1,1
@@ -42,7 +42,7 @@ enemy=familyman|conff:newguest/familyman.conf
 }
 
 
-#æˆ˜æ–—æŒ‡å¯¼å‘˜åŠ é²å¡
+#Õ½¶·Ö¸µ¼Ô±¼ÓÂ³¿¨
 {
 floorid=4006
 borncenter=16,25,1,1

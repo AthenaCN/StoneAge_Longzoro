@@ -2,14 +2,14 @@
 NomalMainMsg:ÎÒÊÇ´ïÄÇ´åÃñ¡«
 
 
-#æ²¡è¯æœ‰æ——æ ‡180
+#Ã»Ò©ÓÐÆì±ê180
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>79&ENDEV=72&NOWEV=177&ITEM!=2449&ITEM!=19304&ENDEV!=177&ENDEV!=178&ENDEV=180
 NomalWindowMsg:\nºÜ¸ßÐËÓÖ¿´¼ûÄã¡£\nÓÉÓÚÉÏÒ»´ÎÎÒµÄÊÂ¼þÈÃÎÒ¶ÔÖ©ÖëÓÐ¿Ö¾å£¬ÄÜÇëÄãÔÙ°ïÎÒÈ¥ÄÃµã¿ÉÒÔÖÎÁÆÂé±ÔµÄÒ©Âð£¿ÕâÑùÎÒ²Å¿ÉÒÔ¸ßÕíÎÞÓÇ°¡¡£
 EventEnd
 
-#æœ‰è¯æœ‰æ——æ ‡180
+#ÓÐÒ©ÓÐÆì±ê180
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>79&ITEM=2449&ENDEV=72&NOWEV=177&ITEM!=19304&ENDEV!=177&ENDEV!=178&ENDEV=180
@@ -21,14 +21,14 @@ EndSetFlg:177
 ItemFullMsg:\n\nÄãÉíÉÏµÄ´ø´ü×ÓÂúÁË¡£
 EventEnd
 
-#æ²¡è¯
+#Ã»Ò©
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>79&ENDEV=72&NOWEV=177&ITEM!=2449&ITEM!=19304&ENDEV!=177&ENDEV!=178
 NomalWindowMsg:\nÎØ¡«ÔõÃ´°ì£¬ÎÒ±»¶¾Ö©ÖëÒ§ÉË£¬È«Éí¶¼½©Ó²ÁËÃ»°ì·¨ÐÐ¶¯£¬ÄãÄÜ²»ÄÜ°ïÎÒÒ»¸öÃ¦£¬°ïÎÒÈ¥ÕÒÑ°Ò»ÖÖ¿ÉÒÔ½â³ýÂé±ÔµÄ½âÒ©¡£
 EventEnd
 
-#æœ‰è¯
+#ÓÐÒ©
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>79&ITEM=2449&ENDEV=72&NOWEV=177&ITEM!=19304&ENDEV!=177&ENDEV!=178
@@ -42,7 +42,7 @@ EndSetFlg:177
 ItemFullMsg:\n\nÄãÉíÉÏµÄ´ø´ü×ÓÂúÁË¡£
 EventEnd
 
-#å–å¾—åœ°å›¾
+#È¡µÃµØÍ¼
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>79&ENDEV=72&ENDEV=177&ITEM=19304
@@ -50,7 +50,7 @@ NomalWindowMsg:\n\n»ðÉ½ÁÑ·ìÕæµÄºÜ¿Ö²À£¬ÉÏÒ»´ÎÈ¥²îÒ»µã¾Í±»ÌÌËÀ¡£
 EventEnd
 
 
-#é—å¤±åœ°å›¾
+#ÒÅÊ§µØÍ¼
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>79&ENDEV=72&ENDEV=177&ENDEV!=178&ITEM!=19304
@@ -60,7 +60,7 @@ GetItem:19304*1
 EventEnd
 
 
-#è·Ÿç«ä½¿è€…å¯¹è¯è¿‡
+#¸ú»ðÊ¹Õß¶Ô»°¹ý
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>79&ENDEV=72&ENDEV!=177&ENDEV=178

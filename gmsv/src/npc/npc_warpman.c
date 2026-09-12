@@ -574,8 +574,8 @@ void NPC_ERR_DiSP(int meindex, int talker, int errNO) {
 	}
 	if (errNO == 1) {
 		if (NPC_Util_GetStrFromStrWithDelim(npcarg, "PartyMsg", token, sizeof(token)) == NULL) {
-			sprintf(token, "\n\n　　　　无法加入团队。　　"
-						   "\n\n　　　 请解散团队 。　");
+			sprintf(token, "\n\n\xA1\xA1\xA1\xA1\xA1\xA1\xA1\xA1\xCE\xDE\xB7\xA8\xBC\xD3\xC8\xEB\xCD\xC5\xB6\xD3\xA1\xA3\xA1\xA1\xA1\xA1"
+						   "\n\n\xA1\xA1\xA1\xA1\xA1\xA1 \xC7\xEB\xBD\xE2\xC9\xA2\xCD\xC5\xB6\xD3 \xA1\xA3\xA1\xA1");
 		}
 		if (CHAR_getWorkInt(talker, CHAR_WORKPARTYMODE) == CHAR_PARTY_CLIENT) {
 		} else {
@@ -595,8 +595,8 @@ void NPC_ERR_DiSP(int meindex, int talker, int errNO) {
 		}
 	} else if (errNO == 2) {
 		if (NPC_Util_GetStrFromStrWithDelim(npcarg, "MoneyMsg", token, sizeof(token)) == NULL) {
-			sprintf(token, "\n\n　　　　似乎金钱不足唷。　　"
-						   "\n\n　请存好钱後，再过来。");
+			sprintf(token, "\n\n\xA1\xA1\xA1\xA1\xA1\xA1\xA1\xA1\xCB\xC6\xBA\xF5\xBD\xF0\xC7\xAE\xB2\xBB\xD7\xE3\xE0\xA1\xA1\xA3\xA1\xA1\xA1\xA1"
+						   "\n\n\xA1\xA1\xC7\xEB\xB4\xE6\xBA\xC3\xC7\xAE\xE1\xE1\xA3\xAC\xD4\xD9\xB9\xFD\xC0\xB4\xA1\xA3");
 		}
 	}
 	lssproto_WN_send(fd, WINDOW_MESSAGETYPE_MESSAGE,
@@ -673,12 +673,12 @@ BOOL NPC_WarpMsg(int meindex, int talker, char *arg) {
 			if (strcmp(ITEM_getChar(itemi, ITEM_USEFUNC), "ITEM_timeticket"))
 				continue;
 			// if( ITEM_getInt( itemi ,ITEM_ID) != 20646 )	continue;
-			CHAR_talkToCli(talker, -1, "自动使用门票。", CHAR_COLORYELLOW);
+			CHAR_talkToCli(talker, -1, "\xD7\xD4\xB6\xAF\xCA\xB9\xD3\xC3\xC3\xC5\xC6\xB1\xA1\xA3", CHAR_COLORYELLOW);
 			ITEM_timeticketEx(talker, talker, havei, 1);
 			break;
 		}
 		if (havei == CHAR_MAXITEMHAVE) {
-			CHAR_talkToCli(talker, -1, "请先准备专用门票才可进入。", CHAR_COLORYELLOW);
+			CHAR_talkToCli(talker, -1, "\xC7\xEB\xCF\xC8\xD7\xBC\xB1\xB8\xD7\xA8\xD3\xC3\xC3\xC5\xC6\xB1\xB2\xC5\xBF\xC9\xBD\xF8\xC8\xEB\xA1\xA3", CHAR_COLORYELLOW);
 			return FALSE;
 		}
 	}
@@ -971,7 +971,7 @@ BOOL NPC_TreasureRandItemGet(int meidex, int talker, int rand_j, char *buf) {
 	char token[128];
 
 	if (rand_j == 0) {
-		print("Event:由於０的介入，出现错误。");
+		print("Event:\xD3\xC9\xEC\xB6\xA3\xB0\xB5\xC4\xBD\xE9\xC8\xEB\xA3\xAC\xB3\xF6\xCF\xD6\xB4\xED\xCE\xF3\xA1\xA3");
 		return FALSE;
 	}
 
@@ -1003,7 +1003,7 @@ BOOL NPC_TreasureRandItemGet(int meidex, int talker, int rand_j, char *buf) {
 #else
 			ITEM_getInt(itemindex, ITEM_ID), /* アイテム番号   (物品编号) */
 #endif
-			"EventAddItem(任务需求所得到的道具)",
+			"EventAddItem(\xC8\xCE\xCE\xF1\xD0\xE8\xC7\xF3\xCB\xF9\xB5\xC3\xB5\xBD\xB5\xC4\xB5\xC0\xBE\xDF)",
 			CHAR_getInt(talker, CHAR_FLOOR),
 			CHAR_getInt(talker, CHAR_X),
 			CHAR_getInt(talker, CHAR_Y),
@@ -1012,7 +1012,7 @@ BOOL NPC_TreasureRandItemGet(int meidex, int talker, int rand_j, char *buf) {
 			ITEM_getInt(itemindex, ITEM_ID));
 	}
 
-	sprintf(token, "收下了%s", ITEM_getChar(itemindex, ITEM_NAME));
+	sprintf(token, "\xCA\xD5\xCF\xC2\xC1\xCB%s", ITEM_getChar(itemindex, ITEM_NAME));
 	CHAR_talkToCli(talker, -1, token, CHAR_COLORWHITE);
 
 	CHAR_sendItemDataOne(talker, ret);
@@ -1034,12 +1034,12 @@ void NPC_LevelAndTransUp(int meindex, int charindex, int level, int skillpoint, 
 			myexp = 300000000;
 		CHAR_setInt(charindex, CHAR_EXP, myexp);
 		snprintf(szBuffer, sizeof(szBuffer),
-				 "(%s) 得到 EXP %d", CHAR_getUseName(charindex), exp);
+				 "(%s) \xB5\xC3\xB5\xBD EXP %d", CHAR_getUseName(charindex), exp);
 		CHAR_talkToCli(charindex, -1, szBuffer, CHAR_COLORYELLOW);
 		LevelUp = CHAR_LevelUpCheck(charindex, -1);
 		if (LevelUp > 0) {
 			snprintf(szBuffer, sizeof(szBuffer),
-					 "(%s) 升级至 %d",
+					 "(%s) \xC9\xFD\xBC\xB6\xD6\xC1 %d",
 					 CHAR_getUseName(charindex),
 					 CHAR_getInt(charindex, CHAR_LV));
 			CHAR_talkToCli(charindex, -1, szBuffer, CHAR_COLORYELLOW);
@@ -1052,7 +1052,7 @@ void NPC_LevelAndTransUp(int meindex, int charindex, int level, int skillpoint, 
 	if (level > 0) {
 		CHAR_setInt(charindex, CHAR_LV, level);
 		snprintf(szBuffer, sizeof(szBuffer),
-				 "(%s) 等级设定为 %d",
+				 "(%s) \xB5\xC8\xBC\xB6\xC9\xE8\xB6\xA8\xCE\xAA %d",
 				 CHAR_getUseName(charindex), CHAR_getInt(charindex, CHAR_LV));
 		CHAR_talkToCli(charindex, -1, szBuffer, CHAR_COLORYELLOW);
 	}
@@ -1096,7 +1096,7 @@ void NPC_LevelAndTransUp(int meindex, int charindex, int level, int skillpoint, 
 			}
 			CHAR_complianceParameter(petindex);
 			CHAR_setInt(petindex, CHAR_HP, CHAR_getWorkInt(petindex, CHAR_WORKMAXHP));
-			snprintf(szBuffer, sizeof(szBuffer), "得到%s", CHAR_getUseName(petindex));
+			snprintf(szBuffer, sizeof(szBuffer), "\xB5\xC3\xB5\xBD%s", CHAR_getUseName(petindex));
 			CHAR_talkToCli(charindex, -1, szBuffer, CHAR_COLORYELLOW);
 		}
 		for (j = 0; j < CHAR_MAXPETHAVE; j++) {

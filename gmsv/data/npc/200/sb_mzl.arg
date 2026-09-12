@@ -1,5 +1,5 @@
 entype:2
-askbattlemsg1:想要继续前进的话，那你就打倒我吧。 
+askbattlemsg1:想要继续前进的话，那你就打倒我吧。
 startmsg:如果你能打倒我的话，我就让你继续前进。
 dieact:1
 warpfl:21208

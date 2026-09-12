@@ -1,13 +1,12 @@
-NomalMainMsg:这里的修行者还真不少啊。
+NomalMainMsg:这边的访客还真不少呢～。
 
 
 EventNo:-1
 TYPE:ACCEPT
 EVENT:ITEM=20704&ITEM=20689
-AcceptMsg:\n\n疑！？这礼物是～～～～！
-ThanksMsg:\n\n谢谢你，还真亏你四处奔波送来给我啊，谢谢你！不过，辛劳后所得的果实最为甜美，你说是不是呢！？
-ItemFullMsg:\n\n你身上装不下东西了，没办法给你一些证明。
+AcceptMsg:\n\n哇！？这礼物是……要送我的吗？
+ThanksMsg:\n\n谢谢你，还有人惦记着我，专程送来礼物给我，谢谢！不过，经过这段时间，我所得到的才是最珍贵的，你说是不是呢！？
+ItemFullMsg:\n\n你身上没有空位，没办法写纸条给你呢。
 DelItem:20689
 GetRandItem:20679*1
-NpcWarp:10914.37.51,10914.7.32
-EventEnd
+NpcWarp:1091

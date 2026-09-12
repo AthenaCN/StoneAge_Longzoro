@@ -1,12 +1,12 @@
 NomalMainMsg:©╘вх~~~нчйсдЦ╣д╢Фтзё║ё║ё║ё║ё║ё║
-####Д╩╩Е┼║Г╩⌠Ф²÷#####
+####хннЯ╫АйЬ#####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>159&TRANS=6&ENDEV=176&ENDEV=181
 NomalWindowMsg:║ё║ё║ё
 EventEnd
 
-####Д╩╩Е┼║Д╦╜1#####
+####хннЯжп1#####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>159&TRANS=6&ENDEV=176&NOWEV=181&ITEM!=20886
@@ -15,7 +15,7 @@ ThanksMsg1:......дг╬мдцх╔╟и~
 ItemFullMsg:дЦиМио╣д╤╚нВбЗакю╡ё║©Л╣Ц©ур╩╦Жн╩вс║ё
 GetItem:20886
 EventEnd
-####Д╩╩Е┼║Д╦╜2#####
+####хннЯжп2#####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:ITEM=20886

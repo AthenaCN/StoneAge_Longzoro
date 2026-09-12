@@ -4,7 +4,7 @@ NomalMainMsg:凡是被承认为火灵勇士的人，将获得弗烈顿永远的尊敬。
 
 ####任务结束，认旗标111关####
 
-#### 开启任务见国王关111标得忠诚之心 ####	
+#### 开启任务见国王关111标得忠诚之心 ####
 EventNo:111
 TYPE:ACCEPT
 EVENT:LV>100&ENDEV=4&ENDEV=81&ENDEV=110&NOWEV=111&ITEM!=20176
@@ -25,7 +25,7 @@ EVENT:LV>100&ENDEV=4&ENDEV=81&ENDEV=110&NOWEV=111&ITEM=20176
 NomalWindowMsg:既然你拿到忠诚之心的话，就快去见火精灵吧。
 EventEnd
 
-#### 已关火灵勇士标再见国王仍有忠诚之心 ####	
+#### 已关火灵勇士标再见国王仍有忠诚之心 ####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>100&ENDEV=4&ENDEV=81&ENDEV=110&ENDEV=111&ITEM!=20176

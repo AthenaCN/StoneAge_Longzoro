@@ -16,6 +16,7 @@
 #include "pet_skill.h"
 #include "char_base.h"
 #include "item_event.h"
+#include "autil.h"
 
 #ifdef _PROFESSION_SKILL // WON ADD 人物职业技能
 #include "profession_skill.h"
@@ -79,6 +80,8 @@ char *aszStatus[] = {"全", "毒", "麻", "眠", "石", "醉", "乱", "虚", "�
 					 "抗"
 #endif
 };
+
+int gAszStatusNum = (int)(sizeof(aszStatus) / sizeof(aszStatus[0]));
 
 char *aszStatusFull[] = {"全快", "毒", "麻痹", "睡眠", "石化", "酒醉", "混乱", "虚弱", "剧毒", "魔障", "沉默"
 #ifdef _PET_SKILL_SARS // WON ADD 毒煞蔓延
@@ -459,7 +462,7 @@ int BATTLE_ItemCrush(int charaindex, int ItemEquip, int Damages, int flg) {
 
 	if (crushenum <= 0) { // 损坏消失
 		crushenum = 0;
-		sprintf(szBuffer, "%s因过度损坏而消失。\n", ITEM_getChar(itemindex, ITEM_NAME));
+		sprintf(szBuffer, "%s\xD2\xF2\xB9\xFD\xB6\xC8\xCB\xF0\xBB\xB5\xB6\xF8\xCF\xFB\xCA\xA7\xA1\xA3\n", ITEM_getChar(itemindex, ITEM_NAME));
 		CHAR_talkToCli(charaindex, -1, szBuffer, CHAR_COLORYELLOW);
 
 		LogItem(
@@ -502,8 +505,11 @@ int BATTLE_ItemCrush(int charaindex, int ItemEquip, int Damages, int flg) {
 			//				work *=0.95;
 			//				ITEM_setInt( itemindex, ItemBreakPos[i], work );
 			//			}
-			sprintf(szBuffer, "%s是%s的。",
-					ITEM_getChar(itemindex, ITEM_NAME), aszCrushTbl[level]);
+			{
+			char u[256];
+			str_gbk_to_utf8(u, sizeof(u), ITEM_getChar(itemindex, ITEM_NAME));
+			sprintf(szBuffer, "%s是%s的。", u, aszCrushTbl[level]);
+		}
 			CHAR_talkToCli(charaindex, -1, szBuffer, CHAR_COLORRED);
 			// 更改道具说明
 			//			buf1 = ITEM_getChar( itemindex, ITEM_SECRETNAME);
@@ -706,7 +712,7 @@ static int BATTLE_ItemCrushSeq(int charaindex) {
 
 	if (BATTLE_ItemCrushCheck(charaindex) == TRUE) {
 		if (BATTLE_ItemCrush(charaindex) == TRUE) {
-			sprintf(szWork, "BK|%s的\t装备受到损伤。",
+			sprintf(szWork, "BK|%s\xB5\xC4\t\xD7\xB0\xB1\xB8\xCA\xDC\xB5\xBD\xCB\xF0\xC9\xCB\xA1\xA3",
 					CHAR_getUseName(charaindex));
 			strcat(szBadStatusString, szWork);
 			iRet = TRUE;
@@ -2911,7 +2917,7 @@ int BATTLE_Attack(int battleindex, int attackNo, int defNo) {
 				int img1 = 101697, img2 = 101698 + i;
 
 				// 状态
-				for (j = 1; j < BATTLE_ST_END; j++) {
+				for (j = 1; j < BATTLE_ST_END && j < gAszStatusNum; j++) {
 					if (strncmp(pszP[i], aszStatus[j], 2) == 0) {
 						status = j;
 						break;
@@ -3276,7 +3282,7 @@ int BATTLE_Attack_FIREKILL(int battleindex, int attackNo, int defNo) {
 				int img1 = 101697, img2 = 101698 + i;
 
 				// 状态
-				for (j = 1; j < BATTLE_ST_END; j++) {
+				for (j = 1; j < BATTLE_ST_END && j < gAszStatusNum; j++) {
 					if (strncmp(pszP[i], aszStatus[j], 2) == 0) {
 						status = j;
 						break;
@@ -4706,7 +4712,7 @@ int BATTLE_S_Refresh(int battleindex, int attackNo, int defNo, int marray) {
 	pszP = magicarg;
 
 	for (; status == -1 && pszP[0] != 0; pszP++) {
-		for (i = 0; i < BATTLE_ST_END; i++) {
+		for (i = 0; i < BATTLE_ST_END && i < gAszStatusNum; i++) {
 			if (strncmp(pszP, aszStatus[i], 2) == 0) {
 				status = i;
 				pszP += 2;
@@ -4776,7 +4782,7 @@ int BATTLE_S_Roar(int battleindex, int attackNo, int defNo, int marray) {
 	// 送讯息至玩家
 	if (FINDPET == TRUE) { // 若为年兽
 		char buf4[255];
-		sprintf(buf4, "%s被吼声吓跑了！", CHAR_getChar(index2, CHAR_NAME));
+		sprintf(buf4, "%s\xB1\xBB\xBA\xF0\xC9\xF9\xCF\xC5\xC5\xDC\xC1\xCB\xA3\xA1", CHAR_getChar(index2, CHAR_NAME));
 		BATTLE_Exit(index2, battleindex); // 离开战斗
 		if (CHAR_CHECKINDEX(masteridx)) {
 			CHAR_setInt(masteridx, CHAR_DEFAULTPET, -1); // 无参战宠
@@ -5826,7 +5832,7 @@ void BATTLE_Steal(int battleindex, int attackNo, int defNo) {
 		//	CHAR_getUseName( attackindex ),	CHAR_getUseName( defindex ), per );
 	}
 	if (flg == 1) {
-		sprintf(szBuffer, "BK|%s被偷了一些东西。|",
+		sprintf(szBuffer, "BK|%s\xB1\xBB\xCD\xB5\xC1\xCB\xD2\xBB\xD0\xA9\xB6\xAB\xCE\xF7\xA1\xA3|",
 				CHAR_getUseName(defindex));
 		strcat(szBadStatusString, szBuffer);
 		if (CHAR_getInt(attackindex, CHAR_WHICHTYPE) == CHAR_TYPEPET) {
@@ -6624,7 +6630,7 @@ void BATTLE_S_ToothCrushe(int battleindex, int attackindex, int defindex, int da
 
 		if (crushenum <= 0) {
 			char buf2[256];
-			sprintf(buf2, "%s因过度损坏而消失。\n", ITEM_getChar(itemindex, ITEM_NAME));
+			sprintf(buf2, "%s\xD2\xF2\xB9\xFD\xB6\xC8\xCB\xF0\xBB\xB5\xB6\xF8\xCF\xFB\xCA\xA7\xA1\xA3\n", ITEM_getChar(itemindex, ITEM_NAME));
 			CHAR_talkToCli(defindex, -1, buf2, CHAR_COLORYELLOW);
 
 			LogItem(
@@ -6648,7 +6654,11 @@ void BATTLE_S_ToothCrushe(int battleindex, int attackindex, int defindex, int da
 
 		} else {
 			char buf2[256];
-			sprintf(buf2, "%s是%s的。", ITEM_getChar(itemindex, ITEM_NAME), aszCrushTbl[level]);
+			{
+			char u[256];
+			str_gbk_to_utf8(u, sizeof(u), ITEM_getChar(itemindex, ITEM_NAME));
+			sprintf(buf2, "%s是%s的。", u, aszCrushTbl[level]);
+		}
 			CHAR_talkToCli(defindex, -1, buf2, CHAR_COLORYELLOW);
 			// 更改道具说明
 			//			buf1 = ITEM_getChar( itemindex, ITEM_SECRETNAME);
@@ -7324,7 +7334,7 @@ int BATTLE_S_Weaken(
 	pszP = magicarg;
 
 	for (; status == -1 && pszP[0] != 0; pszP++) {
-		for (i = 1; i < BATTLE_ST_END; i++) {
+		for (i = 1; i < BATTLE_ST_END && i < gAszStatusNum; i++) {
 			if (strncmp(pszP, aszStatus[i], 2) == 0) {
 				status = i;
 				pszP += 2;
@@ -7422,7 +7432,7 @@ int BATTLE_S_Deeppoison(int battleindex, int attackNo, int defNo, int marray) {
 	pszP = magicarg;
 
 	for (; status == -1 && pszP[0] != 0; pszP++) {
-		for (i = 1; i < BATTLE_ST_END; i++) {
+		for (i = 1; i < BATTLE_ST_END && i < gAszStatusNum; i++) {
 			if (strncmp(pszP, aszStatus[i], 2) == 0) {
 				status = i;
 				pszP += 2;
@@ -7940,7 +7950,7 @@ int battle_profession_attack_fun(int battleindex, int attackNo, int defNo, int c
 
 					item_name = ITEM_getChar(itemindex, ITEM_NAME);
 
-					sprintf(msg, "得到%s", item_name);
+					sprintf(msg, "\xB5\xC3\xB5\xBD%s", item_name);
 					CHAR_talkToCli(charaindex, -1, msg, CHAR_COLORYELLOW);
 
 					CHAR_setItemIndex(enemy_index, item, -1);
@@ -8717,7 +8727,7 @@ int battle_profession_status_chang_fun(int battleindex, int attackNo, int defNo,
 			|| ((pszP = strstr(pszOption, "抗")) != NULL)
 #endif
 		) {
-			for (i = 1; i < BATTLE_ST_END; i++) {
+			for (i = 1; i < BATTLE_ST_END && i < gAszStatusNum; i++) {
 				if (strncmp(pszP, aszStatus[i], 2) == 0) {
 					status = i;
 					break;
@@ -9023,7 +9033,7 @@ int battle_profession_status_chang_fun(int battleindex, int attackNo, int defNo,
 
 		// 改变状态
 		if ((pszP = strstr(pszOption, "晕")) != NULL) {
-			for (i = 1; i < BATTLE_ST_END; i++) {
+			for (i = 1; i < BATTLE_ST_END && i < gAszStatusNum; i++) {
 				if (strncmp(pszP, aszStatus[i], 2) == 0) {
 					status = i;
 					break;
@@ -9142,7 +9152,7 @@ int battle_profession_status_chang_fun(int battleindex, int attackNo, int defNo,
 		// 改变状态
 		if (((pszP = strstr(pszOption, "毒")) != NULL)) {
 
-			for (i = 1; i < BATTLE_ST_END; i++) {
+			for (i = 1; i < BATTLE_ST_END && i < gAszStatusNum; i++) {
 				if (strncmp(pszP, aszStatus[i], 2) == 0) {
 					status = i;
 					break;
@@ -10139,7 +10149,7 @@ void BATTLE_BattleModel(int battleindex, int attackNo, int myside) {
 
 	// 取得效果
 	if (getStringFromIndexWithDelim(pszOption, "|", 3, szData, sizeof(szData)) != FALSE) {
-		for (i = 1; i < BATTLE_ST_END; i++) {
+		for (i = 1; i < BATTLE_ST_END && i < gAszStatusNum; i++) {
 			if (strncmp(szData, aszStatus[i], 2) == 0) {
 				iEffect = i;
 				break;

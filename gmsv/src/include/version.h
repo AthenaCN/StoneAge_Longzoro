@@ -503,8 +503,8 @@ Game Server 游戏环境:
 #define _ADD_DUNGEON				// (可开) Change 追加地牢
 #define _PROFESSION_ADDSKILL		// (可开) Change 追加职业技能
 #define _ITEM_ADDPETEXP				// (可开) Change 增加宠物经验值道具(可吃此道具宠物,平常不可获得经验值)
-#define _TRANS_6					// (可开) Change 人物6转
-#define _TRANS_7					// (可开) Change 人物7转
+#define _TRANS_6					// (可开) Change 人物6转  (官方7.5起开放六转)
+//#define _TRANS_7					// (可开) Change 人物7转
 #define _PET_2TRANS					// (可开) Change 宠物2转
 #define _PET_2LIMITLEVEL			// (可开) Change 帮助宠物2转的玛蕾
 #define _MAGICSTAUTS_RESIST			// (可开) Change (火电冰)抗性精灵
@@ -568,4 +568,5 @@ Game Server 游戏环境:
 #define _GM_METAMO_RIDE // GM人物骑所有宠
 #define _GM_RIDE		// GM命令设置骑宠权限
 #define _LOCK_IP		// 锁定IP
+#define _kr_ip			// 不锁GM指令IP（本机127.0.0.1可用GM命令）
 #endif

@@ -153,7 +153,7 @@ enemy=npcgen_warpman|file:longzoro/vip/vipsend.arg
 }
 
 
-######领奖Npc#######
+######�콱Npc#######
 {
 floorid=777
 borncenter=22,16

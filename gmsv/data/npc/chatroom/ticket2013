@@ -1,11 +1,11 @@
-NomalMainMsg:我是送钱的.
-
-EventNo:-1
-TYPE:ACCEPT
-EVENT:LV>0
-AcceptMsg:要钱吗?
-ThanksMsg:好就送给你吧.多谢我噢~!
-StoneFullMsg:对不起,你的钱太多了,丢掉点吧.
+NomalMainMsg:欢迎光临。贩卖去聊天室的票。
+AcceptMsg:交付前往聊天室的门票。
+但是、持有其他村的门票或是斗技场的
+门票的人，会在这里回收。
+这样可以吗？
+ThanksMsg:那么、我就把票交给你啰。还有、这张票若是登出、或是放置于地面都会消失请注意。
+ItemFullMsg:道具已满无法交付给你。
+StoneFullMsg:不好意思钱不够喔。
 GetStone:990000
 EventEnd
 
@@ -13,5 +13,5 @@ EventEnd
 EventNo:-1
 TYPE:MESSAGE
 EVENT:ITEM=2522
-NomalMsg:???????
+NomalMsg:已经、有票了喔。
 EventEnd

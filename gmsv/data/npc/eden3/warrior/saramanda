@@ -2,7 +2,7 @@
 
 NomalMainMsg:唯有加强力量本身，才足以抵抗一切邪恶。
 
-#### 解过火灵勇士给火魔法戒 ####	
+#### 解过火灵勇士给火魔法戒 ####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>100&ENDEV=4&ENDEV=81&ENDEV=110&ENDEV=111&ITEM!=20177
@@ -106,7 +106,7 @@ GetItem:20603
 EventEnd
 
 
-#### 身上有火魔法戒 ####	
+#### 身上有火魔法戒 ####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>100&ENDEV=4&ENDEV=81&ENDEV=110&ENDEV=111&ITEM=20177

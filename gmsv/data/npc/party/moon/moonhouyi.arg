@@ -14,7 +14,7 @@ EVENT:ENDEV=200
 NomalWindowMsg:ÕæµÄºÜ¸ÐÐ»Äã£¡¡«
 EventEnd
 
-###107å®Œæˆ æ”¶4ç•Œå®ˆæŠ¤ç»™ç‹¼äºº###
+###107Íê³É ÊÕ4½çÊØ»¤¸øÀÇÈË###
 EventNo:200
 TYPE:ACCEPT
 EVENT:ENDEV=107&ITEM=19154&ENDEV!=200
@@ -26,14 +26,14 @@ ThanksMsg:×÷Îª±¨´ðÄã£¡ÕâÖ»¾ßÓÐÔÂÔ²±äÉíÌØ¼¼ÀÇÈËËÍ¸øÄã°É£¡ºÃºÃÀûÓÃàÞ£¡ËûµÄ±äÉíÌØ¼¼
 EndSetFlg:200
 EventEnd
 
-####ä»»åŠ¡107å®Œæˆ####
+####ÈÎÎñ107Íê³É####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:ENDEV=107
 NomalWindowMsg:ÕæµÄºÜ¸ÐÐ»Äã£¡¡«
 EventEnd
 
-###èº«æœ‰4ç§ç²¾ç¥žä¹‹é­‚ ç»™å®ˆæŠ¤é¡¹é“¾###
+###ÉíÓÐ4ÖÖ¾«ÉñÖ®»ê ¸øÊØ»¤ÏîÁ´###
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>79&TRANS>4&ENDEV=4&ENDEV=81&NOWEV=107&ITEM=19150&ITEM=19151&ITEM=19152&ITEM=19153
@@ -45,7 +45,7 @@ DelItem:19150,19151,19152,19153
 GetItem:19154
 EventEnd
 
-###107ä¸­æ²¡äº†å¯†å‡½###
+###107ÖÐÃ»ÁËÃÜº¯###
 EventNo:-1
 TYPE:ACCEPT
 EVENT:NOWEV=107&ITEM!=19146&ITEM!=19147&ITEM!=19148&ITEM!=19149&ITEM!=19150&ITEM!=19151&ITEM!=19152&ITEM!=19153&ITEM!=19154
@@ -55,14 +55,14 @@ ItemFullMsg:ÄãµÀ¾ßÒÑ¾­ÂúÁË£¬ÎÒµÄ¶«Î÷²»ÄÜ¸øÄã...
 GetItem:19146*1,19147*1,19148*1,19149*1
 EventEnd
 
-####ä»»åŠ¡90ä¸­####
+####ÈÎÎñ90ÖÐ####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:NOWEV=107
 NomalWindowMsg:Ò»¶¨Òª°ïÎÒ°Ñ4´ó»¤·¨ÕÒ»ØÀ´Ñ½£¡£¡£¡£¡
 EventEnd
 
-####æŽ¥ä»»åŠ¡ç»™æ ‡107##
+####½ÓÈÎÎñ¸ø±ê107##
 EventNo:107
 TYPE:REQUEST
 EVENT:LV>79&TRANS>5&ENDEV=4&ENDEV=81

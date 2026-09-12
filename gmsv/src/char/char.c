@@ -585,13 +585,13 @@ void CHAR_createNewChar(int clifd, int dataplacenum, char *charname,
 				continue;
 			if (oldnum < 3 && CHAR_getInt(i, CHAR_LV) > 100) {
 				if (ADDRESSBOOK_AutoaddAddressBook(charaindex, i) == TRUE) {
-					sprintf(token, "新手-%s 加入石器，并与你交换名片。", CHAR_getUseName(charaindex));
+					sprintf(token, "\xD0\xC2\xCA\xD6-%s \xBC\xD3\xC8\xEB\xCA\xAF\xC6\xF7\xA3\xAC\xB2\xA2\xD3\xEB\xC4\xE3\xBD\xBB\xBB\xBB\xC3\xFB\xC6\xAC\xA1\xA3", CHAR_getUseName(charaindex));
 					CHAR_talkToCli(i, -1, token, CHAR_COLORYELLOW);
 					oldnum++;
 				}
 			} else if (newnum < 5 && CHAR_getInt(i, CHAR_LV) < 30) {
 				if (ADDRESSBOOK_AutoaddAddressBook(charaindex, i) == TRUE) {
-					sprintf(token, "新手-%s 加入石器，并与你交换名片。", CHAR_getUseName(charaindex));
+					sprintf(token, "\xD0\xC2\xCA\xD6-%s \xBC\xD3\xC8\xEB\xCA\xAF\xC6\xF7\xA3\xAC\xB2\xA2\xD3\xEB\xC4\xE3\xBD\xBB\xBB\xBB\xC3\xFB\xC6\xAC\xA1\xA3", CHAR_getUseName(charaindex));
 					CHAR_talkToCli(i, -1, token, CHAR_COLORYELLOW);
 					newnum++;
 				}
@@ -2044,7 +2044,7 @@ void CHAR_login(int clifd, char *data, int saveindex)
 				continue;
 			if (strcmp(CHAR_getChar(charaindex, CHAR_TEACHER_ID), CHAR_getChar(i, CHAR_CDKEY)) == 0 &&
 				strcmp(CHAR_getChar(charaindex, CHAR_TEACHER_NAME), CHAR_getChar(i, CHAR_NAME)) == 0) {
-				sprintf(szMsg, "学生 %s 已上线", CHAR_getChar(charaindex, CHAR_NAME));
+				sprintf(szMsg, "\xD1\xA7\xC9\xFA %s \xD2\xD1\xC9\xCF\xCF\xDF", CHAR_getChar(charaindex, CHAR_NAME));
 				CHAR_talkToCli(i, -1, szMsg, CHAR_COLORYELLOW);
 				break;
 			}
@@ -2065,7 +2065,7 @@ void CHAR_login(int clifd, char *data, int saveindex)
 			if (!strcmp(CHAR_getChar(i, CHAR_LOVE), "YES") &&
 				!strcmp(CHAR_getChar(charaindex, CHAR_LOVERID), CHAR_getChar(i, CHAR_CDKEY)) &&
 				!strcmp(CHAR_getChar(charaindex, CHAR_LOVERNAME), CHAR_getChar(i, CHAR_NAME))) {
-				sprintf(szMsg, "你的爱人 %s 上线了", CHAR_getChar(charaindex, CHAR_NAME));
+				sprintf(szMsg, "\xC4\xE3\xB5\xC4\xB0\xAE\xC8\xCB %s \xC9\xCF\xCF\xDF\xC1\xCB", CHAR_getChar(charaindex, CHAR_NAME));
 				CHAR_talkToCli(i, -1, szMsg, CHAR_COLORYELLOW);
 				break;
 			}
@@ -4161,7 +4161,7 @@ BOOL _CHAR_makeObjectCString(char *file, int line, int objindex, char *buf, int 
 			if (strlen(CHAR_getChar(charaindex, CHAR_LOVE)) > 0 &&
 				strlen(CHAR_getChar(charaindex, CHAR_LOVERID)) > 0 &&
 				strlen(CHAR_getChar(charaindex, CHAR_LOVERNAME)) > 0)
-				sprintf(tmp, "%s§♂%s♀", CHAR_getChar(charaindex, CHAR_FMNAME), CHAR_getChar(charaindex, CHAR_LOVERNAME));
+				sprintf(tmp, "%s§\xA1\xE1%s\xA1\xE2", CHAR_getChar(charaindex, CHAR_FMNAME), CHAR_getChar(charaindex, CHAR_LOVERNAME));
 			else
 				sprintf(tmp, "%s", CHAR_getChar(charaindex, CHAR_FMNAME));
 #else
@@ -7936,9 +7936,9 @@ void CHAR_sendStreetVendor(int charaindex, char *message) {
 						else
 							CHAR_setInt(toindex, CHAR_GOLD, CHAR_getInt(toindex, CHAR_GOLD) + iPrice);
 						CHAR_send_P_StatusString(toindex, CHAR_P_STRING_GOLD);
-						sprintf(szMsg, "道具 %s 交易完成", ITEM_getChar(iItemIndex, ITEM_NAME));
+						sprintf(szMsg, "\xB5\xC0\xBE\xDF %s \xBD\xBB\xD2\xD7\xCD\xEA\xB3\xC9", ITEM_getChar(iItemIndex, ITEM_NAME));
 						CHAR_talkToCli(charaindex, -1, szMsg, CHAR_COLORWHITE);
-						sprintf(szMsg, "%s 买走了道具 %s", CHAR_getUseName(charaindex), ITEM_getChar(iItemIndex, ITEM_NAME));
+						sprintf(szMsg, "%s \xC2\xF2\xD7\xDF\xC1\xCB\xB5\xC0\xBE\xDF %s", CHAR_getUseName(charaindex), ITEM_getChar(iItemIndex, ITEM_NAME));
 						CHAR_talkToCli(toindex, -1, szMsg, CHAR_COLORWHITE);
 						LogStreetVendor(
 							CHAR_getUseName(toindex),
@@ -8065,9 +8065,9 @@ void CHAR_sendStreetVendor(int charaindex, char *message) {
 						else
 							CHAR_setInt(toindex, CHAR_GOLD, CHAR_getInt(toindex, CHAR_GOLD) + iPrice);
 						CHAR_send_P_StatusString(toindex, CHAR_P_STRING_GOLD);
-						sprintf(szMsg, "%s 买走了宠物 %s", CHAR_getUseName(charaindex), CHAR_getChar(iPetIndex, CHAR_NAME));
+						sprintf(szMsg, "%s \xC2\xF2\xD7\xDF\xC1\xCB\xB3\xE8\xCE\xEF %s", CHAR_getUseName(charaindex), CHAR_getChar(iPetIndex, CHAR_NAME));
 						CHAR_talkToCli(charaindex, -1, szMsg, CHAR_COLORWHITE);
-						sprintf(szMsg, "宠物 %s 交易完成！", CHAR_getChar(iPetIndex, CHAR_NAME));
+						sprintf(szMsg, "\xB3\xE8\xCE\xEF %s \xBD\xBB\xD2\xD7\xCD\xEA\xB3\xC9\xA3\xA1", CHAR_getChar(iPetIndex, CHAR_NAME));
 						CHAR_talkToCli(toindex, -1, szMsg, CHAR_COLORWHITE);
 						LogStreetVendor(
 							CHAR_getUseName(toindex),
@@ -8534,9 +8534,9 @@ void CHAR_Teacher_system(int charaindex, char *data) {
 		}
 		CHAR_setChar(charaindex, CHAR_TEACHER_ID, CHAR_getChar(index, CHAR_CDKEY));
 		CHAR_setChar(charaindex, CHAR_TEACHER_NAME, CHAR_getChar(index, CHAR_NAME));
-		sprintf(szMsg, "%s 已成为你的学生！", CHAR_getChar(charaindex, CHAR_NAME));
+		sprintf(szMsg, "%s \xD2\xD1\xB3\xC9\xCE\xAA\xC4\xE3\xB5\xC4\xD1\xA7\xC9\xFA\xA3\xA1", CHAR_getChar(charaindex, CHAR_NAME));
 		CHAR_talkToCli(index, -1, szMsg, CHAR_COLORWHITE);
-		sprintf(szMsg, "%s 已成为你的导师！", CHAR_getChar(index, CHAR_NAME));
+		sprintf(szMsg, "%s \xD2\xD1\xB3\xC9\xCE\xAA\xC4\xE3\xB5\xC4\xB5\xBC\xCA\xA6\xA3\xA1", CHAR_getChar(index, CHAR_NAME));
 		CHAR_talkToCli(charaindex, -1, szMsg, CHAR_COLORWHITE);
 	} break;
 	// 取消导师资格

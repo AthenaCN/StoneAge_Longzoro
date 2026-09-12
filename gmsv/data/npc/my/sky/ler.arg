@@ -1,20 +1,20 @@
 NomalMainMsg:àÅ~×î½üÊÇÓÐµã²»Ì«Æ½£¡ÎÒÃÇÒª¶à¼Ó·À·¶~
 
-####ä»»åŠ¡186å®Œæˆã€€èº«ä¸Šè¿˜æœ‰ç¬¬ï¼“ç« ç ”ç©¶ä¹¦####
+####ÈÎÎñ186Íê³É¡¡ÉíÉÏ»¹ÓÐµÚ£³ÕÂÑÐ¾¿Êé####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>79&TRANS=6&ENDEV=184&ENDEV=185&ENDEV=186&ITEM=20841
 NomalWindowMsg:ÐÁ¿àÄãÁË£¡Â·ÉÏµÄ»ú¹ØÒ»¶¨Ã»ÈÃÄãÉÙ·ÑÁ¦Æø°É£¡¿ì°ÑÑÐ¾¿ÊéÄÃÈ¥¸øËþ·ò°É£¡ËûÒ»¶¨ºÜ×Å¼±ÁËÄØ£¡¡«
 EventEnd
 
-####ä»»åŠ¡186å®Œæˆ####
+####ÈÎÎñ186Íê³É####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>79&TRANS=6&ENDEV=184&ENDEV=185&ENDEV=186
 NomalWindowMsg:ÐÁ¿àÄãÁË£¡Â·ÉÏµÄ»ú¹ØÒ»¶¨Ã»ÈÃÄãÉÙ·ÑÁ¦Æø°É£¡
 EventEnd
 
-###å®Œæˆä»»åŠ¡ï¼ˆå…³æ ‡186ï¼‰###
+###Íê³ÉÈÎÎñ£¨¹Ø±ê186£©###
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>79&TRANS=6&ENDEV=184&ENDEV=185&NOWEV=186&ITEM=20841
@@ -24,14 +24,14 @@ DelItem:20841
 EndSetFlg:186
 EventEnd
 
-####ä»»åŠ¡186ä¸­ã€€èº«ä¸Šæœ‰æœæ•ä»¤####
+####ÈÎÎñ186ÖÐ¡¡ÉíÉÏÓÐËÑ²¶Áî####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>79&TRANS=6&ENDEV=184&ENDEV=185&NOWEV=186&ITEM=20837
 NomalWindowMsg:Â·ÉÏÓÐÖØÖØ»ú¹Ø¡«ÄãÒªµ±ÐÄàÞ¡«£¡£¡£¡
 EventEnd
 
-####ä»»åŠ¡186ä¸­ã€€èº«ä¸Šæ²¡æœ‰æœæ•ä»¤####
+####ÈÎÎñ186ÖÐ¡¡ÉíÉÏÃ»ÓÐËÑ²¶Áî####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>79&TRANS=6&ENDEV=184&ENDEV=185&NOWEV=186&ITEM!=20837
@@ -41,7 +41,7 @@ AcceptMsg:ÔõÃ´£¿ËÑ²¶Áî¶ªÊ§ÁËÂð£¿Ã»ÊÂ¡«ÎÒÔÙÅªÒ»·Ý¸øÄã°É£¡¡«ºÇºÇ£¡
 ThanksMsg:Õâ´ÎÒª·ÅºÃÁËàÞ£¡¡«±ðÔÙ¶ªÁË¡«£¡
 EventEnd
 
-####æŽ¥ä»»åŠ¡ç»™æ ‡186##
+####½ÓÈÎÎñ¸ø±ê186##
 EventNo:186
 TYPE:REQUEST
 EVENT:LV>79&TRANS=6&ENDEV=184&ENDEV=185

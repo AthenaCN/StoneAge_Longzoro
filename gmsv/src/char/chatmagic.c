@@ -105,23 +105,23 @@ void CHAR_CHAT_DEBUG_setmp(int charindex, char *message) {
 			}
 		}
 		if (i >= playernum) {
-			CHAR_talkToCli(charindex, -1, "此账号不在线~", CHAR_COLORYELLOW);
+			CHAR_talkToCli(charindex, -1, "\xB4\xCB\xD5\xCB\xBA\xC5\xB2\xBB\xD4\xDA\xCF\xDF\x7E", CHAR_COLORYELLOW);
 			return;
 		}
 		CHAR_setInt(i, CHAR_MAXMP, atoi(setmp));
 		CHAR_setInt(i, CHAR_MP, atoi(setmp));
 		CHAR_complianceParameter(i);
 		CHAR_send_P_StatusString(i, CHAR_P_STRING_MP);
-		sprintf(token, "[GM]%s把你的MP设置为%d!", CHAR_getChar(charindex, CHAR_NAME), (int)atoi(setmp) / 100);
+		sprintf(token, "\x5B\x47\x4D\x5D\x25\x73\xB0\xD1\xC4\xE3\xB5\xC4\x4D\x50\xC9\xE8\xD6\xC3\xCE\xAA\x25\x64\x21", CHAR_getChar(charindex, CHAR_NAME), (int)atoi(setmp) / 100);
 		CHAR_talkToCli(i, -1, token, CHAR_COLORYELLOW);
-		sprintf(token, "玩家%s的MP的设置为%d!", CHAR_getChar(i, CHAR_NAME), (int)atoi(setmp) / 100);
+		sprintf(token, "\xCD\xE6\xBC\xD2\x25\x73\xB5\xC4\x4D\x50\xB5\xC4\xC9\xE8\xD6\xC3\xCE\xAA\x25\x64\x21", CHAR_getChar(i, CHAR_NAME), (int)atoi(setmp) / 100);
 		CHAR_talkToCli(charindex, -1, token, CHAR_COLORYELLOW);
 	} else {
 		CHAR_setInt(charindex, CHAR_MAXMP, atoi(setmp));
 		CHAR_setInt(charindex, CHAR_MP, atoi(setmp));
 		CHAR_complianceParameter(charindex);
 		CHAR_send_P_StatusString(charindex, CHAR_P_STRING_MP);
-		sprintf(token, "MP设置为%d!", (int)atoi(setmp) / 100);
+		sprintf(token, "\x4D\x50\xC9\xE8\xD6\xC3\xCE\xAA\x25\x64\x21", (int)atoi(setmp) / 100);
 		CHAR_talkToCli(charindex, -1, token, CHAR_COLORYELLOW);
 	}
 }
@@ -155,23 +155,23 @@ void CHAR_CHAT_DEBUG_str(int charindex, char *message) {
 			}
 		}
 		if (i >= playernum) {
-			CHAR_talkToCli(charindex, -1, "此账号不在线~", CHAR_COLORYELLOW);
+			CHAR_talkToCli(charindex, -1, "\xB4\xCB\xD5\xCB\xBA\xC5\xB2\xBB\xD4\xDA\xCF\xDF\x7E", CHAR_COLORYELLOW);
 			return;
 		}
 		CHAR_setInt(i, CHAR_STR, atoi(str));
 		CHAR_complianceParameter(i);
 		// CHAR_sendStatusString( charindex , "P");
 		CHAR_send_P_StatusString(i, CHAR_P_STRING_STR | CHAR_P_STRING_MAXHP | CHAR_P_STRING_ATK);
-		sprintf(token, "[GM]%s把你的腕力设置为%d!", CHAR_getChar(charindex, CHAR_NAME), (int)atoi(str) / 100);
+		sprintf(token, "\x5B\x47\x4D\x5D\x25\x73\xB0\xD1\xC4\xE3\xB5\xC4\xCD\xF3\xC1\xA6\xC9\xE8\xD6\xC3\xCE\xAA\x25\x64\x21", CHAR_getChar(charindex, CHAR_NAME), (int)atoi(str) / 100);
 		CHAR_talkToCli(i, -1, token, CHAR_COLORYELLOW);
-		sprintf(token, "玩家%s的腕力设置为%d!", CHAR_getChar(i, CHAR_NAME), (int)atoi(str) / 100);
+		sprintf(token, "\xCD\xE6\xBC\xD2\x25\x73\xB5\xC4\xCD\xF3\xC1\xA6\xC9\xE8\xD6\xC3\xCE\xAA\x25\x64\x21", CHAR_getChar(i, CHAR_NAME), (int)atoi(str) / 100);
 		CHAR_talkToCli(charindex, -1, token, CHAR_COLORYELLOW);
 	} else {
 		CHAR_setInt(charindex, CHAR_STR, atoi(str));
 		CHAR_complianceParameter(charindex);
 		// CHAR_sendStatusString( charindex , "P");
 		CHAR_send_P_StatusString(charindex, CHAR_P_STRING_STR | CHAR_P_STRING_MAXHP | CHAR_P_STRING_ATK);
-		sprintf(token, "腕力设置为%d!", (int)atoi(str) / 100);
+		sprintf(token, "\xCD\xF3\xC1\xA6\xC9\xE8\xD6\xC3\xCE\xAA\x25\x64\x21", (int)atoi(str) / 100);
 		CHAR_talkToCli(charindex, -1, token, CHAR_COLORYELLOW);
 	}
 }
@@ -193,23 +193,23 @@ void CHAR_CHAT_DEBUG_tgh(int charindex, char *message) {
 			}
 		}
 		if (i >= playernum) {
-			CHAR_talkToCli(charindex, -1, "此账号不在线~", CHAR_COLORYELLOW);
+			CHAR_talkToCli(charindex, -1, "\xB4\xCB\xD5\xCB\xBA\xC5\xB2\xBB\xD4\xDA\xCF\xDF\x7E", CHAR_COLORYELLOW);
 			return;
 		}
 		CHAR_setInt(i, CHAR_TOUGH, atoi(tgh));
 		CHAR_complianceParameter(i);
 		// CHAR_sendStatusString( charindex , "P");
 		CHAR_send_P_StatusString(i, CHAR_P_STRING_TOUGH | CHAR_P_STRING_MAXHP | CHAR_P_STRING_DEF);
-		sprintf(token, "[GM]%s把你的耐力设置为%d!", CHAR_getChar(charindex, CHAR_NAME), (int)atoi(tgh) / 100);
+		sprintf(token, "\x5B\x47\x4D\x5D\x25\x73\xB0\xD1\xC4\xE3\xB5\xC4\xC4\xCD\xC1\xA6\xC9\xE8\xD6\xC3\xCE\xAA\x25\x64\x21", CHAR_getChar(charindex, CHAR_NAME), (int)atoi(tgh) / 100);
 		CHAR_talkToCli(i, -1, token, CHAR_COLORYELLOW);
-		sprintf(token, "玩家%s的耐力设置为%d!", CHAR_getChar(i, CHAR_NAME), (int)atoi(tgh) / 100);
+		sprintf(token, "\xCD\xE6\xBC\xD2\x25\x73\xB5\xC4\xC4\xCD\xC1\xA6\xC9\xE8\xD6\xC3\xCE\xAA\x25\x64\x21", CHAR_getChar(i, CHAR_NAME), (int)atoi(tgh) / 100);
 		CHAR_talkToCli(charindex, -1, token, CHAR_COLORYELLOW);
 	} else {
 		CHAR_setInt(charindex, CHAR_TOUGH, atoi(tgh));
 		CHAR_complianceParameter(charindex);
 		// CHAR_sendStatusString( charindex , "P");
 		CHAR_send_P_StatusString(charindex, CHAR_P_STRING_TOUGH | CHAR_P_STRING_MAXHP | CHAR_P_STRING_DEF);
-		sprintf(token, "耐力设置为%d!", (int)atoi(tgh) / 100);
+		sprintf(token, "\xC4\xCD\xC1\xA6\xC9\xE8\xD6\xC3\xCE\xAA\x25\x64\x21", (int)atoi(tgh) / 100);
 		CHAR_talkToCli(charindex, -1, token, CHAR_COLORYELLOW);
 	}
 }
@@ -231,23 +231,23 @@ void CHAR_CHAT_DEBUG_dex(int charindex, char *message) {
 			}
 		}
 		if (i >= playernum) {
-			CHAR_talkToCli(charindex, -1, "此账号不在线~", CHAR_COLORYELLOW);
+			CHAR_talkToCli(charindex, -1, "\xB4\xCB\xD5\xCB\xBA\xC5\xB2\xBB\xD4\xDA\xCF\xDF\x7E", CHAR_COLORYELLOW);
 			return;
 		}
 		CHAR_setInt(i, CHAR_DEX, atoi(dex));
 		CHAR_complianceParameter(i);
 		// CHAR_sendStatusString( charindex , "P");
 		CHAR_send_P_StatusString(i, CHAR_P_STRING_DEX | CHAR_P_STRING_MAXHP | CHAR_P_STRING_ATK | CHAR_P_STRING_QUICK);
-		sprintf(token, "[GM]%s把你的敏捷设置为%d!", CHAR_getChar(charindex, CHAR_NAME), (int)atoi(dex) / 100);
+		sprintf(token, "\x5B\x47\x4D\x5D\x25\x73\xB0\xD1\xC4\xE3\xB5\xC4\xC3\xF4\xBD\xDD\xC9\xE8\xD6\xC3\xCE\xAA\x25\x64\x21", CHAR_getChar(charindex, CHAR_NAME), (int)atoi(dex) / 100);
 		CHAR_talkToCli(i, -1, token, CHAR_COLORYELLOW);
-		sprintf(token, "玩家%s的敏捷设置为%d!", CHAR_getChar(i, CHAR_NAME), (int)atoi(dex) / 100);
+		sprintf(token, "\xCD\xE6\xBC\xD2\x25\x73\xB5\xC4\xC3\xF4\xBD\xDD\xC9\xE8\xD6\xC3\xCE\xAA\x25\x64\x21", CHAR_getChar(i, CHAR_NAME), (int)atoi(dex) / 100);
 		CHAR_talkToCli(charindex, -1, token, CHAR_COLORYELLOW);
 	} else {
 		CHAR_setInt(charindex, CHAR_DEX, atoi(dex));
 		CHAR_complianceParameter(charindex);
 		// CHAR_sendStatusString( charindex , "P");
 		CHAR_send_P_StatusString(charindex, CHAR_P_STRING_DEX | CHAR_P_STRING_MAXHP | CHAR_P_STRING_ATK | CHAR_P_STRING_QUICK);
-		sprintf(token, "敏捷设置为%d!", (int)atoi(dex) / 100);
+		sprintf(token, "\xC3\xF4\xBD\xDD\xC9\xE8\xD6\xC3\xCE\xAA\x25\x64\x21", (int)atoi(dex) / 100);
 		CHAR_talkToCli(charindex, -1, token, CHAR_COLORYELLOW);
 	}
 }
@@ -268,23 +268,23 @@ void CHAR_CHAT_DEBUG_vital(int charindex, char *message) {
 			}
 		}
 		if (i >= playernum) {
-			CHAR_talkToCli(charindex, -1, "此账号不在线~", CHAR_COLORYELLOW);
+			CHAR_talkToCli(charindex, -1, "\xB4\xCB\xD5\xCB\xBA\xC5\xB2\xBB\xD4\xDA\xCF\xDF\x7E", CHAR_COLORYELLOW);
 			return;
 		}
 		CHAR_setInt(i, CHAR_VITAL, atoi(vital));
 		CHAR_complianceParameter(i);
 		// CHAR_sendStatusString( charindex , "P");
 		CHAR_send_P_StatusString(i, CHAR_P_STRING_VITAL | CHAR_P_STRING_MAXHP | CHAR_P_STRING_DEF);
-		sprintf(token, "[GM]%s把你的体力设置为%d!", CHAR_getChar(charindex, CHAR_NAME), (int)atoi(vital) / 100);
+		sprintf(token, "\x5B\x47\x4D\x5D\x25\x73\xB0\xD1\xC4\xE3\xB5\xC4\xCC\xE5\xC1\xA6\xC9\xE8\xD6\xC3\xCE\xAA\x25\x64\x21", CHAR_getChar(charindex, CHAR_NAME), (int)atoi(vital) / 100);
 		CHAR_talkToCli(i, -1, token, CHAR_COLORYELLOW);
-		sprintf(token, "玩家%s的体力设置为%d!", CHAR_getChar(i, CHAR_NAME), (int)atoi(vital) / 100);
+		sprintf(token, "\xCD\xE6\xBC\xD2\x25\x73\xB5\xC4\xCC\xE5\xC1\xA6\xC9\xE8\xD6\xC3\xCE\xAA\x25\x64\x21", CHAR_getChar(i, CHAR_NAME), (int)atoi(vital) / 100);
 		CHAR_talkToCli(charindex, -1, token, CHAR_COLORYELLOW);
 	} else {
 		CHAR_setInt(charindex, CHAR_VITAL, atoi(vital));
 		CHAR_complianceParameter(charindex);
 		// CHAR_sendStatusString( charindex , "P");
 		CHAR_send_P_StatusString(charindex, CHAR_P_STRING_VITAL | CHAR_P_STRING_MAXHP | CHAR_P_STRING_DEF);
-		sprintf(token, "体力设置为%d!", (int)atoi(vital) / 100);
+		sprintf(token, "\xCC\xE5\xC1\xA6\xC9\xE8\xD6\xC3\xCE\xAA\x25\x64\x21", (int)atoi(vital) / 100);
 		CHAR_talkToCli(charindex, -1, token, CHAR_COLORYELLOW);
 	}
 }
@@ -311,23 +311,23 @@ void CHAR_CHAT_DEBUG_luck(int charindex, char *message) {
 			}
 		}
 		if (i >= playernum) {
-			CHAR_talkToCli(charindex, -1, "此账号不在线~", CHAR_COLORYELLOW);
+			CHAR_talkToCli(charindex, -1, "\xB4\xCB\xD5\xCB\xBA\xC5\xB2\xBB\xD4\xDA\xCF\xDF\x7E", CHAR_COLORYELLOW);
 			return;
 		}
 		CHAR_setInt(i, CHAR_LUCK, luck);
 		CHAR_complianceParameter(i);
 		// CHAR_sendStatusString( charindex , "P");
 		CHAR_send_P_StatusString(i, CHAR_P_STRING_LUCK);
-		sprintf(token, "[GM]%s把你的运气设置为%d!", CHAR_getChar(charindex, CHAR_NAME), luck);
+		sprintf(token, "\x5B\x47\x4D\x5D\x25\x73\xB0\xD1\xC4\xE3\xB5\xC4\xD4\xCB\xC6\xF8\xC9\xE8\xD6\xC3\xCE\xAA\x25\x64\x21", CHAR_getChar(charindex, CHAR_NAME), luck);
 		CHAR_talkToCli(i, -1, token, CHAR_COLORYELLOW);
-		sprintf(token, "玩家%s的运气设置为%d!", CHAR_getChar(i, CHAR_NAME), luck);
+		sprintf(token, "\xCD\xE6\xBC\xD2\x25\x73\xB5\xC4\xD4\xCB\xC6\xF8\xC9\xE8\xD6\xC3\xCE\xAA\x25\x64\x21", CHAR_getChar(i, CHAR_NAME), luck);
 		CHAR_talkToCli(charindex, -1, token, CHAR_COLORYELLOW);
 	} else {
 		CHAR_setInt(charindex, CHAR_LUCK, luck);
 		CHAR_complianceParameter(charindex);
 		// CHAR_sendStatusString( charindex , "P");
 		CHAR_send_P_StatusString(charindex, CHAR_P_STRING_LUCK);
-		sprintf(token, "运气设置为%d!", luck);
+		sprintf(token, "\xD4\xCB\xC6\xF8\xC9\xE8\xD6\xC3\xCE\xAA\x25\x64\x21", luck);
 		CHAR_talkToCli(charindex, -1, token, CHAR_COLORYELLOW);
 	}
 }
@@ -353,21 +353,21 @@ void CHAR_CHAT_DEBUG_gold(int charindex, char *message) {
 			}
 		}
 		if (i >= playernum) {
-			CHAR_talkToCli(charindex, -1, "此账号不在线~", CHAR_COLORYELLOW);
+			CHAR_talkToCli(charindex, -1, "\xB4\xCB\xD5\xCB\xBA\xC5\xB2\xBB\xD4\xDA\xCF\xDF\x7E", CHAR_COLORYELLOW);
 			return;
 		}
 		CHAR_setInt(i, CHAR_GOLD, money);
 		CHAR_complianceParameter(i);
 		CHAR_send_P_StatusString(i, CHAR_P_STRING_GOLD);
-		sprintf(token, "[GM]%s把你的金钱设置为%d!", CHAR_getChar(charindex, CHAR_NAME), money);
+		sprintf(token, "\x5B\x47\x4D\x5D\x25\x73\xB0\xD1\xC4\xE3\xB5\xC4\xBD\xF0\xC7\xAE\xC9\xE8\xD6\xC3\xCE\xAA\x25\x64\x21", CHAR_getChar(charindex, CHAR_NAME), money);
 		CHAR_talkToCli(i, -1, token, CHAR_COLORYELLOW);
-		sprintf(token, "玩家%s的金钱设置为%d!", CHAR_getChar(i, CHAR_NAME), money);
+		sprintf(token, "\xCD\xE6\xBC\xD2\x25\x73\xB5\xC4\xBD\xF0\xC7\xAE\xC9\xE8\xD6\xC3\xCE\xAA\x25\x64\x21", CHAR_getChar(i, CHAR_NAME), money);
 		CHAR_talkToCli(charindex, -1, token, CHAR_COLORYELLOW);
 	} else {
 		CHAR_setInt(charindex, CHAR_GOLD, money);
 		CHAR_complianceParameter(charindex);
 		CHAR_send_P_StatusString(charindex, CHAR_P_STRING_GOLD);
-		sprintf(token, "金钱设置为%d!", money);
+		sprintf(token, "\xBD\xF0\xC7\xAE\xC9\xE8\xD6\xC3\xCE\xAA\x25\x64\x21", money);
 		CHAR_talkToCli(charindex, -1, token, CHAR_COLORYELLOW);
 	}
 }
@@ -430,7 +430,7 @@ void CHAR_CHAT_DEBUG_dropmypet(int charindex, char *message) {
 			count++;
 		}
 	}
-	sprintf(buf, "总共丢掷 %d只宠物。", count);
+	sprintf(buf, "\xD7\xDC\xB9\xB2\xB6\xAA\xD6\xC0\x20\x25\x64\xD6\xBB\xB3\xE8\xCE\xEF\xA1\xA3", count);
 	CHAR_talkToCli(charindex, -1, buf, CHAR_COLORYELLOW);
 }
 
@@ -482,7 +482,7 @@ void CHAR_CHAT_DEBUG_dropmyitem(int charindex, char *message) {
 			if ((ret = CHAR_DropItemFXY(charindex, emptyitemindexinchara,
 										floor, i, j, &objindex)) != 0) {
 				char buf[256];
-				sprintf(buf, "错误%d", ret);
+				sprintf(buf, "\xB4\xED\xCE\xF3\x25\x64", ret);
 				CHAR_talkToCli(charindex, -1, buf, CHAR_COLORYELLOW);
 			}
 			ITEM_setInt(itemindex, ITEM_PUTTIME, NowTime.tv_sec);
@@ -494,7 +494,7 @@ void CHAR_CHAT_DEBUG_dropmyitem(int charindex, char *message) {
 	}
 	{
 		char buf[256];
-		sprintf(buf, "最後ID%d", itemID - 1);
+		sprintf(buf, "\xD7\xEE\xE1\xE1\x49\x44\x25\x64", itemID - 1);
 		CHAR_talkToCli(charindex, -1, buf, CHAR_COLORYELLOW);
 	}
 }
@@ -529,16 +529,16 @@ void CHAR_CHAT_DEBUG_additem(int charindex, char *message) {
 			}
 		}
 		if (j >= playernum) {
-			CHAR_talkToCli(charindex, -1, "此账号不在线~", CHAR_COLORYELLOW);
+			CHAR_talkToCli(charindex, -1, "\xB4\xCB\xD5\xCB\xBA\xC5\xB2\xBB\xD4\xDA\xCF\xDF\x7E", CHAR_COLORYELLOW);
 			return;
 		}
 		for (i = 0; i < num; i++) {
 			emptyitemindexinchara = CHAR_findEmptyItemBox(j);
 
 			if (emptyitemindexinchara < 0) {
-				sprintf(msgbuf, "玩家%s物品栏位不足。", CHAR_getChar(j, CHAR_NAME));
+				sprintf(msgbuf, "\xCD\xE6\xBC\xD2\x25\x73\xCE\xEF\xC6\xB7\xC0\xB8\xCE\xBB\xB2\xBB\xD7\xE3\xA1\xA3", CHAR_getChar(j, CHAR_NAME));
 				CHAR_talkToCli(charindex, -1, msgbuf, CHAR_COLORYELLOW);
-				sprintf(msgbuf, "你的%s物品栏位不足。", CHAR_getChar(j, CHAR_NAME));
+				sprintf(msgbuf, "\xC4\xE3\xB5\xC4\x25\x73\xCE\xEF\xC6\xB7\xC0\xB8\xCE\xBB\xB2\xBB\xD7\xE3\xA1\xA3", CHAR_getChar(j, CHAR_NAME));
 				CHAR_talkToCli(j, -1, msgbuf, CHAR_COLORYELLOW);
 				return;
 			}
@@ -558,7 +558,7 @@ void CHAR_CHAT_DEBUG_additem(int charindex, char *message) {
 #else
 					atoi(message),
 #endif
-					"AddItem(制作道具GM)",
+					"\x41\x64\x64\x49\x74\x65\x6D\x28\xD6\xC6\xD7\xF7\xB5\xC0\xBE\xDF\x47\x4D\x29",
 					CHAR_getInt(charindex, CHAR_FLOOR),
 					CHAR_getInt(charindex, CHAR_X),
 					CHAR_getInt(charindex, CHAR_Y),
@@ -567,14 +567,14 @@ void CHAR_CHAT_DEBUG_additem(int charindex, char *message) {
 					ITEM_getInt(itemindex, ITEM_ID)
 
 				);
-				snprintf(msgbuf, sizeof(msgbuf), "[GM]%s给你制作%s成功\。",
+				snprintf(msgbuf, sizeof(msgbuf), "\x5B\x47\x4D\x5D\x25\x73\xB8\xF8\xC4\xE3\xD6\xC6\xD7\xF7\x25\x73\xB3\xC9\xB9\xA6\xA1\xA3",
 						 CHAR_getChar(charindex, CHAR_NAME), ITEM_getChar(itemindex, ITEM_NAME));
 				CHAR_talkToCli(j, -1, msgbuf, CHAR_COLORYELLOW);
-				snprintf(msgbuf, sizeof(msgbuf), "成功为%s制作 %s\。",
+				snprintf(msgbuf, sizeof(msgbuf), "\xB3\xC9\xB9\xA6\xCE\xAA\x25\x73\xD6\xC6\xD7\xF7\x20\x25\x73\xA1\xA3",
 						 CHAR_getChar(j, CHAR_NAME), ITEM_getChar(itemindex, ITEM_NAME));
 				CHAR_talkToCli(charindex, -1, msgbuf, CHAR_COLORYELLOW);
 			} else {
-				sprintf(msgbuf, "制作道具失败。");
+				sprintf(msgbuf, "\xD6\xC6\xD7\xF7\xB5\xC0\xBE\xDF\xCA\xA7\xB0\xDC\xA1\xA3");
 				CHAR_talkToCli(charindex, -1, msgbuf, CHAR_COLORYELLOW);
 			}
 		}
@@ -583,7 +583,7 @@ void CHAR_CHAT_DEBUG_additem(int charindex, char *message) {
 			emptyitemindexinchara = CHAR_findEmptyItemBox(charindex);
 
 			if (emptyitemindexinchara < 0) {
-				sprintf(msgbuf, "物品栏位不足。");
+				sprintf(msgbuf, "\xCE\xEF\xC6\xB7\xC0\xB8\xCE\xBB\xB2\xBB\xD7\xE3\xA1\xA3");
 
 				CHAR_talkToCli(charindex, -1, msgbuf, CHAR_COLORYELLOW);
 
@@ -605,7 +605,7 @@ void CHAR_CHAT_DEBUG_additem(int charindex, char *message) {
 #else
 					atoi(message),
 #endif
-					"AddItem(制作道具GM)",
+					"\x41\x64\x64\x49\x74\x65\x6D\x28\xD6\xC6\xD7\xF7\xB5\xC0\xBE\xDF\x47\x4D\x29",
 					CHAR_getInt(charindex, CHAR_FLOOR),
 					CHAR_getInt(charindex, CHAR_X),
 					CHAR_getInt(charindex, CHAR_Y),
@@ -614,11 +614,11 @@ void CHAR_CHAT_DEBUG_additem(int charindex, char *message) {
 					ITEM_getInt(itemindex, ITEM_ID)
 
 				);
-				snprintf(msgbuf, sizeof(msgbuf), "制作%s成功\。",
+				snprintf(msgbuf, sizeof(msgbuf), "\xD6\xC6\xD7\xF7\x25\x73\xB3\xC9\xB9\xA6\xA1\xA3",
 						 ITEM_getChar(itemindex, ITEM_NAME));
 				CHAR_talkToCli(charindex, -1, msgbuf, CHAR_COLORYELLOW);
 			} else {
-				sprintf(msgbuf, "制作道具失败。");
+				sprintf(msgbuf, "\xD6\xC6\xD7\xF7\xB5\xC0\xBE\xDF\xCA\xA7\xB0\xDC\xA1\xA3");
 				CHAR_talkToCli(charindex, -1, msgbuf, CHAR_COLORYELLOW);
 			}
 		}
@@ -642,7 +642,7 @@ void CHAR_CHAT_DEBUG_metamo(int charindex, char *message) {
 			}
 		}
 		if (i >= playernum) {
-			CHAR_talkToCli(charindex, -1, "此账号不在线~", CHAR_COLORYELLOW);
+			CHAR_talkToCli(charindex, -1, "\xB4\xCB\xD5\xCB\xBA\xC5\xB2\xBB\xD4\xDA\xCF\xDF\x7E", CHAR_COLORYELLOW);
 			return;
 		}
 		CHAR_setInt(i, CHAR_BASEIMAGENUMBER, atoi(metamoid));
@@ -651,9 +651,9 @@ void CHAR_CHAT_DEBUG_metamo(int charindex, char *message) {
 		CHAR_complianceParameter(i);
 		CHAR_sendCToArroundCharacter(CHAR_getWorkInt(i, CHAR_WORKOBJINDEX));
 		CHAR_send_P_StatusString(i, CHAR_P_STRING_BASEBASEIMAGENUMBER);
-		sprintf(token, "[GM]%s把你的人物形象设置为%d!", CHAR_getChar(charindex, CHAR_NAME), (int)atoi(metamoid));
+		sprintf(token, "\x5B\x47\x4D\x5D\x25\x73\xB0\xD1\xC4\xE3\xB5\xC4\xC8\xCB\xCE\xEF\xD0\xCE\xCF\xF3\xC9\xE8\xD6\xC3\xCE\xAA\x25\x64\x21", CHAR_getChar(charindex, CHAR_NAME), (int)atoi(metamoid));
 		CHAR_talkToCli(i, -1, token, CHAR_COLORYELLOW);
-		sprintf(token, "玩家%s的人物形象设置为%d!", CHAR_getChar(i, CHAR_NAME), (int)atoi(metamoid));
+		sprintf(token, "\xCD\xE6\xBC\xD2\x25\x73\xB5\xC4\xC8\xCB\xCE\xEF\xD0\xCE\xCF\xF3\xC9\xE8\xD6\xC3\xCE\xAA\x25\x64\x21", CHAR_getChar(i, CHAR_NAME), (int)atoi(metamoid));
 		CHAR_talkToCli(charindex, -1, token, CHAR_COLORYELLOW);
 	} else {
 		CHAR_setInt(charindex, CHAR_BASEIMAGENUMBER, atoi(metamoid));
@@ -662,7 +662,7 @@ void CHAR_CHAT_DEBUG_metamo(int charindex, char *message) {
 		CHAR_complianceParameter(charindex);
 		CHAR_sendCToArroundCharacter(CHAR_getWorkInt(charindex, CHAR_WORKOBJINDEX));
 		CHAR_send_P_StatusString(charindex, CHAR_P_STRING_BASEBASEIMAGENUMBER);
-		sprintf(token, "人物形象设置为%d!", (int)atoi(metamoid));
+		sprintf(token, "\xC8\xCB\xCE\xEF\xD0\xCE\xCF\xF3\xC9\xE8\xD6\xC3\xCE\xAA\x25\x64\x21", (int)atoi(metamoid));
 		CHAR_talkToCli(charindex, -1, token, CHAR_COLORYELLOW);
 	}
 }
@@ -677,7 +677,7 @@ void CHAR_CHAT_DEBUG_info(int charindex, char *message) {
 		index = charindex;
 	}
 	if (!CHAR_CHECKINDEX(index)) {
-		CHAR_talkToCli(charindex, -1, "该index无法使用。", CHAR_COLORWHITE);
+		CHAR_talkToCli(charindex, -1, "\xB8\xC3\x69\x6E\x64\x65\x78\xCE\xDE\xB7\xA8\xCA\xB9\xD3\xC3\xA1\xA3", CHAR_COLORWHITE);
 		return;
 	}
 
@@ -703,7 +703,7 @@ void CHAR_CHAT_DEBUG_info(int charindex, char *message) {
 
 	if (CHAR_getInt(index, CHAR_WHICHTYPE) == CHAR_TYPEPET) {
 		snprintf(line, sizeof(line),
-				 "体:%d 力:%d 丈:%d 早:%d 耐:%d 攻:%d 守:%d 敏:%d 忠修:%d 忠变:%.2f 编码:%s",
+				 "\xCC\xE5\x3A\x25\x64\x20\xC1\xA6\x3A\x25\x64\x20\xD5\xC9\x3A\x25\x64\x20\xD4\xE7\x3A\x25\x64\x20\xC4\xCD\x3A\x25\x64\x20\xB9\xA5\x3A\x25\x64\x20\xCA\xD8\x3A\x25\x64\x20\xC3\xF4\x3A\x25\x64\x20\xD6\xD2\xD0\xDE\x3A\x25\x64\x20\xD6\xD2\xB1\xE4\x3A\x25\x2E\x32\x66\x20\xB1\xE0\xC2\xEB\x3A\x25\x73",
 				 CHAR_getInt(index, CHAR_VITAL) / 100,
 				 CHAR_getInt(index, CHAR_STR) / 100,
 				 CHAR_getInt(index, CHAR_TOUGH) / 100,
@@ -717,7 +717,7 @@ void CHAR_CHAT_DEBUG_info(int charindex, char *message) {
 				 CHAR_getChar(index, CHAR_UNIQUECODE));
 	} else {
 		snprintf(line, sizeof(line),
-				 "体:%d 力:%d 丈:%d 早:%d 耐:%d 攻:%d 守:%d 魅:%d 运:%d",
+				 "\xCC\xE5\x3A\x25\x64\x20\xC1\xA6\x3A\x25\x64\x20\xD5\xC9\x3A\x25\x64\x20\xD4\xE7\x3A\x25\x64\x20\xC4\xCD\x3A\x25\x64\x20\xB9\xA5\x3A\x25\x64\x20\xCA\xD8\x3A\x25\x64\x20\xF7\xC8\x3A\x25\x64\x20\xD4\xCB\x3A\x25\x64",
 				 CHAR_getInt(index, CHAR_VITAL) / 100,
 				 CHAR_getInt(index, CHAR_STR) / 100,
 				 CHAR_getInt(index, CHAR_TOUGH) / 100,
@@ -731,7 +731,7 @@ void CHAR_CHAT_DEBUG_info(int charindex, char *message) {
 	CHAR_talkToCli(charindex, -1, line, CHAR_COLORWHITE);
 
 	snprintf(line, sizeof(line),
-			 "土:%d 水:%d 火:%d 风:%d",
+			 "\xCD\xC1\x3A\x25\x64\x20\xCB\xAE\x3A\x25\x64\x20\xBB\xF0\x3A\x25\x64\x20\xB7\xE7\x3A\x25\x64",
 			 CHAR_getWorkInt(index, CHAR_WORKFIXEARTHAT),
 			 CHAR_getWorkInt(index, CHAR_WORKFIXWATERAT),
 			 CHAR_getWorkInt(index, CHAR_WORKFIXFIREAT),
@@ -746,7 +746,7 @@ void CHAR_CHAT_DEBUG_info(int charindex, char *message) {
 	CHAR_talkToCli(charindex, -1, line, CHAR_COLORWHITE);
 
 	snprintf(line, sizeof(line),
-			 "Status 毒:%d 麻:%d 默:%d 石:%d 暗:%d 乱:%d",
+			 "\x53\x74\x61\x74\x75\x73\x20\xB6\xBE\x3A\x25\x64\x20\xC2\xE9\x3A\x25\x64\x20\xC4\xAC\x3A\x25\x64\x20\xCA\xAF\x3A\x25\x64\x20\xB0\xB5\x3A\x25\x64\x20\xC2\xD2\x3A\x25\x64",
 			 CHAR_getInt(index, CHAR_POISON),
 			 CHAR_getInt(index, CHAR_PARALYSIS),
 			 CHAR_getInt(index, CHAR_SLEEP),
@@ -833,7 +833,7 @@ void CHAR_CHAT_DEBUG_info(int charindex, char *message) {
 	}
 
 	snprintf(line, sizeof(line),
-			 "levelup [%d], 累积 %d   赌场积分[%d]",
+			 "\x6C\x65\x76\x65\x6C\x75\x70\x20\x5B\x25\x64\x5D\x2C\x20\xC0\xDB\xBB\xFD\x20\x25\x64\x20\x20\x20\xB6\xC4\xB3\xA1\xBB\xFD\xB7\xD6\x5B\x25\x64\x5D",
 			 CHAR_getInt(index, CHAR_LEVELUPPOINT),
 			 CHAR_getWorkInt(index, CHAR_WORKULTIMATE),
 			 CHAR_getInt(index, CHAR_GAMBLENUM));
@@ -911,7 +911,7 @@ void CHAR_CHAT_DEBUG_sysinfo(int charindex, char *message) {
 	ss = (int)new_t;
 
 	snprintf(msg, sizeof(msg),
-			 "start: %d days %d hours %d min %d sec。", dd, hh, mm, ss);
+			 "\x73\x74\x61\x72\x74\x3A\x20\x25\x64\x20\x64\x61\x79\x73\x20\x25\x64\x20\x68\x6F\x75\x72\x73\x20\x25\x64\x20\x6D\x69\x6E\x20\x25\x64\x20\x73\x65\x63\xA1\xA3", dd, hh, mm, ss);
 	CHAR_talkToCli(charindex, -1, msg, CHAR_COLORYELLOW);
 
 	{
@@ -919,7 +919,7 @@ void CHAR_CHAT_DEBUG_sysinfo(int charindex, char *message) {
 		CHAR_talkToCli(charindex, -1, msg, CHAR_COLORYELLOW);
 	}
 	snprintf(msg, sizeof(msg),
-			 "NPC_createnum:%d。", NPC_createnum);
+			 "\x4E\x50\x43\x5F\x63\x72\x65\x61\x74\x65\x6E\x75\x6D\x3A\x25\x64\xA1\xA3", NPC_createnum);
 	CHAR_talkToCli(charindex, -1, msg, CHAR_COLORYELLOW);
 }
 
@@ -952,19 +952,19 @@ void CHAR_CHAT_DEBUG_level(int charaindex, char *message) {
 			}
 		}
 		if (i >= playernum) {
-			CHAR_talkToCli(charaindex, -1, "此账号不在线~", CHAR_COLORYELLOW);
+			CHAR_talkToCli(charaindex, -1, "\xB4\xCB\xD5\xCB\xBA\xC5\xB2\xBB\xD4\xDA\xCF\xDF\x7E", CHAR_COLORYELLOW);
 			return;
 		}
 		CHAR_setInt(i, CHAR_LV, atoi(message));
 		CHAR_send_P_StatusString(i, CHAR_P_STRING_LV);
-		sprintf(token, "[GM]%s把你的等级设置为%d!", CHAR_getChar(charaindex, CHAR_NAME), level);
+		sprintf(token, "\x5B\x47\x4D\x5D\x25\x73\xB0\xD1\xC4\xE3\xB5\xC4\xB5\xC8\xBC\xB6\xC9\xE8\xD6\xC3\xCE\xAA\x25\x64\x21", CHAR_getChar(charaindex, CHAR_NAME), level);
 		CHAR_talkToCli(i, -1, token, CHAR_COLORYELLOW);
-		sprintf(token, "玩家%s的等级设置为%d!", CHAR_getChar(i, CHAR_NAME), level);
+		sprintf(token, "\xCD\xE6\xBC\xD2\x25\x73\xB5\xC4\xB5\xC8\xBC\xB6\xC9\xE8\xD6\xC3\xCE\xAA\x25\x64\x21", CHAR_getChar(i, CHAR_NAME), level);
 		CHAR_talkToCli(charaindex, -1, token, CHAR_COLORYELLOW);
 	} else {
 		CHAR_setInt(charaindex, CHAR_LV, atoi(message));
 		CHAR_send_P_StatusString(charaindex, CHAR_P_STRING_LV);
-		sprintf(token, "等级设置为%d!", level);
+		sprintf(token, "\xB5\xC8\xBC\xB6\xC9\xE8\xD6\xC3\xCE\xAA\x25\x64\x21", level);
 		CHAR_talkToCli(charaindex, -1, token, CHAR_COLORYELLOW);
 	}
 }
@@ -986,19 +986,19 @@ void CHAR_CHAT_DEBUG_exp(int charaindex, char *message) {
 			}
 		}
 		if (i >= playernum) {
-			CHAR_talkToCli(charaindex, -1, "此账号不在线~", CHAR_COLORYELLOW);
+			CHAR_talkToCli(charaindex, -1, "\xB4\xCB\xD5\xCB\xBA\xC5\xB2\xBB\xD4\xDA\xCF\xDF\x7E", CHAR_COLORYELLOW);
 			return;
 		}
 		CHAR_setMaxExp(i, atoi(exp));
 		CHAR_send_P_StatusString(i, CHAR_P_STRING_EXP);
-		sprintf(token, "[GM]%s把你的经验设置为%d!", CHAR_getChar(charaindex, CHAR_NAME), (int)atoi(exp));
+		sprintf(token, "\x5B\x47\x4D\x5D\x25\x73\xB0\xD1\xC4\xE3\xB5\xC4\xBE\xAD\xD1\xE9\xC9\xE8\xD6\xC3\xCE\xAA\x25\x64\x21", CHAR_getChar(charaindex, CHAR_NAME), (int)atoi(exp));
 		CHAR_talkToCli(i, -1, token, CHAR_COLORYELLOW);
-		sprintf(token, "玩家%s的经验设置为%d!", CHAR_getChar(i, CHAR_NAME), (int)atoi(exp));
+		sprintf(token, "\xCD\xE6\xBC\xD2\x25\x73\xB5\xC4\xBE\xAD\xD1\xE9\xC9\xE8\xD6\xC3\xCE\xAA\x25\x64\x21", CHAR_getChar(i, CHAR_NAME), (int)atoi(exp));
 		CHAR_talkToCli(charaindex, -1, token, CHAR_COLORYELLOW);
 	} else {
 		CHAR_setMaxExp(charaindex, atoi(exp));
 		CHAR_send_P_StatusString(charaindex, CHAR_P_STRING_EXP);
-		sprintf(token, "经验设置为%d!", (int)atoi(exp) / 100);
+		sprintf(token, "\xBE\xAD\xD1\xE9\xC9\xE8\xD6\xC3\xCE\xAA\x25\x64\x21", (int)atoi(exp) / 100);
 		CHAR_talkToCli(charaindex, -1, token, CHAR_COLORYELLOW);
 	}
 }
@@ -1020,7 +1020,7 @@ void CHAR_CHAT_DEBUG_delitem(int charindex, char *message) {
 #else
 						ITEM_getInt(itemid, ITEM_ID),
 #endif
-						"DelItem(删除道具GM)",
+						"\x44\x65\x6C\x49\x74\x65\x6D\x28\xC9\xBE\xB3\xFD\xB5\xC0\xBE\xDF\x47\x4D\x29",
 						CHAR_getInt(charindex, CHAR_FLOOR),
 						CHAR_getInt(charindex, CHAR_X),
 						CHAR_getInt(charindex, CHAR_Y),
@@ -1035,7 +1035,7 @@ void CHAR_CHAT_DEBUG_delitem(int charindex, char *message) {
 		int equipplace;
 		equipplace = atoi(message);
 		if (equipplace < CHAR_STARTITEMARRAY || equipplace > CHAR_MAXITEMHAVE - 1) {
-			CHAR_talkToCli(charindex, -1, "号码不正确。", CHAR_COLORWHITE);
+			CHAR_talkToCli(charindex, -1, "\xBA\xC5\xC2\xEB\xB2\xBB\xD5\xFD\xC8\xB7\xA1\xA3", CHAR_COLORWHITE);
 			return;
 		}
 		itemid = CHAR_getItemIndex(charindex, equipplace);
@@ -1050,7 +1050,7 @@ void CHAR_CHAT_DEBUG_delitem(int charindex, char *message) {
 #else
 				ITEM_getInt(itemid, ITEM_ID),
 #endif
-				"DelItem(删除道具GM)",
+				"\x44\x65\x6C\x49\x74\x65\x6D\x28\xC9\xBE\xB3\xFD\xB5\xC0\xBE\xDF\x47\x4D\x29",
 				CHAR_getInt(charindex, CHAR_FLOOR),
 				CHAR_getInt(charindex, CHAR_X),
 				CHAR_getInt(charindex, CHAR_Y),
@@ -1077,7 +1077,7 @@ void CHAR_CHAT_DEBUG_addsk(int charaindex, char *message) {
 	level = atoi(msg2);
 
 	if (level > 100) {
-		CHAR_talkToCli(charaindex, -1, "等级不正确", CHAR_COLORWHITE);
+		CHAR_talkToCli(charaindex, -1, "\xB5\xC8\xBC\xB6\xB2\xBB\xD5\xFD\xC8\xB7", CHAR_COLORWHITE);
 		return;
 	}
 	if (level < 1)
@@ -1089,7 +1089,7 @@ void CHAR_CHAT_DEBUG_addsk(int charaindex, char *message) {
 		pSkil = CHAR_getCharHaveSkill(charaindex, i);
 		skill_id = SKILL_getInt(&pSkil->skill, SKILL_IDENTITY);
 		if (skill == skill_id && skill_id != -1) {
-			CHAR_talkToCli(charaindex, -1, "你已经学习过此技能", CHAR_COLORYELLOW);
+			CHAR_talkToCli(charaindex, -1, "\xC4\xE3\xD2\xD1\xBE\xAD\xD1\xA7\xCF\xB0\xB9\xFD\xB4\xCB\xBC\xBC\xC4\xDC", CHAR_COLORYELLOW);
 			return;
 		}
 
@@ -1102,7 +1102,7 @@ void CHAR_CHAT_DEBUG_addsk(int charaindex, char *message) {
 	}
 
 	if (i >= CHAR_SKILLMAXHAVE) {
-		CHAR_talkToCli(charaindex, -1, "技能数量已达上限", CHAR_COLORYELLOW);
+		CHAR_talkToCli(charaindex, -1, "\xBC\xBC\xC4\xDC\xCA\xFD\xC1\xBF\xD2\xD1\xB4\xEF\xC9\xCF\xCF\xDE", CHAR_COLORYELLOW);
 		return;
 	} else {
 		level *= 100;
@@ -1120,7 +1120,7 @@ void CHAR_CHAT_DEBUG_delsk(int charaindex, char *message) {
 	CHAR_HaveSkill *pSkil;
 
 	if (strcmp(message, "all") == 0) {
-		//		CHAR_talkToCli( charaindex, -1, "清除所有技能",  CHAR_COLORWHITE);
+		//		CHAR_talkToCli( charaindex, -1, "\xC7\xE5\xB3\xFD\xCB\xF9\xD3\xD0\xBC\xBC\xC4\xDC",  CHAR_COLORWHITE);
 		for (i = CHAR_SKILLMAXHAVE - 1; i >= 0; i--) {
 			pSkil = CHAR_getCharHaveSkill(charaindex, i);
 			if (pSkil == NULL)
@@ -1143,7 +1143,7 @@ void CHAR_CHAT_DEBUG_delsk(int charaindex, char *message) {
 	}
 
 	if (i < 0) {
-		//		CHAR_talkToCli( charaindex, -1, "已无法再削减了。",  CHAR_COLORWHITE);
+		//		CHAR_talkToCli( charaindex, -1, "\xD2\xD1\xCE\xDE\xB7\xA8\xD4\xD9\xCF\xF7\xBC\xF5\xC1\xCB\xA1\xA3",  CHAR_COLORWHITE);
 		;
 		;
 	} else {
@@ -1180,12 +1180,12 @@ void CHAR_CHAT_Kusabana(int charaindex, char *message) {
 #else
 
 	if (obj != 0) {
-		CHAR_talkToCli(charaindex, -1, "有零件。", CHAR_COLORWHITE);
+		CHAR_talkToCli(charaindex, -1, "\xD3\xD0\xC1\xE3\xBC\xFE\xA1\xA3", CHAR_COLORWHITE);
 		return;
 	}
 
 	if (MAP_walkAbleFromPoint(ff, fx, fy, FALSE) == FALSE) {
-		CHAR_talkToCli(charaindex, -1, "无法走了。", CHAR_COLORWHITE);
+		CHAR_talkToCli(charaindex, -1, "\xCE\xDE\xB7\xA8\xD7\xDF\xC1\xCB\xA1\xA3", CHAR_COLORWHITE);
 		return;
 	}
 
@@ -1226,7 +1226,7 @@ void CHAR_CHAT_Fukuwa(int charaindex, char *message) {
 	stringlen = strlen(message);
 
 	if (message[0] == '[' && message[stringlen - 1] == ']') {
-		CHAR_talkToCli(charaindex, -1, "语言没有转换。", CHAR_COLORWHITE);
+		CHAR_talkToCli(charaindex, -1, "\xD3\xEF\xD1\xD4\xC3\xBB\xD3\xD0\xD7\xAA\xBB\xBB\xA1\xA3", CHAR_COLORWHITE);
 		return;
 	}
 
@@ -1272,7 +1272,7 @@ void CHAR_CHAT_DEBUG_superman(int charaindex, char *message) {
 			}
 		}
 		if (i >= playernum) {
-			CHAR_talkToCli(charaindex, -1, "此账号不在线~", CHAR_COLORYELLOW);
+			CHAR_talkToCli(charaindex, -1, "\xB4\xCB\xD5\xCB\xBA\xC5\xB2\xBB\xD4\xDA\xCF\xDF\x7E", CHAR_COLORYELLOW);
 			return;
 		}
 		CHAR_setInt(charaindex, CHAR_SKILLUPPOINT, 32);
@@ -1288,9 +1288,9 @@ void CHAR_CHAT_DEBUG_superman(int charaindex, char *message) {
 		CHAR_complianceParameter(charaindex);
 		CHAR_sendStatusString(charaindex, "P");
 
-		sprintf(token, "[GM]%s把你为超人状态!", CHAR_getChar(charaindex, CHAR_NAME));
+		sprintf(token, "\x5B\x47\x4D\x5D\x25\x73\xB0\xD1\xC4\xE3\xCE\xAA\xB3\xAC\xC8\xCB\xD7\xB4\xCC\xAC\x21", CHAR_getChar(charaindex, CHAR_NAME));
 		CHAR_talkToCli(i, -1, token, CHAR_COLORYELLOW);
-		sprintf(token, "玩家%s设置为超人状态!", CHAR_getChar(i, CHAR_NAME));
+		sprintf(token, "\xCD\xE6\xBC\xD2\x25\x73\xC9\xE8\xD6\xC3\xCE\xAA\xB3\xAC\xC8\xCB\xD7\xB4\xCC\xAC\x21", CHAR_getChar(i, CHAR_NAME));
 		CHAR_talkToCli(charaindex, -1, token, CHAR_COLORYELLOW);
 	} else {
 		CHAR_setInt(charaindex, CHAR_SKILLUPPOINT, 32);
@@ -1306,7 +1306,7 @@ void CHAR_CHAT_DEBUG_superman(int charaindex, char *message) {
 		CHAR_complianceParameter(charaindex);
 		CHAR_sendStatusString(charaindex, "P");
 
-		CHAR_talkToCli(charaindex, -1, "设置超人状态!", CHAR_COLORYELLOW);
+		CHAR_talkToCli(charaindex, -1, "\xC9\xE8\xD6\xC3\xB3\xAC\xC8\xCB\xD7\xB4\xCC\xAC\x21", CHAR_COLORYELLOW);
 	}
 #undef CHAT_CHAT_DEBUG_SUPERMAN_PARAMDEF
 }
@@ -1315,7 +1315,7 @@ void CHAR_CHAT_printcount(int charaindex, char *message) {
 	char msgbuf[512];
 
 	snprintf(msgbuf, sizeof(msgbuf),
-			 "你说了 %d 次话,走了 %d 步路,死了 %d 次",
+			 "\xC4\xE3\xCB\xB5\xC1\xCB\x20\x25\x64\x20\xB4\xCE\xBB\xB0\x2C\xD7\xDF\xC1\xCB\x20\x25\x64\x20\xB2\xBD\xC2\xB7\x2C\xCB\xC0\xC1\xCB\x20\x25\x64\x20\xB4\xCE",
 			 CHAR_getInt(charaindex, CHAR_TALKCOUNT),
 			 CHAR_getInt(charaindex, CHAR_WALKCOUNT),
 			 CHAR_getInt(charaindex, CHAR_DEADCOUNT));
@@ -1360,7 +1360,7 @@ void CHAR_CHAT_DEBUG_petmake(int charaindex, char *message) {
 			}
 		}
 		if (j >= playernum) {
-			CHAR_talkToCli(charaindex, -1, "此账号不在线~", CHAR_COLORYELLOW);
+			CHAR_talkToCli(charaindex, -1, "\xB4\xCB\xD5\xCB\xBA\xC5\xB2\xBB\xD4\xDA\xCF\xDF\x7E", CHAR_COLORYELLOW);
 			return;
 		}
 		enemynum = ENEMY_getEnemyNum();
@@ -1375,11 +1375,11 @@ void CHAR_CHAT_DEBUG_petmake(int charaindex, char *message) {
 		ret = ENEMY_createPetFromEnemyIndex(j, i);
 		if (!CHAR_CHECKINDEX(ret))
 			return;
-		snprintf(token, sizeof(token), "宠物制作成功\!", ret);
+		snprintf(token, sizeof(token), "\xB3\xE8\xCE\xEF\xD6\xC6\xD7\xF7\xB3\xC9\xB9\xA6\x5C\x21", ret);
 		CHAR_talkToCli(charaindex, -1, token, CHAR_COLORWHITE);
-		sprintf(token, "[GM]%s制作了只宠物给你!index[%d]", CHAR_getChar(charaindex, CHAR_NAME), ret);
+		sprintf(token, "\x5B\x47\x4D\x5D\x25\x73\xD6\xC6\xD7\xF7\xC1\xCB\xD6\xBB\xB3\xE8\xCE\xEF\xB8\xF8\xC4\xE3\x21\x69\x6E\x64\x65\x78\x5B\x25\x64\x5D", CHAR_getChar(charaindex, CHAR_NAME), ret);
 		CHAR_talkToCli(j, -1, token, CHAR_COLORYELLOW);
-		sprintf(token, "给玩家%s的宠物制作成功!index[%d]", CHAR_getChar(j, CHAR_NAME), ret);
+		sprintf(token, "\xB8\xF8\xCD\xE6\xBC\xD2\x25\x73\xB5\xC4\xB3\xE8\xCE\xEF\xD6\xC6\xD7\xF7\xB3\xC9\xB9\xA6\x21\x69\x6E\x64\x65\x78\x5B\x25\x64\x5D", CHAR_getChar(j, CHAR_NAME), ret);
 		CHAR_talkToCli(charaindex, -1, token, CHAR_COLORYELLOW);
 		for (i = 0; i < CHAR_MAXPETHAVE; i++) {
 			if (CHAR_getCharPet(j, i) == ret)
@@ -1424,7 +1424,7 @@ void CHAR_CHAT_DEBUG_petmake(int charaindex, char *message) {
 		ret = ENEMY_createPetFromEnemyIndex(charaindex, i);
 		if (!CHAR_CHECKINDEX(ret))
 			return;
-		snprintf(token, sizeof(token), "宠物制作成功\!index[%d]", ret);
+		snprintf(token, sizeof(token), "\xB3\xE8\xCE\xEF\xD6\xC6\xD7\xF7\xB3\xC9\xB9\xA6\x5C\x21\x69\x6E\x64\x65\x78\x5B\x25\x64\x5D", ret);
 		CHAR_talkToCli(charaindex, -1, token, CHAR_COLORWHITE);
 
 		for (i = 0; i < CHAR_MAXPETHAVE; i++) {
@@ -1477,7 +1477,7 @@ void CHAR_CHAT_DEBUG_deletepet(int charaindex, char *message) {
 		}
 	}
 
-	CHAR_talkToCli(charaindex, -1, "清除身上所有宠物。", CHAR_COLORWHITE);
+	CHAR_talkToCli(charaindex, -1, "\xC7\xE5\xB3\xFD\xC9\xED\xC9\xCF\xCB\xF9\xD3\xD0\xB3\xE8\xCE\xEF\xA1\xA3", CHAR_COLORWHITE);
 }
 
 #define MAXMESS_LISTNUM 8
@@ -1494,40 +1494,40 @@ void CHAR_CHAT_DEBUG_reset(int charaindex, char *message) {
 			break;
 	}
 	if (i >= MAXMESS_LISTNUM) {
-		CHAR_talkToCli(charaindex, -1, "指令错误", CHAR_COLORRED); // CHAR_COLORYELLOW
+		CHAR_talkToCli(charaindex, -1, "\xD6\xB8\xC1\xEE\xB4\xED\xCE\xF3", CHAR_COLORRED); // CHAR_COLORYELLOW
 		return;
 	}
 	switch (i) {
 	case ALLRESET:
 	case 0:
 		if (!ENEMYTEMP_reinitEnemy() || !ENEMY_reinitEnemy()) {
-			CHAR_talkToCli(charaindex, -1, "重新读取敌人基本资料失败。", CHAR_COLORRED);
+			CHAR_talkToCli(charaindex, -1, "\xD6\xD8\xD0\xC2\xB6\xC1\xC8\xA1\xB5\xD0\xC8\xCB\xBB\xF9\xB1\xBE\xD7\xCA\xC1\xCF\xCA\xA7\xB0\xDC\xA1\xA3", CHAR_COLORRED);
 			return;
 		}
 		if (i != ALLRESET)
 			break;
 	case 1:
 		if (!GROUP_reinitGroup() || !ENCOUNT_reinitEncount()) {
-			CHAR_talkToCli(charaindex, -1, "重新读取遭遇团队资料失败。", CHAR_COLORRED);
+			CHAR_talkToCli(charaindex, -1, "\xD6\xD8\xD0\xC2\xB6\xC1\xC8\xA1\xD4\xE2\xD3\xF6\xCD\xC5\xB6\xD3\xD7\xCA\xC1\xCF\xCA\xA7\xB0\xDC\xA1\xA3", CHAR_COLORRED);
 		}
 		if (i != ALLRESET)
 			break;
 	case 2:
 		if (!MAGIC_reinitMagic() || !ATTMAGIC_reinitMagic()) {
-			CHAR_talkToCli(charaindex, -1, "重新读取咒术资料失败。", CHAR_COLORRED);
+			CHAR_talkToCli(charaindex, -1, "\xD6\xD8\xD0\xC2\xB6\xC1\xC8\xA1\xD6\xE4\xCA\xF5\xD7\xCA\xC1\xCF\xCA\xA7\xB0\xDC\xA1\xA3", CHAR_COLORRED);
 		}
 		if (i != ALLRESET)
 			break;
 	case 3:
 		MAPPOINT_resetMapWarpPoint(1);
 		if (!MAPPOINT_loadMapWarpPoint()) {
-			CHAR_talkToCli(charaindex, -1, "重新读取跳跃点资料失败。", CHAR_COLORRED);
+			CHAR_talkToCli(charaindex, -1, "\xD6\xD8\xD0\xC2\xB6\xC1\xC8\xA1\xCC\xF8\xD4\xBE\xB5\xE3\xD7\xCA\xC1\xCF\xCA\xA7\xB0\xDC\xA1\xA3", CHAR_COLORRED);
 		}
 		if (i != ALLRESET)
 			break;
 	case 4:
 		if (!PETSKILL_reinitPetskill()) {
-			CHAR_talkToCli(charaindex, -1, "重新读取宠物技能资料失败。", CHAR_COLORRED);
+			CHAR_talkToCli(charaindex, -1, "\xD6\xD8\xD0\xC2\xB6\xC1\xC8\xA1\xB3\xE8\xCE\xEF\xBC\xBC\xC4\xDC\xD7\xCA\xC1\xCF\xCA\xA7\xB0\xDC\xA1\xA3", CHAR_COLORRED);
 		}
 		if (i != ALLRESET)
 			break;
@@ -1543,67 +1543,67 @@ void CHAR_CHAT_DEBUG_reset(int charaindex, char *message) {
 					NPC_Util_NPCDelete(objindex);
 					print( "%d\n", objindex);}
 		}
-		print( "读取NPC文件..." );
+		print( "\xB6\xC1\xC8\xA1\x4E\x50\x43\xCE\xC4\xBC\xFE\x2E\x2E\x2E" );
 	if( !NPC_readNPCSettingFiles( getNpcdir(), getNpctemplatenum(),
 								  getNpccreatenum() ) ){
-		CHAR_talkToCli( charaindex, -1, "重新读取NPC资料失败。",  CHAR_COLORRED);
+		CHAR_talkToCli( charaindex, -1, "\xD6\xD8\xD0\xC2\xB6\xC1\xC8\xA1\x4E\x50\x43\xD7\xCA\xC1\xCF\xCA\xA7\xB0\xDC\xA1\xA3",  CHAR_COLORRED);
 		return;
 	}
-		print( "完成\n" );
+		print( "\xCD\xEA\xB3\xC9\x5C\x6E" );
 		NPC_generateLoop( 1 );*/
-		CHAR_talkToCli(charaindex, -1, "未开放", CHAR_COLORRED);
+		CHAR_talkToCli(charaindex, -1, "\xCE\xB4\xBF\xAA\xB7\xC5", CHAR_COLORRED);
 		return;
 		if (i != ALLRESET)
 			break;
 		break;
 	}
-	CHAR_talkToCli(charaindex, -1, "重新读取游戏资料。", CHAR_COLORYELLOW);
+	CHAR_talkToCli(charaindex, -1, "\xD6\xD8\xD0\xC2\xB6\xC1\xC8\xA1\xD3\xCE\xCF\xB7\xD7\xCA\xC1\xCF\xA1\xA3", CHAR_COLORYELLOW);
 }
 
 void CHAR_CHAT_DEBUG_enemyrestart(int charaindex, char *message) {
 	if (ENEMYTEMP_reinitEnemy()) {
-		CHAR_talkToCli(charaindex, -1, "再次读取敌人基本资料。", CHAR_COLORWHITE);
+		CHAR_talkToCli(charaindex, -1, "\xD4\xD9\xB4\xCE\xB6\xC1\xC8\xA1\xB5\xD0\xC8\xCB\xBB\xF9\xB1\xBE\xD7\xCA\xC1\xCF\xA1\xA3", CHAR_COLORWHITE);
 	} else {
-		CHAR_talkToCli(charaindex, -1, "再次读取敌人基本资料失败。", CHAR_COLORWHITE);
+		CHAR_talkToCli(charaindex, -1, "\xD4\xD9\xB4\xCE\xB6\xC1\xC8\xA1\xB5\xD0\xC8\xCB\xBB\xF9\xB1\xBE\xD7\xCA\xC1\xCF\xCA\xA7\xB0\xDC\xA1\xA3", CHAR_COLORWHITE);
 	}
 
 	if (ENEMY_reinitEnemy()) {
-		CHAR_talkToCli(charaindex, -1, "再次读取敌人资料。", CHAR_COLORWHITE);
+		CHAR_talkToCli(charaindex, -1, "\xD4\xD9\xB4\xCE\xB6\xC1\xC8\xA1\xB5\xD0\xC8\xCB\xD7\xCA\xC1\xCF\xA1\xA3", CHAR_COLORWHITE);
 	} else {
-		CHAR_talkToCli(charaindex, -1, "再次读取敌人基本资料失败。", CHAR_COLORWHITE);
+		CHAR_talkToCli(charaindex, -1, "\xD4\xD9\xB4\xCE\xB6\xC1\xC8\xA1\xB5\xD0\xC8\xCB\xBB\xF9\xB1\xBE\xD7\xCA\xC1\xCF\xCA\xA7\xB0\xDC\xA1\xA3", CHAR_COLORWHITE);
 	}
 
 	if (GROUP_reinitGroup()) {
-		CHAR_talkToCli(charaindex, -1, "再次读取团队资料。", CHAR_COLORWHITE);
+		CHAR_talkToCli(charaindex, -1, "\xD4\xD9\xB4\xCE\xB6\xC1\xC8\xA1\xCD\xC5\xB6\xD3\xD7\xCA\xC1\xCF\xA1\xA3", CHAR_COLORWHITE);
 	} else {
-		CHAR_talkToCli(charaindex, -1, "再次读取团队资料失败。", CHAR_COLORWHITE);
+		CHAR_talkToCli(charaindex, -1, "\xD4\xD9\xB4\xCE\xB6\xC1\xC8\xA1\xCD\xC5\xB6\xD3\xD7\xCA\xC1\xCF\xCA\xA7\xB0\xDC\xA1\xA3", CHAR_COLORWHITE);
 	}
 	if (ENCOUNT_reinitEncount()) {
-		CHAR_talkToCli(charaindex, -1, "再次读取遭遇资料。", CHAR_COLORWHITE);
+		CHAR_talkToCli(charaindex, -1, "\xD4\xD9\xB4\xCE\xB6\xC1\xC8\xA1\xD4\xE2\xD3\xF6\xD7\xCA\xC1\xCF\xA1\xA3", CHAR_COLORWHITE);
 	} else {
-		CHAR_talkToCli(charaindex, -1, "再次读取遭遇资料失败。", CHAR_COLORWHITE);
+		CHAR_talkToCli(charaindex, -1, "\xD4\xD9\xB4\xCE\xB6\xC1\xC8\xA1\xD4\xE2\xD3\xF6\xD7\xCA\xC1\xCF\xCA\xA7\xB0\xDC\xA1\xA3", CHAR_COLORWHITE);
 	}
 
 	if (MAGIC_reinitMagic()) {
-		CHAR_talkToCli(charaindex, -1, "再次读取咒术资料。", CHAR_COLORWHITE);
+		CHAR_talkToCli(charaindex, -1, "\xD4\xD9\xB4\xCE\xB6\xC1\xC8\xA1\xD6\xE4\xCA\xF5\xD7\xCA\xC1\xCF\xA1\xA3", CHAR_COLORWHITE);
 	} else {
-		CHAR_talkToCli(charaindex, -1, "再次读取咒术资料失败。", CHAR_COLORWHITE);
+		CHAR_talkToCli(charaindex, -1, "\xD4\xD9\xB4\xCE\xB6\xC1\xC8\xA1\xD6\xE4\xCA\xF5\xD7\xCA\xC1\xCF\xCA\xA7\xB0\xDC\xA1\xA3", CHAR_COLORWHITE);
 	}
 
 #ifdef __ATTACK_MAGIC
 	if (ATTMAGIC_reinitMagic())
-		CHAR_talkToCli(charaindex, -1, "再次读取咒术资料。", CHAR_COLORWHITE);
+		CHAR_talkToCli(charaindex, -1, "\xD4\xD9\xB4\xCE\xB6\xC1\xC8\xA1\xD6\xE4\xCA\xF5\xD7\xCA\xC1\xCF\xA1\xA3", CHAR_COLORWHITE);
 	else
-		CHAR_talkToCli(charaindex, -1, "再次读取咒术资料失败。", CHAR_COLORWHITE);
+		CHAR_talkToCli(charaindex, -1, "\xD4\xD9\xB4\xCE\xB6\xC1\xC8\xA1\xD6\xE4\xCA\xF5\xD7\xCA\xC1\xCF\xCA\xA7\xB0\xDC\xA1\xA3", CHAR_COLORWHITE);
 #endif
 	if (PETSKILL_reinitPetskill()) {
-		CHAR_talkToCli(charaindex, -1, "再次读取宠物技能资料。", CHAR_COLORWHITE);
+		CHAR_talkToCli(charaindex, -1, "\xD4\xD9\xB4\xCE\xB6\xC1\xC8\xA1\xB3\xE8\xCE\xEF\xBC\xBC\xC4\xDC\xD7\xCA\xC1\xCF\xA1\xA3", CHAR_COLORWHITE);
 	} else {
-		CHAR_talkToCli(charaindex, -1, "再次读取宠物技能资料失败。", CHAR_COLORWHITE);
+		CHAR_talkToCli(charaindex, -1, "\xD4\xD9\xB4\xCE\xB6\xC1\xC8\xA1\xB3\xE8\xCE\xEF\xBC\xBC\xC4\xDC\xD7\xCA\xC1\xCF\xCA\xA7\xB0\xDC\xA1\xA3", CHAR_COLORWHITE);
 	}
 
 	LoadPetTalk(); // Arminius 8.15 pet talk
-	CHAR_talkToCli(charaindex, -1, "再次读取宠物讲话资料。", CHAR_COLORWHITE);
+	CHAR_talkToCli(charaindex, -1, "\xD4\xD9\xB4\xCE\xB6\xC1\xC8\xA1\xB3\xE8\xCE\xEF\xBD\xB2\xBB\xB0\xD7\xCA\xC1\xCF\xA1\xA3", CHAR_COLORWHITE);
 }
 
 void CHAR_CHAT_DEBUG_battlewatch(int charaindex, char *message) {
@@ -1647,7 +1647,7 @@ void CHAR_CHAT_DEBUG_eventclean(int charaindex, char *message) {
 		find = TRUE;
 	} else {
 		if (shiftbit == -1 || strlen(token_cdkey) == 0 || strlen(token_name) == 0) {
-			sprintf(token, "%s", "参数不正确。正确格式：[eventsetend 任务旗标 帐号 人物名称]");
+			sprintf(token, "%s", "\xB2\xCE\xCA\xFD\xB2\xBB\xD5\xFD\xC8\xB7\xA1\xA3\xD5\xFD\xC8\xB7\xB8\xF1\xCA\xBD\xA3\xBA\x5B\x65\x76\x65\x6E\x74\x73\x65\x74\x65\x6E\x64\x20\xC8\xCE\xCE\xF1\xC6\xEC\xB1\xEA\x20\xD5\xCA\xBA\xC5\x20\xC8\xCB\xCE\xEF\xC3\xFB\xB3\xC6\x5D");
 			CHAR_talkToCli(charaindex, -1, token, CHAR_COLORWHITE);
 			return;
 		}
@@ -1692,7 +1692,7 @@ void CHAR_CHAT_DEBUG_eventclean(int charaindex, char *message) {
 		CHAR_setInt(charaindex_tmp, CHAR_NOWEVENT8, 0);
 #endif
 
-		sprintf(token, "削除全部的事件旗。");
+		sprintf(token, "\xCF\xF7\xB3\xFD\xC8\xAB\xB2\xBF\xB5\xC4\xCA\xC2\xBC\xFE\xC6\xEC\xA1\xA3");
 		CHAR_talkToCli(charaindex, -1, token, CHAR_COLORWHITE);
 		return;
 	}
@@ -1702,7 +1702,7 @@ void CHAR_CHAT_DEBUG_eventclean(int charaindex, char *message) {
 		shift = shiftbit % 32;
 
 		if (array >= event_num) {
-			sprintf(token, "错误！！你所设的任务旗标编号已超过  围(0~%d)。", 32 * event_num - 1);
+			sprintf(token, "\xB4\xED\xCE\xF3\xA3\xA1\xA3\xA1\xC4\xE3\xCB\xF9\xC9\xE8\xB5\xC4\xC8\xCE\xCE\xF1\xC6\xEC\xB1\xEA\xB1\xE0\xBA\xC5\xD2\xD1\xB3\xAC\xB9\xFD\x20\x20\xCE\xA7\x28\x30\x7E\x25\x64\x29\xA1\xA3", 32 * event_num - 1);
 			CHAR_talkToCli(charaindex, -1, token, CHAR_COLORWHITE);
 			return;
 		}
@@ -1722,7 +1722,7 @@ void CHAR_CHAT_DEBUG_eventclean(int charaindex, char *message) {
 			sprintf(token, "%s %s", token_cdkey, token_name);
 		// CHAR_CHAT_DEBUG_watchevent( charaindex, token );
 	} else {
-		sprintf(token, "%s\n", "失败！！帐号与人物名称无法相符。");
+		sprintf(token, "%s\n", "\xCA\xA7\xB0\xDC\xA3\xA1\xA3\xA1\xD5\xCA\xBA\xC5\xD3\xEB\xC8\xCB\xCE\xEF\xC3\xFB\xB3\xC6\xCE\xDE\xB7\xA8\xCF\xE0\xB7\xFB\xA1\xA3");
 		CHAR_talkToCli(charaindex, -1, token, CHAR_COLORWHITE);
 	}
 }
@@ -1762,7 +1762,7 @@ void CHAR_CHAT_DEBUG_eventsetnow(int charaindex, char *message) {
 		find = TRUE;
 	} else {
 		if (shiftbit == -1 || strlen(token_cdkey) == 0 || strlen(token_name) == 0) {
-			sprintf(token, "%s", "参数不正确。正确格式：[eventsetend 任务旗标 帐号 人物名称]");
+			sprintf(token, "%s", "\xB2\xCE\xCA\xFD\xB2\xBB\xD5\xFD\xC8\xB7\xA1\xA3\xD5\xFD\xC8\xB7\xB8\xF1\xCA\xBD\xA3\xBA\x5B\x65\x76\x65\x6E\x74\x73\x65\x74\x65\x6E\x64\x20\xC8\xCE\xCE\xF1\xC6\xEC\xB1\xEA\x20\xD5\xCA\xBA\xC5\x20\xC8\xCB\xCE\xEF\xC3\xFB\xB3\xC6\x5D");
 			CHAR_talkToCli(charaindex, -1, token, CHAR_COLORWHITE);
 			return;
 		}
@@ -1807,7 +1807,7 @@ void CHAR_CHAT_DEBUG_eventsetnow(int charaindex, char *message) {
 		shift = shiftbit % 32;
 
 		if (array >= event_num) {
-			sprintf(token, "错误！！你所设的任务旗标编号已超过  围(0~%d)。", 32 * event_num - 1);
+			sprintf(token, "\xB4\xED\xCE\xF3\xA3\xA1\xA3\xA1\xC4\xE3\xCB\xF9\xC9\xE8\xB5\xC4\xC8\xCE\xCE\xF1\xC6\xEC\xB1\xEA\xB1\xE0\xBA\xC5\xD2\xD1\xB3\xAC\xB9\xFD\x20\x20\xCE\xA7\x28\x30\x7E\x25\x64\x29\xA1\xA3", 32 * event_num - 1);
 			CHAR_talkToCli(charaindex, -1, token, CHAR_COLORWHITE);
 			return;
 		}
@@ -1824,7 +1824,7 @@ void CHAR_CHAT_DEBUG_eventsetnow(int charaindex, char *message) {
 			sprintf(token, "%s %s", token_cdkey, token_name);
 		CHAR_CHAT_DEBUG_watchevent(charaindex, token);
 	} else {
-		sprintf(token, "%s\n", "失败！！帐号与人物名称无法相符。");
+		sprintf(token, "%s\n", "\xCA\xA7\xB0\xDC\xA3\xA1\xA3\xA1\xD5\xCA\xBA\xC5\xD3\xEB\xC8\xCB\xCE\xEF\xC3\xFB\xB3\xC6\xCE\xDE\xB7\xA8\xCF\xE0\xB7\xFB\xA1\xA3");
 		CHAR_talkToCli(charaindex, -1, token, CHAR_COLORWHITE);
 	}
 }
@@ -1850,7 +1850,7 @@ void CHAR_CHAT_DEBUG_eventsetnow(int charaindex, char *message) {
 	point = point | (1 << shift);
 	CHAR_setInt(charaindex,CHAR_NOWEVENT+array,point);
 
-	sprintf( token, "设定事件中%d号旗。",eventno);
+	sprintf( token, "\xC9\xE8\xB6\xA8\xCA\xC2\xBC\xFE\xD6\xD0\x25\x64\xBA\xC5\xC6\xEC\xA1\xA3",eventno);
 	CHAR_talkToCli( charaindex, -1,token, CHAR_COLORWHITE);
 }*/
 // shan 2001/12/18 End
@@ -1888,7 +1888,7 @@ void CHAR_CHAT_DEBUG_eventsetend(int charaindex, char *message) {
 		find = TRUE;
 	} else {
 		if (shiftbit == -1 || strlen(token_cdkey) == 0 || strlen(token_name) == 0) {
-			sprintf(token, "%s", "参数不正确。正确格式：[eventsetend 任务旗标 帐号 人物名称]");
+			sprintf(token, "%s", "\xB2\xCE\xCA\xFD\xB2\xBB\xD5\xFD\xC8\xB7\xA1\xA3\xD5\xFD\xC8\xB7\xB8\xF1\xCA\xBD\xA3\xBA\x5B\x65\x76\x65\x6E\x74\x73\x65\x74\x65\x6E\x64\x20\xC8\xCE\xCE\xF1\xC6\xEC\xB1\xEA\x20\xD5\xCA\xBA\xC5\x20\xC8\xCB\xCE\xEF\xC3\xFB\xB3\xC6\x5D");
 			CHAR_talkToCli(charaindex, -1, token, CHAR_COLORWHITE);
 			return;
 		}
@@ -1933,7 +1933,7 @@ void CHAR_CHAT_DEBUG_eventsetend(int charaindex, char *message) {
 		shift = shiftbit % 32;
 
 		if (array >= event_num) {
-			sprintf(token, "错误！！你所设的任务旗标编号已超过  围(0~%d)。", 32 * event_num - 1);
+			sprintf(token, "\xB4\xED\xCE\xF3\xA3\xA1\xA3\xA1\xC4\xE3\xCB\xF9\xC9\xE8\xB5\xC4\xC8\xCE\xCE\xF1\xC6\xEC\xB1\xEA\xB1\xE0\xBA\xC5\xD2\xD1\xB3\xAC\xB9\xFD\x20\x20\xCE\xA7\x28\x30\x7E\x25\x64\x29\xA1\xA3", 32 * event_num - 1);
 			CHAR_talkToCli(charaindex, -1, token, CHAR_COLORWHITE);
 			return;
 		}
@@ -1950,7 +1950,7 @@ void CHAR_CHAT_DEBUG_eventsetend(int charaindex, char *message) {
 			sprintf(token, "%s %s", token_cdkey, token_name);
 		CHAR_CHAT_DEBUG_watchevent(charaindex, token);
 	} else {
-		sprintf(token, "%s\n", "失败！！帐号与人物名称无法相符。");
+		sprintf(token, "%s\n", "\xCA\xA7\xB0\xDC\xA3\xA1\xA3\xA1\xD5\xCA\xBA\xC5\xD3\xEB\xC8\xCB\xCE\xEF\xC3\xFB\xB3\xC6\xCE\xDE\xB7\xA8\xCF\xE0\xB7\xFB\xA1\xA3");
 		CHAR_talkToCli(charaindex, -1, token, CHAR_COLORYELLOW);
 	}
 }
@@ -1968,7 +1968,7 @@ void CHAR_CHAT_DEBUG_debug(int charaindex, char *message) {
 		CHAR_setWorkInt(charaindex, CHAR_WORKDEBUGMODE, FALSE);
 	}
 	CHAR_send_P_StatusString(charaindex, CHAR_P_STRING_DEBUGMODE);
-	snprintf(msgbuf, sizeof(msgbuf), "已设定除错模式为%s。",
+	snprintf(msgbuf, sizeof(msgbuf), "\xD2\xD1\xC9\xE8\xB6\xA8\xB3\xFD\xB4\xED\xC4\xA3\xCA\xBD\xCE\xAA\x25\x73\xA1\xA3",
 			 (flg == TRUE) ? "ON" : "OFF");
 
 	CHAR_talkToCli(charaindex, -1, msgbuf, CHAR_COLORYELLOW);
@@ -1991,19 +1991,19 @@ void CHAR_CHAT_DEBUG_dp(int charindex, char *message) {
 			}
 		}
 		if (i >= playernum) {
-			CHAR_talkToCli(charindex, -1, "此账号不在线~", CHAR_COLORYELLOW);
+			CHAR_talkToCli(charindex, -1, "\xB4\xCB\xD5\xCB\xBA\xC5\xB2\xBB\xD4\xDA\xCF\xDF\x7E", CHAR_COLORYELLOW);
 			return;
 		}
 		CHAR_setInt(i, CHAR_DUELPOINT, atoi(dp));
 		CHAR_send_P_StatusString(i, CHAR_P_STRING_DUELPOINT);
-		sprintf(token, "[GM]%s把你的DP设置为%d!", CHAR_getChar(charindex, CHAR_NAME), (int)atoi(dp));
+		sprintf(token, "\x5B\x47\x4D\x5D\x25\x73\xB0\xD1\xC4\xE3\xB5\xC4\x44\x50\xC9\xE8\xD6\xC3\xCE\xAA\x25\x64\x21", CHAR_getChar(charindex, CHAR_NAME), (int)atoi(dp));
 		CHAR_talkToCli(i, -1, token, CHAR_COLORYELLOW);
-		sprintf(token, "玩家%s的DP设置为%d!", CHAR_getChar(i, CHAR_NAME), (int)atoi(dp));
+		sprintf(token, "\xCD\xE6\xBC\xD2\x25\x73\xB5\xC4\x44\x50\xC9\xE8\xD6\xC3\xCE\xAA\x25\x64\x21", CHAR_getChar(i, CHAR_NAME), (int)atoi(dp));
 		CHAR_talkToCli(charindex, -1, token, CHAR_COLORYELLOW);
 	} else {
 		CHAR_setInt(charindex, CHAR_DUELPOINT, atoi(dp));
 		CHAR_send_P_StatusString(charindex, CHAR_P_STRING_DUELPOINT);
-		sprintf(token, "DP设置为%d!", (int)atoi(dp));
+		sprintf(token, "\x44\x50\xC9\xE8\xD6\xC3\xCE\xAA\x25\x64\x21", (int)atoi(dp));
 		CHAR_talkToCli(charindex, -1, token, CHAR_COLORYELLOW);
 	}
 }
@@ -2012,7 +2012,7 @@ void CHAR_CHAT_DEBUG_dp(int charindex, char *message) {
 void CHAR_CHAT_DEBUG_arrange(int charindex, char *message) {
 	CHAR_setWorkInt(charindex, CHAR_WORKFIXARRANGE, atoi(message));
 	CHAR_complianceParameter(charindex);
-	CHAR_talkToCli(charindex, -1, "设定挡格", CHAR_COLORYELLOW);
+	CHAR_talkToCli(charindex, -1, "\xC9\xE8\xB6\xA8\xB5\xB2\xB8\xF1", CHAR_COLORYELLOW);
 }
 #endif
 
@@ -2020,7 +2020,7 @@ void CHAR_CHAT_DEBUG_arrange(int charindex, char *message) {
 void CHAR_CHAT_DEBUG_sequence(int charindex, char *message) {
 	CHAR_setWorkInt(charindex, CHAR_WORKFIXSEQUENCE, atoi(message));
 	CHAR_complianceParameter(charindex);
-	CHAR_talkToCli(charindex, -1, "设定顺序", CHAR_COLORYELLOW);
+	CHAR_talkToCli(charindex, -1, "\xC9\xE8\xB6\xA8\xCB\xB3\xD0\xF2", CHAR_COLORYELLOW);
 }
 #endif
 
@@ -2032,17 +2032,17 @@ void CHAR_CHAT_DEBUG_setmerge_main(int charaindex, char *message, int mode) {
 	int itemindex;
 
 	if (!CHAR_CHECKITEMINDEX(charaindex, haveitemindex)) {
-		CHAR_talkToCli(charaindex, -1, "号码很奇怪。", CHAR_COLORWHITE);
+		CHAR_talkToCli(charaindex, -1, "\xBA\xC5\xC2\xEB\xBA\xDC\xC6\xE6\xB9\xD6\xA1\xA3", CHAR_COLORWHITE);
 		return;
 	}
 	itemindex = CHAR_getItemIndex(charaindex, haveitemindex);
 	if (!ITEM_CHECKINDEX(itemindex)) {
-		CHAR_talkToCli(charaindex, -1, "该处是否没有任何道具,情报亦很奇怪。", CHAR_COLORWHITE);
+		CHAR_talkToCli(charaindex, -1, "\xB8\xC3\xB4\xA6\xCA\xC7\xB7\xF1\xC3\xBB\xD3\xD0\xC8\xCE\xBA\xCE\xB5\xC0\xBE\xDF\x2C\xC7\xE9\xB1\xA8\xD2\xE0\xBA\xDC\xC6\xE6\xB9\xD6\xA1\xA3", CHAR_COLORWHITE);
 		return;
 	}
 	ITEM_setInt(itemindex, ITEM_MERGEFLG, mode);
 
-	CHAR_talkToCli(charaindex, -1, "宁岳白仿弘及丑综毛仄引仄凶［", CHAR_COLORWHITE);
+	CHAR_talkToCli(charaindex, -1, "\xC4\xFE\xD4\xC0\xB0\xD7\xB7\xC2\xBA\xEB\xBC\xB0\xB3\xF3\xD7\xDB\xC3\xAB\xD8\xC6\xD2\xFD\xD8\xC6\xD0\xD7\xA3\xDB", CHAR_COLORWHITE);
 
 	CHAR_sendItemDataOne(charaindex, haveitemindex);
 }
@@ -2113,21 +2113,21 @@ void CHAR_CHAT_DEBUG_setTrans(int charaindex, char *message) {
 			}
 		}
 		if (i >= playernum) {
-			CHAR_talkToCli(charaindex, -1, "此账号不在线~", CHAR_COLORYELLOW);
+			CHAR_talkToCli(charaindex, -1, "\xB4\xCB\xD5\xCB\xBA\xC5\xB2\xBB\xD4\xDA\xCF\xDF\x7E", CHAR_COLORYELLOW);
 			return;
 		}
 		CHAR_setInt(i, CHAR_TRANSEQUATION, 0);
 		CHAR_setInt(i, CHAR_TRANSMIGRATION, atoi(setTrans));
 		CHAR_sendCToArroundCharacter(CHAR_getWorkInt(i, CHAR_WORKOBJINDEX));
-		sprintf(token, "[GM]%s把你转生设置为%d转!", CHAR_getChar(charaindex, CHAR_NAME), (int)atoi(setTrans));
+		sprintf(token, "\x5B\x47\x4D\x5D\x25\x73\xB0\xD1\xC4\xE3\xD7\xAA\xC9\xFA\xC9\xE8\xD6\xC3\xCE\xAA\x25\x64\xD7\xAA\x21", CHAR_getChar(charaindex, CHAR_NAME), (int)atoi(setTrans));
 		CHAR_talkToCli(i, -1, token, CHAR_COLORYELLOW);
-		sprintf(token, "玩家%s转生设置为%d转!", CHAR_getChar(i, CHAR_NAME), (int)atoi(setTrans));
+		sprintf(token, "\xCD\xE6\xBC\xD2\x25\x73\xD7\xAA\xC9\xFA\xC9\xE8\xD6\xC3\xCE\xAA\x25\x64\xD7\xAA\x21", CHAR_getChar(i, CHAR_NAME), (int)atoi(setTrans));
 		CHAR_talkToCli(charaindex, -1, token, CHAR_COLORYELLOW);
 	} else {
 		CHAR_setInt(charaindex, CHAR_TRANSEQUATION, 0);
 		CHAR_setInt(charaindex, CHAR_TRANSMIGRATION, atoi(setTrans));
 		CHAR_sendCToArroundCharacter(CHAR_getWorkInt(charaindex, CHAR_WORKOBJINDEX));
-		sprintf(token, "转生设置为%d转!", (int)atoi(setTrans));
+		sprintf(token, "\xD7\xAA\xC9\xFA\xC9\xE8\xD6\xC3\xCE\xAA\x25\x64\xD7\xAA\x21", (int)atoi(setTrans));
 		CHAR_talkToCli(charaindex, -1, token, CHAR_COLORYELLOW);
 	}
 }
@@ -2143,12 +2143,12 @@ void CHAR_CHAT_DEBUG_shutup(int charindex, char *message) {
 	easyGetTokenFromString(message, 1, token, sizeof(token));
 	easyGetTokenFromString(message, 2, token1, sizeof(token1));
 	if (strlen(message) == 0) {
-		sprintf(buf, "%s", "参数不正确");
+		sprintf(buf, "%s", "\xB2\xCE\xCA\xFD\xB2\xBB\xD5\xFD\xC8\xB7");
 		CHAR_talkToCli(charindex, -1, buf, CHAR_COLORYELLOW);
 		return;
 	}
 	if (strlen(token1) == 0) {
-		sprintf(buf, "%s", "参数不正确--> ON OFF");
+		sprintf(buf, "%s", "\xB2\xCE\xCA\xFD\xB2\xBB\xD5\xFD\xC8\xB7\x2D\x2D\x3E\x20\x4F\x4E\x20\x4F\x46\x46");
 		CHAR_talkToCli(charindex, -1, buf, CHAR_COLORYELLOW);
 		return;
 	}
@@ -2165,7 +2165,7 @@ void CHAR_CHAT_DEBUG_shutup(int charindex, char *message) {
 					CONNECT_set_shutup(i, TRUE);
 					// print("\n<Set TRUE");
 					snprintf(line, sizeof(line),
-							 "将 name:%s account=%s封嘴",
+							 "\xBD\xAB\x20\x6E\x61\x6D\x65\x3A\x25\x73\x20\x61\x63\x63\x6F\x75\x6E\x74\x3D\x25\x73\xB7\xE2\xD7\xEC",
 							 CHAR_getChar(index, CHAR_NAME),
 							 cdkey);
 					CHAR_talkToCli(charindex, -1, line, CHAR_COLORYELLOW);
@@ -2173,7 +2173,7 @@ void CHAR_CHAT_DEBUG_shutup(int charindex, char *message) {
 					CONNECT_set_shutup(i, FALSE);
 					// print("\n<Set FALSE");
 					snprintf(line, sizeof(line),
-							 "将 name:%s account=%s开口",
+							 "\xBD\xAB\x20\x6E\x61\x6D\x65\x3A\x25\x73\x20\x61\x63\x63\x6F\x75\x6E\x74\x3D\x25\x73\xBF\xAA\xBF\xDA",
 							 CHAR_getChar(index, CHAR_NAME),
 							 cdkey);
 					CHAR_talkToCli(charindex, -1, line, CHAR_COLORYELLOW);
@@ -2273,13 +2273,13 @@ void CHAR_CHAT_DEBUG_waeikick(int charindex, char *message) {
 	unsigned int MAX_USER = 0;
 	int fd_charaindex;
 	if (strlen(message) == 0) {
-		sprintf(buf, "%s", "参数不正确-> 帐号");
+		sprintf(buf, "%s", "\xB2\xCE\xCA\xFD\xB2\xBB\xD5\xFD\xC8\xB7\x2D\x3E\x20\xD5\xCA\xBA\xC5");
 		CHAR_talkToCli(charindex, -1, buf, CHAR_COLORWHITE);
 		return;
 	}
 	easyGetTokenFromString(message, 1, token, sizeof(token));
 	if (strlen(token) == 0) {
-		sprintf(buf, "%s", "参数不正确");
+		sprintf(buf, "%s", "\xB2\xCE\xCA\xFD\xB2\xBB\xD5\xFD\xC8\xB7");
 		CHAR_talkToCli(charindex, -1, buf, CHAR_COLORWHITE);
 		return;
 	}
@@ -2292,8 +2292,8 @@ void CHAR_CHAT_DEBUG_waeikick(int charindex, char *message) {
 			if (strcmp(cdkey, token) == 0) {
 				fd_charaindex = CONNECT_getCharaindex(i);
 				CONNECT_getCharname(i, szName, sizeof(szName));
-				sprintf(kcmsg, "%s挤出服务器。", szName);
-				CHAR_talkToCli(fd_charaindex, -1, "因做坏事而断线。", CHAR_COLORYELLOW);
+				sprintf(kcmsg, "\x25\x73\xBC\xB7\xB3\xF6\xB7\xFE\xCE\xF1\xC6\xF7\xA1\xA3", szName);
+				CHAR_talkToCli(fd_charaindex, -1, "\xD2\xF2\xD7\xF6\xBB\xB5\xCA\xC2\xB6\xF8\xB6\xCF\xCF\xDF\xA1\xA3", CHAR_COLORYELLOW);
 				CONNECT_setCloseRequest(i, 1);
 				print("\nWAEIKICK cdkey=%s", cdkey);
 				find = TRUE;
@@ -2301,7 +2301,7 @@ void CHAR_CHAT_DEBUG_waeikick(int charindex, char *message) {
 		}
 	} // for i
 	if (find) {
-		sprintf(kctalk, "极度大魔王施展超无敌挤奶手「挤挤挤挤挤挤挤．．．．．．．把」");
+		sprintf(kctalk, "\xBC\xAB\xB6\xC8\xB4\xF3\xC4\xA7\xCD\xF5\xCA\xA9\xD5\xB9\xB3\xAC\xCE\xDE\xB5\xD0\xBC\xB7\xC4\xCC\xCA\xD6\xA1\xB8\xBC\xB7\xBC\xB7\xBC\xB7\xBC\xB7\xBC\xB7\xBC\xB7\xBC\xB7\xA3\xAE\xA3\xAE\xA3\xAE\xA3\xAE\xA3\xAE\xA3\xAE\xA3\xAE\xB0\xD1\xA1\xB9");
 		for (i = 0; i < MAX_USER; i++) {
 			int i_use;
 			i_use = CONNECT_getUse(i);
@@ -2341,13 +2341,13 @@ void CHAR_CHAT_DEBUG_jail(int charindex, char *message) {
 	Char *chwk;
 
 	if (strlen(message) == 0) {
-		sprintf(buf, "%s", "参数不正确-> 帐号");
+		sprintf(buf, "%s", "\xB2\xCE\xCA\xFD\xB2\xBB\xD5\xFD\xC8\xB7\x2D\x3E\x20\xD5\xCA\xBA\xC5");
 		CHAR_talkToCli(charindex, -1, buf, CHAR_COLORWHITE);
 		return;
 	}
 	easyGetTokenFromString(message, 1, token, sizeof(token));
 	if (strlen(token) == 0) {
-		sprintf(buf, "%s", "参数不正确");
+		sprintf(buf, "%s", "\xB2\xCE\xCA\xFD\xB2\xBB\xD5\xFD\xC8\xB7");
 		CHAR_talkToCli(charindex, -1, buf, CHAR_COLORWHITE);
 		return;
 	}
@@ -2360,8 +2360,8 @@ void CHAR_CHAT_DEBUG_jail(int charindex, char *message) {
 			if (strcmp(cdkey, token) == 0) {
 				fd_charaindex = CONNECT_getCharaindex(i);
 				CONNECT_getCharname(i, szName, sizeof(szName));
-				sprintf(kcmsg, "%抓入地窖。", szName);
-				CHAR_talkToCli(fd_charaindex, -1, "因长相太差而入狱。", CHAR_COLORYELLOW);
+				sprintf(kcmsg, "\x25\xD7\xA5\xC8\xEB\xB5\xD8\xBD\xD1\xA1\xA3", szName);
+				CHAR_talkToCli(fd_charaindex, -1, "\xD2\xF2\xB3\xA4\xCF\xE0\xCC\xAB\xB2\xEE\xB6\xF8\xC8\xEB\xD3\xFC\xA1\xA3", CHAR_COLORYELLOW);
 				CHAR_setInt(fd_charaindex, CHAR_FLOOR, 117);
 				CHAR_setInt(fd_charaindex, CHAR_X, 225);
 				CHAR_setInt(fd_charaindex, CHAR_Y, 13);
@@ -2388,7 +2388,7 @@ void CHAR_CHAT_DEBUG_jail(int charindex, char *message) {
 		}
 	} // for i
 	if (find) {
-		sprintf(kctalk, "极度大魔王施展超无敌抓奶手「抓抓抓抓抓抓．．．．．．．把」");
+		sprintf(kctalk, "\xBC\xAB\xB6\xC8\xB4\xF3\xC4\xA7\xCD\xF5\xCA\xA9\xD5\xB9\xB3\xAC\xCE\xDE\xB5\xD0\xD7\xA5\xC4\xCC\xCA\xD6\xA1\xB8\xD7\xA5\xD7\xA5\xD7\xA5\xD7\xA5\xD7\xA5\xD7\xA5\xA3\xAE\xA3\xAE\xA3\xAE\xA3\xAE\xA3\xAE\xA3\xAE\xA3\xAE\xB0\xD1\xA1\xB9");
 		for (i = 0; i < MAX_USER; i++) {
 			int i_use;
 			i_use = CONNECT_getUse(i);
@@ -2422,11 +2422,11 @@ void CHAR_CHAT_DEBUG_shutupall(int charindex, char *message) {
 						CONNECT_set_shutup(fd, TRUE);
 						CONNECT_getCdkey(fd, cdkey, sizeof(cdkey));
 						snprintf(line, sizeof(line),
-								 "将 name:%s account=%s封嘴",
+								 "\xBD\xAB\x20\x6E\x61\x6D\x65\x3A\x25\x73\x20\x61\x63\x63\x6F\x75\x6E\x74\x3D\x25\x73\xB7\xE2\xD7\xEC",
 								 CHAR_getChar(chara_index, CHAR_NAME),
 								 cdkey);
 						CHAR_talkToCli(charindex, -1, line, CHAR_COLORWHITE);
-						CHAR_talkToCli(chara_index, -1, "被大魔王封嘴", CHAR_COLORWHITE);
+						CHAR_talkToCli(chara_index, -1, "\xB1\xBB\xB4\xF3\xC4\xA7\xCD\xF5\xB7\xE2\xD7\xEC", CHAR_COLORWHITE);
 					}
 				}
 			} // for object
@@ -2443,34 +2443,34 @@ void CHAR_CHAT_DEBUG_send(int charindex, char *message) {
 	unsigned int MAX_USER = 0;
 	MAX_USER = getFdnum();
 	if (strlen(message) == 0) {
-		sprintf(buf, "%s", "参数不正确-> FLOOR X Y 帐号");
+		sprintf(buf, "%s", "\xB2\xCE\xCA\xFD\xB2\xBB\xD5\xFD\xC8\xB7\x2D\x3E\x20\x46\x4C\x4F\x4F\x52\x20\x58\x20\x59\x20\xD5\xCA\xBA\xC5");
 		CHAR_talkToCli(charindex, -1, buf, CHAR_COLORWHITE);
 		return;
 	}
 	easyGetTokenFromString(message, 1, token, sizeof(token));
 	if (strlen(token) == 0) {
-		sprintf(buf, "%s", "参数不正确-->地图编号");
+		sprintf(buf, "%s", "\xB2\xCE\xCA\xFD\xB2\xBB\xD5\xFD\xC8\xB7\x2D\x2D\x3E\xB5\xD8\xCD\xBC\xB1\xE0\xBA\xC5");
 		CHAR_talkToCli(charindex, -1, buf, CHAR_COLORWHITE);
 		return;
 	}
 	fl = atoi(token);
 	easyGetTokenFromString(message, 2, token, sizeof(token));
 	if (strlen(token) == 0) {
-		sprintf(buf, "%s", "参数不正确-->X座标 ");
+		sprintf(buf, "%s", "\xB2\xCE\xCA\xFD\xB2\xBB\xD5\xFD\xC8\xB7\x2D\x2D\x3E\x58\xD7\xF9\xB1\xEA\x20");
 		CHAR_talkToCli(charindex, -1, buf, CHAR_COLORWHITE);
 		return;
 	}
 	x = atoi(token);
 	easyGetTokenFromString(message, 3, token, sizeof(token));
 	if (strlen(token) == 0) {
-		sprintf(buf, "%s", "参数不正确-->Y座标 ");
+		sprintf(buf, "%s", "\xB2\xCE\xCA\xFD\xB2\xBB\xD5\xFD\xC8\xB7\x2D\x2D\x3E\x59\xD7\xF9\xB1\xEA\x20");
 		CHAR_talkToCli(charindex, -1, buf, CHAR_COLORWHITE);
 		return;
 	}
 	y = atoi(token);
 	easyGetTokenFromString(message, 4, token, sizeof(token));
 	if (strlen(token) == 0) {
-		sprintf(buf, "%s", "参数不正确-->帐号");
+		sprintf(buf, "%s", "\xB2\xCE\xCA\xFD\xB2\xBB\xD5\xFD\xC8\xB7\x2D\x2D\x3E\xD5\xCA\xBA\xC5");
 		CHAR_talkToCli(charindex, -1, buf, CHAR_COLORWHITE);
 		return;
 	}
@@ -2484,10 +2484,10 @@ void CHAR_CHAT_DEBUG_send(int charindex, char *message) {
 				fd_charaindex = CONNECT_getCharaindex(i);
 				CHAR_warpToSpecificPoint(fd_charaindex, fl, x, y);
 				snprintf(line, sizeof(line),
-						 "把 name:%s account=%s 传送到 FL=%d X=%d Y=%d",
+						 "\xB0\xD1\x20\x6E\x61\x6D\x65\x3A\x25\x73\x20\x61\x63\x63\x6F\x75\x6E\x74\x3D\x25\x73\x20\xB4\xAB\xCB\xCD\xB5\xBD\x20\x46\x4C\x3D\x25\x64\x20\x58\x3D\x25\x64\x20\x59\x3D\x25\x64",
 						 szName, cdkey, fl, x, y);
 				CHAR_talkToCli(charindex, -1, line, CHAR_COLORWHITE);
-				CHAR_talkToCli(fd_charaindex, -1, "＊.＊被极度大魔王传送", CHAR_COLORWHITE);
+				CHAR_talkToCli(fd_charaindex, -1, "\xA3\xAA\x2E\xA3\xAA\xB1\xBB\xBC\xAB\xB6\xC8\xB4\xF3\xC4\xA7\xCD\xF5\xB4\xAB\xCB\xCD", CHAR_COLORWHITE);
 			}
 		}
 	}
@@ -2503,8 +2503,8 @@ void CHAR_CHAT_DEBUG_noenemy(int charaindex, char *message) {
 		int fd = CHAR_getWorkInt(charaindex, CHAR_WORKFD);
 		setEqNoenemy(fd, 0);
 	}
-	snprintf(msgbuf, sizeof(msgbuf), "不遇敌模式%s。",
-			 (flg == TRUE) ? "开启" : "关闭");
+	snprintf(msgbuf, sizeof(msgbuf), "\xB2\xBB\xD3\xF6\xB5\xD0\xC4\xA3\xCA\xBD\x25\x73\xA1\xA3",
+			 (flg == TRUE) ? "\xBF\xAA\xC6\xF4" : "\xB9\xD8\xB1\xD5");
 
 	CHAR_talkToCli(charaindex, -1, msgbuf, CHAR_COLORWHITE);
 }
@@ -2520,7 +2520,7 @@ void CHAR_CHAT_DEBUG_loginannounce(int charaindex, char *message) {
 	if (message == NULL)
 		return;
 	if (strlen(message) == 0) {
-		sprintf(buf, "%s", "参数不正确-> clear/add/send 请用小写");
+		sprintf(buf, "%s", "\xB2\xCE\xCA\xFD\xB2\xBB\xD5\xFD\xC8\xB7\x2D\x3E\x20\x63\x6C\x65\x61\x72\x2F\x61\x64\x64\x2F\x73\x65\x6E\x64\x20\xC7\xEB\xD3\xC3\xD0\xA1\xD0\xB4");
 		CHAR_talkToCli(charaindex, -1, buf, CHAR_COLORWHITE);
 		return;
 	}
@@ -2528,7 +2528,7 @@ void CHAR_CHAT_DEBUG_loginannounce(int charaindex, char *message) {
 	if (strcmp(cmd, "clear") == 0) {
 		FILE *f = fopen(ANNOUNCEFILE, "w");
 
-		strcpy(buf, "石器时代公告\n");
+		strcpy(buf, "\xCA\xAF\xC6\xF7\xCA\xB1\xB4\xFA\xB9\xAB\xB8\xE6\x5C\x6E");
 		fwrite(buf, strlen(buf), 1, f);
 		fclose(f);
 		LoadAnnounce();
@@ -2538,14 +2538,14 @@ void CHAR_CHAT_DEBUG_loginannounce(int charaindex, char *message) {
 
 		easyGetTokenFromString(message, 2, say, sizeof(say));
 		if (strlen(say) == 0) {
-			sprintf(buf, "%s", "参数不正确");
+			sprintf(buf, "%s", "\xB2\xCE\xCA\xFD\xB2\xBB\xD5\xFD\xC8\xB7");
 			CHAR_talkToCli(charaindex, -1, buf, CHAR_COLORWHITE);
 			return;
 		}
 
 		if (!(f = fopen(ANNOUNCEFILE, "a+"))) {
 			f = fopen(ANNOUNCEFILE, "w");
-			strcpy(buf, "石器时代公告\n");
+			strcpy(buf, "\xCA\xAF\xC6\xF7\xCA\xB1\xB4\xFA\xB9\xAB\xB8\xE6\x5C\x6E");
 			fwrite(buf, strlen(buf), 1, f);
 		}
 		fwrite(say, strlen(say), 1, f);
@@ -2563,7 +2563,7 @@ void CHAR_CHAT_DEBUG_loginannounce(int charaindex, char *message) {
 		LoadAnnounce();
 		CHAR_talkToCli(charaindex, -1, "OK, loginannounce loaded.", CHAR_COLORWHITE);
 	} else {
-		sprintf(buf, "%s", "参数不正确-> clear/add/send (请用小写)");
+		sprintf(buf, "%s", "\xB2\xCE\xCA\xFD\xB2\xBB\xD5\xFD\xC8\xB7\x2D\x3E\x20\x63\x6C\x65\x61\x72\x2F\x61\x64\x64\x2F\x73\x65\x6E\x64\x20\x28\xC7\xEB\xD3\xC3\xD0\xA1\xD0\xB4\x29");
 		CHAR_talkToCli(charaindex, -1, buf, CHAR_COLORWHITE);
 		return;
 	}
@@ -2572,7 +2572,7 @@ void CHAR_CHAT_DEBUG_loginannounce(int charaindex, char *message) {
 void CHAR_CHAT_DEBUG_checklock(int charaindex, char *message) {
 	char cmd[256];
 	if (strlen(message) == 0) {
-		CHAR_talkToCli(charaindex, -1, "参数不正确", CHAR_COLORWHITE);
+		CHAR_talkToCli(charaindex, -1, "\xB2\xCE\xCA\xFD\xB2\xBB\xD5\xFD\xC8\xB7", CHAR_COLORWHITE);
 		return;
 	}
 	easyGetTokenFromString(message, 1, cmd, sizeof(cmd));
@@ -2586,7 +2586,7 @@ void CHAR_CHAT_DEBUG_unlock(int charaindex, char *message) {
 #endif
 
 	if (strlen(message) == 0) {
-		CHAR_talkToCli(charaindex, -1, "参数不正确", CHAR_COLORWHITE);
+		CHAR_talkToCli(charaindex, -1, "\xB2\xCE\xCA\xFD\xB2\xBB\xD5\xFD\xC8\xB7", CHAR_COLORWHITE);
 		return;
 	}
 	easyGetTokenFromString(message, 1, cmd, sizeof(cmd));
@@ -2601,7 +2601,7 @@ void CHAR_CHAT_DEBUG_unlockserver(int charaindex, char *message) {
 	char cmd[256];
 
 	if (strlen(message) == 0) {
-		CHAR_talkToCli(charaindex, -1, "参数不正确", CHAR_COLORWHITE);
+		CHAR_talkToCli(charaindex, -1, "\xB2\xCE\xCA\xFD\xB2\xBB\xD5\xFD\xC8\xB7", CHAR_COLORWHITE);
 		return;
 	}
 	easyGetTokenFromString(message, 1, cmd, sizeof(cmd));
@@ -2613,24 +2613,24 @@ void CHAR_CHAT_DEBUG_fixfmdata(int charaindex, char *message) {
 	int i, index = -1, charindex = -1, iPlayerNum = CHAR_getPlayerMaxNum();
 
 	if (message == NULL || getStringFromIndexWithDelim(message, " ", 1, szFamilyID, sizeof(szFamilyID)) == FALSE) {
-		CHAR_talkToCli(charaindex, -1, "参数不正确 [fixfmdata <家族ID> <帐号(or -1)> <cmd> <data>]", CHAR_COLORRED);
+		CHAR_talkToCli(charaindex, -1, "\xB2\xCE\xCA\xFD\xB2\xBB\xD5\xFD\xC8\xB7\x20\x5B\x66\x69\x78\x66\x6D\x64\x61\x74\x61\x20\x3C\xBC\xD2\xD7\xE5\x49\x44\x3E\x20\x3C\xD5\xCA\xBA\xC5\x28\x6F\x72\x20\x2D\x31\x29\x3E\x20\x3C\x63\x6D\x64\x3E\x20\x3C\x64\x61\x74\x61\x3E\x5D", CHAR_COLORRED);
 		return;
 	}
 	if (message == NULL || getStringFromIndexWithDelim(message, " ", 2, szID, sizeof(szID)) == FALSE) {
-		CHAR_talkToCli(charaindex, -1, "参数不正确 [fixfmdata <家族ID> <帐号(or -1)> <cmd> <data>]", CHAR_COLORRED);
+		CHAR_talkToCli(charaindex, -1, "\xB2\xCE\xCA\xFD\xB2\xBB\xD5\xFD\xC8\xB7\x20\x5B\x66\x69\x78\x66\x6D\x64\x61\x74\x61\x20\x3C\xBC\xD2\xD7\xE5\x49\x44\x3E\x20\x3C\xD5\xCA\xBA\xC5\x28\x6F\x72\x20\x2D\x31\x29\x3E\x20\x3C\x63\x6D\x64\x3E\x20\x3C\x64\x61\x74\x61\x3E\x5D", CHAR_COLORRED);
 		return;
 	}
 	if (message == NULL || getStringFromIndexWithDelim(message, " ", 3, szCmd, sizeof(szCmd)) == FALSE) {
-		CHAR_talkToCli(charaindex, -1, "参数不正确 [fixfmdata <家族ID> <帐号(or -1)> <cmd> <data>]", CHAR_COLORRED);
+		CHAR_talkToCli(charaindex, -1, "\xB2\xCE\xCA\xFD\xB2\xBB\xD5\xFD\xC8\xB7\x20\x5B\x66\x69\x78\x66\x6D\x64\x61\x74\x61\x20\x3C\xBC\xD2\xD7\xE5\x49\x44\x3E\x20\x3C\xD5\xCA\xBA\xC5\x28\x6F\x72\x20\x2D\x31\x29\x3E\x20\x3C\x63\x6D\x64\x3E\x20\x3C\x64\x61\x74\x61\x3E\x5D", CHAR_COLORRED);
 		return;
 	}
 	if (message == NULL || getStringFromIndexWithDelim(message, " ", 4, szData, sizeof(szData)) == FALSE) {
-		CHAR_talkToCli(charaindex, -1, "参数不正确 [fixfmdata <家族ID> <帐号(or -1)> <cmd> <data>]", CHAR_COLORRED);
+		CHAR_talkToCli(charaindex, -1, "\xB2\xCE\xCA\xFD\xB2\xBB\xD5\xFD\xC8\xB7\x20\x5B\x66\x69\x78\x66\x6D\x64\x61\x74\x61\x20\x3C\xBC\xD2\xD7\xE5\x49\x44\x3E\x20\x3C\xD5\xCA\xBA\xC5\x28\x6F\x72\x20\x2D\x31\x29\x3E\x20\x3C\x63\x6D\x64\x3E\x20\x3C\x64\x61\x74\x61\x3E\x5D", CHAR_COLORRED);
 		return;
 	}
 	index = atoi(szFamilyID);
 	if (index < 1 || index > 1000) {
-		CHAR_talkToCli(charaindex, -1, "id 值错误", CHAR_COLORRED);
+		CHAR_talkToCli(charaindex, -1, "\x69\x64\x20\xD6\xB5\xB4\xED\xCE\xF3", CHAR_COLORRED);
 		return;
 	}
 	index -= 1;
@@ -2644,15 +2644,15 @@ void CHAR_CHAT_DEBUG_fixfmdata(int charaindex, char *message) {
 			}
 		}
 		if (charindex == -1) {
-			CHAR_talkToCli(charaindex, -1, "找不到此帐号的人物", CHAR_COLORRED);
+			CHAR_talkToCli(charaindex, -1, "\xD5\xD2\xB2\xBB\xB5\xBD\xB4\xCB\xD5\xCA\xBA\xC5\xB5\xC4\xC8\xCB\xCE\xEF", CHAR_COLORRED);
 			return;
 		}
 		if (CHAR_getInt(charindex, CHAR_FMINDEX) == -1) {
-			CHAR_talkToCli(charaindex, -1, "此帐号的人物没有家族", CHAR_COLORRED);
+			CHAR_talkToCli(charaindex, -1, "\xB4\xCB\xD5\xCA\xBA\xC5\xB5\xC4\xC8\xCB\xCE\xEF\xC3\xBB\xD3\xD0\xBC\xD2\xD7\xE5", CHAR_COLORRED);
 			return;
 		} else {
 			if (CHAR_getWorkInt(charindex, CHAR_WORKFMINDEXI) != index) {
-				CHAR_talkToCli(charaindex, -1, "此帐号的人物家族ID与输入的家族ID不符", CHAR_COLORRED);
+				CHAR_talkToCli(charaindex, -1, "\xB4\xCB\xD5\xCA\xBA\xC5\xB5\xC4\xC8\xCB\xCE\xEF\xBC\xD2\xD7\xE5\x49\x44\xD3\xEB\xCA\xE4\xC8\xEB\xB5\xC4\xBC\xD2\xD7\xE5\x49\x44\xB2\xBB\xB7\xFB", CHAR_COLORRED);
 				return;
 			}
 		}
@@ -2669,7 +2669,7 @@ void CHAR_CHAT_DEBUG_fixfmleader(int charaindex, char *message) {
 	extern struct FMMEMBER_LIST memberlist[FAMILY_MAXNUM];
 
 	if (strlen(message) == 0) {
-		CHAR_talkToCli(charaindex, -1, "参数不正确 [fixfmleader 帐号 1]", CHAR_COLORWHITE);
+		CHAR_talkToCli(charaindex, -1, "\xB2\xCE\xCA\xFD\xB2\xBB\xD5\xFD\xC8\xB7\x20\x5B\x66\x69\x78\x66\x6D\x6C\x65\x61\x64\x65\x72\x20\xD5\xCA\xBA\xC5\x20\x31\x5D", CHAR_COLORWHITE);
 		return;
 	}
 
@@ -2692,7 +2692,7 @@ void CHAR_CHAT_DEBUG_fixfmleader(int charaindex, char *message) {
 	}
 
 	if (user_index == -1) {
-		CHAR_talkToCli(charaindex, -1, "玩家不在线上!!", CHAR_COLORWHITE);
+		CHAR_talkToCli(charaindex, -1, "\xCD\xE6\xBC\xD2\xB2\xBB\xD4\xDA\xCF\xDF\xC9\xCF\x21\x21", CHAR_COLORWHITE);
 		return;
 	}
 
@@ -2702,11 +2702,11 @@ void CHAR_CHAT_DEBUG_fixfmleader(int charaindex, char *message) {
 	if (!flag) {
 
 		if (strcmp(memberlist[index].numberlistarray[0], "") == 0) {
-			CHAR_talkToCli(charaindex, -1, "此家族已有族长了!!", CHAR_COLORWHITE);
+			CHAR_talkToCli(charaindex, -1, "\xB4\xCB\xBC\xD2\xD7\xE5\xD2\xD1\xD3\xD0\xD7\xE5\xB3\xA4\xC1\xCB\x21\x21", CHAR_COLORWHITE);
 			return;
 		}
 		if (CHAR_getInt(user_index, CHAR_FMLEADERFLAG) == FMMEMBER_LEADER) {
-			CHAR_talkToCli(charaindex, -1, "玩家是其它家族的族长!!", CHAR_COLORWHITE);
+			CHAR_talkToCli(charaindex, -1, "\xCD\xE6\xBC\xD2\xCA\xC7\xC6\xE4\xCB\xFC\xBC\xD2\xD7\xE5\xB5\xC4\xD7\xE5\xB3\xA4\x21\x21", CHAR_COLORWHITE);
 			return;
 		}
 		saacproto_ACGMFixFMData_send(acfd, index, id, " ", " ", getFdidFromCharaIndex(charaindex));
@@ -2751,7 +2751,7 @@ void CHAR_CHAT_DEBUG_manorpk(int charaindex, char *message) {
 	if (message == NULL)
 		return;
 	if (strlen(message) == 0) {
-		sprintf(buf, "%s", "参数不正确。 [manorpk <allpeace/allreset/clean> id]");
+		sprintf(buf, "%s", "\xB2\xCE\xCA\xFD\xB2\xBB\xD5\xFD\xC8\xB7\xA1\xA3\x20\x5B\x6D\x61\x6E\x6F\x72\x70\x6B\x20\x3C\x61\x6C\x6C\x70\x65\x61\x63\x65\x2F\x61\x6C\x6C\x72\x65\x73\x65\x74\x2F\x63\x6C\x65\x61\x6E\x3E\x20\x69\x64\x5D");
 		CHAR_talkToCli(charaindex, -1, buf, CHAR_COLORWHITE);
 		return;
 	}
@@ -2767,7 +2767,7 @@ void CHAR_CHAT_DEBUG_manorpk(int charaindex, char *message) {
 		easyGetTokenFromString(message, 2, cmd, sizeof(cmd));
 		manorid = atoi(cmd);
 		if ((manorid < 1) || (manorid > MANORNUM)) {
-			sprintf(buf, "%s", "参数不正确。 id 必须在 1~10 之间。");
+			sprintf(buf, "%s", "\xB2\xCE\xCA\xFD\xB2\xBB\xD5\xFD\xC8\xB7\xA1\xA3\x20\x69\x64\x20\xB1\xD8\xD0\xEB\xD4\xDA\x20\x31\x7E\x31\x30\x20\xD6\xAE\xBC\xE4\xA1\xA3");
 			CHAR_talkToCli(charaindex, -1, buf, CHAR_COLORWHITE);
 			return;
 		}
@@ -2780,7 +2780,7 @@ void CHAR_CHAT_DEBUG_manorpk(int charaindex, char *message) {
 #ifdef _NEW_MANOR_LAW
 					CHAR_setWorkInt(i, CHAR_NPCWORKINT6, tm1.tm_mday);
 #endif
-					sprintf(buf, "%d peace。", CHAR_getWorkInt(i, CHAR_NPCWORKINT2));
+					sprintf(buf, "\x25\x64\x20\x70\x65\x61\x63\x65\xA1\xA3", CHAR_getWorkInt(i, CHAR_NPCWORKINT2));
 					CHAR_talkToCli(charaindex, -1, buf, CHAR_COLORWHITE);
 				}
 			}
@@ -2794,7 +2794,7 @@ void CHAR_CHAT_DEBUG_manorpk(int charaindex, char *message) {
 		easyGetTokenFromString(message, 2, cmd, sizeof(cmd));
 		manorid = atoi(cmd);
 		if ((manorid < 1) || (manorid > MANORNUM)) {
-			sprintf(buf, "%s", "参数不正确。 id 必须在 1~9 之间。");
+			sprintf(buf, "%s", "\xB2\xCE\xCA\xFD\xB2\xBB\xD5\xFD\xC8\xB7\xA1\xA3\x20\x69\x64\x20\xB1\xD8\xD0\xEB\xD4\xDA\x20\x31\x7E\x39\x20\xD6\xAE\xBC\xE4\xA1\xA3");
 			CHAR_talkToCli(charaindex, -1, buf, CHAR_COLORWHITE);
 			return;
 		}
@@ -2826,7 +2826,7 @@ void CHAR_CHAT_DEBUG_manorpk(int charaindex, char *message) {
 		data = atoi(cmd);
 		saacproto_ACreLoadFmData_send(acfd, type, data);
 	} else {
-		sprintf(buf, "%s", "参数不正确。 [manorpk <allpeace/peace> id]");
+		sprintf(buf, "%s", "\xB2\xCE\xCA\xFD\xB2\xBB\xD5\xFD\xC8\xB7\xA1\xA3\x20\x5B\x6D\x61\x6E\x6F\x72\x70\x6B\x20\x3C\x61\x6C\x6C\x70\x65\x61\x63\x65\x2F\x70\x65\x61\x63\x65\x3E\x20\x69\x64\x5D");
 		CHAR_talkToCli(charaindex, -1, buf, CHAR_COLORWHITE);
 	}
 }
@@ -2860,7 +2860,7 @@ void CHAR_CHAT_DEBUG_watchevent(int charaindex, char *message) {
 		getStringFromIndexWithDelim(message, " ", 1, token_cdkey, sizeof(token_cdkey));
 		getStringFromIndexWithDelim(message, " ", 2, token_name, sizeof(token_name));
 		if (strlen(token_cdkey) == 0 || strlen(token_name) == 0) {
-			sprintf(buf, "%s", "参数不正确。正确格式：[wahctevent 帐号 人物名称]");
+			sprintf(buf, "%s", "\xB2\xCE\xCA\xFD\xB2\xBB\xD5\xFD\xC8\xB7\xA1\xA3\xD5\xFD\xC8\xB7\xB8\xF1\xCA\xBD\xA3\xBA\x5B\x77\x61\x68\x63\x74\x65\x76\x65\x6E\x74\x20\xD5\xCA\xBA\xC5\x20\xC8\xCB\xCE\xEF\xC3\xFB\xB3\xC6\x5D");
 			CHAR_talkToCli(charaindex, -1, buf, CHAR_COLORWHITE);
 			return;
 		}
@@ -2920,7 +2920,7 @@ void CHAR_CHAT_DEBUG_watchevent(int charaindex, char *message) {
 		}
 		CHAR_talkToCli(charaindex, -1, buf, CHAR_COLORWHITE);
 	} else {
-		sprintf(buf, "%s\n", "失败！！帐号与人物名称无法相符。");
+		sprintf(buf, "%s\n", "\xCA\xA7\xB0\xDC\xA3\xA1\xA3\xA1\xD5\xCA\xBA\xC5\xD3\xEB\xC8\xCB\xCE\xEF\xC3\xFB\xB3\xC6\xCE\xDE\xB7\xA8\xCF\xE0\xB7\xFB\xA1\xA3");
 		CHAR_talkToCli(charaindex, -1, buf, CHAR_COLORWHITE);
 	}
 }
@@ -2936,7 +2936,7 @@ void CHAR_CHAT_DEBUG_gmreload(int charaindex, char *message) {
 	if (message == NULL)
 		return;
 	if (strlen(message) == 0) {
-		sprintf(buf, "%s", "参数不正确，[gmreload all] 或 [gmreload id level(1~3)] level 3:工程师,2:组长级,1:一般gm");
+		sprintf(buf, "%s", "\xB2\xCE\xCA\xFD\xB2\xBB\xD5\xFD\xC8\xB7\xA3\xAC\x5B\x67\x6D\x72\x65\x6C\x6F\x61\x64\x20\x61\x6C\x6C\x5D\x20\xBB\xF2\x20\x5B\x67\x6D\x72\x65\x6C\x6F\x61\x64\x20\x69\x64\x20\x6C\x65\x76\x65\x6C\x28\x31\x7E\x33\x29\x5D\x20\x6C\x65\x76\x65\x6C\x20\x33\x3A\xB9\xA4\xB3\xCC\xCA\xA6\x2C\x32\x3A\xD7\xE9\xB3\xA4\xBC\xB6\x2C\x31\x3A\xD2\xBB\xB0\xE3\x67\x6D");
 		CHAR_talkToCli(charaindex, -1, buf, CHAR_COLORWHITE);
 		return;
 	}
@@ -2950,38 +2950,38 @@ void CHAR_CHAT_DEBUG_gmreload(int charaindex, char *message) {
 	easyGetTokenFromString(message, 1, id, sizeof(id));
 	if (strcmp(id, "all") == 0) {
 		if (charlevel != 3) {
-			CHAR_talkToCli(charaindex, -1, "你没有修改ＧＭ等级的权限！", CHAR_COLORWHITE);
+			CHAR_talkToCli(charaindex, -1, "\xC4\xE3\xC3\xBB\xD3\xD0\xD0\xDE\xB8\xC4\xA3\xC7\xA3\xCD\xB5\xC8\xBC\xB6\xB5\xC4\xC8\xA8\xCF\xDE\xA3\xA1", CHAR_COLORWHITE);
 			return;
 		}
 		if (LoadGMSet(getGMSetfile()))
-			CHAR_talkToCli(charaindex, -1, "再次读取ＧＭ基本设定ＯＫ！", CHAR_COLORWHITE);
+			CHAR_talkToCli(charaindex, -1, "\xD4\xD9\xB4\xCE\xB6\xC1\xC8\xA1\xA3\xC7\xA3\xCD\xBB\xF9\xB1\xBE\xC9\xE8\xB6\xA8\xA3\xCF\xA3\xCB\xA3\xA1", CHAR_COLORWHITE);
 		else
-			CHAR_talkToCli(charaindex, -1, "再次读取ＧＭ基本设定失败！", CHAR_COLORRED);
+			CHAR_talkToCli(charaindex, -1, "\xD4\xD9\xB4\xCE\xB6\xC1\xC8\xA1\xA3\xC7\xA3\xCD\xBB\xF9\xB1\xBE\xC9\xE8\xB6\xA8\xCA\xA7\xB0\xDC\xA3\xA1", CHAR_COLORRED);
 	} else {
 		int changeflag = 0;
 		char tmpbuf[256];
 		easyGetTokenFromString(message, 2, clevel, sizeof(clevel));
 		level = atoi(clevel);
 		if (level > 4 || level < 1 || level > gminfo[i].level) {
-			CHAR_talkToCli(charaindex, -1, "修改失败，无法将此帐号等级修改的比自己等级高！level(1~3)", CHAR_COLORWHITE);
+			CHAR_talkToCli(charaindex, -1, "\xD0\xDE\xB8\xC4\xCA\xA7\xB0\xDC\xA3\xAC\xCE\xDE\xB7\xA8\xBD\xAB\xB4\xCB\xD5\xCA\xBA\xC5\xB5\xC8\xBC\xB6\xD0\xDE\xB8\xC4\xB5\xC4\xB1\xC8\xD7\xD4\xBC\xBA\xB5\xC8\xBC\xB6\xB8\xDF\xA3\xA1\x6C\x65\x76\x65\x6C\x28\x31\x7E\x33\x29", CHAR_COLORWHITE);
 			return;
 		}
 		for (i = 0; i < GMMAXNUM; i++) {
 			if (strcmp(id, gminfo[i].cdkey) == 0) {
 				if (gminfo[i].level > charlevel) {
-					snprintf(tmpbuf, sizeof(tmpbuf), "修改失败，无法修改等级比自己高的帐号！");
+					snprintf(tmpbuf, sizeof(tmpbuf), "\xD0\xDE\xB8\xC4\xCA\xA7\xB0\xDC\xA3\xAC\xCE\xDE\xB7\xA8\xD0\xDE\xB8\xC4\xB5\xC8\xBC\xB6\xB1\xC8\xD7\xD4\xBC\xBA\xB8\xDF\xB5\xC4\xD5\xCA\xBA\xC5\xA3\xA1");
 					CHAR_talkToCli(charaindex, -1, tmpbuf, CHAR_COLORWHITE);
 					return;
 				}
 				gminfo[i].level = level;
-				snprintf(tmpbuf, sizeof(tmpbuf), "修改%s等级为%dＯＫ！", gminfo[i].cdkey, gminfo[i].level);
+				snprintf(tmpbuf, sizeof(tmpbuf), "\xD0\xDE\xB8\xC4\x25\x73\xB5\xC8\xBC\xB6\xCE\xAA\x25\x64\xA3\xCF\xA3\xCB\xA3\xA1", gminfo[i].cdkey, gminfo[i].level);
 				CHAR_talkToCli(charaindex, -1, tmpbuf, CHAR_COLORWHITE);
 				changeflag = 1;
 				break;
 			}
 		}
 		if (changeflag == 0) {
-			snprintf(tmpbuf, sizeof(tmpbuf), "ＧＭ列表中查无此帐号，修改失败！");
+			snprintf(tmpbuf, sizeof(tmpbuf), "\xA3\xC7\xA3\xCD\xC1\xD0\xB1\xED\xD6\xD0\xB2\xE9\xCE\xDE\xB4\xCB\xD5\xCA\xBA\xC5\xA3\xAC\xD0\xDE\xB8\xC4\xCA\xA7\xB0\xDC\xA3\xA1");
 			CHAR_talkToCli(charaindex, -1, tmpbuf, CHAR_COLORWHITE);
 		}
 	}
@@ -3063,7 +3063,7 @@ void CHAR_CHAT_DEBUG_setBattle(int charaindex, char *message) {
 void CHAR_CHAT_DEBUG_reloadpkteamlist(int charaindex, char *message) {
 #ifdef _DEATH_CONTEND // (不可开) ANDY 死斗
 	ABATTLE_InitABattle(19);
-	CHAR_talkToCli(charaindex, -1, "重读比赛队伍列表完成", CHAR_COLORWHITE);
+	CHAR_talkToCli(charaindex, -1, "\xD6\xD8\xB6\xC1\xB1\xC8\xC8\xFC\xB6\xD3\xCE\xE9\xC1\xD0\xB1\xED\xCD\xEA\xB3\xC9", CHAR_COLORWHITE);
 #endif
 }
 
@@ -3361,7 +3361,7 @@ void CHAR_CHAT_DEBUG_cleanfloor(int charaindex, char *message) {
 			goldnum++;
 		}
 	}
-	sprintf(buf, "清除 宠物:%d只，道具:%d个，石币:%d个。", petnum, itemnum, goldnum);
+	sprintf(buf, "\xC7\xE5\xB3\xFD\x20\xB3\xE8\xCE\xEF\x3A\x25\x64\xD6\xBB\xA3\xAC\xB5\xC0\xBE\xDF\x3A\x25\x64\xB8\xF6\xA3\xAC\xCA\xAF\xB1\xD2\x3A\x25\x64\xB8\xF6\xA1\xA3", petnum, itemnum, goldnum);
 	CHAR_talkToCli(charaindex, -1, buf, CHAR_COLORYELLOW);
 	return;
 }
@@ -3403,7 +3403,7 @@ void CHAR_CHAT_DEBUG_setgamblenum(int charaindex, char *message) {
 		set_num = 10000;
 	CHAR_setInt(charaindex, CHAR_GAMBLENUM, set_num);
 
-	sprintf(buf, "个人游乐场积分设为%d点。", CHAR_getInt(charaindex, CHAR_GAMBLENUM));
+	sprintf(buf, "\xB8\xF6\xC8\xCB\xD3\xCE\xC0\xD6\xB3\xA1\xBB\xFD\xB7\xD6\xC9\xE8\xCE\xAA\x25\x64\xB5\xE3\xA1\xA3", CHAR_getInt(charaindex, CHAR_GAMBLENUM));
 	CHAR_talkToCli(charaindex, -1, buf, CHAR_COLORYELLOW);
 	return;
 }
@@ -3434,12 +3434,12 @@ void CHAR_CHAT_DEBUG_petlevelup(int charaindex, char *message) {
 			}
 		}
 		if (i >= playernum) {
-			CHAR_talkToCli(charaindex, -1, "此账号不在线~", CHAR_COLORYELLOW);
+			CHAR_talkToCli(charaindex, -1, "\xB4\xCB\xD5\xCB\xBA\xC5\xB2\xBB\xD4\xDA\xCF\xDF\x7E", CHAR_COLORYELLOW);
 			return;
 		}
 		petindex = CHAR_getCharPet(i, petid);
 		if (!CHAR_CHECKINDEX(petindex)) {
-			sprintf(token, "玩家%s宠物栏%d上没宠物!", CHAR_getChar(i, CHAR_NAME), petid + 1);
+			sprintf(token, "\xCD\xE6\xBC\xD2\x25\x73\xB3\xE8\xCE\xEF\xC0\xB8\x25\x64\xC9\xCF\xC3\xBB\xB3\xE8\xCE\xEF\x21", CHAR_getChar(i, CHAR_NAME), petid + 1);
 			CHAR_talkToCli(i, -1, token, CHAR_COLORYELLOW);
 			return;
 		}
@@ -3452,14 +3452,14 @@ void CHAR_CHAT_DEBUG_petlevelup(int charaindex, char *message) {
 		}
 		CHAR_complianceParameter(petindex);
 		CHAR_setInt(petindex, CHAR_HP, CHAR_getWorkInt(petindex, CHAR_WORKMAXHP));
-		sprintf(token, "[GM]%s把你宠物栏%d的宠物设为%d级!", CHAR_getChar(charaindex, CHAR_NAME), petid + 1, CHAR_getInt(petindex, CHAR_LV));
+		sprintf(token, "\x5B\x47\x4D\x5D\x25\x73\xB0\xD1\xC4\xE3\xB3\xE8\xCE\xEF\xC0\xB8\x25\x64\xB5\xC4\xB3\xE8\xCE\xEF\xC9\xE8\xCE\xAA\x25\x64\xBC\xB6\x21", CHAR_getChar(charaindex, CHAR_NAME), petid + 1, CHAR_getInt(petindex, CHAR_LV));
 		CHAR_talkToCli(i, -1, token, CHAR_COLORYELLOW);
-		sprintf(token, "玩家%s的宠物栏%d的宠物设为%d级!", CHAR_getChar(i, CHAR_NAME), petid + 1, CHAR_getInt(petindex, CHAR_LV));
+		sprintf(token, "\xCD\xE6\xBC\xD2\x25\x73\xB5\xC4\xB3\xE8\xCE\xEF\xC0\xB8\x25\x64\xB5\xC4\xB3\xE8\xCE\xEF\xC9\xE8\xCE\xAA\x25\x64\xBC\xB6\x21", CHAR_getChar(i, CHAR_NAME), petid + 1, CHAR_getInt(petindex, CHAR_LV));
 		CHAR_talkToCli(charaindex, -1, token, CHAR_COLORYELLOW);
 	} else {
 		petindex = CHAR_getCharPet(charaindex, petid);
 		if (!CHAR_CHECKINDEX(petindex)) {
-			sprintf(token, "你的宠物栏%d上没宠物!", petid + 1);
+			sprintf(token, "\xC4\xE3\xB5\xC4\xB3\xE8\xCE\xEF\xC0\xB8\x25\x64\xC9\xCF\xC3\xBB\xB3\xE8\xCE\xEF\x21", petid + 1);
 			CHAR_talkToCli(i, -1, token, CHAR_COLORYELLOW);
 			return;
 		}
@@ -3472,7 +3472,7 @@ void CHAR_CHAT_DEBUG_petlevelup(int charaindex, char *message) {
 		}
 		CHAR_complianceParameter(petindex);
 		CHAR_setInt(petindex, CHAR_HP, CHAR_getWorkInt(petindex, CHAR_WORKMAXHP));
-		sprintf(token, "把宠物栏%d的宠物设为%d级!", petid + 1, CHAR_getInt(petindex, CHAR_LV));
+		sprintf(token, "\xB0\xD1\xB3\xE8\xCE\xEF\xC0\xB8\x25\x64\xB5\xC4\xB3\xE8\xCE\xEF\xC9\xE8\xCE\xAA\x25\x64\xBC\xB6\x21", petid + 1, CHAR_getInt(petindex, CHAR_LV));
 		CHAR_talkToCli(charaindex, -1, token, CHAR_COLORYELLOW);
 	}
 }
@@ -3498,31 +3498,31 @@ void CHAR_CHAT_DEBUG_petexpup(int charaindex, char *message) {
 			}
 		}
 		if (i >= playernum) {
-			CHAR_talkToCli(charaindex, -1, "此账号不在线~", CHAR_COLORYELLOW);
+			CHAR_talkToCli(charaindex, -1, "\xB4\xCB\xD5\xCB\xBA\xC5\xB2\xBB\xD4\xDA\xCF\xDF\x7E", CHAR_COLORYELLOW);
 			return;
 		}
 		petindex = CHAR_getCharPet(i, petid);
 		if (!CHAR_CHECKINDEX(petindex)) {
-			sprintf(token, "玩家%s宠物栏%d上没宠物!", CHAR_getChar(i, CHAR_NAME), petid + 1);
+			sprintf(token, "\xCD\xE6\xBC\xD2\x25\x73\xB3\xE8\xCE\xEF\xC0\xB8\x25\x64\xC9\xCF\xC3\xBB\xB3\xE8\xCE\xEF\x21", CHAR_getChar(i, CHAR_NAME), petid + 1);
 			CHAR_talkToCli(i, -1, token, CHAR_COLORYELLOW);
 			return;
 		}
 		CHAR_setMaxExp(petindex, atoi(exp));
 		CHAR_send_P_StatusString(i, CHAR_P_STRING_EXP);
-		sprintf(token, "[GM]%s把你的经验设置为%d!", CHAR_getChar(charaindex, CHAR_NAME), (int)atoi(exp));
+		sprintf(token, "\x5B\x47\x4D\x5D\x25\x73\xB0\xD1\xC4\xE3\xB5\xC4\xBE\xAD\xD1\xE9\xC9\xE8\xD6\xC3\xCE\xAA\x25\x64\x21", CHAR_getChar(charaindex, CHAR_NAME), (int)atoi(exp));
 		CHAR_talkToCli(i, -1, token, CHAR_COLORYELLOW);
-		sprintf(token, "玩家%s的经验设置为%d!", CHAR_getChar(i, CHAR_NAME), (int)atoi(exp));
+		sprintf(token, "\xCD\xE6\xBC\xD2\x25\x73\xB5\xC4\xBE\xAD\xD1\xE9\xC9\xE8\xD6\xC3\xCE\xAA\x25\x64\x21", CHAR_getChar(i, CHAR_NAME), (int)atoi(exp));
 		CHAR_talkToCli(charaindex, -1, token, CHAR_COLORYELLOW);
 	} else {
 		petindex = CHAR_getCharPet(charaindex, petid);
 		if (!CHAR_CHECKINDEX(petindex)) {
-			sprintf(token, "玩家%s宠物栏%d上没宠物!", CHAR_getChar(i, CHAR_NAME), petid + 1);
+			sprintf(token, "\xCD\xE6\xBC\xD2\x25\x73\xB3\xE8\xCE\xEF\xC0\xB8\x25\x64\xC9\xCF\xC3\xBB\xB3\xE8\xCE\xEF\x21", CHAR_getChar(i, CHAR_NAME), petid + 1);
 			CHAR_talkToCli(i, -1, token, CHAR_COLORYELLOW);
 			return;
 		}
 		CHAR_setMaxExp(petindex, atoi(exp));
 		CHAR_send_P_StatusString(charaindex, CHAR_P_STRING_EXP);
-		sprintf(token, "经验设置为%d!", (int)atoi(exp) / 100);
+		sprintf(token, "\xBE\xAD\xD1\xE9\xC9\xE8\xD6\xC3\xCE\xAA\x25\x64\x21", (int)atoi(exp) / 100);
 		CHAR_talkToCli(charaindex, -1, token, CHAR_COLORYELLOW);
 	}
 }
@@ -3611,7 +3611,7 @@ void CHAR_CHAT_DEBUG_gmkick(int charindex, char *message) {
 	int act = 1;
 
 	if (getStringFromIndexWithDelim(message, " ", 1, buf1, sizeof(buf1)) == FALSE) {
-		CHAR_talkToCli(charindex, -1, "参数不正确", CHAR_COLORYELLOW);
+		CHAR_talkToCli(charindex, -1, "\xB2\xCE\xCA\xFD\xB2\xBB\xD5\xFD\xC8\xB7", CHAR_COLORYELLOW);
 		return;
 	}
 	sprintf(cmd, "%s", buf1);
@@ -3623,13 +3623,13 @@ void CHAR_CHAT_DEBUG_gmkick(int charindex, char *message) {
 			}
 		}
 		if (i >= arraysizeof(gmset)) {
-			CHAR_talkToCli(charindex, -1, "参数不正确", CHAR_COLORYELLOW);
+			CHAR_talkToCli(charindex, -1, "\xB2\xCE\xCA\xFD\xB2\xBB\xD5\xFD\xC8\xB7", CHAR_COLORYELLOW);
 			return;
 		}
 		act = i;
 		// WON FIX 5 --> 6
 		if (act < 0 || act > 6) {
-			CHAR_talkToCli(charindex, -1, "参数不正确", CHAR_COLORYELLOW);
+			CHAR_talkToCli(charindex, -1, "\xB2\xCE\xCA\xFD\xB2\xBB\xD5\xFD\xC8\xB7", CHAR_COLORYELLOW);
 			return;
 		}
 	}
@@ -3708,7 +3708,7 @@ void CHAR_CHAT_DEBUG_SetDuck(int charaindex, char *message) {
 void CHAR_CHAT_DEBUG_Toxication(int charaindex, char *message) {
 	int fd = getfdFromCharaIndex(charaindex);
 	if (strstr(message, "TRUE") != 0) {
-		CHAR_talkToCli(charaindex, -1, "中毒", CHAR_COLORYELLOW);
+		CHAR_talkToCli(charaindex, -1, "\xD6\xD0\xB6\xBE", CHAR_COLORYELLOW);
 		setToxication(fd, 1);
 	} else {
 		setToxication(fd, 0);
@@ -3719,14 +3719,14 @@ void CHAR_CHAT_DEBUG_Toxication(int charaindex, char *message) {
 #ifdef _ACTION_BULLSCR
 void CHAR_CHAT_DEBUG_getascore(int charindex, char *message) {
 	int witchi[5] = {-1, CHAR_ABULLSTART, CHAR_ABULLSCORE, CHAR_ABULLTIME, CHAR_ABULLSTARTTIME};
-	char witchn[5][256] = {"全", "参与旗标", "活动绩分", "战斗累积时间", "开始时间"};
+	char witchn[5][256] = {"\xC8\xAB", "\xB2\xCE\xD3\xEB\xC6\xEC\xB1\xEA", "\xBB\xEE\xB6\xAF\xBC\xA8\xB7\xD6", "\xD5\xBD\xB6\xB7\xC0\xDB\xBB\xFD\xCA\xB1\xBC\xE4", "\xBF\xAA\xCA\xBC\xCA\xB1\xBC\xE4"};
 	char witchs[5][256] = {"all", "start", "score", "btime", "stime"};
 	int i;
 	for (i = 0; i < 5; i++) {
 		if (strstr(message, witchs[i]) != 0) {
 			char buf[256];
 			if (i == 0) {
-				sprintf(buf, "%s:%d %s:%d %s:%d %s:%d。",
+				sprintf(buf, "\x25\x73\x3A\x25\x64\x20\x25\x73\x3A\x25\x64\x20\x25\x73\x3A\x25\x64\x20\x25\x73\x3A\x25\x64\xA1\xA3",
 						witchn[1], CHAR_getInt(charindex, witchi[1]),
 						witchn[2], CHAR_getInt(charindex, witchi[2]),
 						witchn[3], CHAR_getInt(charindex, witchi[3]),
@@ -3734,9 +3734,9 @@ void CHAR_CHAT_DEBUG_getascore(int charindex, char *message) {
 			} else {
 				if (i == 2) {
 					int batime = CHAR_getInt(charindex, witchi[i]);
-					sprintf(buf, "%s : %d分%d秒。", witchn[i], batime / 60, batime % 60);
+					sprintf(buf, "\x25\x73\x20\x3A\x20\x25\x64\xB7\xD6\x25\x64\xC3\xEB\xA1\xA3", witchn[i], batime / 60, batime % 60);
 				} else {
-					sprintf(buf, "%s : %d。", witchn[i], CHAR_getInt(charindex, witchi[i]));
+					sprintf(buf, "\x25\x73\x20\x3A\x20\x25\x64\xA1\xA3", witchn[i], CHAR_getInt(charindex, witchi[i]));
 				}
 			}
 			CHAR_talkToCli(charindex, -1, buf, CHAR_COLORYELLOW);
@@ -3759,16 +3759,16 @@ void CHAR_CHAT_DEBUG_setascore(int charindex, char *message) {
 			if (strstr(buf1, witchs[i]) != 0) {
 				char buf2[256];
 				int nums = 0;
-				char witchn[3][256] = {"参与旗标", "活动绩分", "开始时间"};
+				char witchn[3][256] = {"\xB2\xCE\xD3\xEB\xC6\xEC\xB1\xEA", "\xBB\xEE\xB6\xAF\xBC\xA8\xB7\xD6", "\xBF\xAA\xCA\xBC\xCA\xB1\xBC\xE4"};
 				if (getStringFromIndexWithDelim(message, " ", 2, buf2, sizeof(buf2)) == FALSE)
 					return;
 				nums = atoi(buf2);
 				if (i == 2) {
-					sprintf(buf2, "%s设定为提前%d。", witchn[i], nums);
+					sprintf(buf2, "\x25\x73\xC9\xE8\xB6\xA8\xCE\xAA\xCC\xE1\xC7\xB0\x25\x64\xA1\xA3", witchn[i], nums);
 					nums = (nums * 24) * (60 * 60);
 					nums = (int)time(NULL) - nums;
 				} else {
-					sprintf(buf2, "%s设定为%d。", witchn[i], nums);
+					sprintf(buf2, "\x25\x73\xC9\xE8\xB6\xA8\xCE\xAA\x25\x64\xA1\xA3", witchn[i], nums);
 				}
 				CHAR_setInt(charindex, witchi[i], nums);
 				CHAR_talkToCli(charindex, -1, buf2, CHAR_COLORYELLOW);
@@ -3782,20 +3782,20 @@ void CHAR_CHAT_DEBUG_setascore(int charindex, char *message) {
 #ifdef _CHAR_POOLITEM
 void CHAR_CHAT_DEBUG_saveditem(int charaindex, char *message) {
 	if (CHAR_SaveDepotItem(charaindex) == FALSE) {
-		CHAR_talkToCli(charaindex, -1, "储存失败！", CHAR_COLORYELLOW);
+		CHAR_talkToCli(charaindex, -1, "\xB4\xA2\xB4\xE6\xCA\xA7\xB0\xDC\xA3\xA1", CHAR_COLORYELLOW);
 	}
 }
 
 void CHAR_CHAT_DEBUG_insertditem(int charaindex, char *message) {
 	if (CHAR_GetDepotItem(-1, charaindex) == FALSE) {
-		CHAR_talkToCli(charaindex, -1, "读取失败！", CHAR_COLORYELLOW);
+		CHAR_talkToCli(charaindex, -1, "\xB6\xC1\xC8\xA1\xCA\xA7\xB0\xDC\xA3\xA1", CHAR_COLORYELLOW);
 	}
 }
 
 void CHAR_CHAT_DEBUG_ShowMyDepotItems(int charaindex, char *message) {
 	if (!CHAR_CheckDepotItem(charaindex)) {
 		char token[256];
-		sprintf(token, "尚未取得仓库。");
+		sprintf(token, "\xC9\xD0\xCE\xB4\xC8\xA1\xB5\xC3\xB2\xD6\xBF\xE2\xA1\xA3");
 		CHAR_talkToCli(charaindex, -1, token, CHAR_COLORYELLOW);
 		return;
 	}
@@ -3807,7 +3807,7 @@ void CHAR_CHAT_DEBUG_InSideMyDepotItems(int charaindex, char *message) {
 	char token[256];
 
 	if (!CHAR_CheckDepotItem(charaindex)) {
-		sprintf(token, "尚未取得仓库。");
+		sprintf(token, "\xC9\xD0\xCE\xB4\xC8\xA1\xB5\xC3\xB2\xD6\xBF\xE2\xA1\xA3");
 		CHAR_talkToCli(charaindex, -1, token, CHAR_COLORYELLOW);
 		return;
 	}
@@ -3826,7 +3826,7 @@ void CHAR_CHAT_DEBUG_InSideMyDepotItems(int charaindex, char *message) {
 			break;
 		}
 	}
-	sprintf(token, "转换%d个道具。", count);
+	sprintf(token, "\xD7\xAA\xBB\xBB\x25\x64\xB8\xF6\xB5\xC0\xBE\xDF\xA1\xA3", count);
 	CHAR_talkToCli(charaindex, -1, token, CHAR_COLORYELLOW);
 }
 #endif
@@ -3834,20 +3834,20 @@ void CHAR_CHAT_DEBUG_InSideMyDepotItems(int charaindex, char *message) {
 #ifdef _CHAR_POOLPET
 void CHAR_CHAT_DEBUG_savedpet(int charaindex, char *message) {
 	if (CHAR_SaveDepotPet(charaindex) == FALSE) {
-		CHAR_talkToCli(charaindex, -1, "储存失败！", CHAR_COLORYELLOW);
+		CHAR_talkToCli(charaindex, -1, "\xB4\xA2\xB4\xE6\xCA\xA7\xB0\xDC\xA3\xA1", CHAR_COLORYELLOW);
 	}
 }
 
 void CHAR_CHAT_DEBUG_insertdpet(int charaindex, char *message) {
 	if (CHAR_GetDepotPet(-1, charaindex) == FALSE) {
-		CHAR_talkToCli(charaindex, -1, "读取失败！", CHAR_COLORYELLOW);
+		CHAR_talkToCli(charaindex, -1, "\xB6\xC1\xC8\xA1\xCA\xA7\xB0\xDC\xA3\xA1", CHAR_COLORYELLOW);
 	}
 }
 
 void CHAR_CHAT_DEBUG_ShowMyDepotPets(int charaindex, char *message) {
 	if (!CHAR_CheckDepotPet(charaindex)) {
 		char token[256];
-		sprintf(token, "尚未取得仓库。");
+		sprintf(token, "\xC9\xD0\xCE\xB4\xC8\xA1\xB5\xC3\xB2\xD6\xBF\xE2\xA1\xA3");
 		CHAR_talkToCli(charaindex, -1, token, CHAR_COLORYELLOW);
 		return;
 	}
@@ -3859,7 +3859,7 @@ void CHAR_CHAT_DEBUG_InSideMyDepotPets(int charaindex, char *message) {
 	char token[256];
 
 	if (!CHAR_CheckDepotPet(charaindex)) {
-		sprintf(token, "尚未取得仓库。");
+		sprintf(token, "\xC9\xD0\xCE\xB4\xC8\xA1\xB5\xC3\xB2\xD6\xBF\xE2\xA1\xA3");
 		CHAR_talkToCli(charaindex, -1, token, CHAR_COLORYELLOW);
 		return;
 	}
@@ -3883,7 +3883,7 @@ void CHAR_CHAT_DEBUG_InSideMyDepotPets(int charaindex, char *message) {
 			break;
 		}
 	}
-	sprintf(token, "转换%d个宠物。", count);
+	sprintf(token, "\xD7\xAA\xBB\xBB\x25\x64\xB8\xF6\xB3\xE8\xCE\xEF\xA1\xA3", count);
 	CHAR_talkToCli(charaindex, -1, token, CHAR_COLORYELLOW);
 }
 #endif
@@ -3907,7 +3907,7 @@ void CHAR_CHAT_DEBUG_cleanfreepet(int charaindex, char *message) {
 	}
 	if (delobjnum > 0) {
 		char buf[256];
-		sprintf(buf, "清除%d  置宠物。", delobjnum);
+		sprintf(buf, "\xC7\xE5\xB3\xFD\x25\x64\x20\x20\xD6\xC3\xB3\xE8\xCE\xEF\xA1\xA3", delobjnum);
 		CHAR_talkToCli(charaindex, -1, buf, CHAR_COLORRED);
 	}
 }
@@ -3931,7 +3931,7 @@ void CHAR_CHAT_DEBUG_acnewplayer(int charaindex, char *message) {
 	buf[strlen(buf) + 1] = 0;
 	RunType = atoi(buf);
 	if (RunType < 1 || RunType > 2) {
-		CHAR_talkToCli(charaindex, -1, "参数错误", CHAR_COLORRED);
+		CHAR_talkToCli(charaindex, -1, "\xB2\xCE\xCA\xFD\xB4\xED\xCE\xF3", CHAR_COLORRED);
 		return;
 	}
 	saacproto_ACNEWPlayerList_send(acfd, CdKey, UserName, charaindex, RunType);
@@ -4044,13 +4044,13 @@ void CHAR_CHAT_DEBUG_sendeffect(int charaindex, char *message) {
 void CHAR_CHAT_DEBUG_checktime(int charaindex, char *message) {
 	time_t newsec;
 	char buf[256];
-	char WKday[7][32] = {"日", "一", "二", "叁", "四", "五", "六"};
+	char WKday[7][32] = {"\xC8\xD5", "\xD2\xBB", "\xB6\xFE", "\xC8\xFE", "\xCB\xC4", "\xCE\xE5", "\xC1\xF9"};
 	struct tm *p;
 
 	newsec = time(NULL);
 	p = localtime(&newsec);
 	//	newsec = localtime( &newsec);
-	sprintf(buf, "今天：%d年%d月%d日 %s %d:%d:%d ...newsec:%ld。",
+	sprintf(buf, "\xBD\xF1\xCC\xEC\xA3\xBA\x25\x64\xC4\xEA\x25\x64\xD4\xC2\x25\x64\xC8\xD5\x20\x25\x73\x20\x25\x64\x3A\x25\x64\x3A\x25\x64\x20\x2E\x2E\x2E\x6E\x65\x77\x73\x65\x63\x3A\x25\x6C\x64\xA1\xA3",
 			(1900 + p->tm_year), (1 + p->tm_mon), p->tm_mday, WKday[p->tm_wday],
 			p->tm_hour, p->tm_min, p->tm_sec, newsec);
 	CHAR_talkToCli(charaindex, -1, buf, CHAR_COLORRED);
@@ -4084,13 +4084,13 @@ void CHAR_CHAT_DEBUG_checktime(int charaindex, char *message) {
 	p->tm_sec = atoi(buf);
 
 	newsec = mktime(p);
-	sprintf(buf, "确认1：%d年%d月%d日 %s %d:%d:%d ...newsec:%ld。",
+	sprintf(buf, "\xC8\xB7\xC8\xCF\x31\xA3\xBA\x25\x64\xC4\xEA\x25\x64\xD4\xC2\x25\x64\xC8\xD5\x20\x25\x73\x20\x25\x64\x3A\x25\x64\x3A\x25\x64\x20\x2E\x2E\x2E\x6E\x65\x77\x73\x65\x63\x3A\x25\x6C\x64\xA1\xA3",
 			(1900 + p->tm_year), (1 + p->tm_mon), p->tm_mday, WKday[p->tm_wday],
 			p->tm_hour, p->tm_min, p->tm_sec, newsec);
 	CHAR_talkToCli(charaindex, -1, buf, CHAR_COLORRED);
 
 	p = localtime(&newsec);
-	sprintf(buf, "确认2：%d年%d月%d日 %s %d:%d:%d ...newsec:%ld..time:%d。",
+	sprintf(buf, "\xC8\xB7\xC8\xCF\x32\xA3\xBA\x25\x64\xC4\xEA\x25\x64\xD4\xC2\x25\x64\xC8\xD5\x20\x25\x73\x20\x25\x64\x3A\x25\x64\x3A\x25\x64\x20\x2E\x2E\x2E\x6E\x65\x77\x73\x65\x63\x3A\x25\x6C\x64\x2E\x2E\x74\x69\x6D\x65\x3A\x25\x64\xA1\xA3",
 			(1900 + p->tm_year), (1 + p->tm_mon), p->tm_mday, WKday[p->tm_wday],
 			p->tm_hour, p->tm_min, p->tm_sec, newsec, (int)time(NULL));
 	CHAR_talkToCli(charaindex, -1, buf, CHAR_COLORRED);
@@ -4121,14 +4121,14 @@ void CHAR_CHAT_DEBUG_cleanqute(int charaindex, char *message) {
 			CHAR_setInt(i, CHAR_GMQUEFLG, 0);
 			CHAR_setInt(i, CHAR_GMQUENUMS, 0);
 
-			sprintf(token, "清除%s活动记号。", CHAR_getUseName(i));
+			sprintf(token, "\xC7\xE5\xB3\xFD\x25\x73\xBB\xEE\xB6\xAF\xBC\xC7\xBA\xC5\xA1\xA3", CHAR_getUseName(i));
 			CHAR_talkToCli(charaindex, -1, token, CHAR_COLORRED);
-			sprintf(token, "%s清除你的活动记号。", CHAR_getUseName(charaindex));
+			sprintf(token, "\x25\x73\xC7\xE5\xB3\xFD\xC4\xE3\xB5\xC4\xBB\xEE\xB6\xAF\xBC\xC7\xBA\xC5\xA1\xA3", CHAR_getUseName(charaindex));
 			CHAR_talkToCli(i, -1, token, CHAR_COLORRED);
 			return;
 		}
 	}
-	CHAR_talkToCli(charaindex, -1, "没有找到对象!!", CHAR_COLORRED);
+	CHAR_talkToCli(charaindex, -1, "\xC3\xBB\xD3\xD0\xD5\xD2\xB5\xBD\xB6\xD4\xCF\xF3\x21\x21", CHAR_COLORRED);
 }
 #endif
 
@@ -4197,7 +4197,7 @@ void CHAR_CHAT_DEBUG_set_regist(int charaindex, char *message) {
 	CHAR_setWorkInt(charaindex, CHAR_WORK_I_SUIT, i);
 	CHAR_setWorkInt(charaindex, CHAR_WORK_T_SUIT, t);
 
-	sprintf(msg, "火抗性(%d) 水抗性(%d) 电抗性(%d)",
+	sprintf(msg, "\xBB\xF0\xBF\xB9\xD0\xD4\x28\x25\x64\x29\x20\xCB\xAE\xBF\xB9\xD0\xD4\x28\x25\x64\x29\x20\xB5\xE7\xBF\xB9\xD0\xD4\x28\x25\x64\x29",
 			CHAR_getWorkInt(charaindex, CHAR_WORK_F_SUIT),
 			CHAR_getWorkInt(charaindex, CHAR_WORK_I_SUIT),
 			CHAR_getWorkInt(charaindex, CHAR_WORK_T_SUIT));
@@ -4220,7 +4220,7 @@ void CHAR_CHAT_DEBUG_show_profession(int charaindex, char *message) {
 	getStringFromIndexWithDelim(message, " ", 3, value, sizeof(value));
 
 	if (strcmp(type, "restart") == 0) { // 重读 profession.txt
-		CHAR_talkToCli(charaindex, -1, "重读 profession.txt", CHAR_COLORRED);
+		CHAR_talkToCli(charaindex, -1, "\xD6\xD8\xB6\xC1\x20\x70\x72\x6F\x66\x65\x73\x73\x69\x6F\x6E\x2E\x74\x78\x74", CHAR_COLORRED);
 		rePROFESSION_initSkill();
 	} else if (strcmp(type, "") != 0) { // 修改职业属性
 		if (strcmp(worker, "") != 0) {
@@ -4238,14 +4238,14 @@ void CHAR_CHAT_DEBUG_show_profession(int charaindex, char *message) {
 				}
 #endif
 			} else
-				CHAR_talkToCli(charaindex, -1, "请输入数值", CHAR_COLORRED);
+				CHAR_talkToCli(charaindex, -1, "\xC7\xEB\xCA\xE4\xC8\xEB\xCA\xFD\xD6\xB5", CHAR_COLORRED);
 		} else
-			CHAR_talkToCli(charaindex, -1, "请输入修改项目：1(职业别) 2(职业等级) 3(职业经验值) 4(剩馀点数)", CHAR_COLORRED);
+			CHAR_talkToCli(charaindex, -1, "\xC7\xEB\xCA\xE4\xC8\xEB\xD0\xDE\xB8\xC4\xCF\xEE\xC4\xBF\xA3\xBA\x31\x28\xD6\xB0\xD2\xB5\xB1\xF0\x29\x20\x32\x28\xD6\xB0\xD2\xB5\xB5\xC8\xBC\xB6\x29\x20\x33\x28\xD6\xB0\xD2\xB5\xBE\xAD\xD1\xE9\xD6\xB5\x29\x20\x34\x28\xCA\xA3\xE2\xC5\xB5\xE3\xCA\xFD\x29", CHAR_COLORRED);
 	}
 
 	if (strcmp(type, "1") != 0) {
 		memset(msg, 0, sizeof(msg));
-		sprintf(msg, "职业别(%d) 职业等级(%d) 剩馀点数(%d)",
+		sprintf(msg, "\xD6\xB0\xD2\xB5\xB1\xF0\x28\x25\x64\x29\x20\xD6\xB0\xD2\xB5\xB5\xC8\xBC\xB6\x28\x25\x64\x29\x20\xCA\xA3\xE2\xC5\xB5\xE3\xCA\xFD\x28\x25\x64\x29",
 				CHAR_getInt(charaindex, PROFESSION_CLASS),
 				CHAR_getInt(charaindex, PROFESSION_LEVEL),
 				CHAR_getInt(charaindex, PROFESSION_SKILL_POINT));
@@ -4288,7 +4288,7 @@ void CHAR_CHAT_DEBUG_samecode(int charaindex, char *message) {
 		}
 	}
 	if (j >= 3) {
-		CHAR_talkToCli(charaindex, -1, "参数错误！", CHAR_COLORRED);
+		CHAR_talkToCli(charaindex, -1, "\xB2\xCE\xCA\xFD\xB4\xED\xCE\xF3\xA3\xA1", CHAR_COLORRED);
 		return;
 	}
 
@@ -4360,7 +4360,7 @@ void CHAR_CHAT_DEBUG_silent(int charindex, char *message) {
 	easyGetTokenFromString(message, 1, token, sizeof(token));
 	easyGetTokenFromString(message, 2, token1, sizeof(token1));
 	if ((strlen(message) == 0) || (strlen(token1) == 0)) {
-		sprintf(buf, "%s", "参数不正确--> 帐号 分钟");
+		sprintf(buf, "%s", "\xB2\xCE\xCA\xFD\xB2\xBB\xD5\xFD\xC8\xB7\x2D\x2D\x3E\x20\xD5\xCA\xBA\xC5\x20\xB7\xD6\xD6\xD3");
 		CHAR_talkToCli(charindex, -1, buf, CHAR_COLORWHITE);
 		return;
 	}
@@ -4389,7 +4389,7 @@ void CHAR_CHAT_DEBUG_silent(int charindex, char *message) {
 
 				// print("\n<Set TRUE");
 				snprintf(line, sizeof(line),
-						 "极度大魔王将 %s 封嘴%d分钟。",
+						 "\xBC\xAB\xB6\xC8\xB4\xF3\xC4\xA7\xCD\xF5\xBD\xAB\x20\x25\x73\x20\xB7\xE2\xD7\xEC\x25\x64\xB7\xD6\xD6\xD3\xA1\xA3",
 						 CHAR_getChar(index, CHAR_NAME),
 						 minu);
 				CHAR_talkToCli(charindex, -1, line, CHAR_COLORWHITE);
@@ -4407,14 +4407,14 @@ void CHAR_CHAT_DEBUG_help(int charindex, char *message) {
 
 	getStringFromIndexWithDelim(message, " ", 1, buf, sizeof(buf));
 	if ((strlen(message) == 0) || (strlen(buf) == 0)) {
-		strcpy(buf, "[help 指令/all]");
+		strcpy(buf, "\x5B\x68\x65\x6C\x70\x20\xD6\xB8\xC1\xEE\x2F\x61\x6C\x6C\x5D");
 		CHAR_talkToCli(charindex, -1, buf, CHAR_COLORYELLOW);
 		return;
 	}
 
 	if (!strcmp(buf, "all"))
 		type = 1;
-	strcpy(token, "可用GM指令:");
+	strcpy(token, "\xBF\xC9\xD3\xC3\x47\x4D\xD6\xB8\xC1\xEE\x3A");
 	GmLevel = CHAR_getWorkInt(charindex, CHAR_WORKGMLEVEL);
 
 	for (i = 0; i < MaxMagicNum; i++) {
@@ -4424,14 +4424,14 @@ void CHAR_CHAT_DEBUG_help(int charindex, char *message) {
 			sprintf(buf2, ", [%s ]", buf1);
 			if (strlen(token) >= 220) {
 				CHAR_talkToCli(charindex, -1, token, CHAR_COLORYELLOW);
-				strcpy(token, "可用GM指令:");
+				strcpy(token, "\xBF\xC9\xD3\xC3\x47\x4D\xD6\xB8\xC1\xEE\x3A");
 			}
 			strcat(token, buf2);
 			continue;
 		} else {
 			if (strstr(buf1, buf) != NULL ||
 				strstr(buf2, buf) != NULL) {
-				sprintf(token, "GM指令:[%s %s]", buf1, buf2);
+				sprintf(token, "\x47\x4D\xD6\xB8\xC1\xEE\x3A\x5B\x25\x73\x20\x25\x73\x5D", buf1, buf2);
 				CHAR_talkToCli(charindex, -1, token, CHAR_COLORYELLOW);
 			}
 			continue;
@@ -4480,11 +4480,11 @@ void CHAR_CHAT_DEBUG_updatepklist(int charaindex, char *message) {
 	PKLIST_ShowPkListTeamData();
 
 	if (PKLIST_GetTeamLeaderCdkey(mynum, mycdkey) == FALSE) {
-		CHAR_talkToCli(charaindex, -1, "无法找到队伍1", CHAR_COLORYELLOW);
+		CHAR_talkToCli(charaindex, -1, "\xCE\xDE\xB7\xA8\xD5\xD2\xB5\xBD\xB6\xD3\xCE\xE9\x31", CHAR_COLORYELLOW);
 		return;
 	}
 	if (PKLIST_GetTeamLeaderCdkey(tonum, tocdkey) == FALSE) {
-		CHAR_talkToCli(charaindex, -1, "无法找到队伍2", CHAR_COLORYELLOW);
+		CHAR_talkToCli(charaindex, -1, "\xCE\xDE\xB7\xA8\xD5\xD2\xB5\xBD\xB6\xD3\xCE\xE9\x32", CHAR_COLORYELLOW);
 		return;
 	}
 
@@ -4502,7 +4502,7 @@ void CHAR_CHAT_DEBUG_updatepklist(int charaindex, char *message) {
 
 void CHAR_CHAR_DEBUG_reloadfm(int charaindex, char *message) {
 
-	CHAR_talkToCli(charaindex, -1, "重读家族资料中...", CHAR_COLORYELLOW);
+	CHAR_talkToCli(charaindex, -1, "\xD6\xD8\xB6\xC1\xBC\xD2\xD7\xE5\xD7\xCA\xC1\xCF\xD6\xD0\x2E\x2E\x2E", CHAR_COLORYELLOW);
 	saacproto_ReloadFamily_send(acfd, charaindex);
 }
 
@@ -4512,7 +4512,7 @@ void CHAR_CHAR_DEBUG_fmpk(int charaindex, char *message) {
 	char buf1[256] = {0};
 
 	if (getStringFromIndexWithDelim(message, " ", 1, buf1, sizeof(buf1)) == FALSE) {
-		CHAR_talkToCli(charaindex, -1, "[fmpk 家族1 家族2 时间 场地]", CHAR_COLORYELLOW);
+		CHAR_talkToCli(charaindex, -1, "\x5B\x66\x6D\x70\x6B\x20\xBC\xD2\xD7\xE5\x31\x20\xBC\xD2\xD7\xE5\x32\x20\xCA\xB1\xBC\xE4\x20\xB3\xA1\xB5\xD8\x5D", CHAR_COLORYELLOW);
 		return;
 	}
 	fm1 = atoi(buf1);
@@ -4536,14 +4536,14 @@ void CHAR_CHAR_DEBUG_fmpk_clean(int charaindex, char *message) {
 	int i, fmpks_pos = -1, hour = -1, min = -1;
 
 	if (getStringFromIndexWithDelim(message, " ", 1, buf1, sizeof(buf1)) == FALSE) {
-		CHAR_talkToCli(charaindex, -1, "[fmpk_clean 场地 时间]", CHAR_COLORYELLOW);
+		CHAR_talkToCli(charaindex, -1, "\x5B\x66\x6D\x70\x6B\x5F\x63\x6C\x65\x61\x6E\x20\xB3\xA1\xB5\xD8\x20\xCA\xB1\xBC\xE4\x5D", CHAR_COLORYELLOW);
 		return;
 	}
 	id = atoi(buf1);
 	fmpks_pos = id * MAX_SCHEDULE;
 
 	if (getStringFromIndexWithDelim(message, " ", 2, buf1, sizeof(buf1)) == FALSE) {
-		CHAR_talkToCli(charaindex, -1, "[fmpk_clean 场地 时间]", CHAR_COLORYELLOW);
+		CHAR_talkToCli(charaindex, -1, "\x5B\x66\x6D\x70\x6B\x5F\x63\x6C\x65\x61\x6E\x20\xB3\xA1\xB5\xD8\x20\xCA\xB1\xBC\xE4\x5D", CHAR_COLORYELLOW);
 		return;
 	}
 	if (strcmp(buf1, "all") == 0)
@@ -4570,7 +4570,7 @@ void CHAR_CHAR_DEBUG_fmpk_clean(int charaindex, char *message) {
 			fmpks[fmpks_pos + i].flag = FMPKS_FLAG_NONE;
 			fmpks[fmpks_pos + i].setting_timeout = -1;
 
-			sprintf(msg, "ID:%d TIME:%d 家族挑战清除完成", id, time);
+			sprintf(msg, "\x49\x44\x3A\x25\x64\x20\x54\x49\x4D\x45\x3A\x25\x64\x20\xBC\xD2\xD7\xE5\xCC\xF4\xD5\xBD\xC7\xE5\xB3\xFD\xCD\xEA\xB3\xC9", id, time);
 			CHAR_talkToCli(charaindex, -1, msg, CHAR_COLORYELLOW);
 
 			return;
@@ -4594,11 +4594,11 @@ void CHAR_CHAT_DEBUG_set_momentum(int charaindex, char *message) {
 		}
 	}
 	if (i >= iPlayerNum) {
-		CHAR_talkToCli(charaindex, -1, "找不到这名玩家", CHAR_COLORYELLOW);
+		CHAR_talkToCli(charaindex, -1, "\xD5\xD2\xB2\xBB\xB5\xBD\xD5\xE2\xC3\xFB\xCD\xE6\xBC\xD2", CHAR_COLORYELLOW);
 		return;
 	}
 	CHAR_setInt(i, CHAR_MOMENTUM, id);
-	sprintf(szMsg, "目前气势值: %d", CHAR_getInt(i, CHAR_MOMENTUM) / 100);
+	sprintf(szMsg, "\xC4\xBF\xC7\xB0\xC6\xF8\xCA\xC6\xD6\xB5\x3A\x20\x25\x64", CHAR_getInt(i, CHAR_MOMENTUM) / 100);
 	CHAR_talkToCli(charaindex, -1, szMsg, CHAR_COLORYELLOW);
 	sprintf(buf, "%d", id);
 	fd = getfdFromCharaIndex(i);
@@ -4613,24 +4613,24 @@ void CHAR_CHAT_DEBUG_set_manor_owner(int charindex, char *message) {
 	char szId[8], szUseFlag[2], szFamilyNameOrID[64], szToken[4096], szFamilyIndex[8], szGetFamilyName[64];
 
 	if (message == NULL || getStringFromIndexWithDelim(message, " ", 1, szId, sizeof(szId)) == FALSE) {
-		CHAR_talkToCli(charindex, -1, "参数不正确 [set_manor_owner 庄园id(1~9) 使用旗标(0:名称 1:id) 家族名称或id]", CHAR_COLORRED);
+		CHAR_talkToCli(charindex, -1, "\xB2\xCE\xCA\xFD\xB2\xBB\xD5\xFD\xC8\xB7\x20\x5B\x73\x65\x74\x5F\x6D\x61\x6E\x6F\x72\x5F\x6F\x77\x6E\x65\x72\x20\xD7\xAF\xD4\xB0\x69\x64\x28\x31\x7E\x39\x29\x20\xCA\xB9\xD3\xC3\xC6\xEC\xB1\xEA\x28\x30\x3A\xC3\xFB\xB3\xC6\x20\x31\x3A\x69\x64\x29\x20\xBC\xD2\xD7\xE5\xC3\xFB\xB3\xC6\xBB\xF2\x69\x64\x5D", CHAR_COLORRED);
 		return;
 	}
 	if (atoi(szId) < 1 || atoi(szId) > MANORNUM) {
-		CHAR_talkToCli(charindex, -1, "庄园ID值不正确(1~9)", CHAR_COLORRED);
+		CHAR_talkToCli(charindex, -1, "\xD7\xAF\xD4\xB0\x49\x44\xD6\xB5\xB2\xBB\xD5\xFD\xC8\xB7\x28\x31\x7E\x39\x29", CHAR_COLORRED);
 		return;
 	}
 	if (getStringFromIndexWithDelim(message, " ", 2, szUseFlag, sizeof(szUseFlag)) == FALSE) {
-		CHAR_talkToCli(charindex, -1, "参数不正确 [set_manor_owner 庄园id(1~9) 使用旗标(0:名称 1:id) 家族名称或id]", CHAR_COLORRED);
+		CHAR_talkToCli(charindex, -1, "\xB2\xCE\xCA\xFD\xB2\xBB\xD5\xFD\xC8\xB7\x20\x5B\x73\x65\x74\x5F\x6D\x61\x6E\x6F\x72\x5F\x6F\x77\x6E\x65\x72\x20\xD7\xAF\xD4\xB0\x69\x64\x28\x31\x7E\x39\x29\x20\xCA\xB9\xD3\xC3\xC6\xEC\xB1\xEA\x28\x30\x3A\xC3\xFB\xB3\xC6\x20\x31\x3A\x69\x64\x29\x20\xBC\xD2\xD7\xE5\xC3\xFB\xB3\xC6\xBB\xF2\x69\x64\x5D", CHAR_COLORRED);
 		return;
 	}
 	iUseFlag = atoi(szUseFlag);
 	if (iUseFlag < 0 || iUseFlag > 1) {
-		CHAR_talkToCli(charindex, -1, "使用旗标值不正确(0:名称 1:id)", CHAR_COLORRED);
+		CHAR_talkToCli(charindex, -1, "\xCA\xB9\xD3\xC3\xC6\xEC\xB1\xEA\xD6\xB5\xB2\xBB\xD5\xFD\xC8\xB7\x28\x30\x3A\xC3\xFB\xB3\xC6\x20\x31\x3A\x69\x64\x29", CHAR_COLORRED);
 		return;
 	}
 	if (getStringFromIndexWithDelim(message, " ", 3, szFamilyNameOrID, sizeof(szFamilyNameOrID)) == FALSE) {
-		CHAR_talkToCli(charindex, -1, "参数不正确 [set_manor_owner 庄园id(1~9) 使用旗标(0:名称 1:id) 家族名称或id]", CHAR_COLORRED);
+		CHAR_talkToCli(charindex, -1, "\xB2\xCE\xCA\xFD\xB2\xBB\xD5\xFD\xC8\xB7\x20\x5B\x73\x65\x74\x5F\x6D\x61\x6E\x6F\x72\x5F\x6F\x77\x6E\x65\x72\x20\xD7\xAF\xD4\xB0\x69\x64\x28\x31\x7E\x39\x29\x20\xCA\xB9\xD3\xC3\xC6\xEC\xB1\xEA\x28\x30\x3A\xC3\xFB\xB3\xC6\x20\x31\x3A\x69\x64\x29\x20\xBC\xD2\xD7\xE5\xC3\xFB\xB3\xC6\xBB\xF2\x69\x64\x5D", CHAR_COLORRED);
 		return;
 	}
 	if (iUseFlag == 1) {
@@ -4639,7 +4639,7 @@ void CHAR_CHAT_DEBUG_set_manor_owner(int charindex, char *message) {
 			if (szFamilyNameOrID[i] == '\0')
 				break;
 			if (szFamilyNameOrID[i] > '9' || szFamilyNameOrID < '0') {
-				CHAR_talkToCli(charindex, -1, "家族id格式错误", CHAR_COLORRED);
+				CHAR_talkToCli(charindex, -1, "\xBC\xD2\xD7\xE5\x69\x64\xB8\xF1\xCA\xBD\xB4\xED\xCE\xF3", CHAR_COLORRED);
 				return;
 			}
 		}
@@ -4656,10 +4656,10 @@ void CHAR_CHAT_DEBUG_set_manor_owner(int charindex, char *message) {
 				break;
 		}
 		if (index == -1) {
-			CHAR_talkToCli(charindex, -1, "找不到此家族资料", CHAR_COLORRED);
+			CHAR_talkToCli(charindex, -1, "\xD5\xD2\xB2\xBB\xB5\xBD\xB4\xCB\xBC\xD2\xD7\xE5\xD7\xCA\xC1\xCF", CHAR_COLORRED);
 			return;
 		}
-		sprintf(szToken, "庄园 %s 设定给 %s 家族", szId, szGetFamilyName);
+		sprintf(szToken, "\xD7\xAF\xD4\xB0\x20\x25\x73\x20\xC9\xE8\xB6\xA8\xB8\xF8\x20\x25\x73\x20\xBC\xD2\xD7\xE5", szId, szGetFamilyName);
 		saacproto_ACFixFMPoint_send(acfd, szGetFamilyName, index + 1, index, szGetFamilyName, index + 1, index, atoi(szId));
 	} else {
 		for (i = 0;; i++) {
@@ -4676,10 +4676,10 @@ void CHAR_CHAT_DEBUG_set_manor_owner(int charindex, char *message) {
 		}
 
 		if (index == -1) {
-			CHAR_talkToCli(charindex, -1, "找不到此家族资料", CHAR_COLORRED);
+			CHAR_talkToCli(charindex, -1, "\xD5\xD2\xB2\xBB\xB5\xBD\xB4\xCB\xBC\xD2\xD7\xE5\xD7\xCA\xC1\xCF", CHAR_COLORRED);
 			return;
 		}
-		sprintf(szToken, "庄园 %s 设定给 %s 家族", szId, szFamilyNameOrID);
+		sprintf(szToken, "\xD7\xAF\xD4\xB0\x20\x25\x73\x20\xC9\xE8\xB6\xA8\xB8\xF8\x20\x25\x73\x20\xBC\xD2\xD7\xE5", szId, szFamilyNameOrID);
 		saacproto_ACFixFMPoint_send(acfd, szFamilyNameOrID, index + 1, index, szFamilyNameOrID, index + 1, index, atoi(szId));
 	}
 	CHAR_talkToCli(charindex, -1, szToken, CHAR_COLORRED);
@@ -4691,15 +4691,15 @@ void CHAR_CHAT_DEBUG_set_schedule_time(int charindex, char *message) {
 	char szId[8], szTime[12], szMsg[128];
 
 	if (message == NULL || getStringFromIndexWithDelim(message, " ", 1, szId, sizeof(szId)) == FALSE) {
-		CHAR_talkToCli(charindex, -1, "参数不正确 [set_schedule_time 庄园id(1~9) 时间(分)]", CHAR_COLORRED);
+		CHAR_talkToCli(charindex, -1, "\xB2\xCE\xCA\xFD\xB2\xBB\xD5\xFD\xC8\xB7\x20\x5B\x73\x65\x74\x5F\x73\x63\x68\x65\x64\x75\x6C\x65\x5F\x74\x69\x6D\x65\x20\xD7\xAF\xD4\xB0\x69\x64\x28\x31\x7E\x39\x29\x20\xCA\xB1\xBC\xE4\x28\xB7\xD6\x29\x5D", CHAR_COLORRED);
 		return;
 	}
 	if (atoi(szId) < 1 || atoi(szId) > MANORNUM) {
-		CHAR_talkToCli(charindex, -1, "庄园ID值不正确", CHAR_COLORRED);
+		CHAR_talkToCli(charindex, -1, "\xD7\xAF\xD4\xB0\x49\x44\xD6\xB5\xB2\xBB\xD5\xFD\xC8\xB7", CHAR_COLORRED);
 		return;
 	}
 	if (getStringFromIndexWithDelim(message, " ", 2, szTime, sizeof(szTime)) == FALSE) {
-		CHAR_talkToCli(charindex, -1, "参数不正确 [set_schedule_time 庄园id(1~9) 时间(分)]", CHAR_COLORRED);
+		CHAR_talkToCli(charindex, -1, "\xB2\xCE\xCA\xFD\xB2\xBB\xD5\xFD\xC8\xB7\x20\x5B\x73\x65\x74\x5F\x73\x63\x68\x65\x64\x75\x6C\x65\x5F\x74\x69\x6D\x65\x20\xD7\xAF\xD4\xB0\x69\x64\x28\x31\x7E\x39\x29\x20\xCA\xB1\xBC\xE4\x28\xB7\xD6\x29\x5D", CHAR_COLORRED);
 		return;
 	}
 	for (i = 0; i < char_max; i++) {
@@ -4709,13 +4709,13 @@ void CHAR_CHAT_DEBUG_set_schedule_time(int charindex, char *message) {
 
 				memcpy(&tm1, localtime((time_t *)&NowTime.tv_sec), sizeof(tm1));
 				fmpks[fmpks_pos + 1].dueltime = NowTime.tv_sec + atoi(szTime) * 60;
-				sprintf(szMsg, "庄园时间设定为 %s 分", szTime);
+				sprintf(szMsg, "\xD7\xAF\xD4\xB0\xCA\xB1\xBC\xE4\xC9\xE8\xB6\xA8\xCE\xAA\x20\x25\x73\x20\xB7\xD6", szTime);
 				CHAR_talkToCli(charindex, -1, szMsg, CHAR_COLORRED);
 				return;
 			}
 		}
 	}
-	CHAR_talkToCli(charindex, -1, "找不到庄园npc", CHAR_COLORRED);
+	CHAR_talkToCli(charindex, -1, "\xD5\xD2\xB2\xBB\xB5\xBD\xD7\xAF\xD4\xB0\x6E\x70\x63", CHAR_COLORRED);
 }
 
 #endif
@@ -4730,7 +4730,7 @@ void CHAR_CHAT_DEBUG_angelinfo(int charindex, char *message) // 显示Mission资
 	char herokey[256], heroname[256];
 
 	if (message[0] == NULL || getStringFromIndexWithDelim(message, " ", 1, cdkey, sizeof(cdkey)) == FALSE) {
-		CHAR_talkToCli(charindex, -1, "参数不正确 [angelinfo 帐号(all) (clean)]", CHAR_COLORRED);
+		CHAR_talkToCli(charindex, -1, "\xB2\xCE\xCA\xFD\xB2\xBB\xD5\xFD\xC8\xB7\x20\x5B\x61\x6E\x67\x65\x6C\x69\x6E\x66\x6F\x20\xD5\xCA\xBA\xC5\x28\x61\x6C\x6C\x29\x20\x28\x63\x6C\x65\x61\x6E\x29\x5D", CHAR_COLORRED);
 		return;
 	}
 	if (getStringFromIndexWithDelim(message, " ", 2, buf, sizeof(buf)) != FALSE) {
@@ -4742,12 +4742,12 @@ void CHAR_CHAT_DEBUG_angelinfo(int charindex, char *message) // 显示Mission资
 			if (missiontable[i].angelinfo[0] == NULL)
 				continue;
 
-			sprintf(msg, "%d 使者:%s 勇者:%s MS:%d FLG:%d TIME:%d LT:%d ",
+			sprintf(msg, "\x25\x64\x20\xCA\xB9\xD5\xDF\x3A\x25\x73\x20\xD3\xC2\xD5\xDF\x3A\x25\x73\x20\x4D\x53\x3A\x25\x64\x20\x46\x4C\x47\x3A\x25\x64\x20\x54\x49\x4D\x45\x3A\x25\x64\x20\x4C\x54\x3A\x25\x64\x20",
 					i, missiontable[i].angelinfo, missiontable[i].heroinfo,
 					missiontable[i].mission, missiontable[i].flag, missiontable[i].time, missiontable[i].limittime);
 			if (clean) {
 				saacproto_ACMissionTable_send(acfd, i, 3, "", "");
-				strcat(msg, "...清除!! ");
+				strcat(msg, "\x2E\x2E\x2E\xC7\xE5\xB3\xFD\x21\x21\x20");
 			}
 			CHAR_talkToCli(charindex, -1, msg, CHAR_COLORYELLOW);
 		}
@@ -4759,7 +4759,7 @@ void CHAR_CHAT_DEBUG_angelinfo(int charindex, char *message) // 显示Mission资
 			getStringFromIndexWithDelim(missiontable[i].heroinfo, ":", 1, herokey, sizeof(herokey));
 
 			if (!strcmp(angelkey, cdkey) || !strcmp(herokey, cdkey)) {
-				sprintf(msg, "%d 使者:%s 勇者:%s MS:%d FLG:%d TIME:%d LT:%d ",
+				sprintf(msg, "\x25\x64\x20\xCA\xB9\xD5\xDF\x3A\x25\x73\x20\xD3\xC2\xD5\xDF\x3A\x25\x73\x20\x4D\x53\x3A\x25\x64\x20\x46\x4C\x47\x3A\x25\x64\x20\x54\x49\x4D\x45\x3A\x25\x64\x20\x4C\x54\x3A\x25\x64\x20",
 						i, missiontable[i].angelinfo, missiontable[i].heroinfo,
 						missiontable[i].mission, missiontable[i].flag, missiontable[i].time, missiontable[i].limittime);
 				CHAR_talkToCli(charindex, -1, msg, CHAR_COLORYELLOW);
@@ -4770,7 +4770,7 @@ void CHAR_CHAT_DEBUG_angelinfo(int charindex, char *message) // 显示Mission资
 			}
 		}
 	}
-	CHAR_talkToCli(charindex, -1, "....结束", CHAR_COLORYELLOW);
+	CHAR_talkToCli(charindex, -1, "\x2E\x2E\x2E\x2E\xBD\xE1\xCA\xF8", CHAR_COLORYELLOW);
 }
 
 void CHAR_CHAT_DEBUG_angelclean(int charindex, char *message) // 清除Mission资料
@@ -4780,17 +4780,17 @@ void CHAR_CHAT_DEBUG_angelclean(int charindex, char *message) // 清除Mission�
 
 	mindex = atoi(message);
 	if (mindex < 0 || mindex >= MAXMISSIONTABLE) {
-		CHAR_talkToCli(charindex, -1, "编号不正确", CHAR_COLORYELLOW);
+		CHAR_talkToCli(charindex, -1, "\xB1\xE0\xBA\xC5\xB2\xBB\xD5\xFD\xC8\xB7", CHAR_COLORYELLOW);
 		return;
 	}
 	if (missiontable[mindex].flag == MISSION_NONE) {
-		CHAR_talkToCli(charindex, -1, "无此资料", CHAR_COLORYELLOW);
+		CHAR_talkToCli(charindex, -1, "\xCE\xDE\xB4\xCB\xD7\xCA\xC1\xCF", CHAR_COLORYELLOW);
 		return;
 	}
 
 	saacproto_ACMissionTable_send(acfd, mindex, 3, "", "");
 
-	sprintf(msg, " GM指令 清除任务资料 i:%d 使者:%s 勇者:%s m:%d flg:%d time:%d lt:%d ",
+	sprintf(msg, "\x20\x47\x4D\xD6\xB8\xC1\xEE\x20\xC7\xE5\xB3\xFD\xC8\xCE\xCE\xF1\xD7\xCA\xC1\xCF\x20\x69\x3A\x25\x64\x20\xCA\xB9\xD5\xDF\x3A\x25\x73\x20\xD3\xC2\xD5\xDF\x3A\x25\x73\x20\x6D\x3A\x25\x64\x20\x66\x6C\x67\x3A\x25\x64\x20\x74\x69\x6D\x65\x3A\x25\x64\x20\x6C\x74\x3A\x25\x64\x20",
 			mindex, missiontable[mindex].angelinfo, missiontable[mindex].heroinfo,
 			missiontable[mindex].mission, missiontable[mindex].flag,
 			missiontable[mindex].time, missiontable[mindex].limittime);
@@ -4806,21 +4806,21 @@ void CHAR_CHAT_DEBUG_angelcreate(int charindex, char *message) // 制造使者�
 	int angelindex = -1, heroindex = -1, mission = -1;
 
 	if (getStringFromIndexWithDelim(message, " ", 1, angelid, sizeof(angelid)) == FALSE) {
-		CHAR_talkToCli(charindex, -1, "参数不正确 [angelcreate 使者帐号 勇者帐号 任务编号]", CHAR_COLORRED);
+		CHAR_talkToCli(charindex, -1, "\xB2\xCE\xCA\xFD\xB2\xBB\xD5\xFD\xC8\xB7\x20\x5B\x61\x6E\x67\x65\x6C\x63\x72\x65\x61\x74\x65\x20\xCA\xB9\xD5\xDF\xD5\xCA\xBA\xC5\x20\xD3\xC2\xD5\xDF\xD5\xCA\xBA\xC5\x20\xC8\xCE\xCE\xF1\xB1\xE0\xBA\xC5\x5D", CHAR_COLORRED);
 		return;
 	}
 	if (getStringFromIndexWithDelim(message, " ", 2, heroid, sizeof(heroid)) == FALSE) {
-		CHAR_talkToCli(charindex, -1, "参数不正确 [angelcreate 使者帐号 勇者帐号 任务编号]", CHAR_COLORRED);
+		CHAR_talkToCli(charindex, -1, "\xB2\xCE\xCA\xFD\xB2\xBB\xD5\xFD\xC8\xB7\x20\x5B\x61\x6E\x67\x65\x6C\x63\x72\x65\x61\x74\x65\x20\xCA\xB9\xD5\xDF\xD5\xCA\xBA\xC5\x20\xD3\xC2\xD5\xDF\xD5\xCA\xBA\xC5\x20\xC8\xCE\xCE\xF1\xB1\xE0\xBA\xC5\x5D", CHAR_COLORRED);
 		return;
 	}
 	if (getStringFromIndexWithDelim(message, " ", 3, buf, sizeof(buf)) == FALSE) {
-		CHAR_talkToCli(charindex, -1, "参数不正确 [angelcreate 使者帐号 勇者帐号 任务编号]", CHAR_COLORRED);
+		CHAR_talkToCli(charindex, -1, "\xB2\xCE\xCA\xFD\xB2\xBB\xD5\xFD\xC8\xB7\x20\x5B\x61\x6E\x67\x65\x6C\x63\x72\x65\x61\x74\x65\x20\xCA\xB9\xD5\xDF\xD5\xCA\xBA\xC5\x20\xD3\xC2\xD5\xDF\xD5\xCA\xBA\xC5\x20\xC8\xCE\xCE\xF1\xB1\xE0\xBA\xC5\x5D", CHAR_COLORRED);
 		return;
 	}
 	mission = atoi(buf);
 	// if( mission <= 0 || mission >= MAXMISSION || missionlist[mission].id <= 0) {
 	if (mission >= MAXMISSION) {
-		CHAR_talkToCli(charindex, -1, "任务编号不正确", CHAR_COLORRED);
+		CHAR_talkToCli(charindex, -1, "\xC8\xCE\xCE\xF1\xB1\xE0\xBA\xC5\xB2\xBB\xD5\xFD\xC8\xB7", CHAR_COLORRED);
 		return;
 	}
 
@@ -4839,12 +4839,12 @@ void CHAR_CHAT_DEBUG_angelcreate(int charindex, char *message) // 制造使者�
 			break;
 	}
 	if (angelindex == -1 || heroindex == -1) {
-		CHAR_talkToCli(charindex, -1, "找不到使者或勇者", CHAR_COLORRED);
+		CHAR_talkToCli(charindex, -1, "\xD5\xD2\xB2\xBB\xB5\xBD\xCA\xB9\xD5\xDF\xBB\xF2\xD3\xC2\xD5\xDF", CHAR_COLORRED);
 		return;
 	}
 
 	if (checkIfAngel(angelindex) != -1 || checkIfAngel(heroindex) != -1) {
-		CHAR_talkToCli(charindex, -1, "使者或勇者已经有任务了", CHAR_COLORRED);
+		CHAR_talkToCli(charindex, -1, "\xCA\xB9\xD5\xDF\xBB\xF2\xD3\xC2\xD5\xDF\xD2\xD1\xBE\xAD\xD3\xD0\xC8\xCE\xCE\xF1\xC1\xCB", CHAR_COLORRED);
 		return;
 	}
 
@@ -4853,27 +4853,27 @@ void CHAR_CHAT_DEBUG_angelcreate(int charindex, char *message) // 制造使者�
 
 void CHAR_CHAT_DEBUG_missionreload(int charindex, char *message) {
 	print("Reading MissionList File...");
-	CHAR_talkToCli(charindex, -1, "重新读取使者任务列表...", CHAR_COLORYELLOW);
+	CHAR_talkToCli(charindex, -1, "\xD6\xD8\xD0\xC2\xB6\xC1\xC8\xA1\xCA\xB9\xD5\xDF\xC8\xCE\xCE\xF1\xC1\xD0\xB1\xED\x2E\x2E\x2E", CHAR_COLORYELLOW);
 	if (!LoadMissionList()) {
-		CHAR_talkToCli(charindex, -1, "读取失败", CHAR_COLORYELLOW);
+		CHAR_talkToCli(charindex, -1, "\xB6\xC1\xC8\xA1\xCA\xA7\xB0\xDC", CHAR_COLORYELLOW);
 		print("fail!!\n");
 		return;
 	}
 	print("done\n");
-	CHAR_talkToCli(charindex, -1, "读取完成", CHAR_COLORYELLOW);
+	CHAR_talkToCli(charindex, -1, "\xB6\xC1\xC8\xA1\xCD\xEA\xB3\xC9", CHAR_COLORYELLOW);
 }
 
 #endif
 
 void CHAR_CHAT_DEBUG_itemreload(int charindex, char *message) {
 	print("Reading itemset File...");
-	CHAR_talkToCli(charindex, -1, "重新道具资料...", CHAR_COLORYELLOW);
+	CHAR_talkToCli(charindex, -1, "\xD6\xD8\xD0\xC2\xB5\xC0\xBE\xDF\xD7\xCA\xC1\xCF\x2E\x2E\x2E", CHAR_COLORYELLOW);
 
 	if (!ITEM_readItemConfFile(getItemfile())) {
-		CHAR_talkToCli(charindex, -1, "读取失败", CHAR_COLORYELLOW);
+		CHAR_talkToCli(charindex, -1, "\xB6\xC1\xC8\xA1\xCA\xA7\xB0\xDC", CHAR_COLORYELLOW);
 	}
 	print("done\n");
-	CHAR_talkToCli(charindex, -1, "读取完成", CHAR_COLORYELLOW);
+	CHAR_talkToCli(charindex, -1, "\xB6\xC1\xC8\xA1\xCD\xEA\xB3\xC9", CHAR_COLORYELLOW);
 }
 
 void CHAR_CHAT_DEBUG_skywalker(int charaindex, char *message) {
@@ -4881,11 +4881,11 @@ void CHAR_CHAT_DEBUG_skywalker(int charaindex, char *message) {
 		return;
 
 	if (strstr(message, "on") != NULL) {
-		CHAR_talkToCli(charaindex, -1, "天行者模式启动", CHAR_COLORYELLOW);
+		CHAR_talkToCli(charaindex, -1, "\xCC\xEC\xD0\xD0\xD5\xDF\xC4\xA3\xCA\xBD\xC6\xF4\xB6\xAF", CHAR_COLORYELLOW);
 		CHAR_setWorkInt(charaindex, CHAR_WORKSKYWALKER, TRUE);
 	}
 	if (strstr(message, "off") != NULL) {
-		CHAR_talkToCli(charaindex, -1, "天行者模式关闭", CHAR_COLORYELLOW);
+		CHAR_talkToCli(charaindex, -1, "\xCC\xEC\xD0\xD0\xD5\xDF\xC4\xA3\xCA\xBD\xB9\xD8\xB1\xD5", CHAR_COLORYELLOW);
 		CHAR_setWorkInt(charaindex, CHAR_WORKSKYWALKER, FALSE);
 	}
 
@@ -4917,12 +4917,12 @@ void CHAR_CHAT_DEBUG_itemaddexp(int charaindex, char *message) {
 			}
 		}
 		if (toindex == -1) {
-			CHAR_talkToCli(charaindex, -1, "查无此人", CHAR_COLORRED);
+			CHAR_talkToCli(charaindex, -1, "\xB2\xE9\xCE\xDE\xB4\xCB\xC8\xCB", CHAR_COLORRED);
 			return;
 		}
 	}
 
-	sprintf(msg, "智慧之果效果  %s　目前分数%d  %d％  时间%d分。",
+	sprintf(msg, "\xD6\xC7\xBB\xDB\xD6\xAE\xB9\xFB\xD0\xA7\xB9\xFB\x20\x20\x25\x73\xA1\xA1\xC4\xBF\xC7\xB0\xB7\xD6\xCA\xFD\x25\x64\x20\x20\x25\x64\xA3\xA5\x20\x20\xCA\xB1\xBC\xE4\x25\x64\xB7\xD6\xA1\xA3",
 			CHAR_getChar(toindex, CHAR_NAME),
 			CHAR_getWorkInt(toindex, CHAR_WORKITEM_ADDEXP) * (int)(CHAR_getWorkInt(toindex, CHAR_WORKITEM_ADDEXPTIME) / 60),
 			CHAR_getWorkInt(toindex, CHAR_WORKITEM_ADDEXP),
@@ -4941,7 +4941,7 @@ void CHAR_CHAT_DEBUG_fmfreetime(int charaindex, char *message) {
 		return;
 	getStringFromIndexWithDelim(message, " ", 1, token_cdkey, sizeof(token_cdkey));
 	if (strlen(token_cdkey) == 0) {
-		sprintf(buf, "%s", "参数不正确。正确格式：[fmfreetime  帐号]");
+		sprintf(buf, "%s", "\xB2\xCE\xCA\xFD\xB2\xBB\xD5\xFD\xC8\xB7\xA1\xA3\xD5\xFD\xC8\xB7\xB8\xF1\xCA\xBD\xA3\xBA\x5B\x66\x6D\x66\x72\x65\x65\x74\x69\x6D\x65\x20\x20\xD5\xCA\xBA\xC5\x5D");
 		CHAR_talkToCli(charaindex, -1, buf, CHAR_COLORYELLOW);
 		return;
 	}
@@ -4958,11 +4958,11 @@ void CHAR_CHAT_DEBUG_fmfreetime(int charaindex, char *message) {
 		}
 	}
 	if (i >= Playernum) {
-		sprintf(buf, "%s\n", "失败！查无此帐号。");
+		sprintf(buf, "%s\n", "\xCA\xA7\xB0\xDC\xA3\xA1\xB2\xE9\xCE\xDE\xB4\xCB\xD5\xCA\xBA\xC5\xA1\xA3");
 		CHAR_talkToCli(charaindex, -1, buf, CHAR_COLORRED);
 	} else {
 		if (!CHAR_getInt(i, CHAR_FMTIMELIMIT)) {
-			sprintf(buf, "%s\n", "设定完成。");
+			sprintf(buf, "%s\n", "\xC9\xE8\xB6\xA8\xCD\xEA\xB3\xC9\xA1\xA3");
 			CHAR_talkToCli(charaindex, -1, buf, CHAR_COLORYELLOW);
 		}
 	}
@@ -4982,7 +4982,7 @@ void CHAR_CHAT_DEBUG_getyou(int charaindex, char *message) {
 	getStringFromIndexWithDelim(message, " ", 1, areabuf, sizeof(areabuf));
 	area = atoi(areabuf);
 	if (area <= 0 || area > 3) {
-		sprintf(buf, "%s", "没有输入  围或  围超出限制，请输入1~3");
+		sprintf(buf, "%s", "\xC3\xBB\xD3\xD0\xCA\xE4\xC8\xEB\x20\x20\xCE\xA7\xBB\xF2\x20\x20\xCE\xA7\xB3\xAC\xB3\xF6\xCF\xDE\xD6\xC6\xA3\xAC\xC7\xEB\xCA\xE4\xC8\xEB\x31\x7E\x33");
 		CHAR_talkToCli(charaindex, -1, buf, CHAR_COLORYELLOW);
 		return;
 	}
@@ -5004,16 +5004,16 @@ void CHAR_CHAT_DEBUG_getyou(int charaindex, char *message) {
 						CONNECT_getCharname(fd, szName, sizeof(szName)); // 人物名称
 						CONNECT_getCdkey(fd, cdkey, sizeof(cdkey));		 // 帐号
 						// CHAR_getChar( chara_index, CHAR_NAME);
-						snprintf(line, sizeof(line), "第%d个找到[%s]的帐号是[%s]", getnum, szName, cdkey);
+						snprintf(line, sizeof(line), "\xB5\xDA\x25\x64\xB8\xF6\xD5\xD2\xB5\xBD\x5B\x25\x73\x5D\xB5\xC4\xD5\xCA\xBA\xC5\xCA\xC7\x5B\x25\x73\x5D", getnum, szName, cdkey);
 						CHAR_talkToCli(charaindex, -1, line, CHAR_COLORRED);
-						print("第%d个找到[%s]的帐号是[%s]\n", getnum, szName, cdkey);
+						print("\xB5\xDA\x25\x64\xB8\xF6\xD5\xD2\xB5\xBD\x5B\x25\x73\x5D\xB5\xC4\xD5\xCA\xBA\xC5\xCA\xC7\x5B\x25\x73\x5D\x5C\x6E", getnum, szName, cdkey);
 					}
 				}
 			}
 		}
 	}
 	if (!getnum)
-		CHAR_talkToCli(charaindex, -1, "  围内没有人", CHAR_COLORYELLOW);
+		CHAR_talkToCli(charaindex, -1, "\x20\x20\xCE\xA7\xC4\xDA\xC3\xBB\xD3\xD0\xC8\xCB", CHAR_COLORYELLOW);
 }
 #endif
 
@@ -5029,34 +5029,34 @@ void CHAR_CHAT_DEBUG_newsend(int charindex, char *message) {
 	unsigned int MAX_USER = 0;
 	MAX_USER = getFdnum();
 	if (strlen(message) == 0) {
-		sprintf(buf, "%s", "参数不正确-> FLOOR X Y 无/要说的话");
+		sprintf(buf, "%s", "\xB2\xCE\xCA\xFD\xB2\xBB\xD5\xFD\xC8\xB7\x2D\x3E\x20\x46\x4C\x4F\x4F\x52\x20\x58\x20\x59\x20\xCE\xDE\x2F\xD2\xAA\xCB\xB5\xB5\xC4\xBB\xB0");
 		CHAR_talkToCli(charindex, -1, buf, CHAR_COLORWHITE);
 		return;
 	}
 	easyGetTokenFromString(message, 1, token, sizeof(token));
 	if (strlen(token) == 0) {
-		sprintf(buf, "%s", "参数不正确-->地图编号");
+		sprintf(buf, "%s", "\xB2\xCE\xCA\xFD\xB2\xBB\xD5\xFD\xC8\xB7\x2D\x2D\x3E\xB5\xD8\xCD\xBC\xB1\xE0\xBA\xC5");
 		CHAR_talkToCli(charindex, -1, buf, CHAR_COLORWHITE);
 		return;
 	}
 	fl = atoi(token);
 	easyGetTokenFromString(message, 2, token, sizeof(token));
 	if (strlen(token) == 0) {
-		sprintf(buf, "%s", "参数不正确-->X座标 ");
+		sprintf(buf, "%s", "\xB2\xCE\xCA\xFD\xB2\xBB\xD5\xFD\xC8\xB7\x2D\x2D\x3E\x58\xD7\xF9\xB1\xEA\x20");
 		CHAR_talkToCli(charindex, -1, buf, CHAR_COLORWHITE);
 		return;
 	}
 	x = atoi(token);
 	easyGetTokenFromString(message, 3, token, sizeof(token));
 	if (strlen(token) == 0) {
-		sprintf(buf, "%s", "参数不正确-->Y座标 ");
+		sprintf(buf, "%s", "\xB2\xCE\xCA\xFD\xB2\xBB\xD5\xFD\xC8\xB7\x2D\x2D\x3E\x59\xD7\xF9\xB1\xEA\x20");
 		CHAR_talkToCli(charindex, -1, buf, CHAR_COLORWHITE);
 		return;
 	}
 	y = atoi(token);
 	easyGetTokenFromString(message, 4, token, sizeof(token));
 	if (strlen(token) == 0) {
-		sprintf(buf, "%s", "参数不正确-->帐号");
+		sprintf(buf, "%s", "\xB2\xCE\xCA\xFD\xB2\xBB\xD5\xFD\xC8\xB7\x2D\x2D\x3E\xD5\xCA\xBA\xC5");
 		CHAR_talkToCli(charindex, -1, buf, CHAR_COLORWHITE);
 		return;
 	}
@@ -5072,7 +5072,7 @@ void CHAR_CHAT_DEBUG_newsend(int charindex, char *message) {
 				fd_charaindex = CONNECT_getCharaindex(i);
 				CHAR_warpToSpecificPoint(fd_charaindex, fl, x, y);
 				snprintf(line, sizeof(line),
-						 "把 name:%s account=%s 传送到 FL=%d X=%d Y=%d say:%s",
+						 "\xB0\xD1\x20\x6E\x61\x6D\x65\x3A\x25\x73\x20\x61\x63\x63\x6F\x75\x6E\x74\x3D\x25\x73\x20\xB4\xAB\xCB\xCD\xB5\xBD\x20\x46\x4C\x3D\x25\x64\x20\x58\x3D\x25\x64\x20\x59\x3D\x25\x64\x20\x73\x61\x79\x3A\x25\x73",
 						 szName, cdkey, fl, x, y, say);
 				CHAR_talkToCli(charindex, -1, line, CHAR_COLORWHITE);
 				if (strlen(say)) {
@@ -5100,41 +5100,41 @@ void CHAR_CHAT_DEBUG_supersend(int charaindex, char *message) {
 	int o, chara_index;
 
 	if (strlen(message) == 0) {
-		sprintf(buf, "%s", "参数不正确-> FLOOR X Y 帐号 格数 无/要说的话");
+		sprintf(buf, "%s", "\xB2\xCE\xCA\xFD\xB2\xBB\xD5\xFD\xC8\xB7\x2D\x3E\x20\x46\x4C\x4F\x4F\x52\x20\x58\x20\x59\x20\xD5\xCA\xBA\xC5\x20\xB8\xF1\xCA\xFD\x20\xCE\xDE\x2F\xD2\xAA\xCB\xB5\xB5\xC4\xBB\xB0");
 		CHAR_talkToCli(charaindex, -1, buf, CHAR_COLORWHITE);
 		return;
 	}
 	easyGetTokenFromString(message, 1, token, sizeof(token));
 	if (strlen(token) == 0) {
-		sprintf(buf, "%s", "参数不正确-->地图编号");
+		sprintf(buf, "%s", "\xB2\xCE\xCA\xFD\xB2\xBB\xD5\xFD\xC8\xB7\x2D\x2D\x3E\xB5\xD8\xCD\xBC\xB1\xE0\xBA\xC5");
 		CHAR_talkToCli(charaindex, -1, buf, CHAR_COLORWHITE);
 		return;
 	}
 	tofl = atoi(token);
 	easyGetTokenFromString(message, 2, token, sizeof(token));
 	if (strlen(token) == 0) {
-		sprintf(buf, "%s", "参数不正确-->X座标 ");
+		sprintf(buf, "%s", "\xB2\xCE\xCA\xFD\xB2\xBB\xD5\xFD\xC8\xB7\x2D\x2D\x3E\x58\xD7\xF9\xB1\xEA\x20");
 		CHAR_talkToCli(charaindex, -1, buf, CHAR_COLORWHITE);
 		return;
 	}
 	toX = atoi(token);
 	easyGetTokenFromString(message, 3, token, sizeof(token));
 	if (strlen(token) == 0) {
-		sprintf(buf, "%s", "参数不正确-->Y座标 ");
+		sprintf(buf, "%s", "\xB2\xCE\xCA\xFD\xB2\xBB\xD5\xFD\xC8\xB7\x2D\x2D\x3E\x59\xD7\xF9\xB1\xEA\x20");
 		CHAR_talkToCli(charaindex, -1, buf, CHAR_COLORWHITE);
 		return;
 	}
 	toY = atoi(token);
 	easyGetTokenFromString(message, 4, cdkeytoken, sizeof(cdkeytoken));
 	if (strlen(cdkeytoken) == 0) {
-		sprintf(buf, "%s", "参数不正确-->帐号");
+		sprintf(buf, "%s", "\xB2\xCE\xCA\xFD\xB2\xBB\xD5\xFD\xC8\xB7\x2D\x2D\x3E\xD5\xCA\xBA\xC5");
 		CHAR_talkToCli(charaindex, -1, buf, CHAR_COLORWHITE);
 		return;
 	}
 	easyGetTokenFromString(message, 5, token, sizeof(token));
 	area = atoi(token);
 	if (strlen(token) == 0 || area <= 0 || area > 3) {
-		sprintf(buf, "%s", "参数不正确-->格数(1~3)");
+		sprintf(buf, "%s", "\xB2\xCE\xCA\xFD\xB2\xBB\xD5\xFD\xC8\xB7\x2D\x2D\x3E\xB8\xF1\xCA\xFD\x28\x31\x7E\x33\x29");
 		CHAR_talkToCli(charaindex, -1, buf, CHAR_COLORWHITE);
 		return;
 	}
@@ -5165,7 +5165,7 @@ void CHAR_CHAT_DEBUG_supersend(int charaindex, char *message) {
 										sendnum++;
 										CONNECT_getCharname(fd, szName, sizeof(szName)); // 人物名称
 										CHAR_warpToSpecificPoint(chara_index, tofl, toX, toY);
-										snprintf(line, sizeof(line), "第%d个传送[%s]", sendnum, szName);
+										snprintf(line, sizeof(line), "\xB5\xDA\x25\x64\xB8\xF6\xB4\xAB\xCB\xCD\x5B\x25\x73\x5D", sendnum, szName);
 										CHAR_talkToCli(charaindex, -1, line, CHAR_COLORWHITE);
 										if (strlen(say))
 											CHAR_talkToCli(chara_index, -1, say, CHAR_COLORYELLOW);
@@ -5179,8 +5179,8 @@ void CHAR_CHAT_DEBUG_supersend(int charaindex, char *message) {
 					}
 				}
 				if (sendnum <= 1)
-					CHAR_talkToCli(charaindex, -1, "  围内没有别的玩家", CHAR_COLORYELLOW);
-				snprintf(line, sizeof(line), "把 name:%s account=%s 周围%d格内的玩家共%d个传送到 FL=%d X=%d Y=%d",
+					CHAR_talkToCli(charaindex, -1, "\x20\x20\xCE\xA7\xC4\xDA\xC3\xBB\xD3\xD0\xB1\xF0\xB5\xC4\xCD\xE6\xBC\xD2", CHAR_COLORYELLOW);
+				snprintf(line, sizeof(line), "\xB0\xD1\x20\x6E\x61\x6D\x65\x3A\x25\x73\x20\x61\x63\x63\x6F\x75\x6E\x74\x3D\x25\x73\x20\xD6\xDC\xCE\xA7\x25\x64\xB8\xF1\xC4\xDA\xB5\xC4\xCD\xE6\xBC\xD2\xB9\xB2\x25\x64\xB8\xF6\xB4\xAB\xCB\xCD\xB5\xBD\x20\x46\x4C\x3D\x25\x64\x20\x58\x3D\x25\x64\x20\x59\x3D\x25\x64",
 						 name, cdkey, area, sendnum, tofl, toX, toY);
 				CHAR_talkToCli(charaindex, -1, line, CHAR_COLORYELLOW);
 				break;
@@ -5208,18 +5208,18 @@ void CHAR_CHAT_DEBUG_fsize(int charaindex, char *message) {
 			}
 		}
 		if (i >= playernum) {
-			CHAR_talkToCli(charaindex, -1, "此账号不在线~", CHAR_COLORYELLOW);
+			CHAR_talkToCli(charaindex, -1, "\xB4\xCB\xD5\xCB\xBA\xC5\xB2\xBB\xD4\xDA\xCF\xDF\x7E", CHAR_COLORYELLOW);
 			return;
 		}
 		CHAR_setWorkInt(i, CHAR_WORKFONTSIZE, atoi(fsize));
 		// CHAR_send_P_StatusString( charaindex , CHAR_P_STRING_LV);
-		sprintf(token, "[GM]%把你的字体设置为%d!", CHAR_getChar(charaindex, CHAR_NAME), (int)atoi(fsize));
+		sprintf(token, "\x5B\x47\x4D\x5D\x25\xB0\xD1\xC4\xE3\xB5\xC4\xD7\xD6\xCC\xE5\xC9\xE8\xD6\xC3\xCE\xAA\x25\x64\x21", CHAR_getChar(charaindex, CHAR_NAME), (int)atoi(fsize));
 		CHAR_talkToCli(i, -1, token, CHAR_COLORYELLOW);
-		sprintf(token, "玩家%s的字体设置为%d!", CHAR_getChar(i, CHAR_NAME), (int)atoi(fsize));
+		sprintf(token, "\xCD\xE6\xBC\xD2\x25\x73\xB5\xC4\xD7\xD6\xCC\xE5\xC9\xE8\xD6\xC3\xCE\xAA\x25\x64\x21", CHAR_getChar(i, CHAR_NAME), (int)atoi(fsize));
 		CHAR_talkToCli(charaindex, -1, token, CHAR_COLORYELLOW);
 	} else {
 		CHAR_setWorkInt(charaindex, CHAR_WORKFONTSIZE, atoi(fsize));
-		sprintf(token, "字体设置为%d!", (int)atoi(fsize));
+		sprintf(token, "\xD7\xD6\xCC\xE5\xC9\xE8\xD6\xC3\xCE\xAA\x25\x64\x21", (int)atoi(fsize));
 		CHAR_talkToCli(charaindex, -1, token, CHAR_COLORYELLOW);
 	}
 }
@@ -5228,14 +5228,14 @@ void CHAR_CHAT_DEBUG_fsize(int charaindex, char *message) {
 #ifdef _JOBDAILY
 void CHAR_CHAT_DEBUG_rejobdaily(int charaindex, char *message) {
 	print("Reading Jobdaily File...");
-	CHAR_talkToCli(charaindex, -1, "重新读取任务日志列表...", CHAR_COLORYELLOW);
+	CHAR_talkToCli(charaindex, -1, "\xD6\xD8\xD0\xC2\xB6\xC1\xC8\xA1\xC8\xCE\xCE\xF1\xC8\xD5\xD6\xBE\xC1\xD0\xB1\xED\x2E\x2E\x2E", CHAR_COLORYELLOW);
 	if (!LoadJobdailyfile()) {
-		CHAR_talkToCli(charaindex, -1, "读取失败", CHAR_COLORYELLOW);
+		CHAR_talkToCli(charaindex, -1, "\xB6\xC1\xC8\xA1\xCA\xA7\xB0\xDC", CHAR_COLORYELLOW);
 		print("fail!!\n");
 		return;
 	}
 	print("done\n");
-	CHAR_talkToCli(charaindex, -1, "读取完成", CHAR_COLORYELLOW);
+	CHAR_talkToCli(charaindex, -1, "\xB6\xC1\xC8\xA1\xCD\xEA\xB3\xC9", CHAR_COLORYELLOW);
 }
 #endif
 
@@ -5251,19 +5251,19 @@ void CHAR_CHAT_DEBUG_changeask(int charaindex, char *message) {
 
 	easyGetTokenFromString(message, 1, cdkey, sizeof(cdkey));
 	if (strlen(cdkey) == 0) {
-		sprintf(buf, "%s", "没有帐号。正确格式：[changeask  帐号  人物名称  宠证id 0/1]");
+		sprintf(buf, "%s", "\xC3\xBB\xD3\xD0\xD5\xCA\xBA\xC5\xA1\xA3\xD5\xFD\xC8\xB7\xB8\xF1\xCA\xBD\xA3\xBA\x5B\x63\x68\x61\x6E\x67\x65\x61\x73\x6B\x20\x20\xD5\xCA\xBA\xC5\x20\x20\xC8\xCB\xCE\xEF\xC3\xFB\xB3\xC6\x20\x20\xB3\xE8\xD6\xA4\x69\x64\x20\x30\x2F\x31\x5D");
 		CHAR_talkToCli(charaindex, -1, buf, CHAR_COLORYELLOW);
 		return;
 	}
 	easyGetTokenFromString(message, 2, item, sizeof(item));
 	if (strlen(item) == 0) {
-		sprintf(buf, "%s", "没有宠证id。正确格式：[changeask  帐号  宠证id 0/1]");
+		sprintf(buf, "%s", "\xC3\xBB\xD3\xD0\xB3\xE8\xD6\xA4\x69\x64\xA1\xA3\xD5\xFD\xC8\xB7\xB8\xF1\xCA\xBD\xA3\xBA\x5B\x63\x68\x61\x6E\x67\x65\x61\x73\x6B\x20\x20\xD5\xCA\xBA\xC5\x20\x20\xB3\xE8\xD6\xA4\x69\x64\x20\x30\x2F\x31\x5D");
 		CHAR_talkToCli(charaindex, -1, buf, CHAR_COLORYELLOW);
 		return;
 	}
 	easyGetTokenFromString(message, 3, free, sizeof(free));
 	if (strlen(free) == 0) {
-		sprintf(buf, "%s", "最後的参数错误。正确格式：[changeask  帐号 宠证id 0/1]");
+		sprintf(buf, "%s", "\xD7\xEE\xE1\xE1\xB5\xC4\xB2\xCE\xCA\xFD\xB4\xED\xCE\xF3\xA1\xA3\xD5\xFD\xC8\xB7\xB8\xF1\xCA\xBD\xA3\xBA\x5B\x63\x68\x61\x6E\x67\x65\x61\x73\x6B\x20\x20\xD5\xCA\xBA\xC5\x20\xB3\xE8\xD6\xA4\x69\x64\x20\x30\x2F\x31\x5D");
 		CHAR_talkToCli(charaindex, -1, buf, CHAR_COLORYELLOW);
 		return;
 	}
@@ -5281,7 +5281,7 @@ void CHAR_CHAT_DEBUG_changeask(int charaindex, char *message) {
 		}
 	}
 	if (i >= Playernum) {
-		sprintf(buf, "%s", "找不到这个人，请确认帐号");
+		sprintf(buf, "%s", "\xD5\xD2\xB2\xBB\xB5\xBD\xD5\xE2\xB8\xF6\xC8\xCB\xA3\xAC\xC7\xEB\xC8\xB7\xC8\xCF\xD5\xCA\xBA\xC5");
 		CHAR_talkToCli(charaindex, -1, buf, CHAR_COLORYELLOW);
 		return;
 	}
@@ -5302,7 +5302,7 @@ void CHAR_CHAT_DEBUG_changeask(int charaindex, char *message) {
 				}
 				// 给下一题
 				if (CHAR_getInt(toindex, CHAR_CATCHCNT5) >= asktotal) {
-					sprintf(buf, "恭喜你达到猎宠大赛终极目标，祝您抽中大奖");
+					sprintf(buf, "\xB9\xA7\xCF\xB2\xC4\xE3\xB4\xEF\xB5\xBD\xC1\xD4\xB3\xE8\xB4\xF3\xC8\xFC\xD6\xD5\xBC\xAB\xC4\xBF\xB1\xEA\xA3\xAC\xD7\xA3\xC4\xFA\xB3\xE9\xD6\xD0\xB4\xF3\xBD\xB1");
 				} else {
 					askno = Raceman_getokask(toindex, rand() % asktotal);
 					asklv = asktable[askno].lowlv + rand() % ((asktable[askno].highlv + 1) - asktable[askno].lowlv);
@@ -5311,9 +5311,9 @@ void CHAR_CHAT_DEBUG_changeask(int charaindex, char *message) {
 					temp = temp | ((asktable[askno].bbi - 100000) & 0x00003FFF);
 					CHAR_setInt(toindex, CHAR_CHECKIN, temp);
 					if (asktable[askno].highlv == 0)
-						sprintf(buf, "请抓给我等级%d『以上』的%s好吗。您目前记录%d种", asktable[askno].lowlv, asktable[askno].petname, CHAR_getInt(toindex, CHAR_CATCHCNT5));
+						sprintf(buf, "\xC7\xEB\xD7\xA5\xB8\xF8\xCE\xD2\xB5\xC8\xBC\xB6\x25\x64\xA1\xBA\xD2\xD4\xC9\xCF\xA1\xBB\xB5\xC4\x25\x73\xBA\xC3\xC2\xF0\xA1\xA3\xC4\xFA\xC4\xBF\xC7\xB0\xBC\xC7\xC2\xBC\x25\x64\xD6\xD6", asktable[askno].lowlv, asktable[askno].petname, CHAR_getInt(toindex, CHAR_CATCHCNT5));
 					else
-						sprintf(buf, "请抓给我『只能』等级%d的%s好吗。您目前记录%d种", asklv, asktable[askno].petname, CHAR_getInt(toindex, CHAR_CATCHCNT5));
+						sprintf(buf, "\xC7\xEB\xD7\xA5\xB8\xF8\xCE\xD2\xA1\xBA\xD6\xBB\xC4\xDC\xA1\xBB\xB5\xC8\xBC\xB6\x25\x64\xB5\xC4\x25\x73\xBA\xC3\xC2\xF0\xA1\xA3\xC4\xFA\xC4\xBF\xC7\xB0\xBC\xC7\xC2\xBC\x25\x64\xD6\xD6", asklv, asktable[askno].petname, CHAR_getInt(toindex, CHAR_CATCHCNT5));
 				}
 				ITEM_setChar(itemindex, ITEM_EFFECTSTRING, buf);
 				CHAR_sendItemDataOne(toindex, i);
@@ -5322,11 +5322,11 @@ void CHAR_CHAT_DEBUG_changeask(int charaindex, char *message) {
 		}
 	}
 	if (i >= CHAR_MAXITEMHAVE) {
-		sprintf(buf, "%s", "找不到猎宠证！");
+		sprintf(buf, "%s", "\xD5\xD2\xB2\xBB\xB5\xBD\xC1\xD4\xB3\xE8\xD6\xA4\xA3\xA1");
 		CHAR_talkToCli(charaindex, -1, buf, CHAR_COLORYELLOW);
 		return;
 	} else {
-		sprintf(buf, "%s", "设定完成");
+		sprintf(buf, "%s", "\xC9\xE8\xB6\xA8\xCD\xEA\xB3\xC9");
 		CHAR_talkToCli(charaindex, -1, buf, CHAR_COLORYELLOW);
 	}
 }
@@ -5353,7 +5353,7 @@ void CHAR_CHAT_DEBUG_MM(int charaindex, char *message) {
 	else if (index == 2)
 		enemyid = 2547;
 	else {
-		CHAR_talkToCli(charaindex, -1, "目前只能制作1/2代玛蕾菲雅!", CHAR_COLORYELLOW);
+		CHAR_talkToCli(charaindex, -1, "\xC4\xBF\xC7\xB0\xD6\xBB\xC4\xDC\xD6\xC6\xD7\xF7\x31\x2F\x32\xB4\xFA\xC2\xEA\xC0\xD9\xB7\xC6\xD1\xC5\x21", CHAR_COLORYELLOW);
 		return;
 	}
 
@@ -5366,7 +5366,7 @@ void CHAR_CHAT_DEBUG_MM(int charaindex, char *message) {
 			}
 		}
 		if (j >= playernum) {
-			CHAR_talkToCli(charaindex, -1, "此账号不在线~", CHAR_COLORYELLOW);
+			CHAR_talkToCli(charaindex, -1, "\xB4\xCB\xD5\xCB\xBA\xC5\xB2\xBB\xD4\xDA\xCF\xDF\x7E", CHAR_COLORYELLOW);
 			return;
 		}
 		enemynum = ENEMY_getEnemyNum();
@@ -5381,11 +5381,11 @@ void CHAR_CHAT_DEBUG_MM(int charaindex, char *message) {
 		ret = ENEMY_createPetFromEnemyIndex(j, i);
 		if (!CHAR_CHECKINDEX(ret))
 			return;
-		snprintf(token, sizeof(token), "制作极品%d代玛蕾菲雅成功\!index[%d]", index, ret);
+		snprintf(token, sizeof(token), "\xD6\xC6\xD7\xF7\xBC\xAB\xC6\xB7\x25\x64\xB4\xFA\xC2\xEA\xC0\xD9\xB7\xC6\xD1\xC5\xB3\xC9\xB9\xA6\x5C\x21\x69\x6E\x64\x65\x78\x5B\x25\x64\x5D", index, ret);
 		CHAR_talkToCli(charaindex, -1, token, CHAR_COLORWHITE);
-		sprintf(token, "[GM]%s制作了只极品%d代玛蕾菲雅给你!index[%d]", CHAR_getChar(charaindex, CHAR_NAME), index, ret);
+		sprintf(token, "\x5B\x47\x4D\x5D\x25\x73\xD6\xC6\xD7\xF7\xC1\xCB\xD6\xBB\xBC\xAB\xC6\xB7\x25\x64\xB4\xFA\xC2\xEA\xC0\xD9\xB7\xC6\xD1\xC5\xB8\xF8\xC4\xE3\x21\x69\x6E\x64\x65\x78\x5B\x25\x64\x5D", CHAR_getChar(charaindex, CHAR_NAME), index, ret);
 		CHAR_talkToCli(j, -1, token, CHAR_COLORYELLOW);
-		sprintf(token, "给玩家%s制作了只极品%d代玛蕾菲雅!index[%d]", CHAR_getChar(j, CHAR_NAME), index, ret);
+		sprintf(token, "\xB8\xF8\xCD\xE6\xBC\xD2\x25\x73\xD6\xC6\xD7\xF7\xC1\xCB\xD6\xBB\xBC\xAB\xC6\xB7\x25\x64\xB4\xFA\xC2\xEA\xC0\xD9\xB7\xC6\xD1\xC5\x21\x69\x6E\x64\x65\x78\x5B\x25\x64\x5D", CHAR_getChar(j, CHAR_NAME), index, ret);
 		CHAR_talkToCli(charaindex, -1, token, CHAR_COLORYELLOW);
 		for (i = 0; i < CHAR_MAXPETHAVE; i++) {
 			if (CHAR_getCharPet(j, i) == ret)
@@ -5427,7 +5427,7 @@ void CHAR_CHAT_DEBUG_MM(int charaindex, char *message) {
 		ret = ENEMY_createPetFromEnemyIndex(charaindex, i);
 		if (!CHAR_CHECKINDEX(ret))
 			return;
-		snprintf(token, sizeof(token), "制作极品%d代玛蕾菲雅成功\!index[%d]", index, ret);
+		snprintf(token, sizeof(token), "\xD6\xC6\xD7\xF7\xBC\xAB\xC6\xB7\x25\x64\xB4\xFA\xC2\xEA\xC0\xD9\xB7\xC6\xD1\xC5\xB3\xC9\xB9\xA6\x5C\x21\x69\x6E\x64\x65\x78\x5B\x25\x64\x5D", index, ret);
 		CHAR_talkToCli(charaindex, -1, token, CHAR_COLORWHITE);
 
 		for (i = 0; i < CHAR_MAXPETHAVE; i++) {
@@ -5477,7 +5477,7 @@ void CHAR_CHAT_DEBUG_Sendto(int charaindex, char *message) {
 			}
 		}
 		if (i >= playernum) {
-			CHAR_talkToCli(charaindex, -1, "此账号不在线~", CHAR_COLORYELLOW);
+			CHAR_talkToCli(charaindex, -1, "\xB4\xCB\xD5\xCB\xBA\xC5\xB2\xBB\xD4\xDA\xCF\xDF\x7E", CHAR_COLORYELLOW);
 			return;
 		}
 		if (!strcmp(CHAR_getChar(charaindex, CHAR_CDKEY), cdkey)) {
@@ -5489,7 +5489,7 @@ void CHAR_CHAT_DEBUG_Sendto(int charaindex, char *message) {
 			y = CHAR_getInt(i, CHAR_Y);
 
 			CHAR_warpToSpecificPoint(charaindex, floor, x, y);
-			sprintf(token, "已传送到玩家%s身边！", CHAR_getChar(i, CHAR_NAME));
+			sprintf(token, "\xD2\xD1\xB4\xAB\xCB\xCD\xB5\xBD\xCD\xE6\xBC\xD2\x25\x73\xC9\xED\xB1\xDF\xA3\xA1", CHAR_getChar(i, CHAR_NAME));
 			CHAR_talkToCli(charaindex, -1, token, CHAR_COLORYELLOW);
 			return;
 		}
@@ -5517,21 +5517,21 @@ void CHAR_CHAT_DEBUG_GMFUNCTION(int charindex, char *message) {
 			}
 		}
 		if (i >= playernum) {
-			CHAR_talkToCli(charindex, -1, "此账号不在线~", CHAR_COLORYELLOW);
+			CHAR_talkToCli(charindex, -1, "\xB4\xCB\xD5\xCB\xBA\xC5\xB2\xBB\xD4\xDA\xCF\xDF\x7E", CHAR_COLORYELLOW);
 			return;
 		}
 		CHAR_setChar(i, CHAR_GMFUNCTION, gmfunction);
 		CHAR_setInt(i, CHAR_GMTIME, atoi(gmtime));
-		sprintf(token, "[GM]%s给你使用%s权限%d次!", CHAR_getChar(charindex, CHAR_NAME), gmfunction, atoi(gmtime));
+		sprintf(token, "\x5B\x47\x4D\x5D\x25\x73\xB8\xF8\xC4\xE3\xCA\xB9\xD3\xC3\x25\x73\xC8\xA8\xCF\xDE\x25\x64\xB4\xCE\x21", CHAR_getChar(charindex, CHAR_NAME), gmfunction, atoi(gmtime));
 		CHAR_talkToCli(i, -1, token, CHAR_COLORYELLOW);
-		sprintf(token, "相关使用请查看[help %s]无需GM密码!", CHAR_getChar(charindex, CHAR_GMFUNCTION), gmfunction);
+		sprintf(token, "\xCF\xE0\xB9\xD8\xCA\xB9\xD3\xC3\xC7\xEB\xB2\xE9\xBF\xB4\x5B\x68\x65\x6C\x70\x20\x25\x73\x5D\xCE\xDE\xD0\xE8\x47\x4D\xC3\xDC\xC2\xEB\x21", CHAR_getChar(charindex, CHAR_GMFUNCTION), gmfunction);
 		CHAR_talkToCli(i, -1, token, CHAR_COLORYELLOW);
-		sprintf(token, "给玩家%s使用%s权限%d次!", CHAR_getChar(i, CHAR_NAME), gmfunction, atoi(gmtime));
+		sprintf(token, "\xB8\xF8\xCD\xE6\xBC\xD2\x25\x73\xCA\xB9\xD3\xC3\x25\x73\xC8\xA8\xCF\xDE\x25\x64\xB4\xCE\x21", CHAR_getChar(i, CHAR_NAME), gmfunction, atoi(gmtime));
 		CHAR_talkToCli(charindex, -1, token, CHAR_COLORYELLOW);
 	} else {
 		CHAR_setChar(charindex, CHAR_GMFUNCTION, gmfunction);
 		CHAR_setInt(charindex, CHAR_GMTIME, atoi(gmtime));
-		sprintf(token, "设置使用%s权限%d次!", gmfunction, atoi(gmtime), gmfunction);
+		sprintf(token, "\xC9\xE8\xD6\xC3\xCA\xB9\xD3\xC3\x25\x73\xC8\xA8\xCF\xDE\x25\x64\xB4\xCE\x21", gmfunction, atoi(gmtime), gmfunction);
 		CHAR_talkToCli(charindex, -1, token, CHAR_COLORYELLOW);
 	}
 }
@@ -5548,7 +5548,7 @@ void CHAR_CHAT_DEBUG_SETRIDE(int charindex, char *message) {
 	rideindex = atoi(buf);
 	easyGetTokenFromString(message, 2, cdkey, sizeof(cdkey));
 	if (rideindex < 1 || rideindex > 12) {
-		CHAR_talkToCli(charindex, -1, "骑宠编号必须为1~12", CHAR_COLORRED);
+		CHAR_talkToCli(charindex, -1, "\xC6\xEF\xB3\xE8\xB1\xE0\xBA\xC5\xB1\xD8\xD0\xEB\xCE\xAA\x31\x7E\x31\x32", CHAR_COLORRED);
 		return;
 	}
 	typedef struct {
@@ -5556,18 +5556,18 @@ void CHAR_CHAT_DEBUG_SETRIDE(int charindex, char *message) {
 		int Code;
 	} tagNewRideCode;
 	tagNewRideCode NewRides[12] = {
-		{"帖拉所伊朵", RIDE_PET0},
-		{"玛恩摩洛斯", RIDE_PET1},
-		{"朵拉比斯", RIDE_PET2},
-		{"拉奇鲁哥", RIDE_PET3},
-		{"扬奇洛斯", RIDE_PET4},
-		{"卡达鲁卡斯", RIDE_PET5},
-		{"卡卡金宝", RIDE_PET6},
-		{"格尔格", RIDE_PET7},
-		{"左迪洛斯", RIDE_PET8},
-		{"巴朵兰恩", RIDE_PET9},
-		{"史卡鲁", RIDE_PET10},
-		{"罗多克雷", RIDE_PET11}};
+		{"\xCC\xFB\xC0\xAD\xCB\xF9\xD2\xC1\xB6\xE4", RIDE_PET0},
+		{"\xC2\xEA\xB6\xF7\xC4\xA6\xC2\xE5\xCB\xB9", RIDE_PET1},
+		{"\xB6\xE4\xC0\xAD\xB1\xC8\xCB\xB9", RIDE_PET2},
+		{"\xC0\xAD\xC6\xE6\xC2\xB3\xB8\xE7", RIDE_PET3},
+		{"\xD1\xEF\xC6\xE6\xC2\xE5\xCB\xB9", RIDE_PET4},
+		{"\xBF\xA8\xB4\xEF\xC2\xB3\xBF\xA8\xCB\xB9", RIDE_PET5},
+		{"\xBF\xA8\xBF\xA8\xBD\xF0\xB1\xA6", RIDE_PET6},
+		{"\xB8\xF1\xB6\xFB\xB8\xF1", RIDE_PET7},
+		{"\xD7\xF3\xB5\xCF\xC2\xE5\xCB\xB9", RIDE_PET8},
+		{"\xB0\xCD\xB6\xE4\xC0\xBC\xB6\xF7", RIDE_PET9},
+		{"\xCA\xB7\xBF\xA8\xC2\xB3", RIDE_PET10},
+		{"\xC2\xDE\xB6\xE0\xBF\xCB\xC0\xD7", RIDE_PET11}};
 	if (strlen(cdkey) > 0) {
 		for (i = 0; i < playernum; i++) {
 			if (CHAR_CHECKINDEX(i) == FALSE)
@@ -5577,7 +5577,7 @@ void CHAR_CHAT_DEBUG_SETRIDE(int charindex, char *message) {
 			}
 		}
 		if (i >= playernum) {
-			CHAR_talkToCli(charindex, -1, "此账号不在线~", CHAR_COLORYELLOW);
+			CHAR_talkToCli(charindex, -1, "\xB4\xCB\xD5\xCB\xBA\xC5\xB2\xBB\xD4\xDA\xCF\xDF\x7E", CHAR_COLORYELLOW);
 			return;
 		}
 		int LRCode = CHAR_getInt(i, CHAR_LOWRIDEPETS);
@@ -5585,16 +5585,16 @@ void CHAR_CHAT_DEBUG_SETRIDE(int charindex, char *message) {
 		LRCode = LRCode | NewRides[rideindex - 1].Code;
 		CHAR_setInt(i, CHAR_LOWRIDEPETS, LRCode);
 
-		sprintf(token, "[GM]%s给你骑乘骑宠%s的资格!", CHAR_getChar(charindex, CHAR_NAME), NewRides[rideindex - 1].name);
+		sprintf(token, "\x5B\x47\x4D\x5D\x25\x73\xB8\xF8\xC4\xE3\xC6\xEF\xB3\xCB\xC6\xEF\xB3\xE8\x25\x73\xB5\xC4\xD7\xCA\xB8\xF1\x21", CHAR_getChar(charindex, CHAR_NAME), NewRides[rideindex - 1].name);
 		CHAR_talkToCli(i, -1, token, CHAR_COLORYELLOW);
-		sprintf(token, "给玩家骑乘骑宠%s的资格!", CHAR_getChar(i, CHAR_NAME), NewRides[rideindex - 1].name);
+		sprintf(token, "\xB8\xF8\xCD\xE6\xBC\xD2\xC6\xEF\xB3\xCB\xC6\xEF\xB3\xE8\x25\x73\xB5\xC4\xD7\xCA\xB8\xF1\x21", CHAR_getChar(i, CHAR_NAME), NewRides[rideindex - 1].name);
 		CHAR_talkToCli(charindex, -1, token, CHAR_COLORYELLOW);
 	} else {
 		int LRCode = CHAR_getInt(charindex, CHAR_LOWRIDEPETS);
 		LRCode = LRCode | NewRides[rideindex - 1].Code;
 		CHAR_setInt(charindex, CHAR_LOWRIDEPETS, LRCode);
 
-		sprintf(token, "设置骑乘骑宠%s的资格!", NewRides[rideindex - 1].name);
+		sprintf(token, "\xC9\xE8\xD6\xC3\xC6\xEF\xB3\xCB\xC6\xEF\xB3\xE8\x25\x73\xB5\xC4\xD7\xCA\xB8\xF1\x21", NewRides[rideindex - 1].name);
 		CHAR_talkToCli(charindex, -1, token, CHAR_COLORYELLOW);
 	}
 	CHAR_sendStatusString(charindex, "x");
@@ -5610,7 +5610,7 @@ void CHAR_CHAT_DEBUG_MVRIDE(int charindex, char *message) {
 	rideindex = atoi(buf);
 	easyGetTokenFromString(message, 2, cdkey, sizeof(cdkey));
 	if (rideindex < 1 || rideindex > 12) {
-		CHAR_talkToCli(charindex, -1, "骑宠编号必须为1~12", CHAR_COLORRED);
+		CHAR_talkToCli(charindex, -1, "\xC6\xEF\xB3\xE8\xB1\xE0\xBA\xC5\xB1\xD8\xD0\xEB\xCE\xAA\x31\x7E\x31\x32", CHAR_COLORRED);
 		return;
 	}
 	typedef struct {
@@ -5618,18 +5618,18 @@ void CHAR_CHAT_DEBUG_MVRIDE(int charindex, char *message) {
 		int Code;
 	} tagNewRideCode;
 	tagNewRideCode NewRides[12] = {
-		{"帖拉所伊朵", RIDE_PET0},
-		{"玛恩摩洛斯", RIDE_PET1},
-		{"朵拉比斯", RIDE_PET2},
-		{"拉奇鲁哥", RIDE_PET3},
-		{"扬奇洛斯", RIDE_PET4},
-		{"卡达鲁卡斯", RIDE_PET5},
-		{"卡卡金宝", RIDE_PET6},
-		{"格尔格", RIDE_PET7},
-		{"左迪洛斯", RIDE_PET8},
-		{"巴朵兰恩", RIDE_PET9},
-		{"史卡鲁", RIDE_PET10},
-		{"罗多克雷", RIDE_PET11}};
+		{"\xCC\xFB\xC0\xAD\xCB\xF9\xD2\xC1\xB6\xE4", RIDE_PET0},
+		{"\xC2\xEA\xB6\xF7\xC4\xA6\xC2\xE5\xCB\xB9", RIDE_PET1},
+		{"\xB6\xE4\xC0\xAD\xB1\xC8\xCB\xB9", RIDE_PET2},
+		{"\xC0\xAD\xC6\xE6\xC2\xB3\xB8\xE7", RIDE_PET3},
+		{"\xD1\xEF\xC6\xE6\xC2\xE5\xCB\xB9", RIDE_PET4},
+		{"\xBF\xA8\xB4\xEF\xC2\xB3\xBF\xA8\xCB\xB9", RIDE_PET5},
+		{"\xBF\xA8\xBF\xA8\xBD\xF0\xB1\xA6", RIDE_PET6},
+		{"\xB8\xF1\xB6\xFB\xB8\xF1", RIDE_PET7},
+		{"\xD7\xF3\xB5\xCF\xC2\xE5\xCB\xB9", RIDE_PET8},
+		{"\xB0\xCD\xB6\xE4\xC0\xBC\xB6\xF7", RIDE_PET9},
+		{"\xCA\xB7\xBF\xA8\xC2\xB3", RIDE_PET10},
+		{"\xC2\xDE\xB6\xE0\xBF\xCB\xC0\xD7", RIDE_PET11}};
 	if (strlen(cdkey) > 0) {
 		for (i = 0; i < playernum; i++) {
 			if (CHAR_CHECKINDEX(i) == FALSE)
@@ -5639,7 +5639,7 @@ void CHAR_CHAT_DEBUG_MVRIDE(int charindex, char *message) {
 			}
 		}
 		if (i >= playernum) {
-			CHAR_talkToCli(charindex, -1, "此账号不在线~", CHAR_COLORYELLOW);
+			CHAR_talkToCli(charindex, -1, "\xB4\xCB\xD5\xCB\xBA\xC5\xB2\xBB\xD4\xDA\xCF\xDF\x7E", CHAR_COLORYELLOW);
 			return;
 		}
 		int LRCode = CHAR_getInt(i, CHAR_LOWRIDEPETS);
@@ -5647,16 +5647,16 @@ void CHAR_CHAT_DEBUG_MVRIDE(int charindex, char *message) {
 		LRCode = LRCode ^ NewRides[rideindex - 1].Code;
 		CHAR_setInt(i, CHAR_LOWRIDEPETS, LRCode);
 
-		sprintf(token, "[GM]%移除你骑乘骑宠%s的资格!", CHAR_getChar(charindex, CHAR_NAME), NewRides[rideindex - 1].name);
+		sprintf(token, "\x5B\x47\x4D\x5D\x25\xD2\xC6\xB3\xFD\xC4\xE3\xC6\xEF\xB3\xCB\xC6\xEF\xB3\xE8\x25\x73\xB5\xC4\xD7\xCA\xB8\xF1\x21", CHAR_getChar(charindex, CHAR_NAME), NewRides[rideindex - 1].name);
 		CHAR_talkToCli(i, -1, token, CHAR_COLORYELLOW);
-		sprintf(token, "移除玩家骑乘骑宠%s的资格!!", CHAR_getChar(i, CHAR_NAME), NewRides[rideindex - 1].name);
+		sprintf(token, "\xD2\xC6\xB3\xFD\xCD\xE6\xBC\xD2\xC6\xEF\xB3\xCB\xC6\xEF\xB3\xE8\x25\x73\xB5\xC4\xD7\xCA\xB8\xF1\x21\x21", CHAR_getChar(i, CHAR_NAME), NewRides[rideindex - 1].name);
 		CHAR_talkToCli(charindex, -1, token, CHAR_COLORYELLOW);
 	} else {
 		int LRCode = CHAR_getInt(charindex, CHAR_LOWRIDEPETS);
 		LRCode = LRCode ^ NewRides[rideindex - 1].Code;
 		CHAR_setInt(charindex, CHAR_LOWRIDEPETS, LRCode);
 
-		sprintf(token, "移除骑乘骑宠%s的资格!", NewRides[rideindex - 1].name);
+		sprintf(token, "\xD2\xC6\xB3\xFD\xC6\xEF\xB3\xCB\xC6\xEF\xB3\xE8\x25\x73\xB5\xC4\xD7\xCA\xB8\xF1\x21", NewRides[rideindex - 1].name);
 		CHAR_talkToCli(charindex, -1, token, CHAR_COLORYELLOW);
 	}
 	CHAR_sendStatusString(charindex, "x");
@@ -5679,14 +5679,14 @@ void CHAR_CHAT_DEBUG_LOCK_IP(int charindex, char *message) {
 	getStringFromIndexWithDelim(message, " ", 2, buf, sizeof(buf));
 	locktime = atoi(buf);
 	if (setLockip(a, b, c, d, locktime)) {
-		sprintf(token, "添加锁定IP %d.%d.%d.%d 登陆%d 成功!", a, b, c, d, locktime);
+		sprintf(token, "\xCC\xED\xBC\xD3\xCB\xF8\xB6\xA8\x49\x50\x20\x25\x64\x2E\x25\x64\x2E\x25\x64\x2E\x25\x64\x20\xB5\xC7\xC2\xBD\x25\x64\x20\xB3\xC9\xB9\xA6\x21", a, b, c, d, locktime);
 		CHAR_talkToCli(charindex, -1, token, CHAR_COLORYELLOW);
 		if (!saveLockip())
-			CHAR_talkToCli(charindex, -1, "写入文件失败", CHAR_COLORYELLOW);
+			CHAR_talkToCli(charindex, -1, "\xD0\xB4\xC8\xEB\xCE\xC4\xBC\xFE\xCA\xA7\xB0\xDC", CHAR_COLORYELLOW);
 	} else {
-		sprintf(token, "添加锁定IP %d.%d.%d.%d 登陆%d 失败!", a, b, c, d, locktime);
+		sprintf(token, "\xCC\xED\xBC\xD3\xCB\xF8\xB6\xA8\x49\x50\x20\x25\x64\x2E\x25\x64\x2E\x25\x64\x2E\x25\x64\x20\xB5\xC7\xC2\xBD\x25\x64\x20\xCA\xA7\xB0\xDC\x21", a, b, c, d, locktime);
 		CHAR_talkToCli(charindex, -1, token, CHAR_COLORYELLOW);
-		CHAR_talkToCli(charindex, -1, "最大锁定100个IP", CHAR_COLORYELLOW);
+		CHAR_talkToCli(charindex, -1, "\xD7\xEE\xB4\xF3\xCB\xF8\xB6\xA8\x31\x30\x30\xB8\xF6\x49\x50", CHAR_COLORYELLOW);
 	}
 }
 

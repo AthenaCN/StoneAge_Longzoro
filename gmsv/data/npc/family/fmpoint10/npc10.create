@@ -1,8 +1,8 @@
 NPCCREATE
-###### ç‘å°”äºšæ–¯ä¸€èˆ¬NPC ######
+###### Èğ¶ûÑÇË¹Ò»°ãNPC ######
 
 
-### ç‘å°”äºšæ–¯å¥³æ€§
+### Èğ¶ûÑÇË¹Å®ĞÔ
 {
 name=±ÏÌØ
 floorid=104
@@ -13,7 +13,7 @@ enemy=npcgen_man|file:family/fmpoint10/npc_1
 graphicname=16165
 }
 
-### ç‘å°”äºšæ–¯ç”·æ€§
+### Èğ¶ûÑÇË¹ÄĞĞÔ
 {
 name=Èğ¶ûÑÇË¹ÄĞ×Ó
 floorid=104
@@ -24,7 +24,7 @@ enemy=npcgen_man|file:family/fmpoint10/npc_2
 graphicname=17030
 }
 
-### ç‘å°”äºšæ–¯å°å­©
+### Èğ¶ûÑÇË¹Ğ¡º¢
 {
 name=Èğ¶ûÑÇË¹Ğ¡º¢
 floorid=104
@@ -35,7 +35,7 @@ enemy=npcgen_man|file:family/fmpoint10/npc_3
 graphicname=17003
 }
 
-### ç‘å°”äºšæ–¯å¥³æ€§
+### Èğ¶ûÑÇË¹Å®ĞÔ
 {
 name=Èğ¶ûÑÇË¹Å®×Ó
 floorid=104
@@ -46,7 +46,7 @@ enemy=npcgen_man|file:family/fmpoint10/npc_4
 graphicname=16985
 }
 
-### ç‘å°”äºšæ–¯å¥³æ€§
+### Èğ¶ûÑÇË¹Å®ĞÔ
 {
 name=Èğ¶ûÑÇË¹Å®ĞÔ
 floorid=7500
@@ -57,7 +57,7 @@ enemy=npcgen_man|file:family/fmpoint10/npc_44
 graphicname=17027
 }
 
-### æˆ¿é—´1ç‘å°”äºšæ–¯ç”·æ€§
+### ·¿¼ä1Èğ¶ûÑÇË¹ÄĞĞÔ
 {
 name=Èğ¶ûÑÇË¹ÄĞ×Ó
 floorid=104
@@ -68,7 +68,7 @@ enemy=npcgen_man|file:family/fmpoint10/npc_5
 graphicname=16995
 }
 
-### æˆ¿é—´2
+### ·¿¼ä2
 {
 name=Èğ¶ûÑÇË¹ÄĞ×Ó
 floorid=104
@@ -79,7 +79,7 @@ enemy=npcgen_man|file:family/fmpoint10/npc_6
 graphicname=16162
 }
 
-### æˆ¿é—´3
+### ·¿¼ä3
 {
 name=Èğ¶ûÑÇË¹½ÌÊ¦
 floorid=104
@@ -90,7 +90,7 @@ enemy=npcgen_man|file:family/fmpoint10/npc_7
 graphicname=16953
 }
 
-### ç‘å°”äºšæ–¯è®®ä¼šå®ˆå«
+### Èğ¶ûÑÇË¹Òé»áÊØÎÀ
 {
 name=Ê×³¤ÊØÎÀ
 floorid=7500
@@ -101,7 +101,7 @@ enemy=npcgen_man|file:family/fmpoint10/npc_8
 graphicname=17046
 }
 
-### ç‘å°”äºšæ–¯è®®ä¼šå®ˆå«
+### Èğ¶ûÑÇË¹Òé»áÊØÎÀ
 {
 name=Ê×³¤ÊØÎÀ
 floorid=7500
@@ -113,7 +113,7 @@ graphicname=17046
 }
 
 
-### ç‘å°”äºšæ–¯å›½ç‹
+### Èğ¶ûÑÇË¹¹úÍõ
 {
 name=Ê×³¤Èğ¶ûÄÉ
 floorid=7506
@@ -124,7 +124,7 @@ enemy=changeevent|file:family/fmpoint10/shouzhang.arg
 graphicname=16989
 }
 
-#ç‘å°”äºšæ–¯å®¶æ—ç®¡ç†å‘˜
+#Èğ¶ûÑÇË¹¼Ò×å¹ÜÀíÔ±
 {
 floorid=7506
 borncenter=19,19,1,1
@@ -161,7 +161,7 @@ name=¼Ò×åÁôÑÔ°æ
 enemy=npcgen_fmdengon
 }
 
-### ç‘å°”äºšæ–¯è®®ä¼šå®ˆå«
+### Èğ¶ûÑÇË¹Òé»áÊØÎÀ
 {
 name=Òé»á¾¯ÎÀ
 floorid=7508
@@ -172,7 +172,7 @@ enemy=npcgen_man|file:family/fmpoint10/npc_21
 graphicname=17044
 }
 
-### ç‘å°”äºšæ–¯è®®ä¼šå®ˆå«
+### Èğ¶ûÑÇË¹Òé»áÊØÎÀ
 {
 name=Òé»á¾¯ÎÀ
 floorid=7508
@@ -182,7 +182,7 @@ createnum=1
 enemy=npcgen_man|file:family/fmpoint10/npc_21
 graphicname=17044
 }
-### æ¶…é½
+### ÄùÆë
 {
 name=ÄùÆë
 floorid=7508
@@ -193,7 +193,7 @@ enemy=changeevent|file:family/fmpoint10/guardleader.arg
 graphicname=17048
 }
 
-### ç¥­å¸çˆ±æ´¥
+### ¼ÀË¾°®½ò
 {
 name=¼ÀË¾°®½ò
 floorid=7500
@@ -204,7 +204,7 @@ enemy=changeevent|file:family/fmpoint10/jisi.arg
 graphicname=16151
 }
 
-#ç‘å°”äºšæ–¯24åº—
+#Èğ¶ûÑÇË¹24µê
 {
 floorid=7509
 borncorner=14,14,14,14
@@ -435,7 +435,7 @@ dir=8
 ignoreinvincible=1
 enemy=npcgen_man|file:family/fmpoint10/child2.arg
 }
-#line21 
+#line21
 {
 floorid=7507
 borncorner=16,16,16,16

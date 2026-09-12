@@ -73,6 +73,7 @@ extern int MagicTypeTbl[];
 #endif
 
 extern char *aszStatus[];
+extern int gAszStatusNum;
 extern char *aszStatusFull[];
 extern int StatusTbl[];
 extern int RegTbl[];

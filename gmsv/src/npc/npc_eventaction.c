@@ -139,7 +139,7 @@ BOOL ActionNpc_CheckMenuFree( int meindex, int toindex, char *npcarg, int nums)
 	if( NPC_Util_GetStrFromStrWithDelim( npcarg, "CHECKPARTY", buf1, sizeof( buf1) ) != NULL){
 		if( strstr( buf1, "TRUE") != 0 )	{
 			if( Action_PartyCheck( meindex, toindex) == FALSE)	{
-				CHAR_talkToCli( toindex, meindex, "请一个一个来！", CHAR_COLORYELLOW);
+				CHAR_talkToCli( toindex, meindex, "\xC7\xEB\xD2\xBB\xB8\xF6\xD2\xBB\xB8\xF6\xC0\xB4\xA3\xA1", CHAR_COLORYELLOW);
 				return FALSE;
 			}
 		}
@@ -151,7 +151,7 @@ BOOL ActionNpc_CheckMenuFree( int meindex, int toindex, char *npcarg, int nums)
 		return FALSE;
 
 	if( NPC_ActionPassCheck( meindex, toindex, buf2) == FALSE )	{
-		CHAR_talkToCli( toindex, meindex, "条件不足！", CHAR_COLORYELLOW);
+		CHAR_talkToCli( toindex, meindex, "\xCC\xF5\xBC\xFE\xB2\xBB\xD7\xE3\xA3\xA1", CHAR_COLORYELLOW);
 		return FALSE;
 	}
 	return Action_RunDoEventAction( meindex, toindex, buf1);
@@ -163,7 +163,7 @@ BOOL ActionNpc_CheckFree( int meindex, int toindex, char *npcarg)
 	if( NPC_Util_GetStrFromStrWithDelim( npcarg, "CHECKPARTY", buf1, sizeof( buf1) ) != NULL){
 		if( strstr( buf1, "TRUE") != 0 )	{
 			if( Action_PartyCheck( meindex, toindex) == FALSE)	{
-				CHAR_talkToCli( toindex, meindex, "请一个一个来！", CHAR_COLORYELLOW);
+				CHAR_talkToCli( toindex, meindex, "\xC7\xEB\xD2\xBB\xB8\xF6\xD2\xBB\xB8\xF6\xC0\xB4\xA3\xA1", CHAR_COLORYELLOW);
 				return FALSE;
 			}
 		}
@@ -172,7 +172,7 @@ BOOL ActionNpc_CheckFree( int meindex, int toindex, char *npcarg)
 		return FALSE;
 
 	if( NPC_ActionPassCheck( meindex, toindex, buf2) == FALSE )	{
-		CHAR_talkToCli( toindex, meindex, "条件不足！", CHAR_COLORYELLOW);
+		CHAR_talkToCli( toindex, meindex, "\xCC\xF5\xBC\xFE\xB2\xBB\xD7\xE3\xA3\xA1", CHAR_COLORYELLOW);
 		return FALSE;
 	}
 	return Action_RunDoEventAction( meindex, toindex, buf1);
@@ -189,7 +189,7 @@ BOOL Action_RunDoEventAction( int meindex, int toindex, char *buf1)
 #if 1 // Robin NPC执行动作前再一次检查FREE条件
 	if( NPC_Util_GetStrFromStrWithDelim( buf1, "FREE", buf2, sizeof( buf2)) != NULL ) {
 		if( NPC_ActionPassCheck( meindex, toindex, buf2 ) == FALSE && buf2[0] != NULL )	{
-			print("\n 改封包!?跳过NPC的FREE检查!!:%s:%d,%d,%d ",
+			print("\n \xB8\xC4\xB7\xE2\xB0\xFC!?\xCC\xF8\xB9\xFDNPC\xB5\xC4FREE\xBC\xEC\xB2\xE9!!:%s:%d,%d,%d ",
 					CHAR_getChar(toindex, CHAR_CDKEY),
 					CHAR_getInt(toindex, CHAR_FLOOR),
 					CHAR_getInt(toindex, CHAR_X),
@@ -213,7 +213,7 @@ BOOL Action_RunDoEventAction( int meindex, int toindex, char *buf1)
 	if( NPC_Util_GetStrFromStrWithDelim( buf1, "DelItem", buf2, sizeof( buf2)) != NULL ) {
 		//print("\n DelItem:%s:%d ", __FILE__, __LINE__);
 		if( NPC_ActionDelItem( toindex, buf2) == FALSE ) {
-			//print("\n 改封包??NPC_ActionDelItem:%s:%s ", CHAR_getChar(toindex, CHAR_CDKEY), buf2);
+			//print("\n \xB8\xC4\xB7\xE2\xB0\xFC??NPC_ActionDelItem:%s:%s ", CHAR_getChar(toindex, CHAR_CDKEY), buf2);
 			//CHAR_warpToSpecificPoint(toindex,117,225,13);
 			return FALSE;
 		}
@@ -356,7 +356,7 @@ BOOL Action_RunDoEventAction( int meindex, int toindex, char *buf1)
 				CHAR_setInt( toindex, CHAR_ABULLSCORE, 0);
 				CHAR_setInt( toindex, CHAR_ABULLTIME, 0);
 				CHAR_setInt( toindex, CHAR_ABULLSTARTTIME, (int)time( NULL));
-				CHAR_talkToCli( toindex, -1, "你开始参予与此活动。",  CHAR_COLORYELLOW);
+				CHAR_talkToCli( toindex, -1, "\xC4\xE3\xBF\xAA\xCA\xBC\xB2\xCE\xD3\xE8\xD3\xEB\xB4\xCB\xBB\xEE\xB6\xAF\xA1\xA3",  CHAR_COLORYELLOW);
 			}else {
 				return FALSE;
 			}
@@ -381,7 +381,7 @@ BOOL Action_RunDoEventAction( int meindex, int toindex, char *buf1)
 
 				
 				if( ntime < 0 ) ntime = 0;
-				sprintf( buf1, "战斗时间已累积%d分%d秒，活动累积积分：%d， 参与%d天%d小时。",
+				sprintf( buf1, "\xD5\xBD\xB6\xB7\xCA\xB1\xBC\xE4\xD2\xD1\xC0\xDB\xBB\xFD%d\xB7\xD6%d\xC3\xEB\xA3\xAC\xBB\xEE\xB6\xAF\xC0\xDB\xBB\xFD\xBB\xFD\xB7\xD6\xA3\xBA%d\xA3\xAC \xB2\xCE\xD3\xEB%d\xCC\xEC%d\xD0\xA1\xCA\xB1\xA1\xA3",
 					ntime/60, ntime%60,	CHAR_getInt( toindex, CHAR_ABULLSCORE),
 					joindata, joinhr);
 				CHAR_talkToCli( toindex, -1, buf1,  CHAR_COLORYELLOW);
@@ -400,7 +400,7 @@ BOOL Action_RunDoEventAction( int meindex, int toindex, char *buf1)
 	//andy_add 2003/07/17
 	if( NPC_Util_GetStrFromStrWithDelim( buf1, "CleanProfession", buf2, sizeof( buf2) ) != NULL) {
 		if( NPC_ActionCleanProfession( toindex, buf2 ) == FALSE ){
-			sprintf( buf2, "处理职业参数失败!!" );
+			sprintf( buf2, "\xB4\xA6\xC0\xED\xD6\xB0\xD2\xB5\xB2\xCE\xCA\xFD\xCA\xA7\xB0\xDC!!" );
 			CHAR_talkToCli( toindex, -1, buf2,  CHAR_COLORYELLOW);
 			return FALSE;
 		}
@@ -410,7 +410,7 @@ BOOL Action_RunDoEventAction( int meindex, int toindex, char *buf1)
 		int p_class = atoi(buf2);
 		// 判断职业
 		if( CHAR_getInt( toindex, PROFESSION_CLASS ) != PROFESSION_CLASS_NONE && (p_class != 0) ){
-			sprintf( buf2, "你已经有职业了!!" );
+			sprintf( buf2, "\xC4\xE3\xD2\xD1\xBE\xAD\xD3\xD0\xD6\xB0\xD2\xB5\xC1\xCB!!" );
 			CHAR_talkToCli( toindex, -1, buf2,  CHAR_COLORYELLOW);
 			return FALSE;
 		}
@@ -468,7 +468,7 @@ BOOL Action_RunDoEventAction( int meindex, int toindex, char *buf1)
 
 			// 欢迎讯息
 			if( NPC_Util_GetStrFromStrWithDelim( buf1, "OK_MSG", buf2, sizeof( buf2) ) == NULL){
-				sprintf( buf2, "欢迎加入" );
+				sprintf( buf2, "\xBB\xB6\xD3\xAD\xBC\xD3\xC8\xEB" );
 				CHAR_talkToCli( toindex, -1, buf2,  CHAR_COLORYELLOW);
 			}
 
@@ -480,7 +480,7 @@ BOOL Action_RunDoEventAction( int meindex, int toindex, char *buf1)
 			int i, value = 0;
 			int skill_id = -1;
 
-			print(" ====清除职业==== ");
+			print(" ====\xC7\xE5\xB3\xFD\xD6\xB0\xD2\xB5==== ");
 			
 			// 还原点数	
 			//if( PROFESSION_RESTORE_POINT( toindex ) != 1 )	return FALSE;
@@ -657,11 +657,11 @@ BOOL NPC_ActionDelGold( int talker,char *buf)
 	Golds = atoi( buf);
 	PGold = CHAR_getInt( talker, CHAR_GOLD);
 	if( PGold < Golds )	{
-		CHAR_talkToCli( talker, -1, "你身上的钱不够喔！", CHAR_COLORYELLOW);
+		CHAR_talkToCli( talker, -1, "\xC4\xE3\xC9\xED\xC9\xCF\xB5\xC4\xC7\xAE\xB2\xBB\xB9\xBB\xE0\xB8\xA3\xA1", CHAR_COLORYELLOW);
 		return FALSE;
 	}else	{
 		char buf1[256];
-		sprintf( buf1, "交出%d石币", Golds);
+		sprintf( buf1, "\xBD\xBB\xB3\xF6%d\xCA\xAF\xB1\xD2", Golds);
 		CHAR_talkToCli( talker, -1, buf1, CHAR_COLORYELLOW);
 	}
 	CHAR_setInt( talker, CHAR_GOLD, PGold-Golds);
@@ -778,7 +778,7 @@ BOOL NPC_ActionDelPet( int talker, char *buf)
 				lssproto_KS_send( fd, -1, TRUE);
 			}
 
-			snprintf( msgbuf,sizeof( msgbuf), "交出%s。", CHAR_getChar( petindex, CHAR_NAME));
+			snprintf( msgbuf,sizeof( msgbuf), "\xBD\xBB\xB3\xF6%s\xA1\xA3", CHAR_getChar( petindex, CHAR_NAME));
 			CHAR_talkToCli( talker, -1, msgbuf,  CHAR_COLORYELLOW);
 				LogPet(			
 					CHAR_getChar( talker, CHAR_NAME ),
@@ -883,7 +883,7 @@ BOOL NPC_ActionNewDelPet( int toindex, char *msg)
 
 	            if( CHAR_getInt( toindex, CHAR_RIDEPET) == i ) {
 
-		//CHAR_talkToCli( talker, -1, "骑乘中的宠物无法交出！", CHAR_COLORYELLOW );
+		//CHAR_talkToCli( talker, -1, "\xC6\xEF\xB3\xCB\xD6\xD0\xB5\xC4\xB3\xE8\xCE\xEF\xCE\xDE\xB7\xA8\xBD\xBB\xB3\xF6\xA3\xA1", CHAR_COLORYELLOW );
     	//return	FALSE;
 
 		            CHAR_setInt( toindex, CHAR_RIDEPET, -1);
@@ -902,7 +902,7 @@ BOOL NPC_ActionNewDelPet( int toindex, char *msg)
 		            lssproto_KS_send( fd, -1, TRUE);
 				}
 
-	            snprintf( msgbuf,sizeof( msgbuf), "交出%s。",
+	            snprintf( msgbuf,sizeof( msgbuf), "\xBD\xBB\xB3\xF6%s\xA1\xA3",
 						  CHAR_getChar( petindex, CHAR_NAME));
 	            CHAR_talkToCli( toindex, -1, msgbuf,  CHAR_COLORWHITE);
 
@@ -911,7 +911,7 @@ BOOL NPC_ActionNewDelPet( int toindex, char *msg)
 		                CHAR_getChar( toindex, CHAR_CDKEY ),
 		                CHAR_getChar( petindex, CHAR_NAME),
 		                CHAR_getInt( petindex, CHAR_LV),
-		                "EvnetDell(任务删除)",
+		                "EvnetDell(\xC8\xCE\xCE\xF1\xC9\xBE\xB3\xFD)",
 		                CHAR_getInt( toindex,CHAR_FLOOR),
 		                CHAR_getInt( toindex,CHAR_X ),
 		                CHAR_getInt( toindex,CHAR_Y ),
@@ -957,7 +957,7 @@ BOOL NPC_ActionAddPet( int talker, char *buf)
 	}
 
         if( i == CHAR_MAXPETHAVE )      {
-		snprintf( msgbuf,sizeof( msgbuf), "宠物已满！！");
+		snprintf( msgbuf,sizeof( msgbuf), "\xB3\xE8\xCE\xEF\xD2\xD1\xC2\xFA\xA3\xA1\xA3\xA1");
 		CHAR_talkToCli( talker, -1, msgbuf,  CHAR_COLORYELLOW);
 		return FALSE;
 	}
@@ -987,7 +987,7 @@ BOOL NPC_ActionAddPet( int talker, char *buf)
 	petindex2 = CHAR_getCharPet(talker, i);
 	if( !CHAR_CHECKINDEX( petindex2) )
 		continue;
-	snprintf( msgbuf,sizeof( msgbuf), "拿到%s。", CHAR_getChar(petindex2,CHAR_NAME));
+	snprintf( msgbuf,sizeof( msgbuf), "\xC4\xC3\xB5\xBD%s\xA1\xA3", CHAR_getChar(petindex2,CHAR_NAME));
 	CHAR_talkToCli( talker, -1, msgbuf,  CHAR_COLORYELLOW);
 	for(j = 0; j < CHAR_MAXPETHAVE; j++){
 		petindex = CHAR_getCharPet(talker, j);
@@ -1036,7 +1036,7 @@ BOOL NPC_DelItem( int toindex, int ti, int num)
 #else
 	   		ITEM_getInt( itemindex, ITEM_ID ),
 #endif
-			"Sell(卖道具)",
+			"Sell(\xC2\xF4\xB5\xC0\xBE\xDF)",
 			CHAR_getInt( toindex,CHAR_FLOOR),
 			CHAR_getInt( toindex,CHAR_X ),
 			CHAR_getInt( toindex,CHAR_Y ),
@@ -1065,7 +1065,7 @@ void NPC_ActionDoPileClearItem( int toindex, int itemID)
 		itemindex = CHAR_getItemIndex( toindex , i );
 		if( !ITEM_CHECKINDEX(itemindex) ) continue;
 		if( ITEM_getInt(itemindex, ITEM_ID) != itemID ) continue;
-		sprintf( token, "交出道具%s",ITEM_getChar( itemindex, ITEM_NAME));
+		sprintf( token, "\xBD\xBB\xB3\xF6\xB5\xC0\xBE\xDF%s",ITEM_getChar( itemindex, ITEM_NAME));
 		CHAR_talkToCli( toindex, -1, token, CHAR_COLORYELLOW);
 
 						LogItem(
@@ -1076,7 +1076,7 @@ void NPC_ActionDoPileClearItem( int toindex, int itemID)
 #else
 							ITEM_getInt( itemindex, ITEM_ID),
 #endif
-							"任务收取",
+							"\xC8\xCE\xCE\xF1\xCA\xD5\xC8\xA1",
 							CHAR_getInt( toindex,CHAR_FLOOR),
 							CHAR_getInt( toindex,CHAR_X ),
 							CHAR_getInt( toindex,CHAR_Y ),
@@ -1112,7 +1112,7 @@ BOOL NPC_ActionDoPileDelItem( int toindex, int itemID, int num)
 		finditem += onenum;
 		
 		ITEM_setInt( itemindex, ITEM_USEPILENUMS, pilenum);
-		sprintf( token, "交出%d个%s", onenum, ITEM_getChar( itemindex, ITEM_NAME));
+		sprintf( token, "\xBD\xBB\xB3\xF6%d\xB8\xF6%s", onenum, ITEM_getChar( itemindex, ITEM_NAME));
 		CHAR_talkToCli( toindex, -1, token, CHAR_COLORYELLOW);
 		if( pilenum <= 0 ){
 						LogItem(
@@ -1123,7 +1123,7 @@ BOOL NPC_ActionDoPileDelItem( int toindex, int itemID, int num)
 #else
 							ITEM_getInt( itemindex, ITEM_ID),
 #endif
-							"任务收取",
+							"\xC8\xCE\xCE\xF1\xCA\xD5\xC8\xA1",
 							CHAR_getInt( toindex,CHAR_FLOOR),
 							CHAR_getInt( toindex,CHAR_X ),
 							CHAR_getInt( toindex,CHAR_Y ),
@@ -1205,14 +1205,14 @@ BOOL NPC_ActionDelItem( int talker, char *buf)
 					break;
 			}
 			if(cnt != kosuu){
-				CHAR_talkToCli( talker, -1,"条件不足", CHAR_COLORYELLOW);
+				CHAR_talkToCli( talker, -1,"\xCC\xF5\xBC\xFE\xB2\xBB\xD7\xE3", CHAR_COLORYELLOW);
 				return FALSE;
 			}
 			//收取物品
 			for( i=0; i<20; i++)	{
 				itemindex = ItemArray[i].itemindex;
 				if( !ITEM_CHECKINDEX(itemindex) ) break;
-				sprintf(token,"交出%s",ITEM_getChar( itemindex, ITEM_NAME));
+				sprintf(token,"\xBD\xBB\xB3\xF6%s",ITEM_getChar( itemindex, ITEM_NAME));
 				CHAR_talkToCli( talker, -1, token, CHAR_COLORYELLOW);
 				CHAR_setItemIndex( talker, ItemArray[i].index ,-1);
 				ITEM_endExistItemsOne( itemindex);
@@ -1253,7 +1253,7 @@ BOOL NPC_ActionDelItem( int talker, char *buf)
 							ITEM_getInt( itemindex, ITEM_ID)
 
 						);
-						sprintf( token, "交出%s。", 
+						sprintf( token, "\xBD\xBB\xB3\xF6%s\xA1\xA3", 
 										ITEM_getChar( itemindex, ITEM_NAME));
 						CHAR_talkToCli( talker, -1, token, CHAR_COLORYELLOW);
 						CHAR_DelItem( talker, j);
@@ -1286,7 +1286,7 @@ BOOL NPC_ActionAddItem( int talker, char *buf)
 			}
 		}                                                                                                                                                                                                                                                                                                                                      
 		if( i == CHAR_MAXITEMHAVE )	{
-			snprintf( msgbuf,sizeof( msgbuf), "物品栏空间不足！！");
+			snprintf( msgbuf,sizeof( msgbuf), "\xCE\xEF\xC6\xB7\xC0\xB8\xBF\xD5\xBC\xE4\xB2\xBB\xD7\xE3\xA3\xA1\xA3\xA1");
 			CHAR_talkToCli( talker, -1, msgbuf,  CHAR_COLORYELLOW);
 			return FALSE;
 		}
@@ -1306,7 +1306,7 @@ BOOL NPC_ActionAddItem( int talker, char *buf)
 			return FALSE;
 		}
 
-		sprintf( token,"拿到%s",ITEM_getChar( itemindex, ITEM_NAME));
+		sprintf( token,"\xC4\xC3\xB5\xBD%s",ITEM_getChar( itemindex, ITEM_NAME));
 		CHAR_talkToCli( talker, -1, token, CHAR_COLORYELLOW );
 		CHAR_sendItemDataOne( talker, ret);
   }
@@ -1904,7 +1904,7 @@ BOOL NPC_ActionAddProfessionSkillPoint( int toindex, char *buf )
 	skillpoint = CHAR_getInt( toindex , PROFESSION_SKILL_POINT);
 	CHAR_setInt( toindex , PROFESSION_SKILL_POINT, skillpoint + addsp );
 	CHAR_sendCToArroundCharacter( CHAR_getWorkInt( toindex , CHAR_WORKOBJINDEX ));
-	sprintf( token, "技能学习点数增加%d点。", addsp);
+	sprintf( token, "\xBC\xBC\xC4\xDC\xD1\xA7\xCF\xB0\xB5\xE3\xCA\xFD\xD4\xF6\xBC\xD3%d\xB5\xE3\xA1\xA3", addsp);
 	CHAR_talkToCli( toindex, -1, token, CHAR_COLORYELLOW);
 	return TRUE;
 }
@@ -1952,7 +1952,7 @@ BOOL NPC_ActionCleanProfession( int toindex, char *buf)
 				CHAR_setInt( toindex , PROFESSION_SKILL_POINT, 0);
 				CHAR_setInt( toindex , ATTACHPILE, 0);
 			}else{
-				print("尚未设定参数!! (%s %d)\n", __FILE__, __LINE__);
+				print("\xC9\xD0\xCE\xB4\xC9\xE8\xB6\xA8\xB2\xCE\xCA\xFD!! (%s %d)\n", __FILE__, __LINE__);
 			}
 		}
 	}
@@ -2078,7 +2078,7 @@ BOOL NPC_ActionChangePlayerBBI( int meindex, int charindex, char *Img)
 			armtype = ITEM_getInt( itemindex, ITEM_TYPE );
 			if( armtype == ITEM_BOW || armtype == ITEM_BOUNDTHROW ||
 				armtype == ITEM_BREAKTHROW || armtype == ITEM_BOOMERANG)	{
-				CHAR_talkToCli( charindex, -1, "使用远距离武器无法变身！", CHAR_COLORYELLOW );
+				CHAR_talkToCli( charindex, -1, "\xCA\xB9\xD3\xC3\xD4\xB6\xBE\xE0\xC0\xEB\xCE\xE4\xC6\xF7\xCE\xDE\xB7\xA8\xB1\xE4\xC9\xED\xA3\xA1", CHAR_COLORYELLOW );
 				return FALSE;
 			}
 		}
@@ -2087,16 +2087,16 @@ BOOL NPC_ActionChangePlayerBBI( int meindex, int charindex, char *Img)
 #endif
 #ifdef _PETSKILL_BECOMEPIG
     if( CHAR_getInt( charindex, CHAR_BECOMEPIG) > -1 ){//变成乌力了
-		CHAR_talkToCli( charindex, -1, "无法变身，乌力化中不能变身！", CHAR_COLORYELLOW );
+		CHAR_talkToCli( charindex, -1, "\xCE\xDE\xB7\xA8\xB1\xE4\xC9\xED\xA3\xAC\xCE\xDA\xC1\xA6\xBB\xAF\xD6\xD0\xB2\xBB\xC4\xDC\xB1\xE4\xC9\xED\xA3\xA1", CHAR_COLORYELLOW );
 	    return FALSE;
 	}
 #endif
 	if( CHAR_getInt( charindex, CHAR_RIDEPET) != -1 )	{//骑宠不换图
 		CHAR_setInt( charindex, CHAR_RIDEPET, -1 );
 		BATTLE_changeRideImage( charindex );
-		CHAR_talkToCli( charindex, -1, "取消骑宠状态。", CHAR_COLORYELLOW);
+		CHAR_talkToCli( charindex, -1, "\xC8\xA1\xCF\xFB\xC6\xEF\xB3\xE8\xD7\xB4\xCC\xAC\xA1\xA3", CHAR_COLORYELLOW);
 		
-		//change -----> 修改bug(落马後,宠物选项的状态依然为"骑乘",这里修正过来 
+		//change -----> 修改bug(落马後,宠物选项的状态依然为"\xC6\xEF\xB3\xCB",这里修正过来 
 		CHAR_complianceParameter( charindex );
 		CHAR_send_P_StatusString( charindex, CHAR_P_STRING_RIDEPET);
 		
@@ -2112,11 +2112,11 @@ BOOL NPC_ActionChangePlayerBBI( int meindex, int charindex, char *Img)
 	CHAR_setWorkInt( charindex, CHAR_WORKNPCMETAMO, meindex);
 	if( strstr( Img, "NPCBBI") != NULL )	{
 		cBBI = CHAR_getInt( meindex, CHAR_BASEBASEIMAGENUMBER);
-		sprintf( buf1, "你化身成了%s的样子。", CHAR_getChar( meindex, CHAR_NAME));
+		sprintf( buf1, "\xC4\xE3\xBB\xAF\xC9\xED\xB3\xC9\xC1\xCB%s\xB5\xC4\xD1\xF9\xD7\xD3\xA1\xA3", CHAR_getChar( meindex, CHAR_NAME));
 	}else if( strstr( Img, "MYBBI") != NULL )	{
 		cBBI = CHAR_getInt( charindex, CHAR_BASEBASEIMAGENUMBER);
 		CHAR_setWorkInt( charindex, CHAR_WORKNPCMETAMO, 0);
-		sprintf( buf1, "变回了原来的样子。");
+		sprintf( buf1, "\xB1\xE4\xBB\xD8\xC1\xCB\xD4\xAD\xC0\xB4\xB5\xC4\xD1\xF9\xD7\xD3\xA1\xA3");
 	}else if( strstr( Img, ",") != NULL )	{
 		int imgindex=1, maxImg=0;
 		while( getStringFromIndexWithDelim( Img, ",", imgindex, buf1, sizeof( buf1)) != FALSE )	{
@@ -2129,10 +2129,10 @@ BOOL NPC_ActionChangePlayerBBI( int meindex, int charindex, char *Img)
 		if( getStringFromIndexWithDelim( Img, ",", imgindex, buf1, sizeof( buf1)) == FALSE )
 			return FALSE;
 		cBBI = atoi( buf1);
-		sprintf( buf1, "你样子改变了。");
+		sprintf( buf1, "\xC4\xE3\xD1\xF9\xD7\xD3\xB8\xC4\xB1\xE4\xC1\xCB\xA1\xA3");
 	}else	{
 		cBBI = atoi( Img);
-		sprintf( buf1, "你样子改变了。");
+		sprintf( buf1, "\xC4\xE3\xD1\xF9\xD7\xD3\xB8\xC4\xB1\xE4\xC1\xCB\xA1\xA3");
 	}
 //=======================
 	if( cBBI < 0 )	{
@@ -2399,7 +2399,7 @@ int NPC_DischargePartyForSex( int meindex, int charaindex, int fl, int x, int y,
 			return charaindex;
 		}
 	}
-	CHAR_talkToCli( charaindex, -1, "团队重组！", CHAR_COLORYELLOW);
+	CHAR_talkToCli( charaindex, -1, "\xCD\xC5\xB6\xD3\xD6\xD8\xD7\xE9\xA3\xA1", CHAR_COLORYELLOW);
 
 	for( i = 0; i < CHAR_PARTYMAX; i ++ ) {
 		int index = CHAR_getWorkInt( charaindex, CHAR_WORKPARTYINDEX1+i);
@@ -2493,7 +2493,7 @@ BOOL GMQUE_InSertQue( int meindex, int charaindex)
 BOOL GMQUE_getQueStr( int meindex, int charaindex)
 {
 	if( CHAR_getInt( charaindex, CHAR_GMQUEFLG) == 10 ){
-		CHAR_talkToCli( charaindex, -1, "已参加抓宠活动。", CHAR_COLORYELLOW);
+		CHAR_talkToCli( charaindex, -1, "\xD2\xD1\xB2\xCE\xBC\xD3\xD7\xA5\xB3\xE8\xBB\xEE\xB6\xAF\xA1\xA3", CHAR_COLORYELLOW);
 		return FALSE;
 	}
 
@@ -2505,7 +2505,7 @@ BOOL GMQUE_getQueStr( int meindex, int charaindex)
 
 void GMQUE_cleanQueStr( int nindex)
 {
-	CHAR_talkToCli( nindex, -1, "活动任务结束。", CHAR_COLORYELLOW);
+	CHAR_talkToCli( nindex, -1, "\xBB\xEE\xB6\xAF\xC8\xCE\xCE\xF1\xBD\xE1\xCA\xF8\xA1\xA3", CHAR_COLORYELLOW);
 	CHAR_setChar( nindex, CHAR_GMQUESTR1, "NULL");
 	CHAR_setInt( nindex, CHAR_GMQUEFLG, 0 );
 	CHAR_setInt( nindex, CHAR_GMQUENUMS, 0);
@@ -2519,9 +2519,9 @@ void GMQUE_showQueStr( int meindex, int charaindex)
 	int lvarr[4]={ 0, 0, 0, 0};
 	char *bufarg = NULL;
 	int fd = getfdFromCharaIndex( charaindex );
-	sprintf( token,"抓宠任务目标：\n");
+	sprintf( token,"\xD7\xA5\xB3\xE8\xC8\xCE\xCE\xF1\xC4\xBF\xB1\xEA\xA3\xBA\n");
 	if( CHAR_getInt( charaindex, CHAR_GMQUEFLG) != 10 ){
-		CHAR_talkToCli( charaindex, -1, "尚未参加抓宠活动。", CHAR_COLORYELLOW);
+		CHAR_talkToCli( charaindex, -1, "\xC9\xD0\xCE\xB4\xB2\xCE\xBC\xD3\xD7\xA5\xB3\xE8\xBB\xEE\xB6\xAF\xA1\xA3", CHAR_COLORYELLOW);
 		return;
 	}
 
@@ -2542,12 +2542,12 @@ void GMQUE_showQueStr( int meindex, int charaindex)
 		lvarr[i] = atoi( buf2);
 	
 		if( !ENEMYTEMP_CHECKINDEX( array[i]) ) continue;
-		if( i !=0 ) strcat( token, "，\n");
+		if( i !=0 ) strcat( token, "\xA3\xAC\n");
 		//ENEMYTEMP_getChar
-		sprintf( buf2, "LV：%d %s", lvarr[i], ENEMYTEMP_getChar( array[i], E_T_NAME));
+		sprintf( buf2, "LV\xA3\xBA%d %s", lvarr[i], ENEMYTEMP_getChar( array[i], E_T_NAME));
 		strcat( token , buf2);
 	}
-	strcat( token , "。");
+	strcat( token , "\xA1\xA3");
 
 	lssproto_WN_send( fd, WINDOW_MESSAGETYPE_MESSAGE,
 		WINDOW_BUTTONTYPE_OK,
@@ -2563,7 +2563,7 @@ BOOL GMQUE_CheckQueStr( int meindex, int charaindex, int count)
 	char *bufarg = NULL;
 
 	if( CHAR_getInt( charaindex, CHAR_GMQUEFLG) != 10 ){
-		CHAR_talkToCli( charaindex, -1, "尚未参加抓宠活动。", CHAR_COLORYELLOW);
+		CHAR_talkToCli( charaindex, -1, "\xC9\xD0\xCE\xB4\xB2\xCE\xBC\xD3\xD7\xA5\xB3\xE8\xBB\xEE\xB6\xAF\xA1\xA3", CHAR_COLORYELLOW);
 		return FALSE;
 	}
 
@@ -2601,7 +2601,7 @@ BOOL GMQUE_CheckQueStr( int meindex, int charaindex, int count)
 			break;
 		}
 		if( j >= CHAR_MAXPETHAVE ){
-			snprintf( buf1,sizeof( buf1), "人物身上并没有%s LV:%d。", ENEMYTEMP_getChar( array, E_T_NAME), lvarr);
+			snprintf( buf1,sizeof( buf1), "\xC8\xCB\xCE\xEF\xC9\xED\xC9\xCF\xB2\xA2\xC3\xBB\xD3\xD0%s LV:%d\xA1\xA3", ENEMYTEMP_getChar( array, E_T_NAME), lvarr);
 			CHAR_talkToCli( charaindex, -1, buf1, CHAR_COLORYELLOW);
 			return FALSE;
 		}
@@ -2615,18 +2615,18 @@ BOOL GMQUE_CheckQueStr( int meindex, int charaindex, int count)
 	if( CHAR_getInt( charaindex, CHAR_GMQUENUMS) > 97 ){//pet
 	}else if( CHAR_getInt( charaindex, CHAR_GMQUENUMS) > 40 ){//item
 		if( CHAR_findEmptyItemBox( charaindex ) == -1 ){
-			CHAR_talkToCli( charaindex, -1, "身上物品栏位已满，无法领奖。", CHAR_COLORYELLOW);
+			CHAR_talkToCli( charaindex, -1, "\xC9\xED\xC9\xCF\xCE\xEF\xC6\xB7\xC0\xB8\xCE\xBB\xD2\xD1\xC2\xFA\xA3\xAC\xCE\xDE\xB7\xA8\xC1\xEC\xBD\xB1\xA1\xA3", CHAR_COLORYELLOW);
 			return FALSE;
 		}
 	}else {//gold
 		if( CHAR_getInt( charaindex, CHAR_GOLD) >= 800000 ){
-			CHAR_talkToCli( charaindex, -1, "身上石币大於等於80万，无法领奖。", CHAR_COLORYELLOW);
+			CHAR_talkToCli( charaindex, -1, "\xC9\xED\xC9\xCF\xCA\xAF\xB1\xD2\xB4\xF3\xEC\xB6\xB5\xC8\xEC\xB680\xCD\xF2\xA3\xAC\xCE\xDE\xB7\xA8\xC1\xEC\xBD\xB1\xA1\xA3", CHAR_COLORYELLOW);
 			return FALSE;
 		}
 	}
 
 	if( count != petset ){
-		sprintf( buf1,"找到%d只符合条件的宠，但需要%d只。", petset, count);
+		sprintf( buf1,"\xD5\xD2\xB5\xBD%d\xD6\xBB\xB7\xFB\xBA\xCF\xCC\xF5\xBC\xFE\xB5\xC4\xB3\xE8\xA3\xAC\xB5\xAB\xD0\xE8\xD2\xAA%d\xD6\xBB\xA1\xA3", petset, count);
 		CHAR_talkToCli( charaindex, -1, buf1, CHAR_COLORYELLOW);
 		return FALSE;
 	}
@@ -2677,7 +2677,7 @@ BOOL GMQUE_DelQueStrPet( int meindex, int charaindex, int count)
 		}
 
 		if( j >= CHAR_MAXPETHAVE ){
-			snprintf( buf1,sizeof( buf1), "找不到%s LV:%d。", ENEMYTEMP_getChar( array, ENEMY_NAME), lvarr);
+			snprintf( buf1,sizeof( buf1), "\xD5\xD2\xB2\xBB\xB5\xBD%s LV:%d\xA1\xA3", ENEMYTEMP_getChar( array, ENEMY_NAME), lvarr);
 			CHAR_talkToCli( charaindex, -1, buf1, CHAR_COLORYELLOW);
 			return FALSE;
 		}
@@ -2692,7 +2692,7 @@ BOOL GMQUE_DelQueStrPet( int meindex, int charaindex, int count)
 			CHAR_setInt( charaindex, CHAR_DEFAULTPET, -1);
 			lssproto_KS_send( getfdFromCharaIndex( charaindex), -1, TRUE);
 		}
-		snprintf( szPet,sizeof( szPet), "交出%s。", CHAR_getChar( pindex, CHAR_NAME));
+		snprintf( szPet,sizeof( szPet), "\xBD\xBB\xB3\xF6%s\xA1\xA3", CHAR_getChar( pindex, CHAR_NAME));
 		CHAR_talkToCli( charaindex, -1, szPet, CHAR_COLORYELLOW);
 		CHAR_setCharPet( charaindex, petarray[i], -1);
 		CHAR_endCharOneArray( pindex );
@@ -2739,7 +2739,7 @@ BOOL GMQUE_AddQueStrTrophy( int meindex, int charaindex)
 		if( CHAR_CHECKINDEX( ret ) == TRUE ){
 			CHAR_setMaxExpFromLevel( ret, CHAR_getInt( ret, CHAR_LV ));
 		}
-		snprintf( token,sizeof( token), "拿到%s。", CHAR_getChar( ret, CHAR_NAME));
+		snprintf( token,sizeof( token), "\xC4\xC3\xB5\xBD%s\xA1\xA3", CHAR_getChar( ret, CHAR_NAME));
 		CHAR_talkToCli( charaindex, -1, token,  CHAR_COLORYELLOW);
 		CHAR_complianceParameter( ret );
 		snprintf( token, sizeof( token ), "K%d", i );
@@ -2766,7 +2766,7 @@ BOOL GMQUE_AddQueStrTrophy( int meindex, int charaindex)
 			ITEM_endExistItemsOne( itemindex);
 			return FALSE;
 		}
-		sprintf( token,"拿到%s",ITEM_getChar( itemindex, ITEM_NAME));
+		sprintf( token,"\xC4\xC3\xB5\xBD%s",ITEM_getChar( itemindex, ITEM_NAME));
 		CHAR_talkToCli( charaindex, -1, token, CHAR_COLORYELLOW );
 		CHAR_sendItemDataOne( charaindex, ret);
 	}else {//石币
@@ -2859,13 +2859,13 @@ BOOL NPC_ActionCheckABullEvent( int meindex, int talker)
 	int Event[12]={12, 38, 22, 17, 32, 33, 34, 30, 31, 64, 81, 111};
 	//NPC_NowEventCheckFlg
 	char Eventarg[12][256]={
-	"梦德洞窟任务", "马祖任务", "强恩一族", "龙穴任务", "梦幻洞窟", "梦幻洞窟", "梦幻洞窟",
-	"黄金羚羊", "五兄弟之谜", "四圣石任务", "金飞任务", "火灵勇士任务" };
+	"\xC3\xCE\xB5\xC2\xB6\xB4\xBF\xDF\xC8\xCE\xCE\xF1", "\xC2\xED\xD7\xE6\xC8\xCE\xCE\xF1", "\xC7\xBF\xB6\xF7\xD2\xBB\xD7\xE5", "\xC1\xFA\xD1\xA8\xC8\xCE\xCE\xF1", "\xC3\xCE\xBB\xC3\xB6\xB4\xBF\xDF", "\xC3\xCE\xBB\xC3\xB6\xB4\xBF\xDF", "\xC3\xCE\xBB\xC3\xB6\xB4\xBF\xDF",
+	"\xBB\xC6\xBD\xF0\xC1\xE7\xD1\xF2", "\xCE\xE5\xD0\xD6\xB5\xDC\xD6\xAE\xC3\xD5", "\xCB\xC4\xCA\xA5\xCA\xAF\xC8\xCE\xCE\xF1", "\xBD\xF0\xB7\xC9\xC8\xCE\xCE\xF1", "\xBB\xF0\xC1\xE9\xD3\xC2\xCA\xBF\xC8\xCE\xCE\xF1" };
 
 	for( i=0; i<12; i++){
 		if( NPC_EventCheckFlg( talker, Event[i]) == FALSE ){
 			char token[256];
-			sprintf( token, "你尚未完成[%s]。", Eventarg[i] );
+			sprintf( token, "\xC4\xE3\xC9\xD0\xCE\xB4\xCD\xEA\xB3\xC9[%s]\xA1\xA3", Eventarg[i] );
 			CHAR_talkToCli( talker, -1, token, CHAR_COLORYELLOW);
 			return FALSE;
 		}
@@ -2895,7 +2895,7 @@ BOOL NPC_ActionTreasureRandItemGet(int meidex,int talker,int rand_j,char *buf)
 	char token[128];
 
 	if(rand_j == 0) {
-		print("Event:由於０的介入，出现错误。");
+		print("Event:\xD3\xC9\xEC\xB6\xA3\xB0\xB5\xC4\xBD\xE9\xC8\xEB\xA3\xAC\xB3\xF6\xCF\xD6\xB4\xED\xCE\xF3\xA1\xA3");
  		return FALSE;
  	}
  	
@@ -2925,7 +2925,7 @@ BOOL NPC_ActionTreasureRandItemGet(int meidex,int talker,int rand_j,char *buf)
 #else
 			ITEM_getInt( itemindex, ITEM_ID),  /* アイテム ID  (物品ID) */
 #endif
-			"EventAddItem(任务需求所得到的道具)",
+			"EventAddItem(\xC8\xCE\xCE\xF1\xD0\xE8\xC7\xF3\xCB\xF9\xB5\xC3\xB5\xBD\xB5\xC4\xB5\xC0\xBE\xDF)",
 			CHAR_getInt( talker,CHAR_FLOOR),
 			CHAR_getInt( talker,CHAR_X ),
  			CHAR_getInt( talker,CHAR_Y ),
@@ -2935,7 +2935,7 @@ BOOL NPC_ActionTreasureRandItemGet(int meidex,int talker,int rand_j,char *buf)
 		);
 	}
 					
-	sprintf(token,"收下了%s",ITEM_getChar( itemindex, ITEM_NAME));
+	sprintf(token,"\xCA\xD5\xCF\xC2\xC1\xCB%s",ITEM_getChar( itemindex, ITEM_NAME));
 	CHAR_talkToCli( talker, -1, token, CHAR_COLORWHITE);
 
 	CHAR_sendItemDataOne( talker, ret);
@@ -2958,12 +2958,12 @@ void NPC_ActionLevelAndTransUp( int meindex, int charindex, int level, int skill
 		if( myexp > 300000000 ) myexp = 300000000;
 		CHAR_setInt( charindex, CHAR_EXP, myexp);
 		snprintf( szBuffer, sizeof(szBuffer),
-			"(%s) 得到 EXP %d", CHAR_getUseName( charindex ), exp);
+			"(%s) \xB5\xC3\xB5\xBD EXP %d", CHAR_getUseName( charindex ), exp);
 		CHAR_talkToCli( charindex, -1, szBuffer, CHAR_COLORYELLOW);
 		LevelUp = CHAR_LevelUpCheck( charindex , -1);
 		if( LevelUp > 0 ){
 			snprintf( szBuffer, sizeof(szBuffer),
-				"(%s) 升级至 %d",
+				"(%s) \xC9\xFD\xBC\xB6\xD6\xC1 %d",
 				CHAR_getUseName( charindex ),
 				CHAR_getInt( charindex, CHAR_LV )
 			);
@@ -2977,7 +2977,7 @@ void NPC_ActionLevelAndTransUp( int meindex, int charindex, int level, int skill
 	if( level > 0 ){
 		CHAR_setInt( charindex, CHAR_LV, level);
 		snprintf( szBuffer, sizeof(szBuffer),
-			"(%s) 等级设定为 %d",
+			"(%s) \xB5\xC8\xBC\xB6\xC9\xE8\xB6\xA8\xCE\xAA %d",
 			CHAR_getUseName( charindex ),	CHAR_getInt( charindex, CHAR_LV )
 		);
 		CHAR_talkToCli( charindex, -1, szBuffer, CHAR_COLORYELLOW);
@@ -3022,7 +3022,7 @@ void NPC_ActionLevelAndTransUp( int meindex, int charindex, int level, int skill
 			}
 			CHAR_complianceParameter( petindex );
 			CHAR_setInt( petindex , CHAR_HP , CHAR_getWorkInt( petindex , CHAR_WORKMAXHP ) );
-			snprintf( szBuffer, sizeof(szBuffer), "得到%s", CHAR_getUseName( petindex) );
+			snprintf( szBuffer, sizeof(szBuffer), "\xB5\xC3\xB5\xBD%s", CHAR_getUseName( petindex) );
 			CHAR_talkToCli( charindex, -1, szBuffer, CHAR_COLORYELLOW);
 		}
 		for(j = 0; j < CHAR_MAXPETHAVE; j++){
@@ -3090,7 +3090,7 @@ int PROFESSION_RESTORE_POINT( int charaindex )
 
 	lssproto_SKUP_send( fd, MySp );
 
-	snprintf( msg, sizeof(msg), "还原点数得到 %d", MySp );
+	snprintf( msg, sizeof(msg), "\xBB\xB9\xD4\xAD\xB5\xE3\xCA\xFD\xB5\xC3\xB5\xBD %d", MySp );
 	CHAR_talkToCli( charaindex, -1, msg, CHAR_COLORYELLOW);	
 
 	CHAR_complianceParameter( charaindex );
@@ -3137,7 +3137,7 @@ BOOL NPC_ActionManCountCheck( int toindex, int nums, int flg)
 				    tempcount++;
 	}
 
-	print("\n检查男生人数:%d",tempcount);
+	print("\n\xBC\xEC\xB2\xE9\xC4\xD0\xC9\xFA\xC8\xCB\xCA\xFD:%d",tempcount);
 	if(NPC_ActionBigSmallLastCheck( nums, tempcount, flg) == TRUE)
 		return TRUE;
 
@@ -3157,7 +3157,7 @@ BOOL NPC_ActionWomanCountCheck( int toindex, int nums, int flg)
 		        if( IsFemale( CHAR_getWorkInt(toindex,CHAR_WORKPARTYINDEX1+i) ) == 1 )
 				    tempcount++;
 	}
-    print("\n检查女生人数:%d",tempcount);
+    print("\n\xBC\xEC\xB2\xE9\xC5\xAE\xC9\xFA\xC8\xCB\xCA\xFD:%d",tempcount);
 	if(NPC_ActionBigSmallLastCheck( nums, tempcount, flg) == TRUE)
 		return TRUE;
 

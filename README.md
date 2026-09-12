@@ -616,3 +616,29 @@ rsync -av --delete /mnt/d/StoneAge/saac/src/ ~/StoneAge/saac/src/
 ```
 
 **编码铁律**：源码/setup.cf 保持 **UTF-8**（WSL 下 GBK 编译会导致 17 万 U+FFFD 乱码）。历史坑：`D:\StoneAge_gmsv_src_before_gbk.tar.gz` 名字误导，实为 GBK 实验态快照，**不可当 UTF-8 基准**。
+
+---
+
+## 18. 道具栏物品显示错位/空白（Tokyo-sa 客户端解析格式对齐）
+
+**现象**：登录后道具栏部分物品不显示、图档错乱（衣服显示成卷轴、缎显示成饰品）、部分格空白；服务端抓包解码看物品数据"完全正常"。
+
+**关键线索**：FullEdition 客户端源码（`石器时代8.5客户端最新源代码\system\netproc.cpp:3608 lssproto_I_recv`）：
+客户端按**固定字段数步进**解析物品串（`no = j*13` 或 `j*14`，宏决定），每格字段数差 1 就整体错位。
+
+**根因**：Tokyo-sa（9.0 win 版）客户端期望 **14 token/格**（格号 + 13 字段）。win 版 gmsv.exe 证实：
+- `0x62F98C`：`%s|%s|%d|%s|%d|%d|%d|%d|%d|%s|%d|%s|%d|`（13 字段：name/副名/颜色/效果/图档/可用/目标/等级/标记/耐久/数量/杂/类型）
+- `0x62F9C2`：`%d|||||||||||||`（空物品 14 token）
+- `0x62F9B4`：`|||||||||||||`（无格号空物品 14 token）
+
+而我们 CHAR_sendItemData（char_item.c:192）把格号传给 `ITEM_makeItemStatusString(格号,...)` 走了**单格 12 字段**分支 → 客户端按 14 步进解析 → 从第 2 格起错位。
+
+**修复**（2 处，对齐 win 版/FullEdition）：
+1. `gmsv/src/char/char_item.c` CHAR_sendItemData：
+   `snprintf(token, sizeof(token), "%d|%s|", itemgroup[i], ITEM_makeItemStatusString(-1, itemindex));`
+   （格号 + 全量 13 字段；与 FullEdition `char_item.c:193` 写法一致）
+2. `gmsv/src/item/item.c` ITEM_makeItemFalseStringWithNum：`"%d|||||||||||||"`（格号+13 空字段 = 14 token）
+
+**验证**：修复后解码服务端发出的物品串：
+`17|普通的肉||0|耐久力40前後回复|24035|0|1|0|7|不会损坏|1|杂|20|`
+= 14 字段 + 结尾，图档/名字/耐久全部正确。

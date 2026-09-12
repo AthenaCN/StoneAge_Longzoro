@@ -2,14 +2,14 @@
 NomalMainMsg:我是查罕族的祭司，负责查罕族的一切祭典。
 
 
-#鏈変簡娉夋按
+#有了泉水
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>0&ITEM=19563
 NomalWindowMsg:\n\n这调制出来的泉水可以给哪一种宠物使用呢？
 EventEnd
 
-#婊¤冻鏉′欢
+#满足条件
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>0&ITEM=2452&ITEM=2440&ITEM=2441&ITEM=2442&ITEM=2400
@@ -19,7 +19,7 @@ DelItem:2452*1,2440*1,2400*1,2441*1,2442*1
 GetItem:19563*1
 EventEnd
 
-#娌℃湁婊¤冻鏉′欢
+#没有满足条件
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>0

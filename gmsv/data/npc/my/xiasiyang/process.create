@@ -1,6 +1,6 @@
 NPCCREATE
 
-###### ç»¿è‰²å‡çº§æ°´æ™¶åˆæˆå¸ˆ ######
+###### ÂÌÉ«Éı¼¶Ë®¾§ºÏ³ÉÊ¦ ######
 {
 name=Ìú½³µÄÍ½µÜ
 floorid=2046
@@ -13,7 +13,7 @@ graphicname=16413
 enemy=ITEMCHANGE|file:my/xiasiyang/greenstone.arg
 }
 
-###### è“è‰²å‡çº§æ°´æ™¶åˆæˆå¸ˆ ######
+###### À¶É«Éı¼¶Ë®¾§ºÏ³ÉÊ¦ ######
 {
 name=Ìú½³µÄÍ½µÜ
 floorid=2046
@@ -26,7 +26,7 @@ graphicname=16510
 enemy=ITEMCHANGE|file:my/xiasiyang/bluestone.arg
 }
 
-###### çº¢è‰²å‡çº§æ°´æ™¶åˆæˆå¸ˆ ######
+###### ºìÉ«Éı¼¶Ë®¾§ºÏ³ÉÊ¦ ######
 {
 name=Ìú½³µÄÍ½µÜ
 floorid=2046
@@ -39,7 +39,7 @@ graphicname=16623
 enemy=ITEMCHANGE|file:my/xiasiyang/redstone.arg
 }
 
-###### é»„è‰²å‡çº§æ°´æ™¶åˆæˆå¸ˆ ######
+###### »ÆÉ«Éı¼¶Ë®¾§ºÏ³ÉÊ¦ ######
 {
 name=Ìú½³µÄÍ½µÜ
 floorid=2046
@@ -52,7 +52,7 @@ graphicname=16740
 enemy=ITEMCHANGE|file:my/xiasiyang/yellowstone.arg
 }
 
-##### è‹ç»¿çš„é“åŒ -è…°å¸¦######
+##### ²ÔÂÌµÄÌú½³-Ñü´ø######
 {
 name=²ÔÂÌÑü´øºÏ³ÉÊ¦
 floorid=2046
@@ -65,7 +65,7 @@ graphicname=16409
 enemy=ITEMCHANGE|file:my/xiasiyang/tjgreen1.arg
 }
 
-##### è‹ç»¿çš„é“åŒ -é´å­######
+##### ²ÔÂÌµÄÌú½³-Ñ¥×Ó######
 {
 name=²ÔÂÌÑ¥×ÓºÏ³ÉÊ¦
 floorid=2046
@@ -78,7 +78,7 @@ graphicname=16412
 enemy=ITEMCHANGE|file:my/xiasiyang/tjgreen2.arg
 }
 
-##### è‹ç»¿çš„é“åŒ -æ‰‹å¥—######
+##### ²ÔÂÌµÄÌú½³-ÊÖÌ×######
 {
 name=²ÔÂÌÊÖÌ×ºÏ³ÉÊ¦
 floorid=2046
@@ -91,7 +91,7 @@ graphicname=16423
 enemy=ITEMCHANGE|file:my/xiasiyang/tjgreen3.arg
 }
 
-##### è‹ç»¿çš„é“åŒ -ç›¾ç‰Œ######
+##### ²ÔÂÌµÄÌú½³-¶ÜÅÆ######
 {
 name=²ÔÂÌ¶ÜÅÆºÏ³ÉÊ¦
 floorid=2046
@@ -104,7 +104,7 @@ graphicname=16429
 enemy=ITEMCHANGE|file:my/xiasiyang/tjgreen4.arg
 }
 
-##### æ¹›è“çš„é“åŒ -è…°å¸¦######
+##### Õ¿À¶µÄÌú½³-Ñü´ø######
 {
 name=Õ¿À¶Ñü´øºÏ³ÉÊ¦
 floorid=2046
@@ -117,7 +117,7 @@ graphicname=16506
 enemy=ITEMCHANGE|file:my/xiasiyang/tjblue1.arg
 }
 
-##### æ¹›è“çš„é“åŒ -é´å­######
+##### Õ¿À¶µÄÌú½³-Ñ¥×Ó######
 {
 name=Õ¿À¶Ñ¥×ÓºÏ³ÉÊ¦
 floorid=2046
@@ -130,7 +130,7 @@ graphicname=16508
 enemy=ITEMCHANGE|file:my/xiasiyang/tjblue2.arg
 }
 
-##### æ¹›è“çš„é“åŒ -æ‰‹å¥—######
+##### Õ¿À¶µÄÌú½³-ÊÖÌ×######
 {
 name=Õ¿À¶ÊÖÌ×ºÏ³ÉÊ¦
 floorid=2046
@@ -143,7 +143,7 @@ graphicname=16515
 enemy=ITEMCHANGE|file:my/xiasiyang/tjblue3.arg
 }
 
-##### æ¹›è“çš„é“åŒ -ç›¾ç‰Œ######
+##### Õ¿À¶µÄÌú½³-¶ÜÅÆ######
 {
 name=Õ¿À¶¶ÜÅÆºÏ³ÉÊ¦
 floorid=2046
@@ -156,7 +156,7 @@ graphicname=16525
 enemy=ITEMCHANGE|file:my/xiasiyang/tjblue4.arg
 }
 
-##### ç„°çº¢çš„é“åŒ -è…°å¸¦######
+##### ÑæºìµÄÌú½³-Ñü´ø######
 {
 name=ÑæºìÑü´øºÏ³ÉÊ¦
 floorid=2046
@@ -169,7 +169,7 @@ graphicname=16616
 enemy=ITEMCHANGE|file:my/xiasiyang/tjred1.arg
 }
 
-##### ç„°çº¢çš„é“åŒ -é´å­######
+##### ÑæºìµÄÌú½³-Ñ¥×Ó######
 {
 name=ÑæºìÑ¥×ÓºÏ³ÉÊ¦
 floorid=2046
@@ -182,7 +182,7 @@ graphicname=16618
 enemy=ITEMCHANGE|file:my/xiasiyang/tjred2.arg
 }
 
-##### ç„°çº¢çš„é“åŒ -æ‰‹å¥—######
+##### ÑæºìµÄÌú½³-ÊÖÌ×######
 {
 name=ÑæºìÊÖÌ×ºÏ³ÉÊ¦
 floorid=2046
@@ -195,7 +195,7 @@ graphicname=16632
 enemy=ITEMCHANGE|file:my/xiasiyang/tjred3.arg
 }
 
-##### ç„°çº¢çš„é“åŒ -ç›¾ç‰Œ######
+##### ÑæºìµÄÌú½³-¶ÜÅÆ######
 {
 name=Ñæºì¶ÜÅÆºÏ³ÉÊ¦
 floorid=2046
@@ -208,7 +208,7 @@ graphicname=16622
 enemy=ITEMCHANGE|file:my/xiasiyang/tjred4.arg
 }
 
-##### å²šé»„çš„é“åŒ -è…°å¸¦######
+##### á°»ÆµÄÌú½³-Ñü´ø######
 {
 name=á°»ÆÑü´øºÏ³ÉÊ¦
 floorid=2046
@@ -221,7 +221,7 @@ graphicname=16616
 enemy=ITEMCHANGE|file:my/xiasiyang/tjyellow1.arg
 }
 
-##### å²šé»„çš„é“åŒ -é´å­######
+##### á°»ÆµÄÌú½³-Ñ¥×Ó######
 {
 name=á°»ÆÑ¥×ÓºÏ³ÉÊ¦
 floorid=2046
@@ -234,7 +234,7 @@ graphicname=16618
 enemy=ITEMCHANGE|file:my/xiasiyang/tjyellow2.arg
 }
 
-##### å²šé»„çš„é“åŒ -æ‰‹å¥—######
+##### á°»ÆµÄÌú½³-ÊÖÌ×######
 {
 name=á°»ÆÊÖÌ×ºÏ³ÉÊ¦
 floorid=2046
@@ -247,7 +247,7 @@ graphicname=16632
 enemy=ITEMCHANGE|file:my/xiasiyang/tjyellow3.arg
 }
 
-##### å²šé»„çš„é“åŒ -ç›¾ç‰Œ######
+##### á°»ÆµÄÌú½³-¶ÜÅÆ######
 {
 name=á°»Æ¶ÜÅÆºÏ³ÉÊ¦
 floorid=2046
@@ -260,7 +260,7 @@ graphicname=16622
 enemy=ITEMCHANGE|file:my/xiasiyang/tjyellow4.arg
 }
 
-###### èºä¸è£…ä¸€çº§åˆæˆå¸ˆ ######
+###### ÂİË¿×°Ò»¼¶ºÏ³ÉÊ¦ ######
 {
 name=ÂİË¿Ò»¼¶ºÏ³ÉÊ¦
 floorid=2046
@@ -273,7 +273,7 @@ graphicname=17063
 enemy=ITEMCHANGE|file:my/xiasiyang/luosi.arg
 }
 
-###### ç‰›ç‰›è£…LV1åˆæˆå¸ˆ ######
+###### Å£Å£×°LV1ºÏ³ÉÊ¦ ######
 {
 name=Å£Å£Ò»¼¶ºÏ³ÉÊ¦
 floorid=2046
@@ -286,7 +286,7 @@ graphicname=17052
 enemy=ITEMCHANGE|file:my/xiasiyang/niuniu.arg
 }
 
-###### è ç®©è£…LV1åˆæˆå¸ˆ ######
+###### ²¤Âá×°LV1ºÏ³ÉÊ¦ ######
 {
 name=²¤ÂáÒ»¼¶ºÏ³ÉÊ¦
 floorid=2046
@@ -299,7 +299,7 @@ graphicname=17040
 enemy=ITEMCHANGE|file:my/xiasiyang/boluo.arg
 }
 
-###### ç²¾ç»ƒçŸ³å¤§å¸ˆ ######
+###### ¾«Á·Ê¯´óÊ¦ ######
 {
 name=¾«Á·Ê¯´óÊ¦
 floorid=2046
@@ -313,7 +313,7 @@ enemy=ITEMCHANGE|file:my/xiasiyang/jinglianshi.arg
 }
 
 
-###### ç²¾ç»ƒçŸ³å¤§å¸ˆ ######
+###### ¾«Á·Ê¯´óÊ¦ ######
 {
 name=±¦Ê¯´óÊ¦
 floorid=2046
@@ -326,7 +326,7 @@ graphicname=16359
 enemy=ITEMCHANGE|file:my/xiasiyang/baoshi.arg
 }
 
-###### ç å®å•†äºº ######
+###### Öé±¦ÉÌÈË ######
 {
 name=Öé±¦ÉÌÈË
 floorid=4000
@@ -339,7 +339,7 @@ graphicname=16140
 enemy=ITEMCHANGE|file:my/xiasiyang/zhubaoshang.arg
 }
 
-###### ç å®å•†äºº ######
+###### Öé±¦ÉÌÈË ######
 {
 name=Ì°²ÆµÄ·õ»¯Ê¦
 floorid=2005
@@ -352,7 +352,7 @@ graphicname=16450
 enemy=ITEMCHANGE|file:my/xiasiyang/fuhuashi.arg
 }
 
-###### ç å®å•†äºº ######
+###### Öé±¦ÉÌÈË ######
 {
 name=¸ß¼¶³èÎïÑĞ¾¿Ô±
 floorid=2005
@@ -365,7 +365,7 @@ graphicname=16359
 enemy=ITEMCHANGE|file:my/xiasiyang/yanjiuyuan.arg
 }
 
-###### å® ç‰©è£…å¤‡åˆæˆå¸ˆ ######
+###### ³èÎï×°±¸ºÏ³ÉÊ¦ ######
 {
 name=³èÎï×°±¸ºÏ³ÉÊ¦
 floorid=2009
@@ -378,7 +378,7 @@ graphicname=16450
 enemy=ITEMCHANGE|file:my/xiasiyang/chong9.arg
 }
 
-###### å® ç‰©è£…å¤‡åˆæˆå¸ˆ ######
+###### ³èÎï×°±¸ºÏ³ÉÊ¦ ######
 {
 name=³èÎï×°±¸ºÏ³ÉÊ¦
 floorid=2009
@@ -393,7 +393,7 @@ enemy=ITEMCHANGE|file:my/xiasiyang/chong10.arg
 
 
 
-###### å® ç‰©è£…å¤‡åˆæˆå¸ˆ ######
+###### ³èÎï×°±¸ºÏ³ÉÊ¦ ######
 {
 name=³èÎï×°±¸ºÏ³ÉÊ¦
 floorid=2009

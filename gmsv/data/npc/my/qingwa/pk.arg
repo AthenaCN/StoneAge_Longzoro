@@ -1,7 +1,7 @@
 NEWNPCENEMY
 
 entype:2
-askbattlemsg1:钻石`诱人的钻石，快交出来它是我的了，凭你的那些破烂宠物，能战胜我吗？哈哈 
+askbattlemsg1:钻石`诱人的钻石，快交出来它是我的了，凭你的那些破烂宠物，能战胜我吗？哈哈
 startmsg:嗯，你死定了，敢拿假的骗我！！！！
 dieact:1
 warpfl:0

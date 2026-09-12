@@ -1648,9 +1648,9 @@ char *ITEM_makeItemFalseStringWithNum(int haveitemindex) {
 
 #ifdef _ITEM_PILENUMS
 #ifdef _ALCHEMIST
-			 "%d||||||||||||",
+			 "%d|||||||||||||",
 #else
-			 "%d||||||||||||",
+			 "%d|||||||||||||",
 #endif
 #else
 			 "%d||||||||||",
@@ -2147,7 +2147,7 @@ BOOL CHAR_CheckInItemForWares(int charaindex, int flg) {
 			if (flg == 0) {
 				return FALSE;
 			}
-			sprintf(token, "交出%s", ITEM_getChar(itemindex, ITEM_NAME));
+			sprintf(token, "\xBD\xBB\xB3\xF6%s", ITEM_getChar(itemindex, ITEM_NAME));
 			CHAR_talkToCli(charaindex, -1, token, CHAR_COLORYELLOW);
 
 			CHAR_setItemIndex(charaindex, i, -1);

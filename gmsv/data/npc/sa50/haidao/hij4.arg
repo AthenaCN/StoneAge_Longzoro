@@ -1,11 +1,11 @@
-###è§£å®Œä»»åŠ¡ä¹‹å¯¹è¯###
+###½âÍêÈÎÎñÖ®¶Ô»°###
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>99&ENDEV=4&ENDEV=81&ENDEV=126
 NomalWindowMsg:Äã½øÈ¥¹ýÀïÃæÁË£¬ÄÇ´«ËµÖÐÕæµÄÓÐÓÄÁéÂð£¿£¡
 EventEnd
 
-####æ°´é¾™æ´žå‰çš„æµ·è´¼å°å’####
+####Ë®Áú¶´Ç°µÄº£ÔôÐ¡×ä####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>0

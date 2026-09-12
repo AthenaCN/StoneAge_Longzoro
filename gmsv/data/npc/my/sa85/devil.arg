@@ -10,7 +10,7 @@ DelItem:21112,21113
 ItemFullMsg:ÄãµÄµÀ¾ßÂúÁË
 EventEnd
 
-####ä»»åŠ¡92å®Œæˆ####
+####ÈÎÎñ92Íê³É####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:ENDEV=92
@@ -18,7 +18,7 @@ NomalWindowMsg:ºÙºÙ£¡»¹ÏëÖªµÀÊ²Ã´µÄ»°£¬ÔÙÅªµãÎÒ¸ÐÐËÈ¤µÄÀ´»ßÂ¸ÎÒ°É£¡
 EventEnd
 
 
-###ç»“æ ‡92###
+###½á±ê92###
 EventNo:92
 TYPE:ACCEPT
 EVENT:NOWEV=92&ITEM=21107
@@ -30,7 +30,7 @@ ThanksMsg:ºÙºÙ~~~£¡²»´íÂï£¬ËäÈ»ÎÒÊÇ¶ñÄ§£¬µ«ÊÇÎÒ´ðÓ¦ÄãµÄ¾Í»áÊµÏÖ£¬ÄÃÈ¥°É£¡ÁíÍâÌá¹
 EndSetFlg:92
 EventEnd
 
-###ä»»åŠ¡92è¿›è¡Œä¸­###
+###ÈÎÎñ92½øÐÐÖÐ###
 EventNo:-1
 TYPE:ACCEPT
 EVENT:NOWEV=92

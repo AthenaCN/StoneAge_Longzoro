@@ -1,12 +1,12 @@
-NomalMainMsg:通亚通亚，不知道你在做什么～～。
+NomalMainMsg:嘿嘿嘿，不知道你在做什么～～～。
 
 
 EventNo:-1
 TYPE:ACCEPT
 EVENT:ITEM=20704&ITEM=20688
-AcceptMsg:\n\n疑！？这礼物很特别喔！
-ThanksMsg:\n\n谢谢你帮耶诞老公公送来给我！我好高兴喔，这是我要送给我男朋友的圣诞礼物，没想到我真的能收到，谢谢你！
-ItemFullMsg:\n\n你身上装不下东西了，没办法给你一些证明。
+AcceptMsg:\n\n哇！？这礼物是要送我的吗？
+ThanksMsg:\n\n哦？圣诞快乐！想不到还有人惦记着我，谢谢你专程送来这份礼物，也祝你圣诞快乐！
+ItemFullMsg:\n\n你身上没有空位，没办法写纸条给你呢。
 DelItem:20688
 GetRandItem:20678*1
 EventEnd

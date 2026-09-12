@@ -1,6 +1,6 @@
 NomalMainMsg:д╖╬Экф╨Утз╢ю╢юсШ╤╞ак~нрцгр╙╪сг©╥ю╥╤ё║ё║
 
-####Д╩╩Е┼║92Е╝▄Ф┬░ Х╨╚Д╦┼Ф°┴И╜■Е├⌡Ф┐┘Ф┼╔####
+####хннЯ92мЙЁи иМиоспд╖╬ЭгИ╠╗####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:ENDEV=90&ENDEV=91&ENDEV=92&ITEM=21108
@@ -11,14 +11,14 @@ DelItem:21108
 GetRandItem:19043,19044,19045,19046
 EventEnd
 
-####Д╩╩Е┼║92Е╝▄Ф┬░####
+####хннЯ92мЙЁи####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:ENDEV=90&ENDEV=91&ENDEV=92
 NomalWindowMsg:╨г╨г~~╧Шх╩╡╩ЁЖнркЫао~~╡╗бЕкьуФйг╦Жл╟пд╣д╪р╩Оё║
 EventEnd
 
-####Д╩╩Е┼║92Х©⌡Х║▄####
+####хннЯ92╫Ьпп####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:ENDEV=90&ENDEV=91&NOWEV=92
@@ -26,7 +26,7 @@ NomalWindowMsg:дг╬мбИ╥ЁдЦакё║кМ╣ю╬мтзнриМ╨Сё║ё║║╚╡╗бЕкь©ийг╦Ж╨эл╟пд╣д╪р╩Оё║╬║а©б
 EventEnd
 
 
-####Ф▌╔Д╩╩Е┼║Г╩≥Ф═┤92##
+####╫схннЯ╦Ь╠Й92##
 EventNo:92
 TYPE:REQUEST
 EVENT:ENDEV=91
@@ -34,7 +34,7 @@ RequestMsg1:ожтзспр╩╦Ж╥гЁёжьр╙╣дхннЯё╛гКдЦюШсцет╠ъкМ╣юг╟мЫд╖╬Эохг╡╡©╤с╡ж©Бур╣╫л╟
 ThanksMsg1:дг╬мбИ╥ЁдЦакё║кМ╣ю╬мтзнриМ╨Сё║ё║║╚
 EventEnd
 
-###Е╝▄Ф┬░Д╩╩Е┼║О╪┬Е┘ЁФ═┤91О╪┴Г≥╫Г▀╪###
+###мЙЁихннЯё╗╧ь╠Й91ё╘╟вюг###
 EventNo:91
 TYPE:ACCEPT
 EVENT:NOWEV=91&ITEM=21104
@@ -44,7 +44,7 @@ DelItem:21104
 EndSetFlg:91
 EventEnd
 
-###Е╝▄Ф┬░Д╩╩Е┼║О╪┬Е┘ЁФ═┤91О╪┴Ф ≈Г│╣###
+###мЙЁихннЯё╗╧ь╠Й91ё╘╟╣аИ###
 EventNo:91
 TYPE:ACCEPT
 EVENT:NOWEV=91&ITEM=21106
@@ -54,7 +54,7 @@ DelItem:21106
 EndSetFlg:91
 EventEnd
 
-###Е╝▄Ф┬░Д╩╩Е┼║О╪┬Е┘ЁФ═┤91О╪┴Х©╫Г▄▌###
+###мЙЁихннЯё╗╧ь╠Й91ё╘в╥ат###
 EventNo:91
 TYPE:ACCEPT
 EVENT:NOWEV=91&ITEM=21105

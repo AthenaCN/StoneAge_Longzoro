@@ -277,8 +277,6 @@ char *genver=
 "_ADD_DUNGEON				// (可开) Change 追加地牢\n"
 "_PROFESSION_ADDSKILL		// (可开) Change 追加职业技能\n"
 "_ITEM_ADDPETEXP				// (可开) Change 增加宠物经验值道具(可吃此道具宠物,平常不可获得经验值)\n"
-"_TRANS_6					// (可开) Change 人物6转\n"
-"_TRANS_7					// (可开) Change 人物7转\n"
 "_PET_2TRANS					// (可开) Change 宠物2转\n"
 "_PET_2LIMITLEVEL			// (可开) Change 帮助宠物2转的玛蕾\n"
 "_MAGICSTAUTS_RESIST			// (可开) Change (火电冰)抗性精灵\n"
@@ -321,5 +319,6 @@ char *genver=
 "_GM_METAMO_RIDE // GM人物骑所有宠\n"
 "_GM_RIDE		// GM命令设置骑宠权限\n"
 "_LOCK_IP		// 锁定IP\n"
-"<<Generated at Wed Sep 9 11:40:50 PM CST 2026>>"
+"_kr_ip			// 不锁GM指令IP（本机127.0.0.1可用GM命令）\n"
+"<<Generated at Fri Sep 11 11:55:09 PM CST 2026>>"
 "by : 龙zoro工作室";

@@ -1,6 +1,6 @@
 NomalMainMsg:连我是谁都不知道吗？我就是爱雪石器最有名的厨师！只不过我做的东西没人敢吃而已 -.-!!
 
-EventNo:-1 
+EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>0&ITEM=12745&ITEM=12550&ITEM=12571&ITEM=12708&ITEM=12719
 AcceptMsg1:我最近在研究做 清脆沙拉、豪迈的炒青菜、豪华肉拼盘、照烧煮鱼和美食汤，可我老是做不出来！你能帮我做一份吗

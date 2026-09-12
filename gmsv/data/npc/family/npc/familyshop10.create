@@ -1,6 +1,6 @@
 NPCCREATE
 
-#ç‘å°”äºšæ–¯è´©å–å…±é€š
+#Èğ¶ûÑÇË¹··Âô¹²Í¨
 {
 floorid=7535
 borncorner=3,5,3,5
@@ -12,7 +12,7 @@ graphicname=16985
 name=··Âô·şÎñÔ±
 enemy=npcgen_shop|file:family/npc/shop10_1
 }
-#ç‘å°”äºšæ–¯è´©å–ç´ æç±»
+#Èğ¶ûÑÇË¹··ÂôËØ²ÄÀà
 {
 floorid=7537
 borncorner=7,6,7,6
@@ -24,7 +24,7 @@ graphicname=17073
 name=··Âô·şÎñÔ±
 enemy=npcgen_shop|file:family/npc/shop10_2
 }
-#ç‘å°”äºšæ–¯è´©å–ä¸“å±ä¸€
+#Èğ¶ûÑÇË¹··Âô×¨ÊôÒ»
 {
 floorid=7536
 borncorner=4,5,4,5
@@ -37,7 +37,7 @@ name=··Âô·şÎñÔ±
 enemy=npcgen_shop|file:family/npc/shop10_3
 }
 
-#ç‘å°”äºšæ–¯è´©å–ä¸“å±äºŒ
+#Èğ¶ûÑÇË¹··Âô×¨Êô¶ş
 {
 floorid=7538
 borncorner=17,14,17,14
@@ -50,7 +50,7 @@ name=··Âô·şÎñÔ±
 enemy=npcgen_shop|file:family/npc/shop10_4
 }
 
-#ç‘å°”äºšæ–¯é€šè¡Œè¯è´©å–
+#Èğ¶ûÑÇË¹Í¨ĞĞÖ¤··Âô
 {
 floorid=7530
 borncorner=82,49,82,49
@@ -62,7 +62,7 @@ graphicname=17051
 name=Í¨ĞĞÖ¤··ÂôÔ±
 enemy=npcgen_shop|file:family/npc/shop10_5
 }
-#å•†åº—å®ˆé—¨å‘˜(å…±é€šç±»)
+#ÉÌµêÊØÃÅÔ±(¹²Í¨Àà)
 {
 floorid=7530
 borncorner=39,27,39,27
@@ -74,7 +74,7 @@ graphicname=17045
 name=ÉÌµê¾¯ÎÀ
 enemy=npcgen_warpman|file:family/npc/wpm10_1
 }
-#å•†åº—å®ˆé—¨å‘˜(ä¸“å±ä¸€)
+#ÉÌµêÊØÃÅÔ±(×¨ÊôÒ»)
 {
 floorid=7530
 borncorner=27,39,27,39
@@ -87,7 +87,7 @@ name=ÉÌµê¾¯ÎÀ
 enemy=npcgen_warpman|file:family/npc/wpm10_2
 }
 
-#å•†åº—å®ˆé—¨å‘˜(ä¸“å±äºŒ)
+#ÉÌµêÊØÃÅÔ±(×¨Êô¶ş)
 {
 floorid=7530
 borncorner=70,41,70,41

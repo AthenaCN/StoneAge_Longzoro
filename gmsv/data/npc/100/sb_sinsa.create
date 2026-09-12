@@ -1,5 +1,5 @@
 NPCCREATE
-#######锛筹饥锛ｇ爫姹夐晳##########
+#######ＳＢＣ审查员##########
 {
 floorid=10919
 borncenter=4,7,1,1
@@ -8,10 +8,10 @@ createnum=1
 time=60000
 dir=4
 graphicname=100407
-name=ＳＢＣ审查员
+name=ＳＢＣ审查员
 enemy=sb_sbc|file:100/sb_sbc.arg
 }
-#########锛饥锛＄爫姹夐晳########
+#######ＪＢＡ审查员########
 {
 floorid=20711
 borncenter=19,4,1,1
@@ -20,6 +20,6 @@ createnum=1
 time=60000
 dir=5
 graphicname=100437
-name=ＪＢＡ审查员
+name=ＪＢＡ审查员
 enemy=sb_jba|file:100/sb_jba.arg
 }

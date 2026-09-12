@@ -3255,7 +3255,7 @@ int BATTLE_GetExpGold(
 #endif
 		if (getBattleDebugMsg() != 0) {
 			snprintf(szBuffer, sizeof(szBuffer),
-					 "(%s) 得到 EXP %d",
+					 "(%s) \xB5\xC3\xB5\xBD EXP %d",
 					 CHAR_getUseName(charaindex),
 					 CHAR_getWorkInt(charaindex, CHAR_WORKGETEXP));
 			BATTLE_talkToCli(charaindex, szBuffer, CHAR_COLORYELLOW);
@@ -3275,7 +3275,7 @@ int BATTLE_GetExpGold(
 
 		if (getBattleDebugMsg() != 0) {
 			snprintf(szBuffer, sizeof(szBuffer),
-					 "(%s) 升级至 %d",
+					 "(%s) \xC9\xFD\xBC\xB6\xD6\xC1 %d",
 					 CHAR_getUseName(charaindex),
 					 CHAR_getInt(charaindex, CHAR_LV));
 			BATTLE_talkToCli(charaindex, szBuffer, CHAR_COLORYELLOW);
@@ -3314,7 +3314,7 @@ int BATTLE_GetExpGold(
 #endif
 		if (getBattleDebugMsg() != 0) {
 			snprintf(szBuffer, sizeof(szBuffer),
-					 "(%s) 得到 EXP %d",
+					 "(%s) \xB5\xC3\xB5\xBD EXP %d",
 					 CHAR_getUseName(petindex),
 					 CHAR_getWorkInt(petindex, CHAR_WORKGETEXP));
 			BATTLE_talkToCli(charaindex, szBuffer, CHAR_COLORYELLOW);
@@ -3323,7 +3323,7 @@ int BATTLE_GetExpGold(
 		if (UpLevel > 0) {
 			if (getBattleDebugMsg() != 0) {
 				snprintf(szBuffer, sizeof(szBuffer),
-						 "(%s) 升级至 %d",
+						 "(%s) \xC9\xFD\xBC\xB6\xD6\xC1 %d",
 						 CHAR_getUseName(petindex),
 						 CHAR_getInt(petindex, CHAR_LV));
 				BATTLE_talkToCli(charaindex, szBuffer, CHAR_COLORYELLOW);
@@ -5394,7 +5394,7 @@ static int BATTLE_StatusSeq(int charaindex) {
 				CHAR_setInt(defindex, CHAR_HP, 0);
 				CHAR_setFlg(defindex, CHAR_ISDIE, 1);
 				CHAR_setWorkInt(defindex, CHAR_WORKBATTLECOM1, BATTLE_COM_NONE);
-				sprintf(szBuffer, "%s身中剧毒未解而阵亡了!!", CHAR_getChar(defindex, CHAR_NAME));
+				sprintf(szBuffer, "%s\xC9\xED\xD6\xD0\xBE\xE7\xB6\xBE\xCE\xB4\xBD\xE2\xB6\xF8\xD5\xF3\xCD\xF6\xC1\xCB!!", CHAR_getChar(defindex, CHAR_NAME));
 				if (CHAR_getInt(defindex, CHAR_WHICHTYPE) == CHAR_TYPEPET) {
 					CHAR_talkToCli(CHAR_getWorkInt(defindex, CHAR_WORKPLAYERINDEX), -1, szBuffer, CHAR_COLORYELLOW);
 				} else {

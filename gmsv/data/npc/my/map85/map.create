@@ -10,7 +10,7 @@ createnum=1
 dir=4
 ignoreinvincible=1
 graphicname=104206
-name= 
+name=
 enemy=npcgen_man|file:my/map85/1
 }
 
@@ -24,7 +24,7 @@ createnum=1
 dir=4
 ignoreinvincible=1
 graphicname=104267
-name= 
+name=
 enemy=npcgen_man|file:my/map85/1
 }
 
@@ -37,7 +37,7 @@ createnum=1
 dir=4
 ignoreinvincible=1
 graphicname=104208
-name= 
+name=
 enemy=npcgen_man|file:my/map85/1
 }
 
@@ -51,7 +51,7 @@ createnum=1
 dir=4
 ignoreinvincible=1
 graphicname=104209
-name= 
+name=
 enemy=npcgen_man|file:my/map85/1
 }
 
@@ -65,6 +65,6 @@ createnum=1
 dir=4
 ignoreinvincible=1
 graphicname=104199
-name= 
+name=
 enemy=npcgen_man|file:my/map85/1
 }

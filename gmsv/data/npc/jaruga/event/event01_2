@@ -14,7 +14,7 @@ NomalWindowMsg:药粉已经确实交给你啦，尽快把这药粉送给病患吧！
 EventEnd
 
 ###身上有药###
-EventNo:-1 
+EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>0&ITEM=1983&ITEM=1982
 AcceptMsg1:你要我帮你把爱困草磨成药粉啊？好的，你稍等一下喔。

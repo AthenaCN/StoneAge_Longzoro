@@ -1118,14 +1118,11 @@ int CHAR_GetLevelExp(int charaindex, int level)
 #ifdef _USER_EXP_CF
 	if (level > getMaxLevel())
 		level = getMaxLevel();
+	// ===== 官方等级上限（8.0/8.5）=====
+	// 人物/宠物等级上限统一为一般等级(140)，0转即可练满140
+	// 转生门槛(80/90/100/110/120/140)由转生NPC判断，与升级上限无关
 	if (level > getYBLevel())
-		if (CHAR_getInt(charaindex, CHAR_WHICHTYPE) == CHAR_TYPEPET) {
-			if (CHAR_getInt(charaindex, CHAR_TRANSMIGRATION) < getPettrans())
-				return -1;
-		} else {
-			if (CHAR_getInt(charaindex, CHAR_TRANSMIGRATION) < getChartrans())
-				return -1;
-		}
+		return -1;
 	return getNeedLevelUpTbls(level);
 #endif
 /*	if( level >= arraysizeof( NeedLevelUpTbls ) ){
@@ -1503,7 +1500,7 @@ int CHAR_PetLevelUp(int petindex) {
 									float fGetFame = (float)iGetFame / 100;
 									// 导师在线上
 									CHAR_setWorkInt(i, CHAR_WORK_GET_TEACHER_FAME, CHAR_getWorkInt(i, CHAR_WORK_GET_TEACHER_FAME) + iGetFame);
-									sprintf(szMsg, "获得学生 %s %.2f 点声望", CHAR_getChar(ownerindex, CHAR_NAME), fGetFame);
+									sprintf(szMsg, "\xBB\xF1\xB5\xC3\xD1\xA7\xC9\xFA %s %.2f \xB5\xE3\xC9\xF9\xCD\xFB", CHAR_getChar(ownerindex, CHAR_NAME), fGetFame);
 									CHAR_talkToCli(i, -1, szMsg, CHAR_COLORYELLOW);
 									break;
 								}
@@ -1628,7 +1625,7 @@ BOOL PETFUSION_DelPet(int toindex, int Mainindex, int Subindex1, int Subindex2, 
 			snprintf(szPet, sizeof(szPet), "K%d", j);
 			CHAR_sendStatusString(toindex, szPet);
 
-			snprintf(msgbuf, sizeof(msgbuf), "交出%s。", CHAR_getChar(petindex[i], CHAR_NAME));
+			snprintf(msgbuf, sizeof(msgbuf), "\xBD\xBB\xB3\xF6%s\xA1\xA3", CHAR_getChar(petindex[i], CHAR_NAME));
 			CHAR_talkToCli(toindex, -1, msgbuf, CHAR_COLORYELLOW);
 			LogPet(
 				CHAR_getChar(toindex, CHAR_NAME),
@@ -1655,13 +1652,13 @@ int PETFUSION_Evolution(int charaindex, int petindex) {
 	int newindex = -1;
 	CHAR_setInt(petindex, CHAR_FUSIONTIMELIMIT, -1);
 
-	sprintf(buf, "蛋〈%s〉孵化成", CHAR_getChar(petindex, CHAR_NAME));
+	sprintf(buf, "\xB5\xB0\xA1\xB4%s\xA1\xB5\xB7\xF5\xBB\xAF\xB3\xC9", CHAR_getChar(petindex, CHAR_NAME));
 	newindex = EVOLUTION_createPetFromEnemyIndex(charaindex, petindex, 0);
 	if (!CHAR_CHECKINDEX(newindex)) {
 		CHAR_talkToCli(charaindex, -1, "宠物孵化发生错误。", CHAR_COLORYELLOW);
 		return -1;
 	}
-	sprintf(buf1, "〈%s〉。", CHAR_getChar(newindex, CHAR_NAME));
+	sprintf(buf1, "\xA1\xB4%s\xA1\xB5\xA1\xA3", CHAR_getChar(newindex, CHAR_NAME));
 	strcat(buf, buf1);
 	CHAR_talkToCli(charaindex, -1, buf, CHAR_COLORYELLOW);
 

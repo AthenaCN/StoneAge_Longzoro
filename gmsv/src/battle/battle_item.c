@@ -357,7 +357,7 @@ void ITEM_useStatusChange_Battle(
 	arg = ITEM_getChar(itemindex, ITEM_ARGUMENT);
 	pszP = arg;
 	for (; status == -1 && pszP[0] != 0; pszP++) {
-		for (i = 0; i < BATTLE_ST_END; i++) {
+		for (i = 0; i < BATTLE_ST_END && i < gAszStatusNum; i++) {
 			if (strncmp(pszP, aszStatus[i], 2) == 0) {
 				status = i;
 				pszP += 2;
@@ -411,7 +411,7 @@ void ITEM_useStatusRecovery_Battle(
 	// 効果を取り出す  (取得效果)
 	for (; status == -1 && pszP[0] != 0; pszP++) {
 		// 該当するか検索する  (查找匹配项)
-		for (i = 0; i < BATTLE_ST_END; i++) {
+		for (i = 0; i < BATTLE_ST_END && i < gAszStatusNum; i++) {
 			// 効果が一致するか  (效果是否匹配)
 			if (strncmp(pszP, aszStatus[i], 2) == 0) {
 				status = i;
@@ -742,7 +742,7 @@ void ITEM_useRefresh_Effect(int charaindex, int toindex, int haveitemindex) {
 	// 効果を取り出す  (取得效果)
 	for (; status == -1 && pszP[0] != 0; pszP++) {
 		// 該当するか検索  (查找匹配)
-		for (i = 1; i < BATTLE_ST_END; i++) {
+		for (i = 1; i < BATTLE_ST_END && i < gAszStatusNum; i++) {
 			// 効果が一致するか  (效果是否匹配)
 			if (strncmp(pszP, aszStatus[i], 2) == 0) {
 				status = i;
@@ -926,7 +926,7 @@ void ITEM_useFirecracker_Battle(int charaindex, int toindex, int haveitemindex) 
 	// 送讯息至玩家
 	if (FINDPET == TRUE) { // 若为年兽
 		char buf4[255];
-		sprintf(buf4, "%s被吓跑了！", CHAR_getChar(index2, CHAR_NAME));
+		sprintf(buf4, "%s\xB1\xBB\xCF\xC5\xC5\xDC\xC1\xCB\xA3\xA1", CHAR_getChar(index2, CHAR_NAME));
 
 		BATTLE_Exit(index2, battleindex); // 离开战斗
 		if (CHAR_CHECKINDEX(masteridx)) {

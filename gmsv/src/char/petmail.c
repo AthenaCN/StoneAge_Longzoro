@@ -248,7 +248,7 @@ BOOL PETMAIL_sendPetMail(int cindex, int aindex,
 		{
 			char token[256];
 			tocharaindex = PETMAIL_CheckPlayerExist(petindex, 0);
-			sprintf(token, "寄送宠物邮件(%s)给%s。",
+			sprintf(token, "\xBC\xC4\xCB\xCD\xB3\xE8\xCE\xEF\xD3\xCA\xBC\xFE(%s)\xB8\xF8%s\xA1\xA3",
 					CHAR_getUseName(petindex), CHAR_getUseName(tocharaindex));
 			CHAR_talkToCli(cindex, -1, token, CHAR_COLORYELLOW);
 		}
@@ -532,8 +532,8 @@ static void PETMAIL_sendPetmail(int index, int tocharaindex) {
 		char msgbuf[512];
 
 		snprintf(msgbuf, sizeof(msgbuf),
-				 "%s的%s 终於来了！"
-				 "由於对方没有您的名片，所以信件被退回了。",
+				 "%s\xB5\xC4%s \xD6\xD5\xEC\xB6\xC0\xB4\xC1\xCB\xA3\xA1"
+				 "\xD3\xC9\xEC\xB6\xB6\xD4\xB7\xBD\xC3\xBB\xD3\xD0\xC4\xFA\xB5\xC4\xC3\xFB\xC6\xAC\xA3\xAC\xCB\xF9\xD2\xD4\xD0\xC5\xBC\xFE\xB1\xBB\xCD\xCB\xBB\xD8\xC1\xCB\xA1\xA3",
 				 CHAR_getChar(index, CHAR_OWNERCHARANAME),
 				 CHAR_getUseName(index));
 		CHAR_talkToCli(tocharaindex, -1, msgbuf, CHAR_COLORWHITE);
@@ -969,14 +969,14 @@ static void PETMAIL_returnMail(int index, int tocharaindex) {
 #endif
 	if (CHAR_getInt(index, CHAR_PETMAILBUFINDEX) != -1) {
 		snprintf(msgbuf, sizeof(msgbuf),
-				 "%s 回来了！"
+				 "%s \xBB\xD8\xC0\xB4\xC1\xCB\xA3\xA1"
 				 "似乎无法寄送信件。",
 				 CHAR_getUseName(index));
 		CHAR_talkToCli(tocharaindex, -1, msgbuf, CHAR_COLORWHITE);
 		PETMAIL_deleteOffmsg(CHAR_getInt(index, CHAR_PETMAILBUFINDEX));
 	} else {
 		snprintf(msgbuf, sizeof(msgbuf),
-				 "%s 回来了！", CHAR_getUseName(index));
+				 "%s \xBB\xD8\xC0\xB4\xC1\xCB\xA3\xA1", CHAR_getUseName(index));
 		CHAR_talkToCli(tocharaindex, -1, msgbuf, CHAR_COLORWHITE);
 	}
 

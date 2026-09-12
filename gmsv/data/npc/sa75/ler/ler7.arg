@@ -1,8 +1,8 @@
-######é­”ç•Œä¹‹é—¨########
+######Ä§½çÖ®ÃÅ########
 
 NomalMainMsg:Ä§½çµÄÁ¦Á¿£¬±ÈÄãÏëÏñÖÐµÄ»¹ÒªÇ¿´ó£¡
 
-###ç»“176###
+###½á176###
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>90&ENDEV=175&ENDEV=176
@@ -12,7 +12,7 @@ ItemFullMsg:£¨ÎÒÉíÉÏµÄ¶«Î÷ÊÇ²»ÊÇÂúÁË°¡£¿£©
 GetItem:20613
 EventEnd
 
-###ç»“176æ ‡ç»™å® ç‰©å“ˆåˆ©æ©æ–¯###
+###½á176±ê¸ø³èÎï¹þÀû¶÷Ë¹###
 EventNo:176
 TYPE:ACCEPT
 EVENT:LV>90&ENDEV=4&ENDEV=81&ENDEV=174&ENDEV=116&ENDEV=111&ENDEV=115&ENDEV=175&NOWEV=176
@@ -24,7 +24,7 @@ GetPet:2515*1
 EndSetFlg:176
 EventEnd
 
-#### æœªæŽ¥ä»»åŠ¡å¯¹è¯ ####
+#### Î´½ÓÈÎÎñ¶Ô»° ####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>0

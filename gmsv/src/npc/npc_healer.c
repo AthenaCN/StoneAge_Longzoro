@@ -63,11 +63,11 @@ void NPC_HealerTalked(int meindex, int talker, char *msg, int color) {
 		NPC_HealerAllHeal(talker);
 		if (msgNo == 1) {
 			CHAR_talkToCli(talker, meindex,
-						   "已经全部回复。请在下次的比赛中加油唷！", CHAR_COLORWHITE);
+						   "\xd2\xd1\xbe\xad\xc8\xab\xb2\xbf\xbb\xd8\xb8\xb4\xa1\xa3\xc7\xeb\xd4\xda\xcf\xc2\xb4\xce\xb5\xc4\xb1\xc8\xc8\xfc\xd6\xd0\xbc\xd3\xd3\xcd\xe0\xa1\xa3\xa1", CHAR_COLORWHITE);
 
 		} else if (msgNo == 2) {
 			CHAR_talkToCli(talker, meindex,
-						   "由於你很诚实，让我帮你回复吧！", CHAR_COLORWHITE);
+						   "\xd3\xc9\xec\xb6\xc4\xe3\xba\xdc\xb3\xcf\xca\xb5\xa3\xac\xc8\xc3\xce\xd2\xb0\xef\xc4\xe3\xbb\xd8\xb8\xb4\xb0\xc9\xa3\xa1", CHAR_COLORWHITE);
 		}
 
 	} else {
@@ -81,11 +81,11 @@ void NPC_HealerTalked(int meindex, int talker, char *msg, int color) {
 				NPC_HealerAllHeal(otherindex);
 				if (msgNo == 1) {
 					CHAR_talkToCli(otherindex, meindex,
-								   "已经全部回复。请在下次的比赛中加油唷！", CHAR_COLORWHITE);
+								   "\xd2\xd1\xbe\xad\xc8\xab\xb2\xbf\xbb\xd8\xb8\xb4\xa1\xa3\xc7\xeb\xd4\xda\xcf\xc2\xb4\xce\xb5\xc4\xb1\xc8\xc8\xfc\xd6\xd0\xbc\xd3\xd3\xcd\xe0\xa1\xa3\xa1", CHAR_COLORWHITE);
 
 				} else if (msgNo == 2) {
 					CHAR_talkToCli(otherindex, meindex,
-								   "由於你很诚实，让我帮你回复吧！", CHAR_COLORWHITE);
+								   "\xd3\xc9\xec\xb6\xc4\xe3\xba\xdc\xb3\xcf\xca\xb5\xa3\xac\xc8\xc3\xce\xd2\xb0\xef\xc4\xe3\xbb\xd8\xb8\xb4\xb0\xc9\xa3\xa1", CHAR_COLORWHITE);
 				}
 			}
 		}

@@ -1,5 +1,5 @@
 NPCCREATE
-#######æ°´çš„å®ˆæŠ¤å…½(ZODINOSU)##########
+#######Ë®µÄÊØ»¤ÊÞ(ZODINOSU)##########
 {
 floorid=21214
 borncenter=30,40,1,1
@@ -11,7 +11,7 @@ graphicname=100372
 name=Ë®µÄÊØ»¤ÊÞ
 enemy=sb_mzn|file:200/sb_mzn.arg
 }
-#########æ°´çš„å®ˆæŠ¤å…½(ZAMEROSU)########
+#########Ë®µÄÊØ»¤ÊÞ(ZAMEROSU)########
 {
 floorid=21208
 borncenter=30,16,1,1

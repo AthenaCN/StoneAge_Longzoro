@@ -1598,7 +1598,7 @@ int ITEM_mergeItem_merge(int charaindex, int petid, char *data, int petindex, in
 				if ((code = ITEM_getChar(itemindex, ITEM_TYPECODE)) == NULL) {
 					if (strcmp(code, "\0")) {
 						char token[256];
-						snprintf(token, sizeof(token), "似乎对%s没有兴趣。",
+						snprintf(token, sizeof(token), "\xCB\xC6\xBA\xF5\xB6\xD4%s\xC3\xBB\xD3\xD0\xD0\xCB\xC8\xA4\xA1\xA3",
 								 ITEM_getChar(itemindex, ITEM_NAME));
 						CHAR_talkToCli(charaindex, -1, token, CHAR_COLORYELLOW);
 						return FALSE;
@@ -1624,7 +1624,7 @@ int ITEM_mergeItem_merge(int charaindex, int petid, char *data, int petindex, in
 					}
 				} else {
 					char msgbuf[128];
-					snprintf(msgbuf, sizeof(msgbuf), "似乎对%s没有兴趣。",
+					snprintf(msgbuf, sizeof(msgbuf), "\xCB\xC6\xBA\xF5\xB6\xD4%s\xC3\xBB\xD3\xD0\xD0\xCB\xC8\xA4\xA1\xA3",
 							 ITEM_getChar(itemindex, ITEM_NAME));
 					CHAR_talkToCli(charaindex, -1, msgbuf, CHAR_COLORWHITE);
 				}
@@ -1949,7 +1949,7 @@ int PETSKILL_ITEM_FixItem(int charindex, int fixindex, int *itemindex) {
 	maxcrushes = ITEM_getInt(fixindex, ITEM_MAXDAMAGECRUSHE);
 	if (crushes >= (maxcrushes * 0.80)) {
 		char buff[256];
-		sprintf(buff, "%s并没有损坏到需要修复。", ITEM_getChar(fixindex, ITEM_NAME));
+		sprintf(buff, "%s\xB2\xA2\xC3\xBB\xD3\xD0\xCB\xF0\xBB\xB5\xB5\xBD\xD0\xE8\xD2\xAA\xD0\xDE\xB8\xB4\xA1\xA3", ITEM_getChar(fixindex, ITEM_NAME));
 		CHAR_talkToCli(charindex, -1, buff, CHAR_COLORYELLOW);
 		return FALSE;
 	} else {

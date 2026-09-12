@@ -1,13 +1,13 @@
 NomalMainMsg:ÎÒµÄ»Æ½ð¿­±ÈÌØ×î½üÀÏÊÇ²»Ìý»°£¡£¡
 
-####ä»»åŠ¡187ä¸­ã€€èº«ä¸Šæœ‰èŠ±ç›†###
+####ÈÎÎñ187ÖÐ¡¡ÉíÉÏÓÐ»¨Åè###
 EventNo:-1
 TYPE:MESSAGE
 EVENT:NOWEV=187&ITEM=20846,NOWEV=187&ITEM=20847,NOWEV=187&ITEM=20848,NOWEV=187&ITEM=20849,NOWEV=187&ITEM=20850,NOWEV=187&ITEM=20851
 NomalWindowMsg:¿ìÈ¥°É£¡£¡£¡
 EventEnd
 
-###æ”¶ä¸‹æ´ç´ å†°æ™¶ï¼Œç§å­ã€€ç»™èŠ±ç›†å’Œç”˜ä¹‹æ³ªçŸ³###
+###ÊÕÏÂ½àËØ±ù¾§£¬ÖÖ×Ó¡¡¸ø»¨ÅèºÍ¸ÊÖ®ÀáÊ¯###
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>79&TRANS=6&ENDEV=184&ENDEV=185&NOWEV=187&ITEM=20842&ITEM=20843
@@ -18,14 +18,14 @@ GetItem:20850*1,20872*1
 ItemFullMsg:ÉíÉÏµÀ¾ßÌ«¶àÁËà¸£¡
 EventEnd
 
-####ä»»åŠ¡187ä¸­ã€€èº«ä¸Šæœ‰æ´ç´ å†°æ™¶###
+####ÈÎÎñ187ÖÐ¡¡ÉíÉÏÓÐ½àËØ±ù¾§###
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>79&TRANS=6&ENDEV=184&ENDEV=185&NOWEV=187&ITEM=20842
 NomalWindowMsg:¿ìÈ¥°É£¡£¡£¡
 EventEnd
 
-####ä»»åŠ¡187ä¸­ã€€####
+####ÈÎÎñ187ÖÐ¡¡####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>79&TRANS=6&ENDEV=184&ENDEV=185&NOWEV=187&ITEM!=20842

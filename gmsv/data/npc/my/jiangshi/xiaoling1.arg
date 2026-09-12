@@ -1,11 +1,11 @@
-#ç»™çŽ©å®¶æç¤º
+#¸øÍæ¼ÒÌáÊ¾
 EventNo:-1
 TYPE:MESSAGE
 EVENT:ENDEV=232
 NomalWindowMsg:·Ç³£¸ÐÐ»Äã~~~~²»¹ý²»ÖªµÀÂÞ¿ªÆ½»Ø»êÒ²»áÔõÃ´À´±¨³ð£¡£¡
 EventEnd
 
-#èŽ·å¾—èƒœåˆ©
+#»ñµÃÊ¤Àû
 EventNo:-1
 TYPE:REQUEST
 EVENT:LV>1&ITEM=30945&ITEM=30910&ITEM=30909&ITEM=30944&ITEM=30943&NOWEV=232
@@ -18,7 +18,7 @@ ItemFullMsg:ÇëÄã½«ÄãÉíÉÏµÄ¶«Î÷¼õÉÙÒ»Ð©ºÃÂð£¿
 EndSetFlg:232
 EventEnd
 
-#### æœªæŽ¥ä»»åŠ¡å¯¹è¯ ####
+#### Î´½ÓÈÎÎñ¶Ô»° ####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>0

@@ -1,20 +1,20 @@
 NomalMainMsg:ÄãÊÇÔõÃ´½øÀ´µÄ£¿£¿£¿
 
-#å®Œæˆä»»åŠ¡åŽ
+#Íê³ÉÈÎÎñºó
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>79&TRANS>4&ENDEV=184&ENDEV=189
 NomalWindowMsg:¹§Ï²³É¹¦Ê¹ÈËÁú½â³ý·âÓ¡£¡£¡
 EventEnd
 
-#å«çŽ©å®¶åŽ»æ‰“ç‰‡æ®µ
+#½ÐÍæ¼ÒÈ¥´òÆ¬¶Î
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>79&TRANS>4&ENDEV=184&NOWEV=189&ITEM=19421
 NomalWindowMsg:Ä§ÊÞ¾ÍÔÚÉ³Ä·µº£¬¸Ï¿ìÈ¥°É¡£¡£¡£
 EventEnd
 
-#å‚¬çŽ©å®¶æ‰¾å¡”é²å·´é²
+#´ßÍæ¼ÒÕÒËþÂ³°ÍÂ³
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>79&TRANS>4&ENDEV=184&NOWEV=189&ITEM=19420

@@ -109,13 +109,13 @@ void NPC_PetRacePetLoop(int meindex) {
 				int master = CHAR_getWorkInt(meindex, NPC_WORK_MASTER);
 				int randomi = RAND(1, 9);
 				if (randomi == 1)
-					snprintf(tmpbuf, sizeof(tmpbuf), "哦～看来%s好像发威了唷！",
+					snprintf(tmpbuf, sizeof(tmpbuf), "\xC5\xB6\xA1\xAB\xBF\xB4\xC0\xB4%s\xBA\xC3\xCF\xF1\xB7\xA2\xCD\xFE\xC1\xCB\xE0\xA1\xA3\xA1",
 							 CHAR_getChar(meindex, CHAR_NAME));
 				else if (randomi == 2)
-					snprintf(tmpbuf, sizeof(tmpbuf), "%s使出了奋力的一击～",
+					snprintf(tmpbuf, sizeof(tmpbuf), "%s\xCA\xB9\xB3\xF6\xC1\xCB\xB7\xDC\xC1\xA6\xB5\xC4\xD2\xBB\xBB\xF7\xA1\xAB",
 							 CHAR_getChar(meindex, CHAR_NAME));
 				else if (randomi == 3)
-					snprintf(tmpbuf, sizeof(tmpbuf), "咦...%s发怒了？",
+					snprintf(tmpbuf, sizeof(tmpbuf), "\xDF\xD7...%s\xB7\xA2\xC5\xAD\xC1\xCB\xA3\xBF",
 							 CHAR_getChar(meindex, CHAR_NAME));
 				if (randomi > 0 && randomi < 4)
 					CHAR_talkToFloor(floor, master, tmpbuf, CHAR_COLORWHITE);
@@ -131,13 +131,13 @@ void NPC_PetRacePetLoop(int meindex) {
 				int master = CHAR_getWorkInt(meindex, NPC_WORK_MASTER);
 				int randomi = RAND(1, 9);
 				if (randomi == 1)
-					snprintf(tmpbuf, sizeof(tmpbuf), "%s好像晕倒了呢...",
+					snprintf(tmpbuf, sizeof(tmpbuf), "%s\xBA\xC3\xCF\xF1\xD4\xCE\xB5\xB9\xC1\xCB\xC4\xD8...",
 							 CHAR_getChar(meindex, CHAR_NAME));
 				else if (randomi == 2)
-					snprintf(tmpbuf, sizeof(tmpbuf), "%s受伤了吗？",
+					snprintf(tmpbuf, sizeof(tmpbuf), "%s\xCA\xDC\xC9\xCB\xC1\xCB\xC2\xF0\xA3\xBF",
 							 CHAR_getChar(meindex, CHAR_NAME));
 				else if (randomi == 3)
-					snprintf(tmpbuf, sizeof(tmpbuf), "嘿...%s晕倒後又勇敢的爬起来了！",
+					snprintf(tmpbuf, sizeof(tmpbuf), "\xBA\xD9...%s\xD4\xCE\xB5\xB9\xE1\xE1\xD3\xD6\xD3\xC2\xB8\xD2\xB5\xC4\xC5\xC0\xC6\xF0\xC0\xB4\xC1\xCB\xA3\xA1",
 							 CHAR_getChar(meindex, CHAR_NAME));
 				if (randomi > 0 && randomi < 4)
 					CHAR_talkToFloor(floor, master, tmpbuf, CHAR_COLORWHITE);
@@ -184,11 +184,11 @@ static void NPC_PetRacePet_Walk(int meindex) {
 			if (CHAR_getWorkInt(masterindex, CHAR_NPCWORKINT8) == 0) {
 				CHAR_setWorkInt(masterindex, CHAR_NPCWORKINT8, meindex);
 				CHAR_sendAction(meindex, 3, FALSE);
-				snprintf(tmpbuf, sizeof(tmpbuf), "首先到达目的地的是...%s",
+				snprintf(tmpbuf, sizeof(tmpbuf), "\xCA\xD7\xCF\xC8\xB5\xBD\xB4\xEF\xC4\xBF\xB5\xC4\xB5\xD8\xB5\xC4\xCA\xC7...%s",
 						 CHAR_getChar(meindex, CHAR_NAME));
 			} else {
 				CHAR_warpToSpecificPoint(meindex, 888, 7, 7);
-				snprintf(tmpbuf, sizeof(tmpbuf), "接着到达目的地的是...%s",
+				snprintf(tmpbuf, sizeof(tmpbuf), "\xBD\xD3\xD7\xC5\xB5\xBD\xB4\xEF\xC4\xBF\xB5\xC4\xB5\xD8\xB5\xC4\xCA\xC7...%s",
 						 CHAR_getChar(meindex, CHAR_NAME));
 			}
 			CHAR_setWorkInt(meindex, NPC_WORK_STATE, NPC_State_ShowWin);

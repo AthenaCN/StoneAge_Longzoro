@@ -17,7 +17,7 @@ borncenter=46,60
 time=0
 createnum=1
 graphicname=110092
-name=±ÌÇå×ªÉúÌìÊ¹
+name=±ÌÇà×ªÉúÌìÊ¹
 dir=4
 enemy=changeevent|file:almark/zhuansheng/zhuans2.arg
 }
@@ -45,7 +45,7 @@ dir=4
 enemy=changeevent|file:almark/zhuansheng/zhuans4.arg
 }
 
-#ä¼šå‘˜ç²¾çµç‹
+#VIP¾«ÁéÍõ
 {
 floorid=777
 borncenter=27,23
@@ -59,7 +59,7 @@ enemy=npc_transmigration|file:almark/zhuansheng/ten.arg
 }
 
 
-#ä¼šå‘˜è½¬ç”Ÿå¤©ä½¿
+#VIP×ªÉúÌìÊ¹
 {
 floorid=777
 borncenter=19,23

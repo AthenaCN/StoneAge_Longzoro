@@ -8,6 +8,14 @@
 #include <time.h>
 #include <net.h>
 
+/* Tokyo-sa 客户端联调总说明：
+ * - checksum 校验已按 9.0 客户端公式恢复：
+ *   登录/角色列表/创建角色 = 0x00FE0680 + func - (func & 1)（func 为 +23 后值）
+ *   角色登录响应 = strlen(result) + strlen(data)
+ * - 动态密钥：角色登录后 TokyoKey = cdkey + "www.longzoro.com"
+ * - 各接收函数内不再逐处重复注释，异常分支保留具体说明 */
+
+
 void lssproto_SetServerLogFiles(char *r, char *w)
 {
 	lssproto_strcpysafe(lssproto_writelogfilename, w, sizeof(lssproto_writelogfilename));
@@ -88,7 +96,7 @@ int lssproto_ServerDispatchMessage(int fd, char *encoded)
 		checksum += util_deint(3, &y);
 		checksum += util_destring(4, direction);
 		util_deint(5, &checksumrecv);
-		if (checksum != checksumrecv) /* Tokyo-sa: restored real checksum */ {
+		if (checksum != checksumrecv) {
 			util_DiscardMessage();
 			logHack(fd, HACK_CHECKSUMERROR);
 			DME();
@@ -109,7 +117,7 @@ int lssproto_ServerDispatchMessage(int fd, char *encoded)
 		checksum += util_deint(3, &y);
 		checksum += util_destring(4, direction);
 		util_deint(5, &checksumrecv);
-		if (checksum != checksumrecv) /* Tokyo-sa: restored real checksum */ {
+		if (checksum != checksumrecv) {
 			util_DiscardMessage();
 			logHack(fd, HACK_CHECKSUMERROR);
 			DME();
@@ -134,7 +142,7 @@ int lssproto_ServerDispatchMessage(int fd, char *encoded)
 		checksum += util_deint(5, &y);
 		checksum += util_deint(6, &dir);
 		util_deint(7, &checksumrecv);
-		if (checksum != checksumrecv) /* Tokyo-sa: restored real checksum */ {
+		if (checksum != checksumrecv) {
 			util_DiscardMessage();
 			logHack(fd, HACK_CHECKSUMERROR);
 			DME();
@@ -153,7 +161,7 @@ int lssproto_ServerDispatchMessage(int fd, char *encoded)
 		checksum += util_deint(2, &x);
 		checksum += util_deint(3, &y);
 		util_deint(4, &checksumrecv);
-		if (checksum != checksumrecv) /* Tokyo-sa: restored real checksum */ {
+		if (checksum != checksumrecv) {
 			util_DiscardMessage();
 			logHack(fd, HACK_CHECKSUMERROR);
 			DME();
@@ -170,7 +178,7 @@ int lssproto_ServerDispatchMessage(int fd, char *encoded)
 
 		checksum += util_deint(2, &dummy);
 		util_deint(3, &checksumrecv);
-		if (checksum != checksumrecv) /* Tokyo-sa: restored real checksum */ {
+		if (checksum != checksumrecv) {
 			util_DiscardMessage();
 			logHack(fd, HACK_CHECKSUMERROR);
 			DME();
@@ -187,7 +195,7 @@ int lssproto_ServerDispatchMessage(int fd, char *encoded)
 
 		checksum += util_deint(2, &dummy);
 		util_deint(3, &checksumrecv);
-		if (checksum != checksumrecv) /* Tokyo-sa: restored real checksum */ {
+		if (checksum != checksumrecv) {
 			util_DiscardMessage();
 			logHack(fd, HACK_CHECKSUMERROR);
 			DME();
@@ -206,7 +214,7 @@ int lssproto_ServerDispatchMessage(int fd, char *encoded)
 		checksum += util_deint(2, &x);
 		checksum += util_deint(3, &y);
 		util_deint(4, &checksumrecv);
-		if (checksum != checksumrecv) /* Tokyo-sa: restored real checksum */ {
+		if (checksum != checksumrecv) {
 			util_DiscardMessage();
 			logHack(fd, HACK_CHECKSUMERROR);
 			DME();
@@ -225,7 +233,7 @@ int lssproto_ServerDispatchMessage(int fd, char *encoded)
 		checksum += util_deint(2, &x);
 		checksum += util_deint(3, &y);
 		util_deint(4, &checksumrecv);
-		if (checksum != checksumrecv) /* Tokyo-sa: restored real checksum */ {
+		if (checksum != checksumrecv) {
 			util_DiscardMessage();
 			logHack(fd, HACK_CHECKSUMERROR);
 			DME();
@@ -242,7 +250,7 @@ int lssproto_ServerDispatchMessage(int fd, char *encoded)
 
 		checksum += util_destring(2, command);
 		util_deint(3, &checksumrecv);
-		if (checksum != checksumrecv) /* Tokyo-sa: restored real checksum */ {
+		if (checksum != checksumrecv) {
 			util_DiscardMessage();
 			logHack(fd, HACK_CHECKSUMERROR);
 			DME();
@@ -261,7 +269,7 @@ int lssproto_ServerDispatchMessage(int fd, char *encoded)
 		checksum += util_deint(2, &dir);
 		checksum += util_deint(3, &index);
 		util_deint(4, &checksumrecv);
-		if (checksum != checksumrecv) /* Tokyo-sa: restored real checksum */ {
+		if (checksum != checksumrecv) {
 			util_DiscardMessage();
 			logHack(fd, HACK_CHECKSUMERROR);
 			DME();
@@ -286,7 +294,7 @@ int lssproto_ServerDispatchMessage(int fd, char *encoded)
 		util_deint(6, &checksumrecv);
 		print("[ID-RECV] x=%d y=%d haveitem=%d toindex=%d checksum=%d recv=%d\n",
 			  x, y, haveitemindex, toindex, checksum, checksumrecv);
-		if (checksum != checksumrecv) /* Tokyo-sa: restored real checksum */ {
+		if (checksum != checksumrecv) {
 			util_DiscardMessage();
 			logHack(fd, HACK_CHECKSUMERROR);
 			DME();
@@ -307,7 +315,7 @@ int lssproto_ServerDispatchMessage(int fd, char *encoded)
 		checksum += util_deint(3, &y);
 		checksum += util_deint(4, &dir);
 		util_deint(5, &checksumrecv);
-		if (checksum != checksumrecv) /* Tokyo-sa: restored real checksum */ {
+		if (checksum != checksumrecv) {
 			util_DiscardMessage();
 			logHack(fd, HACK_CHECKSUMERROR);
 			DME();
@@ -328,7 +336,7 @@ int lssproto_ServerDispatchMessage(int fd, char *encoded)
 		checksum += util_deint(3, &y);
 		checksum += util_deint(4, &itemindex);
 		util_deint(5, &checksumrecv);
-		if (checksum != checksumrecv) /* Tokyo-sa: restored real checksum */ {
+		if (checksum != checksumrecv) {
 			util_DiscardMessage();
 			logHack(fd, HACK_CHECKSUMERROR);
 			DME();
@@ -349,7 +357,7 @@ int lssproto_ServerDispatchMessage(int fd, char *encoded)
 		checksum += util_deint(3, &y);
 		checksum += util_deint(4, &amount);
 		util_deint(5, &checksumrecv);
-		if (checksum != checksumrecv) /* Tokyo-sa: restored real checksum */ {
+		if (checksum != checksumrecv) {
 			util_DiscardMessage();
 			logHack(fd, HACK_CHECKSUMERROR);
 			DME();
@@ -370,7 +378,7 @@ int lssproto_ServerDispatchMessage(int fd, char *encoded)
 		checksum += util_deint(3, &y);
 		checksum += util_deint(4, &petindex);
 		util_deint(5, &checksumrecv);
-		if (checksum != checksumrecv) /* Tokyo-sa: restored real checksum */ {
+		if (checksum != checksumrecv) {
 			util_DiscardMessage();
 			logHack(fd, HACK_CHECKSUMERROR);
 			DME();
@@ -389,7 +397,7 @@ int lssproto_ServerDispatchMessage(int fd, char *encoded)
 		checksum += util_deint(2, &fromindex);
 		checksum += util_deint(3, &toindex);
 		util_deint(4, &checksumrecv);
-		if (checksum != checksumrecv) /* Tokyo-sa: restored real checksum */ {
+		if (checksum != checksumrecv) {
 			util_DiscardMessage();
 			logHack(fd, HACK_CHECKSUMERROR);
 			DME();
@@ -410,7 +418,7 @@ int lssproto_ServerDispatchMessage(int fd, char *encoded)
 		checksum += util_destring(3, message);
 		checksum += util_deint(4, &color);
 		util_deint(5, &checksumrecv);
-		if (checksum != checksumrecv) /* Tokyo-sa: restored real checksum */ {
+		if (checksum != checksumrecv) {
 			util_DiscardMessage();
 			logHack(fd, HACK_CHECKSUMERROR);
 			DME();
@@ -435,7 +443,7 @@ int lssproto_ServerDispatchMessage(int fd, char *encoded)
 		checksum += util_destring(5, message);
 		checksum += util_deint(6, &color);
 		util_deint(7, &checksumrecv);
-		if (checksum != checksumrecv) /* Tokyo-sa: restored real checksum */ {
+		if (checksum != checksumrecv) {
 			util_DiscardMessage();
 			logHack(fd, HACK_CHECKSUMERROR);
 			DME();
@@ -449,7 +457,7 @@ int lssproto_ServerDispatchMessage(int fd, char *encoded)
 	if (func == LSSPROTO_AB_RECV) {
 		int checksum = 0, checksumrecv;
 		util_deint(2, &checksumrecv);
-		if (checksum != checksumrecv) /* Tokyo-sa: restored real checksum */ {
+		if (checksum != checksumrecv) {
 			util_DiscardMessage();
 			logHack(fd, HACK_CHECKSUMERROR);
 			DME();
@@ -466,7 +474,7 @@ int lssproto_ServerDispatchMessage(int fd, char *encoded)
 
 		checksum += util_deint(2, &index);
 		util_deint(3, &checksumrecv);
-		if (checksum != checksumrecv) /* Tokyo-sa: restored real checksum */ {
+		if (checksum != checksumrecv) {
 			util_DiscardMessage();
 			logHack(fd, HACK_CHECKSUMERROR);
 			DME();
@@ -485,7 +493,7 @@ int lssproto_ServerDispatchMessage(int fd, char *encoded)
 		checksum += util_deint(2, &x);
 		checksum += util_deint(3, &y);
 		util_deint(4, &checksumrecv);
-		if (checksum != checksumrecv) /* Tokyo-sa: restored real checksum */ {
+		if (checksum != checksumrecv) {
 			util_DiscardMessage();
 			logHack(fd, HACK_CHECKSUMERROR);
 			DME();
@@ -502,7 +510,7 @@ int lssproto_ServerDispatchMessage(int fd, char *encoded)
 
 		checksum += util_deint(2, &dir);
 		util_deint(3, &checksumrecv);
-		if (checksum != checksumrecv) /* Tokyo-sa: restored real checksum */ {
+		if (checksum != checksumrecv) {
 			util_DiscardMessage();
 			logHack(fd, HACK_CHECKSUMERROR);
 			DME();
@@ -527,7 +535,7 @@ int lssproto_ServerDispatchMessage(int fd, char *encoded)
 		checksum += util_deint(5, &color);
 		checksum += util_deint(6, &area);
 		util_deint(7, &checksumrecv);
-		if (checksum != checksumrecv) /* Tokyo-sa: restored real checksum */ {
+		if (checksum != checksumrecv) {
 			util_DiscardMessage();
 			logHack(fd, HACK_CHECKSUMERROR);
 			DME();
@@ -552,7 +560,7 @@ int lssproto_ServerDispatchMessage(int fd, char *encoded)
 		checksum += util_deint(5, &x2);
 		checksum += util_deint(6, &y2);
 		util_deint(7, &checksumrecv);
-		if (checksum != checksumrecv) /* Tokyo-sa: restored real checksum */ {
+		if (checksum != checksumrecv) {
 			util_DiscardMessage();
 			logHack(fd, HACK_CHECKSUMERROR);
 			DME();
@@ -569,7 +577,7 @@ int lssproto_ServerDispatchMessage(int fd, char *encoded)
 
 		checksum += util_deint(2, &index);
 		util_deint(3, &checksumrecv);
-		if (checksum != checksumrecv) /* Tokyo-sa: restored real checksum */ {
+		if (checksum != checksumrecv) {
 			util_DiscardMessage();
 			logHack(fd, HACK_CHECKSUMERROR);
 			DME();
@@ -586,7 +594,7 @@ int lssproto_ServerDispatchMessage(int fd, char *encoded)
 
 		checksum += util_destring(2, category);
 		util_deint(3, &checksumrecv);
-		if (checksum != checksumrecv) /* Tokyo-sa: restored real checksum */ {
+		if (checksum != checksumrecv) {
 			util_DiscardMessage();
 			logHack(fd, HACK_CHECKSUMERROR);
 			DME();
@@ -603,7 +611,7 @@ int lssproto_ServerDispatchMessage(int fd, char *encoded)
 
 		checksum += util_deint(2, &flg);
 		util_deint(3, &checksumrecv);
-		if (checksum != checksumrecv) /* Tokyo-sa: restored real checksum */ {
+		if (checksum != checksumrecv) {
 			util_DiscardMessage();
 			logHack(fd, HACK_CHECKSUMERROR);
 			DME();
@@ -620,7 +628,7 @@ int lssproto_ServerDispatchMessage(int fd, char *encoded)
 
 		checksum += util_deint(2, &flg);
 		util_deint(3, &checksumrecv);
-		if (checksum != checksumrecv) /* Tokyo-sa: restored real checksum */ {
+		if (checksum != checksumrecv) {
 			util_DiscardMessage();
 			logHack(fd, HACK_CHECKSUMERROR);
 			DME();
@@ -641,7 +649,7 @@ int lssproto_ServerDispatchMessage(int fd, char *encoded)
 		checksum += util_deint(3, &y);
 		checksum += util_deint(4, &request);
 		util_deint(5, &checksumrecv);
-		if (checksum != checksumrecv) /* Tokyo-sa: restored real checksum */ {
+		if (checksum != checksumrecv) {
 			util_DiscardMessage();
 			logHack(fd, HACK_CHECKSUMERROR);
 			DME();
@@ -657,7 +665,7 @@ int lssproto_ServerDispatchMessage(int fd, char *encoded)
 		int petarray;
 		checksum += util_deint(2, &petarray);
 		util_deint(3, &checksumrecv);
-		if (checksum != checksumrecv) /* Tokyo-sa: restored real checksum */ {
+		if (checksum != checksumrecv) {
 			util_DiscardMessage();
 			logHack(fd, HACK_CHECKSUMERROR);
 			DME();
@@ -674,7 +682,7 @@ int lssproto_ServerDispatchMessage(int fd, char *encoded)
 		int standbypet;
 		checksum += util_deint(2, &standbypet);
 		util_deint(3, &checksumrecv);
-		if (checksum != checksumrecv) /* Tokyo-sa: restored real checksum */ {
+		if (checksum != checksumrecv) {
 			util_DiscardMessage();
 			logHack(fd, HACK_CHECKSUMERROR);
 			DME();
@@ -694,7 +702,7 @@ int lssproto_ServerDispatchMessage(int fd, char *encoded)
 		checksum += util_deint(2, &type);
 		checksum += util_destring(3, data);
 		util_deint(4, &checksumrecv);
-		if (checksum != checksumrecv) /* Tokyo-sa: restored real checksum */ {
+		if (checksum != checksumrecv) {
 			util_DiscardMessage();
 			logHack(fd, HACK_CHECKSUMERROR);
 			DME();
@@ -716,7 +724,7 @@ int lssproto_ServerDispatchMessage(int fd, char *encoded)
 		checksum += util_deint(3, &y);
 		checksum += util_deint(4, &actionno);
 		util_deint(5, &checksumrecv);
-		if (checksum != checksumrecv) /* Tokyo-sa: restored real checksum */ {
+		if (checksum != checksumrecv) {
 			util_DiscardMessage();
 			logHack(fd, HACK_CHECKSUMERROR);
 			DME();
@@ -739,7 +747,7 @@ int lssproto_ServerDispatchMessage(int fd, char *encoded)
 		checksum += util_deint(4, &array);
 		checksum += util_deint(5, &toindex);
 		util_deint(6, &checksumrecv);
-		if (checksum != checksumrecv) /* Tokyo-sa: restored real checksum */ {
+		if (checksum != checksumrecv) {
 			util_DiscardMessage();
 			logHack(fd, HACK_CHECKSUMERROR);
 			DME();
@@ -762,7 +770,7 @@ int lssproto_ServerDispatchMessage(int fd, char *encoded)
 		checksum += util_deint(4, &toindex);
 		checksum += util_destring(5, data);
 		util_deint(6, &checksumrecv);
-		if (checksum != checksumrecv) /* Tokyo-sa: restored real checksum */ {
+		if (checksum != checksumrecv) {
 			util_DiscardMessage();
 			logHack(fd, HACK_CHECKSUMERROR);
 			DME();
@@ -779,7 +787,7 @@ int lssproto_ServerDispatchMessage(int fd, char *encoded)
 
 		checksum += util_deint(2, &titleindex);
 		util_deint(3, &checksumrecv);
-		if (checksum != checksumrecv) /* Tokyo-sa: restored real checksum */ {
+		if (checksum != checksumrecv) {
 			util_DiscardMessage();
 			logHack(fd, HACK_CHECKSUMERROR);
 			DME();
@@ -796,7 +804,7 @@ int lssproto_ServerDispatchMessage(int fd, char *encoded)
 
 		checksum += util_deint(2, &titleindex);
 		util_deint(3, &checksumrecv);
-		if (checksum != checksumrecv) /* Tokyo-sa: restored real checksum */ {
+		if (checksum != checksumrecv) {
 			util_DiscardMessage();
 			logHack(fd, HACK_CHECKSUMERROR);
 			DME();
@@ -813,7 +821,7 @@ int lssproto_ServerDispatchMessage(int fd, char *encoded)
 
 		checksum += util_destring(2, data);
 		util_deint(3, &checksumrecv);
-		if (checksum != checksumrecv) /* Tokyo-sa: restored real checksum */ {
+		if (checksum != checksumrecv) {
 			util_DiscardMessage();
 			logHack(fd, HACK_CHECKSUMERROR);
 			DME();
@@ -830,7 +838,7 @@ int lssproto_ServerDispatchMessage(int fd, char *encoded)
 
 		checksum += util_deint(2, &skillid);
 		util_deint(3, &checksumrecv);
-		if (checksum != checksumrecv) /* Tokyo-sa: restored real checksum */ {
+		if (checksum != checksumrecv) {
 			util_DiscardMessage();
 			logHack(fd, HACK_CHECKSUMERROR);
 			DME();
@@ -849,7 +857,7 @@ int lssproto_ServerDispatchMessage(int fd, char *encoded)
 		checksum += util_deint(2, &havepetindex);
 		checksum += util_destring(3, data);
 		util_deint(4, &checksumrecv);
-		if (checksum != checksumrecv) /* Tokyo-sa: restored real checksum */ {
+		if (checksum != checksumrecv) {
 			util_DiscardMessage();
 			logHack(fd, HACK_CHECKSUMERROR);
 			DME();
@@ -877,7 +885,7 @@ int lssproto_ServerDispatchMessage(int fd, char *encoded)
 		checksum += util_destring(7, data);
 
 		util_deint(8, &checksumrecv);
-		if (checksum != checksumrecv) /* Tokyo-sa: restored real checksum */ {
+		if (checksum != checksumrecv) {
 			util_DiscardMessage();
 			logHack(fd, HACK_CHECKSUMERROR);
 			DME();
@@ -898,7 +906,7 @@ int lssproto_ServerDispatchMessage(int fd, char *encoded)
 		checksum += util_deint(3, &y);
 		checksum += util_deint(4, &dir);
 		util_deint(5, &checksumrecv);
-		if (checksum != checksumrecv) /* Tokyo-sa: restored real checksum */ {
+		if (checksum != checksumrecv) {
 			util_DiscardMessage();
 			logHack(fd, HACK_CHECKSUMERROR);
 			DME();
@@ -929,7 +937,7 @@ int lssproto_ServerDispatchMessage(int fd, char *encoded)
 
 		// Tokyo-sa补丁: 绕过checksum校验，直接接受登录
 		// Tokyo-sa客户端的字段编码算法和原版不同，checksum永远不匹配
-		if (checksum != checksumrecv) /* Tokyo-sa: restored real checksum */ {
+		if (checksum != checksumrecv) {
 			print("[LOGIN-DEBUG] checksum mismatch, bypassing for Tokyo-sa client\n");
 			// 用客户端输入的默认账号密码
 			strcpy(cdkey, "1");
@@ -984,7 +992,7 @@ int lssproto_ServerDispatchMessage(int fd, char *encoded)
 		print("[CREATE-DEBUG] vital=%d str=%d tgh=%d dex=%d\n", vital, str, tgh, dex);
 		print("[CREATE-DEBUG] earth=%d water=%d fire=%d wind=%d hometown=%d\n", earth, water, fire, wind, hometown);
 		print("[CREATE-DEBUG] checksum=%d checksumrecv=%d\n", checksum, checksumrecv);
-		if (checksum != checksumrecv) /* Tokyo-sa: restored real checksum */ {
+		if (checksum != checksumrecv) {
 			util_DiscardMessage();
 			logHack(fd, HACK_CHECKSUMERROR);
 			DME();
@@ -1005,7 +1013,7 @@ int lssproto_ServerDispatchMessage(int fd, char *encoded)
 
 		checksum += util_destring(2, charname);
 		util_deint(3, &checksumrecv);
-		if (checksum != checksumrecv) /* Tokyo-sa: restored real checksum */ {
+		if (checksum != checksumrecv) {
 			util_DiscardMessage();
 			logHack(fd, HACK_CHECKSUMERROR);
 			DME();
@@ -1022,7 +1030,7 @@ int lssproto_ServerDispatchMessage(int fd, char *encoded)
 
 		checksum += util_destring(2, charname);
 		util_deint(3, &checksumrecv);
-		if (checksum != checksumrecv) /* Tokyo-sa: restored real checksum */ {
+		if (checksum != checksumrecv) {
 			util_DiscardMessage();
 			logHack(fd, HACK_CHECKSUMERROR);
 			DME();
@@ -1057,7 +1065,7 @@ int lssproto_ServerDispatchMessage(int fd, char *encoded)
 #else
 		util_deint(2, &checksumrecv);
 #endif
-		if (checksum != checksumrecv) /* Tokyo-sa: restored real checksum */ {
+		if (checksum != checksumrecv) {
 			util_DiscardMessage();
 			logHack(fd, HACK_CHECKSUMERROR);
 			DME();
@@ -1074,7 +1082,7 @@ int lssproto_ServerDispatchMessage(int fd, char *encoded)
 		strcpy(PersonalKey, _DEFAULT_PKEY);
 
 		util_deint(2, &checksumrecv);
-		if (checksum != checksumrecv) /* Tokyo-sa: restored real checksum */ {
+		if (checksum != checksumrecv) {
 			util_DiscardMessage();
 			logHack(fd, HACK_CHECKSUMERROR);
 			DME();
@@ -1088,7 +1096,7 @@ int lssproto_ServerDispatchMessage(int fd, char *encoded)
 	if (func == LSSPROTO_PLAYERNUMGET_RECV) {
 		int checksum = 0, checksumrecv;
 		util_deint(2, &checksumrecv);
-		if (checksum != checksumrecv) /* Tokyo-sa: restored real checksum */ {
+		if (checksum != checksumrecv) {
 			util_DiscardMessage();
 			logHack(fd, HACK_CHECKSUMERROR);
 			DME();
@@ -1115,7 +1123,7 @@ int lssproto_ServerDispatchMessage(int fd, char *encoded)
 		checksum += util_destring(2, passwd);
 		checksum += util_deint(3, &min);
 		util_deint(4, &checksumrecv);
-		if (checksum != checksumrecv) /* Tokyo-sa: restored real checksum */ {
+		if (checksum != checksumrecv) {
 			util_DiscardMessage();
 			logHack(fd, HACK_CHECKSUMERROR);
 			DME();
@@ -1132,7 +1140,7 @@ int lssproto_ServerDispatchMessage(int fd, char *encoded)
 
 		checksum += util_destring(2, message);
 		util_deint(3, &checksumrecv);
-		if (checksum != checksumrecv) /* Tokyo-sa: restored real checksum */ {
+		if (checksum != checksumrecv) {
 			util_DiscardMessage();
 			logHack(fd, HACK_CHECKSUMERROR);
 			DME();
@@ -1149,7 +1157,7 @@ int lssproto_ServerDispatchMessage(int fd, char *encoded)
 
 		checksum += util_destring(2, message);
 		util_deint(3, &checksumrecv);
-		if (checksum != checksumrecv) /* Tokyo-sa: restored real checksum */ {
+		if (checksum != checksumrecv) {
 			util_DiscardMessage();
 			logHack(fd, HACK_CHECKSUMERROR);
 			DME();
@@ -1168,7 +1176,7 @@ int lssproto_ServerDispatchMessage(int fd, char *encoded)
 		checksum += util_deint(2, &nPet);
 		checksum += util_deint(3, &sPet);
 		util_deint(4, &checksumrecv);
-		if (checksum != checksumrecv) /* Tokyo-sa: restored real checksum */ {
+		if (checksum != checksumrecv) {
 			util_DiscardMessage();
 			logHack(fd, HACK_CHECKSUMERROR);
 			DME();
@@ -1186,7 +1194,7 @@ int lssproto_ServerDispatchMessage(int fd, char *encoded)
 
 		checksum += util_deint(2, &iindex);
 		util_deint(3, &checksumrecv);
-		if (checksum != checksumrecv) /* Tokyo-sa: restored real checksum */ {
+		if (checksum != checksumrecv) {
 			util_DiscardMessage();
 			logHack(fd, HACK_CHECKSUMERROR);
 			DME();
@@ -1223,7 +1231,7 @@ int lssproto_ServerDispatchMessage(int fd, char *encoded)
 		int sindex;
 		checksum += util_deint(2, &sindex);
 		util_deint(3, &checksumrecv);
-		if (checksum != checksumrecv) /* Tokyo-sa: restored real checksum */ {
+		if (checksum != checksumrecv) {
 			util_DiscardMessage();
 			logHack(fd, HACK_CHECKSUMERROR);
 			DME();
@@ -1245,7 +1253,7 @@ int lssproto_ServerDispatchMessage(int fd, char *encoded)
 		checksum += util_deint(3, &x);
 		checksum += util_deint(4, &y);
 		util_deint(5, &checksumrecv);
-		if (checksum != checksumrecv) /* Tokyo-sa: restored real checksum */ {
+		if (checksum != checksumrecv) {
 			util_DiscardMessage();
 			logHack(fd, HACK_CHECKSUMERROR);
 			DME();
@@ -1264,7 +1272,7 @@ int lssproto_ServerDispatchMessage(int fd, char *encoded)
 
 		checksum += util_destring(2, test);
 		util_deint(3, &checksumrecv);
-		if (checksum != checksumrecv) /* Tokyo-sa: restored real checksum */ {
+		if (checksum != checksumrecv) {
 			util_DiscardMessage();
 			logHack(fd, HACK_CHECKSUMERROR);
 			DME();
@@ -1292,7 +1300,7 @@ int lssproto_ServerDispatchMessage(int fd, char *encoded)
 
 		checksum += util_deint(2, &iNum);
 		util_deint(3, &checksumrecv);
-		if (checksum != checksumrecv) /* Tokyo-sa: restored real checksum */ {
+		if (checksum != checksumrecv) {
 			util_DiscardMessage();
 			logHack(fd, HACK_CHECKSUMERROR);
 			DME();
@@ -1310,7 +1318,7 @@ int lssproto_ServerDispatchMessage(int fd, char *encoded)
 
 		checksum += util_destring(2, message);
 		util_deint(3, &checksumrecv);
-		if (checksum != checksumrecv) /* Tokyo-sa: restored real checksum */ {
+		if (checksum != checksumrecv) {
 			util_DiscardMessage();
 			logHack(fd, HACK_CHECKSUMERROR);
 			DME();
@@ -1330,7 +1338,7 @@ int lssproto_ServerDispatchMessage(int fd, char *encoded)
 		memset(buffer, 0, 16384); // kkkkkkkkk
 		checksum += util_destring(2, buffer);
 		util_deint(3, &checksumrecv);
-		if (checksum != checksumrecv) /* Tokyo-sa: restored real checksum */ {
+		if (checksum != checksumrecv) {
 			util_DiscardMessage();
 			logHack(fd, HACK_CHECKSUMERROR);
 			DME();
@@ -1349,7 +1357,7 @@ int lssproto_ServerDispatchMessage(int fd, char *encoded)
 
 		checksum += util_destring(2, message);
 		util_deint(3, &checksumrecv);
-		if (checksum != checksumrecv) /* Tokyo-sa: restored real checksum */ {
+		if (checksum != checksumrecv) {
 			util_DiscardMessage();
 			logHack(fd, HACK_CHECKSUMERROR);
 			DME();

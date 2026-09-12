@@ -105,7 +105,7 @@ void CHAR_JoinParty_Main(int charaindex, int targetindex) {
 		}
 	}
 
-	snprintf(buf, sizeof(buf), "%s 加入团队！",
+	snprintf(buf, sizeof(buf), "%s \xBC\xD3\xC8\xEB\xCD\xC5\xB6\xD3\xA3\xA1",
 			 CHAR_getChar(charaindex, CHAR_NAME));
 
 	for (i = 0; i < CHAR_PARTYMAX; i++) {
@@ -475,7 +475,7 @@ static BOOL CHAR_DischargePartySub(int charaindex, int msgflg) {
 			return FALSE;
 		}
 		CHAR_setWorkInt(toindex, CHAR_WORKPARTYINDEX1 + myarray, -1);
-		snprintf(buf, sizeof(buf), "%s 脱离团队！",
+		snprintf(buf, sizeof(buf), "%s \xCD\xD1\xC0\xEB\xCD\xC5\xB6\xD3\xA3\xA1",
 				 CHAR_getChar(charaindex, CHAR_NAME));
 		if (msgflg) {
 			CHAR_talkToCli(charaindex, -1, "脱离团队！", CHAR_COLORYELLOW);

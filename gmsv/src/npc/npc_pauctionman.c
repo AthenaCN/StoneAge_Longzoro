@@ -383,7 +383,7 @@ BOOL NPC_PAItemShop_BuyDo(int meindex, int toindex, char *npcarg, int select) {
 		return FALSE;
 	}
 	CHAR_sendItemDataOne(toindex, ti);
-	sprintf(token, "拿到%s", ITEM_getChar(itemindex, ITEM_NAME));
+	sprintf(token, "\xC4\xC3\xB5\xBD%s", ITEM_getChar(itemindex, ITEM_NAME));
 	CHAR_talkToCli(toindex, -1, token, CHAR_COLORYELLOW);
 
 	return TRUE;

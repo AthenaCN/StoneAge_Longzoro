@@ -10,7 +10,7 @@ createnum=1
 dir=5
 ignoreinvincible=1
 graphicname=101846
-name= 
+name=
 enemy=npcgen_man|file:my/sky/earth.arg
 }
 
@@ -119,7 +119,7 @@ createnum=1
 dir=5
 ignoreinvincible=1
 graphicname=101834
-name= 
+name=
 enemy=npcgen_man|file:my/sky/water.arg
 }
 
@@ -230,7 +230,7 @@ createnum=1
 dir=5
 ignoreinvincible=1
 graphicname=101840
-name= 
+name=
 enemy=npcgen_man|file:my/sky/fire.arg
 }
 
@@ -344,7 +344,7 @@ createnum=1
 dir=5
 ignoreinvincible=1
 graphicname=101852
-name= 
+name=
 enemy=npcgen_man|file:my/sky/wind.arg
 }
 

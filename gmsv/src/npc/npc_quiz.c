@@ -662,7 +662,7 @@ BOOL NPC_QuizAddItem(int talker, char *buf) {
 			ITEM_getInt(itemindex, ITEM_ID));
 	}
 
-	sprintf(token, "拿到%s。", ITEM_getChar(itemindex, ITEM_NAME));
+	sprintf(token, "\xC4\xC3\xB5\xBD%s\xA1\xA3", ITEM_getChar(itemindex, ITEM_NAME));
 	CHAR_talkToCli(talker, -1, token, CHAR_COLORWHITE);
 
 	CHAR_sendItemDataOne(talker, ret);

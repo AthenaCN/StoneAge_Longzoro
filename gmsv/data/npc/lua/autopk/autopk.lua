@@ -44,14 +44,14 @@ function autopk_talked( _MeIndex, _PlayerIndex, _Msg, _Color, _Channel)
 	--這裡檢查玩家是否站在NPC面前
 	if(NLG.CheckInFront(_PlayerIndex, _MeIndex, 1) == false) then
 		return ;
-	end 
+	end
 	--面向玩家
 	local i;
 	i = Char.GetData(_PlayerIndex, %对像_方向%);
-	if i >= 4 then 
+	if i >= 4 then
 		i = i - 4;
 	else
-		i = i + 4;		
+		i = i + 4;
 	end
 	Char.SetData(_MeIndex, %对像_方向%,i);
 	NLG.UpChar(_MeIndex);

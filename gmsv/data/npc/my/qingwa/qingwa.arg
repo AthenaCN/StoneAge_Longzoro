@@ -1,13 +1,13 @@
 NomalMainMsg:ÎÒºÃÓôÃÆ°¡£¡~~~
 
-####ä»»åŠ¡ç»“æŸå¯¹è¯####
+####ÈÎÎñ½áÊø¶Ô»°####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>140&TRANS>5&ENDEV=184&ENDEV=185&ENDEV=59
 NomalWindowMsg:Ð»Ð»Äã£¡
 EventEnd
 
-###å¸¦æ¥æ³¢æ‹‰å²›çš„æ°´ï¼ˆå…³æ ‡58ï¼‰###
+###´øÀ´²¨À­µºµÄË®£¨¹Ø±ê58£©###
 EventNo:58
 TYPE:ACCEPT
 EVENT:LV>140&TRANS>5&ENDEV=184&ENDEV=185&NOWEV=58&ITEM=18560
@@ -17,7 +17,7 @@ DelItem:18560
 EndSetFlg:58
 EventEnd
 
-###æŽ¥ä»»åŠ¡ï¼ˆå¼€æ ‡58ï¼‰###
+###½ÓÈÎÎñ£¨¿ª±ê58£©###
 EventNo:58
 TYPE:REQUEST
 EVENT:LV>140&TRANS>5&ENDEV=184&ENDEV=185

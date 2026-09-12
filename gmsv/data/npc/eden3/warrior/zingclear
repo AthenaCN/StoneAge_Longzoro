@@ -18,7 +18,7 @@ EVENT:LV>100&ENDEV=4&ENDEV=81&ENDEV=110&ENDEV=111
 NomalWindowMsg:从此以后你就是火灵勇士了，如果想再见火精灵的话，跟柯亚说一声就行了。不过，当然也欢迎你再度挑战。
 EventEnd
 
-#### 开启任务标允许参加火灵勇士比赛 ####	
+#### 开启任务标允许参加火灵勇士比赛 ####
 EventNo:111
 TYPE:REQUEST
 EVENT:LV>100&ENDEV=4&ENDEV=81&ENDEV=110

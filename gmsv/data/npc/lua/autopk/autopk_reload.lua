@@ -8,6 +8,6 @@ function autopk_reload()
 		autopk_index = nil;
 	return "É¾³ý³É¹¦";
 	end
-end 
+end
 
 print(autopk_reload());

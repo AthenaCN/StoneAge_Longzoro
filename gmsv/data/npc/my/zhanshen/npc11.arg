@@ -1,11 +1,11 @@
-####èº«ä¸Šæœ‰å§”æ‰˜####
+####ÉíÉÏÓÐÎ¯ÍÐ####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:ENDEV=243
 NomalWindowMsg:ÄãÊÇÒ»¸öÓ¢ÐÛ!
 EventEnd
 
-###è¿œå¤ä¹‹ç¥žäº¤ä»»åŠ¡##
+###Ô¶¹ÅÖ®Éñ½»ÈÎÎñ##
 EventNo:-1
 TYPE:ACCEPT
 EVENT:NOWEV=243&ITEM=31086
@@ -17,7 +17,7 @@ EndSetFlg:243
 PetFullMsg:Äã²»×¼±¸ÒªÕâ¸öÁËÃ´£¬ÉíÉÏ×°ÄÇÃ´¶à¶«Î÷£¿
 EventEnd
 
-####èº«ä¸Šæœ‰å§”æ‰˜####
+####ÉíÉÏÓÐÎ¯ÍÐ####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>0

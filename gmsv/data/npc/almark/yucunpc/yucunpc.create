@@ -8,7 +8,7 @@ createnum=1
 dir=4
 ignoreinvincible=1
 graphicname=100036
-name=特殊道具贩卖员
+name=渔村道具商人
 enemy=npcgen_shop|file:almark/yucunpc/dj.arg
 }
 
@@ -21,7 +21,7 @@ dir=6
 ignoreinvincible=1
 #graphicname=16300
 graphicname=16950
-name=证函项链专卖
+name=骑宠证商人
 enemy=npcgen_shop|file:almark/yucunpc/zmm.arg
 }
 
@@ -33,7 +33,7 @@ createnum=1
 dir=4
 ignoreinvincible=1
 graphicname=100036
-name=特殊装备贩卖员
+name=渔村装备商人
 enemy=npcgen_shop|file:almark/yucunpc/zb.arg
 }
 
@@ -45,7 +45,7 @@ createnum=1
 dir=4
 ignoreinvincible=1
 graphicname=100036
-name=特殊道具贩卖员
+name=渔村道具商人
 enemy=npcgen_shop|file:almark/yucunpc/dj.arg
 }
 
@@ -58,7 +58,7 @@ dir=6
 ignoreinvincible=1
 #graphicname=16300
 graphicname=16950
-name=证函项链专卖
+name=骑宠证商人
 enemy=npcgen_shop|file:almark/yucunpc/zmm.arg
 }
 
@@ -70,7 +70,7 @@ createnum=1
 dir=4
 ignoreinvincible=1
 graphicname=100036
-name=特殊装备贩卖员
+name=渔村装备商人
 enemy=npcgen_shop|file:almark/yucunpc/zb.arg
 }
 
@@ -82,7 +82,7 @@ createnum=1
 dir=4
 ignoreinvincible=1
 graphicname=100036
-name=特殊道具贩卖员
+name=渔村道具商人
 enemy=npcgen_shop|file:almark/yucunpc/dj.arg
 }
 
@@ -95,7 +95,7 @@ dir=6
 ignoreinvincible=1
 #graphicname=16300
 graphicname=16950
-name=证函项链专卖
+name=骑宠证商人
 enemy=npcgen_shop|file:almark/yucunpc/zmm.arg
 }
 
@@ -107,7 +107,7 @@ createnum=1
 dir=4
 ignoreinvincible=1
 graphicname=100036
-name=特殊装备贩卖员
+name=渔村装备商人
 enemy=npcgen_shop|file:almark/yucunpc/zb.arg
 }
 
@@ -119,7 +119,7 @@ createnum=1
 dir=4
 ignoreinvincible=1
 graphicname=100036
-name=特殊道具贩卖员
+name=渔村道具商人
 enemy=npcgen_shop|file:almark/yucunpc/dj.arg
 }
 
@@ -132,7 +132,7 @@ dir=6
 ignoreinvincible=1
 #graphicname=16300
 graphicname=16950
-name=证函项链专卖
+name=骑宠证商人
 enemy=npcgen_shop|file:almark/yucunpc/zmm.arg
 }
 
@@ -144,6 +144,6 @@ createnum=1
 dir=4
 ignoreinvincible=1
 graphicname=100036
-name=特殊装备贩卖员
+name=渔村装备商人
 enemy=npcgen_shop|file:almark/yucunpc/zb.arg
 }

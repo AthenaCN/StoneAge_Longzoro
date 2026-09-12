@@ -1,6 +1,6 @@
 NPCCREATE
 
-###### å°ä¿ ######
+###### Ğ¡Óá ######
 {
 floorid=2000
 borncenter=54,71
@@ -13,7 +13,7 @@ name=Ğ¡Óá
 enemy=changeevent|file:my/yu/yu.arg
 }
 
-###### å°ä¿çš„çˆ¶äº² ######
+###### Ğ¡ÓáµÄ¸¸Ç× ######
 {
 floorid=7200
 borncenter=50,103

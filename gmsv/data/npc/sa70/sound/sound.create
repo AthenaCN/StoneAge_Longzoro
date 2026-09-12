@@ -1,6 +1,6 @@
 NPCCREATE
-####æ¥è‡ªæµ·åº•çš„å£°éŸ³####
-########ç›–å°”#########
+####ÀáÖ®º£µÄ¹ÖÉù####
+########¸Ç¶û#########
 {
 name=¸Ç¶û
 floorid=3400
@@ -12,9 +12,9 @@ graphicname=16017
 enemy=changeevent|file:sa70/sound/sound1.arg
 }
 
-###æ´›å…‹ä¾¨###
+###ÈËÓãÕ½¶·ÈË###
 {
-name=Âå¿ËÇÈ
+name=ÈËÓãÕ½¶·ÈË
 floorid=8006
 borncenter=22,17
 dir=4

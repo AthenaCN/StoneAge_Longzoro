@@ -26,8 +26,8 @@ TYPE:MESSAGE
 EVENT:NOWEV=56
 NomalWindowMsg:迪欧是我们当中最有力气的伐木工人，你要好好训练他到30级。\n我差点忘了，记得也要拿到‘采伐许可证’哦！
 EventEnd
- 
- 
+
+
 EventNo:56
 TYPE:ACCEPT
 EVENT:NOWEV=67

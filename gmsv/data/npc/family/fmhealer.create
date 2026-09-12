@@ -1,5 +1,5 @@
 NPCCREATE
-# è¨å§†å‰å°”å®¶æ—å°æŠ¤å£«
+# ÈøÄ·¼ª¶û¼Ò×åĞ¡»¤Ê¿
 {
 floorid=1041
 borncorner=4,8,4,8
@@ -12,7 +12,7 @@ name=¼Ò×åĞ¡»¤Ê¿
 enemy=npcgen_fmhealer|1
 }
 
-# ç›ä¸½å¨œä¸å®¶æ—å°æŠ¤å£«
+# ÂêÀöÄÈË¿¼Ò×åĞ¡»¤Ê¿
 {
 floorid=2031
 borncorner=13,8,13,8
@@ -26,7 +26,7 @@ enemy=npcgen_fmhealer|1
 }
 
 
-# åŠ åŠ å®¶æ—å°æŠ¤å£«
+# ¼Ó¼Ó¼Ò×åĞ¡»¤Ê¿
 {
 floorid=3031
 borncorner=2,9,2,9
@@ -39,7 +39,7 @@ name=¼Ò×åĞ¡»¤Ê¿
 enemy=npcgen_fmhealer|1
 }
 
-# å¡é²å®ƒé‚£å®¶æ—å°æŠ¤å£«
+# ¿¨Â³ËüÄÇ¼Ò×åĞ¡»¤Ê¿
 {
 floorid=4031
 borncorner=12,8,12,8
@@ -52,7 +52,7 @@ name=¼Ò×åĞ¡»¤Ê¿
 enemy=npcgen_fmhealer|1
 }
 
-# ä¼Šç”¸å®¶æ—å°æŠ¤å£«
+# ÒÁµé¼Ò×åĞ¡»¤Ê¿
 {
 floorid=5031
 borncorner=11,4,11,4
@@ -65,7 +65,7 @@ name=¼Ò×åĞ¡»¤Ê¿
 enemy=npcgen_fmhealer|1
 }
 
-# å¡”è€³å¡”å®¶æ—å°æŠ¤å£«
+# Ëş¶úËş¼Ò×åĞ¡»¤Ê¿
 {
 floorid=6031
 borncorner=7,9,7,9
@@ -78,7 +78,7 @@ name=¼Ò×åĞ¡»¤Ê¿
 enemy=npcgen_fmhealer|1
 }
 
-# å°¼å…‹æ–¯å®¶æ—å°æŠ¤å£«
+# Äá¿ËË¹¼Ò×åĞ¡»¤Ê¿
 {
 floorid=7031
 borncorner=6,8,6,8
@@ -91,7 +91,7 @@ name=¼Ò×åĞ¡»¤Ê¿
 enemy=npcgen_fmhealer|1
 }
 
-# å¼—çƒˆé¡¿å®¶æ—å°æŠ¤å£«
+# ¸¥ÁÒ¶Ù¼Ò×åĞ¡»¤Ê¿
 {
 floorid=8031
 borncorner=10,12,10,12
@@ -104,7 +104,7 @@ name=¼Ò×åĞ¡»¤Ê¿
 enemy=npcgen_fmhealer|1
 }
 
-# äºšä¼Šæ¬§å®¶æ—å°æŠ¤å£«
+# ÑÇÒÁÅ·¼Ò×åĞ¡»¤Ê¿
 {
 floorid=9031
 borncorner=14,13,14,13
@@ -117,7 +117,7 @@ name=¼Ò×åĞ¡»¤Ê¿
 enemy=npcgen_fmhealer|1
 }
 
-# ç‘å°”äºšæ–¯å®¶æ—å°æŠ¤å£«
+# Èğ¶ûÑÇË¹¼Ò×åĞ¡»¤Ê¿
 {
 floorid=7531
 borncorner=13,8,13,8

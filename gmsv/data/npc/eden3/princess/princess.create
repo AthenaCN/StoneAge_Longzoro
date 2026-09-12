@@ -1,7 +1,7 @@
 NPCCREATE
 
 
-###### å¥¶å¦ˆå¤šè‰ ######
+###### ÄÌÂè¶àÀò ######
 {
 name=¶àÀò
 floorid=7215
@@ -13,7 +13,7 @@ enemy=changeevent|file:eden3/princess/tori
 graphicname=16544
 }
 
-###### å¥³ç‹å¨œä¸½æ–¯ ######
+###### Å®ÍõÄÈÀöË¹ ######
 {
 name=ÄÈÀöË¹
 floorid=7215
@@ -25,7 +25,7 @@ enemy=changeevent|file:eden3/princess/naris
 graphicname=16550
 }
 
-#ç‰¹æ®Šè·³è·ƒç‚¹ï¼ˆä¼ è¿›æ°´ç²¾çµç¥æ®¿ï¼‰
+#ÌØÊâÌøÔ¾µã£¨´«½øË®¾«ÁéÉñµî£©
 {
 floorid=7217
 borncenter=15,13
@@ -35,7 +35,7 @@ createnum=1
 enemy=npcgen_warp|file:eden3/princess/warppoint.arg
 }
 
-###### æ°´ç²¾çµé˜¿è‘µä¸½é›… ######
+###### Ë®¾«Áé°¢¿ûÀöÑÅ ######
 {
 name=°¢¿ûÀöÑÅ
 floorid=60215
@@ -47,7 +47,7 @@ enemy=changeevent|file:eden3/princess/aqua
 graphicname=16948
 }
 
-###### åŸå†…å®ˆå« ######
+###### ³ÇÄÚÊØÎÀ ######
 {
 name=¹¬³Ç½üÎÀ
 floorid=7215
@@ -59,7 +59,7 @@ enemy=changeevent|file:eden3/princess/guard
 graphicname=16597
 }
 
-###### åŸå†…å®ˆå« ######
+###### ³ÇÄÚÊØÎÀ ######
 {
 name=¹¬³Ç½üÎÀ
 floorid=7215
@@ -71,7 +71,7 @@ enemy=changeevent|file:eden3/princess/guard
 graphicname=16595
 }
 
-######å…¬ä¸»ä»»åŠ¡åŸå¤–å®ˆå«å·¦##########
+######¹«Ö÷ÈÎÎñ³ÇÍâÊØÎÀ×ó##########
 
 {
 name=»Ê¹¬ÊØÎÀ
@@ -84,7 +84,7 @@ enemy=changeevent|file:eden3/princess/guard1
 graphicname=16597
 }
 
-######å…¬ä¸»ä»»åŠ¡åŸå¤–å®ˆå«å³##########
+######¹«Ö÷ÈÎÎñ³ÇÍâÊØÎÀÓÒ##########
 
 {
 name=»Ê¹¬ÊØÎÀ

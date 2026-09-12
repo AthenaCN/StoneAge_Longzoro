@@ -3256,7 +3256,7 @@ INLINE int _CHAR_DelItem(char *file, int line, int charaindex, int ti, int num, 
 #endif
 		/*
 				if( flg == 1 ){
-					sprintf( token, "交出%s。", ITEM_getChar( itemindex, ITEM_NAME));
+					sprintf( token, "\xBD\xBB\xB3\xF6%s\xA1\xA3", ITEM_getChar( itemindex, ITEM_NAME));
 					CHAR_talkToCli( charaindex, -1, token, CHAR_COLORYELLOW);
 				}
 		*/

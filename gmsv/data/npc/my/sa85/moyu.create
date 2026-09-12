@@ -73,7 +73,7 @@ graphicname=16976
 enemy=npcgen_warpman|file:my/sa85/class3.arg
 }
 
-#line7 ç‰¹æ®Šè·³è·ƒç‚¹
+#line7 ÌØÊâÌøÔ¾µã
 {
 floorid=60040
 borncenter=6,3
@@ -547,7 +547,7 @@ name=½á½çË®¾§
 enemy=changeevent|file:my/sa85/stone.arg
 }
 
-#ç‰¹æ®Šè·³è·ƒç‚¹1
+#ÌØÊâÌøÔ¾µã1
 {
 floorid=61102
 borncenter=25,18
@@ -555,7 +555,7 @@ ignoreinvincible=1
 createnum=1
 enemy=npcgen_warp|file:my/sa85/stonewarp1.arg
 }
-#ç‰¹æ®Šè·³è·ƒç‚¹2
+#ÌØÊâÌøÔ¾µã2
 {
 floorid=61105
 borncenter=25,18
@@ -563,7 +563,7 @@ ignoreinvincible=1
 createnum=1
 enemy=npcgen_warp|file:my/sa85/stonewarp2.arg
 }
-#ç‰¹æ®Šè·³è·ƒç‚¹3
+#ÌØÊâÌøÔ¾µã3
 {
 floorid=61108
 borncenter=25,18
@@ -571,7 +571,7 @@ ignoreinvincible=1
 createnum=1
 enemy=npcgen_warp|file:my/sa85/stonewarp3.arg
 }
-#ç‰¹æ®Šè·³è·ƒç‚¹4
+#ÌØÊâÌøÔ¾µã4
 {
 floorid=61111
 borncenter=25,18
@@ -580,7 +580,7 @@ createnum=1
 enemy=npcgen_warp|file:my/sa85/stonewarp4.arg
 }
 
-#é­”åŸŸä¹‹å¢ƒç‰¹æ®Šè·³è·ƒç‚¹1
+#Ä§ÓòÖ®¾³ÌØÊâÌøÔ¾µã1
 {
 floorid=61100
 borncenter=268,252

@@ -415,7 +415,7 @@ void NPC_DepotItem_Depot_printWindow(int meindex, int talkerindex) {
 
 void NPC_DepotItem_CheckRepeat_Del(int charaindex, int ti, int itemindex) {
 	char token[256];
-	sprintf(token, "仓库道具%s，编码重复！(系统清除)",
+	sprintf(token, "\xB2\xD6\xBF\xE2\xB5\xC0\xBE\xDF%s\xA3\xAC\xB1\xE0\xC2\xEB\xD6\xD8\xB8\xB4\xA3\xA1(\xCF\xB5\xCD\xB3\xC7\xE5\xB3\xFD)",
 			ITEM_getChar(itemindex, ITEM_NAME));
 	CHAR_talkToCli(charaindex, -1, token, CHAR_COLORYELLOW);
 	LogItem(

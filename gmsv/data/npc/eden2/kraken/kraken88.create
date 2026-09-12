@@ -1,6 +1,6 @@
 NPCCREATE
 
-#è¿‘å«é•¿é‚¬è‰å¶(å°¼å…‹æ–¯åŸçš„è¿‘å«é•¿)
+#½üÎÀ³¤ÚùÀòÒ¶(Äá¿ËË¹³ÇµÄ½üÎÀ³¤)
 {
 floorid=7200
 borncorner=104,27,104,27
@@ -13,7 +13,7 @@ name=½üÎÀ³¤ÚùÀòÒ¶
 enemy=changeevent|file:eden2/kraken/kraken88_01
 }
 
-#ç‰¹æ®Šè·³è·ƒç‚¹ï¼ˆ60207ä¼ é€ç©å®¶è¿›60208æˆ–60213ï¼‰
+#ÌØÊâÌøÔ¾µã£¨60207´«ËÍÍæ¼Ò½ø60208»ò60213£©
 {
 floorid=60207
 borncorner=55,16,55,16
@@ -23,7 +23,7 @@ createnum=1
 enemy=npcgen_warp|file:eden2/kraken/nwp88_01.arg
 }
 
-#æ°´æ€ªå…‹æ‹‰è‚¯no.1(æ”»å‡»ç©å®¶)
+#Ë®¹Ö¿ËÀ­¿Ïno.1(¹¥»÷Íæ¼Ò)
 {
 floorid=60208
 borncorner=18,11,18,11
@@ -36,7 +36,7 @@ name=Ë®¹Ö¿ËÀ­¿Ï
 enemy=ev88_02|file:eden2/kraken/ev88_02.arg
 }
 
-#æ°´æ€ªå…‹æ‹‰è‚¯no.2(å‘ŠçŸ¥ç©å®¶å°æ°´æ€ªè¢«äººç±»æŠ“èµ°äº†)
+#Ë®¹Ö¿ËÀ­¿Ïno.2(¸æÖªÍæ¼ÒĞ¡Ë®¹Ö±»ÈËÀà×¥×ßÁË)
 {
 floorid=60213
 borncorner=18,11,18,11
@@ -49,7 +49,7 @@ name=Ë®¹Ö¿ËÀ­¿Ï
 enemy=changeevent|file:eden2/kraken/kraken88_03
 }
 
-#å‰¯å›­é•¿å·´å…‹no.1(ä¼Šç”¸åŠ¨ç‰©å›­çš„å‰¯å›­é•¿ï¼Œä¼ é€ç©å®¶å»åŠ¨ç‰©ä»“åº“)
+#¸±Ô°³¤°Í¿Ëno.1(ÒÁµé¶¯ÎïÔ°µÄ¸±Ô°³¤£¬´«ËÍÍæ¼ÒÈ¥¶¯Îï²Ö¿â)
 {
 floorid=7001
 borncorner=41,4,41,4
@@ -62,7 +62,7 @@ name=¸±Ô°³¤°Í¿Ë
 enemy=npcgen_warpman|file:eden2/kraken/kraken88_04
 }
 
-#å‰¯å›­é•¿å·´å…‹no.2(ç¬¬ä¸€è·¯çº¿ä¼Šç”¸åŠ¨ç‰©å›­çš„å‰¯å›­é•¿ï¼Œä¸ç©å®¶ä½œæˆ˜)
+#¸±Ô°³¤°Í¿Ëno.2(µÚÒ»Â·ÏßÒÁµé¶¯ÎïÔ°µÄ¸±Ô°³¤£¬ÓëÍæ¼Ò×÷Õ½)
 {
 floorid=60209
 borncorner=7,11,7,11
@@ -75,7 +75,7 @@ name=¸±Ô°³¤°Í¿Ë
 enemy=ev88_05|file:eden2/kraken/ev88_05.arg
 }
 
-#å‰¯å›­é•¿å·´å…‹no.3(ç¬¬ä¸€è·¯çº¿ä¼Šç”¸åŠ¨ç‰©å›­çš„å‰¯å›­é•¿ï¼Œç»™ç©å®¶å°æ°´æ€ª)
+#¸±Ô°³¤°Í¿Ëno.3(µÚÒ»Â·ÏßÒÁµé¶¯ÎïÔ°µÄ¸±Ô°³¤£¬¸øÍæ¼ÒĞ¡Ë®¹Ö)
 {
 floorid=60210
 borncorner=7,11,7,11
@@ -89,7 +89,7 @@ enemy=npcgen_warpman|file:eden2/kraken/kraken88_06
 action=5
 }
 
-#å‰¯å›­é•¿å·´å…‹no.4(ç¬¬äºŒè·¯çº¿ä¼Šç”¸åŠ¨ç‰©å›­çš„å‰¯å›­é•¿ï¼Œä¸ç©å®¶ä½œæˆ˜)
+#¸±Ô°³¤°Í¿Ëno.4(µÚ¶şÂ·ÏßÒÁµé¶¯ÎïÔ°µÄ¸±Ô°³¤£¬ÓëÍæ¼Ò×÷Õ½)
 {
 floorid=60211
 borncorner=7,11,7,11
@@ -102,7 +102,7 @@ name=¸±Ô°³¤°Í¿Ë
 enemy=ev88_07|file:eden2/kraken/ev88_07.arg
 }
 
-#å‰¯å›­é•¿å·´å…‹no.5(ç¬¬äºŒæ¡è·¯çº¿ç¢°åˆ°çš„å‰¯å›­é•¿ï¼Œç»™ç©å®¶å°æ°´æ€ª)
+#¸±Ô°³¤°Í¿Ëno.5(µÚ¶şÌõÂ·ÏßÅöµ½µÄ¸±Ô°³¤£¬¸øÍæ¼ÒĞ¡Ë®¹Ö)
 {
 floorid=60212
 borncorner=7,11,7,11
@@ -115,7 +115,7 @@ name=¸±Ô°³¤°Í¿Ë
 enemy=npcgen_warpman|file:eden2/kraken/kraken88_08
 }
 
-#å¡éº¦å¶no.1(å°¼å…‹æ–¯åŸè¿‘å«é˜Ÿå‘˜ï¼Œä¼ é€ç©å®¶åˆ°åœ°ä¸‹æ°´è·¯)
+#¿¨ÂóÒ¶no.1(Äá¿ËË¹³Ç½üÎÀ¶ÓÔ±£¬´«ËÍÍæ¼Òµ½µØÏÂË®Â·)
 {
 floorid=7200
 borncorner=97,26,97,26
@@ -128,7 +128,7 @@ name=½üÎÀ¶ÓÔ±¿¨ÂóÒ¶
 enemy=npcgen_warpman|file:eden2/kraken/kraken88_09
 }
 
-#å¡éº¦å¶no.2(å°¼å…‹æ–¯åŸè¿‘å«é˜Ÿå‘˜ï¼Œä¼ é€ç©å®¶å›åˆ°å°¼å…‹æ–¯åŸ)
+#¿¨ÂóÒ¶no.2(Äá¿ËË¹³Ç½üÎÀ¶ÓÔ±£¬´«ËÍÍæ¼Ò»Øµ½Äá¿ËË¹³Ç)
 {
 floorid=60201
 borncorner=56,52,56,52
@@ -141,7 +141,7 @@ name=½üÎÀ¶ÓÔ±¿¨ÂóÒ¶
 enemy=npcgen_warpman|file:eden2/kraken/kraken88_10
 }
 
-#å‰¯å›­é•¿æˆ¿é—´å® ç‰©1-1
+#¸±Ô°³¤·¿¼ä³èÎï1-1
 {
 name=ÓÈÀïÍÜ
 floorid=60209
@@ -154,7 +154,7 @@ enemy=changeevent|file:eden2/kraken/krakentalk_01
 graphicname=100883
 }
 
-#å‰¯å›­é•¿æˆ¿é—´å® ç‰©1-2
+#¸±Ô°³¤·¿¼ä³èÎï1-2
 {
 name=ÓÈÀïÍÜ
 floorid=60210
@@ -167,7 +167,7 @@ enemy=changeevent|file:eden2/kraken/krakentalk_01
 graphicname=100883
 }
 
-#å‰¯å›­é•¿æˆ¿é—´å® ç‰©1-3
+#¸±Ô°³¤·¿¼ä³èÎï1-3
 {
 name=ÓÈÀïÍÜ
 floorid=60211
@@ -180,7 +180,7 @@ enemy=changeevent|file:eden2/kraken/krakentalk_01
 graphicname=100883
 }
 
-#å‰¯å›­é•¿æˆ¿é—´å® ç‰©1-4
+#¸±Ô°³¤·¿¼ä³èÎï1-4
 {
 name=ÓÈÀïÍÜ
 floorid=60212
@@ -193,7 +193,7 @@ enemy=changeevent|file:eden2/kraken/krakentalk_01
 graphicname=100883
 }
 
-#å‰¯å›­é•¿æˆ¿é—´å® ç‰©2-1
+#¸±Ô°³¤·¿¼ä³èÎï2-1
 {
 name=µÏ»ù¸ñË¹
 floorid=60209
@@ -206,7 +206,7 @@ enemy=changeevent|file:eden2/kraken/krakentalk_02
 graphicname=100851
 }
 
-#å‰¯å›­é•¿æˆ¿é—´å® ç‰©2-2
+#¸±Ô°³¤·¿¼ä³èÎï2-2
 {
 name=µÏ»ù¸ñË¹
 floorid=60210
@@ -219,7 +219,7 @@ enemy=changeevent|file:eden2/kraken/krakentalk_02
 graphicname=100851
 }
 
-#å‰¯å›­é•¿æˆ¿é—´å® ç‰©2-3
+#¸±Ô°³¤·¿¼ä³èÎï2-3
 {
 name=µÏ»ù¸ñË¹
 floorid=60211
@@ -232,7 +232,7 @@ enemy=changeevent|file:eden2/kraken/krakentalk_02
 graphicname=100851
 }
 
-#å‰¯å›­é•¿æˆ¿é—´å® ç‰©2-4
+#¸±Ô°³¤·¿¼ä³èÎï2-4
 {
 name=µÏ»ù¸ñË¹
 floorid=60212
@@ -245,7 +245,7 @@ enemy=changeevent|file:eden2/kraken/krakentalk_02
 graphicname=100851
 }
 
-#å‰¯å›­é•¿æˆ¿é—´å® ç‰©3-1
+#¸±Ô°³¤·¿¼ä³èÎï3-1
 {
 name=¿É¿É¶÷
 floorid=60209
@@ -258,7 +258,7 @@ enemy=changeevent|file:eden2/kraken/krakentalk_03
 graphicname=100898
 }
 
-#å‰¯å›­é•¿æˆ¿é—´å® ç‰©3-2
+#¸±Ô°³¤·¿¼ä³èÎï3-2
 {
 name=¿É¿É¶÷
 floorid=60210
@@ -271,7 +271,7 @@ enemy=changeevent|file:eden2/kraken/krakentalk_03
 graphicname=100898
 }
 
-#å‰¯å›­é•¿æˆ¿é—´å® ç‰©3-3
+#¸±Ô°³¤·¿¼ä³èÎï3-3
 {
 name=¿É¿É¶÷
 floorid=60211
@@ -284,7 +284,7 @@ enemy=changeevent|file:eden2/kraken/krakentalk_03
 graphicname=100898
 }
 
-#å‰¯å›­é•¿æˆ¿é—´å® ç‰©3-4
+#¸±Ô°³¤·¿¼ä³èÎï3-4
 {
 name=¿É¿É¶÷
 floorid=60212
@@ -297,7 +297,7 @@ enemy=changeevent|file:eden2/kraken/krakentalk_03
 graphicname=100898
 }
 
-#å‰¯å›­é•¿æˆ¿é—´å® ç‰©4-1
+#¸±Ô°³¤·¿¼ä³èÎï4-1
 {
 name=°îË¾Á¹¶ä
 floorid=60209
@@ -310,7 +310,7 @@ enemy=changeevent|file:eden2/kraken/krakentalk_04
 graphicname=100909
 }
 
-#å‰¯å›­é•¿æˆ¿é—´å® ç‰©4-2
+#¸±Ô°³¤·¿¼ä³èÎï4-2
 {
 name=°îË¾Á¹¶ä
 floorid=60210
@@ -323,7 +323,7 @@ enemy=changeevent|file:eden2/kraken/krakentalk_04
 graphicname=100909
 }
 
-#å‰¯å›­é•¿æˆ¿é—´å® ç‰©4-3
+#¸±Ô°³¤·¿¼ä³èÎï4-3
 {
 name=°îË¾Á¹¶ä
 floorid=60211
@@ -336,7 +336,7 @@ enemy=changeevent|file:eden2/kraken/krakentalk_04
 graphicname=100909
 }
 
-#å‰¯å›­é•¿æˆ¿é—´å® ç‰©4-1
+#¸±Ô°³¤·¿¼ä³èÎï4-1
 {
 name=°îË¾Á¹¶ä
 floorid=60212

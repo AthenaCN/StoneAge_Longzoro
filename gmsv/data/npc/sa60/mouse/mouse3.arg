@@ -1,13 +1,13 @@
 NEWWARPMAN
 
-#### æ ‡å…¨ä¸æ­£ç¡®ï¼Œä¸ç† ####
+#### ±êÈ«²»ÕýÈ·£¬²»Àí ####
 NOFREE
 FREE:LV>0
 NomalMsg:Ö¨£¡Ö¨£¡Ö¨£¡
 PartyMsg:Ö¨£¡Ö¨£¡Ö¨£¡
 OVER
 
-####ã€€ä¼ é€äººã€€####
+####¡¡´«ËÍÈË¡¡####
 TALKEVENT1
 WARP:0,0,0
 FREE:LV>0&ITEM=1696&NOWEV=140&ITEM=2414
@@ -16,7 +16,7 @@ AddItem:1750
 FreeMsg:Ö¨£¡Ö¨£¡Ö¨£¡
 OVER
 
-####ã€€ä¼ é€äººã€€####
+####¡¡´«ËÍÈË¡¡####
 TALKEVENT2
 WARP:0,0,0
 FREE:LV>0&ITEM=1750&NOWEV=140&ITEM=2414

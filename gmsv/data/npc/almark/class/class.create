@@ -1,6 +1,6 @@
 NPCCREATE
 
-### è¿½çŒ ###
+### ×·ÁÔ ###
 
 {
 name=×·ÁÔ¾ÍÖ°µ¼Ê¦¿ÉÒ¶
@@ -13,7 +13,7 @@ graphicname=16186
 enemy=npcgen_warpman|file:almark/class/zhuilie
 }
 
-###ç™½ç‹¼###
+###°×ÀÇ###
 
 {
 name=°×ÀÇ¾ÍÖ°Ê¦¼ª¿ÉÒò
@@ -26,7 +26,7 @@ graphicname=16182
 enemy=npcgen_warpman|file:almark/class/bailang
 }
 
-###å¸ˆå…¬###
+###Ê¦¹«###
 
 {
 name=éœÁé¾ÍÖ°µ¼Ê¦Ï£¶û
@@ -39,7 +39,7 @@ graphicname=16170
 enemy=npcgen_warpman|file:almark/class/anling
 }
 
-##### èŒä¸šæ¸…é™¤ ######
+##### Ö°ÒµÇå³ı ######
 {
 name=È«ÄÜÍËÖ°Ô±
 floorid=777
@@ -51,7 +51,7 @@ graphicname=16666
 enemy=changeevent|file:almark/class/clean
 }
 
-#### è¿½çŒè€… ####
+#### ×·ÁÔÕß ####
 {
 name=×·ÁÔ¼¼ÄÜµ¼Ê¦±´¼ª
 floorid=777
@@ -63,7 +63,7 @@ graphicname=16187
 enemy=ProfessionShop|file:almark/class/zhuiliesk
 }
 
-#### é—‡çµæ³•å¸ˆ ####
+#### éœÁé·¨Ê¦ ####
 {
 name=éœÁé¼¼ÄÜÊ¦¿¨À­ÌØ
 floorid=777
@@ -75,7 +75,7 @@ graphicname=16168
 enemy=ProfessionShop|file:almark/class/anlingsk
 }
 
-#### ç™½ç‹¼å‹‡å£« ####
+#### °×ÀÇÓÂÊ¿ ####
 {
 name=°×ÀÇ¼¼ÄÜÊ¦¿Ï¶ûÌØ
 floorid=777

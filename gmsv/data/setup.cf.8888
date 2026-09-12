@@ -4,26 +4,26 @@ runlevel=0
 
 #性能调节，诺想CPU使用率大些的请把值设大些
 CPUUSE=10
- 
-#recvbuffer表示每个玩家接收缓冲区大小 范围0-128    
-recvbuffer=64                                      
-#recvbuffer表示每个玩家发送缓冲区大小 范围0-128    
-sendbuffer=64                                      
-#readbuffer表示每个玩家接收缓冲区下限 范围128-1024 
-recvlowatbuffer=128                                
-                                                   
-sendlowatbuffer=128                                
-# Debug Level 0 for none                           
-#服务器调试等级                                    
-#有用的值为0、1、3                                 
-#0：不报告任何错误                                 
-#1: 只报告关键错误 其他错误将忽略                  
-#3：报告所有错误                                   
-debuglevel=3  
+
+#recvbuffer表示每个玩家接收缓冲区大小 范围0-128
+recvbuffer=64
+#recvbuffer表示每个玩家发送缓冲区大小 范围0-128
+sendbuffer=64
+#readbuffer表示每个玩家接收缓冲区下限 范围128-1024
+recvlowatbuffer=128
+
+sendlowatbuffer=128
+# Debug Level 0 for none
+#服务器调试等级
+#有用的值为0、1、3
+#0：不报告任何错误
+#1: 只报告关键错误 其他错误将忽略
+#3：报告所有错误
+debuglevel=3
 
 #融合是否可以转生
 #(0不可转生，1为可以1转，最大只能2转)
-FUSIONBEIT=1 
+FUSIONBEIT=1
 
 #设置庄园家族成员可使用的宠物编号
 FMPOINGPET1=-1
@@ -44,7 +44,7 @@ ENEMYACTION=2
 FMPOINTPK=1
 
 #2.0骑宠模式
-RIDEMODE=0  
+RIDEMODE=0
 
 #自定义在线人虚假人数(虚假人数+在线人数+随机人数)
 PLAYERNUM=100
@@ -59,7 +59,7 @@ ANGELPLAYERMUN=10
 
 #战斗完获得金钱(所得的原始经验*?%)
 BATTLEGOLD=100
-                                   
+
 #VIP字段显示方法
 #0为不显示VIP
 #1为在家族中显示VIP
@@ -150,7 +150,7 @@ NAME1=众里千寻
 NAME2=小吮儿
 NAME3=by*{emis}
 NAME4=
-NAME5= 
+NAME5=
 
 #自定义升级经验等级
 USEREXP=data/exp.txt
@@ -317,7 +317,7 @@ itemnum=22000
 battlenum=100
 
 # Top directory(顶层文件夹?)
-topdir=. 
+topdir=.
 # Map file directory(地图文件夹)
 mapdir=data/map
 # Map tile file directory(地图设置文件)

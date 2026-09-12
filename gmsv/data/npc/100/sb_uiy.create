@@ -1,6 +1,6 @@
 NPCCREATE
-#######銈躲儚銉充笁鍏勫紵##########
-##璧㈣
+#######ザハン三兄弟（查罕三兄弟）#######
+##乌尔夫
 {
 floorid=10007
 borncenter=29,39,1,1
@@ -12,7 +12,7 @@ graphicname=100431
 name=查罕·乌尔夫
 enemy=sb_uiy1|file:100/sb_uiy1.arg
 }
-##鎴氳
+##吉鲁
 {
 floorid=10007
 borncenter=28,39,1,1
@@ -24,7 +24,7 @@ graphicname=100439
 name=查罕·吉鲁
 enemy=sb_uiy2|file:100/sb_uiy2.arg
 }
-##璧惰
+##鲁多
 {
 floorid=10007
 borncenter=30,39,1,1
@@ -36,4 +36,5 @@ graphicname=100436
 name=查罕·鲁多
 enemy=sb_uiy3|file:100/sb_uiy3.arg
 }
+
 

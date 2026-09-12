@@ -1,13 +1,13 @@
 NomalMainMsg:¿ìÀ´¿´°¡£¡Ä§·¨Ö®³ÇµÄÐû´«µ¥ÕÅ°¡£¡
 
-##æ‹¿äº†æ¯›#
+##ÄÃÁËÃ«#
 EventNo:-1
 TYPE:MESSAGE
 EVENT:NOWEV=215&ITEM=22691
 NomalWindowMsg:Ó¦¸ÃÔÚ»ôÌØ¶û´åÄÇ±ßÓÐ¸ö´«ËÍÔ±£¬¸ºÔð´«ËÍµ½ÌìËþµÄ¡£Äã¿ÉÒÔÈ¥¿´¿´¡£
 EventEnd
 
-##æŽ¥ä»»åŠ¡215#
+##½ÓÈÎÎñ215#
 EventNo:215
 TYPE:REQUEST
 EVENT:TRANS>5

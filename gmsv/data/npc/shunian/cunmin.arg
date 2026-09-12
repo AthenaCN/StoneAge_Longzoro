@@ -7,7 +7,7 @@ NomalWindowMsg:新年快乐!
 EventEnd
 
 EventNo:217
-TYPE:ACCEPT 
+TYPE:ACCEPT
 EVENT:ITEM=22793&ITEM=22794&ITEM=22795&ITEM=22796&ITEM=22797&ITEM=22799
 AcceptMsg:你把鼠老大给打败了?真不亏是勇者啊!今年又能大丰收了!祝你2008年快乐啊!
 ThanksMsg:最后祝你新年快了,心想事成,万事如意!
@@ -26,7 +26,7 @@ NomalWindowMsg:麻烦你了.
 EventEnd
 
 EventNo:-1
-TYPE:ACCEPT 
+TYPE:ACCEPT
 EVENT:ITEM=22791&ITEM=22792
 AcceptMsg1:你得到他的信任了嘛?现在就去消灭老鼠吧!
 AcceptMsg2:这些老鼠极度狡猾,他们过一段时间后会复活.他们背后有个老大,但你必须打败这些老鼠才能见到它们的老大.
@@ -45,7 +45,7 @@ EventEnd
 EventNo:217
 TYPE:ACCEPT
 EVENT:LV>139
-AcceptMsg:你.你有猪年?看来你是上年解决猪年问题的勇者啊! 最近,因为今年老鼠当政,老鼠们都出来作恶,麻烦你去消灭他们. 
+AcceptMsg:你.你有猪年?看来你是上年解决猪年问题的勇者啊! 最近,因为今年老鼠当政,老鼠们都出来作恶,麻烦你去消灭他们.
 ThanksMsg:先去伊甸找大队长,和他一起并肩作战!
 GetItem:22791
 ItemFullMsg:身上道具太多了喔!

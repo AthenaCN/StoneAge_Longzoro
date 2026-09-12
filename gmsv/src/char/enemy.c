@@ -2178,7 +2178,7 @@ int PET_CheckIncubate(int charaindex) {
 			// 扣属性
 			levelup = (vital << 24) + (str << 16) + (tgh << 8) + (dex << 0);
 			CHAR_setInt(petindex, CHAR_ALLOCPOINT, levelup);
-			sprintf(buf, "蛋〈%s〉的品质变差了。", CHAR_getUseName(petindex));
+			sprintf(buf, "\xB5\xB0\xA1\xB4%s\xA1\xB5\xB5\xC4\xC6\xB7\xD6\xCA\xB1\xE4\xB2\xEE\xC1\xCB\xA1\xA3", CHAR_getUseName(petindex));
 			CHAR_talkToCli(charaindex, -1, buf, CHAR_COLORYELLOW);
 
 			LogPetFeed(
@@ -2196,7 +2196,7 @@ int PET_CheckIncubate(int charaindex) {
 		} else if ((int)checkeage > (time_l + anhour)) {
 
 			char buf[256];
-			sprintf(buf, "蛋〈%s〉呈现可  食状态。", CHAR_getUseName(petindex));
+			sprintf(buf, "\xB5\xB0\xA1\xB4%s\xA1\xB5\xB3\xCA\xCF\xD6\xBF\xC9  \xCA\xB3\xD7\xB4\xCC\xAC\xA1\xA3", CHAR_getUseName(petindex));
 			CHAR_talkToCli(charaindex, -1, buf, CHAR_COLORYELLOW);
 		}
 	}
@@ -2284,7 +2284,7 @@ int PET_CheckIncubate(int charaindex) {
 		// 扣属性
 		levelup = (vital << 24) + (str << 16) + (tgh << 8) + (dex << 0);
 		CHAR_setInt(charaindex, CHAR_ALLOCPOINT, levelup);
-		sprintf(buf, "蛋〈%s〉的品质变差了。", CHAR_getUseName(charaindex));
+		sprintf(buf, "\xB5\xB0\xA1\xB4%s\xA1\xB5\xB5\xC4\xC6\xB7\xD6\xCA\xB1\xE4\xB2\xEE\xC1\xCB\xA1\xA3", CHAR_getUseName(charaindex));
 		CHAR_talkToCli(masterindex, -1, buf, CHAR_COLORYELLOW);
 
 		LogPetFeed(
@@ -2301,7 +2301,7 @@ int PET_CheckIncubate(int charaindex) {
 
 	} else if ((int)checkeage > (time_l + anhour)) {
 		char buf[256];
-		sprintf(buf, "蛋〈%s〉呈现可  食状态。", CHAR_getUseName(charaindex));
+		sprintf(buf, "\xB5\xB0\xA1\xB4%s\xA1\xB5\xB3\xCA\xCF\xD6\xBF\xC9  \xCA\xB3\xD7\xB4\xCC\xAC\xA1\xA3", CHAR_getUseName(charaindex));
 		CHAR_talkToCli(masterindex, -1, buf, CHAR_COLORYELLOW);
 	}
 	return 1;
@@ -2502,7 +2502,7 @@ BOOL PETFUSION_AddEgg(int toindex, int petID, int PetCode) {
 		return -1;
 	}
 	CHAR_setInt(petindex2, CHAR_FUSIONINDEX, PetCode);
-	snprintf(msgbuf, sizeof(msgbuf), "拿到%s。", CHAR_getChar(petindex2, CHAR_NAME));
+	snprintf(msgbuf, sizeof(msgbuf), "\xC4\xC3\xB5\xBD%s\xA1\xA3", CHAR_getChar(petindex2, CHAR_NAME));
 	CHAR_talkToCli(toindex, -1, msgbuf, CHAR_COLORYELLOW);
 	for (j = 0; j < CHAR_MAXPETHAVE; j++) {
 		petindex = CHAR_getCharPet(toindex, j);

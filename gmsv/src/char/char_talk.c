@@ -933,12 +933,12 @@ void OneByOneTkChannel(int fd, char *tmp1, char *tmp2, int color) {
 #ifndef _CHANNEL_MODIFY
 		snprintf(buf, sizeof(buf) - 1, "你告诉%s：%s", tmp1, tmp2);
 		CHAR_talkToCli(myindex, -1, buf, color);
-		snprintf(buf, sizeof(buf) - 1, "%s告诉你：%s", CHAR_getChar(myindex, CHAR_NAME), tmp2);
+		snprintf(buf, sizeof(buf) - 1, "%s\xB8\xE6\xCB\xDF\xC4\xE3\xA3\xBA%s", CHAR_getChar(myindex, CHAR_NAME), tmp2);
 		CHAR_talkToCli(IndexList[0], -1, buf, color);
 #else
 		snprintf(buf, sizeof(buf) - 1, "P|M|你告诉%s：%s", tmp1, tmp2);
 		lssproto_TK_send(fd, CHAR_getWorkInt(myindex, CHAR_WORKOBJINDEX), buf, color);
-		snprintf(buf, sizeof(buf) - 1, "P|M|%s告诉你：%s", CHAR_getChar(myindex, CHAR_NAME), tmp2);
+		snprintf(buf, sizeof(buf) - 1, "P|M|%s\xB8\xE6\xCB\xDF\xC4\xE3\xA3\xBA%s", CHAR_getChar(myindex, CHAR_NAME), tmp2);
 		lssproto_TK_send(getfdFromCharaIndex(IndexList[0]), CHAR_getWorkInt(IndexList[0], CHAR_WORKOBJINDEX), buf, color);
 #endif
 		TalkCount++;
@@ -966,12 +966,12 @@ void OneByOneTkChannel(int fd, char *tmp1, char *tmp2, int color) {
 #ifndef _CHANNEL_MODIFY
 				snprintf(buf, sizeof(buf) - 1, "你告诉%s：%s", tmp1, addr);
 				CHAR_talkToCli(myindex, -1, buf, color);
-				snprintf(buf, sizeof(buf) - 1, "%s告诉你：%s", CHAR_getChar(myindex, CHAR_NAME), addr);
+				snprintf(buf, sizeof(buf) - 1, "%s\xB8\xE6\xCB\xDF\xC4\xE3\xA3\xBA%s", CHAR_getChar(myindex, CHAR_NAME), addr);
 				CHAR_talkToCli(IndexList[target], -1, buf, color);
 #else
 				snprintf(buf, sizeof(buf) - 1, "P|M|你告诉%s：%s", tmp1, addr);
 				lssproto_TK_send(fd, CHAR_getWorkInt(myindex, CHAR_WORKOBJINDEX), buf, color);
-				snprintf(buf, sizeof(buf) - 1, "P|M|%s告诉你：%s", CHAR_getChar(myindex, CHAR_NAME), addr);
+				snprintf(buf, sizeof(buf) - 1, "P|M|%s\xB8\xE6\xCB\xDF\xC4\xE3\xA3\xBA%s", CHAR_getChar(myindex, CHAR_NAME), addr);
 				lssproto_TK_send(getfdFromCharaIndex(IndexList[target]), CHAR_getWorkInt(IndexList[target], CHAR_WORKOBJINDEX), buf, color);
 #endif
 				TalkCount++;
@@ -1136,7 +1136,13 @@ void CHAR_Talk(int fd, int index, char *message, int color, int area) {
 		return;
 	}
 #endif
-	if (messageeraseescape[0] == '[' && messageeraseescape[stringlen - 1] == ']') {
+	// fix(Linux): 客户端聊天消息末尾带空格（如 "P|[gm hp 1000] "），
+	// 先去掉末尾空白，否则 GM 命令 [..] 判断因末尾不是 ']' 而失效（对照 win 版 gmsv）
+	while (stringlen > 0 &&
+		   (messageeraseescape[stringlen - 1] == ' ' ||
+			messageeraseescape[stringlen - 1] == '\t'))
+		messageeraseescape[--stringlen] = '\0';
+	if (messageeraseescape[0] == '[' && stringlen > 0 && messageeraseescape[stringlen - 1] == ']') {
 		char *pass;
 		// Arminius: limit ip +2
 		unsigned long ip;
@@ -1189,10 +1195,10 @@ void CHAR_Talk(int fd, int index, char *message, int color, int area) {
 						print("\n玩家[%d,%d,%d,%d]使用%s]次数剩下%d\n", a, b, c, d, messageeraseescape, CHAR_getInt(index, CHAR_GMTIME) - 1);
 						CHAR_setInt(index, CHAR_GMTIME, CHAR_getInt(index, CHAR_GMTIME) - 1);
 						if (CHAR_getInt(index, CHAR_GMTIME) > 0) {
-							sprintf(token, "你还能使用%s权限%d次!", CHAR_getChar(index, CHAR_GMFUNCTION), CHAR_getInt(index, CHAR_GMTIME));
+							sprintf(token, "\xC4\xE3\xBB\xB9\xC4\xDC\xCA\xB9\xD3\xC3%s\xC8\xA8\xCF\xDE%d\xB4\xCE!", CHAR_getChar(index, CHAR_GMFUNCTION), CHAR_getInt(index, CHAR_GMTIME));
 							CHAR_talkToCli(index, -1, token, CHAR_COLORRED);
 						} else {
-							sprintf(token, "你已经没有使用%s权限了!", CHAR_getChar(index, CHAR_GMFUNCTION));
+							sprintf(token, "\xC4\xE3\xD2\xD1\xBE\xAD\xC3\xBB\xD3\xD0\xCA\xB9\xD3\xC3%s\xC8\xA8\xCF\xDE\xC1\xCB!", CHAR_getChar(index, CHAR_GMFUNCTION));
 							CHAR_talkToCli(index, -1, token, CHAR_COLORRED);
 						}
 					} else if (!strcmp("help", magicname) || !strcmp("帮助", magicname)) {
@@ -1318,7 +1324,7 @@ void CHAR_Talk(int fd, int index, char *message, int color, int area) {
 #endif
 			{
 				char buf[512];
-				sprintf(buf, "[族长广播]%s: %s", CHAR_getChar(index, CHAR_NAME), messageeraseescape);
+				sprintf(buf, "[\xD7\xE5\xB3\xA4\xB9\xE3\xB2\xA5]%s: %s", CHAR_getChar(index, CHAR_NAME), messageeraseescape);
 				saacproto_ACFMAnnounce_send(acfd,
 											CHAR_getChar(index, CHAR_FMNAME),
 											CHAR_getInt(index, CHAR_FMINDEX),

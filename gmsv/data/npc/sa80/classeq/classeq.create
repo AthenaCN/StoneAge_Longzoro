@@ -1,6 +1,6 @@
 NPCCREATE
 
-########ã€€æ³•å¸ˆç²¾å·¥å¸ˆã€€#########
+########¡¡·¨Ê¦¾«¹¤Ê¦¡¡#########
 {
 name=¿­Àò
 floorid=8218
@@ -13,7 +13,7 @@ graphicname=16916
 enemy=ITEMCHANGE|file:sa80/classeq/wizeq.arg
 }
 
-########ã€€çŒŽäººç²¾å·¥å¸ˆã€€#########
+########¡¡ÁÔÈË¾«¹¤Ê¦¡¡#########
 {
 name=¿­Àò
 floorid=8217
@@ -26,7 +26,7 @@ graphicname=16916
 enemy=ITEMCHANGE|file:sa80/classeq/huneq.arg
 }
 
-########ã€€å‹‡å£«ç²¾å·¥å¸ˆ #########
+########¡¡ÓÂÊ¿¾«¹¤Ê¦ #########
 {
 name=¿­Àò
 floorid=8216

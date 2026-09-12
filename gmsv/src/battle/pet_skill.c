@@ -783,7 +783,7 @@ int PETSKILL_StatusChange(
 	pszP = pszOption;
 
 	for (; status == -1 && pszP[0] != 0; pszP++) {
-		for (i = 1; i < BATTLE_ST_END; i++) {
+		for (i = 1; i < BATTLE_ST_END && i < gAszStatusNum; i++) {
 			if (strncmp(pszP, aszStatus[i], 2) == 0) {
 				status = i;
 				pszP += 2;
@@ -945,7 +945,7 @@ int PETSKILL_Sacrifice(
 		CHAR_setWorkInt(charaindex, CHAR_WORKBATTLEMODE, BATTLE_CHARMODE_C_OK);
 	} else {
 
-		sprintf(buf, "%s自身耐久力不足 救援失败!!", CHAR_getChar(charaindex, CHAR_NAME));
+		sprintf(buf, "%s\xD7\xD4\xC9\xED\xC4\xCD\xBE\xC3\xC1\xA6\xB2\xBB\xD7\xE3 \xBE\xC8\xD4\xAE\xCA\xA7\xB0\xDC!!", CHAR_getChar(charaindex, CHAR_NAME));
 		CHAR_talkToCli(CHAR_getWorkInt(charaindex, CHAR_WORKPLAYERINDEX), -1, buf, CHAR_COLORYELLOW);
 		return FALSE;
 	}
@@ -2016,7 +2016,7 @@ int PETSKILL_Sars(int charaindex, int toNo, int array, char *data) {
 	pszP = pszOption;
 
 	for (; status == -1 && pszP[0] != 0; pszP++) {
-		for (i = 1; i < BATTLE_ST_END; i++) {
+		for (i = 1; i < BATTLE_ST_END && i < gAszStatusNum; i++) {
 			if (strncmp(pszP, aszStatus[i], 2) == 0) {
 				status = i;
 				pszP += 2;

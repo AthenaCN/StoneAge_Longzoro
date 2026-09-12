@@ -312,7 +312,7 @@ static void NPC_NewNpcMan_selectWindow(int meindex, int toindex, int num, int fl
 				CHAR_getInt(toindex, CHAR_Y),
 				CHAR_getChar(petindex, CHAR_UNIQUECODE) // shan 2001/12/14
 			);
-			sprintf(buf1, "领取宠物%s。", CHAR_getUseName(petindex));
+			sprintf(buf1, "\xC1\xEC\xC8\xA1\xB3\xE8\xCE\xEF%s\xA1\xA3", CHAR_getUseName(petindex));
 			CHAR_talkToCli(toindex, meindex, buf1, CHAR_COLORYELLOW);
 			for (i = 0; i < CHAR_MAXPETHAVE; i++) {
 				int petindex = CHAR_getCharPet(toindex, i);
@@ -423,7 +423,7 @@ BOOL CHECK_ITEMEQUIT(int toindex) {
 					ITEM_endExistItemsOne(itemindex);
 					continue;
 				}
-				sprintf(token, "拿到%s", ITEM_getChar(itemindex, ITEM_NAME));
+				sprintf(token, "\xC4\xC3\xB5\xBD%s", ITEM_getChar(itemindex, ITEM_NAME));
 				CHAR_talkToCli(toindex, -1, token, CHAR_COLORYELLOW);
 				CHAR_sendItemDataOne(toindex, ret);
 				continue;
@@ -434,7 +434,7 @@ BOOL CHECK_ITEMEQUIT(int toindex) {
 
 			ITEM_setInt(itemindex, ITEM_MAXDAMAGECRUSHE, 0);
 			ITEM_setInt(itemindex, ITEM_DAMAGECRUSHE, 0);
-			sprintf(token, "修正%s损坏度", ITEM_getChar(itemindex, ITEM_NAME));
+			sprintf(token, "\xD0\xDE\xD5\xFD%s\xCB\xF0\xBB\xB5\xB6\xC8", ITEM_getChar(itemindex, ITEM_NAME));
 			CHAR_sendItemDataOne(toindex, i);
 			CHAR_talkToCli(toindex, -1, token, CHAR_COLORYELLOW);
 		}
@@ -447,7 +447,7 @@ BOOL CHECK_ITEMEQUIT(int toindex) {
 
 			ITEM_setInt(itemindex, ITEM_MAXDAMAGECRUSHE, 0);
 			ITEM_setInt(itemindex, ITEM_DAMAGECRUSHE, 0);
-			sprintf(token, "修正寄放店中%s损坏度", ITEM_getChar(itemindex, ITEM_NAME));
+			sprintf(token, "\xD0\xDE\xD5\xFD\xBC\xC4\xB7\xC5\xB5\xEA\xD6\xD0%s\xCB\xF0\xBB\xB5\xB6\xC8", ITEM_getChar(itemindex, ITEM_NAME));
 			CHAR_talkToCli(toindex, -1, token, CHAR_COLORYELLOW);
 		}
 	}
@@ -475,7 +475,7 @@ BOOL CHECK_PETBBI(int toindex) {
 			CHAR_getInt(petindex, CHAR_BASEIMAGENUMBER) != PetBBI) {
 			CHAR_setInt(petindex, CHAR_BASEBASEIMAGENUMBER, PetBBI);
 			CHAR_setInt(petindex, CHAR_BASEIMAGENUMBER, PetBBI);
-			sprintf(token, "修正%s图号", CHAR_getUseName(petindex));
+			sprintf(token, "\xD0\xDE\xD5\xFD%s\xCD\xBC\xBA\xC5", CHAR_getUseName(petindex));
 			CHAR_talkToCli(toindex, -1, token, CHAR_COLORYELLOW);
 			Finds = TRUE;
 		}
@@ -578,7 +578,7 @@ BOOL CHECK_ReplacePET(int toindex) {
 			lssproto_KS_send(fd, -1, TRUE);
 		}
 
-		snprintf(szPet, sizeof(szPet), "交出%s。", CHAR_getUseName(petindex));
+		snprintf(szPet, sizeof(szPet), "\xBD\xBB\xB3\xF6%s\xA1\xA3", CHAR_getUseName(petindex));
 		CHAR_talkToCli(toindex, -1, szPet, CHAR_COLORYELLOW);
 		LogPet(
 			CHAR_getChar(toindex, CHAR_NAME),
@@ -602,7 +602,7 @@ BOOL CHECK_ReplacePET(int toindex) {
 		if (!CHAR_CHECKINDEX(ret))
 			continue;
 
-		snprintf(szPet, sizeof(szPet), "拿到%s。", CHAR_getUseName(ret));
+		snprintf(szPet, sizeof(szPet), "\xC4\xC3\xB5\xBD%s。", CHAR_getUseName(ret));
 		CHAR_talkToCli(toindex, -1, szPet, CHAR_COLORWHITE);
 
 		LogPet(
@@ -1071,7 +1071,7 @@ int NPC_NewNpcManDelPet(int meindex,int talker, int petsel)
 		CHAR_setInt( talker, CHAR_DEFAULTPET, -1);
 		lssproto_KS_send( fd, -1, TRUE);
 	}
-	snprintf( msgbuf,sizeof( msgbuf), "交出%s。", CHAR_getChar( petindex, CHAR_NAME));
+	snprintf( msgbuf,sizeof( msgbuf), "\xBD\xBB\xB3\xF6%s\xA1\xA3", CHAR_getChar( petindex, CHAR_NAME));
 
 	// shan
 	if(CHAR_getChar( petindex, CHAR_UNIQUECODE)!=NULL){
@@ -1148,7 +1148,7 @@ BOOL NPC_NewNpcManAddPet(int meindex, int talker, int petid)
 	petindex2 = CHAR_getCharPet(talker, i);
 	if( !CHAR_CHECKINDEX( petindex2) )
 		return FALSE;
-	snprintf( msgbuf,sizeof( msgbuf), "拿到%s。", CHAR_getChar(petindex2,CHAR_NAME));
+	snprintf( msgbuf,sizeof( msgbuf), "\xC4\xC3\xB5\xBD%s。", CHAR_getChar(petindex2,CHAR_NAME));
 	CHAR_talkToCli( talker, -1, msgbuf,  CHAR_COLORWHITE);
 	for(j = 0; j < CHAR_MAXPETHAVE; j++){
 		petindex = CHAR_getCharPet(talker, j);

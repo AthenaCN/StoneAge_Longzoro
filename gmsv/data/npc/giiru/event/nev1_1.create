@@ -1,7 +1,7 @@
 NPCCREATE
 
 ##########################################################################
-#########################    鏂逛綅鐨勭璁惧畾  ##################
+#########################    四神的事件设定  ##################
 ##########################################################################
 
 
@@ -62,7 +62,7 @@ createnum=1
 dir=4
 ignoreinvincible=1
 graphicname=10939
-name=石像
+name=石台
 enemy=changeevent|file:giiru/event/nev1_5
 
 }
@@ -76,7 +76,7 @@ createnum=1
 dir=4
 ignoreinvincible=1
 graphicname=5075
-name=石像
+name=石台
 enemy=changeevent|file:giiru/event/nev1_5
 
 }

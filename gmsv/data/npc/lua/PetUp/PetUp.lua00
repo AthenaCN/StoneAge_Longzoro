@@ -25,14 +25,14 @@ function PetUp_Talked( _MeIndex, _PlayerIndex, _Msg, _Color, _Channel)
 	--這裡檢查玩家是否站在NPC面前
 	if(NLG.CheckInFront(_PlayerIndex, _MeIndex, 1) == false) then
 		return ;
-	end 
+	end
 	--面向玩家
 	--local i;
 	--i = Char.GetData(_PlayerIndex, %对像_方向%);
-	--if i >= 4 then 
+	--if i >= 4 then
 	--	i = i - 4;
 	--else
-	--	i = i + 4;		
+	--	i = i + 4;
 	--end
 	--Char.SetData(_MeIndex, %对像_方向%,i);
 	--NLG.UpChar( _MeIndex);
@@ -70,7 +70,7 @@ function PetUp_WindowTalked( _MeIndex, _TalkIndex, _Seqno, _Select, _Data)
 			     {"无","无","无","无","无","无","无","无","无","无","无","无","无"}};                                --形象进化道具名称
 	local TM_PetName = {"2D利则诺顿","2D扬奇洛斯","2D邦浦洛斯","2D邦奇诺","2D布鲁顿","2D贝鲁卡","2D贝鲁伊卡","2D格鲁西斯","2D金格萨贝鲁","天使威比","天使乌宝依","天使威斯","天使乌拉拉"};
 	local TM_PetBaseNoMode = {1,1,1,1,1,0,0,0,0,1,1,1,1};                                            --形象转换属性，1为可以，0为不可以
-	local TM_PetMaxNum = 13;                                                                  --进化宠物有多少只   
+	local TM_PetMaxNum = 13;                                                                  --进化宠物有多少只
 	local TM_ReadMe = {"功能：【宠物外形进化】\n\n宠物外貌进化是不改变宠物的四维属性、只改变宠物的外观和名称的一种进化方式，成本比较低，适合极品宠物换个新鲜的样式使用。另外进化成功后使用回炉系统，回炉出来的是进化后的宠物哦！","功能：【宠物完全进化】\n\n宠物完全进化是原宠物消失，进化成一只新的宠物，等级变更为0转1级，成本比较高，有一定的风险，进化后只是起点比较高而已，未必会比原来的成长好，请三思而后进化。推荐有一定基础的玩家使用。","功能：【宠物外形切换】\n\n这个功能主要为那些喜欢初代宠物的玩家们设计的，可以让进化后的宠物还原为初代宠物的样式，保留四维成长和宠物名称，仅仅是形象变动为初代了哦，这样的话，无论是怀旧的玩家还是新奇的玩家都可以得到满足啦！","【宠物四维评分】\n\n四维评分公式=攻击+防御+敏捷+血量/4\n弥补评分不足=(需求评分-目前四维评分)*50\n\n由此可得,进化的合适等级为1转135+\n否则评分值不足就比较麻烦了,相差不大的话推荐贿赂进化大师即可,相差很大就不合算了",""};
 	local TM_PetReadMe = {"【二代人龙系列】\n\n利则诺顿-->2D利则诺顿\n扬奇洛斯-->2D扬奇洛斯\n邦浦洛斯-->2D邦浦洛斯\n邦 奇 诺-->2D邦奇诺\n布 鲁 顿-->2D布鲁顿","【二代老虎系列】\n\n●●贝鲁卡-->2D贝鲁卡\n●贝鲁伊卡-->2D贝鲁伊卡\n●格鲁西斯-->2D格鲁西斯\n金格萨贝鲁-->2D金格萨贝鲁","【二代威威系列】\n\n●威威-->天使乌宝依\n●威伯-->天使乌拉拉\n乌宝宝-->天使●威比\n乌卡鲁-->天使●威斯","【待开放】\n\n【下一期】\n\n【敬请期待】","",""};
 	if _Seqno == 0 then
@@ -94,7 +94,7 @@ function PetUp_WindowTalked( _MeIndex, _TalkIndex, _Seqno, _Select, _Data)
 			 	_MeIndex);
 			return;
 		end
-		
+
 		if _Data == "2" then
 			local TM_Buff = {"空","空","空","空","空"};
 			local i;
@@ -217,7 +217,7 @@ function PetUp_WindowTalked( _MeIndex, _TalkIndex, _Seqno, _Select, _Data)
 			Char.SetData(_TalkIndex,%对象_LUA%,TM_Page);
 		end
 	end
-	
+
 	if _Seqno == 1 or _Seqno == 2 then
 		local MyData = tonumber(_Data);
 		if MyData<1 or MyData>5 then
@@ -298,7 +298,7 @@ function PetUp_WindowTalked( _MeIndex, _TalkIndex, _Seqno, _Select, _Data)
 		NLG.TalkToCli(_TalkIndex,"该宠物栏无宠物！");
 		return;
 	end
-	
+
 	if _Seqno >= 5 and _Seqno<=9 then
 		--print("select=".._Select.."data=".._Data);
 		if _Select == 1 then
@@ -409,8 +409,8 @@ function PetUp_WindowTalked( _MeIndex, _TalkIndex, _Seqno, _Select, _Data)
 				end
 			end
 		end
-		
-		if _Data == "1" then 
+
+		if _Data == "1" then
 			local selectPet = _Seqno - 5;
 			local TM_MyPetIndex = Char.GetPetIndex(_TalkIndex,selectPet);
 			if TM_MyPetIndex <0 then
@@ -441,7 +441,7 @@ function PetUp_WindowTalked( _MeIndex, _TalkIndex, _Seqno, _Select, _Data)
 			end
 		end
 	end
-		
+
 end
 
 function PetUp_4v(petindex)

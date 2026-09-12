@@ -20,13 +20,13 @@ function QQCSA_MW_Init( _MeIndex )
 	Char.SetData(_MeIndex, %对像_原名%, "欢乐派派送");
 	--設置手動啟動函數
 	Char.SetTalkedEvent(nil, "QQCSAMW_Manual", _MeIndex);
-	
+
 		--窗口對話事件
 	if (Char.SetWindowTalkedEvent(nil, "QQCSAMW_ManualWindow", _MeIndex) < 0) then
 		print("QQCSAMW_ManualWindow 注册事件失败。");
 		return false;
 	end
-	
+
 	if (Char.SetTalkedEvent(nil, "QQCSA_MW_Talked", _MeIndex) < 0) then
 		print("QQCSA_MW_Talked 注册事件失败。");
 		return false;
@@ -42,15 +42,15 @@ function QQCSAMW_Manual( _MeIndex, _TalkIndex, _Msg, _Color, _Channel)
 	--檢查玩家是否站在NPC面前
 	if(NLG.CheckInFront(_TalkIndex, _MeIndex, 1) == false) then
 		return ;
-	end 
+	end
 
 	--面向玩家
 	local i;
 	i = Char.GetData(_TalkIndex, %对像_方向%);
-	if i >= 4 then 
+	if i >= 4 then
 		i = i - 4;
 	else
-		i = i + 4;		
+		i = i + 4;
 	end
 	Char.SetData(_MeIndex, %对像_方向%,i);
 	NLG.UpChar( _MeIndex);
@@ -86,7 +86,7 @@ function QQCSA_MW_Talked( _MeIndex, _PlayerIndex, _Msg, _Color, _Channel)
 	end
 	-- 玩家身上的魔王道具信物 用来交换奖励的
 	PPS = {19396,19397,19398,19399,19400,19401,19402,19403};--魔王兑换道具ID NO1 NO2 NO3.....
-	
+
 -- NO1 基础设置
 	NO1PET = 15; --NO1 奖励的宠物数量设置(根据个人情况改动)
 	NO1ITEM = 18; --NO1 奖励的道具数量设置(根据个人情况改动)
@@ -111,7 +111,7 @@ function QQCSA_MW_Talked( _MeIndex, _PlayerIndex, _Msg, _Color, _Channel)
 	NO5PET = 29; --NO5 奖励的宠物数量设置(根据个人情况改动)
 	NO5ITEM = 14; --NO5 奖励的道具数量设置(根据个人情况改动)
   NO5NUM = NO5PET+NO5ITEM;--NO5的奖励数量
-  
+
 -- NO6 基础设置
 	NO6PET = 31; --NO6 奖励的宠物数量设置(根据个人情况改动)
 	NO6ITEM = 10; --NO6 奖励的道具数量设置(根据个人情况改动)
@@ -121,7 +121,7 @@ function QQCSA_MW_Talked( _MeIndex, _PlayerIndex, _Msg, _Color, _Channel)
 	NO7PET = 35; --NO7 奖励的宠物数量设置(根据个人情况改动)
 	NO7ITEM = 25; --NO7 奖励的道具数量设置(根据个人情况改动)
   NO7NUM = NO7PET+NO7ITEM;--NO7的奖励数量
-  
+
 -- NO8 基础设置
 	NO8PET = 10; --NO8 奖励的宠物数量设置(根据个人情况改动)
 	NO8ITEM = 10; --NO8 奖励的道具数量设置(根据个人情况改动)
@@ -147,8 +147,8 @@ function QQCSA_MW_Talked( _MeIndex, _PlayerIndex, _Msg, _Color, _Channel)
   end
   end
 
-  
-  else 
+
+  else
 
 	for iii=1,10000 do
   JL = math.floor(math.random(1, 100));
@@ -191,8 +191,8 @@ end
   end
   end
 
-  
-  else 
+
+  else
 
 	for iii=1,10000 do
   JL = math.floor(math.random(1, 100));
@@ -236,8 +236,8 @@ end
   end
   end
 
-  
-  else 
+
+  else
 
 	for iii=1,10000 do
   JL = math.floor(math.random(1, 100));
@@ -280,8 +280,8 @@ end
   end
   end
 
-  
-  else 
+
+  else
 
 	for iii=1,10000 do
   JL = math.floor(math.random(1, 100));
@@ -324,8 +324,8 @@ end
   end
   end
 
-  
-  else 
+
+  else
 
 	for iii=1,10000 do
   JL = math.floor(math.random(1, 100));
@@ -368,8 +368,8 @@ end
   end
   end
 
-  
-  else 
+
+  else
 
 	for iii=1,10000 do
   JL = math.floor(math.random(1, 100));
@@ -416,8 +416,8 @@ end
   end
   end
 
-  
-  else 
+
+  else
 
 	for iii=1,10000 do
   JL = math.floor(math.random(1, 100));
@@ -460,8 +460,8 @@ end
   end
   end
 
-  
-  else 
+
+  else
 
 	for iii=1,10000 do
   JL = math.floor(math.random(1, 100));

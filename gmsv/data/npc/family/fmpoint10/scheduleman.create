@@ -1,6 +1,6 @@
 NPCCREATE
 
-#ç‘å°”äºšæ–¯å®¶æ—å¯¹æˆ˜æœåŠ¡å‘˜
+#Èğ¶ûÑÇË¹¼Ò×å¶ÔÕ½·şÎñÔ±
 {
 floorid=7532
 borncorner=18,23,18,23
@@ -13,7 +13,7 @@ name=¼Ò×å¶ÔÕ½·şÎñÔ±
 enemy=npcgen_fmpkman|file:family/fmpoint10/wpm_7532_18_23
 }
 
-#ç‘å°”äºšæ–¯å®¶æ—å¯¹æˆ˜å‘å¯¼
+#Èğ¶ûÑÇË¹¼Ò×å¶ÔÕ½Ïòµ¼
 {
 floorid=7530
 borncorner=55,51,55,51
@@ -26,7 +26,7 @@ name=¼Ò×å¶ÔÕ½Ïòµ¼
 enemy=npcgen_fmwarpman|file:family/fmpoint10/wpm_7530_55_51
 }
 
-#ç‘å°”äºšæ–¯å®¶å®¶æ—å¬å”¤å‘˜
+#Èğ¶ûÑÇË¹¼Ò¼Ò×åÕÙ»½Ô±
 {
 floorid=7530
 borncorner=51,51,51,51
@@ -39,7 +39,7 @@ name=¼Ò×åÕÙ»½Ô±
 enemy=npcgen_fmpkcallman|file:family/fmpoint10/wpm_7530_51_51
 }
 
-#ç‘å°”äºšæ–¯å®¶æ—å®ˆé—¨å‘˜
+#Èğ¶ûÑÇË¹¼Ò×åÊØÃÅÔ±
 {
 floorid=7530
 borncorner=55,26,55,26

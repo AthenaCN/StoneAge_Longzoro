@@ -1,8 +1,8 @@
-########ã€€ç¥žå¥‡çš„é“åŒ ã€€########
+########¡¡ÉñÆæµÄÌú½³¡¡########
 
 NomalMainMsg:ÓÐËÑ»êË®¾§²ÅÄÜÕÒÎÒÉý¼¶£¡£¡£¡£¡
 
-###è¤é‚£è…°å¸¦LV1ã€€###
+###ºÖÄÇÑü´øLV1¡¡###
 EventNo:-1
 TYPE:ACCEPT
 EVENT:ITEM=21203&21208
@@ -13,7 +13,7 @@ DelItem:21203*1,21208*1
 ItemFullMsg:ÂúÁË°ÉÄãÉíÉÏ£¡£¿£¿
 EventEnd
 
-###è¤é‚£ä¹‹é´LV1ã€€###
+###ºÖÄÇÖ®Ñ¥LV1¡¡###
 EventNo:-1
 TYPE:ACCEPT
 EVENT:ITEM=21204&21208
@@ -24,7 +24,7 @@ DelItem:21204*1,21208*1
 ItemFullMsg:ÂúÁË°ÉÄãÉíÉÏ£¡£¿£¿
 EventEnd
 
-###è¤é‚£æ‰‹å¥—LV1  ###
+###ºÖÄÇÊÖÌ×LV1  ###
 EventNo:-1
 TYPE:ACCEPT
 EVENT:ITEM=21205&21208
@@ -35,7 +35,7 @@ DelItem:21205*1,21208*1
 ItemFullMsg:ÂúÁË°ÉÄãÉíÉÏ£¡£¿£¿
 EventEnd
 
-###è¤é‚£ä¹‹ç›¾LV1  ###
+###ºÖÄÇÖ®¶ÜLV1  ###
 EventNo:-1
 TYPE:ACCEPT
 EVENT:ITEM=21206&21208

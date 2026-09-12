@@ -7,7 +7,7 @@ NomalWindowMsg:恭喜发财哦！
 EventEnd
 
 EventNo:219
-TYPE:ACCEPT 
+TYPE:ACCEPT
 EVENT:ITEM=22853
 AcceptMsg:【额地神啊！上天以及老天爷啊。这个是我的暴·我的暴，感谢老天感谢MTV,CCTV,中央电视台。。。】
 ThanksMsg:【哦，最感谢你了，现在我将我的大礼给你。哦lei哦lei~~我的暴暴】
@@ -26,7 +26,7 @@ NomalWindowMsg:。。。。。。
 EventEnd
 
 EventNo:-1
-TYPE:ACCEPT 
+TYPE:ACCEPT
 EVENT:ITEM=22842
 AcceptMsg1:【我。我。怎么了？脑袋好痛。。】
 AcceptMsg2:【我已经知道在那里了，在萨姆吉尔。。】
@@ -43,7 +43,7 @@ NomalWindowMsg:。。。。。。
 EventEnd
 
 EventNo:-1
-TYPE:ACCEPT 
+TYPE:ACCEPT
 EVENT:ITEM=22834&ITEM=22835
 AcceptMsg1:你怎么又回来了???!!!什么！这个是！你。竟然把我的龙吃了！\n\n（无厘头,不知道青红皂白就乱说一气,解释完之后）
 AcceptMsg2:哦，人家爱宠心切，把你当贼看了，不过这个鳞片，有点奇怪！！这个鳞片，有着很强大的黑暗力量，这个。。这个。。

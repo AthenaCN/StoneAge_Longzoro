@@ -1,6 +1,6 @@
 NPCCREATE
 
-#æ¸”æ‘ç‰¹æŠ€å¼ºåŒ–è®­ç»ƒå¸ˆ
+#Óæ´åÌØ¼¼Ç¿»¯ÑµÁ·Ê¦
 {
 floorid=2006
 borncenter=23,13
@@ -13,7 +13,7 @@ ignoreinvincible=1
 enemy=FreePetSkill|file:my/chongji/chongji2.arg
 }
 
-#æ¸”æ‘ç‰¹æŠ€å¼ºåŒ–è®­ç»ƒå¸ˆ
+#Óæ´åÌØ¼¼Ç¿»¯ÑµÁ·Ê¦
 {
 floorid=2006
 borncenter=16,9

@@ -1,12 +1,12 @@
 NomalMainMsg:你好啊~
 
-EventNo:-1 
+EventNo:-1
 TYPE:MESSAGE
 EVENT:ENDEV=210
 NomalWindowMsg:谢谢你救了我的主人~
 EventEnd
 
-EventNo:-1 
+EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>119&TRANS>5&ENDEV=190&NOWEV=210&PET=79-6000*1
 AcceptMsg1:主人！我是啦啦啊~你还记得我吗？
@@ -18,13 +18,13 @@ GetPet:2735
 EndSetFlg:210
 EventEnd
 
-EventNo:-1 
+EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>119&TRANS>5&ENDEV=190&NOWEV=210
 NomalWindowMsg:请你帮我的主人恢复记忆，我会感谢你的哦~
 EventEnd
 
-EventNo:210 
+EventNo:210
 TYPE:REQUEST
 EVENT:LV>119&TRANS>5&ENDEV=190
 RequestMsg:你好~可以帮我个忙吗？

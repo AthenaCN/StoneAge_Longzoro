@@ -85,7 +85,7 @@ void NPC_AlldomanWindowTalked(int meindex, int talkerindex, int seqno, int selec
 			if ( CHAR_getWorkInt( talkerindex  , CHAR_WORKHEROFLOOR ) == 132 ) {
 				sprintf( buf2 , "%s" , "尼斯大陆英雄" ) ; 
 				//到达顶层对全星系广播
-				sprintf( buf , "%s征服了英雄战场，由风之精灵将这个消息通知全世界，新的英雄诞生了!!" , CHAR_getChar( talkerindex, CHAR_NAME ) );
+				sprintf( buf , "%s\xD5\xF7\xB7\xFE\xC1\xCB\xD3\xA2\xD0\xDB\xD5\xBD\xB3\xA1\xA3\xAC\xD3\xC9\xB7\xE7\xD6\xAE\xBE\xAB\xC1\xE9\xBD\xAB\xD5\xE2\xB8\xF6\xCF\xFB\xCF\xA2\xCD\xA8\xD6\xAA\xC8\xAB\xCA\xC0\xBD\xE7\xA3\xAC\xD0\xC2\xB5\xC4\xD3\xA2\xD0\xDB\xB5\xAE\xC9\xFA\xC1\xCB!!" , CHAR_getChar( talkerindex, CHAR_NAME ) );
 				for( i = 0 ; i < playernum ; i++) {
 					if( CHAR_getCharUse(i) != FALSE ) {
 						CHAR_talkToCli( i, -1, buf, CHAR_COLORBLUE2);

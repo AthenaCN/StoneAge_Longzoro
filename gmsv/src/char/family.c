@@ -1590,14 +1590,14 @@ void FAMILY_Channel(int fd, int meindex, char *message) {
 			CHAR_talkToCli(meindex, -1, buf, CHAR_COLORWHITE);
 
 			if (nowchannel >= 0 && nowchannel < FAMILY_MAXCHANNEL) {
-				sprintf(buf, "%s 退出频道。", CHAR_getChar(meindex, CHAR_NAME));
+				sprintf(buf, "%s \xCD\xCB\xB3\xF6\xC6\xB5\xB5\xC0\xA1\xA3", CHAR_getChar(meindex, CHAR_NAME));
 				for (i = 0; i < FAMILY_MAXCHANNELMEMBER; i++) {
 					if (CHAR_CHECKINDEX(channelMember[fmindexi][nowchannel][i]) && channelMember[fmindexi][nowchannel][i] != meindex) {
 						CHAR_talkToCli(channelMember[fmindexi][nowchannel][i], -1, buf, CHAR_COLORWHITE);
 					}
 				}
 			}
-			sprintf(buf, "%s 加入频道。", CHAR_getChar(meindex, CHAR_NAME));
+			sprintf(buf, "%s \xBC\xD3\xC8\xEB\xC6\xB5\xB5\xC0\xA1\xA3", CHAR_getChar(meindex, CHAR_NAME));
 			for (i = 0; i < FAMILY_MAXCHANNELMEMBER; i++) {
 				if (CHAR_CHECKINDEX(channelMember[fmindexi][channel][i]) && channelMember[fmindexi][channel][i] != meindex) {
 					CHAR_talkToCli(channelMember[fmindexi][channel][i], -1, buf, CHAR_COLORWHITE);
@@ -1623,14 +1623,14 @@ void FAMILY_Channel(int fd, int meindex, char *message) {
 			sprintf(buf, "加入家族频道 [全]。");
 			CHAR_talkToCli(meindex, -1, buf, CHAR_COLORWHITE);
 			if (nowchannel >= 0 && nowchannel < FAMILY_MAXCHANNEL) {
-				sprintf(buf, "%s 退出频道。", CHAR_getChar(meindex, CHAR_NAME));
+				sprintf(buf, "%s \xCD\xCB\xB3\xF6\xC6\xB5\xB5\xC0\xA1\xA3", CHAR_getChar(meindex, CHAR_NAME));
 				for (i = 0; i < FAMILY_MAXCHANNELMEMBER; i++) {
 					if (CHAR_CHECKINDEX(channelMember[fmindexi][nowchannel][i]) && channelMember[fmindexi][nowchannel][i] != meindex) {
 						CHAR_talkToCli(channelMember[fmindexi][nowchannel][i], -1, buf, CHAR_COLORWHITE);
 					}
 				}
 			}
-			sprintf(buf, "%s 加入频道。", CHAR_getChar(meindex, CHAR_NAME));
+			sprintf(buf, "%s \xBC\xD3\xC8\xEB\xC6\xB5\xB5\xC0\xA1\xA3", CHAR_getChar(meindex, CHAR_NAME));
 			for (i = 0; i < FAMILY_MAXCHANNELMEMBER; i++) {
 				if (CHAR_CHECKINDEX(channelMember[fmindexi][channel][i]) && channelMember[fmindexi][channel][i] != meindex) {
 					CHAR_talkToCli(channelMember[fmindexi][channel][i], -1, buf, CHAR_COLORWHITE);
@@ -1662,7 +1662,7 @@ void FAMILY_Channel(int fd, int meindex, char *message) {
 			}
 #endif
 
-			sprintf(buf, "%s 退出频道。", CHAR_getChar(meindex, CHAR_NAME));
+			sprintf(buf, "%s \xCD\xCB\xB3\xF6\xC6\xB5\xB5\xC0\xA1\xA3", CHAR_getChar(meindex, CHAR_NAME));
 			for (i = 0; i < FAMILY_MAXCHANNELMEMBER; i++) {
 				if (CHAR_CHECKINDEX(channelMember[fmindexi][nowchannel][i]) && channelMember[fmindexi][nowchannel][i] != meindex) {
 					CHAR_talkToCli(channelMember[fmindexi][nowchannel][i], -1, buf, CHAR_COLORWHITE);
@@ -2644,7 +2644,7 @@ void FAMILY_LeaderFunc(int fd, int meindex, char *message) {
 			ITEM_setWorkInt(itemindex, ITEM_WORKOBJINDEX, -1);
 			ITEM_setWorkInt(itemindex, ITEM_WORKCHARAINDEX, meindex);
 			CHAR_sendItemDataOne(meindex, emptyitemindexinchara);
-			snprintf(buf, sizeof(buf), "制作%s成功\。",
+			snprintf(buf, sizeof(buf), "\xD6\xC6\xD7\xF7%s\xB3\xC9\xB9\xA6\\xA1\xA3",
 					 ITEM_getChar(itemindex, ITEM_NAME));
 			CHAR_talkToCli(meindex, -1, buf, CHAR_COLORWHITE);
 		}
@@ -2867,7 +2867,7 @@ void ACFMJob(int fd, int ret, char *data1, char *data2) {
 						 -1, -1,
 						 makeEscapeString("\n恭喜你！你已经是新任的族长了。\n请好好的努力吧！\n对了～记得请先到村长家的家族管理员选择\n新的家族守护兽，否则家族将会被解散唷！", buf, sizeof(buf)));
 
-		sprintf(buf2, "\n辛苦你了！你已经将族长的位子交给%s了。", CHAR_getChar(charaindex, CHAR_NAME));
+		sprintf(buf2, "\n\xD0\xC1\xBF\xE0\xC4\xE3\xC1\xCB\xA3\xA1\xC4\xE3\xD2\xD1\xBE\xAD\xBD\xAB\xD7\xE5\xB3\xA4\xB5\xC4\xCE\xBB\xD7\xD3\xBD\xBB\xB8\xF8%s\xC1\xCB\xA1\xA3", CHAR_getChar(charaindex, CHAR_NAME));
 		lssproto_WN_send(CHAR_getWorkInt(leaderindex, CHAR_WORKFD), WINDOW_MESSAGETYPE_MESSAGE,
 						 WINDOW_BUTTONTYPE_OK,
 						 -1, -1,

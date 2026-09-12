@@ -4,7 +4,7 @@ function hlctrl_Reload()
 		hlctrl_index = NL.CreateNpc("./data/npc/lua/hl/hl.lua", "hlctrl_Init");
 		--向NPC周围的玩家发送NPC数据更新封包
 		NLG.UpChar(hlctrl_index);
-		return "创建回炉NPC成功"; 
+		return "创建回炉NPC成功";
 	else
 		NL.DelNpc(hlctrl_index);
 		NLG.UpChar(hlctrl_index);

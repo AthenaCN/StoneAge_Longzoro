@@ -1,15 +1,15 @@
-########åœ°########
+########Ë®########
 
-NomalMainMsg:ÕâÀïºÜÎ£ÏÕ
+NomalMainMsg:ÕâÀïºÜÃÀÀö
 
 
-####ç»™ä¿¡ç‰©####
+####½»¸¶ÐÅÎï####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>0&ITEM=20793
-AcceptMsg1:Õâ¸öÊÀ½çÖÕÓÚÇå¾»ÁË
-ThanksMsg1:½ÓÊÜÎÒÃÇµÄ×£¸£°É~Ð¡ÀÏÊóÓëÄãÍ¬ÔÚ
+AcceptMsg1:Õâ¸öÐÅÎïÖÕÓÚ´øÀ´ÁË£¡
+ThanksMsg1:ÇëÉÆ´ýÎÒÃÇµÄº¢×Ó~Ëü»áÓëÄãÍ¬ÔÚ£¡
 GetPet:1804
 DelItem:20793
-PetFullMsg:Äã³èÎïÌ«¶àÁËÅ¶¡£
+PetFullMsg:Äã³èÎïÌ«¶àÁËà¸¡£
 EventEnd

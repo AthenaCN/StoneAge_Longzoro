@@ -239,7 +239,7 @@ dir=8
 ignoreinvincible=1
 enemy=npcgen_man|file:my/ruieryasi/child2.arg
 }
-#line21 
+#line21
 {
 floorid=7507
 borncorner=16,16,16,16
@@ -275,7 +275,7 @@ dir=4
 ignoreinvincible=1
 enemy=npcgen_man|file:my/ruieryasi/teacher.arg
 }
-#line24 
+#line24
 {
 floorid=7508
 borncorner=35,30,35,30
@@ -590,7 +590,7 @@ ignoreinvincible=1
 enemy=npcgen_man|file:my/ruieryasi/goldpet1.arg
 }
 
-#line45ç‰¹æ®Šè·³è·ƒç‚¹7600
+#line45ÌØÊâÌøÔ¾µã7600
 {
 floorid=7600
 borncenter=36,98
@@ -598,7 +598,7 @@ ignoreinvincible=1
 createnum=1
 enemy=npcgen_warp|file:my/ruieryasi/warp0.arg
 }
-#line46ç‰¹æ®Šè·³è·ƒç‚¹7500
+#line46ÌØÊâÌøÔ¾µã7500
 {
 floorid=7500
 borncenter=21,38

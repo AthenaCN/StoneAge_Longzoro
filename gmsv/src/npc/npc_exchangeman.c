@@ -2751,7 +2751,7 @@ BOOL NPC_RandItemGet(int meidex, int talker, int rand_j, char *buf) {
 			ITEM_getInt(itemindex, ITEM_ID));
 	}
 
-	sprintf(token, "收下了%s", ITEM_getChar(itemindex, ITEM_NAME));
+	sprintf(token, "\xCA\xD5\xCF\xC2\xC1\xCB%s", ITEM_getChar(itemindex, ITEM_NAME));
 	CHAR_talkToCli(talker, -1, token, CHAR_COLORWHITE);
 
 	CHAR_sendItemDataOne(talker, ret);
@@ -3130,7 +3130,7 @@ BOOL NPC_EventDelPet(int meindex, int talker, int petsel) {
 		lssproto_KS_send(fd, -1, TRUE);
 	}
 
-	snprintf(msgbuf, sizeof(msgbuf), "交出%s。",
+	snprintf(msgbuf, sizeof(msgbuf), "\xBD\xBB\xB3\xF6%s\xA1\xA3",
 			 CHAR_getChar(petindex, CHAR_NAME));
 	CHAR_talkToCli(talker, -1, msgbuf, CHAR_COLORWHITE);
 
@@ -3226,7 +3226,7 @@ BOOL NPC_EventAddPet(int meindex, int talker, char *buff2, int mode) {
 
 	snprintf(msgbuf, sizeof(msgbuf), "W%d", i);
 	CHAR_sendStatusString(talker, msgbuf);
-	snprintf(msgbuf, sizeof(msgbuf), "拿到%s。",
+	snprintf(msgbuf, sizeof(msgbuf), "\xC4\xC3\xB5\xBD%s\xA1\xA3",
 			 CHAR_getChar(petindex, CHAR_NAME));
 	CHAR_talkToCli(talker, -1, msgbuf, CHAR_COLORWHITE);
 
@@ -3354,7 +3354,7 @@ BOOL NPC_EventAddEgg(int meindex, int talker, char *buff2, int mode) {
 
 	snprintf(msgbuf, sizeof(msgbuf), "W%d", i);
 	CHAR_sendStatusString(talker, msgbuf);
-	snprintf(msgbuf, sizeof(msgbuf), "拿到%s。",
+	snprintf(msgbuf, sizeof(msgbuf), "\xC4\xC3\xB5\xBD%s\xA1\xA3",
 			 CHAR_getChar(petindex, CHAR_NAME));
 	CHAR_talkToCli(talker, -1, msgbuf, CHAR_COLORWHITE);
 
@@ -3429,10 +3429,10 @@ BOOL NPC_EventDelItem(int meindex, int talker, char *buf, int breakflg) {
 								ITEM_getInt(itemindex, ITEM_ID));
 
 							if (breakflg == 1) {
-								sprintf(token, "%s 坏了", ITEM_getChar(itemindex, ITEM_NAME));
+								sprintf(token, "%s \xBB\xB5\xC1\xCB", ITEM_getChar(itemindex, ITEM_NAME));
 								CHAR_talkToCli(talker, -1, token, CHAR_COLORWHITE);
 							} else {
-								sprintf(token, "交出%s", ITEM_getChar(itemindex, ITEM_NAME));
+								sprintf(token, "\xBD\xBB\xB3\xF6%s", ITEM_getChar(itemindex, ITEM_NAME));
 								CHAR_talkToCli(talker, -1, token, CHAR_COLORWHITE);
 							}
 							//--アイテムを削除  (删除物品)--
@@ -3470,10 +3470,10 @@ BOOL NPC_EventDelItem(int meindex, int talker, char *buf, int breakflg) {
 							ITEM_getChar(itemindex, ITEM_NAME),
 							ITEM_getInt(itemindex, ITEM_ID));
 						if (breakflg == 1) {
-							sprintf(token, "%s 坏了", ITEM_getChar(itemindex, ITEM_NAME));
+							sprintf(token, "%s \xBB\xB5\xC1\xCB", ITEM_getChar(itemindex, ITEM_NAME));
 							CHAR_talkToCli(talker, -1, token, CHAR_COLORWHITE);
 						} else {
-							sprintf(token, "交出%s。",
+							sprintf(token, "\xBD\xBB\xB3\xF6%s\xA1\xA3",
 									ITEM_getChar(itemindex, ITEM_NAME));
 							CHAR_talkToCli(talker, -1, token, CHAR_COLORWHITE);
 						}
@@ -3553,10 +3553,10 @@ BOOL NPC_EventDelItemEVDEL(int meindex, int talker, char *buf, char *nbuf, int b
 							ITEM_getChar(itemindex, ITEM_NAME),
 							ITEM_getInt(itemindex, ITEM_ID));
 						if (breakflg == 1) {
-							sprintf(token, "%s 坏了", ITEM_getChar(itemindex, ITEM_NAME));
+							sprintf(token, "%s \xBB\xB5\xC1\xCB", ITEM_getChar(itemindex, ITEM_NAME));
 							CHAR_talkToCli(talker, -1, token, CHAR_COLORWHITE);
 						} else {
-							sprintf(token, "交出%s", ITEM_getChar(itemindex, ITEM_NAME));
+							sprintf(token, "\xBD\xBB\xB3\xF6%s", ITEM_getChar(itemindex, ITEM_NAME));
 							CHAR_talkToCli(talker, -1, token, CHAR_COLORWHITE);
 						}
 						CHAR_setItemIndex(talker, i, -1);
@@ -3610,10 +3610,10 @@ BOOL NPC_EventDelItemEVDEL(int meindex, int talker, char *buf, char *nbuf, int b
 							ITEM_getChar(itemindex, ITEM_NAME),
 							ITEM_getInt(itemindex, ITEM_ID));
 						if (breakflg == 1) {
-							sprintf(token, "%s 坏了", ITEM_getChar(itemindex, ITEM_NAME));
+							sprintf(token, "%s \xBB\xB5\xC1\xCB", ITEM_getChar(itemindex, ITEM_NAME));
 							CHAR_talkToCli(talker, -1, token, CHAR_COLORWHITE);
 						} else {
-							sprintf(token, "交出%s。",
+							sprintf(token, "\xBD\xBB\xB3\xF6%s\xA1\xA3",
 									ITEM_getChar(itemindex, ITEM_NAME));
 							CHAR_talkToCli(talker, -1, token, CHAR_COLORWHITE);
 						}
@@ -3686,7 +3686,7 @@ BOOL NPC_EventAddItem(int meindex, int talker, char *buf) {
 						ITEM_getChar(itemindex, ITEM_NAME),
 						ITEM_getInt(itemindex, ITEM_ID));
 				}
-				sprintf(token, "拿到%s。", ITEM_getChar(itemindex, ITEM_NAME));
+				sprintf(token, "\xC4\xC3\xB5\xBD%s\xA1\xA3", ITEM_getChar(itemindex, ITEM_NAME));
 				CHAR_talkToCli(talker, -1, token, CHAR_COLORWHITE);
 
 				CHAR_sendItemDataOne(talker, ret);
@@ -3722,7 +3722,7 @@ BOOL NPC_EventAddItem(int meindex, int talker, char *buf) {
 					ITEM_getChar(itemindex, ITEM_NAME),
 					ITEM_getInt(itemindex, ITEM_ID));
 			}
-			sprintf(token, "拿到%s。", ITEM_getChar(itemindex, ITEM_NAME));
+			sprintf(token, "\xC4\xC3\xB5\xBD%s\xA1\xA3", ITEM_getChar(itemindex, ITEM_NAME));
 			CHAR_talkToCli(talker, -1, token, CHAR_COLORWHITE);
 
 			CHAR_sendItemDataOne(talker, ret);

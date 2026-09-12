@@ -21,7 +21,7 @@ function LuckTalk_Init( _MeIndex )
 	end
 	return true;
 end
- 
+
 
 function LuckTalk_LoopCallBack( _MeIndex, _TalkIndex, _Msg, _Color, _Channel)
     local rand = math.floor(math.random(1, 100));
@@ -31,7 +31,7 @@ function LuckTalk_LoopCallBack( _MeIndex, _TalkIndex, _Msg, _Color, _Channel)
 	else
 	   talkername=Char.GetData(talkerindex,%对像_原名%);
 	end
-	
+
         if(rand==10)then
            gift=20811;
     elseif(rand==20)then
@@ -55,30 +55,30 @@ function LuckTalk_LoopCallBack( _MeIndex, _TalkIndex, _Msg, _Color, _Channel)
     NLG.GiveItem(talkerindex,gift);
 
  	--设置动作为走路
- 	local walk = 1; 
- 	NLG.SetAction(_MeIndex,walk); 
- 	--随机よ
- 	local TM_DIR = math.floor(math.random(0, 7)); 
+ 	local walk = 1;
+ 	NLG.SetAction(_MeIndex,walk);
+ 	--呴儂方向
+ 	local TM_DIR = math.floor(math.random(0, 7));
  	--限定范围
- 	if ( Char.GetData( _MeIndex, %对像_X%) >= 62+math.floor(math.random(1, 3))) then 
- 		TM_DIR = 6; 
- 	elseif ( Char.GetData( _MeIndex, %对像_X%) <= 62-math.floor(math.random(1, 3))) then 
- 		TM_DIR = 2; 
- 	elseif ( Char.GetData( _MeIndex, %对像_Y%) <= 70-math.floor(math.random(1, 3))) then 
- 		TM_DIR = 4; 
- 	elseif ( Char.GetData( _MeIndex, %对像_Y%) >= 70+math.floor(math.random(1, 3))) then 
- 		TM_DIR = 0; 
- 	end 
+ 	if ( Char.GetData( _MeIndex, %对像_X%) >= 62+math.floor(math.random(1, 3))) then
+ 		TM_DIR = 6;
+ 	elseif ( Char.GetData( _MeIndex, %对像_X%) <= 62-math.floor(math.random(1, 3))) then
+ 		TM_DIR = 2;
+ 	elseif ( Char.GetData( _MeIndex, %对像_Y%) <= 70-math.floor(math.random(1, 3))) then
+ 		TM_DIR = 4;
+ 	elseif ( Char.GetData( _MeIndex, %对像_Y%) >= 70+math.floor(math.random(1, 3))) then
+ 		TM_DIR = 0;
+ 	end
  	--走路
- 	if(NLG.WalkMove(_MeIndex,TM_DIR) ~= 0) then 
- 		NLG.WalkMove(_MeIndex,math.floor(math.random(0, 2))); 
- 	end 
- 	--设置よ
- 	NLG.CharLook(_MeIndex,TM_DIR); 
- 	return ; 
+ 	if(NLG.WalkMove(_MeIndex,TM_DIR) ~= 0) then
+ 		NLG.WalkMove(_MeIndex,math.floor(math.random(0, 2)));
+ 	end
+ 	--扢离方向
+ 	NLG.CharLook(_MeIndex,TM_DIR);
+ 	return ;
 
 end
 
 function LuckTalk_TalkedCallBack( _MeIndex, _TalkIndex, _Msg, _Color, _Channel)
     talkerindex=_TalkIndex;
-end 
+end

@@ -286,7 +286,7 @@ BOOL NPC_CHECKFREEPETSKILL(int toindex, int petindex, int skillID) {
 	if (i == arraysizeof(Code_skill)) {
 		{
 			char buff1[256];
-			sprintf(buff1, "%s不能学特殊技能!!", CHAR_getChar(petindex, CHAR_NAME));
+			sprintf(buff1, "%s\xB2\xBB\xC4\xDC\xD1\xA7\xCC\xD8\xCA\xE2\xBC\xBC\xC4\xDC!!", CHAR_getChar(petindex, CHAR_NAME));
 			CHAR_talkToCli(toindex, -1, buff1, CHAR_COLORYELLOW);
 		}
 		return FALSE;
@@ -295,7 +295,7 @@ BOOL NPC_CHECKFREEPETSKILL(int toindex, int petindex, int skillID) {
 	if (strstr(Code_skill[i].Code, SCode) != NULL) {
 		if (NPC_SkillShopPetCheck(toindex, petindex, skillID) == FALSE) {
 			char buff1[256];
-			sprintf(buff1, "%s现在还不能学%s!", CHAR_getChar(petindex, CHAR_NAME),
+			sprintf(buff1, "%s\xCF\xD6\xD4\xDA\xBB\xB9\xB2\xBB\xC4\xDC\xD1\xA7%s!", CHAR_getChar(petindex, CHAR_NAME),
 					PETSKILL_getChar(skillindex, PETSKILL_NAME));
 			CHAR_talkToCli(toindex, -1, buff1, CHAR_COLORYELLOW);
 			return FALSE;
@@ -303,7 +303,7 @@ BOOL NPC_CHECKFREEPETSKILL(int toindex, int petindex, int skillID) {
 		return TRUE;
 	} else {
 		char buff1[256];
-		sprintf(buff1, "%s不能学%s!!", CHAR_getChar(petindex, CHAR_NAME),
+		sprintf(buff1, "%s\xB2\xBB\xC4\xDC\xD1\xA7%s!!", CHAR_getChar(petindex, CHAR_NAME),
 				PETSKILL_getChar(skillindex, PETSKILL_NAME));
 		CHAR_talkToCli(toindex, -1, buff1, CHAR_COLORYELLOW);
 	}

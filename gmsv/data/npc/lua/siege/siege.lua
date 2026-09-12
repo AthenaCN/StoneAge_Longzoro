@@ -1,6 +1,6 @@
 function Siege_Init( _MeIndex )
 	--戰鬥索引全域變數
-	iBattle2[_MeIndex] = 0;	
+	iBattle2[_MeIndex] = 0;
 	--初始位置全域變數
 	iX2[_MeIndex] = 0;
 	iY2[_MeIndex] = 0;
@@ -43,7 +43,7 @@ function Siege_Walk( _MeIndex)
 	elseif ( Char.GetData( _MeIndex, %对像_X%) <= iX2[_MeIndex]-math.floor(math.random(3, 7))) then
 		TM_DIR = 2;
 	elseif ( Char.GetData( _MeIndex, %对像_Y%) <= iY2[_MeIndex]-math.floor(math.random(3, 7))) then
-		TM_DIR = 4;	
+		TM_DIR = 4;
 	elseif ( Char.GetData( _MeIndex, %对像_Y%) >= iY2[_MeIndex]+math.floor(math.random(3, 7))) then
 		TM_DIR = 0;
 	end
@@ -77,7 +77,7 @@ function Siege_Covered( _MeIndex, _PlayerIndex )
 		--設置站立動作
 		NLG.SetAction(_MeIndex,0);
 		NLG.TalkToCli(_PlayerIndex, "呼噜呼噜呼噜噜…………", %红色%, 0, _MeIndex)
-		
+
 		--敵人陣列信息
 		local TM_EnemyIdAr = {{2535,2536,2537,2538,2539},{2535,2536,2537,2538,2539},{2535,2536,2537,2538,2539},{2535,2536,2537,2538,2539},{2535,2536,2537,2538,2539}};
 		local TM_BaseLevel = {  { LV200 , LV200 } ,
@@ -88,7 +88,7 @@ function Siege_Covered( _MeIndex, _PlayerIndex )
 					};
 		local TM_SkillType = {{0,0},{0,0,0,0},{0,0,0,0,0,0},{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0,0,0}};
 		--保存戰鬥索引
-		iBattle2[_MeIndex] = NLG.CreateBattle( _PlayerIndex, _MeIndex, nil, TM_EnemyIdAr[PlayerNumber], TM_BaseLevel[PlayerNumber], TM_SkillType[PlayerNumber]); 
+		iBattle2[_MeIndex] = NLG.CreateBattle( _PlayerIndex, _MeIndex, nil, TM_EnemyIdAr[PlayerNumber], TM_BaseLevel[PlayerNumber], TM_SkillType[PlayerNumber]);
 		--設置戰鬥勝利事件
 		Battle.SetWinEvent("data/npc/lua/siege/siege.lua","Siege_BattleOver",iBattle2[_MeIndex]);
 		--取消踩踏回應事件
@@ -196,14 +196,14 @@ function Siege_Talked( _MeIndex, _PlayerIndex, _Msg, _Color, _Channel)
 	--檢查玩家是否站在NPC面前
 	if(NLG.CheckInFront(_PlayerIndex, _MeIndex, 2) == false) then
 		return ;
-	end 
+	end
 	--面向玩家
 	local i;
 	i = Char.GetData(_PlayerIndex, %对像_方向%);
-	if i >= 4 then 
+	if i >= 4 then
 		i = i - 4;
 	else
-		i = i + 4;		
+		i = i + 4;
 	end
 	Char.SetData(_MeIndex, %对像_方向%,i);
 	NLG.UpChar( _MeIndex);
@@ -236,7 +236,7 @@ function Siege_Talked( _MeIndex, _PlayerIndex, _Msg, _Color, _Channel)
 					};
 		local TM_SkillType = {{0,0},{0,0,0,0},{0,0,0,0,0,0},{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0,0,0}};
 	--保存戰鬥索引
-	iBattle2[_MeIndex] = NLG.CreateBattle( _PlayerIndex, _MeIndex, nil, TM_EnemyIdAr[PlayerNumber], TM_BaseLevel[PlayerNumber], TM_SkillType[PlayerNumber]); 
+	iBattle2[_MeIndex] = NLG.CreateBattle( _PlayerIndex, _MeIndex, nil, TM_EnemyIdAr[PlayerNumber], TM_BaseLevel[PlayerNumber], TM_SkillType[PlayerNumber]);
 	--設置戰鬥勝利事件
 	Battle.SetWinEvent("data/npc/lua/siege/siege.lua","Siege_BattleOver",iBattle2[_MeIndex]);
 	--取消踩踏回應事件
@@ -257,7 +257,7 @@ function Siege_Talked2( _MeIndex, _PlayerIndex, _Msg, _Color, _Channel)
 	--檢查玩家是否站在NPC面前
 	if(NLG.CheckInFront(_PlayerIndex, _MeIndex, 1) == false) then
 		return ;
-	end 
+	end
 	--正在戰鬥中的對話事件
 	NLG.TalkToCli(_PlayerIndex, "呼噜噜噜～～～！", %红色%, 0, _MeIndex);
 	NLG.TalkToCli(_PlayerIndex, Char.GetData( _PlayerIndex,%对像_原名%) .. "：(似乎已经有人在和这只怪物战斗了，我想我还是去看看有没有别只怪物在作乱吧。)", _Color, 0);

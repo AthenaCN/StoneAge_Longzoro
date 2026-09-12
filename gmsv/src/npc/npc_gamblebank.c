@@ -494,7 +494,7 @@ BOOL NPC_GambleBank_AddItem(int meindex, int toindex, int itemId, int count) {
 		ITEM_getChar(itemindex, ITEM_UNIQUECODE),
 		ITEM_getChar(itemindex, ITEM_NAME),
 		ITEM_getInt(itemindex, ITEM_ID));
-	sprintf(token, "拿到%s", ITEM_getChar(itemindex, ITEM_NAME));
+	sprintf(token, "\xC4\xC3\xB5\xBD%s", ITEM_getChar(itemindex, ITEM_NAME));
 	CHAR_talkToCli(toindex, -1, token, CHAR_COLORWHITE);
 	CHAR_sendItemDataOne(toindex, ret);
 	CHAR_setInt(toindex, CHAR_GAMBLENUM, CHAR_getInt(toindex, CHAR_GAMBLENUM) - count);

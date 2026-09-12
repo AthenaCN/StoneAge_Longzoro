@@ -1,6 +1,6 @@
 NPCCREATE
 
-# æœˆçƒå«¦å¨¥
+# ÔÂÇòæÏ¶ğ
 {
 floorid=8255
 borncenter=35,5
@@ -13,7 +13,7 @@ ignoreinvincible=1
 enemy=changeevent|file:my/zhanshen/npc1.arg
 }
 
-# è€è¨
+# ÀÏÈø
 {
 floorid=500
 borncenter=222,339
@@ -26,7 +26,7 @@ ignoreinvincible=1
 enemy=changeevent|file:my/zhanshen/npc2.arg
 }
 
-# è¿œå¤ç²¾çµç‹
+# Ô¶¹Å¾«ÁéÍõ
 {
 floorid=3008
 borncenter=28,26
@@ -39,7 +39,7 @@ ignoreinvincible=1
 enemy=changeevent|file:my/zhanshen/npc3.arg
 }
 
-#é›ªé›ªå…¬ä¸»
+#Ñ©Ñ©¹«Ö÷
 {
 name=Ñ©Ñ©¹«Ö÷
 floorid=30670
@@ -50,7 +50,7 @@ enemy=sb_dou|file:my/zhanshen/npc4.arg
 graphicname=100784
 }
 
-#åœ°åœ£å…½
+#µØÊ¥ÊŞ
 {
 name=µØÊ¥ÊŞ
 floorid=30
@@ -61,7 +61,7 @@ enemy=sb_dou|file:my/zhanshen/npc5.arg
 graphicname=101760
 }
 
-#æ°´åœ£å…½
+#Ë®Ê¥ÊŞ
 {
 name=Ë®Ê¥ÊŞ
 floorid=31
@@ -72,7 +72,7 @@ enemy=sb_dou|file:my/zhanshen/npc6.arg
 graphicname=100872
 }
 
-#ç«åœ£å…½
+#»ğÊ¥ÊŞ
 {
 name=»ğÊ¥ÊŞ
 floorid=32
@@ -83,7 +83,7 @@ enemy=sb_dou|file:my/zhanshen/npc7.arg
 graphicname=101616
 }
 
-#é£åœ£å…½
+#·çÊ¥ÊŞ
 {
 name=·çÊ¥ÊŞ
 floorid=33
@@ -94,7 +94,7 @@ enemy=sb_dou|file:my/zhanshen/npc8.arg
 graphicname=101180
 }
 
-#åœ£å…½ç‹
+#Ê¥ÊŞÍõ
 {
 floorid=34
 borncenter=31,20
@@ -107,7 +107,7 @@ name=Ê¥ÊŞÍõ
 enemy=changeevent|file:my/zhanshen/npc9.arg
 }
 
-#è¿œå¤é­”ç‹
+#Ô¶¹ÅÄ§Íõ
 {
 name=Ô¶¹ÅÄ§Íõ
 floorid=35
@@ -118,7 +118,7 @@ enemy=sb_dou|file:my/zhanshen/npc10.arg
 graphicname=101157
 }
 
-#è¿œå¤ä¹‹ç¥
+#Ô¶¹ÅÖ®Éñ
 {
 floorid=36
 borncenter=15,14
@@ -131,7 +131,7 @@ name=Ô¶¹ÅÖ®Éñ
 enemy=changeevent|file:my/zhanshen/npc11.arg
 }
 
-#é£çš„å®ˆæŠ¤å…½
+#·çµÄÊØ»¤ÊŞ
 {
 floorid=11215
 borncenter=6,6
@@ -144,7 +144,7 @@ name=·çµÄÊØ»¤ÊŞ
 enemy=changeevent|file:my/zhanshen/npc12.arg
 }
 
-#åœ°çš„å®ˆæŠ¤å…½
+#µØµÄÊØ»¤ÊŞ
 {
 floorid=21015
 borncenter=8,5
@@ -157,7 +157,7 @@ name=µØµÄÊØ»¤ÊŞ
 enemy=changeevent|file:my/zhanshen/npc13.arg
 }
 
-#æ°´çš„å®ˆæŠ¤å…½
+#Ë®µÄÊØ»¤ÊŞ
 {
 floorid=21215
 borncenter=25,23
@@ -170,7 +170,7 @@ name=Ë®µÄÊØ»¤ÊŞ
 enemy=changeevent|file:my/zhanshen/npc14.arg
 }
 
-#ç«çš„å®ˆæŠ¤å…½
+#»ğµÄÊØ»¤ÊŞ
 {
 floorid=30016
 borncenter=34,30

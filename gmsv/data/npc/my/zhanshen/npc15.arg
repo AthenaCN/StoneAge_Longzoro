@@ -1,18 +1,18 @@
-####èº«ä¸Šæœ‰å§”æ‰˜####
+####ÉíÉÏÓÐÎ¯ÍÐ####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:ENDEV=244
 NomalWindowMsg:ÄãÊÇÒ»¸öÓ¢ÐÛ!
 EventEnd
 
-####èº«ä¸Šæœ‰å§”æ‰˜####
+####ÉíÉÏÓÐÎ¯ÍÐ####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:ITEM=31080
 NomalWindowMsg:ÄãÊÇÒ»¸öÓ¢ÐÛ!
 EventEnd
 
-###ç«##
+###»ð##
 EventNo:-1
 TYPE:ACCEPT
 EVENT:NOWEV=244
@@ -22,14 +22,14 @@ GetItem:31080
 ItemFullMsg:Äã²»×¼±¸ÒªÕâ¸öÁËÃ´£¬ÉíÉÏ×°ÄÇÃ´¶à¶«Î÷£¿
 EventEnd
 
-####èº«ä¸Šæœ‰å§”æ‰˜####
+####ÉíÉÏÓÐÎ¯ÍÐ####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:ENDEV=243
 NomalWindowMsg:ÄãÊÇÒ»¸öÓ¢ÐÛ!
 EventEnd
 
-####èº«ä¸Šæœ‰å§”æ‰˜####
+####ÉíÉÏÓÐÎ¯ÍÐ####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>0

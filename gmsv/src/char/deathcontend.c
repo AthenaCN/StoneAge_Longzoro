@@ -1090,12 +1090,12 @@ BOOL PKLIST_CheckPKSameTeam(int charaindex) {
 		if (!CHAR_CHECKINDEX(pindex))
 			continue;
 		if (CHAR_getInt(pindex, CHAR_LV) < 120) {
-			sprintf(szMsg, "你的队里 %s 等级 %d 未达比赛标准喔！", CHAR_getChar(pindex, CHAR_NAME), CHAR_getInt(pindex, CHAR_LV));
+			sprintf(szMsg, "\xC4\xE3\xB5\xC4\xB6\xD3\xC0\xEF %s \xB5\xC8\xBC\xB6 %d \xCE\xB4\xB4\xEF\xB1\xC8\xC8\xFC\xB1\xEA\xD7\xBC\xE0\xB8\xA3\xA1", CHAR_getChar(pindex, CHAR_NAME), CHAR_getInt(pindex, CHAR_LV));
 			CHAR_talkToCli(charaindex, -1, szMsg, CHAR_COLORYELLOW);
 			return FALSE;
 		}
 		if (CHAR_getInt(pindex, CHAR_TRANSMIGRATION) < 3) {
-			sprintf(szMsg, "你的队里 %s 转生数 %d 转，未达比赛标准喔！", CHAR_getChar(pindex, CHAR_NAME), CHAR_getInt(pindex, CHAR_TRANSMIGRATION));
+			sprintf(szMsg, "\xC4\xE3\xB5\xC4\xB6\xD3\xC0\xEF %s \xD7\xAA\xC9\xFA\xCA\xFD %d \xD7\xAA\xA3\xAC\xCE\xB4\xB4\xEF\xB1\xC8\xC8\xFC\xB1\xEA\xD7\xBC\xE0\xB8\xA3\xA1", CHAR_getChar(pindex, CHAR_NAME), CHAR_getInt(pindex, CHAR_TRANSMIGRATION));
 			CHAR_talkToCli(charaindex, -1, szMsg, CHAR_COLORYELLOW);
 			return FALSE;
 		}

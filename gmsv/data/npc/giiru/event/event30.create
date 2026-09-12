@@ -1,6 +1,6 @@
 NPCCREATE
 
-#é‡‡çŸ³æ‰€ç®¡ç†äºº
+#²ÉÊ¯Ëù¹ÜÀíÈË
 {
 floorid=31902
 borncorner=9,7,9,7
@@ -13,7 +13,7 @@ name=²ÉÊ¯Ëù¹ÜÀíÈË
 enemy=changeevent|file:giiru/event/event30_1
 }
 
-#å“ˆæ©ï¼ç½—ä¹Œï¼ˆçŸ³ä¹‹ç²¾çµï¼‰
+#¹ş¶÷£®ÂŞÎÚ£¨Ê¯Ö®¾«Áé£©
 {
 floorid=31909
 borncorner=10,8,10,8
@@ -26,7 +26,7 @@ name=¾«ÁéÖ®Ê¯
 enemy=changeevent|file:giiru/event/event30_2
 }
 
-#è¾¾é‚£æ‘é•¿è€
+#´ïÄÇ´å³¤ÀÏ
 {
 floorid=5106
 borncorner=25,15,25,15
@@ -39,7 +39,7 @@ name=´ïÄÇµÄ³¤ÀÏ
 enemy=changeevent|file:giiru/event/event30_3
 }
 
-#ç¦å°”å¾·æ‘é•¿è€
+#¸£¶ûµÂ´å³¤ÀÏ
 {
 floorid=5005
 borncorner=19,15,19,15
@@ -52,7 +52,7 @@ name=¸£¶ûµÂµÄ³¤ÀÏ
 enemy=changeevent|file:giiru/event/event30_4
 }
 
-#åº“ä¼Šè€çˆ·çˆ·
+#¿âÒÁÀÏÒ¯Ò¯
 {
 floorid=30600
 borncorner=15,10,15,10
@@ -65,7 +65,7 @@ name=¿âÒÁÀÏÒ¯Ò¯
 enemy=changeevent|file:king/event69_1
 }
 
-#æ‰¬æ©ç±³éƒ½ï¼ˆæœ¨ä¹‹ç²¾çµï¼‰
+#Ñï¶÷Ã×¶¼£¨Ä¾Ö®¾«Áé£©
 {
 floorid=31911
 borncorner=10,6,10,6
@@ -78,7 +78,7 @@ name=¾«ÁéÖ®Ä¾
 enemy=changeevent|file:giiru/event/event30_6
 }
 
-#å“ˆæ©çš„ä½¿è€…ï¼ˆä¼ é€ç©å®¶åˆ°çœŸçŸ¥ä¹‹é—´ï¼‰
+#¹ş¶÷µÄÊ¹Õß£¨´«ËÍÍæ¼Òµ½ÕæÖªÖ®¼ä£©
 {
 floorid=31909
 borncorner=11,3,11,3

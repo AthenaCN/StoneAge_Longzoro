@@ -15,7 +15,7 @@ TYPE:MESSAGE
 EVENT:ENDEV=12&ITEM=2736,ENDEV=42&ITEM=2736,ENDEV=41&ITEM=2736
 NomalWindowMsg:\n怎样，像你这样身手不差的人要不要加入帮特一族啊。\n不过帮特一族也不是那么简单就可以加入的啦。
 EventEnd
- 
+
 EventNo:-1
 TYPE:ACCEPT
 EVENT:ENDEV=41&ITEM!=2736&ENDEV=4&NOWEV=42

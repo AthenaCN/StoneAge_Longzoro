@@ -1384,7 +1384,7 @@ void NPC_EventSetFlg(int talker, int shiftbit)
 					float fGetFame = (float)iGetFame / 100;
 					// 导师在线上
 					CHAR_setWorkInt(i, CHAR_WORK_GET_TEACHER_FAME, CHAR_getWorkInt(i, CHAR_WORK_GET_TEACHER_FAME) + iGetFame);
-					sprintf(szMsg, "获得学生 %s %.2f 点声望", CHAR_getChar(talker, CHAR_NAME), fGetFame);
+					sprintf(szMsg, "\xBB\xF1\xB5\xC3\xD1\xA7\xC9\xFA %s %.2f \xB5\xE3\xC9\xF9\xCD\xFB", CHAR_getChar(talker, CHAR_NAME), fGetFame);
 					CHAR_talkToCli(i, -1, szMsg, CHAR_COLORYELLOW);
 					break;
 				}

@@ -1,4 +1,4 @@
-#ç»™çŽ©å®¶å¥–å“
+#¸øÍæ¼Ò½±Æ·
 EventNo:-1
 TYPE:MESSAGE
 EVENT:ENDEV=232&ITEM=30910&ITEM=30944
@@ -8,14 +8,14 @@ GetPet:2395,2396,2397,2398
 PetFullMsg:ÇëÄã½«ÄãÉíÉÏµÄ³èÎï¼õÉÙÒ»Ð©ºÃÂð£¿
 EventEnd
 
-#è‡´è°¢
+#ÖÂÐ»
 EventNo:-1
 TYPE:MESSAGE
 EVENT:ENDEV=232
 NomalWindowMsg:·Ç³£¸ÐÐ»Äã½â¾öÁËÕâ´ÎÆ½ÂèÊÂ¼þ~~~~
 EventEnd
 
-#### æœªæŽ¥ä»»åŠ¡å¯¹è¯ ####
+#### Î´½ÓÈÎÎñ¶Ô»° ####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>0

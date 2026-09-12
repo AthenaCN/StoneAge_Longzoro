@@ -1,5 +1,5 @@
 NPCCREATE
-#######ã„ã˜ã‚ã‚‹ãªã‚¬ãƒ³ã‚¾â–¡ãƒ•ãƒç¦¿##########
+#######¤¤¤¸¤ï¤ë¤Ê¥¬¥ó¥¾¡õ¥Õ¥Ğ¶d##########
 {
 floorid=2000
 borncenter=66,36,1,1
@@ -82,7 +82,7 @@ name=ÌÚÁúĞÇ
 enemy=sb_ganzo|file:my/xingxing/xingxing7.arg
 }
 
-#å·¡é€»
+#Ñ²Âß
 {
 floorid=2000
 borncorner=72,33,72,33
@@ -95,7 +95,7 @@ name=Ê¯Æ÷´åÊØÎÀ
 enemy=airplane|file:my/xingxing/shouwei.arg
 }
 
-#å·¡é€»
+#Ñ²Âß
 {
 floorid=2000
 borncorner=107,79,107,79

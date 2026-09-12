@@ -1,5 +1,5 @@
 NPCCREATE
-#è¨å§†å‰å°”çš„ç‰¹æŠ€é€š
+#ÈøÄ·¼ª¶ûµÄÌØ¼¼Í¨
 {
 floorid=1002
 borncenter=15,13,1,1
@@ -12,7 +12,7 @@ name=·¨ÊõÍ¨
 enemy=windowman|conff:sainasu/jujutu01.conf
 }
 
-#ç›ä¸½é‚£æ–¯çš„ç‰¹æŠ€é€š
+#ÂêÀöÄÇË¹µÄÌØ¼¼Í¨
 {
 floorid=2002
 borncenter=17,15,1,1
@@ -25,7 +25,7 @@ name=·¨ÊõÍ¨
 enemy=windowman|conff:sainasu/jujutu01.conf
 }
 
-#åŠ åŠ çš„ç‰¹æŠ€é€š
+#¼Ó¼ÓµÄÌØ¼¼Í¨
 {
 floorid=3002
 borncenter=16,19,1,1
@@ -37,7 +37,7 @@ graphicname=16065
 name=·¨ÊõÍ¨
 enemy=windowman|conff:sainasu/jujutu01.conf
 }
-#å¡é²å®ƒé‚£çš„ç‰¹æŠ€é€š
+#¿¨Â³ËüÄÇµÄÌØ¼¼Í¨
 {
 floorid=4002
 borncenter=13,15,1,1

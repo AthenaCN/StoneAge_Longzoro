@@ -1,6 +1,6 @@
 NPCCREATE
 
-# æ¸”æ‘
+# Óæ´å
 {
 floorid=2000
 borncenter=82,49
@@ -23,7 +23,7 @@ dir=4
 ignoreinvincible=1
 enemy=transman|file:my/tiancai/yucun5.arg
 }
-# æ¸”æ‘
+# Óæ´å
 {
 floorid=2000
 borncenter=83,49
@@ -35,7 +35,7 @@ dir=4
 ignoreinvincible=1
 enemy=transman|file:my/tiancai/yucun1.arg
 }
-# æ¸”æ‘
+# Óæ´å
 {
 floorid=2000
 borncenter=84,49

@@ -1,15 +1,15 @@
-########娆у悏濮嗙壒########
+########欧吉姆特########
 
 NomalMainMsg:不知她现在过的怎么样？！
 
-#### 鏈帴浠诲姟瀵硅瘽 ####
+#### 未接任务对话 ####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>0&ITEM=1815
 NomalWindowMsg:世界上没有不疼爱自己儿女的父母，所以请记得别因为一些误会就做出害人害己的事情，这就是我的感想。
 EventEnd
 
-###韬笂鏈夋瘝浜茬殑鏃ヨ###
+###身上有母亲的日记###
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>29&ENDEV=4&ITEM=1814
@@ -25,7 +25,7 @@ GetItem:1815
 DelItem:1814
 EventEnd
 
-#### 鏈帴浠诲姟瀵硅瘽 ####
+#### 未接任务对话 ####
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>0

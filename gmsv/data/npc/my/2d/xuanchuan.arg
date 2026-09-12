@@ -1,6 +1,6 @@
 NomalMainMsg:´«µ¥ÅÉ²»Íê¡£¡£¡£ÄÄÎ»ºÃÐÄµÄ°ïÎÒÄÃ¼¸ÕÅÈÓµ½À¬»øÍ²Àï°¡£¿£¿£¿
 
-#èº«ä¸Šå·²æœ‰å®£ä¼ å•
+#ÉíÉÏÒÑÓÐÐû´«µ¥
 EventNo:-1
 TYPE:MESSAGE
 EVENT:LV>79&TRANS>4&ENDEV=184&NOWEV=189&ITEM=19420
@@ -8,7 +8,7 @@ NomalWindowMsg:ÎÒÃÇµÄ¹¤×÷ÊÒ¾ÍÔÚ¿Â¶û¿Ë´å24H±ãÀûµêÀï£¬¸Ï¿ìÈ¥°É¡£¡£¡£
 EventEnd
 
 
-####é‡æ‹¿####
+####ÖØÄÃ####
 EventNo:-1
 TYPE:ACCEPT
 EVENT:LV>79&TRANS>4&ENDEV=184&NOWEV=189&ITEM!=19420
@@ -19,7 +19,7 @@ ItemFullMsg:ÎïÆ·Ì«¶àÁË¡£¡£
 NpcWarp:3020.13.14,4020.13.14,40.15.13,31501.10.26,31301.28.12,5001.20.20,10103.32.33
 EventEnd
 
-####æŽ¥ä»»åŠ¡ç»™æ ‡189##
+####½ÓÈÎÎñ¸ø±ê189##
 EventNo:189
 TYPE:REQUEST
 EVENT:LV>79&TRANS>4&ENDEV=31&ENDEV=184

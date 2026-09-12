@@ -1705,7 +1705,7 @@ void lssproto_HL_recv(int fd, int flg)
 			.flg |= BSIDE_FLG_HELP_OK;
 
 		snprintf(msgbuf, sizeof(msgbuf),
-				 "%s 在求救！",
+				 "%s \xD4\xDA\xC7\xF3\xBE\xC8\xA3\xA1",
 				 CHAR_getChar(fd_charaindex, CHAR_NAME));
 	} else {
 		/* お助けモードのフラグを消す (清除辅助模式标志) */
@@ -1716,7 +1716,7 @@ void lssproto_HL_recv(int fd, int flg)
 			.flg &= ~BSIDE_FLG_HELP_OK;
 
 		snprintf(msgbuf, sizeof(msgbuf),
-				 "%s 决定拒绝帮助。",
+				 "%s \xBE\xF6\xB6\xA8\xBE\xDC\xBE\xF8\xB0\xEF\xD6\xFA\xA1\xA3",
 				 CHAR_getChar(fd_charaindex, CHAR_NAME));
 	}
 
@@ -2063,9 +2063,9 @@ void lssproto_KTEAM_recv(int fd, int si)
 		CHAR_talkToCli(charaindex, -1, "踢除失败！", CHAR_COLORYELLOW);
 	} else {
 		char buf1[256];
-		sprintf(buf1, "队长[%s]将你踢除！", CHAR_getUseName(charaindex));
+		sprintf(buf1, "\xB6\xD3\xB3\xA4[%s]\xBD\xAB\xC4\xE3\xCC\xDF\xB3\xFD\xA3\xA1", CHAR_getUseName(charaindex));
 		CHAR_talkToCli(pindex, -1, buf1, CHAR_COLORYELLOW);
-		sprintf(buf1, "将[%s]踢除出团队！", CHAR_getUseName(pindex));
+		sprintf(buf1, "\xBD\xAB[%s]\xCC\xDF\xB3\xFD\xB3\xF6\xCD\xC5\xB6\xD3\xA3\xA1", CHAR_getUseName(pindex));
 		CHAR_talkToCli(charaindex, -1, buf1, CHAR_COLORYELLOW);
 	}
 }

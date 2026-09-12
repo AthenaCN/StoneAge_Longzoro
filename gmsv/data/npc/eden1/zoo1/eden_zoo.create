@@ -1,6 +1,6 @@
 NPCCREATE
 
-#åŠ¨ç‰©å›­å›­é•¿ï¼ˆä¼Šç”¸åŠ¨ç‰©å›­å›­é•¿ï¼Œé—å¤±ä¸‰åªåŠ¨ç‰©ï¼‰
+#¶¯ÎïÔ°Ô°³¤£¨ÒÁµé¶¯ÎïÔ°Ô°³¤£¬ÒÅÊ§ÈıÖ»¶¯Îï£©
 {
 floorid=7001
 borncorner=29,8,31,10
@@ -13,7 +13,7 @@ name=É³ÀûË¹Ô°³¤
 enemy=changeevent|file:eden1/zoo1/manager82_01
 }
 
-#é¥²è‚²å‘˜Aï¼ˆç®¡ç†é›·å°”èƒ–çš„åŠ¨ç‰©å›­å‘˜å·¥ï¼‰
+#ËÇÓıÔ±A£¨¹ÜÀíÀ×¶ûÅÖµÄ¶¯ÎïÔ°Ô±¹¤£©
 {
 floorid=7001
 borncorner=19,46,21,48
@@ -26,7 +26,7 @@ name=²¼ÒÁÌ«ÀÉ
 enemy=changeevent|file:eden1/zoo1/employee82_01
 }
 
-#é¥²è‚²å‘˜Bï¼ˆä¼Šç”¸åŠ¨ç‰©å›­é¥²è‚²å‘˜ï¼‰
+#ËÇÓıÔ±B£¨ÒÁµé¶¯ÎïÔ°ËÇÓıÔ±£©
 {
 floorid=7001
 borncorner=36,16,38,18
@@ -39,7 +39,7 @@ name=öŞµº´ÎÀÉ
 enemy=changeevent|file:eden1/zoo1/employee82_02
 }
 
-#ä¹‰å·¥ï¼ˆä¼Šç”¸åŠ¨ç‰©å›­æ‰“æ‰«å‘˜ï¼‰
+#Òå¹¤£¨ÒÁµé¶¯ÎïÔ°´òÉ¨Ô±£©
 {
 floorid=7001
 borncorner=4,11,6,13
@@ -52,7 +52,7 @@ name=Òå¹¤
 enemy=changeevent|file:eden1/zoo1/employee82_03
 }
 
-#é¥²æ–™ç­’Aï¼ˆè‰é£Ÿæ€§é¥²æ–™ä¸€å·ï¼‰
+#ËÇÁÏÍ²A£¨²İÊ³ĞÔËÇÁÏÒ»ºÅ£©
 {
 floorid=7001
 borncorner=43,7,43,7
@@ -65,7 +65,7 @@ name=ËÇÁÏÍ²
 enemy=changeevent|file:eden1/zoo1/barrel82_01
 }
 
-#é¥²æ–™ç­’Bï¼ˆè‰é£Ÿæ€§é¥²æ–™äºŒå·ï¼‰
+#ËÇÁÏÍ²B£¨²İÊ³ĞÔËÇÁÏ¶şºÅ£©
 {
 floorid=7001
 borncorner=44,7,44,7
@@ -78,7 +78,7 @@ name=ËÇÁÏÍ²
 enemy=changeevent|file:eden1/zoo1/barrel82_02
 }
 
-#é¥²æ–™ç­’Cï¼ˆè‚‰é£Ÿæ€§é¥²æ–™ä¸€å·ï¼‰
+#ËÇÁÏÍ²C£¨ÈâÊ³ĞÔËÇÁÏÒ»ºÅ£©
 {
 floorid=7001
 borncorner=43,8,43,8
@@ -91,7 +91,7 @@ name=ËÇÁÏÍ²
 enemy=changeevent|file:eden1/zoo1/barrel82_03
 }
 
-#é¥²æ–™ç­’Dï¼ˆè‚‰é£Ÿæ€§é¥²æ–™äºŒå·ï¼‰
+#ËÇÁÏÍ²D£¨ÈâÊ³ĞÔËÇÁÏ¶şºÅ£©
 {
 floorid=7001
 borncorner=44,8,44,8
@@ -104,7 +104,7 @@ name=ËÇÁÏÍ²
 enemy=changeevent|file:eden1/zoo1/barrel82_04
 }
 
-#é¥²æ–™ç­’Eï¼ˆæ‚é£Ÿæ€§é¥²æ–™ä¸€å·ï¼‰
+#ËÇÁÏÍ²E£¨ÔÓÊ³ĞÔËÇÁÏÒ»ºÅ£©
 {
 floorid=7001
 borncorner=43,9,43,9
@@ -117,7 +117,7 @@ name=ËÇÁÏÍ²
 enemy=changeevent|file:eden1/zoo1/barrel82_05
 }
 
-#é¥²æ–™ç­’Fï¼ˆæ‚é£Ÿæ€§é¥²æ–™äºŒå·ï¼‰
+#ËÇÁÏÍ²F£¨ÔÓÊ³ĞÔËÇÁÏ¶şºÅ£©
 {
 floorid=7001
 borncorner=44,9,44,9
@@ -130,7 +130,7 @@ name=ËÇÁÏÍ²
 enemy=changeevent|file:eden1/zoo1/barrel82_06
 }
 
-#å¸ƒå‘Šæ Aï¼ˆå¸ƒä¼Šç±»ç”Ÿæ€ç¯å¢ƒä»‹ç»ï¼‰
+#²¼¸æÀ¸A£¨²¼ÒÁÀàÉúÌ¬»·¾³½éÉÜ£©
 {
 floorid=7001
 borncorner=18,54,18,54
@@ -143,7 +143,7 @@ name=²¼¸æÀ¸
 enemy=npcgen_signboard|file:eden1/zoo1/signboard82_01
 }
 
-#å¸ƒå‘Šæ Bï¼ˆé²¨é±¼ç±»ç”Ÿæ€ç¯å¢ƒä»‹ç»ï¼‰
+#²¼¸æÀ¸B£¨öèÓãÀàÉúÌ¬»·¾³½éÉÜ£©
 {
 floorid=7001
 borncorner=24,35,24,35
@@ -156,7 +156,7 @@ name=²¼¸æÀ¸
 enemy=npcgen_signboard|file:eden1/zoo1/signboard82_02
 }
 
-#å¸ƒå‘Šæ Cï¼ˆå…‹å…‹å°”ç±»ç”Ÿæ€ç¯å¢ƒä»‹ç»ï¼‰
+#²¼¸æÀ¸C£¨¿Ë¿Ë¶ûÀàÉúÌ¬»·¾³½éÉÜ£©
 {
 floorid=7001
 borncorner=18,25,18,25
@@ -169,7 +169,7 @@ name=²¼¸æÀ¸
 enemy=npcgen_signboard|file:eden1/zoo1/signboard82_03
 }
 
-#æ¸¸å®¢Aï¼ˆè¢«å°å­©æŠ±çš„å¸ƒå¶ï¼‰
+#ÓÎ¿ÍA£¨±»Ğ¡º¢±§µÄ²¼Å¼£©
 {
 floorid=7001
 borncorner=35,45,37,47
@@ -182,7 +182,7 @@ name=Ğ¡Å®º¢
 enemy=changeevent|file:eden1/zoo1/tourist82_01
 }
 
-#æ¸¸å®¢Bï¼ˆåŠ¨ç‰©ä¿æŠ¤è”ç›Ÿä¼Šç”¸å¥³ï¼‰
+#ÓÎ¿ÍB£¨¶¯Îï±£»¤ÁªÃËÒÁµéÅ®£©
 {
 floorid=7001
 borncorner=20,38,22,40
@@ -195,7 +195,7 @@ name=Å®×Ó
 enemy=changeevent|file:eden1/zoo1/tourist82_02
 }
 
-#æ¸¸å®¢Cï¼ˆä¼Šç”¸è›™å¥³ï¼‰
+#ÓÎ¿ÍC£¨ÒÁµéÍÜÅ®£©
 {
 floorid=7001
 borncorner=19,29,21,31
@@ -208,7 +208,7 @@ name=Å®×Ó
 enemy=changeevent|file:eden1/zoo1/tourist82_03
 }
 
-#æ¸¸å®¢Dï¼ˆä¼Šç”¸åŠ¨ç‰©å­¦è€…ï¼‰
+#ÓÎ¿ÍD£¨ÒÁµé¶¯ÎïÑ§Õß£©
 {
 floorid=7001
 borncorner=3,35,5,37
@@ -221,7 +221,7 @@ name=ÄĞÊ¿
 enemy=changeevent|file:eden1/zoo1/tourist82_04
 }
 
-#æ¸¸å®¢Eï¼ˆä¼Šç”¸è•ƒèŒ„ç”·ï¼‰
+#ÓÎ¿ÍE£¨ÒÁµéŞ¬ÇÑÄĞ£©
 {
 floorid=7001
 borncorner=18,13,20,15
@@ -234,7 +234,7 @@ name=ÇàÄê
 enemy=changeevent|file:eden1/zoo1/tourist82_05
 }
 
-#æ¸¸å®¢Fï¼ˆå® ç‰©åº—å‘˜å·¥ï¼‰
+#ÓÎ¿ÍF£¨³èÎïµêÔ±¹¤£©
 {
 floorid=7001
 borncorner=42,33,44,35
@@ -247,7 +247,7 @@ name=³èÎïµêÔ±¹¤
 enemy=changeevent|file:eden1/zoo1/tourist82_06
 }
 
-#å¸ƒå‘Šæ Dï¼ˆç«‹æœé²æ–¯ç”Ÿæ€ç¯å¢ƒä»‹ç»ï¼‰
+#²¼¸æÀ¸D£¨Á¢¶ÅÂ³Ë¹ÉúÌ¬»·¾³½éÉÜ£©
 {
 floorid=7001
 borncorner=11,9,11,9
@@ -260,7 +260,7 @@ name=²¼¸æÀ¸
 enemy=npcgen_signboard|file:eden1/zoo1/signboard00_01
 }
 
-#å¸ƒå‘Šæ Eï¼ˆé£å¤©è›™ç±»ç”Ÿæ€ç¯å¢ƒä»‹ç»ï¼‰
+#²¼¸æÀ¸E£¨·ÉÌìÍÜÀàÉúÌ¬»·¾³½éÉÜ£©
 {
 floorid=7001
 borncorner=16,40,16,40
@@ -273,7 +273,7 @@ name=²¼¸æÀ¸
 enemy=npcgen_signboard|file:eden1/zoo1/signboard00_02
 }
 
-#å¸ƒå‘Šæ Fï¼ˆå¡å…‹é²ç±»ç”Ÿæ€ç¯å¢ƒä»‹ç»ï¼‰
+#²¼¸æÀ¸F£¨¿¨¿ËÂ³ÀàÉúÌ¬»·¾³½éÉÜ£©
 {
 floorid=7001
 borncorner=24,51,24,51
@@ -286,7 +286,7 @@ name=²¼¸æÀ¸
 enemy=npcgen_signboard|file:eden1/zoo1/signboard00_03
 }
 
-#å¸ƒå‘Šæ Gï¼ˆå¸ƒå…‹ç±»ç”Ÿæ€ç¯å¢ƒä»‹ç»ï¼‰
+#²¼¸æÀ¸G£¨²¼¿ËÀàÉúÌ¬»·¾³½éÉÜ£©
 {
 floorid=7001
 borncorner=24,20,24,20
@@ -299,7 +299,7 @@ name=²¼¸æÀ¸
 enemy=npcgen_signboard|file:eden1/zoo1/signboard00_04
 }
 
-#å¸ƒå‘Šæ Hï¼ˆé•¿æ¯›è±¡ç±»ç”Ÿæ€ç¯å¢ƒä»‹ç»ï¼‰
+#²¼¸æÀ¸H£¨³¤Ã«ÏóÀàÉúÌ¬»·¾³½éÉÜ£©
 {
 floorid=7001
 borncorner=39,47,39,47
@@ -312,7 +312,7 @@ name=²¼¸æÀ¸
 enemy=npcgen_signboard|file:eden1/zoo1/signboard00_05
 }
 
-#å¸ƒå‘Šæ Iï¼ˆçŠ€ç‰›ç±»ç”Ÿæ€ç¯å¢ƒä»‹ç»ï¼‰
+#²¼¸æÀ¸I£¨Ï¬Å£ÀàÉúÌ¬»·¾³½éÉÜ£©
 {
 floorid=7001
 borncorner=39,29,39,29
@@ -325,7 +325,7 @@ name=²¼¸æÀ¸
 enemy=npcgen_signboard|file:eden1/zoo1/signboard00_06
 }
 
-#ç«‹æœé²æ–¯01ï¼ˆç«‹æœé²æ–¯01ï¼‰
+#Á¢¶ÅÂ³Ë¹01£¨Á¢¶ÅÂ³Ë¹01£©
 {
 floorid=7001
 borncorner=3,4,3,4
@@ -338,7 +338,7 @@ name=Á¢¶ÅÂ³Ë¹
 enemy=airplane|file:eden1/animal01.arg
 }
 
-#å·´å…‹äºšå¸01ï¼ˆå·´å…‹äºšå¸01ï¼‰
+#°Í¿ËÑÇË¾01£¨°Í¿ËÑÇË¾01£©
 {
 floorid=7001
 borncorner=11,7,11,7
@@ -351,7 +351,7 @@ name=°Í¿ËÑÇË¾
 enemy=airplane|file:eden1/animal02.arg
 }
 
-#é›·å¾·åŠ›å…‹æ–¯01ï¼ˆé›·å¾·åŠ›å…‹æ–¯01ï¼‰
+#À×µÂÁ¦¿ËË¹01£¨À×µÂÁ¦¿ËË¹01£©
 {
 floorid=7001
 borncorner=10,7,10,7
@@ -364,7 +364,7 @@ name=À×µÂÁ¦¿ËË¹
 enemy=airplane|file:eden1/animal03.arg
 }
 
-#æ ¼é‡Œå…°01ï¼ˆæ ¼é‡Œå…°01ï¼‰
+#¸ñÀïÀ¼01£¨¸ñÀïÀ¼01£©
 {
 floorid=7001
 borncorner=26,20,26,20
@@ -377,7 +377,7 @@ name=¸ñÀïÀ¼
 enemy=airplane|file:eden1/animal04.arg
 }
 
-#æ ¼é‡Œå…°02ï¼ˆæ ¼é‡Œå…°02ï¼‰
+#¸ñÀïÀ¼02£¨¸ñÀïÀ¼02£©
 {
 floorid=7001
 borncorner=33,26,33,26
@@ -390,7 +390,7 @@ name=¸ñÀïÀ¼
 enemy=airplane|file:eden1/animal05.arg
 }
 
-#æ‘©é‡Œ01ï¼ˆæ‘©é‡Œ01ï¼‰
+#Ä¦Àï01£¨Ä¦Àï01£©
 {
 floorid=7001
 borncorner=32,25,32,25
@@ -403,7 +403,7 @@ name=Ä¦Àï
 enemy=airplane|file:eden1/animal06.arg
 }
 
-#æ‘©é‡Œ02ï¼ˆæ‘©é‡Œ02ï¼‰
+#Ä¦Àï02£¨Ä¦Àï02£©
 {
 floorid=7001
 borncorner=26,24,26,24
@@ -416,7 +416,7 @@ name=Ä¦Àï
 enemy=airplane|file:eden1/animal07.arg
 }
 
-#å¡”æ–¯å¤«01ï¼ˆå¡”æ–¯å¤«01ï¼‰
+#ËşË¹·ò01£¨ËşË¹·ò01£©
 {
 floorid=7001
 borncorner=31,22,31,22
@@ -429,7 +429,7 @@ name=ËşË¹·ò
 enemy=airplane|file:eden1/animal08.arg
 }
 
-#å¡”æ–¯å¤«02ï¼ˆå¡”æ–¯å¤«02ï¼‰
+#ËşË¹·ò02£¨ËşË¹·ò02£©
 {
 floorid=7001
 borncorner=33,20,33,20
@@ -442,7 +442,7 @@ name=ËşË¹·ò
 enemy=airplane|file:eden1/animal09.arg
 }
 
-#å°¤é‡Œè›™01ï¼ˆå°¤é‡Œè›™01ï¼‰
+#ÓÈÀïÍÜ01£¨ÓÈÀïÍÜ01£©
 {
 floorid=7001
 borncorner=9,32,9,32
@@ -455,7 +455,7 @@ name=ÓÈÀïÍÜ
 enemy=airplane|file:eden1/animal10.arg
 }
 
-#è£˜é‡Œè›™01ï¼ˆè£˜é‡Œè›™01ï¼‰
+#ôÃÀïÍÜ01£¨ôÃÀïÍÜ01£©
 {
 floorid=7001
 borncorner=9,35,9,35
@@ -468,7 +468,7 @@ name=ôÃÀïÍÜ
 enemy=airplane|file:eden1/animal11.arg
 }
 
-#è‰¾å°”è›™01ï¼ˆè‰¾å°”è›™01ï¼‰
+#°¬¶ûÍÜ01£¨°¬¶ûÍÜ01£©
 {
 floorid=7001
 borncorner=15,37,15,37
@@ -481,7 +481,7 @@ name=°¬¶ûÍÜ
 enemy=airplane|file:eden1/animal12.arg
 }
 
-#æ¬§æ—å‰é²01ï¼ˆæ¬§æ—å‰é²01ï¼‰
+#Å·ÁÖ¼ªÂ³01£¨Å·ÁÖ¼ªÂ³01£©
 {
 floorid=7001
 borncorner=26,51,26,51
@@ -494,7 +494,7 @@ name=Å·ÁÖ¼ªÂ³
 enemy=airplane|file:eden1/animal13.arg
 }
 
-#å²å‡¯é²01ï¼ˆå²å‡¯é²01ï¼‰
+#Ê·¿­Â³01£¨Ê·¿­Â³01£©
 {
 floorid=7001
 borncorner=34,51,34,51
@@ -507,7 +507,7 @@ name=Ê·¿­Â³
 enemy=airplane|file:eden1/animal14.arg
 }
 
-#èŠ­æ‹‰èŠ­01ï¼ˆèŠ­æ‹‰èŠ­01ï¼‰
+#°ÅÀ­°Å01£¨°ÅÀ­°Å01£©
 {
 floorid=7001
 borncorner=34,54,34,54
@@ -520,7 +520,7 @@ name=°ÅÀ­°Å
 enemy=airplane|file:eden1/animal15.arg
 }
 
-#åŠ è€¶å¸ƒæ–¯01ï¼ˆåŠ è€¶å¸ƒæ–¯01ï¼‰
+#¼ÓÒ®²¼Ë¹01£¨¼ÓÒ®²¼Ë¹01£©
 {
 floorid=7001
 borncorner=41,16,46,16
@@ -533,7 +533,7 @@ name=¼ÓÒ®²¼Ë¹
 enemy=airplane|file:eden1/animal16.arg
 }
 
-#è¿ªç±³å¸ƒæ–¯01ï¼ˆè¿ªç±³å¸ƒæ–¯01ï¼‰
+#µÏÃ×²¼Ë¹01£¨µÏÃ×²¼Ë¹01£©
 {
 floorid=7001
 borncorner=46,22,46,22
@@ -546,7 +546,7 @@ name=µÏÃ×²¼Ë¹
 enemy=airplane|file:eden1/animal17.arg
 }
 
-#ç»æ´›å¸ƒæ–¯01ï¼ˆç»æ´›å¸ƒæ–¯01ï¼‰
+#²£Âå²¼Ë¹01£¨²£Âå²¼Ë¹01£©
 {
 floorid=7001
 borncorner=45,16,45,16
@@ -559,7 +559,7 @@ name=²£Âå²¼Ë¹
 enemy=airplane|file:eden1/animal18.arg
 }
 
-#åŠ è€¶å¸ƒæ–¯02ï¼ˆåŠ è€¶å¸ƒæ–¯02ï¼‰
+#¼ÓÒ®²¼Ë¹02£¨¼ÓÒ®²¼Ë¹02£©
 {
 floorid=7001
 borncorner=44,17,44,17
@@ -572,7 +572,7 @@ name=¼ÓÒ®²¼Ë¹
 enemy=airplane|file:eden1/animal19.arg
 }
 
-#è¿ªç±³å¸ƒæ–¯02ï¼ˆè¿ªç±³å¸ƒæ–¯02ï¼‰
+#µÏÃ×²¼Ë¹02£¨µÏÃ×²¼Ë¹02£©
 {
 floorid=7001
 borncorner=45,17,45,17
@@ -585,7 +585,7 @@ name=µÏÃ×²¼Ë¹
 enemy=airplane|file:eden1/animal20.arg
 }
 
-#ç»æ´›å¸ƒæ–¯02ï¼ˆç»æ´›å¸ƒæ–¯02ï¼‰
+#²£Âå²¼Ë¹02£¨²£Âå²¼Ë¹02£©
 {
 floorid=7001
 borncorner=43,28,43,28
@@ -598,7 +598,7 @@ name=²£Âå²¼Ë¹
 enemy=airplane|file:eden1/animal21.arg
 }
 
-#å›ºåŠ›æ‘©01ï¼ˆå›ºåŠ›æ‘©01ï¼‰
+#¹ÌÁ¦Ä¦01£¨¹ÌÁ¦Ä¦01£©
 {
 floorid=7001
 borncorner=46,49,46,49
@@ -611,7 +611,7 @@ name=¹ÌÁ¦Ä¦
 enemy=airplane|file:eden1/animal22.arg
 }
 
-#å›ºåŠ›æ‘©02ï¼ˆå›ºåŠ›æ‘©02ï¼‰
+#¹ÌÁ¦Ä¦02£¨¹ÌÁ¦Ä¦02£©
 {
 floorid=7001
 borncorner=42,53,42,53
@@ -624,7 +624,7 @@ name=¹ÌÁ¦Ä¦
 enemy=airplane|file:eden1/animal23.arg
 }
 
-#æ‘©ç±³ç´¢æ‹‰01ï¼ˆæ‘©ç±³ç´¢æ‹‰01ï¼‰
+#Ä¦Ã×Ë÷À­01£¨Ä¦Ã×Ë÷À­01£©
 {
 floorid=7001
 borncorner=44,56,44,56
@@ -637,7 +637,7 @@ name=Ä¦Ã×Ë÷À­
 enemy=airplane|file:eden1/animal24.arg
 }
 
-#æ‘©ç±³ç´¢æ‹‰02ï¼ˆæ‘©ç±³ç´¢æ‹‰02ï¼‰
+#Ä¦Ã×Ë÷À­02£¨Ä¦Ã×Ë÷À­02£©
 {
 floorid=7001
 borncorner=42,43,42,43
@@ -650,7 +650,7 @@ name=Ä¦Ã×Ë÷À­
 enemy=airplane|file:eden1/animal25.arg
 }
 
-#æ‘©é…·ç½—01ï¼ˆæ‘©é…·ç½—01ï¼‰
+#Ä¦¿áÂŞ01£¨Ä¦¿áÂŞ01£©
 {
 floorid=7001
 borncorner=42,38,42,38
@@ -663,7 +663,7 @@ name=Ä¦¿áÂŞ
 enemy=airplane|file:eden1/animal26.arg
 }
 
-#æ‘©é…·ç½—02ï¼ˆæ‘©é…·ç½—02ï¼‰
+#Ä¦¿áÂŞ02£¨Ä¦¿áÂŞ02£©
 {
 floorid=7001
 borncorner=46,57,46,57
@@ -676,7 +676,7 @@ name=Ä¦¿áÂŞ
 enemy=airplane|file:eden1/animal27.arg
 }
 
-#æ¸¸å®¢Gï¼ˆå°¼æ–¯ç”·æ€§ç©å®¶é€ å‹ï¼‰
+#ÓÎ¿ÍG£¨ÄáË¹ÄĞĞÔÍæ¼ÒÔìĞÍ£©
 {
 floorid=7001
 borncorner=4,54,6,56
@@ -689,7 +689,7 @@ name=ÂóÄáÄùË¹¡¡Lv:105
 enemy=changeevent|file:eden1/zoo1/tourist00_01
 }
 
-#æ¸¸å®¢Hï¼ˆå°¼æ–¯ç”·æ€§ç©å®¶é€ å‹ï¼‰
+#ÓÎ¿ÍH£¨ÄáË¹ÄĞĞÔÍæ¼ÒÔìĞÍ£©
 {
 floorid=7001
 borncorner=21,51,23,53
@@ -702,7 +702,7 @@ name=ÂíĞªË¹¡¡Lv:85
 enemy=changeevent|file:eden1/zoo1/tourist00_02
 }
 
-#æ¸¸å®¢Iï¼ˆå°¼æ–¯ç”·æ€§ç©å®¶é€ å‹ï¼‰
+#ÓÎ¿ÍI£¨ÄáË¹ÄĞĞÔÍæ¼ÒÔìĞÍ£©
 {
 floorid=7001
 borncorner=37,51,39,53
@@ -715,7 +715,7 @@ name=±´Â³Á½¿¨¡¡Lv:87
 enemy=changeevent|file:eden1/zoo1/tourist00_03
 }
 
-#æ¸¸å®¢Jï¼ˆå°¼æ–¯ç”·æ€§ç©å®¶é€ å‹ï¼‰
+#ÓÎ¿ÍJ£¨ÄáË¹ÄĞĞÔÍæ¼ÒÔìĞÍ£©
 {
 floorid=7001
 borncorner=27,16,29,18
@@ -728,7 +728,7 @@ name=ÆÕĞŞÄ¬Ë¹¡¡Lv:103
 enemy=changeevent|file:eden1/zoo1/tourist00_04
 }
 
-#æ¸¸å®¢Kï¼ˆå°¼æ–¯ç”·æ€§ç©å®¶é€ å‹ï¼‰
+#ÓÎ¿ÍK£¨ÄáË¹ÄĞĞÔÍæ¼ÒÔìĞÍ£©
 {
 floorid=7001
 borncorner=12,28,14,30
@@ -741,7 +741,7 @@ name=¿ËÂåµÇ¡¡Lv:112
 enemy=changeevent|file:eden1/zoo1/tourist00_05
 }
 
-#æ¸¸å®¢Lï¼ˆå°¼æ–¯å¥³æ€§ç©å®¶é€ å‹ï¼‰
+#ÓÎ¿ÍL£¨ÄáË¹Å®ĞÔÍæ¼ÒÔìĞÍ£©
 {
 floorid=7001
 borncorner=13,4,15,6
@@ -755,7 +755,7 @@ enemy=changeevent|file:eden1/zoo1/tourist00_06
 action=12
 }
 
-#æ¸¸å®¢Mï¼ˆå°¼æ–¯å¥³æ€§ç©å®¶é€ å‹ï¼‰
+#ÓÎ¿ÍM£¨ÄáË¹Å®ĞÔÍæ¼ÒÔìĞÍ£©
 {
 floorid=7001
 borncorner=11,10,13,12
@@ -768,7 +768,7 @@ name=ÂŞÉªÁÕ¡¡Lv:90
 enemy=changeevent|file:eden1/zoo1/tourist00_07
 }
 
-#æ¸¸å®¢Nï¼ˆå°¼æ–¯å¥³æ€§ç©å®¶é€ å‹ï¼‰
+#ÓÎ¿ÍN£¨ÄáË¹Å®ĞÔÍæ¼ÒÔìĞÍ£©
 {
 floorid=7001
 borncorner=11,40,13,42
@@ -781,7 +781,7 @@ name=ÂêÀûÑÇ¡¡Lv:91
 enemy=changeevent|file:eden1/zoo1/tourist00_08
 }
 
-#æ¸¸å®¢Oï¼ˆå°¼æ–¯å¥³æ€§ç©å®¶é€ å‹ï¼‰
+#ÓÎ¿ÍO£¨ÄáË¹Å®ĞÔÍæ¼ÒÔìĞÍ£©
 {
 floorid=7001
 borncorner=31,28,33,30

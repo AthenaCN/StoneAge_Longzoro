@@ -1,8 +1,8 @@
-function Warp_Init( _MeIndex ) 
+function Warp_Init( _MeIndex )
 
 --以下设定NPC相关内容
 
---设置NPC形象 
+--设置NPC形象
 
 Char.SetData(_MeIndex, `对象_形象`, 16146);
 
@@ -48,7 +48,7 @@ end
 
 --下方阵列设定传送位置 设定范例 {"位置名称", 地图编号, X, Y}
 
-warppoint = { 
+warppoint = {
 {"20级  阿布洞窟1楼", 10001,10,10},
 
 {"40级  海主人", 31401,110,10},
@@ -68,9 +68,9 @@ warppoint = {
 {"清风石器活动中心", 9002,14,4},
 
 {"劳动节-宠物乐园", 9001,25,26}};
-NLG.UpChar(_MeIndex); 
+NLG.UpChar(_MeIndex);
 
-return true; 
+return true;
 
 end
 
@@ -138,14 +138,14 @@ function Warp_WindowTalked( _MeIndex, _TalkIndex, _Seqno, _Select, _Data)
 if _Select == 0 then
 
   num = tonumber(_Data) + ( _Seqno - 1) * 6 ;
-  
+
   local cnt = 1;
   local TMP_Index;
   while (cnt < 5) do
 		TMP_Index = Char.GetTeamIndex(_TalkIndex,cnt);
 		if (TMP_Index > 0) then
 			NLG.Warp(TMP_Index,warppoint[num][2],warppoint[num][3],warppoint[num][4]);
-			--NLG.UpChar(_MeIndex); 
+			--NLG.UpChar(_MeIndex);
 		end
 		cnt = cnt + 1;
 	end

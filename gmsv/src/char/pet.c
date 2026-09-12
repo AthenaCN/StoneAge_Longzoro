@@ -614,7 +614,7 @@ BOOL CHAR_DelPetForIndex(int charaindex, int petindex) {
 		snprintf(szPet, sizeof(szPet), "K%d", i);
 		CHAR_sendStatusString(charaindex, szPet);
 
-		snprintf(msgbuf, sizeof(msgbuf), "交出%s。", CHAR_getChar(petindex, CHAR_NAME));
+		snprintf(msgbuf, sizeof(msgbuf), "\xBD\xBB\xB3\xF6%s\xA1\xA3", CHAR_getChar(petindex, CHAR_NAME));
 		CHAR_talkToCli(charaindex, -1, msgbuf, CHAR_COLORYELLOW);
 		CHAR_endCharOneArray(petindex);
 	}

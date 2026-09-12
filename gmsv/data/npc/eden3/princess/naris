@@ -31,7 +31,7 @@ EVENT:LV>89&ENDEV=4&ENDEV=81&ENDEV=112&NOWEV=124
 NomalWindowMsg:找不到吗？奶妈就在这皇宫的东方。
 EventEnd
 
-#### 请求玩家前往寻找吉德 ####	
+#### 请求玩家前往寻找吉德 ####
 EventNo:124
 TYPE:REQUEST
 EVENT:LV>89&ENDEV=4&ENDEV=81&ENDEV=112

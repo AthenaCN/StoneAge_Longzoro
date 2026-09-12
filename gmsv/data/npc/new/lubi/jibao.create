@@ -1,9 +1,9 @@
 NPCCREATE
 
 
-########灏佸嵃杩峰#########
+########医生任务#########
 {
-name=好心的医生
+name=医生
 floorid=32021
 borncenter=31,23
 dir=4
@@ -14,9 +14,9 @@ enemy=npcgen_warpman|file:new/lubi/fengyin.arg
 graphicname=16347
 }
 
-########纰ч潚#########
+########医生给药#########
 {
-name=苗族赤脚医生
+name=医生
 floorid=850
 borncenter=35,27
 dir=4
@@ -28,9 +28,9 @@ graphicname=16342
 }
 
 
-########鐞夌拑#########
+########地之守护者#########
 {
-name=龙洞的冒险者
+name=地之守护者
 floorid=5511
 borncenter=17,4
 dir=4
